@@ -1,0 +1,27 @@
+.default {
+	@apply bg-primary text-white hover:bg-primary/90;
+}
+.outline {
+	@apply border border-primary text-primary bg-transparent hover:bg-primary/10;
+}
+.secondary {
+	@apply bg-secondary text-primary hover:bg-secondary/80;
+}
+.ghost {
+	@apply hover:bg-primary/10 text-primary;
+}
+.link {
+	@apply text-primary underline-offset-4 hover:underline;
+}
+.md {
+	@apply h-10 px-4 py-2;
+}
+.sm {
+	@apply h-9 rounded-md px-3;
+}
+.lg {
+	@apply h-14 rounded-md px-6;
+}
+.icon {
+	@apply h-10 w-10 p-2;
+}
