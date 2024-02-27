@@ -1,9 +1,14 @@
 import Button from "@/components/Button";
+import HomeBanner from "@/components/HomeBanner";
 import Icon from "@/public/icons/xmark.svg";
 
 export default function Home() {
 	return (
-		<div>
+
+
+		<>
+			<HomeBanner />
+			{/* <div>
 			<h1>Home</h1>
 			<h2>Home</h2>
 			<h3>Home</h3>
@@ -69,6 +74,7 @@ export default function Home() {
 					</Button>
 				</div>
 			</section>
-		</div>
+		</div> */}
+		</>
 	);
 }
