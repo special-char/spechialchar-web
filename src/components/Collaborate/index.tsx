@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Image from 'next/image';
 import { CollaboratorCardType } from '@/utils/types';
@@ -8,32 +7,27 @@ type Props = {};
 
 const Collaborator = ({ data }: { data: CollaboratorCardType[] }) => {
   return (
-
-    <main className="bg-gray-200 flex items-center overflow-x-auto  h-screen " >
+    <main className="bg-black grid grid-cols-1 md:grid-cols-2 gap-10 p-2 lg:p-40 ">
       {CollaboratorCard.card.map((item) => (
-        <div key={item.id} className='p-4 rounded-lg  gap-4'>
-          <div className='flex flex-col md:flex-row'>
-            <div className='md:w-1/8 md:mr-4 '>
-
-
+        <div key={item.id} className='rounded-lg overflow-hidden bg-black '>
+          <div className='flex flex-col md:flex-row justify-center '>
+            <div className='md:justify-center '>
               <Image
                 src={item.url}
                 alt="collaborate Image"
-                height={200}
-                width={150}
+                height={300}
+                width={250}
               />
             </div>
-            <div className='md:w-1/2 mt-4 md:mt-3 text-black align-item-center'>
-              <h3 className='text-2xl font-semibold'>{item.title}</h3>
-              <div className='mt-1.5'>{item.description}
-              </div>
+            <div className=' mt-4 md:mt-0 text-white mb-1'>
+              <h3 className='text-xl font-semibold'>{item.title}</h3>
+              <div className='mt-1.5'>{item.description}</div>
             </div>
           </div>
         </div>
-      ))
-      }
+      ))}
     </main>
-
   );
 };
+
 export default Collaborator;
