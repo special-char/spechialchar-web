@@ -1,5 +1,5 @@
 .default {
-	@apply bg-primary text-white hover:bg-primary/90;
+	@apply bg-blue-600  text-white hover:bg-blue-500;
 }
 .outline {
 	@apply border border-primary text-primary bg-transparent hover:bg-primary/10;
