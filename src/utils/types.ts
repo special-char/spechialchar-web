@@ -6,3 +6,12 @@ export type CardType={
     url:string;
     }
 }
+
+export type CollaboratorCardType={
+    data:{
+        id:number;
+        url:string;
+        title:string;
+        description:string;
+    }
+}
