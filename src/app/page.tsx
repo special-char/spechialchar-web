@@ -1,11 +1,18 @@
 import Button from "@/components/Button";
 import HomeBanner from "@/components/HomeBanner";
+import Card from "@/containers/Card";
 import Icon from "@/public/icons/xmark.svg";
 import Contact from '../components/Contact/Contact'
 
 export default function Home() {
 	return (
-		<div>
+
+
+		<>
+
+			<HomeBanner />
+			<Card />
+			{/* <div>
 			<h1>Home</h1>
 			<h2>Home</h2>
 			<h3>Home</h3>
