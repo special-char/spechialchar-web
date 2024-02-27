@@ -8,3 +8,12 @@ export type CardType={
     title: string;
     }
 }
+
+export type CollaboratorCardType={
+    data:{
+        id:number;
+        url:string;
+        title:string;
+        description:string;
+    }
+}

@@ -53,3 +53,21 @@ export const Card = {
 ]
 }
   
+export const CollaboratorCard={
+    card:[
+        {
+            id:1,
+            url:"/images/collaborate2.png",
+            title:"Thinking Big",
+            description:" After digging deep to understand holistically your challenges and business objectives, we chart your technology path that will keep your business future-proof."
+
+        },
+        {
+            id:2,
+            url:"/images/collaborate2.png",
+            title:"Thinking Big",
+            description:" After digging deep to understand holistically your challenges and business objectives, we chart your technology path that will keep your business future-proof."
+
+        }
+    ]
+}
