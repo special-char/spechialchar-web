@@ -6,16 +6,16 @@ import { CardType } from "@/utils/types";
 
 const Cardcomp = ({ data }: { data: CardType[] }) => {
   return (
-    <main className=" flex flex-wrap items-center overflow-x-auto h-screen">
+    <main className=" flex flex-wrap items-center overflow-x-auto ">
      
           
       {Card.card.map((item) => (
-        <div key={item.id} className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
-          <div className=" p-4">
+        <div key={item.id} className="w-full md:w-1/2  ">
+          <div className="p-4">
             {/* <h3 className="text-lg font-semibold mb-2">Latest Project</h3> */}
             <Image
               src={item.url}
-              className="hover:duration-300 hover:scale-105 aspect-video object-cover m-2 rounded-md"
+              className=" w-full hover:duration-300 hover:scale-105 aspect-video object-cover rounded-md"
               alt="image"
               height={450}
               width={600}

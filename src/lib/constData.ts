@@ -26,25 +26,25 @@ export const Card = {
         description:"Self-service analytics enabled by AI algorithms empowers 3 million users with instant actionable insights"
     },
     {
-        id:4,
+        id:5,
           url:"/project5.webp",
           title:"AI-based enterprise software for No.1 retailer",
           description:"Self-service analytics enabled by AI algorithms empowers 3 million users with instant actionable insights"
       },
       {
-        id:4,
+        id:6,
           url:"/project6.webp",
           title:"AI-based enterprise software for No.1 retailer",
           description:"Self-service analytics enabled by AI algorithms empowers 3 million users with instant actionable insights"
       },
       {
-        id:4,
+        id:7,
           url:"/project7.webp",
           title:"AI-based enterprise software for No.1 retailer",
           description:"Self-service analytics enabled by AI algorithms empowers 3 million users with instant actionable insights"
       },
       {
-        id:4,
+        id:8,
           url:"/project8.webp",
           title:"AI-based enterprise software for No.1 retailer",
           description:"Self-service analytics enabled by AI algorithms empowers 3 million users with instant actionable insights"
