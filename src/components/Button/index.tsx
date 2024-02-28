@@ -3,7 +3,7 @@ import { cva, type VariantProps } from "class-variance-authority";
 import style from "./button.module.css";
 
 export const buttonVariants = cva(
-	"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50",
+	"inline-flex items-center justify-center gap-2 whitespace-nowrap  transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50",
 	{
 		variants: {
 			variant: {
@@ -60,7 +60,7 @@ const Button = ({
 		>
 			{title && <span className="sr-only">{title}</span>}
 			{isLoading ? (
-				<span className="block w-4 aspect-square rounded-full border-2 border-currentColor border-t-transparent animate-spin"></span>
+				<span className="block w-4 aspect-square  border-2 border-currentColor border-t-transparent animate-spin"></span>
 			) : null}
 			{props.children}
 		</Component>
