@@ -2,50 +2,50 @@ export const Card = {
     card:[
     {
         id:1,
-        url:"/project1.webp",
+        url:"/images/project1.webp",
         title:"AI-based enterprise software for No.1 retailer",
         description:"Self-service analytics enabled by AI algorithms empowers 3 million users with instant actionable insights"
 
     },
     {
         id:2,
-        url:"/project2.webp",
+        url:"/images/project2.webp",
         title:"AI-based enterprise software for No.1 retailer",
         description:"Self-service analytics enabled by AI algorithms empowers 3 million users with instant actionable insights"
     },
     {
         id:3,
-        url:"/project3.webp",
+        url:"/images/project3.webp",
         title:"AI-based enterprise software for No.1 retailer",
         description:"Self-service analytics enabled by AI algorithms empowers 3 million users with instant actionable insights"
     },
     {
       id:4,
-        url:"/project4.webp",
+        url:"/images/project4.webp",
         title:"AI-based enterprise software for No.1 retailer",
         description:"Self-service analytics enabled by AI algorithms empowers 3 million users with instant actionable insights"
     },
     {
         id:5,
-          url:"/project5.webp",
+          url:"/images/project5.webp",
           title:"AI-based enterprise software for No.1 retailer",
           description:"Self-service analytics enabled by AI algorithms empowers 3 million users with instant actionable insights"
       },
       {
         id:6,
-          url:"/project6.webp",
+          url:"/images/project6.webp",
           title:"AI-based enterprise software for No.1 retailer",
           description:"Self-service analytics enabled by AI algorithms empowers 3 million users with instant actionable insights"
       },
       {
         id:7,
-          url:"/project7.webp",
+          url:"/images/project7.webp",
           title:"AI-based enterprise software for No.1 retailer",
           description:"Self-service analytics enabled by AI algorithms empowers 3 million users with instant actionable insights"
       },
       {
         id:8,
-          url:"/project8.webp",
+          url:"/images/project8.webp",
           title:"AI-based enterprise software for No.1 retailer",
           description:"Self-service analytics enabled by AI algorithms empowers 3 million users with instant actionable insights"
       },
