@@ -17,3 +17,13 @@ export type CollaboratorCardType={
         description:string;
     }
 }
+
+export type FAQCardType = {
+    data: {
+      cards: Array<{
+        id: number
+        question: string
+        answer: string
+      }>
+    }
+  }
