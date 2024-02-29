@@ -84,7 +84,7 @@ const Contact = () => {
 
                                 <div className='flex gap-x-2 '>
                                     <div className='text-3xl text-yellow-300'>
-                                        <MdOutlineAttachFile />
+                                        {/* <MdOutlineAttachFile /> */}
                                     </div>
                                     <div>
                                         <h6 className='text-base md:text-sm'>
