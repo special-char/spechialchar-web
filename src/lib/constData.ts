@@ -133,21 +133,9 @@ export const FAQCard = {
         question: "Extended Reality",
         num:'06',
         answer:
-          "Donec mattis finibus elit ut tristique. Nullam tempus nunc eget arcu vulputate, eu porttitor tellus commodo. Aliquam erat volutpat. Aliquam consectetur lorem eu viverra lobortis. Morbi gravida, nisi id fringilla ultricies, elit lorem eleifend lorem",
-      },
-      {
-        id: 7,
-        question: "Morbi gravida, nisi id fringilla ultricies, elit lorem?.",
-        answer:
-          "Donec mattis finibus elit ut tristique. Nullam tempus nunc eget arcu vulputate, eu porttitor tellus commodo. Aliquam erat volutpat. Aliquam consectetur lorem eu viverra lobortis. Morbi gravida, nisi id fringilla ultricies, elit lorem eleifend lorem",
-      },
-      {
-        id: 8,
-        question: "Anena elit orci, efficitur quis nisl at, accumsan?",
-        answer:
-          "Donec mattis finibus elit ut tristique. Nullam tempus nunc eget arcu vulputate, eu porttitor tellus commodo. Aliquam erat volutpat. Aliquam consectetur lorem eu viverra lobortis. Morbi gravida, nisi id fringilla ultricies, elit lorem eleifend lorem",
-      },
-      
+        "Deliver immersive experiences through AR, VR, or MR to create new products, boost productivity, or launch into the metaverse. XR solutions help you bypass distance challenges and be innovative for real."
+     },
+     
     ],
   }
   export const Card1 = {
