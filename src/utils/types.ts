@@ -29,3 +29,13 @@ export type FAQCardType = {
       }>
     }
   }
+ export type Card1Type ={
+    data:{
+      id:number;
+      url:string;
+      description?: string;
+      title: string;
+      height:number;
+      width:number;
+    }
+ }

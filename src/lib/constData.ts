@@ -138,3 +138,55 @@ export const FAQCard = {
      
     ],
   }
+  export const Card1 = {
+    cards:[
+    {
+        id:1,
+        url:"/images/thinking1.webp",
+        title:"AI-based enterprise software for No.1 retailer",
+        description:"Self-service analytics enabled by AI algorithms empowers 3 million users with instant actionable insights",
+        height:150,
+        width:150,
+    },
+    {
+      id:2,
+      url:"/images/thinking2.webp",
+      title:"AI-based enterprise software for No.1 retailer",
+      description:"Self-service analytics enabled by AI algorithms empowers 3 million users with instant actionable insights",
+      height:200,
+      width:300,
+  },
+  {
+    id:3,
+    url:"/images/thinking3.webp",
+    title:"AI-based enterprise software for No.1 retailer",
+    description:"Self-service analytics enabled by AI algorithms empowers 3 million users with instant actionable insights",
+    height:200,
+    width:300,
+},
+{
+  id:4,
+  url:"/images/thinking4.webp",
+  title:"AI-based enterprise software for No.1 retailer",
+  description:"Self-service analytics enabled by AI algorithms empowers 3 million users with instant actionable insights",
+  height:200,
+  width:300,
+},
+{
+  id:5,
+  url:"/images/thinking5.webp",
+  title:"AI-based enterprise software for No.1 retailer",
+  description:"Self-service analytics enabled by AI algorithms empowers 3 million users with instant actionable insights",
+  height:200,
+  width:300,
+},
+{
+  id:6,
+  url:"/images/thinking6.webp",
+  title:"AI-based enterprise software for No.1 retailer",
+  description:"Self-service analytics enabled by AI algorithms empowers 3 million users with instant actionable insights",
+  height:200,
+  width:300,
+},
+]
+}
