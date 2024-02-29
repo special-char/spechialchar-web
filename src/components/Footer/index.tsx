@@ -18,7 +18,7 @@ interface Props {}
 const Footer = (props: Props) => {
   return (
     <footer className="z-10 w-full bg-black">
-      <div className="bg-black text-slate-100 w-full grid grid-cols-1 gap-16 py-24">
+      <div className="bg-black text-white w-full grid grid-cols-1 gap-16 py-24">
         <div className="flex flex-wrap lg:gap-48 md:gap-24 max-sm:gap-24">
           <div >
             <Logo />
@@ -33,9 +33,9 @@ const Footer = (props: Props) => {
         <div className="flex flex-wrap lg:gap-48 md:gap-24 max-sm:gap-24">
           <div >
             <div>Office:</div>
-            <div className="text-slate-400">Aliso Viejo, CA</div>
-            <div className="text-slate-400">Warsaw,PL</div>
-            <div className="text-slate-400">Kyiv,UA</div>
+            <div className="text-white">Aliso Viejo, CA</div>
+            <div className="text-white">Warsaw,PL</div>
+            <div className="text-white">Kyiv,UA</div>
           </div>
           <div className="flex flex-col gap-3">
             <div className="flex flex-col">
@@ -72,7 +72,7 @@ const Footer = (props: Props) => {
           </div>
         </div>
         <div className="flex flex-wrap lg:gap-48 md:gap-24 max-sm:gap-24">
-          <div className="flex flex-col text-slate-300">
+          <div className="flex flex-col text-white">
             <div>
               <Link href={"#"}>Privacy Policy</Link>
             </div>

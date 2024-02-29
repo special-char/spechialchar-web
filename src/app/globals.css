@@ -7,6 +7,14 @@
 		/* --color-<colorname>: <red> <green> <blue>; */
 		--color-primary: 59 93 80;
 		--color-secondary: 220 229 228;
+		--color-blue: 6 78 164 ;
+		--color-red: 214 50 40 ;
+		--color-white: 255 255 255;
+		--color-black: 0 0 0;
+		--color-yellow: 255 219 59 ;
+		--color-orange: 242 170 76 ;
+		--color-sky: 137 207 240;
+		--color-gray: 107 114 128;
 	}
 
 	html {
