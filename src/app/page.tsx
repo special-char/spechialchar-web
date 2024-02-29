@@ -8,6 +8,8 @@ import Footer from "@/components/Footer";
 import HomeBanner from "@/components/HomeBanner";
 import Cards from "@/containers/Card";
 import FAQS from "@/containers/FAQ";
+import Latest from "@/containers/LatestProjectSec"
+import ThinkingSection from "@/containers/LatestThinkingSec";
 
 export default function Home() {
 	return (
@@ -16,8 +18,9 @@ export default function Home() {
 			<Blog />
 			<CollaboratorCards />
 			{/* <Contact /> */}
-			<Cards />
+			<Latest/>
 			<FAQS />
+			<ThinkingSection/>
 			{/* <Footer /> */}
 			{/* <Cardcomp/> */}
 		</>
