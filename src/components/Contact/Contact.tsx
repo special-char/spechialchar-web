@@ -2,11 +2,11 @@
 import Image from 'next/image'
 import React from 'react'
 import FileAttach from '../../../public/icons/attachment.svg'
-import { MdOutlineAttachFile } from "react-icons/md";
 import Link from 'next/link';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import Button from '../Button';
+import FileAttch from '@/public/paperclip-icon.svg'
 
 const Contact = () => {
     // Define validation schema using Yup
