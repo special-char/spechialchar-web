@@ -203,3 +203,21 @@ export const Career ={
   url:"/images/who.webp",
 }
 
+
+export const services = [
+  {
+    image: "/images/accord_1-1.gif",
+    title: 'Complex Web apps',
+    description: 'Tailored to your precise business needs, be it redefining internal workflows or shipping a mind-blowing product to the market. Optimized for speed and security at scale. Designed for flexibility and growth.',
+  },
+  {
+    image: "/images/accord_6-6.gif",
+    title: 'Feature-rich web portals',
+    description: 'From B2C/B2B portals for ecommerce and banking to web portals for patients, students, employees, and public services, incorporating user-centric design, customized user journeys, and smooth integrations.',
+  },
+  {
+    image: "/images/accord_4-4.gif",
+    title: 'Truly unique websites',
+    description: 'Running seamlessly and allowing dynamic content management — websites designed with the right aesthetics and functionality for any industry and using the best-fit platform (WordPress, Webflow, Joomla, or Squarespace).',
+  },
+];
