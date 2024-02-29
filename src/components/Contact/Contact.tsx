@@ -1,7 +1,6 @@
 "use client"
 import Image from 'next/image'
 import React from 'react'
-import FileAttach from '../../../public/icons/attachment.svg'
 import Link from 'next/link';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
@@ -83,8 +82,8 @@ const Contact = () => {
                                 {/* File Attached */}
 
                                 <div className='flex gap-x-2 '>
-                                    <div className='text-3xl text-yellow-300'>
-                                        <MdOutlineAttachFile />
+                                    <div className=''>
+                                        <FileAttch  className="h-6 w-6 fill-yellow-400"/>
                                     </div>
                                     <div>
                                         <h6 className='text-base md:text-sm'>
