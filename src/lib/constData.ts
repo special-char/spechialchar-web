@@ -89,38 +89,49 @@ export const FAQCard = {
     cards: [
       {
         id: 1,
+        url:"/images/accord_1-1.gif",
         question:
-          "Mauris congue euismod purus at semper. Morbi et vulputate massa?",
+          "Innovation Consulting",
+          num:'01',
         answer:
-          "Donec mattis finibus elit ut tristique. Nullam tempus nunc eget arcu vulputate, eu porttitor tellus commodo. Aliquam erat volutpat. Aliquam consectetur lorem eu viverra lobortis. Morbi gravida, nisi id fringilla ultricies, elit lorem eleifend lorem",
+          "Make your digital transformation journey super simple, safe, and aligned with your specific business needs. We're good at strategy planning for both enterprises and SMBs, IT audit, business process analysis, and more."
       },
       {
         id: 2,
-        question: "Donec mattis finibus elit ut tristique?",
+        url:"/images/accord_2-2.gif",
+        question: "Digital Transformation",
+        num:'02',
         answer:
-          "Donec mattis finibus elit ut tristique. Nullam tempus nunc eget arcu vulputate, eu porttitor tellus commodo. Aliquam erat volutpat. Aliquam consectetur lorem eu viverra lobortis. Morbi gravida, nisi id fringilla ultricies, elit lorem eleifend lorem",
-      },
+        "Achieve lower costs, utmost scalability and maximum velocity with our legacy software modernization, cloud, and DevOps services. Our enterprise software development company is here to help you remove the roadblocks to innovation."
+    },
       {
         id: 3,
-        question: "Aenean elit orci, efficitur quis nisl at, accusan?",
+        url:"/images/accord_3-3.gif",
+        question: "Software engineering",
+        num:'03',
         answer:
-          "Donec mattis finibus elit ut tristique. Nullam tempus nunc eget arcu vulputate, eu porttitor tellus commodo. Aliquam erat volutpat. Aliquam consectetur lorem eu viverra lobortis. Morbi gravida, nisi id fringilla ultricies, elit lorem eleifend lorem",
-      },
+        "Build enterprise software solutions that perform. We can cover you along the whole way or fill in specific skill gaps in business analysis, UX/UI, testing, development, or support across web, mobile, desktop, cloud, and embedded platforms."  },
       {
         id: 4,
-        question: "Pellentesque habitant morbi tristique senectus et netus?",
+        url:"/images/accord_4-4.gif",
+        question: "Big Data and Analytics",
+        num:'04',
         answer:
-          "Donec mattis finibus elit ut tristique. Nullam tempus nunc eget arcu vulputate, eu porttitor tellus commodo. Aliquam erat volutpat. Aliquam consectetur lorem eu viverra lobortis. Morbi gravida, nisi id fringilla ultricies, elit lorem eleifend lorem",
-      },
+        "Use your torrents of data to drive decision-making across the company. From Data Governance & Data Management to Data Analytics and Data Science, we make business, not IT, own your data."
+     },
       {
         id: 5,
-        question: "Nam pellentesque aliquam metus",
+        url:"/images/accord_5-5.gif",
+        question: "Artificial Intelligence",
+        num:'05',
         answer:
-          "Donec mattis finibus elit ut tristique. Nullam tempus nunc eget arcu vulputate, eu porttitor tellus commodo. Aliquam erat volutpat. Aliquam consectetur lorem eu viverra lobortis. Morbi gravida, nisi id fringilla ultricies, elit lorem eleifend lorem",
-      },
+        "Implement AI to beat real-world business challenges and meet your KPIs, getting beyond the hype. From ML, NLP, and Computer Vision to integration of AI technologies for Intelligent Automation, we’ve done it all for our delighted clients."
+     },
       {
         id: 6,
-        question: "Anean elit orci, efficitur quis nisl at?",
+        url:"/images/accord_6-6.gif",
+        question: "Extended Reality",
+        num:'06',
         answer:
           "Donec mattis finibus elit ut tristique. Nullam tempus nunc eget arcu vulputate, eu porttitor tellus commodo. Aliquam erat volutpat. Aliquam consectetur lorem eu viverra lobortis. Morbi gravida, nisi id fringilla ultricies, elit lorem eleifend lorem",
       },

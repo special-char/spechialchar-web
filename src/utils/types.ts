@@ -22,7 +22,9 @@ export type FAQCardType = {
     data: {
       cards: Array<{
         id: number
+        url:string
         question: string
+        num:string
         answer: string
       }>
     }
