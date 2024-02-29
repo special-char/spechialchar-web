@@ -17,10 +17,10 @@ export default function Home() {
 			<HomeBanner />
 			<Blog />
 			<CollaboratorCards />
-			{/* <Contact /> */}
-			<Latest/>
+			<Contact />
+			<Latest />
 			<FAQS />
-			<ThinkingSection/>
+			<ThinkingSection />
 			{/* <Footer /> */}
 			{/* <Cardcomp/> */}
 		</>
