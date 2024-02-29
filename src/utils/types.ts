@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 export type CardType={
   
     data:{
@@ -25,5 +24,12 @@ export type FAQCardType = {
         question: string
         answer: string
       }>
+    }
+  }
+  export type MobileBannerType = {
+    data: {
+     
+     url:string;
+     
     }
   }
