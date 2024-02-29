@@ -197,6 +197,12 @@ export const FAQCard = {
 },
 ]
 }
+export const Career ={
+   
+   
+  url:"/images/who.webp",
+}
+
 
 export const services = [
   {

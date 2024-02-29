@@ -10,7 +10,7 @@ const WebIcon = () => {
       <div className='mx-4 grid gap-y-4 md:mx-6 2xl:my-10 2xl:mx-0 2xl:gap-y-6'>
         <h6 className='text-2xl font-bold md:pr-10 lg:pr-20 2xl:text-[32px] 2xl:pr-0'>Our custom web development services help you break away from the ordinary</h6>
         <div className='text-sm md:text-lg md:pr-12 lg:pr-64 font-medium 2xl:text-2xl 2xl:pr-80'>
-          Building successful web solutions since 2009, we have the expertise to build something great for you, too. Whatever your challenge is, there would be few things in the web development world that we haven't worked with. Tap our custom web development services to create seamless web experiences that captivate. Our ITRex team delivers:
+          Building successful web solutions since 2009, we have the expertise to build something great for you, too. Whatever your challenge is, there would be few things in the web development world that we havent worked with. Tap our custom web development services to create seamless web experiences that captivate. Our ITRex team delivers:
         </div>
         <div className='grid gap-y-6 md:grid md:grid-cols-3 md:gap-x-4 '>
           {services.map((service, index) => (
@@ -24,6 +24,12 @@ const WebIcon = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div className="pt-2 hover:text-white">
+          <button className="bg-blue-500 hover:bg-black hover:text-white text-white text-xl  p-4  font-bold md:relative md:top-10">
+          Request our custom web development {" "}
+            <span className="text-black hover:text-white ">&rarr; </span>
+          </button>
         </div>
       </div>
     </section>
