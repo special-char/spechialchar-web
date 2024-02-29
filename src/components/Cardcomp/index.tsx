@@ -17,10 +17,10 @@ const Cardcomp = ({ data }: { data: CardType[] }) => {
               height={450}
               width={600}
             />
-            <h1 className="text-xl sm:text-2xl font-semibold mb-4">
+            <h1 className="text-4xl hover:text-blue-400 sm:text-2xl font-bold mb-2 mt-4">
               {item.title}
             </h1>
-            <div className="text-gray-600 mb-4">{item.description}</div>
+            <div className="text-gray-500 mb-4 text-2xl">{item.description}</div>
           </div>
         </div>
       ))}
@@ -28,6 +28,5 @@ const Cardcomp = ({ data }: { data: CardType[] }) => {
   );
 };
 export default Cardcomp;
-
 
 
