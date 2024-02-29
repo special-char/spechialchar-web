@@ -21,8 +21,8 @@ const FAQ = ({ data }: FAQCardType) => {
         }
     };
     return (
-        <div className="px-container py-5 justify-center items-center font-sans leading-relaxed bg-[#f2aa4c]">
-            <h3 className="  py-10  h-full flex  flex-wrap flex-col items-left justify-left md:text-4xl font-bold bg-[#f2aa4c] text-2xl">How we can help you</h3>
+        <div className="px-container py-5 justify-center items-center font-sans leading-relaxed bg-orange">
+            <h3 className="  py-10  h-full flex  flex-wrap flex-col items-left justify-left md:text-4xl font-bold bg-orange text-2xl">How we can help you</h3>
             {FAQCard.cards?.map((item, index) => {
                 const isOpen = openIndexes.includes(index);
                 return (
@@ -31,7 +31,7 @@ const FAQ = ({ data }: FAQCardType) => {
                             <>
                                 <Disclosure.Button
                                     key={item.id}
-                                    className="font-bold text-2xl border-t-2 border-black  flex w-full justify-between bg-[#f2aa4c]  px-3 py-4   cursor-pointer max-[450px]:w-full"
+                                    className="font-bold text-2xl border-t-2 border-black  flex w-full justify-between bg-orange  px-3 py-4   cursor-pointer max-[450px]:w-full"
                                     onClick={() => togglePanel(index)}
                                 >
                                     <Image

@@ -20,13 +20,13 @@ const DataIcon = () => {
             <h6 className="font-bold">Data Management</h6>
           </div>
           <div>
-            <p className="text-lg text-gray-500">
+            <p className="text-lg text-gray">
               Expert in metadata, governance, and data storage - both{" "}
-              <Link href="/" className="text-blue-400 text-lg">
+              <Link href="/" className="text-blue text-lg">
                 data warehouse
               </Link>{" "}
               and lake,{" "}
-              <Link href="/" className="text-blue-400 text-lg">
+              <Link href="/" className="text-blue text-lg">
                 our data management consuktance
               </Link>{" "}
               optimizes storage costs, ensures compliance, and delivers seamless
@@ -42,10 +42,10 @@ const DataIcon = () => {
             <h6 className="font-bold">Data Integration</h6>
           </div>
           <div>
-            <p className="text-lg text-gray-500">
+            <p className="text-lg text-gray">
               Merge data sources for billing, payroll, fraud detection,
               sentiment analysis, and more in one place. Our{" "}
-              <Link href="/" className="text-blue-400 text-lg">
+              <Link href="/" className="text-blue text-lg">
                 data integration developers
               </Link>{" "}
               simplify this via ETL/ELT tools and custom APIs.
@@ -60,9 +60,9 @@ const DataIcon = () => {
             <h6 className="font-bold">Data Security</h6>
           </div>
           <div>
-            <p className="text-lg text-gray-500">
+            <p className="text-lg text-gray">
               Advance your data protection with {" "}
-              <Link href="/" className="text-blue-400 text-lg">
+              <Link href="/" className="text-blue text-lg">
                 cloud adoption
               </Link>{" "}
               , data encryption, and masking expertise. Our DevSecOps team
@@ -79,14 +79,14 @@ const DataIcon = () => {
             <h6 className="font-bold">Data Visulization</h6>
           </div>
           <div>
-            <p className="text-lg text-gray-500">
+            <p className="text-lg text-gray">
               We Craft {" "}
-              <Link href="/" className="text-blue-400 text-lg">
+              <Link href="/" className="text-blue text-lg">
                 data visulization
               </Link>{" "}
               for easy, informed decision-making and sturdy ad-hoc analysis. You
               can also leverage our {" "}
-              <Link href="/" className="text-blue-400 text-lg">
+              <Link href="/" className="text-blue text-lg">
                 AR/VR development
               </Link>{" "}
               or voice assistants for effortless access to your data.
@@ -95,7 +95,7 @@ const DataIcon = () => {
         </div>
         </div>
         <div>
-            <button className="bg-blue-500 text-white text-xl p-4" >Discusss Your Project With big data consultants <span className="text-black">&rarr; </span></button>
+            <button className="bg-blue text-white text-xl p-4" >Discusss Your Project With big data consultants <span className="text-black">&rarr; </span></button>
         </div>
       </div>
     </section>

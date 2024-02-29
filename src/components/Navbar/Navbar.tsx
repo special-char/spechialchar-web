@@ -53,16 +53,16 @@ const Navbar = () => {
         </div>
         <div>
           <ul className="flex gap-x-6 2xl:pt-2 ">
-          <li onMouseEnter={() =>   openDropdown('Solution')  } className='flex cursor-pointer hover:text-yellow-300'>Solution  <span className='pt-1'><TiArrowSortedDown /></span></li>
-            <li onMouseEnter={() =>   openDropdown('Service') } className='flex cursor-pointer hover:text-yellow-300'>Service   <span className='pt-1'><TiArrowSortedDown /></span></li>
-            <li onMouseEnter={() =>   openDropdown('Industry')}  className='flex cursor-pointer hover:text-yellow-300'>Industry   <span className='pt-1'><TiArrowSortedDown /></span></li>
-            <li onMouseEnter={() =>   openDropdown('Company') } className='flex cursor-pointer hover:text-yellow-300'>Company   <span className='pt-1'><TiArrowSortedDown /></span></li>
-            <li className='hover:text-yellow-300 '>Our Thinking</li>
-            <li className='hover:text-yellow-300'>Case Studio</li>
+          <li onMouseEnter={() =>   openDropdown('Solution')  } className='flex cursor-pointer hover:text-yellow'>Solution  <span className='pt-1'><TiArrowSortedDown /></span></li>
+            <li onMouseEnter={() =>   openDropdown('Service') } className='flex cursor-pointer hover:text-yellow'>Service   <span className='pt-1'><TiArrowSortedDown /></span></li>
+            <li onMouseEnter={() =>   openDropdown('Industry')}  className='flex cursor-pointer hover:text-yellow'>Industry   <span className='pt-1'><TiArrowSortedDown /></span></li>
+            <li onMouseEnter={() =>   openDropdown('Company') } className='flex cursor-pointer hover:text-yellow'>Company   <span className='pt-1'><TiArrowSortedDown /></span></li>
+            <li className='hover:text-yellow '>Our Thinking</li>
+            <li className='hover:text-yellow'>Case Studio</li>
           </ul>
         </div>
         <div>
-          <Button className="bg-slate-600 border p-2">Contact Us</Button>
+          <Button className="bg-white  p-2">Contact Us</Button>
         </div>
       </div>
       {dropdownOpen && (
