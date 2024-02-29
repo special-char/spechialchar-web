@@ -3,9 +3,7 @@ import { Card } from "@/lib/constData";
 
 
 const Cards = () => {
-  return <Cardcomp data={Card} />
+    return <Cardcomp data={Card} />
 };
 
 export default Cards;
-
-

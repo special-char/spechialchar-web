@@ -3,25 +3,24 @@ import Image from "next/image";
 import { Card } from "@/lib/constData";
 import { CardType } from "@/utils/types";
 
+
 const Cardcomp = ({ data }: { data: CardType[] }) => {
   return (
-    <main className="bg-gray-200 flex items-center overflow-x-auto  h-screen ">
+    <main className=" flex flex-wrap items-center overflow-x-auto ">    
       {Card.card.map((item) => (
-        <div key={item.id} className="max-w-md w-full bg-white p-10 rounded shadow-md">
-          <h3>Latest Project</h3>
-          <Image
-            src={item.url}
-            className="hover:duration-300 hover:scale-105 aspect-3/4 object-cover m-2 rounded-md"
-            alt="image"
-            height={350}
-            width={450}
-          />
-          <h1 className="text-2xl font-semibold mb-4">
-            {item.title}
-          </h1>
-          <div className="text-gray-600 mb-4 ">
-            Self-service analytics enabled by AI algorithms empowers 3 million
-            users with instant actionable insights.
+        <div key={item.id} className="w-full md:w-1/2  ">
+          <div className="p-4">
+            <Image
+              src={item.url}
+              className=" w-full hover:duration-300 hover:scale-105 aspect-video object-cover rounded-md"
+              alt="image"
+              height={450}
+              width={600}
+            />
+            <h1 className="text-4xl hover:text-blue-400 sm:text-2xl font-bold mb-2 mt-4">
+              {item.title}
+            </h1>
+            <div className="text-gray-500 mb-4 text-2xl">{item.description}</div>
           </div>
         </div>
       ))}
@@ -29,3 +28,5 @@ const Cardcomp = ({ data }: { data: CardType[] }) => {
   );
 };
 export default Cardcomp;
+
+

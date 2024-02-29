@@ -52,7 +52,7 @@ const blogs = [
 
 const Blog = () => {
   return (
-    <section className='h-screen w-full  '>
+    <section className=' w-full  '>
         <div className='2xl:grid 2xl:grid-cols-2 2xl:m-0   '>
 
       {blogs.map(blog => (

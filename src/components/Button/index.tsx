@@ -60,7 +60,7 @@ const Button = ({
 		>
 			{title && <span className="sr-only">{title}</span>}
 			{isLoading ? (
-				<span className="block w-4 aspect-square rounded-full border-2 border-currentColor border-t-transparent animate-spin"></span>
+				<span className="block w-4 aspect-square  border-2 border-currentColor border-t-transparent animate-spin"></span>
 			) : null}
 			{props.children}
 		</Component>
