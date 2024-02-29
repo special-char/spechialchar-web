@@ -45,3 +45,10 @@ export type FAQCardType = {
       width:number;
     }
  }
+ export type CareerSectionType = {
+  data: {
+   
+   url:string;
+   
+  }
+}
