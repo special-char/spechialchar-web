@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import React from 'react'
 import FileAttach from '../../../public/icons/attachment.svg'
-import { MdOutlineAttachFile } from "react-icons/md";
+// import { MdOutlineAttachFile } from "react-icons/md";
 import Link from 'next/link';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
@@ -84,7 +84,7 @@ const Contact = () => {
 
                                 <div className='flex gap-x-2 '>
                                     <div className='text-3xl text-yellow-300'>
-                                        <MdOutlineAttachFile />
+                                        {/* <MdOutlineAttachFile /> */}
                                     </div>
                                     <div>
                                         <h6 className='text-base md:text-sm'>
