@@ -138,6 +138,13 @@ export const FAQCard = {
      
     ],
   }
+  export const MobileBanner ={
+   
+   
+    url:"/images/Screenshot_2024-02-28_142141-removebg-preview.png",
+  }
+
+  
   export const Card1 = {
     cards:[
     {
