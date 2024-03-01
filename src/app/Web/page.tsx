@@ -1,4 +1,5 @@
 import WebIcon from '@/components/CustomeWeb/WebIcon/WebIcon';
+import WebLanding from '@/components/CustomeWeb/WebLanding/WebLanding';
 import WebMain from '@/components/CustomeWeb/WebMain/WebMain';
 import Webswiper from '@/components/CustomeWeb/Webswiper/Webswiper';
 import React from 'react'
@@ -12,6 +13,7 @@ const Webpage = (props: Props) => {
         <>
         <WebMain/>
         <WebIcon/>
+        <WebLanding/>
         <Webswiper/>
         </>
 
