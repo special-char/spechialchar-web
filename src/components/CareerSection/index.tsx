@@ -6,14 +6,14 @@ type Props = {};
 
 const CareerSection = ({ data }: CareerSectionType) => {
     return (
-        <div className='flex flex-col md:flex-row gap-10 sm:flex items-center ml-7'>
-            <div className="lg:pb-10 lg:pl-20  md:w-1/2 md:flex items-center justify-center ">
+        <div className='flex flex-col md:flex-row gap-10 sm:flex items-center m-20'>
+            <div className="lg:pb-10 lg:pl-20  md:w-1/2 md:flex items-center justify-center  ">
                 <Image
                     src={data.url}
                     alt=""
                     height={600}
                     width={600}
-                    objectFit="cover"
+                    objectFit="cove "
                 />
             </div>
             <div className="md:w-1/2 lg:pr-20 ">
