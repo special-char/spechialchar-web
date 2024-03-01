@@ -296,3 +296,22 @@ export const Ed = {
   },
 ]
 }
+export const carData = [
+  { src: "/Car-co-uk-preview-1-720x514.webp", alt: "Car.co.uk gets hugs boost " },
+  {
+    src: "/21stCenturyFox-720x481.webp",
+    alt: "Video Content management API solution for 21st century Fox",
+  },
+  { src: "/kobu-agency-7okkFhxrxNw-unsplash-1440x960.webp", alt: "Ecommerce platform for affiliate " },
+  { src: "/e-learning-platform-for-medical-students.webp", alt: "E-learning platform for medical radiology " },
+  { src: "/online-marketing-hIgeoQjS_iE-unsplash-2-1440x810.webp", alt: "Web AI application facilitating healthcare  " },
+  {
+    src: "/software_instruments-preview-1-1440x960.webp",
+    alt: "Ecommerce solution for a leading developer of virtual  ",
+  },
+  {
+    src: "/Shop-Man-Preview-2-1440x1029.webp",
+    alt: "Custom app with color swatching features for Shopify-based ecommerce  ",
+  },
+ 
+];
