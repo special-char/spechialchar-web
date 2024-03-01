@@ -221,3 +221,19 @@ export const services = [
     description: 'Running seamlessly and allowing dynamic content management — websites designed with the right aesthetics and functionality for any industry and using the best-fit platform (WordPress, Webflow, Joomla, or Squarespace).',
   },
 ];
+
+export const Career1 ={
+   
+   
+  url:"/images/who1.webp",
+}
+export const Career2 ={
+   
+   
+  url:"/images/who3.webp",
+}
+export const Career3 ={
+   
+   
+  url:"/images/who4.webp",
+}
