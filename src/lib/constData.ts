@@ -222,6 +222,21 @@ export const services = [
   },
 ];
 
+export const Career1 ={
+   
+   
+  url:"/images/who1.webp",
+}
+export const Career2 ={
+   
+   
+  url:"/images/who3.webp",
+}
+export const Career3 ={
+   
+   
+  url:"/images/who4.webp",
+}
 export const EdSection = {
   section:[
   {
