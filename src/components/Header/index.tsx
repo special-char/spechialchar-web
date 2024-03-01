@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Button from "../Button";
+import Navbar from "../Navbar/Navbar";
 
 interface Props {}
 
@@ -37,40 +38,12 @@ const Header = (props: Props) => {
           scrollPosition > 100 ? "rgba(0, 0, 0, 1)" : "rgba(0, 0, 0, 0)",
       }}
     >
-      <div className="py-4">
+      {/* <div className="py-4">
         <Link href="/">
           <Itrex />
         </Link>
       </div>
-      {/* <div>
-      <nav className="flex justify-between items-center p-4 bg-inherit text-white">
-                <ul className="flex space-x-4">
-                    <li>
-                        <Link href="/">Home</Link>
-                    </li>
-                    <li
-                        className="relative"
-                        onMouseEnter={() => setIsHovered(true)}
-                        onMouseLeave={() => setIsHovered(false)}
-                    >
-                        <a>Dropdown</a>
-                        {isHovered && (
-                            <ul className="absolute top-full left-0 mt-2 p-2 bg-inherit text-slate-200 rounded-md shadow-lg">
-                                <li>
-                                    <Link href="/about">About</Link>
-                                </li>
-                                <li>
-                                    <Link href="/contact">Contact</Link>
-                                </li>
-                            </ul>
-                        )}
-                    </li>
-                    <li>
-                        <Link href="/blog">Blog</Link>
-                    </li>
-                </ul>
-            </nav>
-      </div> */}
+      
       <div className="py-4 text-slate-100 flex ">
         <div className="relative">
           <div
@@ -188,7 +161,8 @@ const Header = (props: Props) => {
       </div>
       <div className="py-4 mt-1 text-slate-100 w-12">
         <Button className="p-7">Contact</Button>
-      </div>
+      </div> */}
+      <Navbar/>
     </header>
   );
 };

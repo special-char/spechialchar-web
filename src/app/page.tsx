@@ -1,13 +1,15 @@
 import Button from "@/components/Button";
 import Icon from "@/public/icons/xmark.svg";
-import Contact from '../components/Contact/Contact'
+// import Contact from '../components/Contact/Contact'
 import Blog from "@/components/Blog/Blog";
 import HomeBanner from "@/components/HomeBanner";
 import Card from "@/containers/Card";
-import Cardcomp from "@/components/Cardcomp";
-import Cardcomp1 from "@/containers/Card2";
 import FAQS from "@/containers/FAQ";
-import WebBanner2 from "@/components/WebBanner2";
+import CollaboratorCards from "@/containers/CollaboratorCard";
+import Navbar from "@/components/Navbar/Navbar";
+import Latest from "@/containers/LatestProjectSec"
+import ThinkingSection from "@/containers/LatestThinkingSec";
+import Cardcomp1 from "@/containers/Card2";
 
 export default function Home() {
 	return (
@@ -21,6 +23,12 @@ export default function Home() {
 			<WebBanner2/>
 
 			
+			<HomeBanner />
+			<FAQS />
+			<Card />
+			<CollaboratorCards />
+			<Cardcomp1 />
+			{/* <Contact /> */}
 		</>
 	);
 }

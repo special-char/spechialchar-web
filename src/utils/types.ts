@@ -45,3 +45,56 @@ export type FAQCardType = {
       width:number;
     }
  }
+ export type CareerSectionType = {
+  data: {
+   
+   url:string;
+   
+  }
+}
+export type CareerSection1Type = {
+  data: {
+   
+   url:string;
+   
+  }
+}
+export type CareerSection2Type = {
+  data: {
+   
+   url:string;
+   
+  }
+}
+
+export type CareerSection3Type = {
+  data: {
+   
+   url:string;
+   
+
+export type EdSectionType = {
+  data:{
+    id:number;
+    title:string;
+    description:string;
+  }
+}
+
+export type EdSectionType2 = {
+  data:{
+    section2:string;
+    id:number;
+    title:string;
+    description:string;
+  }
+}
+
+export type EdSectionType3 = {
+  data:{
+    section3:string;
+    id:number;
+    title:string;
+    description:string;
+  }
+}

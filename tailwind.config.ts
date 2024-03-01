@@ -14,6 +14,14 @@ const config: Config = {
 			colors: {
 				primary: "rgba(var(--color-primary) / <alpha-value>)",
 				secondary: "rgba(var(--color-secondary) / <alpha-value>)",
+				blue: "rgba(var(--color-blue) / <alpha-value>)",
+				sky: "rgba(var(--color-sky) / <alpha-value>)",
+				red: "rgba(var(--color-red) / <alpha-value>)",
+				white: "rgba(var(--color-white) / <alpha-value>)",
+				black: "rgba(var(--color-black) / <alpha-value>)",
+				yellow: "rgba(var(--color-yellow) / <alpha-value>)",
+				orange: "rgba(var(--color-orange) / <alpha-value>)",
+				gray: "rgba(var(--color-gray) / <alpha-value>)",
 				transparent: "transparent",
 			},
 			fontSize: {
@@ -134,6 +142,7 @@ const config: Config = {
 			},
 			fontFamily: {
 				sans: ["var(--font-inter)", ...fontFamily.sans],
+				glegoo: ["var(--font-glegoo)", ...fontFamily.serif],
 			},
 			spacing: {
 				container: `max(

@@ -1,25 +1,13 @@
 "use client";
-import React, { useState } from 'react';
+import React, { useState ,useEffect } from 'react';
 import Image from 'next/image';
 import NavbarLogo from '@/public/NavbarLogo.png';
 import { TiArrowSortedDown } from "react-icons/ti";
 import Link from 'next/link';
+import Button from '../Button';
 
 const Navbar = () => {
-  const [dropdownOpen, setDropdownOpen] = useState(false);
-  const [activeDropdown, setActiveDropdown] = useState(null);
-
-  const toggleDropdown = (item:any) => {
-    // If the clicked item is already active and dropdown is open, close it
-    if (activeDropdown === item && dropdownOpen) {
-      setActiveDropdown(null);
-      setDropdownOpen(false);
-    } else {
-      // Otherwise, set the active dropdown and open the dropdown
-      setActiveDropdown(item);
-      setDropdownOpen(true);
-    }
-  };
+  
 
   const openSubDropdown = (subItem:any) => {
     // Set the active dropdown to the subItem and open the dropdown
@@ -27,31 +15,61 @@ const Navbar = () => {
     setDropdownOpen(true);
   };
 
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [activeDropdown, setActiveDropdown] = useState(null);
+
+  const openDropdown = (item) => {
+    setActiveDropdown(item);
+    setDropdownOpen(true);
+  };
+
+  const closeDropdown = () => {
+    setActiveDropdown(null);
+    setDropdownOpen(false);
+  };
+
   return (
-    <nav className="h-full w-full bg-black text-white p-4 2xl:px-64">
-      <div className="flex justify-between">
+    <nav className="h-20 w-full fixed z-10 bg-black text-white p-4 2xl:px-64" style={{
+        backgroundColor:
+          scrollPosition > 100 ? "rgba(0, 0, 0, 1)" : "rgba(0, 0, 0, 0)",
+      }} onMouseLeave={closeDropdown} >
+      <div className="flex justify-between" >
         <div>
           <Image src={NavbarLogo} alt="Navbar" />
         </div>
         <div>
           <ul className="flex gap-x-6 2xl:pt-2 ">
-            <li onClick={() => toggleDropdown('Solution')} className='flex cursor-pointer hover:text-yellow-300'>Solution  <span className='pt-1'><TiArrowSortedDown /></span></li>
-            <li onClick={() => toggleDropdown('Service')} className='flex cursor-pointer hover:text-yellow-300'>Service   <span className='pt-1'><TiArrowSortedDown /></span></li>
-            <li onClick={() => toggleDropdown('Industry')} className='flex cursor-pointer hover:text-yellow-300'>Industry   <span className='pt-1'><TiArrowSortedDown /></span></li>
-            <li onClick={() => toggleDropdown('Company')} className='flex cursor-pointer hover:text-yellow-300'>Company   <span className='pt-1'><TiArrowSortedDown /></span></li>
-            <li className='hover:text-yellow-300 '>Our Thinking</li>
-            <li className='hover:text-yellow-300'>Case Studio</li>
+          <li onMouseEnter={() =>   openDropdown('Solution')  } className='flex cursor-pointer hover:text-yellow'>Solution  <span className='pt-1'><TiArrowSortedDown /></span></li>
+            <li onMouseEnter={() =>   openDropdown('Service') } className='flex cursor-pointer hover:text-yellow'>Service   <span className='pt-1'><TiArrowSortedDown /></span></li>
+            <li onMouseEnter={() =>   openDropdown('Industry')}  className='flex cursor-pointer hover:text-yellow'>Industry   <span className='pt-1'><TiArrowSortedDown /></span></li>
+            <li onMouseEnter={() =>   openDropdown('Company') } className='flex cursor-pointer hover:text-yellow'>Company   <span className='pt-1'><TiArrowSortedDown /></span></li>
+            <li className='hover:text-yellow '>Our Thinking</li>
+            <li className='hover:text-yellow'>Case Studio</li>
           </ul>
         </div>
         <div>
-          <button className="bg-slate-600 border border-white p-2">Contact Us</button>
+          <Button className="bg-white  p-2">Contact Us</Button>
         </div>
       </div>
       {dropdownOpen && (
-        <div className="absolute top-16 right-0 w-full bg-black  p-4 z-10">
+        <div className="absolute top-16 right-0 w-full bg-inherit  p-4 z-10">
          <ul>
       {activeDropdown === 'Solution' && (
-        <ul onClick={() => setDropdownOpen(false)} className='relative left-[530px] cursor-pointer'>
+        <ul onClick={() => setDropdownOpen(false)} className='relative left-[30.3rem] gap-y-9 cursor-pointer'>
           <li onClick={() => openSubDropdown('Data')}>Data</li>
           {activeDropdown === 'Data' && (
             <ul className='relative left-[630px] cursor-pointer'>
@@ -68,7 +86,7 @@ const Navbar = () => {
         </ul>
       )}
             {activeDropdown === 'Service' && (
-              <ul onClick={() => setDropdownOpen(false)} className='relative left-[630px] cursor-pointer'>
+              <ul onClick={() => setDropdownOpen(false)} className='relative left-[36.6rem] cursor-pointer'>
                 <li>Mobile</li>
                 <li>Web</li>
                 <li>Sass</li>
@@ -82,7 +100,7 @@ const Navbar = () => {
               </ul>
             )}
             {activeDropdown === 'Industry' && (
-              <ul onClick={() => setDropdownOpen(false)}  className='relative left-[730px] cursor-pointer'>
+              <ul onClick={() => setDropdownOpen(false)}  className='relative left-[42.8rem] cursor-pointer'>
                 <li>HealtCare&BioTech</li>
                 <li>Logistic&Transporention</li>
                 <li>ManuFacturing&Supply Chain</li>
@@ -93,7 +111,7 @@ const Navbar = () => {
               </ul>
             )}
             {activeDropdown === 'Company' && (
-              <ul onClick={() => setDropdownOpen(false)}  className='relative left-[830px] cursor-pointer'>
+              <ul onClick={() => setDropdownOpen(false)}  className='relative left-[48.95rem] cursor-pointer'>
                 <li>About</li>
                 <li>Careers</li>
                 <li>How We are Work</li>
