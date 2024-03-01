@@ -52,3 +52,29 @@ export type FAQCardType = {
    
   }
 }
+
+export type EdSectionType = {
+  data:{
+    id:number;
+    title:string;
+    description:string;
+  }
+}
+
+export type EdSectionType2 = {
+  data:{
+    section2:string;
+    id:number;
+    title:string;
+    description:string;
+  }
+}
+
+export type EdSectionType3 = {
+  data:{
+    section3:string;
+    id:number;
+    title:string;
+    description:string;
+  }
+}
