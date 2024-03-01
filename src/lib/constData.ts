@@ -221,3 +221,78 @@ export const services = [
     description: 'Running seamlessly and allowing dynamic content management — websites designed with the right aesthetics and functionality for any industry and using the best-fit platform (WordPress, Webflow, Joomla, or Squarespace).',
   },
 ];
+
+export const EdSection = {
+  section:[
+  {
+    id:1,
+    title:"K-12",
+    description:"We help K-12 leaders unleash the power of technology-assisted learning with R&D and consulting services and deliver turnkey educational software that automates workflows, simplifies student performance management, and makes knowledge delivery more efficient and interactive",
+  },
+  {
+    id:2,
+    title:"EdTech and eLearning companies",
+    description:"We can fill in the skills gap in your knowledge-intensive project and enrich your eLearning software with AI-driven data analytics, natural language processing, teleconferencing, as well as augmented and virtual reality capabilities to attract more customers with stellar functionality and user experience",
+  },
+  {
+    id:3,
+    title:"Colleges and universities",
+    description:"Along with educational technology consulting services, we craft innovative educational software solutions from scratch, so that you can attract the right students, personalize learning materials, optimize daily operations, and tap into useful insights about the school’s academic performance",
+  },
+  {
+    id:4,
+    title:"Corporations and nonprofits",
+    description:"We can enhance your existing learning management software or develop a corporate eLearning solution from scratch. We deep dive into the specifics of your business and tailor our eLearning solutions to match them, supporting your corporate training programs with the right tech",
+  },
+]
+}
+
+export const EdSection3 = {
+  section3:[
+  {
+    id:1,
+    title:"LMS and LCMS",
+    description:"Leverage a kit of easy-to-handle learning tools to build impactful and accessible training programs, create top-notch educational resources, and conveniently enroll, track, and evaluate online learners. Our learning management systems feature student assessment and remote proctoring modules, too, supporting the entire education process",
+  },
+  {
+    id:2,
+    title:"School management software",
+    description:"We can fill in the skills gap in your knowledge-intensive project and enrich your eLearning software with AI-driven data analytics, natural language processing, teleconferencing, as well as augmented and virtual reality capabilities to attract more customers with stellar functionality and user experience",
+  },
+  {
+    id:3,
+    title:"Education portals",
+    description:"Manage educational data online with feature-rich education portals and information systems. Our custom eLearning solutions optimize scheduling, facilitate student attendance monitoring, speed upgrading, and allow educators and students to conveniently view educational information, generate performance reports, and mor",
+  },
+  {
+    id:4,
+    title:"Education portals",
+    description:"Make education accessible to students with special needs by leveraging AI-powered text-to-speech, speech-to-text, writing assistance, proofreading, as well as planning and class scheduling software. Our custom assistive learning solutions improve focus, promote independent learning, and spark academic success for all students",
+  },
+]
+}
+
+export const Ed = {
+  section2:[
+  {
+    id:1,
+    title:"Back-end development",
+    description:"We are well-versed in custom web development, cloud computing, and DevOps, as well as data acquisition, management, and analysis, and deliver functional and high-performing educational software solutions that run without glitches",
+  },
+  {
+    id:2,
+    title:"Front-end development",
+    description:"We craft all kinds of interfaces, including cloud dashboards, voice interfaces, as well as educational web and mobile apps, so you can reach out to more learners with highly accessible and easy-to-use software",
+  },
+  {
+    id:3,
+    title:"Reliable integration",
+    description:"We focus on creating coherent learning environments and connect your education technology solutions with other applications and devices within your IT infrastructure, as well as third-party tools and service",
+  },
+  {
+    id:4,
+    title:"End-to-end software testing",
+    description:"We build visualizations that tell stories in a simple way, enabling informed decision-making and solid ad-hoc data analysis. Take your next big step forward with AR/VR or voice assistants that will deliver convenient access to all of your data",
+  },
+]
+}
