@@ -39,7 +39,7 @@ const Contact = () => {
                                             id="name"
                                             name="name"
                                             placeholder="Name"
-                                            className={`bg-transparent border-b border-gray-600 hover:border-b-[#F2AA4CFF] focus:outline-none ${touched.name && errors.name ? 'border-red-500' : ''}`}
+                                            className={`bg-transparent border-b border-gray-600 hover:border-b-[#F2AA4CFF]  focus:outline-none ${touched.name && errors.name ? 'border-red-500' : ''}`}
                                         />
                                         <ErrorMessage name="name" component="div" className="text-red-500 text-xs" />
                                     </label>
