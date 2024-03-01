@@ -18,7 +18,7 @@ const Contact = () => {
     });
 
     return (
-        <section className="h-full w-full bg-black text-white">
+        <section className="h-full w-full bg-black text-white" style={{backgroundImage: `url(/images/ContactUsImage.webp)`}}>
             <div className="m-4 md:m-10 lg:m-12 2xl:m-20 ">
                 <h4 className='md:py-2 md:pb-14 md:text-3xl lg:text-5xl '>Contact Us</h4>
                 <Formik

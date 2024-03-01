@@ -18,13 +18,13 @@ interface Props {}
 const Footer = (props: Props) => {
   return (
     <footer className="z-10 w-full bg-black">
-      <div className="bg-black text-white w-full grid grid-cols-1 gap-16 py-24">
+      <div className="bg-black text-white w-full grid grid-cols-1 gap-16 sm:p-14">
         <div className="flex flex-wrap lg:gap-48 md:gap-24 max-sm:gap-24">
           <div >
             <Logo />
           </div>
           <div className="flex font-semibold">
-            <div className="text-[1.25rem] max-sm:text-3xl flex flex-wrap">
+            <div className="text-[1.40rem] md:text-xl sm:text-lg flex flex-wrap">
               We are an enterprise software development company that is inspired
               by the future
             </div>
