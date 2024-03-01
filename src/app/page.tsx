@@ -15,6 +15,14 @@ export default function Home() {
 	return (
 		<>
 
+			{/* <HomeBanner />
+			<Contact/> */}
+			{/* <Card /> */}
+			{/* <Cardcomp/> */}
+			{/* <FAQS/> */}
+			<WebBanner2/>
+
+			
 			<HomeBanner />
 			<FAQS />
 			<Card />
