@@ -221,3 +221,130 @@ export const services = [
     description: 'Running seamlessly and allowing dynamic content management — websites designed with the right aesthetics and functionality for any industry and using the best-fit platform (WordPress, Webflow, Joomla, or Squarespace).',
   },
 ];
+
+export const LandingWeb =[
+  {
+    image:"/images/team-fill-2.png",
+    title:'A-class team',
+    description:'Delivering web solutions across industry verticals since 2009, our team of senior web developers and designers know how to build your project right the first time. With us, you get a deep understanding of your business challenges and unparalleled tech expertise to beat them  '
+  },
+  {
+    image:"/images/arrow-up-circle-fill-2.png",
+    title:'Fast time-to-value',
+    description:'Using an agile approach and DevOps best practices, we ship new functionality faster while keeping quality high. Along the way, you stay in the loop as we show results early to adapt to your current vision'
+  },
+  {
+    image:"/images/macbook-line-2.png",
+    title:'Deeply customized solutions',
+    description:'Each and every step of our process in custom web development services is focused on your unique business needs. We get a buzz out of unlocking tech complexities and tailoring a solution that serves your mission best. This is because we are fully engaged in your success  '
+  }
+]
+
+export const Career1 ={
+   
+   
+  url:"/images/who1.webp",
+}
+export const Career2 ={
+   
+   
+  url:"/images/who3.webp",
+}
+export const Career3 ={
+   
+   
+  url:"/images/who4.webp",
+}
+export const EdSection = {
+  section:[
+  {
+    id:1,
+    title:"K-12",
+    description:"We help K-12 leaders unleash the power of technology-assisted learning with R&D and consulting services and deliver turnkey educational software that automates workflows, simplifies student performance management, and makes knowledge delivery more efficient and interactive",
+  },
+  {
+    id:2,
+    title:"EdTech and eLearning companies",
+    description:"We can fill in the skills gap in your knowledge-intensive project and enrich your eLearning software with AI-driven data analytics, natural language processing, teleconferencing, as well as augmented and virtual reality capabilities to attract more customers with stellar functionality and user experience",
+  },
+  {
+    id:3,
+    title:"Colleges and universities",
+    description:"Along with educational technology consulting services, we craft innovative educational software solutions from scratch, so that you can attract the right students, personalize learning materials, optimize daily operations, and tap into useful insights about the school’s academic performance",
+  },
+  {
+    id:4,
+    title:"Corporations and nonprofits",
+    description:"We can enhance your existing learning management software or develop a corporate eLearning solution from scratch. We deep dive into the specifics of your business and tailor our eLearning solutions to match them, supporting your corporate training programs with the right tech",
+  },
+]
+}
+
+export const EdSection3 = {
+  section3:[
+  {
+    id:1,
+    title:"LMS and LCMS",
+    description:"Leverage a kit of easy-to-handle learning tools to build impactful and accessible training programs, create top-notch educational resources, and conveniently enroll, track, and evaluate online learners. Our learning management systems feature student assessment and remote proctoring modules, too, supporting the entire education process",
+  },
+  {
+    id:2,
+    title:"School management software",
+    description:"We can fill in the skills gap in your knowledge-intensive project and enrich your eLearning software with AI-driven data analytics, natural language processing, teleconferencing, as well as augmented and virtual reality capabilities to attract more customers with stellar functionality and user experience",
+  },
+  {
+    id:3,
+    title:"Education portals",
+    description:"Manage educational data online with feature-rich education portals and information systems. Our custom eLearning solutions optimize scheduling, facilitate student attendance monitoring, speed upgrading, and allow educators and students to conveniently view educational information, generate performance reports, and mor",
+  },
+  {
+    id:4,
+    title:"Education portals",
+    description:"Make education accessible to students with special needs by leveraging AI-powered text-to-speech, speech-to-text, writing assistance, proofreading, as well as planning and class scheduling software. Our custom assistive learning solutions improve focus, promote independent learning, and spark academic success for all students",
+  },
+]
+}
+
+export const Ed = {
+  section2:[
+  {
+    id:1,
+    title:"Back-end development",
+    description:"We are well-versed in custom web development, cloud computing, and DevOps, as well as data acquisition, management, and analysis, and deliver functional and high-performing educational software solutions that run without glitches",
+  },
+  {
+    id:2,
+    title:"Front-end development",
+    description:"We craft all kinds of interfaces, including cloud dashboards, voice interfaces, as well as educational web and mobile apps, so you can reach out to more learners with highly accessible and easy-to-use software",
+  },
+  {
+    id:3,
+    title:"Reliable integration",
+    description:"We focus on creating coherent learning environments and connect your education technology solutions with other applications and devices within your IT infrastructure, as well as third-party tools and service",
+  },
+  {
+    id:4,
+    title:"End-to-end software testing",
+    description:"We build visualizations that tell stories in a simple way, enabling informed decision-making and solid ad-hoc data analysis. Take your next big step forward with AR/VR or voice assistants that will deliver convenient access to all of your data",
+  },
+]
+}
+export const carData = [
+  { src: "/Car-co-uk-preview-1-720x514.webp", alt: "Car.co.uk gets hugs boost " },
+  {
+    src: "/21stCenturyFox-720x481.webp",
+    alt: "Video Content management API solution for 21st century Fox",
+  },
+  { src: "/kobu-agency-7okkFhxrxNw-unsplash-1440x960.webp", alt: "Ecommerce platform for affiliate " },
+  { src: "/e-learning-platform-for-medical-students.webp", alt: "E-learning platform for medical radiology " },
+  { src: "/online-marketing-hIgeoQjS_iE-unsplash-2-1440x810.webp", alt: "Web AI application facilitating healthcare  " },
+  {
+    src: "/software_instruments-preview-1-1440x960.webp",
+    alt: "Ecommerce solution for a leading developer of virtual  ",
+  },
+  {
+    src: "/Shop-Man-Preview-2-1440x1029.webp",
+    alt: "Custom app with color swatching features for Shopify-based ecommerce  ",
+  },
+ 
+];
