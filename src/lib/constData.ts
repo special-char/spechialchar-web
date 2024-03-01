@@ -197,6 +197,12 @@ export const FAQCard = {
 },
 ]
 }
+export const Career ={
+   
+   
+  url:"/images/who.webp",
+}
+
 
 export const services = [
   {
@@ -215,6 +221,7 @@ export const services = [
     description: 'Running seamlessly and allowing dynamic content management — websites designed with the right aesthetics and functionality for any industry and using the best-fit platform (WordPress, Webflow, Joomla, or Squarespace).',
   },
 ];
+
 export const carData = [
   { src: "/Car-co-uk-preview-1-720x514.webp", alt: "Car.co.uk gets hugs boost " },
   {

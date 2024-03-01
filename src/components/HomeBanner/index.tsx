@@ -26,13 +26,13 @@ const HomeBanner = (props: Props) => {
             >
                 Your browser does not support the video tag.
             </video>
-            <div className="relative z-0 xl:pl-48 xl:pr-48 p-5 text-[#f2aa4c] h-full flex  flex-wrap flex-col items-left justify-center xl:text-6xl font-bold text-4xl">
+            <div className="relative z-0 xl:pl-48 xl:pr-48 p-5 text-orange h-full flex  flex-wrap flex-col items-left justify-center xl:text-6xl font-bold text-4xl">
                 Next-gen enterprise
                 <div className="text-white">
                     software development company
                 </div>
                 <div className="flex flex-wrap  justify-between  mt-32 text-3xl text-white">
-                    <div className='pt-1'>  We think <span className='text-[#f2aa4c]'>{values[index]}</span></div>
+                    <div className='pt-1'>  We think <span className='text-orange'>{values[index]}</span></div>
                     <div className=''><Button className='md:w-72 w-60 '>Let's Talk</Button></div>
                 </div>
             </div>

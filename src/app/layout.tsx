@@ -1,11 +1,19 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Glegoo, Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar/Navbar";
+import Contact from "@/components/Contact/Contact";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const glegoo = Glegoo({
+  subsets: ["latin"],
+  variable: "--font-glegoo",
+  preload: true,
+  weight: "400"
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,10 +27,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className}`} >
         <Header/>
         {/* <Navbar/> */}
         {children}
+        <Contact/>
         <Footer/>
       </body>
     </html>
