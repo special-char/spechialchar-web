@@ -53,7 +53,7 @@ const Databusiness = () => {
         </div>
         {/* <--- Button ----> */}
         <div className="pt-2 hover:text-white">
-          <button className="bg-blue-500 hover:bg-black hover:text-white text-white text-xl p-4 font-bold md:relative md:top-10">
+          <button className="bg-blue hover:bg-black hover:text-white text-white text-xl p-4 font-bold md:relative md:top-10">
             Start your big data journey{" "}
             <span className="text-black hover:text-white ">&rarr; </span>
           </button>

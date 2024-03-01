@@ -19,7 +19,7 @@ const WebIcon = () => {
                 <Image src={service.image} alt='web' className='h-8 w-8 md:h-10 md:w-10 2xl:h-14 2xl:w-14' width={100} height={100}/>
               </div>
               <h6 className='text-xl font-bold 2xl:text-2xl'>{service.title}</h6>
-              <div className='text-gray-500 text-lg'>
+              <div className='text-gray text-lg'>
                 {service.description}
               </div>
             </div>

@@ -17,10 +17,10 @@ const ThinkCard = ({ data }: { data: Card1Type[] }) => {
               height={item.height}
               width={item.width}
             />
-            <h1 className="text-4xl hover:text-blue-400 sm:text-2xl font-bold mt-4 mb-2">
+            <h1 className="text-4xl hover:text-blue sm:text-2xl font-bold mt-4 mb-2">
               {item.title}
             </h1>
-            <div className="text-gray-500 mb-4 text-2xl">{item.description}</div>
+            <div className="text-gray mb-4 text-2xl">{item.description}</div>
           </div>
         </div>
       ))}

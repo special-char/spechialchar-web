@@ -16,7 +16,7 @@ const WebMain = () => {
         </div>
 
         <div>
-            <button className="bg-blue-600 p-2 px-8 text-lg  py-4">Get in touch &rarr;</button>
+            <button className="bg-blue p-2 px-8 text-lg  py-4">Get in touch &rarr;</button>
         </div>
         </div>
         <div className="object-cover md:relative md:bottom-[450px] md:left-[320px] lg:left-[409px] 2xl:left-[750px] 2xl:bottom-96  ">

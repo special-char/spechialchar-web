@@ -69,7 +69,7 @@ const Blog = () => {
                 </React.Fragment>
               ))}
             </div>
-            <div className='py-4 hover:text-blue-400'>
+            <div className='py-4 hover:text-blue'>
               <a href={blog.link}>
                 <span className='text-2xl font-bold md:text-4xl'>{blog.title}</span>
               </a>
