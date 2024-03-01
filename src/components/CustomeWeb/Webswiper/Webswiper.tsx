@@ -11,8 +11,8 @@ import { carData } from '@/lib/constData'
 
 const Webswiper = () => {
   return (
-    <section className="h-full w-full bg-gray-100">
-      <div className="mx-4 2xl:my-7 2xl:space-y-12 md:space-y-10 ">
+    <section className="h-full w-full bg-slate-200">
+      <div className="mx-4 md:mx-6 2xl:my-7 2xl:space-y-12 md:space-y-10 space-y-8 ">
         <h4 className="font-bold lg:text-5xl md:text-4xl">Latest Case Studies</h4>
         <Swiper
           modules={[Navigation, Pagination, A11y]}
@@ -29,7 +29,7 @@ const Webswiper = () => {
                 slidesPerView:2.6
             }
           }}
-          className=" space-y-24 sm:space-y-36 md:space-y-72 lg:space-y-64  2xl:space-y-36  "
+          className=" space-y-20 mt-28 sm:space-y-72 md:space-y-72 lg:space-y-64  2xl:space-y-36  "
         >
            
           <div className="">
@@ -39,11 +39,11 @@ const Webswiper = () => {
                   <Image
                     src={car.src}
                     alt={car.alt}
-                    className=" h-60 absolute left-0 top-0 -z-10 md:h-96 lg:grid md:w-[560px] lg:h-[380px] lg:w-[95%] 2xl:w-[450px] 2xl:h-[350px]"
+                    className=" h-60 absolute left-0 top-0 -z-10 md:h-96 lg:grid sm:w-[560px] sm:h-[350px] md:w-[560px] lg:h-[380px] lg:w-[95%] 2xl:w-[450px] 2xl:h-[350px]"
                     height={200}
-                    width={200}
+                    width={800}
                   />
-                  <h4 className=" px-6 bottom-20 text-white 2xl:px-14 overflow-hidden lg:px-6 lg:pr-6">
+                  <h4 className=" px-6 py-3  md:px-6  text-white 2xl:px-14 overflow-hidden lg:px-7 lg:pr-6">
                     {car.alt}&rarr;
                   </h4>
                 </div>
@@ -53,7 +53,7 @@ const Webswiper = () => {
           <SwiperNavButtons />
         </Swiper>
         <div className="pt-8 md:pt-4">
-            <button className="bg-blue-600 p-2 px-16 font-bold text-lg  py-4 text-white">Talk to Web development expert &rarr;</button>
+            <button className="bg-blue p-2 px-16 md:px-6 md:text-xl font-bold text-lg  py-4 text-white">Talk to Web development expert &rarr;</button>
         </div>
       </div>
     </section>
