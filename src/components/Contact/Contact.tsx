@@ -18,7 +18,7 @@ const Contact = () => {
     });
 
     return (
-        <section className="h-full w-full bg-black text-white">
+        <section className="h-full w-full bg-black text-white" style={{backgroundImage: `url(/images/ContactUsImage.webp)`}}>
             <div className="m-4 md:m-10 lg:m-12 2xl:m-20 ">
                 <h4 className='md:py-2 md:pb-14 md:text-3xl lg:text-5xl '>Contact Us</h4>
                 <Formik
@@ -40,6 +40,7 @@ const Contact = () => {
                                             name="name"
                                             placeholder="Name"
                                             className={`bg-transparent border-b border-gray hover:border-b-orange focus:outline-none ${touched.name && errors.name ? 'border-red' : ''}`}
+                                            className={`bg-transparent border-b border-gray-600 hover:border-b-[#F2AA4CFF]  focus:outline-none ${touched.name && errors.name ? 'border-red-500' : ''}`}
                                         />
                                         <ErrorMessage name="name" component="div" className="text-red text-xs" />
                                     </label>
