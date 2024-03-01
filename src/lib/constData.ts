@@ -222,6 +222,24 @@ export const services = [
   },
 ];
 
+export const LandingWeb =[
+  {
+    image:"/images/team-fill-2.png",
+    title:'A-class team',
+    description:'Delivering web solutions across industry verticals since 2009, our team of senior web developers and designers know how to build your project right the first time. With us, you get a deep understanding of your business challenges and unparalleled tech expertise to beat them  '
+  },
+  {
+    image:"/images/arrow-up-circle-fill-2.png",
+    title:'Fast time-to-value',
+    description:'Using an agile approach and DevOps best practices, we ship new functionality faster while keeping quality high. Along the way, you stay in the loop as we show results early to adapt to your current vision'
+  },
+  {
+    image:"/images/macbook-line-2.png",
+    title:'Deeply customized solutions',
+    description:'Each and every step of our process in custom web development services is focused on your unique business needs. We get a buzz out of unlocking tech complexities and tailoring a solution that serves your mission best. This is because we are fully engaged in your success  '
+  }
+]
+
 export const Career1 ={
    
    
