@@ -4,7 +4,7 @@ type Props = {}
 
 const CareerBuild = (props: Props) => {
   return (
-    <div className='flex flex-col gap-10 md:flex-row m-10'>
+    <div className='flex flex-col gap-10 md:flex-row m-10 lg:pl-20 lg:pr-20'>
         <div className='grid grid-row-2 md:flex-row md:flex-1 gap-10 lg:mb-7'>
                 <div className='flex-1'>
                 

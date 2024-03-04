@@ -10,6 +10,7 @@ import CareerFlex from '@/components/CareerFlex'
 import React from 'react'
 import CareerOP from '@/components/CareerOp'
 import CareerBuild from '@/components/CareerBuild'
+import CareerMany from '@/components/CareerMany'
 
 interface Props {
     
@@ -25,8 +26,10 @@ const  Careers = (props: Props) => {
          <CareerSections2/>
          <CareerFlex/>
          <CareersBanner2/>
+         <CareerSections3/>
         <CareerOP/>
         <CareerBuild/>
+        <CareerMany/>
         
 
          

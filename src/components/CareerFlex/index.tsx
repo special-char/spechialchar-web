@@ -4,7 +4,7 @@ type Props = {};
 
 const CareerFlex = (props: Props) => {
     return (
-        <div className='flex flex-col gap-10 md:flex-row m-10'>
+        <div className='flex flex-col gap-10 md:flex-row lg:pl-20 lg:pr-20 m-10 '>
             <div className='flex-1'>
                 <h1>Flexibility and balance</h1>
                 <h6>We believe in hard work. That means you honestly give your best effort. It doesn’t mean you give every waking hour.</h6>
