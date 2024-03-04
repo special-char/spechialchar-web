@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import AboutBannerImg from "@/public/images/AboutBanner1.webp";
 
-const CaseBanner = () => {
+const AboutBanner = () => {
   return (
     <main className="bg-orange relative overflow-hidden ">
       <Image
@@ -21,10 +21,10 @@ const CaseBanner = () => {
           Your innovation
           </h1> 
           
-          <div className="text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl text-black mt-2 sm:mt-1 md:mt-6 lg:mt-10 xl:mt-12 2xl:mt-14 ">
+          <div className="text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl text-black mt-2 sm:mt-1 md:mt-4 ">
             partner
           </div>
-      <h1 className=" text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-black mt-8 sm:mt-8 md:mt-14 lg:mt-16 xl:mt-16 2xl:mt-20">
+      <h1 className=" text-base font-light sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-black mt-8 sm:mt-8 md:mt-14 lg:mt-32">
         We get a buzz out of unlocking the power of emerging tech for both
         <br />
         big-name enterprises and ambitious startups.
@@ -36,4 +36,4 @@ const CaseBanner = () => {
   );
 };
 
-export default CaseBanner;
+export default AboutBanner;

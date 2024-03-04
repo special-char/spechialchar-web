@@ -23,7 +23,19 @@ function WebBanner2() {
         </div>
       </section>
 
-    
+      <div className="bg-yellow p-8 lg:p-12">
+        <div className="lg:px-2 lg:py-4 lg:pr-60">
+          <p className="font-medium  text-xl">
+            As a top-tier provider of custom web application development
+            services to enterprises, ITRex can fulfill any of your digital
+            needs, whatever your industry is. Create your innovative and
+            high-performing web application using the right front and back-end
+            technology to get results quickly. Our web apps deliver the utmost
+            usability, scalability, and cross-browser compatibility, along with
+            a competitive edge to drive your growth.
+          </p>
+        </div>
+      </div>
 
       <section className="p-8 lg:p-8">
         <div className=" grid lg:grid-cols-4 font-bold xl:font-extrabold lg:text-xl xl:text-2xl gap-8 lg:p-8 lg:px-12 xl:px-36">
