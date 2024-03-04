@@ -57,12 +57,19 @@ export type CareerSection2Type = {
     url: string;
   };
 };
+export type EdBannerType = {
+  data: {
+    title: string;
+    description:string;
+    url:string;
+  };
+};
 
 export type CareerSection3Type = {
   data: {
-   
-   url:string;
-   
+    url: string;
+  };
+};
 
 export type EdSectionType = {
   data: {
