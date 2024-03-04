@@ -23,8 +23,8 @@ function WebBanner2({ data }: BgYellowType) {
       </section>
 
       <div className="bg-yellow p-8 lg:p-12">
-        <div className="lg:px-2 lg:py-4 lg:pr-60">
-          <p className="font-medium  text-xl">{data.description}</p>
+        <div className="lg:px-32 lg:py-4 lg:pr-60">
+          <p className="font-medium  text-2xl">{data.description}</p>
         </div>
       </div>
     </>
