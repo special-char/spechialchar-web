@@ -5,6 +5,7 @@ import NowAsk from '@/components/NowAsk'
 import CareerSections from '@/containers/CareerSection'
 import CareerSections1 from '@/containers/CareerSection1'
 import CareerSections2 from '@/containers/CareerSection2'
+import CareerSections3 from '@/containers/CareerSection3'
 import React from 'react'
 
 interface Props {
@@ -16,11 +17,10 @@ const  Careers = (props: Props) => {
         <>
         <CareersBanner/>
         <CareerSections/>
-        <CareerSections1/>
-        <NowAsk />
-        <CareerSections2/>
-        
-       <CareersBanner2/>
+         <CareerSections1/>
+         <NowAsk/>
+         <CareerSections2/>
+         <CareersBanner2/>
         </>
     )
 }

@@ -10,12 +10,22 @@ import Navbar from "@/components/Navbar/Navbar";
 import Latest from "@/containers/LatestProjectSec"
 import ThinkingSection from "@/containers/LatestThinkingSec";
 import Cardcomp1 from "@/containers/Card2";
+import Clients from "@/containers/ClientsSlide";
 
 export default function Home() {
 	return (
 		<>
 
+			{/* <HomeBanner />
+			<Contact/> */}
+			{/* <Card /> */}
+			{/* <Cardcomp/> */}
+			{/* <FAQS/> */}
+			{/* <WebBanner2/> */}
+
+			
 			<HomeBanner />
+			<Clients/>
 			<FAQS />
 			<Card />
 			<CollaboratorCards />
