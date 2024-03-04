@@ -14,7 +14,7 @@ const CareerSection1 = ({ data }: CareerSection1Type) => {
                         Look,
                         <br/> this is not for everyone.
                     </h4>
-                    <div className='text-xs sm:text-sm max-md:text-base lg:text-lg xl:text-xl pl-4 md:pl-12'>
+                    <div className='text-xs sm:text-sm max-md:text-base lg:text-lg xl:text-xl pl-4 md:pl-12mt-5'>
                         <div className='mb-2'>If you only want a salary and don’t much<br/> care about how good your projects are,<br/> you’ll probably hate it here.</div>
                         <div className='mb-2'>If you hide behind policies and processes <br/> because, secretly, you’re terrified of owning <br/>ideas or decisions, you too will think it sucks.</div>
                     </div>
