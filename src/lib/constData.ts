@@ -459,7 +459,7 @@ export const EdSection4 = {
   ],
 };
 
-export const ecommerceSection1 = {
+export const EcommerceSection1 = {
   url: "/images/integrations.webp",
   heading: "Integrate all your systems",
   subheading: "with custom ecommerce solutions",
@@ -467,7 +467,7 @@ export const ecommerceSection1 = {
     " Seamless integration of your ecommerce website with the right mix of back-office systems is what makes or breaks customer experience and real-time analytics. We have helped dozens of brands to build top digital ecosystems where apps work happily together, and are here to guide you in the right direction.",
 };
 
-export const ecommerceSection2 = {
+export const EcommerceSection2 = {
   url: "/images/adopting-new-tech.webp",
   heading: "And adopting new tech",
   subheading: "for ecommerce software solutions",
@@ -475,7 +475,7 @@ export const ecommerceSection2 = {
     " By empowering ecommerce development services with with battle-proven technologies, including Adobe Commerce (ex Magento), we help you push the boundaries with big ideas and bold changes to edge out the toughest competition.",
 };
 
-export const ecommerceSection3 = {
+export const EcommerceSection3 = {
   url: "/images/end-to-end.webp",
   heading: "End-to-end ecommerce",
   subheading: "software development services",
@@ -483,7 +483,7 @@ export const ecommerceSection3 = {
     " With more than a decade of experience and extensive cross-domain expertise, we offer a full suite of ecommerce development services to address your challenges no matter how big or small they are. From expert advice to comprehensive maintenance services, we have done it all, keeping our clients delighted.",
 };
 
-export const Ecommerce = {
+export const Eco = {
   section3: [
     {
       id: 1,
@@ -528,7 +528,7 @@ export const Ecommerce = {
   ],
 };
 
-export const Ecommerce1 = {
+export const Eco1 = {
   section3: [
     {
       id: 1,
