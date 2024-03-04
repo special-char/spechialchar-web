@@ -458,3 +458,231 @@ export const EdSection4 = {
     },
   ],
 };
+
+export const ecommerceSection1 = {
+  url: "/images/integrations.webp",
+  heading: "Integrate all your systems",
+  subheading: "with custom ecommerce solutions",
+  content:
+    " Seamless integration of your ecommerce website with the right mix of back-office systems is what makes or breaks customer experience and real-time analytics. We have helped dozens of brands to build top digital ecosystems where apps work happily together, and are here to guide you in the right direction.",
+};
+
+export const ecommerceSection2 = {
+  url: "/images/adopting-new-tech.webp",
+  heading: "And adopting new tech",
+  subheading: "for ecommerce software solutions",
+  content:
+    " By empowering ecommerce development services with with battle-proven technologies, including Adobe Commerce (ex Magento), we help you push the boundaries with big ideas and bold changes to edge out the toughest competition.",
+};
+
+export const ecommerceSection3 = {
+  url: "/images/end-to-end.webp",
+  heading: "End-to-end ecommerce",
+  subheading: "software development services",
+  content:
+    " With more than a decade of experience and extensive cross-domain expertise, we offer a full suite of ecommerce development services to address your challenges no matter how big or small they are. From expert advice to comprehensive maintenance services, we have done it all, keeping our clients delighted.",
+};
+
+export const Ecommerce = {
+  section3: [
+    {
+      id: 1,
+      title: "ERP integration",
+      description: "for streamlined catalog management",
+    },
+    {
+      id: 2,
+      title: "CRM integration",
+      description: "to get instant access to customer information",
+    },
+    {
+      id: 3,
+      title: "Payment gateways",
+      description: "to process payments swiftly and securely",
+    },
+    {
+      id: 4,
+      title: "Analytics and reporting",
+      description: "for immediate business insights",
+    },
+    {
+      id: 5,
+      title: "Marketing automation",
+      description: "to expand your reach",
+    },
+    {
+      id: 6,
+      title: "POS",
+      description: "to eliminate manual entry of data while reducing errors",
+    },
+    {
+      id: 7,
+      title: "Online chats and help desks",
+      description: "for real-world support of customers",
+    },
+    {
+      id: 8,
+      title: "Other third party apps",
+      description: "to meet your unique business needs",
+    },
+  ],
+};
+
+export const Ecommerce1 = {
+  section3: [
+    {
+      id: 1,
+      url: "/icons/virtual.svg",
+      title: "Virtual fitting rooms",
+    },
+    {
+      id: 2,
+      title: "Product recommendations",
+      url: "/icons/virtual.svg",
+    },
+    {
+      id: 3,
+      title: "AR product modelling",
+      url: "/icons/virtual.svg",
+    },
+    {
+      id: 4,
+      title: "Voice shopping",
+      url: "/icons/virtual.svg",
+    },
+    {
+      id: 5,
+      title: "Immersive product catalog",
+      url: "/icons/virtual.svg",
+    },
+    {
+      id: 6,
+      title: "Virtual assistants and chatbots",
+      url: "/icons/virtual.svg",
+    },
+    {
+      id: 7,
+      title: "AI-powered smart pricing",
+      url: "/icons/virtual.svg",
+    },
+    {
+      id: 8,
+      title: "Predictive customer analytics",
+      url: "/icons/virtual.svg",
+    },
+  ],
+};
+
+export const ecommerceSection1 = {
+  url: "/images/integrations.webp",
+  heading: "Integrate all your systems",
+  subheading: "with custom ecommerce solutions",
+  content:
+    " Seamless integration of your ecommerce website with the right mix of back-office systems is what makes or breaks customer experience and real-time analytics. We have helped dozens of brands to build top digital ecosystems where apps work happily together, and are here to guide you in the right direction.",
+};
+
+export const ecommerceSection2 = {
+  url: "/images/adopting-new-tech.webp",
+  heading: "And adopting new tech",
+  subheading: "for ecommerce software solutions",
+  content:
+    " By empowering ecommerce development services with with battle-proven technologies, including Adobe Commerce (ex Magento), we help you push the boundaries with big ideas and bold changes to edge out the toughest competition.",
+};
+
+export const ecommerceSection3 = {
+  url: "/images/end-to-end.webp",
+  heading: "End-to-end ecommerce",
+  subheading: "software development services",
+  content:
+    " With more than a decade of experience and extensive cross-domain expertise, we offer a full suite of ecommerce development services to address your challenges no matter how big or small they are. From expert advice to comprehensive maintenance services, we have done it all, keeping our clients delighted.",
+};
+
+export const Ecommerce = {
+  section3: [
+    {
+      id: 1,
+      title: "ERP integration",
+      description: "for streamlined catalog management",
+    },
+    {
+      id: 2,
+      title: "CRM integration",
+      description: "to get instant access to customer information",
+    },
+    {
+      id: 3,
+      title: "Payment gateways",
+      description: "to process payments swiftly and securely",
+    },
+    {
+      id: 4,
+      title: "Analytics and reporting",
+      description: "for immediate business insights",
+    },
+    {
+      id: 5,
+      title: "Marketing automation",
+      description: "to expand your reach",
+    },
+    {
+      id: 6,
+      title: "POS",
+      description: "to eliminate manual entry of data while reducing errors",
+    },
+    {
+      id: 7,
+      title: "Online chats and help desks",
+      description: "for real-world support of customers",
+    },
+    {
+      id: 8,
+      title: "Other third party apps",
+      description: "to meet your unique business needs",
+    },
+  ],
+};
+
+export const Ecommerce1 = {
+  section3: [
+    {
+      id: 1,
+      url: "/icons/virtual.svg",
+      title: "Virtual fitting rooms",
+    },
+    {
+      id: 2,
+      title: "Product recommendations",
+      url: "/icons/virtual.svg",
+    },
+    {
+      id: 3,
+      title: "AR product modelling",
+      url: "/icons/virtual.svg",
+    },
+    {
+      id: 4,
+      title: "Voice shopping",
+      url: "/icons/virtual.svg",
+    },
+    {
+      id: 5,
+      title: "Immersive product catalog",
+      url: "/icons/virtual.svg",
+    },
+    {
+      id: 6,
+      title: "Virtual assistants and chatbots",
+      url: "/icons/virtual.svg",
+    },
+    {
+      id: 7,
+      title: "AI-powered smart pricing",
+      url: "/icons/virtual.svg",
+    },
+    {
+      id: 8,
+      title: "Predictive customer analytics",
+      url: "/icons/virtual.svg",
+    },
+  ],
+};
