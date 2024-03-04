@@ -4,7 +4,7 @@ type Props = {}
 
 const CareerOP = (props: Props) => {
   return (
-    <div className='flex flex-col gap-10 md:flex-row m-10'>
+    <div className='flex flex-col gap-10 md:flex-row m-10 lg:pl-20 lg:pr-20'>
     <div className='flex-1'>
         <h1>Opportunity and growth</h1>
         </div>

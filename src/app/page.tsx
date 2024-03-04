@@ -10,7 +10,6 @@ import Navbar from "@/components/Navbar/Navbar";
 import Latest from "@/containers/LatestProjectSec"
 import ThinkingSection from "@/containers/LatestThinkingSec";
 import Cardcomp1 from "@/containers/Card2";
-import Clients from "@/containers/ClientsSlide";
 
 export default function Home() {
 	return (
@@ -29,7 +28,7 @@ export default function Home() {
 			<FAQS />
 			<Card />
 			<CollaboratorCards />
-			<Cardcomp1 />
+			<Cardcomp1 /> */}
 			{/* <Contact /> */}
 		</>
 	);
