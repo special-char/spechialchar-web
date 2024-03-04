@@ -7,7 +7,7 @@ interface Props { }
 const EcommerceErp = (props: Props) => {
     return (
         <>
-            <div className="grid md:grid-cols-2 max-md:grid-cols-1 gap-10 px-container my-20 ">
+            <div className="grid md:grid-cols-2 max-md:grid-cols-1 gap-10 px-3 xl:px-60 my-20 ">
                 {Eco.section3.map((item) => (
                     <div key={item.id} className="border-b-2 border-b-orange">
                         <div className="text-3xl font-extrabold">{item.title}</div>
@@ -16,7 +16,7 @@ const EcommerceErp = (props: Props) => {
                         </div>
                     </div>
                 ))}
-            </div><div className="my-20 font-bold text-2xl px-container">
+            </div><div className="my-20 font-bold text-2xl px-3 xl:px-60">
                 <Button>Schedule a free consultation us &rarr;</Button>
             </div>
         </>

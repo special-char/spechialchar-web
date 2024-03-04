@@ -461,25 +461,25 @@ export const EdSection4 = {
 
 export const EcommerceSection1 = {
   url: "/images/integrations.webp",
-  heading: "Integrate all your systems",
-  subheading: "with custom ecommerce solutions",
-  content:
+  title1: "Integrate all your systems",
+  title2: "with custom ecommerce solutions",
+  description:
     " Seamless integration of your ecommerce website with the right mix of back-office systems is what makes or breaks customer experience and real-time analytics. We have helped dozens of brands to build top digital ecosystems where apps work happily together, and are here to guide you in the right direction.",
 };
 
 export const EcommerceSection2 = {
   url: "/images/adopting-new-tech.webp",
-  heading: "And adopting new tech",
-  subheading: "for ecommerce software solutions",
-  content:
+  title1: "And adopting new tech",
+  title2: "for ecommerce software solutions",
+  description:
     " By empowering ecommerce development services with with battle-proven technologies, including Adobe Commerce (ex Magento), we help you push the boundaries with big ideas and bold changes to edge out the toughest competition.",
 };
 
 export const EcommerceSection3 = {
   url: "/images/end-to-end.webp",
-  heading: "End-to-end ecommerce",
-  subheading: "software development services",
-  content:
+  title1: "End-to-end ecommerce",
+  title2: "software development services",
+  description:
     " With more than a decade of experience and extensive cross-domain expertise, we offer a full suite of ecommerce development services to address your challenges no matter how big or small they are. From expert advice to comprehensive maintenance services, we have done it all, keeping our clients delighted.",
 };
 
@@ -538,37 +538,37 @@ export const Eco1 = {
     {
       id: 2,
       title: "Product recommendations",
-      url: "/icons/virtual.svg",
+      url: "/icons/recommend.svg",
     },
     {
       id: 3,
       title: "AR product modelling",
-      url: "/icons/virtual.svg",
+      url: "/icons/virtual-reality.svg",
     },
     {
       id: 4,
       title: "Voice shopping",
-      url: "/icons/virtual.svg",
+      url: "/icons/shopping-bag.svg",
     },
     {
       id: 5,
       title: "Immersive product catalog",
-      url: "/icons/virtual.svg",
+      url: "/icons/products.svg",
     },
     {
       id: 6,
       title: "Virtual assistants and chatbots",
-      url: "/icons/virtual.svg",
+      url: "/icons/chatbot.svg",
     },
     {
       id: 7,
       title: "AI-powered smart pricing",
-      url: "/icons/virtual.svg",
+      url: "/icons/percentage.svg",
     },
     {
       id: 8,
       title: "Predictive customer analytics",
-      url: "/icons/virtual.svg",
+      url: "/icons/stock-market.svg",
     },
   ],
 };
@@ -683,6 +683,53 @@ export const Ecommerce1 = {
       id: 8,
       title: "Predictive customer analytics",
       url: "/icons/virtual.svg",
+    },
+  ],
+};
+
+export const AccCard = {
+  cards: [
+    {
+      id: 1,
+      value: "item-1",
+      question: "Full-cycle services",
+      answer:
+        "From strategic consulting to custom enterprise software, legacy system modernization, cloud migration, and DevOps, our talented teams deliver smashing solutions, putting your business priorities at the center of everything.",
+    },
+    {
+      id: 2,
+      value: "item-2",
+      question: "Top expertise",
+      answer:
+        "We stay at the forefront of the current and emerging technologies, delivering expertly crafted disruption in domains like AI/ML, Big Data, Extended Reality, and Cloud.",
+    },
+    {
+      id: 3,
+      value: "item-3",
+      question: "Quality management",
+      answer:
+        "We are big fans of continuous improvement and tools that allow us to scale and meet the highest quality requirements in software engineering. This comes with our equally strong focus on information security and regulatory compliance.",
+    },
+    {
+      id: 4,
+      value: "item-4",
+      question: "Agility",
+      answer:
+        "We live and breathe agile principles. They give us the speed to deliver value to your company whatever the challenge and adapt to your changing business needs and user requirements along the way.",
+    },
+    {
+      id: 5,
+      value: "item-5",
+      question: "Innovation",
+      answer:
+        "At our R&D labs, we research and incubate new technological concepts around your business challenges to build prototypes based on meaningful insights. This way we make sure you get a winning product that brings you on top of the competition.",
+    },
+    {
+      id: 6,
+      value: "item-6",
+      question: "Utmost flexibility",
+      answer:
+        "Whether you need first-rate talent to fill in skill gaps or take up your project at any stage, you are in the right place. Start with any number of FTEs and extend the team with extra professionals at any moment.",
     },
   ],
 };

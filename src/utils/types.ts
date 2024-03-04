@@ -7,6 +7,14 @@ export type CardType = {
   };
 };
 
+export type AccCardType = {
+  data: {
+    id: number;
+    value: string;
+    question: string;
+    answer: string;
+  };
+};
 export type CollaboratorCardType = {
   data: {
     id: number;
@@ -60,8 +68,8 @@ export type CareerSection2Type = {
 export type EdBannerType = {
   data: {
     title: string;
-    description:string;
-    url:string;
+    description: string;
+    url: string;
   };
 };
 
