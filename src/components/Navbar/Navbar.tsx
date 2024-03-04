@@ -151,7 +151,7 @@ const Navbar = () => {
                 <li className='hover:text-yellow list-none'>Case Studio</li>
 
               </div>
-              <Button className="bg-slate-600 p-2 mr-5">Contact Us</Button>
+              <Button className="bg-inherit p-2 mr-5">Contact Us</Button>
             </div>
           </div>
         )

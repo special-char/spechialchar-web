@@ -7,6 +7,13 @@ export type CardType={
     title: string;
     }
 }
+export type EdBannerType={
+  data:{
+    title:string;
+    description:string;
+    url:string;
+  }
+}
 
 export type CollaboratorCardType={
     data:{
@@ -72,7 +79,8 @@ export type CareerSection3Type = {
    
    url:string;
    
-
+  }
+}
 export type EdSectionType = {
   data:{
     id:number;
@@ -96,5 +104,22 @@ export type EdSectionType3 = {
     id:number;
     title:string;
     description:string;
+  }
+}
+
+export type BgBannerType = {
+  data:{
+    url: string;
+    title1: string;
+    title2: string;
+  }
+}
+
+export type BgYellowType = {
+  data:{
+    url: string;
+    title1: string;
+    title2: string;
+    description: string;
   }
 }
