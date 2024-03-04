@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import AboutBannerImg from "@/public/images/AboutBanner1.webp";
 
-const CaseBanner = () => {
+const AboutBanner = () => {
   return (
     <main className="bg-orange relative overflow-hidden ">
       <Image
@@ -36,4 +36,4 @@ const CaseBanner = () => {
   );
 };
 
-export default CaseBanner;
+export default AboutBanner;
