@@ -7,20 +7,19 @@ import Card from "@/containers/Card";
 import FAQS from "@/containers/FAQ";
 import CollaboratorCards from "@/containers/CollaboratorCard";
 import Navbar from "@/components/Navbar/Navbar";
-import Latest from "@/containers/LatestProjectSec"
+import Latest from "@/containers/LatestProjectSec";
 import ThinkingSection from "@/containers/LatestThinkingSec";
 import Cardcomp1 from "@/containers/Card2";
 
 export default function Home() {
-	return (
-		<>
-
-			{/* <HomeBanner />
+  return (
+    <>
+      {/* <HomeBanner />
 			<Contact/> */}
-			{/* <Card /> */}
-			{/* <Cardcomp/> */}
-			{/* <FAQS/> */}
-			{/* <WebBanner2/> */}
+      {/* <Card /> */}
+      {/* <Cardcomp/> */}
+      {/* <FAQS/> */}
+      {/* <WebBanner2/> */}
 
 
 			<HomeBanner />

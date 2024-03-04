@@ -1,27 +1,27 @@
 .default {
-	@apply bg-blue text-white hover:bg-sky hover:text-black;
+  @apply bg-blue text-white hover:bg-black;
 }
 .outline {
-	@apply border border-primary text-primary bg-transparent hover:bg-primary/10;
+  @apply border border-primary text-primary bg-transparent hover:bg-primary/10;
 }
 .secondary {
-	@apply bg-secondary text-primary hover:bg-secondary/80;
+  @apply bg-secondary text-primary hover:bg-secondary/80;
 }
 .ghost {
-	@apply hover:bg-primary/10 text-primary;
+  @apply hover:bg-primary/10 text-primary;
 }
 .link {
-	@apply text-primary underline-offset-4 hover:underline;
+  @apply text-primary underline-offset-4 hover:underline;
 }
 .md {
-	@apply h-10 px-4 py-2;
+  @apply h-10 px-2 py-6;
 }
 .sm {
-	@apply h-9 rounded-md px-3;
+  @apply h-9 rounded-md px-3;
 }
 .lg {
-	@apply h-14 rounded-md px-6;
+  @apply h-14 rounded-md px-6;
 }
 .icon {
-	@apply h-10 w-10 p-2;
+  @apply h-10 w-10 p-2;
 }

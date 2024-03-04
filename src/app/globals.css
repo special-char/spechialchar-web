@@ -3,130 +3,130 @@
 @import "tailwindcss/utilities";
 
 @layer base {
-	:root {
-		/* --color-<colorname>: <red> <green> <blue>; */
-		--color-primary: 59 93 80;
-		--color-secondary: 220 229 228;
-		--color-blue: 16 27 57 ;
-		--color-darkblue: 12 15 25 ;
-		--color-red: 214 50 40 ;
-		--color-white: 255 255 255;
-		--color-black: 0 0 0;
-		--color-yellow: 255 219 59 ;
-		--color-orange: 242 170 76 ;
-		--color-sky: 137 207 240;
-		--color-gray: 107 114 128;
-	}
+  :root {
+    /* --color-<colorname>: <red> <green> <blue>; */
+    --color-primary: 59 93 80;
+    --color-secondary: 220 229 228;
+    --color-blue: 68 90 236;
+    --color-darkblue: 12 15 25;
+    --color-red: 214 50 40;
+    --color-white: 255 255 255;
+    --color-black: 0 0 0;
+    --color-yellow: 255 219 59;
+    --color-orange: 242 170 76;
+    --color-sky: 137 207 240;
+    --color-gray: 107 114 128;
+  }
 
-	html {
-		scroll-behavior: smooth;
-	}
+  html {
+    scroll-behavior: smooth;
+  }
 
-	header,
-	footer,
-	section {
-		@apply px-container;
-	}
+  header,
+  footer,
+  section {
+    @apply px-container;
+  }
 
-	section {
-		@apply py-10;
-	}
+  section {
+    @apply py-10;
+  }
 
-	body {
-		@apply font-sans overflow-x-hidden;
-	}
+  body {
+    @apply font-sans overflow-x-hidden;
+  }
 
-	/* ------------ typography starts ------------ */
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6 {
-		@apply mb-2;
-	}
+  /* ------------ typography starts ------------ */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply mb-2;
+  }
 
-	h1 {
-		@apply text-heading1;
-	}
-	h2 {
-		@apply text-heading2;
-	}
-	h3 {
-		@apply text-heading3;
-	}
-	h4 {
-		@apply text-heading4;
-	}
-	h5 {
-		@apply text-heading5;
-	}
-	h6 {
-		@apply text-heading6;
-	}
+  h1 {
+    @apply text-heading1;
+  }
+  h2 {
+    @apply text-heading2;
+  }
+  h3 {
+    @apply text-heading3;
+  }
+  h4 {
+    @apply text-heading4;
+  }
+  h5 {
+    @apply text-heading5;
+  }
+  h6 {
+    @apply text-heading6;
+  }
 
-	p.subtitle1 {
-		@apply text-subtitle1;
-	}
-	p.subtitle2 {
-		@apply text-subtitle2;
-	}
-	p {
-		@apply text-body2;
-	}
-	p.small,
-	p.caption {
-		@apply text-caption1;
-	}
-	p.sm {
-		@apply text-caption2;
-	}
-	p.large,
-	p.body1 {
-		@apply text-body1;
-	}
+  p.subtitle1 {
+    @apply text-subtitle1;
+  }
+  p.subtitle2 {
+    @apply text-subtitle2;
+  }
+  p {
+    @apply text-body2;
+  }
+  p.small,
+  p.caption {
+    @apply text-caption1;
+  }
+  p.sm {
+    @apply text-caption2;
+  }
+  p.large,
+  p.body1 {
+    @apply text-body1;
+  }
 
-	button,
-	a {
-		@apply text-btn;
-	}
-	/* ------------ typography ends ------------ */
+  button,
+  a {
+    @apply text-btn;
+  }
+  /* ------------ typography ends ------------ */
 
-	input,
-	textarea,
-	select {
-		@apply block w-full rounded-md border-0 outline-none py-2 px-3;
-	}
+  input,
+  textarea,
+  select {
+    @apply block w-full rounded-md border-0 outline-none py-2 px-3;
+  }
 
-	input[type="checkbox"],
-	input[type="radio"] {
-		@apply border-none w-max shadow-none accent-primary ring-0;
-	}
+  input[type="checkbox"],
+  input[type="radio"] {
+    @apply border-none w-max shadow-none accent-primary ring-0;
+  }
 }
 
 @layer utilities {
-	input::-webkit-outer-spin-button,
-	input::-webkit-inner-spin-button {
-		-webkit-appearance: none;
-		margin: 0;
-	}
-	/* Works for Firefox */
-	input[type="number"] {
-		-moz-appearance: textfield;
-	}
-	/* ------------------- hide scrollbar starts ------------------- */
-	/* Chrome, Safari and Opera */
-	.no-scrollbar::-webkit-scrollbar {
-		display: none;
-	}
-	.no-scrollbar::-webkit-scrollbar-track {
-		background-color: transparent;
-	}
-	.no-scrollbar {
-		-ms-overflow-style: none;
-		/* IE and Edge */
-		scrollbar-width: none;
-		/* Firefox */
-	}
-	/* ------------------- hide scrollbar ends ------------------- */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  /* Works for Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  /* ------------------- hide scrollbar starts ------------------- */
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+  /* ------------------- hide scrollbar ends ------------------- */
 }
