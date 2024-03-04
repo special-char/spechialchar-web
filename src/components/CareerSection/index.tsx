@@ -18,8 +18,8 @@ const CareerSection = ({ data }: CareerSectionType) => {
             </div>
             <div className="md:w-1/2 lg:pr-20 ">
                 <h1>Who we are</h1>
-                <h5 className='text-xl mt-4 md:mt-10 lg:text-xl '>ITRex is more than 300 technology professionals based in Poland, Georgia, Ukraine, Armenia, and the USA. We write software, craft strategies, and give expert advice.</h5>
-                <h5 className='text-xl py-1 md:mt-10'>We solve problems and drive growth for our clients. They’ve included big names like Walmart, Take a Swing at Cancer, Procter & Gamble, Dun & Bradstreet, Warner Bros., 21st Century Fox, and the Dollar Shave Club.</h5>
+                <div className='text-xl mt-4 md:mt-10 lg:text-xl '>ITRex is more than 300 technology professionals based in Poland, Georgia, Ukraine, Armenia, and the USA. We write software, craft strategies, and give expert advice.</div>
+                <div className='text-xl py-1 md:mt-10'>We solve problems and drive growth for our clients. They’ve included big names like Walmart, Take a Swing at Cancer, Procter & Gamble, Dun & Bradstreet, Warner Bros., 21st Century Fox, and the Dollar Shave Club.</div>
             </div>
         </div>
          
