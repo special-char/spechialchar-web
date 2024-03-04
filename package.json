@@ -10,6 +10,7 @@
 	},
 	"dependencies": {
 		"@headlessui/react": "^1.7.18",
+		"@radix-ui/react-accordion": "^1.1.2",
 		"formic": "^0.0.10",
 		"formik": "^2.4.5",
 		"next": "14.1.0",

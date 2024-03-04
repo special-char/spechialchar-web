@@ -26,7 +26,7 @@ const HomeBanner = (props: Props) => {
             >
                 Your browser does not support the video tag.
             </video>
-            <div className="relative z-0 xl:pl-48 xl:pr-48 p-5 text-orange h-full flex  flex-wrap flex-col items-left justify-center xl:text-6xl font-bold text-4xl">
+            <div className="relative xl:px-60 z-0 px-3  p-5 text-orange h-full flex  flex-wrap flex-col items-left justify-center xl:text-6xl font-bold text-4xl">
                 Next-gen enterprise
                 <div className="text-white">
                     software development company

@@ -22,9 +22,9 @@ export default function Home() {
 			{/* <FAQS/> */}
 			{/* <WebBanner2/> */}
 
-			
+
 			<HomeBanner />
-			<Clients/>
+
 			<FAQS />
 			<Card />
 			<CollaboratorCards />
