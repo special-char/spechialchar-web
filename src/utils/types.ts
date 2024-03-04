@@ -98,3 +98,12 @@ export type EdSectionType3 = {
     description:string;
   }
 }
+
+export type Ecommerce = {
+  data:{
+    section3:string;
+    id:number;
+    title:string;
+    url:string;
+  }
+}
