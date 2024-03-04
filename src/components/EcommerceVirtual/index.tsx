@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../Button";
-import { Ecommerce1 } from "@/lib/constData";
+import { Eco1 } from "@/lib/constData";
 import Image from "next/image";
 interface Props { }
 
@@ -8,7 +8,7 @@ const EcommerceVirtual = (props: Props) => {
     return (
         <>
             <div className="grid md:grid-cols-2 max-md:grid-cols-1 gap-10 px-container my-20 ">
-                {Ecommerce1.section3.map((item) => (
+                {Eco1.section3.map((item) => (
 
                     <div key={item.id} className="flex gap-10">
                         <Image src={item.url} alt="" height={50} width={50} />
