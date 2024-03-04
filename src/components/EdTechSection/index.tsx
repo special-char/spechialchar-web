@@ -7,7 +7,7 @@ interface Props {}
 
 const EdSection1 = ({ data }: { data: EdSectionType[] }) => {
   return (
-    <section>
+    <section >
       <div className="flex flex-wrap w-[75%]">
         <div className="text-4xl font-extrabold">
           We craft educational software for every need

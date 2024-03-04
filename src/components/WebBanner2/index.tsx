@@ -22,7 +22,7 @@ function WebBanner2() {
         </div>
       </section>
 
-      <div className="bg-yellow-300 p-8 lg:p-12">
+      <div className="bg-yellow p-8 lg:p-12">
         <div className="lg:px-2 lg:py-4 lg:pr-60">
           <p className="font-medium  text-xl">
             As a top-tier provider of custom web application development
