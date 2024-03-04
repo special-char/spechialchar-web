@@ -16,9 +16,22 @@ const Cardcomp = () => {
   return (
     <Swiper
       onSwiper={setSwiperRef}
-      slidesPerView={3}
+      breakpoints={{
+        640: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 2,
+        },
+        1280: {
+          slidesPerView: 2,
+        },
+      }}
       centeredSlides={true}
-      spaceBetween={30}
+      spaceBetween={50}
       pagination={{
         type: "fraction",
       }}
@@ -58,29 +71,31 @@ const Cardcomp = () => {
         ))}
         </div></div> */}
 
-      {/* <main className=" flex flex-wrap items-center overflow-x-auto ">    
-      {Card.card.map((item) => (
-        <div key={item.id} className="w-full md:w-1/2  ">
-          <SwiperSlide>
-          <div className="p-4">
-            <Image
-              src={item.url}
-              className=" w-full hover:duration-300 hover:scale-105 aspect-video object-cover rounded-md"
-              alt="image"
-              height={450}
-              width={600}
-            />
-            <h1 className="text-4xl hover:text-blue sm:text-2xl font-bold mb-2 mt-4">
-              {item.title}
-            </h1>
-            <div className="text-gray mb-4 text-2xl">{item.description}</div>
+      <main className=" flex flex-col items-center overflow-x-auto ">
+        {Card.card.map((item) => (
+          <div key={item.id} className="w-full md:w-1/2  ">
+            <SwiperSlide>
+              <div className="p-4">
+                <Image
+                  src={item.url}
+                  className=" w-full hover:duration-300 hover:scale-105 aspect-video object-cover rounded-md"
+                  alt="image"
+                  height={450}
+                  width={600}
+                />
+                <h1 className="text-4xl hover:text-blue sm:text-2xl font-bold mb-2 mt-4">
+                  {item.title}
+                </h1>
+                <div className="text-gray mb-4 text-2xl">
+                  {item.description}
+                </div>
+              </div>
+            </SwiperSlide>
           </div>
-          </SwiperSlide>
-        </div>
-      ))}
-    </main> */}
+        ))}
+      </main>
 
-      <section className="m-4 md:grid-cols-2 ">
+      {/* <section className="m-4 md:grid-cols-2 ">
         <div className="pb-12">
           <h4 className="font-semibold">Latest Project</h4>
         </div>
@@ -110,7 +125,7 @@ const Cardcomp = () => {
             Start your innovation journey
           </button>
         </div>
-      </section>
+      </section> */}
     </Swiper>
   );
 };

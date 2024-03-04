@@ -20,7 +20,7 @@ const Footer = (props: Props) => {
     <footer className="z-10 w-full bg-black">
       <div className="bg-black text-white w-full grid grid-cols-1 gap-16 sm:p-14">
         <div className="flex flex-wrap lg:gap-48 md:gap-24 max-sm:gap-24">
-          <div >
+          <div>
             <Logo />
           </div>
           <div className="flex font-semibold">
@@ -31,16 +31,16 @@ const Footer = (props: Props) => {
           </div>
         </div>
         <div className="flex flex-wrap lg:gap-48 md:gap-24 max-sm:gap-24">
-          <div >
+          <div>
             <div>Office:</div>
-            <div className="text-white">Aliso Viejo, CA</div>
-            <div className="text-white">Warsaw,PL</div>
-            <div className="text-white">Kyiv,UA</div>
+            <div className="text-white">B-604/605,</div>
+            <div className="text-white">GaneshGlory 11,</div>
+            <div className="text-white">Jagatpur Road</div>
           </div>
           <div className="flex flex-col gap-3">
             <div className="flex flex-col">
-              <div>Hello@itrexgroup.com</div>
-              <div>+12134367785</div>
+              <div>contact@thespecialcharacter.com</div>
+              <div>+91 76000 96432 / 33</div>
             </div>
             <div className="flex gap-8">
               <div>
@@ -53,18 +53,20 @@ const Footer = (props: Props) => {
                   <Instagram />
                 </Link>
               </div>
-              <div>
+              <div className="pt-1">
                 <Link href={"#"}>
                   <Youtube />
                 </Link>
               </div>
               <div>
-                <Link href={"#"}>
+                <Link
+                  href={"https://www.linkedin.com/company/thespecialcharacter/"}
+                >
                   <Linkedin />
                 </Link>
               </div>
               <div>
-                <Link href={"#"}>
+                <Link href={"https://twitter.com/TheSpecialChar"}>
                   <Twitter />
                 </Link>
               </div>
@@ -77,7 +79,6 @@ const Footer = (props: Props) => {
               <Link href={"#"}>Privacy Policy</Link>
             </div>
             <div className="">@2024 Itrex</div>
-
           </div>
           <div className="flex overflow-x-auto gap-3">
             <div>
