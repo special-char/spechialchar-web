@@ -13,11 +13,11 @@ const CareerSection3 = ({ data }: CareerSection3Type) => {
                     blame?</h1>
                 <div className='flex flex-col sm:flex-row'>
                     <div className='text-sm sm:text-base max-md:text-lg lg:text-xl xl:text-2xl border-r-2 border-yellow-400  md:pl-12'>
-                        <h1 className='mb-6'>Does this sound
-                            overly lofty?</h1>
-                        <h1 className='mb-6'>We’re definitely
-                            not perfect.</h1>
-                        <h1 className='mb-6'>We make mistakes.</h1>
+                        <h6 className='mb-6'>Does this sound
+                            overly lofty?</h6>
+                        <h6 className='mb-6'>We’re definitely
+                            not perfect.</h6>
+                        <h6 className='mb-6'>We make mistakes.</h6>
                     </div>
 
                     <div className='text-xs sm:text-sm max-md:text-base lg:text-lg xl:text-xl pl-4 md:pl-12'>
