@@ -80,37 +80,7 @@ const Cardcomp = () => {
       ))}
     </main> */}
 
-      <section className="m-4 md:grid-cols-2 ">
-        <div className="pb-12">
-          <h4 className="font-semibold">Latest Project</h4>
-        </div>
-        <div className="sm:grid sm:w-1/2 lg:w-2/5">
-          <div className="lg:p-4">
-            <Image
-              src={project}
-              className="w-full hover:duration-300 hover:scale-105 aspect-square object-cover hover:rounded-md sm:aspect-video sm:object-cover"
-              alt="image"
-              height={450}
-              width={600}
-            />
-          </div>
-          <div className="pt-4">
-            <h6>AI-based enterprise software for No.1 retailer</h6>
-          </div>
-          <div>
-            <span className="text-gray-400 font-light text-sm">
-              Self-service analytics enabled by AI algorithms empowers 3 million
-              users with instant actionable insights.
-            </span>
-          </div>
-        </div>
-        <div className="pt-8  grid gap-6 md:grid-cols-2 md:my-12">
-          <a>View all cases </a>
-          <button className="w-full justify-center bg-indigo-600 px-4 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-            Start your innovation journey
-          </button>
-        </div>
-      </section>
+
     </Swiper>
   );
 };
