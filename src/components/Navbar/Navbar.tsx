@@ -123,7 +123,7 @@ const Navbar = () => {
                 }}>
                   <ul
                     onClick={() => setDropdownOpen(false)}
-                    className="relative lg:px-80 2xl:left-[680px] pb-10 pt-4 cursor-pointer  space-y-4"
+                    className="relative lg:left-80 2xl:left-[680px] pb-10 pt-4 cursor-pointer  space-y-4"
                   >
                     <li>Edtech & Elearning</li>
                     <li>Ecommerce</li>
