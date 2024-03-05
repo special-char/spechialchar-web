@@ -24,11 +24,11 @@ export default function Home() {
 
 			
 			<HomeBanner />
-			<Clients/>
+			{/* <Clients/> */}
 			<FAQS />
-			<Card />
+			{/* <Card /> */}
 			<CollaboratorCards />
-			<Cardcomp1 /> */}
+			<Cardcomp1 />
 			{/* <Contact /> */}
 		</>
 	);
