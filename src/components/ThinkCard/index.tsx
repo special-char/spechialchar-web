@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { Card1 } from "@/lib/constData";
 import { Card1Type } from "@/utils/types";
+import Arrow from '@/public/icons/angle-circle-arrow-right-icon.svg'
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -65,6 +66,7 @@ const ThinkCard = ({ data }: { data: Card1Type[] }) => {
             ))}
           </main>
         </Swiper>
+        <a className="flex gap-2 pb-12 items-center font-bold">View more insights <Arrow/></a>
       </div>
       
       </>
