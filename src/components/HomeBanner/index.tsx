@@ -26,7 +26,7 @@ const HomeBanner = (props: Props) => {
             >
                 Your browser does not support the video tag.
             </video>
-            <section className="relative  px-container z-0   p-5 text-orange h-full flex  flex-wrap flex-col items-left justify-center xl:text-6xl font-bold text-4xl">
+            <div className="relative  px-container z-0   pt-40 text-orange h-full flex  flex-wrap flex-col items-left justify-center xl:text-6xl font-bold text-4xl">
                 Next-gen enterprise
                 <div className="text-white">
                     software development company
@@ -35,7 +35,7 @@ const HomeBanner = (props: Props) => {
                     <div className='pt-1'>  We think <span className='text-orange'>{values[index]}</span></div>
                     <div className=''><Button className='md:w-72 w-60 '>Let's Talk</Button></div>
                 </div>
-            </section>
+            </div>
 
         </main>
     )
