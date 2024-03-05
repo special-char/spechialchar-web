@@ -16,9 +16,22 @@ const Cardcomp = () => {
   return (
     <Swiper
       onSwiper={setSwiperRef}
-      slidesPerView={3}
+      breakpoints={{
+        640: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 2,
+        },
+        1280: {
+          slidesPerView: 2,
+        },
+      }}
       centeredSlides={true}
-      spaceBetween={30}
+      spaceBetween={50}
       pagination={{
         type: "fraction",
       }}
@@ -58,29 +71,61 @@ const Cardcomp = () => {
         ))}
         </div></div> */}
 
-      {/* <main className=" flex flex-wrap items-center overflow-x-auto ">    
-      {Card.card.map((item) => (
-        <div key={item.id} className="w-full md:w-1/2  ">
-          <SwiperSlide>
-          <div className="p-4">
+      <main className=" flex flex-col items-center overflow-x-auto ">
+        {Card.card.map((item) => (
+          <div key={item.id} className="w-full md:w-1/2  ">
+            <SwiperSlide>
+              <div className="p-4">
+                <Image
+                  src={item.url}
+                  className=" w-full hover:duration-300 hover:scale-105 aspect-video object-cover rounded-md"
+                  alt="image"
+                  height={450}
+                  width={600}
+                />
+                <h1 className="text-4xl hover:text-blue sm:text-2xl font-bold mb-2 mt-4">
+                  {item.title}
+                </h1>
+                <div className="text-gray mb-4 text-2xl">
+                  {item.description}
+                </div>
+              </div>
+            </SwiperSlide>
+          </div>
+        ))}
+      </main>
+
+      {/* <section className="m-4 md:grid-cols-2 ">
+        <div className="pb-12">
+          <h4 className="font-semibold">Latest Project</h4>
+        </div>
+        <div className="sm:grid sm:w-1/2 lg:w-2/5">
+          <div className="lg:p-4">
             <Image
-              src={item.url}
-              className=" w-full hover:duration-300 hover:scale-105 aspect-video object-cover rounded-md"
+              src={project}
+              className="w-full hover:duration-300 hover:scale-105 aspect-square object-cover hover:rounded-md sm:aspect-video sm:object-cover"
               alt="image"
               height={450}
               width={600}
             />
-            <h1 className="text-4xl hover:text-blue sm:text-2xl font-bold mb-2 mt-4">
-              {item.title}
-            </h1>
-            <div className="text-gray mb-4 text-2xl">{item.description}</div>
           </div>
-          </SwiperSlide>
+          <div className="pt-4">
+            <h6>AI-based enterprise software for No.1 retailer</h6>
+          </div>
+          <div>
+            <span className="text-gray-400 font-light text-sm">
+              Self-service analytics enabled by AI algorithms empowers 3 million
+              users with instant actionable insights.
+            </span>
+          </div>
         </div>
-      ))}
-    </main> */}
-
-
+        <div className="pt-8  grid gap-6 md:grid-cols-2 md:my-12">
+          <a>View all cases </a>
+          <button className="w-full justify-center bg-indigo-600 px-4 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+            Start your innovation journey
+          </button>
+        </div>
+      </section> */}
     </Swiper>
   );
 };

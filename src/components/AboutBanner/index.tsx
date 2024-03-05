@@ -1,18 +1,16 @@
-
-
 import React from "react";
 import Image from "next/image";
 import AboutBannerImg from "@/public/images/AboutBanner1.webp";
 
 const AboutBanner = () => {
   return (
-    <main className="bg-orange relative overflow-hidden ">
+    <main className="bg-orange relative overflow-hidden -z-10">
       <Image
         src={AboutBannerImg}
         alt="image"
         height={800}
         width={800}
-        className="object-fit absolute right-0 sm:right-12 md:right-24 lg:right-48 -top-0 sm:-top-12 md:-top-24 lg:-top-48 "
+        className="object-fit absolute right-0 sm:right-12 md:right-24 lg:right-24 -top-0 sm:-top-12 md:-top-24 lg:-top-48 -z-10"
       />
 
       <div className="p-4 sm:p-4 md:p-16 lg:p-20 xl:p-32 2xl:p-40 flex items-center mt-11 h-screen sm:h-auto ">
@@ -31,7 +29,6 @@ const AboutBanner = () => {
       </h1>
         </div>
       </div>
-
     </main>
   );
 };
