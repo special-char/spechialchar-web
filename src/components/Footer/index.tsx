@@ -17,9 +17,9 @@ interface Props { }
 
 const Footer = (props: Props) => {
   return (
-    <div className="z-10 w-full bg-black px-container">
+    <div className="z-10 w-full px-container lg:h-screen lg:flex lg:justify-center lg:items-center  bg-black ">
       <div className="bg-black text-white w-full grid grid-cols-1 gap-16 sm:py-14">
-        <div className="flex flex-wrap lg:gap-48 md:gap-24 max-sm:gap-24">
+        <div className="flex flex-wrap lg:gap-y-60 md:gap-24 sm:gap-24">
           <div>
             <Logo />
           </div>
@@ -83,15 +83,6 @@ const Footer = (props: Props) => {
           <div className="flex overflow-x-auto gap-3">
             <div>
               <Iso />
-            </div>
-            <div>
-              <Dqs />
-            </div>
-            <div>
-              <Clutch />
-            </div>
-            <div>
-              <Clutch2 />
             </div>
             <div>
               <Upwork />
