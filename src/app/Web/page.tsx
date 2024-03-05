@@ -1,8 +1,10 @@
-import WebIcon from '@/components/CustomeWeb/WebIcon/WebIcon';
-import WebLanding from '@/components/CustomeWeb/WebLanding/WebLanding';
-import WebMain from '@/components/CustomeWeb/WebMain/WebMain';
-import Webswiper from '@/components/CustomeWeb/Webswiper/Webswiper';
 import React from 'react'
+import WebIcon from '@/components/WebPage/WebIcon/WebIcon';
+import WebLanding from '@/components/WebPage/WebLanding/WebLanding';
+import WebMain from '@/components/WebPage/WebMain/WebMain';
+import Webswiper from '@/components/WebPage/Webswiper/Webswiper';
+import WebContactus from '@/components/WebPage/WebContactus/WebContactus';
+
 
 interface Props {
     
@@ -13,6 +15,7 @@ const Webpage = (props: Props) => {
         <>
         <WebMain/>
         <WebIcon/>
+        <WebContactus/>
         <WebLanding/>
         <Webswiper/>
         </>
