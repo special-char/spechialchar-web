@@ -6,8 +6,8 @@ import { services} from '@/lib/constData'
 
 const WebIcon = () => {
   return (
-    <section className='h-full w-full my-10'>
-      <div className='mx-4 grid gap-y-4 md:mx-6 2xl:my-10  2xl:gap-y-6 2xl:mx-0'>
+    <section className='h-full w-full '>
+      <div className='mx-4 grid gap-y-4   2xl:gap-y-6 2xl:mx-0'>
         <h6 className='text-2xl font-bold md:pr-10 lg:pr-20 2xl:text-[32px] 2xl:pr-0'>Our custom web development services help you break away from the ordinary</h6>
         <div className='text-sm md:text-lg md:pr-12 lg:pr-64 font-medium 2xl:text-2xl 2xl:pr-80'>
           Building successful web solutions since 2009, we have the expertise to build something great for you, too. Whatever your challenge is, there would be few things in the web development world that we havent worked with. Tap our custom web development services to create seamless web experiences that captivate. Our ITRex team delivers:
