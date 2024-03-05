@@ -7,7 +7,7 @@ type Props = {};
 
 const Collaborator = ({ data }: { data: CollaboratorCardType[] }) => {
   return (
-    <div className="bg-black grid grid-cols-1 md:grid-cols-2 sm:grid-col-1  gap-8 p-2 lg:p-40 ">
+    <div className="px-container bg-black grid grid-cols-1 md:grid-cols-2 sm:grid-col-1  gap-8 py-2 lg:py-40 ">
       {CollaboratorCard.card.map((item) => (
         <div key={item.id} className=''>
           <div className='md:flex-row flex justify-center flex-col gap-8 '>
