@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import NavbarLogo from "@/public/NavbarLogo.png";
 import { TiArrowSortedDown, TiThMenu } from "react-icons/ti";
-import ArrowUp from '@/public/icons/triangle-top-arrow-icon.svg'
+import ArrowUp from '@/public/icons/triangle-bottom-arrow-icon.svg'
 import Arrow from "@/public/icons/arrowdown.svg";
 import Button from "../Button";
 import Facebook from "@/public/icons/facebook.svg";
@@ -23,7 +23,7 @@ const Navbar = () => {
     setActiveDropdown(subItem);
     setDropdownOpen(true);
   };
-  const openDropdown = (item) => {
+  const openDropdown = (item: string | React.SetStateAction<null>) => {
     setActiveDropdown(item);
     setDropdownOpen(true);
   };
@@ -50,25 +50,25 @@ const Navbar = () => {
 
   return (
     <section
-      className="h-20 2xl:h-10  w-full fixed z-10 bg-black text-white p-4  2xl:pt-6 px-container"
+      className="h-20 lg:h-10 w-full fixed md:px-12  bg-black text-white p-4  lg:px-container"
       style={{
         backgroundColor:
           scrollPosition > 100 ? "rgba(0, 0, 0, 1)" : "rgba(0, 0, 0, 0)",
       }}
       onMouseLeave={closeDropdown}
     >
-      <div className="flex justify-between ">
-        <div className="2xl:pb-3 relative 2xl:bottom-2">
-          <Image src={NavbarLogo} alt="Navbar" className="" />
+      <div className="flex justify-between items-center overflow-x-hidden">
+        <div className="relative">
+          <Image src={NavbarLogo} alt="Navbar" className="h-7 w-16 md:w-20 md:h-9 " />
         </div>
         <div className="lg:hidden ">
           <TiThMenu
-            className="text-white pt-3   cursor-pointer"
-            size={40}
+            className="text-white cursor-pointer "
+            size={30}
             onClick={toggleMobileMenu}
           />
         </div>
-        <div className="hidden lg:flex justify-center gap-x-6 2xl:pt-2  ">
+        <div className="hidden lg:flex justify-center gap-x-6 ">
           <li
             onMouseEnter={() => openDropdown("Service")}
             className="flex cursor-pointer gap-2  "
@@ -83,10 +83,13 @@ const Navbar = () => {
             </span>{" "}
             {activeDropdown === "Service" && (
               <div className="absolute left-0 top-16  bg-inherit w-full z-10 bg-black ">
-                <div className="bg-black  ">
+                <div className="bg-black  "    style={{
+        backgroundColor:
+          scrollPosition > 100 ? "rgba(0, 0, 0, 1)" : "rgba(0, 0, 0, 0)",
+      }}>
                   <ul
                     onClick={() => setDropdownOpen(false)}
-                    className="relative left-[570px] pb-10 pt-4 cursor-pointer space-y-4 "
+                    className="relative lg:left-[210px] 2xl:left-[570px] pb-10 pt-4 cursor-pointer space-y-4 "
                   >
                     <li>Mobile</li>
                     <li>Web</li>
@@ -114,10 +117,13 @@ const Navbar = () => {
             </span>
             <div className="absolute top-16  bg-inherit  z-10 w-full left-0">
               {activeDropdown === "Industry" && (
-                <div className="bg-black">
+                <div className="bg-black"    style={{
+                  backgroundColor:
+                    scrollPosition > 100 ? "rgba(0, 0, 0, 1)" : "rgba(0, 0, 0, 0)",
+                }}>
                   <ul
                     onClick={() => setDropdownOpen(false)}
-                    className="relative left-[680px] pb-10 pt-4 cursor-pointer  space-y-4"
+                    className="relative lg:px-80 2xl:left-[680px] pb-10 pt-4 cursor-pointer  space-y-4"
                   >
                     <li>Edtech & Elearning</li>
                     <li>Ecommerce</li>
@@ -140,10 +146,13 @@ const Navbar = () => {
             </span>
             <div className="absolute top-16  bg-inherit  z-10 w-full left-0">
               {activeDropdown === "Company" && (
-                <div className="bg-black">
+                <div className="bg-black"   style={{
+                  backgroundColor:
+                    scrollPosition > 100 ? "rgba(0, 0, 0, 1)" : "rgba(0, 0, 0, 0)",
+                }}>
                   <ul
                     onClick={() => setDropdownOpen(false)}
-                    className="relative left-[800px] pb-10 pt-4  cursor-pointer  space-y-4"
+                    className="relative left-[440px] 2xl:left-[800px] pb-10 pt-4  cursor-pointer  space-y-4"
                   >
                     <li>About</li>
                     <li>Careers</li>
@@ -168,7 +177,7 @@ const Navbar = () => {
       </div>
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden fixed top-0 left-0 w-full h-screen bg-black bg-opacity-100   px-8   pt-4">
+        <div className="lg:hidden fixed top-0 left-0 w-full h-full md:px-12 lg:px-container bg-black bg-opacity-100 px-6 pt-6 overflow-y-scroll no-scrollbar">
           <div className="text-white text-2xl flex flex-col  ">
             <div className="flex justify-between">
               <div>
@@ -321,12 +330,12 @@ const Navbar = () => {
               Contact Us
             </Button>
 
-            <div className="py-10">
+            <div className="py-7">
               <div className="flex flex-col  ">
                 <a className="text-xl">hello@itrexgroup.com</a>
                 <a className="text-xl">+1 213 436 7785</a>
               </div>
-              <div className="flex justify-between pt-10">
+              <div className="flex justify-between pt-5">
               <div>
                 <Link href={"#"}>
                   <Facebook />
