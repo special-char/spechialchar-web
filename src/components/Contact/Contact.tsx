@@ -18,8 +18,8 @@ const Contact = () => {
     });
 
     return (
-        <section className="h-full w-full bg-black text-white" style={{backgroundImage: `url(/images/ContactUsImage.webp)`}}>
-            <div className="m-4 md:m-10 lg:m-12 2xl:m-20 ">
+        <section className="h-full w-full bg-black text-white" style={{ backgroundImage: `url(/images/ContactUsImage.webp)` }}>
+            <div className="my-4 md:my-10 lg:my-12 2xl:my-20 ">
                 <h4 className='md:py-2 md:pb-14 md:text-3xl lg:text-5xl '>Contact Us</h4>
                 <Formik
                     initialValues={{ name: '', email: '', phone: '', project: '', privacy: false }}
@@ -83,7 +83,7 @@ const Contact = () => {
 
                                 <div className='flex gap-x-2 '>
                                     <div className=''>
-                                        <FileAttch  className="h-6 w-6 fill-yellow"/>
+                                        <FileAttch className="h-6 w-6 fill-yellow" />
                                     </div>
                                     <div>
                                         <h6 className='text-base md:text-sm'>
