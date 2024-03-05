@@ -6,8 +6,8 @@ import { LandingWeb } from '@/lib/constData';
 const WebLanding = () => {
   return (
     <section className='h-full w-full bg-white'>
-      <div className='mx-4  sm:mx-5 grid   '>
-        <div className='sm:grid sm:grid-cols-3 sm:gap-x-3 md:gap-x-4 lg:gap-x-3 grid gap-y-6 '>
+      <div className='mx-4  sm:mx-5 md:mx-6 grid  2xl:mx-0  '>
+        <div className='sm:grid sm:grid-cols-3 sm:gap-x-3 md:gap-x-4 lg:gap-x-3 flex flex-col gap-y-6 '>
 
         {LandingWeb.map((item, index) => (
           <div key={index}>
@@ -23,9 +23,9 @@ const WebLanding = () => {
           </div>
         ))}
         </div>
-        <div className="pt-6 hover:text-white ">
+        <div className="pt-6 2xl:py-6 2xl:pt-10 hover:text-white ">
           <button className="bg-blue hover:bg-black hover:text-white text-white text-xl  md:text-xl p-4  font-bold ">
-          Discuss your web app Development {" "}
+          Discuss your web app Development Project {" "}
             <span className="text-black hover:text-white ">&rarr; </span>
           </button>
         </div>
