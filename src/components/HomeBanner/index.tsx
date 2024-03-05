@@ -31,7 +31,7 @@ const HomeBanner = (props: Props) => {
                 <div className="text-white">
                     software development company
                 </div>
-                <div className="flex flex-wrap  justify-between  mt-32 text-3xl text-white">
+                <div className="flex flex-wrap  justify-between  mt-32 gap-10 text-3xl text-white">
                     <div className='pt-1'>  We think <span className='text-orange'>{values[index]}</span></div>
                     <div className=''><Button className='md:w-72 w-60 '>Let's Talk</Button></div>
                 </div>
