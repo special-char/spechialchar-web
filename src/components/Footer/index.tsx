@@ -13,12 +13,12 @@ import Clutch2 from "@/public/icons/clutch2.svg";
 import Upwork from "@/public/icons/upwork.svg";
 import Google from "@/public/icons/googlecloud.svg";
 
-interface Props {}
+interface Props { }
 
 const Footer = (props: Props) => {
   return (
-    <footer className="z-10 w-full bg-black">
-      <div className="bg-black text-white w-full grid grid-cols-1 gap-16 sm:p-14">
+    <div className="z-10 w-full bg-black px-container">
+      <div className="bg-black text-white w-full grid grid-cols-1 gap-16 sm:py-14">
         <div className="flex flex-wrap lg:gap-48 md:gap-24 max-sm:gap-24">
           <div>
             <Logo />
@@ -102,7 +102,7 @@ const Footer = (props: Props) => {
           </div>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 
