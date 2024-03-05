@@ -21,7 +21,7 @@ const FAQ = ({ data }: FAQCardType) => {
         }
     };
     return (
-        <div className="px-container py-5 justify-center items-center font-sans leading-relaxed bg-orange">
+        <div className="xl:px-60 px-3 py-5 justify-center items-center font-sans leading-relaxed bg-orange">
             <h3 className="  py-10  h-full flex  flex-wrap flex-col items-left justify-left md:text-4xl font-bold bg-orange text-2xl">How we can help you</h3>
             {FAQCard.cards?.map((item, index) => {
                 const isOpen = openIndexes.includes(index);

@@ -1,0 +1,47 @@
+/* .gridSection {
+  @apply grid md:grid-cols-[40%_1fr] bg-darkblue grid-cols-1 gap-4 items-center justify-center select-none min-h-[20vw];
+  & > .contentWrapper {
+    @apply flex flex-col gap-4;
+
+    & > .content {
+      @apply flex flex-col;
+
+      & > .heading {
+        @apply text-white  font-bold;
+      }
+      & > .description {
+        @apply text-white text-opacity-70 text-caption1;
+      }
+    }
+    & > .bannerButtons {
+      @apply flex gap-4;
+    }
+  }
+  & > .backgroundBannerImage {
+    @apply relative w-full aspect-[16/9];
+  }
+} */
+
+.gridSection {
+  @apply grid md:grid-cols-[40%_1fr] bg-darkblue grid-cols-1 gap-4 items-center select-none min-h-[20vw] my-0 px-20;
+  & > .contentWrapper {
+    @apply flex flex-col gap-8;
+
+    & > .content {
+      @apply flex flex-col gap-y-6;
+
+      & > .heading {
+        @apply text-white text-xl  sm:line-clamp-none;
+      }
+      & > .description {
+        @apply text-white  text-caption1;
+      }
+    }
+    & > .bannerButtons {
+      @apply flex gap-4;
+    }
+  }
+  & > .backgroundBannerImage {
+    @apply grid w-full aspect-[16/9] items-center justify-center;
+  }
+}

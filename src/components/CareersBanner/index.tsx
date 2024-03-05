@@ -12,8 +12,8 @@ const CareersBanner = () => {
           backgroundImage: `url(${CareersBannerImg.src})`,
         }}
       >
-       
-            <h1 className="text-orange sm:text-5xl md:text-7xl  lg:text-8xl font-extrabold text-center pt-40 md:pt-72  ">
+        <div className="">
+            <h1 className="text-orange sm:text-5xl md:text-7xl  lg:text-8xl 2xl:text-9xl font-extrabold text-center pt-40 md:pt-72  ">
             Build things you’re <br />
             <span className="text-orange pl-0 md:pl-28  lg:pl-16">proud of</span>
             <div className="text-white text-lg md:text-2xl mt-4 md:mt-12 lg:mt-14 md:pl-6  text-center ">
@@ -22,6 +22,8 @@ const CareersBanner = () => {
               <span className=" md:pl-0 lg:pl-10">Level up, learn and grow.</span>
             </div>
           </h1>
+          </div>
+       
         </div>
       
           
