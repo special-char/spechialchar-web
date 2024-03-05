@@ -17,7 +17,7 @@ const ThinkCard = ({ data }: { data: Card1Type[] }) => {
 
   return (
     <>
-      <div className="pl-36">
+      <div className="px-4 lg:pl-36">
         <Swiper
           onSwiper={setSwiperRef}
           breakpoints={{
@@ -65,7 +65,9 @@ const ThinkCard = ({ data }: { data: Card1Type[] }) => {
             ))}
           </main>
         </Swiper>
-      </div></>
+      </div>
+      
+      </>
   );
 };
 export default ThinkCard;
