@@ -14,7 +14,7 @@ const Cardcomp = () => {
   const [swiperRef, setSwiperRef] = useState(null);
 
   return (
-    <div className="pl-36">
+    <div className="px-4 lg:pl-36">
       <Swiper
         onSwiper={setSwiperRef}
         breakpoints={{
