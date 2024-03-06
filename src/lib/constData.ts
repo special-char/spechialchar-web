@@ -1,5 +1,6 @@
 import { title } from "process";
 
+
 export const Card = {
   card: [
     {
@@ -876,3 +877,31 @@ export const MobileSwap = [
 },
 
 ]
+
+
+export const mobilePlatformData = {
+  data:[
+
+    {
+      title: "Android",
+      icon: "/aindroid.svg",
+      description:
+        "Using innovative concepts and data-driven insights, we craft high-performance apps that rank high on Google Play and transform business.",
+      
+    },
+    {
+      title: "IOS",
+      icon: "/ios-1.svg",
+      description:
+        "We boast a legacy of great iOS apps for a range of business niches, which never leave the iPhones and iPads home screens of the delighted users.",
+     
+    },
+    {
+      title: "Cross-platform",
+      icon: "/cross_platforms.svg",
+      description:
+        "Whatever the complexity, we bring the full benefit of cross-platform tech to the table, including lower costs, faster time to market and maximum reach",
+     
+    },
+  ]
+} 

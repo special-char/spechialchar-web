@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { A11y, Navigation, Pagination } from "swiper/modules";
 import { SwiperNavButtons } from "@/components/WebPage/Webswiper/SwiperButton";
 import { MobileSwap } from "@/lib/constData";
+import Button from "@/components/Button";
 
 
 
@@ -59,9 +60,8 @@ const Mobileswiper = () => {
           <SwiperNavButtons />
           
         </Swiper>
-        <div className="pt-8 md:pt-4">
-            <button className="bg-blue p-2 px-16 md:px-6 md:text-xl font-bold text-lg  py-4 text-white">Contact us &rarr;</button>
-        </div>
+       {/* <Button>Contact Us</Button> */}
+       <Button >hire mobile app developer</Button>
       </div>
     </section>
   );

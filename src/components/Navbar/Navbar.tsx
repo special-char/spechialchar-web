@@ -3,11 +3,13 @@ import Image from "next/image";
 import NavbarLogo from "@/public/NavbarLogo.png";
 import ArrowUp from '@/public/icons/triangle-bottom-arrow-icon.svg'
 import ArrowDown from '@/public/icons/triangle-top-arrow-icon.svg'
+import Humburger from '@/public/icons/three-horizontal-lines-icon.svg'
 import Link from "next/link";
 
 const Navbar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [activeDropdown, setActiveDropdown] = useState(null);
+  const [showMenu, setShowMenu] = useState(false); // State to manage the visibility of the menu
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,10 +23,40 @@ const Navbar = () => {
     };
   }, []);
 
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (activeDropdown && !event.target.closest('.dropdown')) {
+        setActiveDropdown(null);
+      }
+    };
+
+    document.addEventListener('click', handleClickOutside);
+
+    return () => {
+      document.removeEventListener('click', handleClickOutside);
+    };
+  }, [activeDropdown]);
+
   const openDropdown = (dropdownLink) => {
     setActiveDropdown(dropdownLink);
   };
-  // <---- Link ----->
+
+  const closeDropdown = () => {
+    setActiveDropdown(null);
+  };
+
+  const handleLinkClick = (dropdownLink) => {
+    if (activeDropdown === dropdownLink) {
+      setActiveDropdown(null); // Close dropdown if already open
+    } else {
+      setActiveDropdown(dropdownLink);
+    }
+  };
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu); // Toggle menu visibility
+  };
+
   const menuItems = [
     { id: 1, link: "Services", sublinks: ["Mobile", "Web", "Sass", "Back-end", "Ui/Ux Design"] },
     { id: 2, link: "Industry", sublinks: ["Edtech & Elearning", "Ecommerce"] },
@@ -34,72 +66,73 @@ const Navbar = () => {
   ];
 
   return (
-    <nav
-      className="h-full w-full lg:container pt-4"
+    <header
+      className="flex justify-between items-center w-full"
       style={{
         backgroundColor:
           scrollPosition > 100 ? "rgba(0, 0, 0, 1)" : "rgba(0, 0, 0, 0)",
       }}
     >
-      <div className="flex justify-between items-center">
-        <Link href="/">
-          <Image src={NavbarLogo} alt="navbar" className="h-9 w-24" />
-        </Link>
-        <ul className="flex justify-between space-x-5 text-white">
-          {menuItems.map((menuItem) => (
-            <li key={menuItem.id} className="relative">
-              <Link href={`/${menuItem.link.toLowerCase()}`}>
-                <span
-                  className="cursor-pointer hover:text-yellow flex gap-x-2 "
-                  onMouseEnter={() => openDropdown(menuItem.link)}
-                >
-                  {menuItem.link}
-                  {menuItem.sublinks && (
-                    <span>
-                      <ArrowUp
-                        className={`fill-white hover:fill-yellow pt-2 ${activeDropdown === menuItem.link ? "hidden" : ""
-                          }`}
-                      />
-                      <ArrowDown
-                        className={`fill-white hover:fill-yellow pt-2 ${activeDropdown === menuItem.link ? "" : "hidden"
-                          }`}
-                      />
+      <Link href="/">
+        <Image src={NavbarLogo} alt="navbar" className="h-9 w-24" />
+      </Link>
+      {/* Hamburger menu */}
+      <div className="lg:hidden" onClick={toggleMenu}>
+      <Humburger className="fill-white"/>
+      </div>
+      {/* Menu items */}
+      <div className="hidden lg:block">
 
-                    </span>
-                  )}
+      <ul className={`  lg:flex justify-between space-x-10 text-white items-center }`}>
+        {menuItems.map((menuItem) => (
+          <li key={menuItem.id} className="relative">
+            <span
+              className="cursor-pointer hover:text-yellow flex gap-x-2 "
+              onMouseEnter={() => openDropdown(menuItem.link)}
+              onMouseLeave={()=>closeDropdown()}
+              onClick={() => handleLinkClick(menuItem.link)}
+            >
+              {menuItem.link}
+              {menuItem.sublinks && (
+                <span className="dropdown">
+                  <ArrowUp
+                    className={`fill-white hover:fill-yellow pt-2 ${activeDropdown === menuItem.link ? "hidden" : ""}`}
+                  />
+                  <ArrowDown
+                    className={`fill-white hover:fill-yellow pt-2 ${activeDropdown === menuItem.link ? "" : "hidden"}`}
+                  />
                 </span>
-              </Link>
-              {activeDropdown === menuItem.link && menuItem.sublinks && (
-                <div
-                  className="absolute left-0  top-10  w-max z-10  "
-                  style={{
-                    backgroundColor:
-                      scrollPosition > 100
-                        ? "rgba(0, 0, 0, 1)"
-                        : "rgba(0, 0, 0, 0)",
-                  }}
-                >
-                  {menuItem.sublinks.map((sublink, index) => (
-                    <Link href={`/${menuItem.link.toLowerCase()}/${sublink.toLowerCase()}`} key={index}>
-                      <span className="text-white flex flex-col flex-wrap  ">{sublink}</span>
-                    </Link>
-                  ))}
-                </div>
               )}
-            </li>
-          ))}
-        </ul>
+            </span>
+            {activeDropdown === menuItem.link && menuItem.sublinks && (
+              <div
+                className="absolute left-0 top-10 w-max z-10 bg-black p-4"
+                style={{
+                  backgroundColor: scrollPosition > 100 ? "rgba(0, 0, 0, 1)" : "rgba(0, 0, 0, 0)",
+                }}
+              >
+                {menuItem.sublinks.map((sublink, index) => (
+                  <Link href={`/${menuItem.link.toLowerCase()}/${sublink.toLowerCase()}`} key={index} className="block text-white mb-2">
+                    <span>{sublink}</span>
+                  </Link>
+                ))}
+              </div>
+            )}
+          </li>
+        ))}
         <div>
           <button className="bg-transparent border border-white py-1 px-4 text-white">
             Contact Us
           </button>
         </div>
+      </ul>
       </div>
-    </nav>
+    </header>
   );
 };
 
 export default Navbar;
+
 
 
 
