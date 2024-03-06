@@ -134,7 +134,7 @@ export type BannerType = {
 data:{
   title:string;
   description:string;
-  url:string;
+  imageurl:string;
 }
      
 }
