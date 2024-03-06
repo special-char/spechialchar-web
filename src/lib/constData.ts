@@ -1,4 +1,55 @@
 import { title } from "process";
+import Facebook from "@/public/icons/facebook.svg";
+import Instagram from "@/public/icons/instagram.svg";
+import Linkedin from "@/public/icons/Linkedin.svg";
+import Youtube from "@/public/icons/youtube.svg";
+import Twitter from "@/public/icons/twitter.svg";
+import Iso from "@/public/images/iso.png";
+import Upwork from "@/public/images/upwork.png";
+
+export const footerdata = {
+  title:
+    "We are an enterprise software development company that is inspired by the future",
+  address: "B-604/605, GaneshGlory 11,Jagatpur Road",
+  email: "contact@thespecialcharacter.com",
+  mobile: "+91 76000 96432 / 33",
+  privacy: "Privacy Policy",
+  copyright: "@2024 Itrex",
+  data: [
+    {
+      id: 1,
+      icon: "/icons/iso.svg",
+    },
+    {
+      id: 2,
+      icon: "/icons/upwork.svg",
+    },
+  ],
+  social: [
+    {
+      id: 1,
+      icon: "/icons/facebook.svg",
+    },
+    {
+      id: 2,
+      icon: "/icons/instagram.svg",
+    },
+    {
+      id: 3,
+      icon: "/icons/Linkedin.svg",
+    },
+    {
+      id: 4,
+      icon: "/icons/youtube.svg",
+    },
+    {
+      id: 5,
+      icon: "/icons/twitter.svg",
+    },
+  ],
+};
+
+export const footericon = {};
 
 export const Card = {
   card: [
@@ -14,7 +65,7 @@ export const Card = {
       url: "/images/project2.webp",
       title: "Organ-on-a-chip platform for drug development",
       description:
-     "Next-gen biotech platform relying on organ-chips enables faster, safer, and cheaper drug development for human use",
+        "Next-gen biotech platform relying on organ-chips enables faster, safer, and cheaper drug development for human use",
     },
     {
       id: 3,
@@ -168,7 +219,8 @@ export const Card1 = {
     {
       id: 1,
       url: "/images/thinking1.webp",
-      title: "Generative AI in business: top 5 use cases every company should consider [with a free eBook]",
+      title:
+        "Generative AI in business: top 5 use cases every company should consider [with a free eBook]",
       description:
         "Looking to make generative AI part of your company’s tech stack? Discover these promising generative AI applications in business to get inspired!",
       height: 150,
@@ -177,7 +229,8 @@ export const Card1 = {
     {
       id: 2,
       url: "/images/thinking2.webp",
-      title: "How to implement AI in your organization: the definitive guide [with a free eBook inside]",
+      title:
+        "How to implement AI in your organization: the definitive guide [with a free eBook inside]",
       description:
         "How to implement AI in your business and achieve a substantial return on your artificial intelligence  investments? Our AI eBook will help you with that!",
       height: 200,
@@ -186,7 +239,8 @@ export const Card1 = {
     {
       id: 3,
       url: "/images/thinking3.webp",
-      title: "IPA vs. RPA vs. BPA: what is the right automation option for your company?",
+      title:
+        "IPA vs. RPA vs. BPA: what is the right automation option for your company?",
       description:
         "Could you tell the difference between BPA, RPA, and IPA without running a few Google searches? If not, don’t bother surfing — we’ve done the job for you!",
       height: 200,
@@ -232,7 +286,8 @@ export const Card1 = {
     {
       id: 8,
       url: "/images/thinking8.webp",
-      title: "Blockchain use cases, advantages, issues, and implementation tips",
+      title:
+        "Blockchain use cases, advantages, issues, and implementation tips",
       description:
         "Discover blockchain use cases and top benefits, and check out our tips on how to proceed with blockchain implementation.",
       height: 200,
@@ -256,7 +311,6 @@ export const Card1 = {
       height: 200,
       width: 300,
     },
- 
   ],
 };
 export const Career = {
