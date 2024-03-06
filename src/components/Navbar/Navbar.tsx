@@ -56,8 +56,8 @@ const Navbar = () => {
                   {menuItem.sublinks && (
                     <span>
                       <ArrowUp
-                        className={`fill-white hover:fill-yellow hover:rotate-180 pt-2 ${
-                          activeDropdown === menuItem.link ? "rotate-180" : ""
+                        className={`fill-white hover:fill-yellow hover:rotate-180 pt-2  ${
+                          activeDropdown === menuItem.link ? "-rotate-180" : ""
                         }`}
                       />
                     </span>
@@ -66,7 +66,7 @@ const Navbar = () => {
               </Link>
               {activeDropdown === menuItem.link && menuItem.sublinks && (
                 <div
-                  className="absolute top-10 w-screen z-10"
+                  className="absolute left-0  top-10 w-screen z-10"
                   style={{
                     backgroundColor:
                       scrollPosition > 100
