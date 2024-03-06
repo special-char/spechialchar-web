@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar/Navbar";
 import Contact from "@/components/Contact/Contact";
+import { footerdata } from "@/lib/constData";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,7 +33,7 @@ export default function RootLayout({
         {/* <Navbar/> */}
         {children}
         <Contact/>
-        <Footer/>
+        <Footer data={footerdata}/>
       </body>
     </html>
   );
