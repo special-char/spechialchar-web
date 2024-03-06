@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import NavbarLogo from "@/public/NavbarLogo.png";
 import ArrowUp from '@/public/icons/triangle-bottom-arrow-icon.svg'
+import ArrowDown from '@/public/icons/triangle-top-arrow-icon.svg'
 import Link from "next/link";
 
 const Navbar = () => {
@@ -23,7 +24,7 @@ const Navbar = () => {
   const openDropdown = (dropdownLink) => {
     setActiveDropdown(dropdownLink);
   };
-// <---- Link ----->
+  // <---- Link ----->
   const menuItems = [
     { id: 1, link: "Services", sublinks: ["Mobile", "Web", "Sass", "Back-end", "Ui/Ux Design"] },
     { id: 2, link: "Industry", sublinks: ["Edtech & Elearning", "Ecommerce"] },
@@ -34,39 +35,43 @@ const Navbar = () => {
 
   return (
     <nav
-      className="h-full w-full lg:container"
+      className="h-full w-full lg:container pt-4"
       style={{
         backgroundColor:
           scrollPosition > 100 ? "rgba(0, 0, 0, 1)" : "rgba(0, 0, 0, 0)",
       }}
     >
-      <div className="flex justify-between pt-6">
+      <div className="flex justify-between items-center">
         <Link href="/">
           <Image src={NavbarLogo} alt="navbar" className="h-9 w-24" />
         </Link>
-        <ul className="flex justify-between space-x-3 text-white">
+        <ul className="flex justify-between space-x-5 text-white">
           {menuItems.map((menuItem) => (
             <li key={menuItem.id} className="relative">
               <Link href={`/${menuItem.link.toLowerCase()}`}>
                 <span
-                  className="cursor-pointer hover:text-yellow flex gap-x-2 pt-2"
+                  className="cursor-pointer hover:text-yellow flex gap-x-2 "
                   onMouseEnter={() => openDropdown(menuItem.link)}
                 >
                   {menuItem.link}
                   {menuItem.sublinks && (
                     <span>
                       <ArrowUp
-                        className={`fill-white hover:fill-yellow hover:rotate-180 pt-2  ${
-                          activeDropdown === menuItem.link ? "-rotate-180" : ""
-                        }`}
+                        className={`fill-white hover:fill-yellow pt-2 ${activeDropdown === menuItem.link ? "hidden" : ""
+                          }`}
                       />
+                      <ArrowDown
+                        className={`fill-white hover:fill-yellow pt-2 ${activeDropdown === menuItem.link ? "" : "hidden"
+                          }`}
+                      />
+
                     </span>
                   )}
                 </span>
               </Link>
               {activeDropdown === menuItem.link && menuItem.sublinks && (
                 <div
-                  className="absolute left-0  top-10 w-screen z-10"
+                  className="absolute left-0  top-10  w-max z-10  "
                   style={{
                     backgroundColor:
                       scrollPosition > 100
@@ -76,7 +81,7 @@ const Navbar = () => {
                 >
                   {menuItem.sublinks.map((sublink, index) => (
                     <Link href={`/${menuItem.link.toLowerCase()}/${sublink.toLowerCase()}`} key={index}>
-                      <span className="text-white flex flex-col flex-wrap">{sublink}</span>
+                      <span className="text-white flex flex-col flex-wrap  ">{sublink}</span>
                     </Link>
                   ))}
                 </div>
@@ -150,17 +155,17 @@ export default Navbar;
 //     setDropdownOpen(true);
 //   };
 
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     setScrollPosition(window.scrollY);
-  //   };
+// useEffect(() => {
+//   const handleScroll = () => {
+//     setScrollPosition(window.scrollY);
+//   };
 
-  //   window.addEventListener("scroll", handleScroll);
+//   window.addEventListener("scroll", handleScroll);
 
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
+//   return () => {
+//     window.removeEventListener("scroll", handleScroll);
+//   };
+// }, []);
 
 //   const closeDropdown = () => {
 //     setActiveDropdown(null);
