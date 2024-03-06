@@ -17,7 +17,7 @@ const Banner = ({ data }: BannerType ) => {
       </div>
       </div>
       <div className="object-cover md:relative md:bottom-[26rem] md:left-[24rem]  lg:left-[34rem] lg:bottom-[30rem]  ">
-          <Image src={data.url} alt="image" height={500} width={500} className=" md:w-[38rem] lg:h-full lg:w-[52rem] "/>
+          <Image src={data.imageurl} alt="image" height={500} width={500} className=" md:w-[38rem] lg:h-full lg:w-[52rem] "/>
       </div>
     </div>
   </section>
