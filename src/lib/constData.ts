@@ -785,3 +785,15 @@ export const AccCard = {
     },
   ],
 };
+export const banner = {
+  url:"/images/servicebanner.webp",
+  title: "Software engineering Service",
+  description: "Overhaul business processes, modernize existing technology systems, and bring innovative technology product to market with ITRex — a software engineering company that cares",
+};
+
+// export const serviceBanner2 = {
+//   url:"/images/servicebanner.webp",
+//   title: "gineering Service",
+//   description: "to meet your unique business needs",
+// };
+
