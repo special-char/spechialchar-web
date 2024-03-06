@@ -9,12 +9,13 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Card } from "@/lib/constData";
 import { CardType } from "@/utils/types";
 import project from "../../../public/images/project1.webp";
+import Arrow from '@/public/icons/angle-circle-arrow-right-icon.svg'
 
 const Cardcomp = () => {
   const [swiperRef, setSwiperRef] = useState(null);
 
   return (
-    <div className="pl-36">
+    <div className="px-4 lg:pl-36">
       <Swiper
         onSwiper={setSwiperRef}
         breakpoints={{
@@ -57,7 +58,7 @@ const Cardcomp = () => {
                 <h1 className="text-4xl hover:text-blue sm:text-2xl font-bold mb-2 mt-4">
                   {item.title}
                 </h1>
-                <div className="text-gray mb-4 text-2xl">
+                <div className="text-gray text-2xl">
                   {item.description}
                 </div>
 
@@ -65,9 +66,13 @@ const Cardcomp = () => {
             </div>
           ))}
         </main>
-
-
       </Swiper>
+      <div className="grid pb-12 gap-4 md:grid-cols-2 md:my-12 items-center">
+          <a className="flex gap-2 items-center font-bold">View all cases <Arrow/></a>
+          <button className=" justify-center bg-indigo-600  py-3 text-sm  font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+            Start your innovation journey
+          </button>
+        </div>
     </div>
   );
 };
