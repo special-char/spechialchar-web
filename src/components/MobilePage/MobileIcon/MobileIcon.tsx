@@ -4,6 +4,7 @@ import React from "react";
 import Aindroid from "@/public/aindroid.svg";
 import Ios from "@/public/ios-1.svg";
 import Cross from "@/public/cross_platforms.svg";
+import Button from "@/components/Button";
 
 const MobileIcon = () => {
   // Define data for mobile platform sections
@@ -50,7 +51,7 @@ const MobileIcon = () => {
             to a full-featured app with millions of users.
           </div>
         </div>
-        <div className="md:grid md:grid-cols-3 md:space-x-2">
+        <div className="md:grid md:grid-cols-3 md:space-x-2 grid justify-center">
           {/* Render mobile platform sections using map */}
           {mobilePlatformData.map((platform, index) => (
             <div key={index} className="flex flex-col gap-y-2 pb-10">
@@ -73,12 +74,9 @@ const MobileIcon = () => {
               </div>
             </div>
           ))}
+          <Button className="">Lets Build an app</Button>
         </div>
-        <div className="pt-10 2xl:pt-10">
-            <button className="bg-blue p-2 px-8 text-lg text-white font-bold  py-4">
-              Let’s build an app &rarr;
-            </button>
-          </div>
+       
       </div>
     </section>
   );

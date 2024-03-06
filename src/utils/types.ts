@@ -130,3 +130,11 @@ export type Ecommerce = {
     url: string;
   };
 };
+
+export type IconsSection = {
+  data:{
+    title:string;
+    icon:string;
+    description:string;
+  }
+}
