@@ -58,11 +58,11 @@ const Button = ({
 			className={cn(buttonVariants({ variant, size, className }))}
 			{...props}
 		>
-			{title && <span className="sr-only">{title}</span>}
+			{title && <span className="sr-only ">{title}</span>}
 			{isLoading ? (
-				<span className="block w-4 aspect-square  border-2 border-currentColor border-t-transparent animate-spin"></span>
+				<span className="block w-4 aspect-square  border-2 border-currentColor font-bold border-t-transparent animate-spin"></span>
 			) : null}
-			{props.children}
+			{props.children}	&rarr;
 		</Component>
 	);
 };

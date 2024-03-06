@@ -51,6 +51,7 @@ export const footerdata = {
 
 export const footericon = {};
 
+
 export const Card = {
   card: [
     {
@@ -125,6 +126,7 @@ export const Card = {
     },
   ],
 };
+
 
 export const CollaboratorCard = {
   card: [
@@ -839,3 +841,121 @@ export const AccCard = {
     },
   ],
 };
+export const banner = {
+  url:"/images/servicebanner.webp",
+  title: "Software engineering Service",
+  description: "Overhaul business processes, modernize existing technology systems, and bring innovative technology product to market with ITRex — a software engineering company that cares",
+};
+
+// export const serviceBanner2 = {
+//   url:"/images/servicebanner.webp",
+//   title: "gineering Service",
+//   description: "to meet your unique business needs",
+// };
+
+
+// <--- Mobile Swipe ---->
+
+
+
+export const MobileSwap = [
+  {
+      id:1,
+      title:"Lotto, scratches and raffle games",
+      url:"/images/Mobile-swipe1.webp"
+  },
+
+  {
+    id:2,
+    title:"Dollar Shave Club",
+    url:"/images/Mobile-swipe2.webp"
+},
+{
+  id:3,
+  title:"JibJab eCards app",
+  url:"/images/Mobile-swipe3.webp"
+},
+{
+  id:4,
+  title:"Live-streaming",
+  url:"/images/Mobile-swipe4.webp"
+},
+{
+  id:5,
+  title:"Dog Vacay",
+  url:"/images/Mobile-swipe5.webp"
+},
+{
+  id:6,
+  title:"Prodcast app",
+  url:"/images/Mobile-swipe6.webp"
+},
+{
+  id:7,
+  title:"Online monitoring and social networking",
+  url:"/images/Mobile-swipe7.webp"
+},{
+  id:8,
+  title:"Discount-finding app",
+  url:"/images/Mobile-swipe8.webp"
+},
+{
+  id:9,
+  title:"Live streaming shopping app",
+  url:"/images/Mobile-swipe9.webp"
+},
+{
+  id:10,
+  title:"Iot logistic platform",
+  url:"/images/Mobile-swipe10.webp"
+},
+{
+  id:11,
+  title:"Social network",
+  url:"/images/Mobile-swipe11.webp"
+},
+{
+  id:12,
+  title:"Data analytics app",
+  url:"/images/Mobile-swipe12.webp"
+},
+{
+  id:13,
+  title:"Freight managment app",
+  url:"/images/Mobile-swipe13.webp"
+},
+{
+  id:14,
+  title:"Data managment solution for global analytics leader",
+  url:"/images/Mobile-swipe14.webp"
+},
+
+]
+
+
+export const mobilePlatformData = {
+  data:[
+
+    {
+      title: "Android",
+      icon: "/aindroid.svg",
+      description:
+        "Using innovative concepts and data-driven insights, we craft high-performance apps that rank high on Google Play and transform business.",
+      
+    },
+    {
+      title: "IOS",
+      icon: "/ios-1.svg",
+      description:
+        "We boast a legacy of great iOS apps for a range of business niches, which never leave the iPhones and iPads home screens of the delighted users.",
+     
+    },
+    {
+      title: "Cross-platform",
+      icon: "/cross_platforms.svg",
+      description:
+        "Whatever the complexity, we bring the full benefit of cross-platform tech to the table, including lower costs, faster time to market and maximum reach",
+     
+    },
+  ]
+} 

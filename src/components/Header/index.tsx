@@ -31,13 +31,20 @@ const Header = (props: Props) => {
 
   const [isHovered, setIsHovered] = useState(false);
   return (
-    <header
-      className="h-20 z-10 fixed w-full bg-black flex justify-around transition-transform duration-300"
+    <div
+      className="h-20 z-10 fixed w-full bg-black flex justify-around items-center transition-transform duration-300"
       style={{
         backgroundColor:
           scrollPosition > 100 ? "rgba(0, 0, 0, 1)" : "rgba(0, 0, 0, 0)",
       }}
     >
+      <Navbar/>
+    </div>
+  );
+};
+
+export default Header;
+
       {/* <div className="py-4">
         <Link href="/">
           <Itrex />
@@ -162,9 +169,3 @@ const Header = (props: Props) => {
       <div className="py-4 mt-1 text-slate-100 w-12">
         <Button className="p-7">Contact</Button>
       </div> */}
-      <Navbar/>
-    </header>
-  );
-};
-
-export default Header;

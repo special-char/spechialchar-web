@@ -148,3 +148,19 @@ export type Ecommerce = {
     url: string;
   };
 };
+
+export type IconsSection = {
+  data:{
+    title:string;
+    icon:string;
+    description:string;
+  }
+}
+export type BannerType = {
+data:{
+  title:string;
+  description:string;
+  url:string;
+}
+     
+}
