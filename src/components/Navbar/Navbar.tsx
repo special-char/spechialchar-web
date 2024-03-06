@@ -23,7 +23,7 @@ const Navbar = () => {
   const openDropdown = (dropdownLink) => {
     setActiveDropdown(dropdownLink);
   };
-
+// <---- Link ----->
   const menuItems = [
     { id: 1, link: "Services", sublinks: ["Mobile", "Web", "Sass", "Back-end", "Ui/Ux Design"] },
     { id: 2, link: "Industry", sublinks: ["Edtech & Elearning", "Ecommerce"] },
