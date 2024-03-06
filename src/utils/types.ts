@@ -138,3 +138,11 @@ export type IconsSection = {
     description:string;
   }
 }
+export type BannerType = {
+data:{
+  title:string;
+  description:string;
+  url:string;
+}
+     
+}
