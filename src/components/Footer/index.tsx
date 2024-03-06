@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Link from "next/link";
 import Logo from "@/public/icons/itrex.svg";
@@ -6,94 +7,55 @@ import Instagram from "@/public/icons/instagram.svg";
 import Linkedin from "@/public/icons/Linkedin.svg";
 import Youtube from "@/public/icons/youtube.svg";
 import Twitter from "@/public/icons/twitter.svg";
-import Iso from "@/public/icons/Iso.svg";
-import Dqs from "@/public/icons/dqs.svg";
-import Clutch from "@/public/icons/clutch.svg";
-import Clutch2 from "@/public/icons/clutch2.svg";
-import Upwork from "@/public/icons/upwork.svg";
-import Google from "@/public/icons/googlecloud.svg";
+import Image from "next/image";
+import { footerdata, footericon } from "@/lib/constData";
+import FooterCirti2 from "../IconFooter";
+import { FooterdataType } from "@/utils/types";
+import SocialIcon from "../SocialIcon";
 
-interface Props { }
-
-const Footer = (props: Props) => {
+const Footer = ({ data }: FooterdataType) => {
   return (
-    <div className="z-10 w-full px-container lg:h-screen lg:flex lg:justify-center lg:items-center  bg-black ">
-      <div className="bg-black text-white w-full grid grid-cols-1 gap-16 sm:py-14">
-        <div className="flex flex-wrap lg:gap-y-60 md:gap-24 sm:gap-24">
-          <div>
-            <Logo />
+    <footer className="z-10 lg:w-full md:px-container overflow-hidden flex bg-black justify-center items-center lg:pt-24">
+      <div className=" text-white w-full grid grid-cols-1 gap-y-20 max-sm:gap-y-12 sm:py-14 py-10">
+        <div className="flex flex-wrap lg:gap-x-64 md:gap-24 max-sm:gap-10">
+          <div className="">
+            <Link href={"#"}><Logo /></Link>
           </div>
           <div className="flex font-semibold">
-            <div className="text-[1.40rem] md:text-xl sm:text-lg flex flex-wrap">
-              We are an enterprise software development company that is inspired
-              by the future
+            <div className="lg:text-5xl md:text-4xl sm:text-lg lg:w-[54rem] flex flex-wrap">
+              {data.title}
             </div>
           </div>
         </div>
-        <div className="flex flex-wrap lg:gap-48 md:gap-24 max-sm:gap-24">
-          <div>
-            <div>Office:</div>
-            <div className="text-white">B-604/605,</div>
-            <div className="text-white">GaneshGlory 11,</div>
-            <div className="text-white">Jagatpur Road</div>
+        <div className="flex flex-wrap lg:text-xl lg:gap-x-[13rem] md:gap-20 max-sm:gap-5">
+          <div className="">
+            <p>Office:</p>
+            <p className="w-40">{data.address}</p>
           </div>
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col justify-between gap-y-10">
             <div className="flex flex-col">
-              <div>contact@thespecialcharacter.com</div>
-              <div>+91 76000 96432 / 33</div>
+              <div>{data.email}</div>
+              <div>{data.mobile}</div>
             </div>
-            <div className="flex gap-8">
-              <div>
-                <Link href={"#"}>
-                  <Facebook />
-                </Link>
-              </div>
-              <div>
-                <Link href={"#"}>
-                  <Instagram />
-                </Link>
-              </div>
-              <div className="pt-1">
-                <Link href={"#"}>
-                  <Youtube />
-                </Link>
-              </div>
-              <div>
-                <Link
-                  href={"https://www.linkedin.com/company/thespecialcharacter/"}
-                >
-                  <Linkedin />
-                </Link>
-              </div>
-              <div>
-                <Link href={"https://twitter.com/TheSpecialChar"}>
-                  <Twitter />
-                </Link>
-              </div>
+            <div className="flex items-center gap-8">
+              <SocialIcon />
             </div>
           </div>
         </div>
-        <div className="flex flex-wrap lg:gap-48 md:gap-24 max-sm:gap-24">
+        <div className="flex flex-wrap lg:gap-x-[15rem] md:gap-x-32 max-sm:gap-8">
           <div className="flex flex-col text-white">
-            <div>
-              <Link href={"#"}>Privacy Policy</Link>
-            </div>
-            <div className="">@2024 Itrex</div>
+            <p>
+              <Link href={"#"}>{data.privacy}</Link>
+            </p>
+            <p className="">{data.copyright}</p>
           </div>
-          <div className="flex overflow-x-auto gap-3">
-            <div>
-              <Iso />
-            </div>
-            <div>
-              <Upwork />
-            </div>
-            <div>
-              <Google />
-            </div>
+          <div className="flex flex-row overflow-x-auto gap-10">
+            <FooterCirti2 />
+
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 
