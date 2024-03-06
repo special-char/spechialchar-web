@@ -12,27 +12,17 @@ import ThinkingSection from "@/containers/LatestThinkingSec";
 import Cardcomp1 from "@/containers/Card2";
 import Cardcomp from "@/components/Cardcomp";
 import ThinkCard from "@/components/ThinkCard";
+import ProjectSection from "@/containers/LatestProjectSec";
 
 export default function Home() {
 	return (
 		<>
-
-			{/* <HomeBanner />
-			<Contact/> */}
-			{/* <Card /> */}
-			<Cardcomp/>
-			{/* <FAQS/> */}
-			{/* <WebBanner2/> */}
-			<ThinkCard />
-
+			<HomeBanner />
+		 	<FAQS />
+			<ProjectSection/>
+			 <CollaboratorCards />
+			<ThinkingSection/>
 			
-			{/* <HomeBanner /> */}
-			{/* <Clients/> */}
-			{/* <FAQS /> */}
-			{/* <Card /> */}
-			{/* <CollaboratorCards />
-			<Cardcomp1 /> */}
-			{/* <Contact /> */}
 		</>
 	);
 }
