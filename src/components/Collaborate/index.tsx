@@ -36,7 +36,7 @@ const Collaborator = ({ data }: { data: CollaboratorCardType[] }) => {
           ))}
         </div>
         <div className='bg-black px-6 md:px-12 lg:px-36'>
-          <Button className='md:w-72 w-60 my-8 md:my-14 font-bold pl-4'>Discuss my projectH</Button>
+          <Button className='md:w-72 w-60 my-8 md:my-14 font-bold pl-4'>Discuss my project</Button>
         </div>
       </div></>
   );
