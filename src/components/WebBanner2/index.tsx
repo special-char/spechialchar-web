@@ -3,7 +3,7 @@ import React from "react";
 function WebBanner2() {
   return (
     <>
-      <section
+      {/* <section
         className="h-full w-full"
         style={{
           backgroundImage: `url(/images/mobilebanner2.webp)`,
@@ -83,9 +83,41 @@ function WebBanner2() {
             Discuss your web app development project &rarr;
           </button>
         </div>
-      </section>
+      </section> */}
 
-      
+      <div className=" text-white">
+        <div className="p-8 bg-black md:px-12 md:pt-8 grid gap-8 lg:gap-12 lg:m-4 lg:mx-20 lg:p-24">
+          <div className="pt-8">
+            <h2 className="md:text-5xl font-extrabold lg:text-7xl">What makes us different</h2>
+          </div>
+          <div className="grid md:grid-cols-2 gap-10">
+            <div>
+              <div className="text-yellow text-6xl">13+</div>
+              <div>years in mobile application development</div>
+            </div>
+            <div>
+              <div className="text-yellow text-6xl">300+</div>
+              <div>top-tier software development experts</div>
+            </div>
+            <div>
+              <div className="text-yellow text-6xl">100+</div>
+              <div>millions of users enjoy our apps</div>
+            </div>
+            <div>
+              <div className="text-yellow text-6xl">200+</div>
+              <div>clients around the globe</div>
+            </div>
+            <div>
+              <div className="text-yellow text-6xl">99%</div>
+              <div>app reliability rate</div>
+            </div>
+            <div>
+              <div className="text-yellow text-6xl">600+</div>
+              <div>products delivered</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
