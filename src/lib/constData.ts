@@ -75,6 +75,7 @@ export const Card = {
   ],
 };
 
+
 export const CollaboratorCard = {
   card: [
     {
@@ -785,3 +786,81 @@ export const AccCard = {
     },
   ],
 };
+
+// <--- Mobile Swipe ---->
+
+
+
+export const MobileSwap = [
+  {
+      id:1,
+      title:"Lotto, scratches and raffle games",
+      url:"/images/Mobile-swipe1.webp"
+  },
+
+  {
+    id:2,
+    title:"Dollar Shave Club",
+    url:"/images/Mobile-swipe2.webp"
+},
+{
+  id:3,
+  title:"JibJab eCards app",
+  url:"/images/Mobile-swipe3.webp"
+},
+{
+  id:4,
+  title:"Live-streaming",
+  url:"/images/Mobile-swipe4.webp"
+},
+{
+  id:5,
+  title:"Dog Vacay",
+  url:"/images/Mobile-swipe5.webp"
+},
+{
+  id:6,
+  title:"Prodcast app",
+  url:"/images/Mobile-swipe6.webp"
+},
+{
+  id:7,
+  title:"Online monitoring and social networking",
+  url:"/images/Mobile-swipe7.webp"
+},{
+  id:8,
+  title:"Discount-finding app",
+  url:"/images/Mobile-swipe8.webp"
+},
+{
+  id:9,
+  title:"Live streaming shopping app",
+  url:"/images/Mobile-swipe9.webp"
+},
+{
+  id:10,
+  title:"Iot logistic platform",
+  url:"/images/Mobile-swipe10.webp"
+},
+{
+  id:11,
+  title:"Social network",
+  url:"/images/Mobile-swipe11.webp"
+},
+{
+  id:12,
+  title:"Data analytics app",
+  url:"/images/Mobile-swipe12.webp"
+},
+{
+  id:13,
+  title:"Freight managment app",
+  url:"/images/Mobile-swipe13.webp"
+},
+{
+  id:14,
+  title:"Data managment solution for global analytics leader",
+  url:"/images/Mobile-swipe14.webp"
+},
+
+]
