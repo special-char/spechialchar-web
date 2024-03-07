@@ -785,3 +785,56 @@ export const AccCard = {
     },
   ],
 };
+
+export const serviceicon = [
+  {
+    url: "/images/questionnaire-line.png",
+    title: "Technology Consulting & Audits",
+    description:
+      "Technology consulting is the cornerstone of our software engineering services package. We’ll assess your business requirements, review your existing IT infrastructure, propose a suitable tech, and create a proof of concept to assess the feasibility of your idea.",
+  },
+  {
+    url: "/images/code-box-line.png",
+    title: "Software Development",
+    description:
+      "Whether you need a mobile app with a powerful cloud back end, a dynamic web app, embedded software for a Smart Home device, or an advanced analytics platform to crunch your Big Data, our software engineering company is here at your service!",
+  },
+  {
+    url: "/images/layout-masonry-line.webp",
+    title: "Solution Architecture",
+    description:
+      "Drawing on the insights uncovered during the project discovery phase, our software architects join forces with skilled business analysts to design a resilient software architecture that will scale flexibly along with your business and leave room for innovation.",
+  },
+  {
+    url: "/images/device-line.png",
+    title: "Application Modernization",
+    description:
+      "Besides custom software engineering, we migrate legacy applications to a modern tech stack, segment bulky software into microservices, orchestrate containerized apps with Kubernetes, and interconnect the components of your IT infrastructure.",
+  },
+  {
+    url: "/images/settings-4-line.png",
+    title: "Deployment & Maintenance",
+    description:
+      "The ITRex software engineering service team will follow DevOps best practices to set up a complete cloud infrastructure for your software solution, ensure faster updates, and monitor application performance. We offer three tiers of support, too.",
+  },
+  {
+    url: "/images/pencil-ruler-line.png",
+    title: "UI/UX Design",
+    description:
+      "From auditing your customers’ buying journey to applying data democratization principles in data analytics dashboard design, our software engineering company always creates navigation logic and interfaces that allow users to perform intended actions with minimal friction.",
+  },
+  {
+    url: "/images/bug-line.webp",
+    title: "Quality Assurance",
+    description:
+      "As part of our software product engineering services, we turn to manual testing and write scripts for automated tests to validate that your applications contain zero bugs, perform as expected, and deliver unsurpassed user experience.",
+  },
+  {
+    url: "/images/lightbulb-line.png",
+    title: "Product Innovation",
+    description:
+      "We provide innovative software engineering services to tech startups and enterprises undergoing digital transformation. If you’re looking to add RPA bots to your accounting software or build an IoT-powered fitness mirror from the ground up, just drop us a line!",
+  },
+];
+
+

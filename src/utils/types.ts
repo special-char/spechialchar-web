@@ -130,3 +130,10 @@ export type Ecommerce = {
     url: string;
   };
 };
+export type ServiceIconType ={
+  data:{
+    url:string;
+    title:string;
+    description:string;
+  }
+}
