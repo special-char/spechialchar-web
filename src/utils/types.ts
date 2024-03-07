@@ -6,6 +6,24 @@ export type CardType = {
     title: string;
   };
 };
+export type FooterdataType = {
+  data:{
+    title:string;
+    address:string
+    email:string;
+    mobile: string;
+    privacy:string;
+    copyright:string;
+  }
+}
+
+export type FooterIconsType ={
+  data:{
+    id:number;
+    icon:string;
+  }
+  
+}
 
 export type AccCardType = {
   data: {
@@ -136,4 +154,19 @@ export type ServiceIconType ={
     title:string;
     description:string;
   }
+
+export type IconsSection = {
+  data:{
+    title:string;
+    icon:string;
+    description:string;
+  }
+}
+export type BannerType = {
+data:{
+  title:string;
+  description:string;
+  imageurl:string;
+}
+     
 }

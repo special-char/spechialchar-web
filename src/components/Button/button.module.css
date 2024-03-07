@@ -1,5 +1,5 @@
 .default {
-  @apply bg-blue text-white hover:bg-black;
+  @apply bg-blue text-white hover:bg-black font-bold text-base ;
 }
 .outline {
   @apply border border-primary text-primary bg-transparent hover:bg-primary/10;
@@ -14,10 +14,11 @@
   @apply text-primary underline-offset-4 hover:underline;
 }
 .md {
-  @apply h-10 px-2 py-6;
+  @apply h-10 px-8 py-8 text-xl ;
 }
+
 .sm {
-  @apply h-9 rounded-md px-3;
+  @apply h-9 rounded-md px-3 ;
 }
 .lg {
   @apply h-14 rounded-md px-6;
