@@ -26,3 +26,23 @@ export type HomeBannerdataType={
     button:string;
   }
 }
+  export type CardType = {
+    data : {
+      id: number;
+      url: string;
+      description?: string;
+      title: string;
+      
+    };
+  };
+
+  export type Card1Type = {
+    data : {
+      id: number;
+      url: string;
+      description?: string;
+      title: string;
+      height: number;
+      width: number;
+    };
+  };
