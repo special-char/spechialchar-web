@@ -8,6 +8,24 @@ export type FooterdataType = {
       copyright:string;
     }
   }
+
+export type homeAccordiandataType={
+  data:{
+    id:number;
+    image:string;
+    number:string;
+    title:string;
+    desc:string;
+  }
+}
+export type HomeBannerdataType={
+  data:{
+    title:string;
+    title2:string;
+    subtitle:string;
+    button:string;
+  }
+}
   export type CardType = {
     data : {
       id: number;
