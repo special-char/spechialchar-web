@@ -276,3 +276,29 @@ export const footerdata = {
       }
     ]
   }
+
+  export const MarqueData =  [
+    {
+      id: 1,
+      src: "/images/turvo-logo.webp",
+    },
+    {
+      id: 2,
+      src: "/images/universalelectroniocs-logo.webp",
+    },
+    {
+      id: 3,
+      src: "/images/turvo-logo.webp",
+    },{
+      id: 4,
+      src: "/images/universalelectroniocs-logo.webp",
+    },
+    {
+      id: 5,
+      src: "/images/turvo-logo.webp",
+    },
+    {
+      id: 6,
+      src: "/images/universalelectroniocs-logo.webp",
+    },
+  ];

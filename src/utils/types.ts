@@ -46,3 +46,10 @@ export type HomeBannerdataType={
       width: number;
     };
   };
+
+  export type marquedataType = {
+    data : {
+      id: number;
+      url: string;
+    };
+  };
