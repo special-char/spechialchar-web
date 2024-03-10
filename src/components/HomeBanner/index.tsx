@@ -1,6 +1,7 @@
 "use client";
 import { HomeBannerdataType } from '@/utils/types';
 import React, { useState, useEffect } from 'react';
+import { Button } from '../ui/button';
 
 
 const HomeBanner = ({ data }: HomeBannerdataType) => {
@@ -32,7 +33,9 @@ const HomeBanner = ({ data }: HomeBannerdataType) => {
                 </div>
                 <div className="flex flex-wrap  justify-between  mt-32 gap-10 text-3xl text-white">
                     <div className='pt-1'> {data.subtitle} <span className='text-yellow-300'>{values[index]}</span></div>
-                    <div className=''><button className='md:w-72 w-60 '>{data.button}</button></div>
+                    <div className=''><Button variant="default" size="sm" className='px-24 md:px-32 py-6 text-base'>
+                        {data.button}
+                    </Button></div>
                 </div>
             </div>
 
