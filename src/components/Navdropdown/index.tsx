@@ -10,11 +10,6 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
-import Humburger from '@/public.three-horizontal-lines-icon.svg'
-import { useState } from "react";
-import Image from "next/image";
-import Navlogo from '../../../public/Navbar.svg'
-import Close from '@/public.xmark.svg'
 
 const array = [
   {
@@ -41,7 +36,7 @@ const Navdropdown = () => {
       {/* <--- Webnavigation-----> */}
       <div className="hidden lg:block">
 
-      <NavigationMenuList >
+      <NavigationMenuList>
 
         {array.map((x) => (
           <div key={x.title}>

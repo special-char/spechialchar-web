@@ -99,7 +99,7 @@ export default function NavigationMenuDemo() {
         <NavigationMenuItem>
           <NavigationMenuTrigger>Services</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className=" w-[400px] gap-3 p-4 md:w-[500px]  lg:w-[600px] space-y-3 ">
+            <ul className=" w-[400px] gap-3 p-4 md:w-[500px] relative lg:w-[600px] space-y-3 ">
               {components.map((component) => (
                 <ListItem
                   key={component.title}

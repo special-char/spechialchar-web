@@ -69,7 +69,7 @@ const NavigationMenuContent = React.forwardRef<
   <NavigationMenuPrimitive.Content
     ref={ref}
     className={cn(
-      "left-4 top-0 w-full bg-black text-white lg:w-screen relative hidden  ",
+      "left-0 top-0 w-full bg-black text-white lg:w-screen absolute   ",
       className
     )}
     {...props}
