@@ -73,4 +73,31 @@
 	body {
 		@apply bg-background text-foreground;
 	}
+	html {
+		scroll-behavior: smooth;
+	  }
+	
+	  header,
+	  footer,
+	  section {
+		@apply lg:px-10 md:px-8 sm:px-3 max-sm:px-3 ;
+	  }
+	
+	  section {
+		@apply py-10;
+	  }
+	
 }
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+  
