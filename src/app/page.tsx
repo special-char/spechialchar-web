@@ -21,7 +21,7 @@ import Banner from "@/container/Banner";
 export default function Home() {
   return (
     <>
-      <Banner data={banner} className="" />
+      
       <HomeBanner data={homeBannerdata} />
       <Marque data={MarqueData} />
       <ProjectSec />

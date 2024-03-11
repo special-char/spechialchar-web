@@ -309,6 +309,49 @@ export const banner = {
     "Overhaul business processes, modernize existing technology systems, and bring innovative technology product to market with ITRex — a software engineering company that cares",
 };
 
+export const Bgbanner = {
+  description:
+    "Our software engineering company collaborates with businesses from the healthcare, finance, education, retail, supply chain management, and other verticals. We help our clients test the novel technology waters, scale IT systems company wide, and ensure faster paybacks. Our core software engineering solutions expertise spans:",
+};
+
+export const SwiperServices = {
+ 
+  title:"How customers benefit from our software engineering services",
+  data:[
+    {
+      id: 1,
+      src: "/images/chip-mobile3.webp",
+      alt: "Organ-on-a-chip platform for drug development ",
+    },
+    {
+      id: 2,
+      src: "/images/wallmart_1.webp",
+      alt: "AI-powered self-service BI and big data ",
+    },
+    {
+      id:3,
+      src:"/images/case-logistics.webp",
+      alt:"IoT logistics "
+    },
+    {
+      id:4,
+      src:"/images/fitness-app-e1626716488925-1440x1018.webp",
+      alt:"AI-powered fitness mirror with a personal coach "
+    },
+    {
+      id:5,
+      src:"/images/fitness-app-e1626716488925-1440x1018.webp",
+      alt:"ML tool and MLOps help social media giant improve live stream content  "
+    }
+  ]
+}
+
+export const imageBanner = {
+  url: "/images/soft.webp",
+  title1: "Software engineering",
+  title2: "solutions in focus",
+};
+
 export const banner1 = {
   imageurl: "/images/edimage.webp",
   title: "eLearning software development services",
