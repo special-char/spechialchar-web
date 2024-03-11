@@ -270,9 +270,9 @@ export const Card1 = {
         " Check out our new article to discover what ready-made and custom enterprise workflow automation tools have in store and which option is best for you.",
       height: 200,
       width: 300,
-    },
-  ],
-};
+    }
+  ]
+}
 
 export const MarqueData = [
   {
@@ -298,6 +298,96 @@ export const MarqueData = [
   {
     id: 6,
     src: "/images/universalelectroniocs-logo.webp",
+  },
+];
+
+
+export const serviceBox = [
+  {
+    id: 1,
+    title: "Maturity:",
+    discription: "on the market since 2009",
+  },
+  {
+    id: 2,
+    title: "Agility:",
+    discription: " fast innovation at scale",
+  }, {
+    id: 3,
+    title: "Experience:",
+    discription: "600+ projects completed",
+  }, {
+    id: 4,
+    title: "Mastery:",
+    discription: "full-stack software engineering capabilities",
+  }, {
+    id: 5,
+    title: "Flexibility:",
+    discription: "350+ IT specialists in five countries, lower risks thanks to the distributed team approach",
+  }, {
+    id: 6,
+    title: "Reliability: ",
+    discription: "customer satisfaction index (CSI) of 83%",
+  }, {
+    id: 7,
+    title: "Transparency: ",
+    discription: "effective development, project management, and reporting tools",
+  }, {
+    id: 8,
+    title: "Excellence:",
+    discription: " ISO 9001:2015, ISO/IEC 27001 compliance; Microsoft and Google Cloud partnerships",
+  },
+
+
+]
+export const serviceicon = [
+  {
+    url: "/images/questionnaire-line.png",
+    title: "Technology Consulting & Audits",
+    description:
+      "Technology consulting is the cornerstone of our software engineering services package. We’ll assess your business requirements, review your existing IT infrastructure, propose a suitable tech, and create a proof of concept to assess the feasibility of your idea.",
+  },
+  {
+    url: "/images/code-box-line.png",
+    title: "Software Development",
+    description:
+      "Whether you need a mobile app with a powerful cloud back end, a dynamic web app, embedded software for a Smart Home device, or an advanced analytics platform to crunch your Big Data, our software engineering company is here at your service!",
+  },
+  {
+    url: "/images/line.webp",
+    title: "Solution Architecture",
+    description:
+      "Drawing on the insights uncovered during the project discovery phase, our software architects join forces with skilled business analysts to design a resilient software architecture that will scale flexibly along with your business and leave room for innovation.",
+  },
+  {
+    url: "/images/device-line.png",
+    title: "Application Modernization",
+    description:
+      "Besides custom software engineering, we migrate legacy applications to a modern tech stack, segment bulky software into microservices, orchestrate containerized apps with Kubernetes, and interconnect the components of your IT infrastructure.",
+  },
+  {
+    url: "/images/settings-4-line.png",
+    title: "Deployment & Maintenance",
+    description:
+      "The ITRex software engineering service team will follow DevOps best practices to set up a complete cloud infrastructure for your software solution, ensure faster updates, and monitor application performance. We offer three tiers of support, too.",
+  },
+  {
+    url: "/images/pencil-ruler-line.png",
+    title: "UI/UX Design",
+    description:
+      "From auditing your customers’ buying journey to applying data democratization principles in data analytics dashboard design, our software engineering company always creates navigation logic and interfaces that allow users to perform intended actions with minimal friction.",
+  },
+  {
+    url: "/images/bug.webp",
+    title: "Quality Assurance",
+    description:
+      "As part of our software product engineering services, we turn to manual testing and write scripts for automated tests to validate that your applications contain zero bugs, perform as expected, and deliver unsurpassed user experience.",
+  },
+  {
+    url: "/images/lightbulb-line.png",
+    title: "Product Innovation",
+    description:
+      "We provide innovative software engineering services to tech startups and enterprises undergoing digital transformation. If you’re looking to add RPA bots to your accounting software or build an IoT-powered fitness mirror from the ground up, just drop us a line!",
   },
 ];
 

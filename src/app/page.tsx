@@ -7,29 +7,31 @@ import {
   Card1,
   Cards,
   MarqueData,
-  banner,
-  banner1,
   footerdata,
   homeAccordiandata,
   homeBannerdata,
 } from "@/lib/constData";
 import { PlusIcon } from "@radix-ui/react-icons";
-import ThinkSec from "@/container/ThinkSec";
+import ThinkSec from "@/container/ProjectSec";
 import Marque from "@/components/Marque";
-import Banner from "@/container/Banner";
+import Collabrate from "@/components/Collabrate";
+import ServiceBox from "@/components/ServiceBox";
+import SectionBox from "@/container/ServiceBox";
+import Service from "@/container/Service";
 
 export default function Home() {
   return (
     <>
-      <Banner data={banner} className="" />
-      <HomeBanner data={homeBannerdata} />
-      <Marque data={MarqueData} />
-      <ProjectSec />
+	<HomeBanner data={homeBannerdata}/>
+	<Marque data={MarqueData}/>
+	<HomeAccord/>
+	<ProjectSec/>
+	<ThinkSec/>
+	<Collabrate/>
+	<Footer data={footerdata}/>
+	<SectionBox/>
 
-      <HomeAccord />
-      <Banner data={banner1} />
-      <ThinkSec />
-      <Footer data={footerdata} />
+<Service/>
     </>
   );
 }
