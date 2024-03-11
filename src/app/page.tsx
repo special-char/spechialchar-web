@@ -1,14 +1,19 @@
 import { Button } from "@/components/ui/button";
 import { PlusIcon } from "@radix-ui/react-icons";
 import Navbar from '@/components/Navbar/index'
-import Dropdown from '@/components/Dropdown/index'
 
 
 
 export default function Home() {
 	return (
 <>
-<Navbar/>
+<Navbar data={{
+				value: "Navbar",
+				title: "Navbar",
+				content: "Navbar"
+			}}/>
+			<Swiper1 data={SwiperServices}/>
+	
 </>
 
 		// <main className="space-y-8 p-8">
@@ -103,6 +108,8 @@ import {
 	AccordionItem,
 	AccordionTrigger,
 } from "@/components/ui/accordion";
+import Swiper1 from "@/components/Swiper";
+import { SwiperServices, SwiperServices1 } from "@/lib/constData";
 
 
 // export function AccordionDemo() {

@@ -46,3 +46,21 @@ export type HomeBannerdataType={
       width: number;
     };
   };
+
+  export type Header = {
+    data: {
+      value:string;
+      title:string;
+      content:string;
+    }
+  }
+
+  export type SwiperServicesData = {
+    data: {
+      id:string;
+      src:string;
+      alt:string;
+      title:string;
+    }
+    
+  }
