@@ -29,12 +29,12 @@ const DesktopDropdown = ({data}:Header) => {
   return (
     <div>
          <div className="hidden lg:block">
-        <ul className="flex justify-between items-center lg:gap-x-12   ">
+        <ul className="flex justify-between items-center lg:gap-x-10   ">
           {accordionItems.data.map((dropdown, index) => (
             <div key={index} className="dropdown relative inline-block ">
               <Link
                 href={`/${dropdown.title.toLowerCase()}`}
-                className="dropbtn  text-white cursor-pointer hover:text-yellow-300 flex gap-x-2 text-lg "
+                className="dropbtn  text-white cursor-pointer hover:text-yellow-300 flex gap-x-2 text-xl "
               >
                 {dropdown.title}
                 <ChevronDownIcon className='hover:rotate-180 mt-1'/>
@@ -46,7 +46,7 @@ const DesktopDropdown = ({data}:Header) => {
                     key={itemIndex}
                     href={`/${dropdown.title.toLowerCase()}/${dropdown.content[itemIndex].toLocaleLowerCase()}`}
                   >
-                    <span className="a text-base hover:text-yellow-300">
+                    <span className="a  hover:text-yellow-300  text-lg">
                       {item}
                     </span>
                   </Link>
@@ -55,10 +55,10 @@ const DesktopDropdown = ({data}:Header) => {
             </div>
           ))}
           <Link href="/ourthing">
-            <ul className="text-white hover:text-yellow text-lg">Our Thing</ul>
+            <ul className="text-white hover:text-yellow-300 text-lg">Our Thing</ul>
           </Link>
           <Link href="/casestudio">
-            <ul className="text-white hover:text-yellow text-lg">Case Studio</ul>
+            <ul className="text-white hover:text-yellow-300 text-lg">Case Studio</ul>
           </Link>
           <div>
             <button className="bg-transparent border border-white py-1 px-4 text-white">
