@@ -3,8 +3,11 @@ import { Button } from "@/components/ui/button";
 import HomeAccord from "@/container/HomeAccord";
 import ProjectSec from "@/container/ThinkSec";
 import {
+  BgBanner,
   Card1,
   Cards,
+  IconData,
+  YellowBannerData,
   footerdata,
   homeAccordiandata,
   homeBannerdata,
@@ -144,7 +147,10 @@ export function AccordionDemo() {
 export default function Home() {
   return (
     <>
-
+      {/* <Contact/>
+      <ImageBanner data={BgBanner}/>
+      <YellowBanner data={YellowBannerData}/> */}
+      {/* <Marque/> */}
     </>
   );
 
