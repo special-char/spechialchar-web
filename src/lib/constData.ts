@@ -49,7 +49,7 @@ export const homeAccordiandata = {
       title: "Extended Reality",
       desc: "Deliver immersive experiences through AR, VR, or MR to create new products, boost productivity, or launch into the metaverse. XR solutions help you bypass distance challenges and be innovative for real.",
     },
-  ];
+  ]
 }
 
   export const tabdata={
@@ -436,30 +436,4 @@ export const banner1 = {
     "We develop powerful educational solutions that turn in-person and online learning into a diverse, engaging, and results-driven experience",
 };
 
-  export const tabdata={
-    button:"Let's Discuss our partnership",
-    data:[
-      {
-        id:1,
-        trigger:"Turnkey Projects",
-        content:"One way to avail of our software engineering services is to explore our turnkey product development model, which is based on the time and materials (T&M) approach. We’ll exercise full control over the development process and deliver working software (or pieces thereof!) at regular intervals, freeing up your time for strategic work. Expert knowledge, extensive reporting, transparent pricing, and customer centricity guaranteed.",
-        value:"Turnkey Projects",
-        image:"/icons/atom-symbol.svg"
-
-      },
-      {
-        id:2,
-        trigger:"Dedicated Teams",
-        content:"ITRex Group also provides end-to-end software product engineering services. We’ll dive into your project requirements, come up with a technology vision and estimates, assemble a winning team that will dedicate 100% of their time to your project, and deliver a software solution while keeping you informed and fully in charge of the development process.",
-        value:"Dedicated Teams",
-        image:"/icons/atom-symbol.svg"
-      },
-      {
-        id:3,
-        trigger:"IT staff Augmentation",
-        content:"Your in-house IT team lacks skilled Kotlin developers? Need a couple Node.js programmers to create dynamic dashboards for an industrial IoT solution? Or is it a virtual CTO that you’re after? Our IT engineering services specialists will augment your team, adopt your methodologies and tools, and help you build quality products — on time, on budget, and up to spec.",
-        value:"IT staff Augmentation",
-        image:"/icons/atom-symbol.svg"
-      },
-    ]
-  }
+ 
