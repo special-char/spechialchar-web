@@ -61,3 +61,14 @@ export type HomeBannerdataType={
       url: string;
     };
   };
+
+ export type tabdataType={
+  data:{
+    id:number;
+    trigger:string;
+    content:string;
+    value:string;
+    image:string;
+    button:string;
+  }
+ } 
