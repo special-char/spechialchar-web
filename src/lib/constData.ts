@@ -302,3 +302,20 @@ export const footerdata = {
       src: "/images/universalelectroniocs-logo.webp",
     },
   ];
+
+
+  export const BgBanner = {
+    url: "/images/AboutBanner2.webp",
+    title1: "We are hungrrrrry",
+    title2: "for your success",
+  };
+
+  export const YellowBannerData = {
+    description: "Our software engineering company collaborates with businesses from the healthcare, finance, education, retail, supply chain management, and other verticals. We help our clients test the novel technology waters, scale IT systems company wide, and ensure faster paybacks. Our core software engineering solutions expertise spans:",
+  };
+
+  export const IconData = {
+    url: "/icons/question-inquiry-icon.svg",
+    title: "Technology Consulting & Audits",
+    description: "Technology consulting is the cornerstone of our software engineering services package. We’ll assess your business requirements, review your existing IT infrastructure, propose a suitable tech, and create a proof of concept to assess the feasibility of your idea.",
+  };

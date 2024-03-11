@@ -53,3 +53,26 @@ export type HomeBannerdataType={
       url: string;
     };
   };
+
+
+  export type BgBannerType = {
+    data: {
+      url: string;
+      title1: string;
+      title2: string;
+    };
+  };
+
+  export type BgYellowType = {
+    data: {
+      description: string;
+    };
+  };
+
+  export type ServiceIconType = {
+    data: {
+      url: string;
+      title: string;
+      description: string;
+    };
+  };
