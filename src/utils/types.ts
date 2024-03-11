@@ -8,6 +8,14 @@ export type FooterdataType = {
       copyright:string;
     }
   }
+  export type CollaboratorCardType = {
+    data: {
+      
+      url: string;
+      title: string;
+      description: string;
+    };
+  };
 
 export type homeAccordiandataType={
   data:{
