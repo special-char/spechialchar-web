@@ -77,25 +77,28 @@ export type BannerType = {
     };
   };
 
-
-  export type BgBannerType = {
+ export type tabdataType={
+  data:{
+    id:number;
+    trigger:string;
+    content:string;
+    value:string;
+    image:string;
+    button:string;
+  }
+ } 
+  export type ServiceBoxType = {
     data: {
-      url: string;
-      title1: string;
-      title2: string;
-    };
-  };
-
-  export type BgYellowType = {
-    data: {
-      description: string;
-    };
-  };
-
-  export type ServiceIconType = {
-    data: {
-      url: string;
+      id: number;
       title: string;
       description: string;
     };
   };
+  export type ServiceIconType ={
+    data:{
+      url:string;
+      title:string;
+      description:string;
+    }
+  }
+
