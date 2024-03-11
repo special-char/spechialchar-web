@@ -33,6 +33,10 @@
 		--ring: 0 0% 3.9%;
 
 		--radius: 0.5rem;
+
+		--color-button:72 97 252;
+		--color-second:255 219 59;
+		--color-third:;
 	}
 
 	.dark {
@@ -80,7 +84,7 @@
 	  header,
 	  footer,
 	  section {
-		@apply lg:px-10 md:px-8 sm:px-3 max-sm:px-3 ;
+		@apply px-container ;
 	  }
 	
 	  section {

@@ -2,8 +2,8 @@ export const homeBannerdata = {
   title: "Next-gen enterprise",
   title2: "software development company",
   subtitle: "We think",
-  button: "Let's Talk"
-}
+  button: "Let's Talk",
+};
 
 export const homeAccordiandata = {
   data: [
@@ -12,45 +12,45 @@ export const homeAccordiandata = {
       image: "/images/accord_1-1.gif",
       number: "01",
       title: "Innovation Consulting",
-      desc: "Make your digital transformation journey super simple, safe, and aligned with your specific business needs. We're good at strategy planning for both enterprises and SMBs, IT audit, business process analysis, and more."
+      desc: "Make your digital transformation journey super simple, safe, and aligned with your specific business needs. We're good at strategy planning for both enterprises and SMBs, IT audit, business process analysis, and more.",
     },
     {
       id: 2,
       image: "/images/accord_2-2.gif",
       number: "02",
       title: "Digital Transformation",
-      desc: "Achieve lower costs, utmost scalability and maximum velocity with our legacy software modernization, cloud, and DevOps services. Our enterprise software development company is here to help you remove the roadblocks to innovation. "
+      desc: "Achieve lower costs, utmost scalability and maximum velocity with our legacy software modernization, cloud, and DevOps services. Our enterprise software development company is here to help you remove the roadblocks to innovation. ",
     },
     {
       id: 3,
       image: "/images/accord_3-3.gif",
       number: "03",
       title: "Software Engineering",
-      desc: "Build enterprise software solutions that perform. We can cover you along the whole way or fill in specific skill gaps in business analysis, UX/UI, testing, development, or support across web, mobile, desktop, cloud, and embedded platforms."
+      desc: "Build enterprise software solutions that perform. We can cover you along the whole way or fill in specific skill gaps in business analysis, UX/UI, testing, development, or support across web, mobile, desktop, cloud, and embedded platforms.",
     },
     {
       id: 4,
       image: "/images/accord_4-4.gif",
       number: "04",
       title: "Big Data & Analytics",
-      desc: "Use your torrents of data to drive decision-making across the company. From Data Governance & Data Management to Data Analytics and Data Science, we make business, not IT, own your data      "
+      desc: "Use your torrents of data to drive decision-making across the company. From Data Governance & Data Management to Data Analytics and Data Science, we make business, not IT, own your data      ",
     },
     {
       id: 5,
       image: "/images/accord_5-5.gif",
       number: "05",
       title: "Artificial Intelligence",
-      desc: "ITRex AI consulting and development experts will address your business challenges using readily available and custom-trained models. Our AI app development know-how spans from ML and DL to NLP, Computer Vision, Generative AI, and IPA.      "
+      desc: "ITRex AI consulting and development experts will address your business challenges using readily available and custom-trained models. Our AI app development know-how spans from ML and DL to NLP, Computer Vision, Generative AI, and IPA.      ",
     },
     {
       id: 6,
       image: "/images/accord_6-6.gif",
       number: "06",
       title: "Extended Reality",
-      desc: "Deliver immersive experiences through AR, VR, or MR to create new products, boost productivity, or launch into the metaverse. XR solutions help you bypass distance challenges and be innovative for real."
+      desc: "Deliver immersive experiences through AR, VR, or MR to create new products, boost productivity, or launch into the metaverse. XR solutions help you bypass distance challenges and be innovative for real.",
     },
-  ]
-}
+  ],
+};
 
 export const footerdata = {
   title:
@@ -74,67 +74,33 @@ export const footerdata = {
     {
       id: 1,
       icon: "/icons/facebook.svg",
-      link: "https://www.facebook.com/"
+      link: "https://www.facebook.com/",
     },
     {
       id: 2,
       icon: "/icons/instagram.svg",
-      link: "https://www.instagram.com/"
+      link: "https://www.instagram.com/",
     },
     {
       id: 3,
       icon: "/icons/Linkedin.svg",
-      link: "https://www.linkedin.com/"
+      link: "https://www.linkedin.com/",
     },
     {
       id: 4,
       icon: "/icons/youtube.svg",
-      link: "https://www.youtube.com/"
+      link: "https://www.youtube.com/",
     },
     {
       id: 5,
       icon: "/icons/twitter.svg",
-      link: "https://twitter.com/i/flow/login?redirect_after_login=%2Fhome"
+      link: "https://twitter.com/i/flow/login?redirect_after_login=%2Fhome",
     },
   ],
 };
 
-export const CollaboratorCard = [
-
-  {
-
-    url: "/icons/collaborate1.png",
-    title: "Thinking Big",
-    description:
-      " After digging deep to understand holistically your challenges and business objectives, we chart your technology path that will keep your business future-proof.",
-  },
-  {
-
-    url: "/icons/collaborate1.png",
-    title: "Starting small",
-    description:
-      "At the beginning of the transformation journey, we start with simple use cases that bring you immediate results.",
-  },
-  {
-
-    url: "/icons/collaborate3.png",
-    title: "Creating value fast",
-    description:
-      "We then build an MVP, testing the first use cases and collecting feedback. Along the way, we introduce enhancements to align business deliverables and add new use cases.",
-  },
-  {
-
-    url: "/icons/collaborate4.png",
-    title: "Innovating at scale",
-    description:
-      "We are expanding the functionality of your system, keeping it flexible on the tech stack, hugely adaptable to humans, and easily scalable to evolve along with your business growth.",
-  },
-
-];
-
 export const Cards = {
   card: [
-
     {
       id: 1,
       url: "/images/project1.webp",
@@ -205,10 +171,8 @@ export const Cards = {
       description:
         " Migration of a legacy system to microservices enables clients to easily configure and manage employee benefits.",
     },
-
   ],
 };
-
 
 export const Card1 = {
   cards: [
@@ -322,7 +286,8 @@ export const MarqueData = [
   {
     id: 3,
     src: "/images/turvo-logo.webp",
-  }, {
+  },
+  {
     id: 4,
     src: "/images/universalelectroniocs-logo.webp",
   },
@@ -426,3 +391,18 @@ export const serviceicon = [
   },
 ];
 
+export const banner = {
+  imageurl: "/images/service.webp",
+  title: "Software engineering Service",
+  button: "Software Engineering",
+  description:
+    "Overhaul business processes, modernize existing technology systems, and bring innovative technology product to market with ITRex — a software engineering company that cares",
+};
+
+export const banner1 = {
+  imageurl: "/images/edimage.webp",
+  title: "eLearning software development services",
+  button: "Contect Us",
+  description:
+    "We develop powerful educational solutions that turn in-person and online learning into a diverse, engaging, and results-driven experience",
+};
