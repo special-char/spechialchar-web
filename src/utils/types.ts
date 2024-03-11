@@ -55,6 +55,23 @@ export type HomeBannerdataType={
     };
   };
 
+  export type Header = {
+    data: {
+      value:string;
+      title:string;
+      content:string;
+    }
+  }
+
+  export type SwiperServicesData = {
+    data: {
+      id:string;
+      src:string;
+      alt:string;
+      title:string;
+    }
+    
+  }
   export type marquedataType = {
     data : {
       id: number;
