@@ -28,40 +28,46 @@ import { accordionItems } from "@/lib/constData";
 const DesktopDropdown = ({data}:Header) => {
   return (
     <div>
-         <div className="hidden lg:block">
-        <ul className="flex justify-between items-center lg:gap-x-10   ">
+         <div className="hidden lg:block z-50">
+        <ul className="flex justify-between items-center lg:gap-x-10 py-3  ">
           {accordionItems.data.map((dropdown, index) => (
-            <div key={index} className="dropdown relative inline-block ">
+            <div key={index} className="dropdown relative inline-block z-50 ">
               <Link
                 href={`/${dropdown.title.toLowerCase()}`}
-                className="dropbtn  text-white cursor-pointer hover:text-yellow-300 flex gap-x-2 text-xl "
+                className="dropbtn  text-white cursor-pointer hover:text-yellow-300 flex gap-x-2 text-lg "
               >
                 {dropdown.title}
                 <ChevronDownIcon className='hover:rotate-180 mt-1'/>
                
               </Link>
-              <li className="dropdown-content text-white  pt-5 hover:block hidden absolute bg-black z-10 w-full ">
+              <div className=' '>
+
+              <li className="dropdown-content text-white  py-5 mt-0   hover:block hidden absolute  bg-black  w-screen  px-2  ">
+               
+
                 {dropdown.content.map((item, itemIndex) => (
-                  <Link
+                  <Link 
                     key={itemIndex}
                     href={`/${dropdown.title.toLowerCase()}/${dropdown.content[itemIndex].toLocaleLowerCase()}`}
                   >
-                    <span className="a  hover:text-yellow-300  text-lg">
+                    <span className="a  hover:text-yellow-300  text-base ">
                       {item}
                     </span>
                   </Link>
                 ))}
+        
               </li>
+              </div>
             </div>
           ))}
           <Link href="/ourthing">
-            <ul className="text-white hover:text-yellow-300 text-lg">Our Thing</ul>
+            <ul className="text-white hover:text-yellow-300 text-lg ">Our Thing</ul>
           </Link>
           <Link href="/casestudio">
             <ul className="text-white hover:text-yellow-300 text-lg">Case Studio</ul>
           </Link>
           <div>
-            <button className="bg-transparent border border-white py-1 px-4 text-white">
+            <button className="bg-transparent border border-white py-1 px-4 text-white ">
               Contact Us
             </button>
           </div>

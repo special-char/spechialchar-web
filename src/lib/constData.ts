@@ -341,7 +341,7 @@ export const footerdata = {
       {
         id: 1,
         src: "/images/chip-mobile3.webp",
-        alt: "Organ-on-a-chip platform for drug ",
+        alt: "Organ-on-a-chip platform for drug development ",
       },
       {
         id: 2,

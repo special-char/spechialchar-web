@@ -12,10 +12,10 @@
     position: absolute;
    
     /* background-color: black; */
-    min-width: 160px;
-    width: 100%;
-   
-    z-index: 1;
+    /* min-width: 160px; */
+    /* width: 100%; */
+    
+    z-index: -1;
   }
   
   .dropdown-content a {
