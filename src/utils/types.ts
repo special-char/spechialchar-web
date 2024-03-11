@@ -76,6 +76,17 @@ export type BannerType = {
       url: string;
     };
   };
+
+ export type tabdataType={
+  data:{
+    id:number;
+    trigger:string;
+    content:string;
+    value:string;
+    image:string;
+    button:string;
+  }
+ } 
   export type ServiceBoxType = {
     data: {
       id: number;
@@ -90,3 +101,14 @@ export type BannerType = {
       description:string;
     }
   }
+
+ export type tabdataType={
+  data:{
+    id:number;
+    trigger:string;
+    content:string;
+    value:string;
+    image:string;
+    button:string;
+  }
+ } 
