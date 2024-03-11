@@ -9,8 +9,8 @@ import FooterCirti from "./FooterCirti";
 
 const Footer = ({ data }: FooterdataType) => {
   return (
-    <footer className="z-20 lg:h-screen md:h-[80vh] max-sm:h-screen overflow-hidden flex bg-black">
-      <div className=" text-white w-full grid max-lg:grid-cols-1 py-12 max-sm:px-4 sm:px-8 justify-center items-center max-sm:gap-y-9 sm:gap-y-10">
+    <footer className="z-20 md:h-[90vh] max-sm:h-screen sm:h-screen overflow-hidden flex bg-black">
+      <div className=" text-white w-full grid max-lg:grid-cols-1 py-12 justify-center items-center">
         <div className="flex flex-wrap gap-x-40 max-sm:gap-y-9 sm:gap-y-10">
           <div className="md:w-52">
             <Link href={"#"}>

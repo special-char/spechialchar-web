@@ -98,6 +98,39 @@ export const footerdata = {
       },
     ],
   };
+  
+  export const CollaboratorCard = [
+    
+      {
+        
+        url: "/icons/collaborate1.png",
+        title: "Thinking Big",
+        description:
+          " After digging deep to understand holistically your challenges and business objectives, we chart your technology path that will keep your business future-proof.",
+      },
+      {
+        
+        url: "/icons/collaborate1.png",
+        title: "Starting small",
+        description:
+          "At the beginning of the transformation journey, we start with simple use cases that bring you immediate results.",
+      },
+      {
+        
+        url: "/icons/collaborate3.png",
+        title: "Creating value fast",
+        description:
+          "We then build an MVP, testing the first use cases and collecting feedback. Along the way, we introduce enhancements to align business deliverables and add new use cases.",
+      },
+      {
+        
+        url: "/icons/collaborate4.png",
+        title: "Innovating at scale",
+        description:
+          "We are expanding the functionality of your system, keeping it flexible on the tech stack, hugely adaptable to humans, and easily scalable to evolve along with your business growth.",
+      },
+    
+    ];
 
   export const Cards = {
     card: [
@@ -334,3 +367,28 @@ export const footerdata = {
   }
 
 
+  export const MarqueData =  [
+    {
+      id: 1,
+      src: "/images/turvo-logo.webp",
+    },
+    {
+      id: 2,
+      src: "/images/universalelectroniocs-logo.webp",
+    },
+    {
+      id: 3,
+      src: "/images/turvo-logo.webp",
+    },{
+      id: 4,
+      src: "/images/universalelectroniocs-logo.webp",
+    },
+    {
+      id: 5,
+      src: "/images/turvo-logo.webp",
+    },
+    {
+      id: 6,
+      src: "/images/universalelectroniocs-logo.webp",
+    },
+  ];
