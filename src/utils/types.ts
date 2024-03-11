@@ -61,3 +61,17 @@ export type HomeBannerdataType={
       url: string;
     };
   };
+  export type ServiceBoxType = {
+    data: {
+      id: number;
+      title: string;
+      description: string;
+    };
+  };
+  export type ServiceIconType ={
+    data:{
+      url:string;
+      title:string;
+      description:string;
+    }
+  }
