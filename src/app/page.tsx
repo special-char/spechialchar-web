@@ -1,18 +1,18 @@
 
-// import { Button } from "@/components/ui/button";
-// import HomeAccord from "@/container/HomeAccord";
-// import ProjectSec from "@/container/ThinkSec";
-// import {
-//   BgBanner,
-//   Card1,
-//   Cards,
-//   IconData,
-//   YellowBannerData,
-//   footerdata,
-//   homeAccordiandata,
-//   homeBannerdata,
-// } from "@/lib/constData";
-// import { PlusIcon } from "@radix-ui/react-icons";
+import { Button } from "@/components/ui/button";
+import HomeAccord from "@/container/HomeAccord";
+import ProjectSec from "@/container/ThinkSec";
+import {
+  BgBanner,
+  Card1,
+  Cards,
+  IconData,
+  YellowBannerData,
+  footerdata,
+  homeAccordiandata,
+  homeBannerdata,
+} from "@/lib/constData";
+import { PlusIcon } from "@radix-ui/react-icons";
 
 // export default function Home() {
 // 	return (
