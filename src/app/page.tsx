@@ -1,11 +1,9 @@
-import CardComp from "@/components/ProjectCard";
-import Footer from "@/components/Footer";
-import HomeAccordian from "@/components/HomeAccordian";
-import HomeBanner from "@/components/HomeBanner";
+
 import { Button } from "@/components/ui/button";
 import HomeAccord from "@/container/HomeAccord";
 import ProjectSec from "@/container/ProjectSec";
 import {
+  BgBanner,
   Card1,
   Cards,
   MarqueData,
@@ -35,3 +33,5 @@ export default function Home() {
     </>
   );
 }
+
+

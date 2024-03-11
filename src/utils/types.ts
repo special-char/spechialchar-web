@@ -46,12 +46,6 @@ export type Card1Type = {
   };
 };
 
-export type marquedataType = {
-  data: {
-    id: number;
-    url: string;
-  };
-};
 
 export type BannerType = {
   title: string;
@@ -59,3 +53,49 @@ export type BannerType = {
   description: string;
   imageurl: string;
 };
+  export type Header = {
+    data: {
+      value:string;
+      title:string;
+      content:string;
+    }
+  }
+
+  export type SwiperServicesData = {
+    data: {
+      id:string;
+      src:string;
+      alt:string;
+      title:string;
+    }
+    
+  }
+  export type marquedataType = {
+    data : {
+      id: number;
+      url: string;
+    };
+  };
+
+
+  export type BgBannerType = {
+    data: {
+      url: string;
+      title1: string;
+      title2: string;
+    };
+  };
+
+  export type BgYellowType = {
+    data: {
+      description: string;
+    };
+  };
+
+  export type ServiceIconType = {
+    data: {
+      url: string;
+      title: string;
+      description: string;
+    };
+  };
