@@ -50,8 +50,10 @@ type Props = {};
 
 const ProjectSec = (props: Props) => {
   return (
-    <div className="max-sm:pl-4 pl-8 lg:pl-48 py-10 md:py-5">
-      <h1 className="font-bold text-4xl my-10 lg:pl-4 sm:pl-2">Latest Project</h1>
+    <section className="max-sm:pl-4 pl-8 lg:pl-48 py-10 md:py-5">
+      <h1 className="font-bold text-4xl my-10 lg:pl-4 sm:pl-2">
+        Latest Project
+      </h1>
 
       <CardComp data={Card1} />
 
@@ -65,16 +67,12 @@ const ProjectSec = (props: Props) => {
           </Link>
         </div>
         <div className="pr-5 md:pr-16 grid overflow-hidden justify-center">
-          <Button
-            variant={"default"}
-            size={"lg"}
-            className="lg:text-lg md:text-md"
-          >
+          <Button variant={"default"} size={"md"} className="">
             Start your innovation journey
           </Button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
