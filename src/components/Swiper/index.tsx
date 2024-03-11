@@ -15,7 +15,7 @@ import { SwiperServices } from "@/lib/constData";
 const Swiper1 = ({data}:SwiperServicesData) => {
   return (
     <div className="p-4 px-6 py-10 md:px-8">
-        <div className="py-5 text-2xl font-bold pr-4 md:text-4xl ">
+        <div className="py-5 lg:pb-10 text-2xl font-bold pr-4 md:text-4xl lg:text-5xl lg:pr-44  ">
         {data.title}
         </div>
       <Swiper
@@ -46,7 +46,7 @@ const Swiper1 = ({data}:SwiperServicesData) => {
                   height={200}
                   width={800}
                 />
-                <div className=" px-6 py-3  md:px-12  text-white  text-2xl md:text-3xl  font-bold overflow-hidden lg:px-10 lg:pr-20">
+                <div className=" px-6 py-3  md:px-12  text-white  text-2xl md:text-3xl   font-bold overflow-hidden lg:px-10 lg:pr-20">
                   {car.alt}&rarr;
                 </div>
               </div>

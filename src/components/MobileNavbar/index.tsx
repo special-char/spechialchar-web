@@ -61,7 +61,7 @@ const MobileNavbar = ({data}:Header) => {
                 <AccordionContent className="p-4  ">
                   <ul className="flex flex-col gap-y-2">
                     {item.content.map((itemContent, index) => (
-                      <li key={index} className="text-lg hover:text-yellow-300  ">
+                      <li key={index} className="text-base hover:text-yellow-300  ">
                         <Link
                           href={`${item.title.toLowerCase()}/${itemContent.toLowerCase()}`}
                           className=""
