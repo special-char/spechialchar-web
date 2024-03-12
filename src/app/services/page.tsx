@@ -1,5 +1,6 @@
 import ImageBanner from "@/components/ImageBanner";
 import ServiceBox from "@/components/ServiceBox";
+import ServiceIcon2 from "@/components/ServiceIcon2";
 import Swiper1 from "@/components/Swiper";
 import Tab from "@/components/Tab";
 import YellowBanner from "@/components/YellowBanner";
@@ -25,6 +26,7 @@ const Services = () => {
       <Service/>
       <ImageBanner data={imageBanner} />
       <YellowBanner data={Bgbanner} />
+      <ServiceIcon2/>
       <ImageBanner data={imageBanner1} />
       <YellowBanner data={Bgbanner1} />
       <Tab data={tabdata} />
