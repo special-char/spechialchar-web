@@ -153,7 +153,6 @@ export default function Home() {
       <ImageBanner data={BgBanner}/>
       <YellowBanner data={YellowBannerData}/> */}
       {/* <Marque/> */}
-      <Navbar data={accordionItems}/>
     </>
   );
 
