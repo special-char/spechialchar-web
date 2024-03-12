@@ -556,12 +556,6 @@ export const accordionItems = {
   ],
 };
 
-export const BgBanner = {
-  url: "/images/AboutBanner2.webp",
-  title1: "We are hungrrrrry",
-  title2: "for your success",
-};
-
 export const YellowBannerData = {
   description:
     "Our software engineering company collaborates with businesses from the healthcare, finance, education, retail, supply chain management, and other verticals. We help our clients test the novel technology waters, scale IT systems company wide, and ensure faster paybacks. Our core software engineering solutions expertise spans:",
@@ -586,73 +580,166 @@ export const testimonial = {
     {
       id: 1,
       image: "/images/testimonial1.webp",
-       title1: "Daniel Schuler", 
-       title2:"CTO",
-       title3: "Hyginex",
-      description: "When you hire them, you're actually going to get something valuable.",
+      title1: "Daniel Schuler",
+      title2: "CTO",
+      title3: "Hyginex",
+      description:
+        "When you hire them, you're actually going to get something valuable.",
     },
     {
       id: 2,
       image: "/images/testimonial2.webp",
-       title1: "Ashley Lewis",
-       title2 : "Director of Product Management  ",
-       title3:"Dollar Shave Club",
-      description: "Itrex is an outstanding partner. They don't even feel like a contractor, but more like a fully integrated team.",
+      title1: "Ashley Lewis",
+      title2: "Director of Product Management  ",
+      title3: "Dollar Shave Club",
+      description:
+        "Itrex is an outstanding partner. They don't even feel like a contractor, but more like a fully integrated team.",
     },
     {
       id: 3,
       image: "/images/testimonial3.webp",
-       title1: "Jeff Block",
-       title2 : "VP of Process and Technology   ",
-       title3:" PotentiaMetrics, Inc.",
-      description: "Itrex’s team are experts in their trade. The&nbsp;software development they provided was critical to advancing the project to the next level.",
+      title1: "Jeff Block",
+      title2: "VP of Process and Technology   ",
+      title3: " PotentiaMetrics, Inc.",
+      description:
+        "Itrex’s team are experts in their trade. The&nbsp;software development they provided was critical to advancing the project to the next level.",
     },
-  ]
-}
+  ],
+};
 
 export const serviceicon2 = {
   data: [
     {
-      
       url: "/images/accord_1-1.gif",
-      
+
       title: "Enterprise Technology",
-      description: "The ITRex software product engineering firm is well-versed in enterprise IT technologies. ERP systems, CRM and help desk solutions, document and learning management systems, HRM and project management software, accounting and eProcurement tools — you can find it all in our portfolio.",
+      description:
+        "The ITRex software product engineering firm is well-versed in enterprise IT technologies. ERP systems, CRM and help desk solutions, document and learning management systems, HRM and project management software, accounting and eProcurement tools — you can find it all in our portfolio.",
     },
     {
-      
       url: "/images/accord_2-2.gif",
-      
+
       title: "Artificial Intelligence",
-      description: "We take pride in our AI expertise and offer a wide range of innovative software engineering services to supercharge your technology systems. Partner with ITRex to develop apps with computer vision capabilities, train highly accurate machine learning models, and reduce bias in custom AI deployments. ",
+      description:
+        "We take pride in our AI expertise and offer a wide range of innovative software engineering services to supercharge your technology systems. Partner with ITRex to develop apps with computer vision capabilities, train highly accurate machine learning models, and reduce bias in custom AI deployments. ",
     },
     {
-      
       url: "/images/accord_3-3.gif",
-      
+
       title: "Automation",
-      description: "Rule-based business process automation tools, lightweight RPA bots interacting with application interfaces, and AI algorithms automating processes based on historical and real-time data — we’ve been there, done that. Tap into our software engineering services to boost employee productivity and cut operational costs!",
+      description:
+        "Rule-based business process automation tools, lightweight RPA bots interacting with application interfaces, and AI algorithms automating processes based on historical and real-time data — we’ve been there, done that. Tap into our software engineering services to boost employee productivity and cut operational costs!",
     },
     {
-      
       url: "/images/accord_4-4.gif",
-      
+
       title: "Big Data & Analytics",
-      description: "ITRex Group is a software engineering company with a strong background in data science. Do you need help customizing SaaS business intelligence (BI) products to best suit your analytics? Are you struggling to interpret unstructured data or ensure an uninterrupted flow of information across your IT infrastructure? Whatever your objectives are, we’ve got you covered!    ",
+      description:
+        "ITRex Group is a software engineering company with a strong background in data science. Do you need help customizing SaaS business intelligence (BI) products to best suit your analytics? Are you struggling to interpret unstructured data or ensure an uninterrupted flow of information across your IT infrastructure? Whatever your objectives are, we’ve got you covered!    ",
     },
     {
-      
       url: "/images/accord_5-5.gif",
-      
+
       title: "Internet of Everything",
-      description: "To help you further boost your data analytics and automation efforts, we transform your assets, equipment, and even personnel into a wealth of data. For this, we design and implement smart sensors, embedded systems, cloud-based data storage and processing solutions, and rich user interfaces, which range from mobile apps to built-in voice assistants.     ",
+      description:
+        "To help you further boost your data analytics and automation efforts, we transform your assets, equipment, and even personnel into a wealth of data. For this, we design and implement smart sensors, embedded systems, cloud-based data storage and processing solutions, and rich user interfaces, which range from mobile apps to built-in voice assistants.     ",
     },
     {
-      
       url: "/images/accord_6-6.gif",
-      
+
       title: "Metaverses",
-      description: "We draw on our extended reality and blockchain development expertise to create metaverse apps of all sizes and levels of complexity. Whether you need an augmented reality app with Snapchat-like filters or a marketplace to trade NFTs, we’re the right software engineering firm to undertake your project!",
+      description:
+        "We draw on our extended reality and blockchain development expertise to create metaverse apps of all sizes and levels of complexity. Whether you need an augmented reality app with Snapchat-like filters or a marketplace to trade NFTs, we’re the right software engineering firm to undertake your project!",
     },
   ],
-}
+};
+
+export const mobileServicesdata = {
+  data: [
+    {
+      id: 1,
+      title: "Discovery & R&D",
+      description:
+        "We translate your app idea into a feature setlist and draw up a detailed development roadmap that leads to the desired outcomes",
+    },
+    {
+      id: 2,
+      title: "UX/UI Design",
+      description:
+        "To deliver an intuitive user experience and attractive look and feel for your app, we define personas, map user journeys and carefully test our assumptions.",
+    },
+    {
+      id: 3,
+      title: "Development",
+      description:
+        "Our development strategies focus on creating a future-proof app architecture, selecting the right tech stack and using best development practices.",
+    },
+    {
+      id: 4,
+      title: "QA",
+      description:
+        "Throughout development, we carry out comprehensive mobile testing to make sure the app functions as intended across devices and screen resolutions.",
+    },
+    {
+      id: 5,
+      title: "Launch",
+      description:
+        "To deliver an intuitive user experience and attractive look and feel for your app, we define personas, map user journeys and carefully test our assWe release your app on the App Store or integrate it seamlessly into your enterprise tech infrastructure.",
+    },
+    {
+      id: 6,
+      title: "Maintenance & Support",
+      description:
+        "Our apps come with continuous post-release support, which includes making improvements to meet the evolving needs of your business and users.",
+    },
+  ],
+};
+
+export const latestThinkingData = {
+  data: [
+    {
+      id: 1,
+      title: "Waterfall vs. Agile: how to choose the right approach",
+      img: "/images/latestThinking1.webp",
+    },
+    {
+      id: 2,
+      title: "What self-service BI is and how to do it right",
+      img: "/images/latestThinking2.webp",
+    },
+    {
+      id: 3,
+      title:
+        "AI-powered augmented analytics: capabilities and benefits for business→",
+      img: "/images/latestThinking3.webp",
+    },
+  ],
+};
+
+export const imageBanner3 = {
+  url: "/images/soft4.webp",
+  title1: "End-to-end mobile",
+  title2: "development services",
+};
+
+export const imageBanner4 = {
+  url: "/images/soft5.webp",
+  title1: "Delivering industry-specific",
+  title2: "mobile app solutions",
+};
+
+export const YellowBannerData1 = {
+  description:
+    "With a deep understanding of industry-specific challenges and requirements, the ITRex app development company delivers products tailored to your needs. Whether you are a startup aiming to disrupt the market or an enterprise looking to improve employee productivity, obtain valuable data insights or build a loyal customer base, we are ready to take on the challenge.",
+};
+
+export const imageBanner5 = {
+  url: "/images/soft6.webp",
+  title1: "Next-gen tech",
+  title2: "for mobile app development",
+};
+
+export const YellowBannerData2 = {
+  description:
+    "We bring innovation to the fore and use emerging technology to power a new style of mobile apps.",
+};
