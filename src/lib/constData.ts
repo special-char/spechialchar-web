@@ -652,7 +652,30 @@ export const serviceicon2 = {
         "We draw on our extended reality and blockchain development expertise to create metaverse apps of all sizes and levels of complexity. Whether you need an augmented reality app with Snapchat-like filters or a marketplace to trade NFTs, we’re the right software engineering firm to undertake your project!",
     },
   ],
-};
+}
+export const mobileicon = [
+  {
+    url: "/icons/aindroid.svg",
+    title: "Andorid",
+    description:
+      "Using innovative concepts and data-driven insights, we craft high-performance apps that rank high on Google Play and transform business.",
+  
+      languages: ["Java","|", "Kotlin"],
+      },
+  {
+    url: "/icons/ios-1.svg",
+    title: "Ios",
+    description:
+      "We boast a legacy of great iOS apps for a range of business niches, which never leave the iPhones and iPads home screens of the delighted users.",
+ 
+      languages: ["Swift","|", "Objective-C"],   },
+  {
+    url: "/icons/cross_platforms.svg",
+    title: "Cross Platform",
+    description:
+      "Whatever the complexity, we bring the full benefit of cross-platform tech to the table, including lower costs, faster time to market and maximum reach.",
+  
+      languages: ["React Native","|", "Flutter"],  },]
 
 export const mobileServicesdata = {
   data: [

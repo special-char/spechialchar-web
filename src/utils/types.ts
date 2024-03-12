@@ -113,6 +113,7 @@ export type ServiceIconType = {
     url: string;
     title: string;
     description: string;
+    languages: string;
   };
 };
 
