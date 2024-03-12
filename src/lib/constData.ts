@@ -573,6 +573,14 @@ export const IconData = {
   description:
     "Technology consulting is the cornerstone of our software engineering services package. We’ll assess your business requirements, review your existing IT infrastructure, propose a suitable tech, and create a proof of concept to assess the feasibility of your idea.",
 };
+
+export const banner2 = {
+  imageurl: "/images/mobile2.jpg",
+  title: "Mobile app development company",
+  button: "Hire App Developer",
+  description:
+    "We create custom mobile Apps that beat business challenges, generate revenue and hit millions of downloads",
+};
 export const testimonial = {
   data: [
     // {
@@ -671,3 +679,59 @@ export const mobileicon = [
       "Whatever the complexity, we bring the full benefit of cross-platform tech to the table, including lower costs, faster time to market and maximum reach.",
   
       languages: ["React Native","|", "Flutter"],  },]
+
+
+export const mobileServicesdata={
+  data: [
+    {
+      id: 1,
+      title: "Discovery & R&D",
+      description: "We translate your app idea into a feature setlist and draw up a detailed development roadmap that leads to the desired outcomes"
+    },
+    {
+      id: 2,
+      title: "UX/UI Design",
+      description: "To deliver an intuitive user experience and attractive look and feel for your app, we define personas, map user journeys and carefully test our assumptions."
+    },
+    {
+      id: 3,
+      title: "Development",
+      description: "Our development strategies focus on creating a future-proof app architecture, selecting the right tech stack and using best development practices."
+    },
+    {
+      id: 4,
+      title: "QA",
+      description: "Throughout development, we carry out comprehensive mobile testing to make sure the app functions as intended across devices and screen resolutions."
+    },
+    {
+      id: 5,
+      title: "Launch",
+      description: "To deliver an intuitive user experience and attractive look and feel for your app, we define personas, map user journeys and carefully test our assWe release your app on the App Store or integrate it seamlessly into your enterprise tech infrastructure."
+    },
+    {
+      id: 6,
+      title: "Maintenance & Support",
+      description: "Our apps come with continuous post-release support, which includes making improvements to meet the evolving needs of your business and users."
+    }
+  ]
+  }
+
+  export const latestThinkingData={
+    data:[
+      {
+        id:1,
+        title:"Waterfall vs. Agile: how to choose the right approach",
+        img:"/images/latestThinking1.webp"
+      },
+      {
+        id:2,
+        title:"What self-service BI is and how to do it right",
+        img:"/images/latestThinking2.webp"
+      },{
+        id:3,
+        title:"AI-powered augmented analytics: capabilities and benefits for business→",
+        img:"/images/latestThinking3.webp"
+      }
+    ]
+  }
+    

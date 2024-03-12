@@ -59,6 +59,22 @@ export type Header = {
     content: string;
   };
 };
+  export type mobileServicesType={
+  data:{
+      id:number;
+      title:string;
+      description:string;
+  }
+  }
+
+  export type latestThinkingType={
+    data:{
+      id:number;
+      title:string;
+      img:string;
+    }
+  }
+
 
 export type SwiperServicesData = {
   data: {
