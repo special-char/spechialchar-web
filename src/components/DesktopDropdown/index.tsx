@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react'
-import './style.css'
+import './desktop.module.css'
 import { ChevronDownIcon } from "@radix-ui/react-icons"
 import {Header} from '@/utils/types'
 import { accordionItems } from "@/lib/constData";

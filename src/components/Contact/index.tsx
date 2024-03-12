@@ -8,7 +8,7 @@ import FileAttch from "@/public.icons/paperclip-icon.svg";
 import { Button } from "../ui/button";
 
 const Data = [
-  { 
+  {
     htmlfor: "name",
     type: "text",
     id: "name",
@@ -16,7 +16,7 @@ const Data = [
     placeholder: "Name",
     errname: "name",
   },
-  { 
+  {
     htmlfor: "email",
     type: "email",
     id: "email",
@@ -24,7 +24,7 @@ const Data = [
     placeholder: "Email",
     errname: "email",
   },
-  { 
+  {
     htmlfor: "phone",
     type: "tel",
     id: "phone",
@@ -153,8 +153,13 @@ const Contact = () => {
                 </div>
               </div>
               {/* Button */}
-              <div className="flex justify-center py-4 pt-6">
-                <Button variant="" type="submit" disabled={isSubmitting}>
+              <div className="grid pt-10">
+                <Button
+                  variant="default"
+                  type="submit"
+                  size="lg"
+                  disabled={isSubmitting}
+                >
                   Send Message
                 </Button>
               </div>

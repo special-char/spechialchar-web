@@ -10,9 +10,9 @@ import FooterCirti from "./FooterCirti";
 const Footer = ({ data }: FooterdataType) => {
   return (
     <footer className="z-20 md:h-[90vh] max-sm:h-screen sm:h-screen overflow-hidden flex bg-black">
-      <div className=" text-white w-full grid max-lg:grid-cols-1 py-12 justify-center items-center">
+      <div className=" text-white w-full grid max-lg:grid-cols-1 py-12 justify-between items-center">
         <div className="flex flex-wrap gap-x-40 max-sm:gap-y-9 sm:gap-y-10">
-          <div className="md:w-52">
+          <div className="md:w-64">
             <Link href={"#"}>
               <FooterLogo />
             </Link>
@@ -22,7 +22,7 @@ const Footer = ({ data }: FooterdataType) => {
           </div>
         </div>
         <div className="flex flex-wrap lg:gap-x-40 max-md:gap-x-24 md:gap-x-24 sm:gap-x-[5.9rem] max-sm:gap-y-10">
-          <div className="md:w-52 ">
+          <div className="md:w-64 ">
             <p className="text-xl">Office:</p>
             <p className="w-40 text-gray-500 text-md">{data.address}</p>
           </div>
@@ -41,9 +41,9 @@ const Footer = ({ data }: FooterdataType) => {
           </div>
         </div>
         <div className="flex flex-wrap lg:gap-x-40 max-md:gap-x-16 sm:gap-x-20  max-sm:gap-y-10">
-          <div className="flex flex-col md:w-52 text-white">
+          <div className="flex flex-col md:w-64 text-white">
             <p>
-              <Link href={"#"} className=" text-gray-500">
+              <Link href={"#"} className=" text-gray-500 text-sm">
                 {data.privacy}
               </Link>
             </p>
