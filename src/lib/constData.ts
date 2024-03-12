@@ -573,3 +573,11 @@ export const IconData = {
   description:
     "Technology consulting is the cornerstone of our software engineering services package. We’ll assess your business requirements, review your existing IT infrastructure, propose a suitable tech, and create a proof of concept to assess the feasibility of your idea.",
 };
+
+export const banner2 = {
+  imageurl: "/images/mobile2.jpg",
+  title: "Mobile app development company",
+  button: "Hire App Developer",
+  description:
+    "We create custom mobile Apps that beat business challenges, generate revenue and hit millions of downloads",
+};
