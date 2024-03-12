@@ -1,4 +1,5 @@
 
+import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import HomeAccord from "@/container/HomeAccord";
 import ProjectSec from "@/container/ThinkSec";
@@ -8,6 +9,7 @@ import {
   Cards,
   IconData,
   YellowBannerData,
+  accordionItems,
   footerdata,
   homeAccordiandata,
   homeBannerdata,
@@ -151,6 +153,7 @@ export default function Home() {
       <ImageBanner data={BgBanner}/>
       <YellowBanner data={YellowBannerData}/> */}
       {/* <Marque/> */}
+      <Navbar data={accordionItems}/>
     </>
   );
 
