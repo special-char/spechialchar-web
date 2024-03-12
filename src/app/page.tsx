@@ -1,4 +1,5 @@
 
+import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import HomeAccord from "@/container/HomeAccord";
 import ProjectSec from "@/container/ProjectSec";
