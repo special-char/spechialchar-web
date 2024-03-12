@@ -3,14 +3,17 @@
   }
   
   .dropdown {
-    position: relative;
+    
     display: inline-block;
+
   }
   
   .dropdown-content {
     display: none;
     position: absolute;
-   
+    width: 100vw;
+    left: 0%;
+    
     /* background-color: black; */
     /* min-width: 160px; */
     /* width: 100%; */
@@ -42,7 +45,8 @@
     display: inline-block;
   }
   
-  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropdown-content {display: block;
+  width: 100%;}
   
   
   
