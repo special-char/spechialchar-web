@@ -22,7 +22,7 @@ const Services = () => {
   return (
     <>
       <Banner data={banner} className="" />
-      <Service />
+      <Service/>
       <ImageBanner data={imageBanner} />
       <YellowBanner data={Bgbanner} />
       <ImageBanner data={imageBanner1} />
