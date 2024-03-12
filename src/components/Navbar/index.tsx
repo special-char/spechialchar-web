@@ -8,13 +8,13 @@ import { accordionItems } from "@/lib/constData";
 
 const Navbar = ({ data }: Header) => {
   return (
-    <header className=" w-full z-30 fixed bg-black py-3 ">
+    <header className=" w-full z-10 fixed bg-black py-4  ">
       <div className="flex justify-between items-center">
         <div>
           <NavbarLogo />
         </div>
         {/* <--webView---> */}
-        <div className="hidden lg:block">
+        <div className="hidden lg:block w-full">
           <DesktopDropdown data={accordionItems} />
         </div>
         {/* <---Mobilview----> */}
