@@ -437,3 +437,62 @@ export const banner1 = {
 };
 
  
+
+
+// <---- Accordion Headre --->
+export const accordionItems = {
+
+  data:[
+
+    {
+      value: "item-1",
+      title: "Services",
+      content: ["Mobile", "Web", "Saas", "Back-End", "Cloud & Devops", "Ui & Ux"],
+    },
+    {
+      value: "item-2",
+      title: "Industry",
+      content: ["EdTech & eLearning", "Ecommerce"],
+    },
+    {
+      value: "item-3",
+      title: "Company",
+      content: ["About", "Career", "How Is Work"],
+    },
+  ]
+}
+
+// <---- SwiperServices ----->
+
+
+export const SwiperServices = {
+ 
+  title:"How customers benefit from our software engineering services",
+  data:[
+    {
+      id: 1,
+      src: "/images/chip-mobile3.webp",
+      alt: "Organ-on-a-chip platform for drug development ",
+    },
+    {
+      id: 2,
+      src: "/images/wallmart_1.webp",
+      alt: "AI-powered self-service BI and big data ",
+    },
+    {
+      id:3,
+      src:"/images/case-logistics.webp",
+      alt:"IoT logistics "
+    },
+    {
+      id:4,
+      src:"/images/fitness-app-e1626716488925-1440x1018.webp",
+      alt:"AI-powered fitness mirror with a personal coach "
+    },
+    {
+      id:5,
+      src:"/images/Mobile.jpg",
+      alt:"ML tool and MLOps help social media giant improve live stream content  "
+    }
+  ]
+}
