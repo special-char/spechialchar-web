@@ -6,23 +6,6 @@ import { Header } from "@/utils/types";
 import { accordionItems } from "@/lib/constData";
 import { Button } from "../ui/button";
 
-// const accordionItems = [
-//   {
-//     value: "item-1",
-//     title: "Services",
-//     content: ["Mobile", "Web", "Saas", "Back-End", "Cloud & Devops", "Ui & Ux"],
-//   },
-//   {
-//     value: "item-2",
-//     title: "Industry",
-//     content: ["EdTech & eLearning", "Ecommerce"],
-//   },
-//   {
-//     value: "item-3",
-//     title: "Company",
-//     content: ["About", "Career", "How Is Work"],
-//   },
-// ];
 
 const DesktopDropdown = ({ data }: Header) => {
   return (
@@ -33,7 +16,7 @@ const DesktopDropdown = ({ data }: Header) => {
             <div key={index} className="dropdown inline-block z-50 ">
               <Link
                 href={`/${dropdown.title.toLowerCase()}`}
-                className="dropbtn  text-white cursor-pointer hover:text-yellow-300 flex gap-x-2 text-lg "
+                className="  text-white cursor-pointer hover:text-yellow-300 flex gap-x-2 text-lg "
               >
                 {dropdown.title}
                 <ChevronDownIcon className="hover:rotate-180 mt-1" />
