@@ -573,3 +573,51 @@ export const IconData = {
   description:
     "Technology consulting is the cornerstone of our software engineering services package. We’ll assess your business requirements, review your existing IT infrastructure, propose a suitable tech, and create a proof of concept to assess the feasibility of your idea.",
 };
+
+
+export const serviceicon2 = {
+  data: [
+    {
+      
+      url: "/images/accord_1-1.gif",
+      
+      title: "Enterprise Technology",
+      description: "The ITRex software product engineering firm is well-versed in enterprise IT technologies. ERP systems, CRM and help desk solutions, document and learning management systems, HRM and project management software, accounting and eProcurement tools — you can find it all in our portfolio.",
+    },
+    {
+      
+      url: "/images/accord_2-2.gif",
+      
+      title: "Artificial Intelligence",
+      description: "We take pride in our AI expertise and offer a wide range of innovative software engineering services to supercharge your technology systems. Partner with ITRex to develop apps with computer vision capabilities, train highly accurate machine learning models, and reduce bias in custom AI deployments. ",
+    },
+    {
+      
+      url: "/images/accord_3-3.gif",
+      
+      title: "Automation",
+      description: "Rule-based business process automation tools, lightweight RPA bots interacting with application interfaces, and AI algorithms automating processes based on historical and real-time data — we’ve been there, done that. Tap into our software engineering services to boost employee productivity and cut operational costs!",
+    },
+    {
+      
+      url: "/images/accord_4-4.gif",
+      
+      title: "Big Data & Analytics",
+      description: "ITRex Group is a software engineering company with a strong background in data science. Do you need help customizing SaaS business intelligence (BI) products to best suit your analytics? Are you struggling to interpret unstructured data or ensure an uninterrupted flow of information across your IT infrastructure? Whatever your objectives are, we’ve got you covered!    ",
+    },
+    {
+      
+      url: "/images/accord_5-5.gif",
+      
+      title: "Internet of Everything",
+      description: "To help you further boost your data analytics and automation efforts, we transform your assets, equipment, and even personnel into a wealth of data. For this, we design and implement smart sensors, embedded systems, cloud-based data storage and processing solutions, and rich user interfaces, which range from mobile apps to built-in voice assistants.     ",
+    },
+    {
+      
+      url: "/images/accord_6-6.gif",
+      
+      title: "Metaverses",
+      description: "We draw on our extended reality and blockchain development expertise to create metaverse apps of all sizes and levels of complexity. Whether you need an augmented reality app with Snapchat-like filters or a marketplace to trade NFTs, we’re the right software engineering firm to undertake your project!",
+    },
+  ],
+}
