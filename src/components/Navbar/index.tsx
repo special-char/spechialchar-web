@@ -6,21 +6,20 @@ import MobileNavbar from "../MobileNavbar";
 import { Header } from "@/utils/types";
 import { accordionItems } from "@/lib/constData";
 
-
-const Navbar = ({data}:Header) => {
+const Navbar = ({ data }: Header) => {
   return (
-    <header className="h-full w-full bg-black py-4 px-5 ">
+    <header className=" w-full z-10 fixed bg-black py-4  ">
       <div className="flex justify-between items-center">
         <div>
           <NavbarLogo />
         </div>
         {/* <--webView---> */}
-        <div className="hidden lg:block">
-          <DesktopDropdown data={accordionItems}/>
+        <div className="hidden lg:block w-full">
+          <DesktopDropdown data={accordionItems} />
         </div>
         {/* <---Mobilview----> */}
         <div className="lg:hidden ">
-         <MobileNavbar data={accordionItems}/>
+          <MobileNavbar data={accordionItems} />
         </div>
       </div>
     </header>

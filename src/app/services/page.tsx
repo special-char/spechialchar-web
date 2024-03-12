@@ -1,9 +1,40 @@
-import React from 'react'
+import ImageBanner from "@/components/ImageBanner";
+import ServiceBox from "@/components/ServiceBox";
+import ServiceIcon2 from "@/components/ServiceIcon2";
+import Swiper1 from "@/components/Swiper";
+import Tab from "@/components/Tab";
+import YellowBanner from "@/components/YellowBanner";
+import Banner from "@/container/Banner";
+import Service from "@/container/Service";
+import {
+  Bgbanner,
+  Bgbanner1,
+  Card1,
+  SwiperServices,
+  banner,
+  imageBanner,
+  imageBanner1,
+  imageBanner2,
+  tabdata,
+} from "@/lib/constData";
+import React from "react";
 
 const Services = () => {
   return (
-    <div>Services</div>
-  )
-}
+    <>
+      <Banner data={banner} className="" />
+      <Service/>
+      <ImageBanner data={imageBanner} />
+      <YellowBanner data={Bgbanner} />
+      <ServiceIcon2/>
+      <ImageBanner data={imageBanner1} />
+      <YellowBanner data={Bgbanner1} />
+      <Tab data={tabdata} />
+      <ImageBanner data={imageBanner2} />
+      <ServiceBox />
+      <Swiper1 data={SwiperServices} />
+    </>
+  );
+};
 
-export default Services
+export default Services;

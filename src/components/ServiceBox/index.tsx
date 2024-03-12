@@ -27,9 +27,6 @@
 
 // export default ServiceBox
 
-
-
-
 // import React from 'react';
 
 // type Props = {};
@@ -65,12 +62,10 @@
 // import React from 'react';
 // import { Button } from '../ui/button';
 
-
-
 // const ServiceBox = () => {
 //     return (
 //         <div className='bg-blue-400 border-r-2 m-10 lg:mx-20 gap-5 p-4 grid lg:grid-cols-2  rounded-lg'>
-            
+
 //             {serviceBox.map((i) => {
 //                 return (
 //                     <div key={i.id} className='flex flex-wrap flex-row lg:px-24  '>
@@ -78,34 +73,31 @@
 //                             <span className='font-bold text-xl'>{i.title}</span> {i.discription}
 //                         </div>
 
-
-
 //                     </div>
 //                 )
 //             })
 //             }
 //         </div>
-        
+
 //     );
 // };
 
 // export default ServiceBox;
-import { serviceBox } from '@/lib/constData';
-import React from 'react';
-import { Button } from '../ui/button';
+import { serviceBox } from "@/lib/constData";
+import React from "react";
+import { Button } from "../ui/button";
 
 const ServiceBox = () => {
   return (
-    <div className='bg-blue-100 border-r-2 m-4 lg:px-20 lg: py-20  p-4 rounded-lg '>
-      <ul className='list-disc pl-7 grid lg:grid-cols-2 lg:px-1 gap-4 md:grid-cols-2'>
+    <section className="bg-blue-100 border-r-2 m-4 lg:px-20 lg: py-20  p-4 rounded-lg ">
+      <ul className="list-disc pl-7 grid lg:grid-cols-2 lg:px-1 gap-4 md:grid-cols-2">
         {serviceBox.map((i) => (
-          <li key={i.id} className='text-lg mb-2 '>
-            <span className='font-bold text-xl'>{i.title}</span> {i.discription}
+          <li key={i.id} className="text-lg mb-2 ">
+            <span className="font-bold text-xl">{i.title}</span> {i.discription}
           </li>
         ))}
       </ul>
-    </div>
-    
+    </section>
   );
 };
 

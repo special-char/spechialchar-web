@@ -49,37 +49,65 @@ export const homeAccordiandata = {
       title: "Extended Reality",
       desc: "Deliver immersive experiences through AR, VR, or MR to create new products, boost productivity, or launch into the metaverse. XR solutions help you bypass distance challenges and be innovative for real.",
     },
-  ]
-}
+  ],
+};
 
-  export const tabdata={
-    button:"Let's Discuss our partnership",
-    data:[
-      {
-        id:1,
-        trigger:"Turnkey Projects",
-        content:"One way to avail of our software engineering services is to explore our turnkey product development model, which is based on the time and materials (T&M) approach. We’ll exercise full control over the development process and deliver working software (or pieces thereof!) at regular intervals, freeing up your time for strategic work. Expert knowledge, extensive reporting, transparent pricing, and customer centricity guaranteed.",
-        value:"Turnkey Projects",
-        image:"/icons/atom-symbol.svg"
+export const tabdata = {
+  button: "Let's Discuss our partnership",
+  data: [
+    {
+      id: 1,
+      trigger: "Turnkey Projects",
+      content:
+        "One way to avail of our software engineering services is to explore our turnkey product development model, which is based on the time and materials (T&M) approach. We’ll exercise full control over the development process and deliver working software (or pieces thereof!) at regular intervals, freeing up your time for strategic work. Expert knowledge, extensive reporting, transparent pricing, and customer centricity guaranteed.",
+      value: "Turnkey Projects",
+      image: "/icons/atom-symbol.svg",
+    },
+    {
+      id: 2,
+      trigger: "Dedicated Teams",
+      content:
+        "ITRex Group also provides end-to-end software product engineering services. We’ll dive into your project requirements, come up with a technology vision and estimates, assemble a winning team that will dedicate 100% of their time to your project, and deliver a software solution while keeping you informed and fully in charge of the development process.",
+      value: "Dedicated Teams",
+      image: "/icons/atom-symbol.svg",
+    },
+    {
+      id: 3,
+      trigger: "IT staff Augmentation",
+      content:
+        "Your in-house IT team lacks skilled Kotlin developers? Need a couple Node.js programmers to create dynamic dashboards for an industrial IoT solution? Or is it a virtual CTO that you’re after? Our IT engineering services specialists will augment your team, adopt your methodologies and tools, and help you build quality products — on time, on budget, and up to spec.",
+      value: "IT staff Augmentation",
+      image: "/icons/atom-symbol.svg",
+    },
+  ],
+};
 
-      },
-      {
-        id:2,
-        trigger:"Dedicated Teams",
-        content:"ITRex Group also provides end-to-end software product engineering services. We’ll dive into your project requirements, come up with a technology vision and estimates, assemble a winning team that will dedicate 100% of their time to your project, and deliver a software solution while keeping you informed and fully in charge of the development process.",
-        value:"Dedicated Teams",
-        image:"/icons/atom-symbol.svg"
-      },
-      {
-        id:3,
-        trigger:"IT staff Augmentation",
-        content:"Your in-house IT team lacks skilled Kotlin developers? Need a couple Node.js programmers to create dynamic dashboards for an industrial IoT solution? Or is it a virtual CTO that you’re after? Our IT engineering services specialists will augment your team, adopt your methodologies and tools, and help you build quality products — on time, on budget, and up to spec.",
-        value:"IT staff Augmentation",
-        image:"/icons/atom-symbol.svg"
-      },
-    ]
-  }
-  
+export const CollaboratorCard = [
+  {
+    url: "/icons/collaborate1.png",
+    title: "Thinking Big",
+    description:
+      " After digging deep to understand holistically your challenges and business objectives, we chart your technology path that will keep your business future-proof.",
+  },
+  {
+    url: "/icons/collaborate1.png",
+    title: "Starting small",
+    description:
+      "At the beginning of the transformation journey, we start with simple use cases that bring you immediate results.",
+  },
+  {
+    url: "/icons/collaborate3.png",
+    title: "Creating value fast",
+    description:
+      "We then build an MVP, testing the first use cases and collecting feedback. Along the way, we introduce enhancements to align business deliverables and add new use cases.",
+  },
+  {
+    url: "/icons/collaborate4.png",
+    title: "Innovating at scale",
+    description:
+      "We are expanding the functionality of your system, keeping it flexible on the tech stack, hugely adaptable to humans, and easily scalable to evolve along with your business growth.",
+  },
+];
 
 export const footerdata = {
   title:
@@ -299,9 +327,9 @@ export const Card1 = {
         " Check out our new article to discover what ready-made and custom enterprise workflow automation tools have in store and which option is best for you.",
       height: 200,
       width: 300,
-    }
-  ]
-}
+    },
+  ],
+};
 
 export const MarqueData = [
   {
@@ -330,7 +358,6 @@ export const MarqueData = [
   },
 ];
 
-
 export const serviceBox = [
   {
     id: 1,
@@ -341,34 +368,41 @@ export const serviceBox = [
     id: 2,
     title: "Agility:",
     discription: " fast innovation at scale",
-  }, {
+  },
+  {
     id: 3,
     title: "Experience:",
     discription: "600+ projects completed",
-  }, {
+  },
+  {
     id: 4,
     title: "Mastery:",
     discription: "full-stack software engineering capabilities",
-  }, {
+  },
+  {
     id: 5,
     title: "Flexibility:",
-    discription: "350+ IT specialists in five countries, lower risks thanks to the distributed team approach",
-  }, {
+    discription:
+      "350+ IT specialists in five countries, lower risks thanks to the distributed team approach",
+  },
+  {
     id: 6,
     title: "Reliability: ",
     discription: "customer satisfaction index (CSI) of 83%",
-  }, {
+  },
+  {
     id: 7,
     title: "Transparency: ",
-    discription: "effective development, project management, and reporting tools",
-  }, {
+    discription:
+      "effective development, project management, and reporting tools",
+  },
+  {
     id: 8,
     title: "Excellence:",
-    discription: " ISO 9001:2015, ISO/IEC 27001 compliance; Microsoft and Google Cloud partnerships",
+    discription:
+      " ISO 9001:2015, ISO/IEC 27001 compliance; Microsoft and Google Cloud partnerships",
   },
-
-
-]
+];
 export const serviceicon = [
   {
     url: "/images/questionnaire-line.png",
@@ -421,11 +455,70 @@ export const serviceicon = [
 ];
 
 export const banner = {
-  imageurl: "/images/service.webp",
+  imageurl: "/images/service3.png",
   title: "Software engineering Service",
   button: "Software Engineering",
   description:
     "Overhaul business processes, modernize existing technology systems, and bring innovative technology product to market with ITRex — a software engineering company that cares",
+};
+
+export const SwiperServices = {
+  title: "How customers benefit from our software engineering services",
+  data: [
+    {
+      id: 1,
+      src: "/images/chip-mobile3.webp",
+      alt: "Organ-on-a-chip platform for drug development ",
+    },
+    {
+      id: 2,
+      src: "/images/wallmart_1.webp",
+      alt: "AI-powered self-service BI and big data ",
+    },
+    {
+      id: 3,
+      src: "/images/case-logistics.webp",
+      alt: "IoT logistics ",
+    },
+    {
+      id: 4,
+      src: "/images/fitness-app-e1626716488925-1440x1018.webp",
+      alt: "AI-powered fitness mirror with a personal coach ",
+    },
+    {
+      id: 5,
+      src: "/images/fitness-app-e1626716488925-1440x1018.webp",
+      alt: "ML tool and MLOps help social media giant improve live stream content  ",
+    },
+  ],
+};
+
+export const imageBanner = {
+  url: "/images/soft.webp",
+  title1: "Software engineering",
+  title2: "solutions in focus",
+};
+
+export const Bgbanner1 = {
+  description:
+    "As an IT firm that went all the way from a software engineering outsourcing company to a technology vendor with niche expertise, ITRex offers flexible engagement models to meet your requirements:",
+};
+
+export const imageBanner1 = {
+  url: "/images/soft2.webp",
+  title1: "Software engineering services delivered",
+  title2: "how and when you need them",
+};
+
+export const Bgbanner = {
+  description:
+    "Our software engineering company collaborates with businesses from the healthcare, finance, education, retail, supply chain management, and other verticals. We help our clients test the novel technology waters, scale IT systems company wide, and ensure faster paybacks. Our core software engineering solutions expertise spans:",
+};
+
+export const imageBanner2 = {
+  url: "/images/soft3.webp",
+  title1: "Our software engineering",
+  title2: "company at a glance",
 };
 
 export const banner1 = {
@@ -436,4 +529,130 @@ export const banner1 = {
     "We develop powerful educational solutions that turn in-person and online learning into a diverse, engaging, and results-driven experience",
 };
 
- 
+export const accordionItems = {
+  data: [
+    {
+      value: "item-1",
+      title: "Services",
+      content: [
+        "Mobile",
+        "Web",
+        "Saas",
+        "Back-End",
+        "Cloud & Devops",
+        "Ui & Ux",
+      ],
+    },
+    {
+      value: "item-2",
+      title: "Industry",
+      content: ["EdTech & eLearning", "Ecommerce"],
+    },
+    {
+      value: "item-3",
+      title: "Company",
+      content: ["About", "Career", "How Is Work"],
+    },
+  ],
+};
+
+export const BgBanner = {
+  url: "/images/AboutBanner2.webp",
+  title1: "We are hungrrrrry",
+  title2: "for your success",
+};
+
+export const YellowBannerData = {
+  description:
+    "Our software engineering company collaborates with businesses from the healthcare, finance, education, retail, supply chain management, and other verticals. We help our clients test the novel technology waters, scale IT systems company wide, and ensure faster paybacks. Our core software engineering solutions expertise spans:",
+};
+
+export const IconData = {
+  url: "/icons/question-inquiry-icon.svg",
+  title: "Technology Consulting & Audits",
+  description:
+    "Technology consulting is the cornerstone of our software engineering services package. We’ll assess your business requirements, review your existing IT infrastructure, propose a suitable tech, and create a proof of concept to assess the feasibility of your idea.",
+};
+
+export const banner2 = {
+  imageurl: "/images/mobile2.jpg",
+  title: "Mobile app development company",
+  button: "Hire App Developer",
+  description:
+    "We create custom mobile Apps that beat business challenges, generate revenue and hit millions of downloads",
+};
+export const testimonial = {
+  data: [
+    {
+      id: 1,
+      image: "/images/testimonial1.webp",
+       title1: "Daniel Schuler", 
+       title2:"CTO",
+       title3: "Hyginex",
+      description: "When you hire them, you're actually going to get something valuable.",
+    },
+    {
+      id: 2,
+      image: "/images/testimonial2.webp",
+       title1: "Ashley Lewis",
+       title2 : "Director of Product Management  ",
+       title3:"Dollar Shave Club",
+      description: "Itrex is an outstanding partner. They don't even feel like a contractor, but more like a fully integrated team.",
+    },
+    {
+      id: 3,
+      image: "/images/testimonial3.webp",
+       title1: "Jeff Block",
+       title2 : "VP of Process and Technology   ",
+       title3:" PotentiaMetrics, Inc.",
+      description: "Itrex’s team are experts in their trade. The&nbsp;software development they provided was critical to advancing the project to the next level.",
+    },
+  ]
+}
+
+export const serviceicon2 = {
+  data: [
+    {
+      
+      url: "/images/accord_1-1.gif",
+      
+      title: "Enterprise Technology",
+      description: "The ITRex software product engineering firm is well-versed in enterprise IT technologies. ERP systems, CRM and help desk solutions, document and learning management systems, HRM and project management software, accounting and eProcurement tools — you can find it all in our portfolio.",
+    },
+    {
+      
+      url: "/images/accord_2-2.gif",
+      
+      title: "Artificial Intelligence",
+      description: "We take pride in our AI expertise and offer a wide range of innovative software engineering services to supercharge your technology systems. Partner with ITRex to develop apps with computer vision capabilities, train highly accurate machine learning models, and reduce bias in custom AI deployments. ",
+    },
+    {
+      
+      url: "/images/accord_3-3.gif",
+      
+      title: "Automation",
+      description: "Rule-based business process automation tools, lightweight RPA bots interacting with application interfaces, and AI algorithms automating processes based on historical and real-time data — we’ve been there, done that. Tap into our software engineering services to boost employee productivity and cut operational costs!",
+    },
+    {
+      
+      url: "/images/accord_4-4.gif",
+      
+      title: "Big Data & Analytics",
+      description: "ITRex Group is a software engineering company with a strong background in data science. Do you need help customizing SaaS business intelligence (BI) products to best suit your analytics? Are you struggling to interpret unstructured data or ensure an uninterrupted flow of information across your IT infrastructure? Whatever your objectives are, we’ve got you covered!    ",
+    },
+    {
+      
+      url: "/images/accord_5-5.gif",
+      
+      title: "Internet of Everything",
+      description: "To help you further boost your data analytics and automation efforts, we transform your assets, equipment, and even personnel into a wealth of data. For this, we design and implement smart sensors, embedded systems, cloud-based data storage and processing solutions, and rich user interfaces, which range from mobile apps to built-in voice assistants.     ",
+    },
+    {
+      
+      url: "/images/accord_6-6.gif",
+      
+      title: "Metaverses",
+      description: "We draw on our extended reality and blockchain development expertise to create metaverse apps of all sizes and levels of complexity. Whether you need an augmented reality app with Snapchat-like filters or a marketplace to trade NFTs, we’re the right software engineering firm to undertake your project!",
+    },
+  ],
+}
