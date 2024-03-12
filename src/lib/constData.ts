@@ -573,3 +573,31 @@ export const IconData = {
   description:
     "Technology consulting is the cornerstone of our software engineering services package. We’ll assess your business requirements, review your existing IT infrastructure, propose a suitable tech, and create a proof of concept to assess the feasibility of your idea.",
 };
+export const testimonial = {
+  data: [
+    {
+      id: 1,
+      image: "/images/testimonial1.webp",
+       title1: "Daniel Schuler", 
+       title2:"CTO",
+       title3: "Hyginex",
+      description: "When you hire them, you're actually going to get something valuable.",
+    },
+    {
+      id: 2,
+      image: "/images/testimonial2.webp",
+       title1: "Ashley Lewis",
+       title2 : "Director of Product Management  ",
+       title3:"Dollar Shave Club",
+      description: "Itrex is an outstanding partner. They don't even feel like a contractor, but more like a fully integrated team.",
+    },
+    {
+      id: 3,
+      image: "/images/testimonial3.webp",
+       title1: "Jeff Block",
+       title2 : "VP of Process and Technology   ",
+       title3:" PotentiaMetrics, Inc.",
+      description: "Itrex’s team are experts in their trade. The&nbsp;software development they provided was critical to advancing the project to the next level.",
+    },
+  ]
+}
