@@ -12,7 +12,7 @@ const Collabrate = (props: Props) => {
             How we collaborate with you
           </h1>
         </div>
-        <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 lg:px-40 '>
+        <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 '>
 
                 
         {CollaboratorCard.map(x =>
