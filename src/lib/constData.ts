@@ -575,14 +575,14 @@ export const IconData = {
 };
 export const testimonial = {
   data: [
-    {
-      id: 1,
-      image: "/images/testimonial1.webp",
-       title1: "Daniel Schuler", 
-       title2:"CTO",
-       title3: "Hyginex",
-      description: "When you hire them, you're actually going to get something valuable.",
-    },
+    // {
+    //   id: 1,
+    //   image: "/images/testimonial1.webp",
+    //    title1: "Daniel Schuler", 
+    //    title2:"CTO",
+    //    title3: "Hyginex",
+    //   description: "When you hire them, you're actually going to get something valuable.",
+    // },
     {
       id: 2,
       image: "/images/testimonial2.webp",
@@ -648,3 +648,26 @@ export const serviceicon2 = {
     },
   ],
 }
+export const mobileicon = [
+  {
+    url: "/icons/aindroid.svg",
+    title: "Andorid",
+    description:
+      "Using innovative concepts and data-driven insights, we craft high-performance apps that rank high on Google Play and transform business.",
+  
+      languages: ["Java","|", "Kotlin"],
+      },
+  {
+    url: "/icons/ios-1.svg",
+    title: "Ios",
+    description:
+      "We boast a legacy of great iOS apps for a range of business niches, which never leave the iPhones and iPads home screens of the delighted users.",
+ 
+      languages: ["Swift","|", "Objective-C"],   },
+  {
+    url: "/icons/cross_platforms.svg",
+    title: "Cross Platform",
+    description:
+      "Whatever the complexity, we bring the full benefit of cross-platform tech to the table, including lower costs, faster time to market and maximum reach.",
+  
+      languages: ["React Native","|", "Flutter"],  },]

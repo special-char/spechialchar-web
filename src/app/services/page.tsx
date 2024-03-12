@@ -1,8 +1,10 @@
 import ImageBanner from "@/components/ImageBanner";
+import MobileIcon from "@/components/MobileIcon";
 import ServiceBox from "@/components/ServiceBox";
 import ServiceIcon2 from "@/components/ServiceIcon2";
 import Swiper1 from "@/components/Swiper";
 import Tab from "@/components/Tab";
+import Testimonial from "@/components/Testimonial";
 import YellowBanner from "@/components/YellowBanner";
 import Banner from "@/container/Banner";
 import Service from "@/container/Service";
@@ -24,6 +26,7 @@ const Services = () => {
     <>
       <Banner data={banner} className="" />
       <Service/>
+      <Testimonial/>
       <ImageBanner data={imageBanner} />
       <YellowBanner data={Bgbanner} />
       <ServiceIcon2/>
@@ -32,6 +35,7 @@ const Services = () => {
       <Tab data={tabdata} />
       <ImageBanner data={imageBanner2} />
       <ServiceBox />
+      <MobileIcon/>
       <Swiper1 data={SwiperServices} />
     </>
   );
