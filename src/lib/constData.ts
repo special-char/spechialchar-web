@@ -335,3 +335,58 @@ export const footerdata = {
       src: "/images/universalelectroniocs-logo.webp",
     },
   ];
+
+  
+export const mobileServicesdata={
+  data: [
+    {
+      id: 1,
+      title: "Discovery & R&D",
+      description: "We translate your app idea into a feature setlist and draw up a detailed development roadmap that leads to the desired outcomes"
+    },
+    {
+      id: 2,
+      title: "UX/UI Design",
+      description: "To deliver an intuitive user experience and attractive look and feel for your app, we define personas, map user journeys and carefully test our assumptions."
+    },
+    {
+      id: 3,
+      title: "Development",
+      description: "Our development strategies focus on creating a future-proof app architecture, selecting the right tech stack and using best development practices."
+    },
+    {
+      id: 4,
+      title: "QA",
+      description: "Throughout development, we carry out comprehensive mobile testing to make sure the app functions as intended across devices and screen resolutions."
+    },
+    {
+      id: 5,
+      title: "Launch",
+      description: "To deliver an intuitive user experience and attractive look and feel for your app, we define personas, map user journeys and carefully test our assWe release your app on the App Store or integrate it seamlessly into your enterprise tech infrastructure."
+    },
+    {
+      id: 6,
+      title: "Maintenance & Support",
+      description: "Our apps come with continuous post-release support, which includes making improvements to meet the evolving needs of your business and users."
+    }
+  ]
+  }
+
+  export const latestThinkingData={
+    data:[
+      {
+        id:1,
+        title:"Waterfall vs. Agile: how to choose the right approach",
+        img:"/images/latestThinking1.webp"
+      },
+      {
+        id:2,
+        title:"What self-service BI is and how to do it right",
+        img:"/images/latestThinking2.webp"
+      },{
+        id:3,
+        title:"AI-powered augmented analytics: capabilities and benefits for business→",
+        img:"/images/latestThinking3.webp"
+      }
+    ]
+  }
