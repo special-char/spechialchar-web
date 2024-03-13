@@ -538,6 +538,7 @@ export const accordionItems ={
     {
       value: "item-1",
       title: "Services",
+      link:"services",
       content: [
         "Mobile",
         "Web",
@@ -550,11 +551,13 @@ export const accordionItems ={
     {
       value: "item-2",
       title: "Industry",
+      link:"#",
       content: ["EdTech & eLearning", "Ecommerce"],
     },
     {
       value: "item-3",
       title: "Company",
+      link:"#",
       content: ["About", "Career", "How Is Work"],
     },
   ],
@@ -1056,6 +1059,55 @@ export const YellowBannerData3 = {
     "We build impactful SaaS applications using our road-tested six-pillar approach:",
 };
 
+export const saasSection2 = [
+  {
+    id: 1,
+    title: " Tech stack choice",
+    description:
+      "We deeply analyze your project requirements, planned features, and the capabilities of the cloud provider to identify the right combination of tech.",
+  },
+  {
+    id: 2,
+    title: " Multi-tenant architecture",
+    description:
+      "We build multi-tenant architecture with security in mind to make your scaling straightforward and customization easy while minimizing costs.",
+  },
+  {
+    id: 3,
+    title: " External services integration",
+    description:
+      "We save you time building functionality from scratch by performing complex integrations with external services based on your growth metrics.",
+  },
+  {
+    id: 4,
+    title: " Scalability on demand",
+    description:
+      "We take scalability into account from the beginning of your SaaS software development project so that your app is able to adapt as you evolve.",
+  },
+  {
+    id: 5,
+    title: " Security audit",
+    description:
+      "We test your system thoroughly before deployment to ensure that all stored data is well-protected and compliant with standards like GDPR or HIPAA.",
+  },
+  {
+    id: 6,
+    title: " Smooth deployment",
+    description:
+      "We take a tailored deployment approach to keep business disruption to a minimum, using DevOps to automate the process as much as possible.",
+  },
+];
+
+export const Bgbanner4 = {
+  description:
+    "For more than a decade, ITRex SaaS development company has been empowering enterprises and startups across industries by delivering secure and scalable SaaS solutions. Tell us the type of SaaS you want to create and we will help you too.",
+};
+
+export const imageBanner12 = {
+  url: "/images/soft2.webp",
+  title1: "Types of SaaS applications",
+  title2: "we deliver",
+};
 
 // <---- SwiperServices ----->
 

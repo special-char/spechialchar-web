@@ -1,43 +1,62 @@
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./style.css";
 import { ChevronDownIcon } from "@radix-ui/react-icons";
 import { Header } from "@/utils/types";
 import { accordionItems } from "@/lib/constData";
 import { Button } from "../ui/button";
 
-
 const DesktopDropdown = ({ data }: Header) => {
+  const [scrollPosition, setScrollPosition] = useState(0);
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
       <div className="hidden w-full lg:block z-50 ">
-        <ul className=" flex justify-end items-center lg:gap-x-10 py-3  ">
+        <ul className=" flex justify-end items-center lg:gap-x-10 py-3 bg-inherit w-full  ">
           {accordionItems.data.map((dropdown, index) => (
             <div key={index} className="dropdown inline-block z-50 ">
               <Link
-                href={`/${dropdown.title.toLowerCase()}`}
+                href={`/${dropdown.link.toLowerCase()}`}
                 className="  text-white cursor-pointer hover:text-yellow-300 flex gap-x-2 text-lg "
               >
                 {dropdown.title}
                 <ChevronDownIcon className="hover:rotate-180 mt-1" />
               </Link>
-              <div className=''>
-
-              <li className="dropdown-content  text-white  py-5 hover:block hidden absolute  bg-black  w-max  px-2   "  >
-               
-
-                {dropdown.content.map((item, itemIndex) => (
-                  <Link 
-                    key={itemIndex}
-                    href={`/${dropdown.title.toLowerCase()}/${dropdown.content[itemIndex].toLocaleLowerCase()}`}
-                  >
-                    <span className="block py-2  hover:text-yellow-300  text-base ">
-                      {item}
-                    </span>
-                  </Link>
-                ))}
-        
-              </li>
+              <div className="w-full">
+                <li
+                  className="dropdown-content  text-white  py-5 hover:block hidden     px-2"
+                  style={{
+                    backgroundColor:
+                      scrollPosition > 100
+                        ? "rgba(0, 0, 0, 1)"
+                        : "rgba(0, 0, 0, 0)",
+                  }}
+                >
+                  <div >
+                    {dropdown.content.map((item, itemIndex) => (
+                      <Link
+                        key={itemIndex}
+                        href={`/${dropdown.title.toLowerCase()}/${dropdown.content[
+                          itemIndex
+                        ].toLocaleLowerCase()}`}
+                      >
+                        <span className="hover:text-yellow-300  text-base ">
+                          {item}
+                        </span>
+                      </Link>
+                    ))}
+                  </div>
+                </li>
               </div>
             </div>
           ))}

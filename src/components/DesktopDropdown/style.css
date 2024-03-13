@@ -11,8 +11,6 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    width: 100vw;
-    left: 0%;
     
     /* background-color: black; */
     /* min-width: 160px; */

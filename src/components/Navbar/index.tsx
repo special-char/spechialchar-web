@@ -5,12 +5,10 @@ import DesktopDropdown from "../DesktopDropdown";
 import MobileNavbar from "../MobileNavbar";
 import { Header } from "@/utils/types";
 import { accordionItems } from "@/lib/constData";
+import Link from "next/link";
 
-
-const Navbar = ({data}:Header) => {
-
+const Navbar = ({ data }: Header) => {
   const [scrollPosition, setScrollPosition] = useState(0);
-
   useEffect(() => {
     const handleScroll = () => {
       setScrollPosition(window.scrollY);
@@ -23,11 +21,20 @@ const Navbar = ({data}:Header) => {
     };
   }, []);
   return (
-    <header className="h-full w-full  py-2 px-5 lg:px-container "     >
-      <div className="flex justify-between items-center" >
+    <header
+      className=" w-full z-10 fixed py-2  "
+      style={{
+        backgroundColor:
+          scrollPosition > 100 ? "rgba(0, 0, 0, 1)" : "rgba(0, 0, 0, 0)",
+      }}
+    >
+      <div className="flex justify-between items-center">
+        <Link href="/">
+
         <div>
           <NavbarLogo className="" />
         </div>
+        </Link>
         {/* <--webView---> */}
         <div className="hidden lg:block w-full">
           <DesktopDropdown data={accordionItems} />

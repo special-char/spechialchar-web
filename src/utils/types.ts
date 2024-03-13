@@ -59,6 +59,7 @@ export type Header = {
     value: string;
     title: string;
     content: string;
+    link:string;
   };
 };
 export type mobileServicesType = {
@@ -152,13 +153,11 @@ export type BgBannerType = {
 };
 
 export type SaasSectionType = {
-  data: [
-    title: string,
-    description: string,
-    section: {
-      id: number;
-      title: string;
-      descrition: string;
-    }
-  ];
+  data: {
+    id: number;
+    title1: string;
+    description1: string;
+    title: string;
+    description: string;
+  };
 };
