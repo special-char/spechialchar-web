@@ -22,8 +22,8 @@ const HomeAccordian = ({ data }: homeAccordiandataType) => {
         <hr className="border-1 border-black" />
         {homeAccordiandata.data.map((item) => {
           return (
-            <AccordionItem key={item.id} value={`item-${item.id}`}>
-              <AccordionTrigger className="bg-yellow-300">
+            <AccordionItem className="border-b  border-black" key={item.id} value={`item-${item.id}`}>
+              <AccordionTrigger className="bg-yellow-300 flex flex-1 items-center justify-between py-5 text:lg  md:text-xl lg:text-2xl font-bold">
                 <div className="flex gap-10 md:gap-8 items-center">
                   <div className=" md:flex md:gap-40 lg:gap-[30rem] items-center  hidden">
                     <Image alt="" src={item.image} width={40} height={40} />
@@ -33,7 +33,7 @@ const HomeAccordian = ({ data }: homeAccordiandataType) => {
                   <div>{item.title}</div>
                 </div>
               </AccordionTrigger>
-              <AccordionContent>
+              <AccordionContent className="overflow-hidden max-sm:text-sm">
                 <div className=" md:pl-64 lg:pl-[36.5rem] md:pr-40">
                   <div className="flex flex-1 flex-col gap-5 pb-4  ">
                     <Image

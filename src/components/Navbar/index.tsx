@@ -29,7 +29,7 @@ const Navbar = ({ data }: Header) => {
     >
       <div className="flex justify-between items-center">
         <div>
-          <NavbarLogo />
+          <NavbarLogo className="" />
         </div>
         {/* <--webView---> */}
         <div className="hidden lg:block w-full">

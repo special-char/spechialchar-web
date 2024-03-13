@@ -1,3 +1,5 @@
+import { string } from "yup";
+
 export type FooterdataType = {
   data: {
     title: string;
@@ -74,6 +76,15 @@ export type latestThinkingType = {
     img: string;
   };
 };
+export type MobileSwiperType = {
+  data: {
+    src: string;
+    name: string;
+    title: string;
+    company: string;
+    quote: string;
+  };
+};
 
 export type SwiperServicesData = {
   data: {
@@ -119,6 +130,16 @@ export type ServiceIconType = {
 export type BgYellowType = {
   data: {
     description: string;
+  };
+};
+
+export type serviceAccordiandataType = {
+  data: {
+    id: number;
+    image: string;
+    content: string;
+    title: string;
+    button: string;
   };
 };
 

@@ -41,7 +41,7 @@ const MobileNavbar = ({data}:Header) => {
         <Humburger className="fill-white" />
       </div>
       {click && (
-        <div className="absolute z-50 bg-black h-screen w-full left-0 top-0 p-4 ">
+        <div className="absolute z-50  bg-black h-screen w-full left-0 top-0 p-4 ">
           <div className="flex justify-between items-center">
             <div>
               <NavbarLogo />
