@@ -14,7 +14,7 @@ import { SwiperServices } from "@/lib/constData";
 
 const Swiper1 = ({data}:SwiperServicesData) => {
   return (
-    <div className="p-4 px-6 py-10 md:px-8">
+    <section className="p-4 px-6 py-10 md:px-8 lg:px-container">
         <div className="py-5 lg:pb-10 text-2xl font-bold pr-4 md:text-4xl lg:text-5xl lg:pr-44  ">
         {data.title}
         </div>
@@ -56,7 +56,7 @@ const Swiper1 = ({data}:SwiperServicesData) => {
         </div>
        <SwiperNavButtons/>
       </Swiper>
-    </div>
+    </section>
   );
 };
 

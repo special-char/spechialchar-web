@@ -8,6 +8,9 @@ import {
   Card1,
   Cards,
   MarqueData,
+  MobileSwiperData,
+  SwiperServices,
+  accordionItems,
   footerdata,
   homeAccordiandata,
   homeBannerdata,
@@ -19,11 +22,14 @@ import Collabrate from "@/components/Collabrate";
 import ServiceBox from "@/components/ServiceBox";
 import SectionBox from "@/container/ServiceBox";
 import Service from "@/container/Service";
+import Swiper1 from "@/components/Swiper";
+import MobileSwiper from "@/components/MobileSwiper";
+
 
 export default function Home() {
   return (
     <>
-	<HomeBanner data={homeBannerdata}/>
+	{/* <HomeBanner data={homeBannerdata}/>
 	<Marque data={MarqueData}/>
 	<HomeAccord/>
 	<ProjectSec/>
@@ -32,7 +38,7 @@ export default function Home() {
 	<Footer data={footerdata}/>
 	<SectionBox/>
 
-<Service/>
+<Service/> */}
     </>
   );
 }

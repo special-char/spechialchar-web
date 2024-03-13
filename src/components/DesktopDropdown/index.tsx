@@ -25,7 +25,7 @@ const DesktopDropdown = ({data}:Header) => {
               </Link>
               <div className=''>
 
-              <li className="dropdown-content  text-white  py-5 mt-0   hover:block hidden absolute  bg-black  w-max  px-2  "  >
+              <li className="dropdown-content  text-white  py-5 hover:block hidden absolute  bg-black  w-max  px-2   "  >
                
 
                 {dropdown.content.map((item, itemIndex) => (
