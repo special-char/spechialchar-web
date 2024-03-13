@@ -106,4 +106,14 @@ export type BgYellowType = {
   };
 };
 
+export type serviceAccordiandataType={
+  data:{
+    id:number;
+    image:string;
+    content:string;
+    title:string;
+    button:string;
+  };
+};
+
 

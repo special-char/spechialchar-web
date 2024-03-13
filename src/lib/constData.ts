@@ -656,3 +656,119 @@ export const serviceicon2 = {
     },
   ],
 }
+
+export const mobiletabdata = {
+  button: "Contact our app developers",
+  data: [
+    {
+      id: 1,
+      trigger: "Big Data",
+      content:
+        "Use Big Data to create a user-driven app, get real-time insights, improve the app’s performance, and make your marketing more effective.",
+         value: "Big Data",
+      image: "/icons/atom-symbol.svg",
+    },
+    {
+      id: 2,
+      trigger: "AI/ML",
+      content:
+        "Integrate artificial intelligence into mobile applications to offer a more personalized and engaging user experience, advanced authentication, and task automation",
+      value: "AI/ML",
+      image: "/icons/atom-symbol.svg",
+    },
+    {
+      id: 3,
+      trigger: "AR/VR",
+      content:
+        "Leverage the potential of VR and AR apps to pull off interactive and immersive user experience and unlock new possibilities for remote assistance, workplace simulation, training, advertising, entertainment, and much more.",
+      value: "AR/VR",
+      image: "/icons/atom-symbol.svg",
+    },
+    {
+      id: 4,
+      trigger: "IOT",
+      content:"We build mobile apps that let businesses and consumers manage connected smart gadgets and analyze valuable data provided by them with just a few taps.",
+        value: "IoT",
+      image: "/icons/atom-symbol.svg",
+    },
+    {
+      id: 5,
+      trigger: "Cloud",
+      content:"Achieve speed and flexibility with cloud-based apps that are quick to build and easy to scale and safely store the most sensitive data.",
+      value: "Cloud",
+      image: "/icons/atom-symbol.svg",
+    },
+  ],
+};
+
+export const serviceAccordiandata={
+  button:"Contact Us",
+  data:[
+    {
+      id:1,
+      image: "/icons/atom-symbol.svg",
+      title: "Ecommerce",
+      content:"Optimize operations and deliver personalized shopping experience with apps packed with next-generation tech and featuring geo-targeted push notifications, integrated payment solutions, and much more."
+    },
+    {
+      id:2,
+      image: "/icons/atom-symbol.svg",
+      title: "Enterprise",
+      content:"Maximize employee productivity and performance, improve resource planning and overcome other business challenges with secure and scalable enterprise mobile apps that can be seamlessly integrated with corporate databases and workflows."
+    },
+    {
+      id:3,
+      image: "/icons/atom-symbol.svg",
+      title: "Social Media",
+      content:"We build any kind of social media apps - from corporate solutions to interest-based networks - that incorporate emerging tech such as AR/VR and AI, and feature content sharing, live chats, newsfeeds, push notifications, and more."
+    },
+    {
+      id:4,
+      image: "/icons/atom-symbol.svg",
+      title: "Real-Time Communication",
+      content:"Building apps for real-time video and voice communication, instant messaging, multi-party conferencing and file sharing that let consumers stay connected and give businesses access to remote live collaboration or data sharing."
+    },
+    {
+      id:5,
+      image: "/icons/atom-symbol.svg",
+      title: "Finance",
+      content:"Creating fast and reliable mobile solutions for the entire financial industry that offer a user experience balancing security and simplicity and utilize new technology like blockchain and AI"
+    },
+  ],
+};
+
+export const serviceAccordiandata1={
+
+  data:[
+    {
+      id:1,
+      image: "/icons/atom-symbol.svg",
+      title: "Entertainment",
+      content:"Keep users engaged with feature-rich and customizable applications that let them enjoy sports, movies, music, games and all kinds of other entertainment content on the go"
+    },
+    {
+      id:2,
+      image: "/icons/atom-symbol.svg",
+      title: "Wellness",
+      content:"Satisfy the health conscious with apps for workouts, activity tracking, nutrition and diet planning, and health monitoring that have perfect connectivity with wearables and great personalization, and leverage the benefits of AI and AR/VR."
+    },
+    {
+      id:3,
+      image: "/icons/atom-symbol.svg",
+      title: "Healthcare",
+      content:"Redefine healthcare with AI-powered digital therapeutics, real-time telehealth, remote patient monitoring, AR/VR-enabled training simulators, and apps for booking doctor appointments and managing health records."
+    },
+    {
+      id:4,
+      image: "/icons/atom-symbol.svg",
+      title: "Education",
+      content:"We build the entire range of m-learning apps that boast AR-powered instructions, videoconferencing and gamification features, and are easily integrated with social media and payment gateways."
+    },
+    {
+      id:5,
+      image: "/icons/atom-symbol.svg",
+      title: "Logistics & Transportation",
+      content:"Helping businesses reduce paperwork, minimize delivery time and costs, track shipments in real time, and optimize fleet and warehouse management with scalable custom mobile applications"
+    },
+  ],
+};
