@@ -5,6 +5,7 @@ import DesktopDropdown from "../DesktopDropdown";
 import MobileNavbar from "../MobileNavbar";
 import { Header } from "@/utils/types";
 import { accordionItems } from "@/lib/constData";
+import Link from "next/link";
 
 const Navbar = ({ data }: Header) => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -28,9 +29,12 @@ const Navbar = ({ data }: Header) => {
       }}
     >
       <div className="flex justify-between items-center">
+        <Link href="/">
+
         <div>
           <NavbarLogo className="" />
         </div>
+        </Link>
         {/* <--webView---> */}
         <div className="hidden lg:block w-full">
           <DesktopDropdown data={accordionItems} />

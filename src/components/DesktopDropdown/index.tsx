@@ -26,7 +26,7 @@ const DesktopDropdown = ({ data }: Header) => {
           {accordionItems.data.map((dropdown, index) => (
             <div key={index} className="dropdown inline-block z-50 ">
               <Link
-                href={`/${dropdown.title.toLowerCase()}`}
+                href={`/${dropdown.link.toLowerCase()}`}
                 className="  text-white cursor-pointer hover:text-yellow-300 flex gap-x-2 text-lg "
               >
                 {dropdown.title}
@@ -34,7 +34,7 @@ const DesktopDropdown = ({ data }: Header) => {
               </Link>
               <div className="w-full">
                 <li
-                  className="dropdown-content  text-white  py-5 hover:block hidden  left-0   px-2"
+                  className="dropdown-content  text-white  py-5 hover:block hidden     px-2"
                   style={{
                     backgroundColor:
                       scrollPosition > 100
@@ -42,7 +42,7 @@ const DesktopDropdown = ({ data }: Header) => {
                         : "rgba(0, 0, 0, 0)",
                   }}
                 >
-                  <div className=" absolute left-3/2">
+                  <div >
                     {dropdown.content.map((item, itemIndex) => (
                       <Link
                         key={itemIndex}

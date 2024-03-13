@@ -56,7 +56,7 @@ const MobileNavbar = ({data}:Header) => {
             {accordionItems.data.map((item) => (
               <AccordionItem key={item.value} value={item.value} className="">
                 <AccordionTrigger className="">
-                  <Link href={item.title.toLowerCase()}>{item.title}</Link>
+                  <Link href={item.link.toLowerCase()}>{item.title}</Link>
                 </AccordionTrigger>
                 <AccordionContent className="p-4  ">
                   <ul className="flex flex-col gap-y-2">

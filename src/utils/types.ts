@@ -59,6 +59,7 @@ export type Header = {
     value: string;
     title: string;
     content: string;
+    link:string;
   };
 };
 export type mobileServicesType = {
