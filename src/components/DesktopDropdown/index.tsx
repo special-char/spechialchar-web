@@ -21,21 +21,23 @@ const DesktopDropdown = ({ data }: Header) => {
                 {dropdown.title}
                 <ChevronDownIcon className="hover:rotate-180 mt-1" />
               </Link>
-              <div className="bg-red-600 w-full relative">
-                <li className="dropdown-content text-white py-10 hover:block hidden absolute  bg-black  w-[100vw] px-2 ">
-                  {dropdown.content.map((item, itemIndex) => (
-                    <Link
-                      key={itemIndex}
-                      href={`/${dropdown.title.toLowerCase()}/${dropdown.content[
-                        itemIndex
-                      ].toLocaleLowerCase()}`}
-                    >
-                      <span className="hover:text-yellow-300  text-base ">
-                        {item}
-                      </span>
-                    </Link>
-                  ))}
-                </li>
+              <div className=''>
+
+              <li className="dropdown-content  text-white  py-5 hover:block hidden absolute  bg-black  w-max  px-2   "  >
+               
+
+                {dropdown.content.map((item, itemIndex) => (
+                  <Link 
+                    key={itemIndex}
+                    href={`/${dropdown.title.toLowerCase()}/${dropdown.content[itemIndex].toLocaleLowerCase()}`}
+                  >
+                    <span className="block py-2  hover:text-yellow-300  text-base ">
+                      {item}
+                    </span>
+                  </Link>
+                ))}
+        
+              </li>
               </div>
             </div>
           ))}

@@ -1,3 +1,5 @@
+import { string } from "yup";
+
 export type FooterdataType = {
   data: {
     title: string;
@@ -75,6 +77,16 @@ export type Header = {
     }
   }
 
+export type MobileSwiperType = {
+  data:{
+    src:string;
+    name:string;
+    title:string;
+    company:string;
+    quote:string;
+
+  }
+}
 
 export type SwiperServicesData = {
   data: {
