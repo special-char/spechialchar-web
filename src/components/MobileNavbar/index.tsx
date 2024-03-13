@@ -7,28 +7,13 @@ import {
 } from "@/components/According1";
 import Link from "next/link";
 import Humburger from "@/public.three-horizontal-lines-icon.svg";
-import Close from "@/public.close-icon.svg";
-import NavbarLogo from "../../../public/Navbar.svg";
+import Close from "@/public.icons/close-icon.svg";
+import NavbarLogo from "../../../public/icons/Navbar.svg";
 import { Header } from "@/utils/types";
 import { accordionItems } from "@/lib/constData";
 
-// const accordionItems = [
-//   {
-//     value: "item-1",
-//     title: "Services",
-//     content: ["Mobile", "Web", "Saas", "Back-End", "Cloud & Devops", "Ui & Ux"],
-//   },
-//   {
-//     value: "item-2",
-//     title: "Industry",
-//     content: ["EdTech & eLearning", "Ecommerce"],
-//   },
-//   {
-//     value: "item-3",
-//     title: "Company",
-//     content: ["About", "Career", "How Is Work"],
-//   },
-// ];
+
+
 const MobileNavbar = ({data}:Header) => {
   const [click, setClicked] = useState(false);
   const toggleDropdown = () => {

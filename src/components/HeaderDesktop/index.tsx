@@ -1,6 +1,6 @@
 import React from "react";
 import { ChevronDownIcon } from "@radix-ui/react-icons";
-import NavbarLogo from "../../../public/Navbar.svg";
+import NavbarLogo from "../../../public/icons/Navbar.svg";
 import { Header } from "@/utils/types";
 import { accordionItems } from "@/lib/constData";
 import Link from "next/link";

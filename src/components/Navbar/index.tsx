@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import NavbarLogo from "../../../public/Navbar.svg";
+import NavbarLogo from "../../../public/icons/Navbar.svg";
 import DesktopDropdown from "../DesktopDropdown";
 import MobileNavbar from "../MobileNavbar";
 import { Header } from "@/utils/types";
