@@ -529,7 +529,11 @@ export const banner1 = {
     "We develop powerful educational solutions that turn in-person and online learning into a diverse, engaging, and results-driven experience",
 };
 
-export const accordionItems = {
+ 
+
+
+// <---- Accordion Headre --->
+export const accordionItems ={
   data: [
     {
       value: "item-1",
@@ -1051,3 +1055,36 @@ export const YellowBannerData3 = {
   description:
     "We build impactful SaaS applications using our road-tested six-pillar approach:",
 };
+
+
+// <---- SwiperServices ----->
+
+
+
+// <---- MobileSwiper ---->
+
+export const MobileSwiperData ={
+  data:[
+    {
+      src: "/images/Jeff-Block-150x150.jpg",
+      name: 'Jeff Block',
+      title: 'VP of Process and Technology',
+      company: 'PotentiaMetrics, Inc.',
+      quote: "Itrex’s team are experts in their trade. The software development they provided was critical to advancing the project to the next level.",
+  },
+  {
+      src: "/images/Daniel-Schuler-150x150.jpg",
+      name: 'Denial Schular',
+      title: 'CTO',
+      company: 'Hyginex',
+      quote: "When you hire them, you're actually going to get something valuable.",
+  },
+  {
+      src: "/images/author-1.jpg",
+      name: 'Ashley Lewis',
+      title: 'Director of Product Management',
+      company: 'Dollar Shave Club',
+      quote: "Itrex is an outstanding partner. They don't even feel like a contractor, but more like a fully integrated team.",
+  },
+  ]
+}

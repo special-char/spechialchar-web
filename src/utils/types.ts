@@ -1,3 +1,5 @@
+import { string } from "yup";
+
 export type FooterdataType = {
   data: {
     title: string;
@@ -72,6 +74,15 @@ export type latestThinkingType = {
     id: number;
     title: string;
     img: string;
+  };
+};
+export type MobileSwiperType = {
+  data: {
+    src: string;
+    name: string;
+    title: string;
+    company: string;
+    quote: string;
   };
 };
 
