@@ -1,16 +1,16 @@
 
-import { serviceBox } from "@/lib/constData";
+import { Button } from "@/components/ui/button";
+import { serviceBox, serviceBox1 } from "@/lib/constData";
 import React from "react";
-import { Button } from "../ui/button";
 
-const ServiceBox = () => {
+const SaasBox = () => {
   return (
     <>
       <section className="bg-blue-100 border-r-2 m-10 px-24 lg: py-20  p-4 rounded-lg ">
         <ul className="list-square pl-7 grid lg:grid-cols-2 lg:px-1 gap-4 md:grid-cols-2">
-          {serviceBox.map((i) => (
+          {serviceBox1.map((i) => (
             <li key={i.id} className="text-lg mb-2 ">
-              <span className="font-bold text-xl">{i.title}</span>{" "}
+              <span className="font-bold text-xl">{i?.title}</span>{" "}
               {i.discription}
             </li>
           ))}
@@ -28,4 +28,4 @@ const ServiceBox = () => {
   );
 };
 
-export default ServiceBox;
+export default SaasBox;

@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import HomeAccord from "@/container/HomeAccord";
@@ -29,17 +28,12 @@ import MobilePage from "@/components/MobilePage";
 export default function Home() {
   return (
     <>
-      {/* <HomeBanner data={homeBannerdata}/>
-      <Marque data={MarqueData}/>
-      <HomeAccord/>
-      <ProjectSec/>
-      <Collabrate/>
-      <ThinkSec/> */}
-      {/* <SectionBox/>
-      <Service/> */}
-      <MobilePage/>
+      <HomeBanner data={homeBannerdata} />
+      <Marque data={MarqueData} />
+      <HomeAccord />
+      <ProjectSec />
+      <Collabrate />
+      <ThinkSec />
     </>
   );
 }
-
-
