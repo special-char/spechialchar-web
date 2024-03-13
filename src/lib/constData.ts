@@ -652,30 +652,33 @@ export const serviceicon2 = {
         "We draw on our extended reality and blockchain development expertise to create metaverse apps of all sizes and levels of complexity. Whether you need an augmented reality app with Snapchat-like filters or a marketplace to trade NFTs, we’re the right software engineering firm to undertake your project!",
     },
   ],
-}
+};
 export const mobileicon = [
   {
     url: "/icons/aindroid.svg",
     title: "Andorid",
     description:
       "Using innovative concepts and data-driven insights, we craft high-performance apps that rank high on Google Play and transform business.",
-  
-      languages: ["Java","|", "Kotlin"],
-      },
+
+    languages: ["Java", "|", "Kotlin"],
+  },
   {
     url: "/icons/ios-1.svg",
     title: "Ios",
     description:
       "We boast a legacy of great iOS apps for a range of business niches, which never leave the iPhones and iPads home screens of the delighted users.",
- 
-      languages: ["Swift","|", "Objective-C"],   },
+
+    languages: ["Swift", "|", "Objective-C"],
+  },
   {
     url: "/icons/cross_platforms.svg",
     title: "Cross Platform",
     description:
       "Whatever the complexity, we bring the full benefit of cross-platform tech to the table, including lower costs, faster time to market and maximum reach.",
-  
-      languages: ["React Native","|", "Flutter"],  },]
+
+    languages: ["React Native", "|", "Flutter"],
+  },
+];
 
 export const mobileServicesdata = {
   data: [
@@ -765,4 +768,169 @@ export const imageBanner5 = {
 export const YellowBannerData2 = {
   description:
     "We bring innovation to the fore and use emerging technology to power a new style of mobile apps.",
+};
+
+export const banner3 = {
+  imageurl: "/images/webBanner.webp",
+  title: "Custom web development services",
+  button: "Get in touch",
+  description:
+    "Make a unique impact online now to grow business with end-to-end custom web development services from TheSpecialChar",
+};
+
+export const webicon = [
+  {
+    url: "/images/accord_1-1.gif",
+    title: "Complex web apps",
+    description:
+      "Tailored to your precise business needs, be it redefining internal workflows or shipping a mind-blowing product to the market. Optimized for speed and security at scale. Designed for flexibility and growth",
+  },
+  {
+    url: "/images/accord_2-2.gif",
+    title: "Feature-rich web portals",
+    description:
+      "From B2C/B2B portals for ecommerce and banking to web portals for patients, students, employees, and public services, incorporating user-centric design, customized user journeys, and smooth integrations",
+  },
+  {
+    url: "/images/accord_3-3.gif",
+    title: "Truly unique websites",
+    description:
+      "Running seamlessly and allowing dynamic content management — websites designed with the right aesthetics and functionality for any industry and using the best-fit platform (WordPress, Webflow, Joomla, or Squarespace)",
+  },
+];
+
+export const Bgbanner2 = {
+  description:
+    "Providing full-stack custom web development services, we create everything from the UI of your web solution to algorithms and databases behind it. And we bring more as your trusted software development partner, ready to resolve any of your tech challenges.",
+};
+
+export const imageBanner7 = {
+  url: "/images/soft2.webp",
+  title1: "Every step of your web development journey",
+  title2: "covered ― by experts",
+};
+
+export const imageBanner8 = {
+  url: "/images/soft7.webp",
+  title1: "Tap into new trends",
+  title2: "with our custom web development services",
+};
+
+export const webSection = [
+  {
+    title: "Progressive Web Apps (PWAs)",
+    description:
+      "Build a lightweight and platform-agnostic PWA in its latest iteration or revamp your existing web app into a PWA for impressive performance",
+  },
+  {
+    title: "Accelerated Mobile Pages",
+    description:
+      "Strip your web pages down to the basics so that they load superfast, delivering an unmatched user experience and improving your site visibility",
+  },
+  {
+    title: "Single-page Applications",
+    description:
+      "Dynamically updating content with no page refreshing, SPAs are a superb way to provide a faster and simple experience to users. Build your SPA with us",
+  },
+  {
+    title: "Serverless architecture",
+    description:
+      "Get excellent scalability, improve your web app performance, and cut project costs by placing the underlying infrastructure in the cloud",
+  },
+];
+
+export const imageBanner9 = {
+  url: "/images/soft8.webp",
+  title1: "Technologies",
+  title2: "we work with",
+};
+
+export const imageBanner10 = {
+  url: "/images/soft3.webp",
+  title1: "How The Spacial Character",
+  title2: "makes a difference",
+};
+
+export const webgrid = [
+  {
+    url: "/images/websec1.webp",
+    title: "A-class team",
+    description:
+      "Delivering web solutions across industry verticals since 2009, our team of senior web developers and designers know how to build your project right the first time. With us, you get a deep understanding of your business challenges and unparalleled tech expertise to beat them",
+  },
+  {
+    url: "/images/websec2.webp",
+    title: "Fast time-to-value",
+    description:
+      "Using an agile approach and DevOps best practices, we ship new functionality faster while keeping quality high. Along the way, you stay in the loop as we show results early to adapt to your current vision",
+  },
+  {
+    url: "/images/websec3.webp",
+    title: "Deeply customized solutions",
+    description:
+      "Each and every step of our process in custom web development services is focused on your unique business needs. We get a buzz out of unlocking tech complexities and tailoring a solution that serves your mission best. This is because we are fully engaged in your success",
+  },
+];
+
+export const saasBanner = {
+  imageurl: "/images/saasBanner.jpg",
+  title: "End-to-end SaaS development services",
+  button: "Get in touch",
+  description:
+    "As a top provider of SaaS development services, we are focused on building SaaS applications that surpass your and your customers’ expectations",
+};
+
+export const saasSection = {
+  title: "Our SaaS development services let you win big",
+  description:
+    "Leverage our top-tier skills and experience in Software-as-a-Service development to create a SaaS product that will drive long-term success among customers. Our SaaS development services span the entire software lifecycle, including:",
+  section: [
+    {
+      id: 1,
+      title: "SaaS Development Consulting",
+      description:
+        "We help with brainstorming SaaS ideas, drilling down the scope, selecting the right tech stack, estimating ROI, and more. Get the best guidance to overcome any SaaS software development challenge you might face.",
+    },
+    {
+      id: 2,
+      title: "SaaS Design & Prototyping",
+      description:
+        "If you want to glue customers to your SaaS app, you need to deliver state-of-the-art design. Our SaaS development services help you turn a great idea into great UI/UX and validate the concept with rapid prototyping.",
+    },
+    {
+      id: 3,
+      title: "End-to-End SaaS Development",
+      description:
+        "Need professionals to create a SaaS app from scratch? Our full-cycle SaaS development company has worked with many startups and enterprises since 2009, delivering successful SaaS products that are built to last and grow.",
+    },
+    {
+      id: 4,
+      title: "Migration to SaaS",
+      description:
+        "Transform your on-prem solution into a mind-blowing SaaS product. We will re-architecture your app to best suit a new environment, choose the right approach to cloud migration, configure the cloud, and move data safely",
+    },
+    {
+      id: 5,
+      title: "Third-Party Integrations",
+      description:
+        "As part of our SaaS application development services, we can add versatility to your SaaS app by connecting external systems through APIs. Build new business opportunities with new integrations executed flawlessly.",
+    },
+    {
+      id: 6,
+      title: "SaaS Support & Maintenance",
+      description:
+        "Optimize your SaaS performance, fix bugs, improve user experience, and cut costs using our SaaS development services. We can provide ad-hoc or regular support. Focus on your business while we take care of the tech.",
+    },
+  ],
+};
+
+export const imageBanner11 = {
+  url: "/images/soft.webp",
+  title1: "Our six-pillar approach",
+  title2: "to SaaS software development",
+};
+
+export const YellowBannerData3 = {
+  description:
+    "We build impactful SaaS applications using our road-tested six-pillar approach:",
 };

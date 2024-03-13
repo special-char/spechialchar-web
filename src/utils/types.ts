@@ -131,4 +131,16 @@ export type BgBannerType = {
   }
 }
 
+export type SaasSectionType = {
+  data:[
+    title:string,
+    description:string,
+    section:{
+    id:number;
+    title:string;
+    descrition:string;
+  }
+  ]
+  
+}
 
