@@ -1,10 +1,12 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import NavbarLogo from "../../../public/Navbar.svg";
+import NavbarLogo from "../../../public/icons/Navbar.svg";
 import DesktopDropdown from "../DesktopDropdown";
 import MobileNavbar from "../MobileNavbar";
 import { Header } from "@/utils/types";
 import { accordionItems } from "@/lib/constData";
+import Link from "next/link";
+import HeaderDesktop from "../HeaderDesktop";
 
 const Navbar = ({ data }: Header) => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -28,12 +30,16 @@ const Navbar = ({ data }: Header) => {
       }}
     >
       <div className="flex justify-between items-center">
-        <div>
+        <Link href="/">
+
+        <div className="lg:hidden">
           <NavbarLogo className="" />
         </div>
+        </Link>
         {/* <--webView---> */}
         <div className="hidden lg:block w-full">
-          <DesktopDropdown data={accordionItems} />
+          {/* <DesktopDropdown data={accordionItems} /> */}
+          <HeaderDesktop data={accordionItems}/>
         </div>
         {/* <---Mobilview----> */}
         <div className="lg:hidden ">

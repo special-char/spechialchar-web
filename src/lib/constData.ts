@@ -535,6 +535,7 @@ export const accordionItems = {
     {
       value: "item-1",
       title: "Services",
+      link:"services",
       content: [
         "Mobile",
         "Web",
@@ -547,11 +548,13 @@ export const accordionItems = {
     {
       value: "item-2",
       title: "Industry",
+      link:"#",
       content: ["EdTech & eLearning", "Ecommerce"],
     },
     {
       value: "item-3",
       title: "Company",
+      link:"#",
       content: ["About", "Career", "How Is Work"],
     },
   ],
