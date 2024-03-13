@@ -1,10 +1,13 @@
 import ImageBanner from "@/components/ImageBanner";
 import MobileIcon from "@/components/MobileIcon";
+import MobilePage from "@/components/MobilePage";
 import MobileServices from "@/components/MobileServices";
+import MobileSwiper from "@/components/MobileSwiper";
 import Swiper1 from "@/components/Swiper";
 import YellowBanner from "@/components/YellowBanner";
 import Banner from "@/container/Banner";
 import {
+  MobileSwiperData,
   SwiperServices,
   YellowBannerData,
   YellowBannerData1,
@@ -24,14 +27,16 @@ const Mobile = () => {
   return (
     <>
       <Banner data={banner2} className="bg-[#dfdfdf] text-black" />
-      <MobileIcon/>
+      <MobileIcon />
       <Swiper1 data={SwiperServices} />
       <ImageBanner data={imageBanner3} />
       <MobileServices data={mobileServicesdata} />
       <ImageBanner data={imageBanner4} />
-      <YellowBanner data={YellowBannerData1}/>
+      <YellowBanner data={YellowBannerData1} />
+      <MobilePage />
       <ImageBanner data={imageBanner5} />
-      <YellowBanner data={YellowBannerData2}/>
+      <YellowBanner data={YellowBannerData2} />
+      <MobileSwiper data={MobileSwiperData} />
     </>
   );
 };

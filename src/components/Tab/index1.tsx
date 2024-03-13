@@ -3,13 +3,13 @@ import { mobiletabdata, tabdata } from "@/lib/constData";
 import { tabdataType } from "@/utils/types";
 import Image from "next/image";
 import { Button } from "../ui/button";
-
+import style from "@/components/Tab/style.module.css";
 const Tab1 = ({ data }: tabdataType) => {
     return (
 
         <section className="">
             <div className=" py-10">
-                <Tabs defaultValue="account" className="">
+                <Tabs defaultValue="Big Data" className="">
 
                     <div className="flex md:justify-center max-sm:overflow-x-scroll ">
                         <TabsList>
@@ -17,10 +17,10 @@ const Tab1 = ({ data }: tabdataType) => {
                                 {mobiletabdata.data.map((item) => {
                                     return (
                                         <>
-                                            <div className="flex flex-col gap-5 border-b-2 active:border-blue-600  text-xl md:text-2xl p-5 lg:text-4xl  xl:p-16  md:p-9   font-bold">
+                                            <div className="flex flex-col gap-5  border-b-2  text-xl md:text-2xl  px-5 lg:text-4xl  xl:px-16  md:px-9   font-bold">
                                                 <Image src={item.image} alt="" height={40} width={40} className="mx-auto" />
 
-                                                <TabsTrigger value={item.value}>{item.trigger}</TabsTrigger>
+                                                <TabsTrigger className="pb-3 md:py-6" value={item.value}>{item.trigger}</TabsTrigger>
                                             </div>
                                         </>
 

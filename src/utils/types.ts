@@ -50,7 +50,8 @@ export type Card1Type = {
 
 export type BannerType = {
   title: string;
-  button: string;
+  button1: string;
+  button2:string;
   description: string;
   imageurl: string;
 };
@@ -159,5 +160,13 @@ export type SaasSectionType = {
     description1: string;
     title: string;
     description: string;
+  };
+};
+
+export type imageAccordianDataType = {
+  data: {
+    image: string;
+    header: string;
+    text: string;
   };
 };

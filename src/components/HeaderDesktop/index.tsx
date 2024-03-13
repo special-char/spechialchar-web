@@ -9,22 +9,24 @@ import { Button } from "../ui/button";
 const HeaderDesktop = ({ data }: Header) => {
   return (
     <div className="h-full w-full  ">
-      <div className="flex justify-between ">
+      <div className="flex justify-between items-start">
         <Link href="/">
-
-        <div>
-          <NavbarLogo className="" />
-        </div>
+          <div>
+            <NavbarLogo className="" />
+          </div>
         </Link>
         {accordionItems.data.map((item, index) => (
-          <div key={index} className="flex flex-col   group">
+          <div key={index} className="flex flex-col pt-2 group">
             <div className="flex text-white hover:text-yellow-300 gap-x-2 text-xl">
-              <Link href={`${item.link.toLowerCase()}`} className="cursor-pointer">
+              <Link
+                href={`${item.link.toLowerCase()}`}
+                className="cursor-pointer"
+              >
                 {item.title}
               </Link>
               <ChevronDownIcon className="mt-1 transition-transform duration-300 transform group-hover:rotate-180 hover:text-yellow-300" />
             </div>
-            <ul className="text-white top-full left-0 mt-1 max-h-0 overflow-hidden transition-all duration-300 group-hover:max-h-screen group-hover:max-h-screen">
+            <ul className="text-white top-full left-0 mt-1 max-h-0 overflow-hidden transition-all duration-300 group-hover:max-h-screen flex flex-col gap-y-4 pt-4">
               {item.content.map((itemContent, subindex) => (
                 <Link
                   key={subindex}
@@ -41,12 +43,12 @@ const HeaderDesktop = ({ data }: Header) => {
           </div>
         ))}
         <Link href="/ourthing">
-          <ul className="text-white hover:text-yellow-300 text-xl ">
+          <ul className="text-white hover:text-yellow-300 text-xl pt-2">
             Our Thing
           </ul>
         </Link>
         <Link href="/casestudio">
-          <ul className="text-white hover:text-yellow-300 text-xl">
+          <ul className="text-white hover:text-yellow-300 text-xl pt-2">
             Case Studio
           </ul>
         </Link>

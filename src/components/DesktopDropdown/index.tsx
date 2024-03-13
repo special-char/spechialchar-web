@@ -21,7 +21,7 @@ const DesktopDropdown = ({ data }: Header) => {
   }, []);
   return (
     <>
-      <div className="hidden w-full lg:block z-50 ">
+      <div className="hidden w-full lg:block z-50">
         <ul className=" flex justify-end items-center lg:gap-x-10 py-3 bg-inherit w-full  ">
           {accordionItems.data.map((dropdown, index) => (
             <div key={index} className="dropdown inline-block z-50 ">
@@ -32,7 +32,7 @@ const DesktopDropdown = ({ data }: Header) => {
                 {dropdown.title}
                 <ChevronDownIcon className="hover:rotate-180 mt-1" />
               </Link>
-              <div className="w-full">
+              <div className="relative w-full h-full left-0">
                 <li
                   className="dropdown-content  text-white  py-5 hover:block hidden     px-2"
                   style={{

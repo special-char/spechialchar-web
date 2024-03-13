@@ -529,35 +529,25 @@ export const banner1 = {
     "We develop powerful educational solutions that turn in-person and online learning into a diverse, engaging, and results-driven experience",
 };
 
- 
-
-
 // <---- Accordion Headre --->
-export const accordionItems ={
+export const accordionItems = {
   data: [
     {
       value: "item-1",
       title: "Services",
-      link:"services",
-      content: [
-        "Mobile",
-        "Web",
-        "Saas",
-        "Back-End",
-        "Cloud & Devops",
-        "Ui & Ux",
-      ],
+      link: "services",
+      content: ["Mobile", "Web", "Saas", "Back-End", "Cloud-Devops", "Ui-&-Ux"],
     },
     {
       value: "item-2",
       title: "Industry",
-      link:"#",
+      link: "#",
       content: ["EdTech & eLearning", "Ecommerce"],
     },
     {
       value: "item-3",
       title: "Company",
-      link:"#",
+      link: "#",
       content: ["About", "Career", "How Is Work"],
     },
   ],
@@ -578,7 +568,7 @@ export const IconData = {
 export const banner2 = {
   imageurl: "/images/mobile2.jpg",
   title: "Mobile app development company",
-  button: "Hire App Developer",
+  button1: "Hire App Developer",
   description:
     "We create custom mobile Apps that beat business challenges, generate revenue and hit millions of downloads",
 };
@@ -659,7 +649,7 @@ export const serviceicon2 = {
         "We draw on our extended reality and blockchain development expertise to create metaverse apps of all sizes and levels of complexity. Whether you need an augmented reality app with Snapchat-like filters or a marketplace to trade NFTs, we’re the right software engineering firm to undertake your project!",
     },
   ],
-}
+};
 
 export const mobiletabdata = {
   button: "Contact our app developers",
@@ -669,7 +659,7 @@ export const mobiletabdata = {
       trigger: "Big Data",
       content:
         "Use Big Data to create a user-driven app, get real-time insights, improve the app’s performance, and make your marketing more effective.",
-         value: "Big Data",
+      value: "Big Data",
       image: "/icons/atom-symbol.svg",
     },
     {
@@ -691,20 +681,21 @@ export const mobiletabdata = {
     {
       id: 4,
       trigger: "IOT",
-      content:"We build mobile apps that let businesses and consumers manage connected smart gadgets and analyze valuable data provided by them with just a few taps.",
-        value: "IoT",
+      content:
+        "We build mobile apps that let businesses and consumers manage connected smart gadgets and analyze valuable data provided by them with just a few taps.",
+      value: "IoT",
       image: "/icons/atom-symbol.svg",
     },
     {
       id: 5,
       trigger: "Cloud",
-      content:"Achieve speed and flexibility with cloud-based apps that are quick to build and easy to scale and safely store the most sensitive data.",
+      content:
+        "Achieve speed and flexibility with cloud-based apps that are quick to build and easy to scale and safely store the most sensitive data.",
       value: "Cloud",
       image: "/icons/atom-symbol.svg",
-}
-  ]
-}
-
+    },
+  ],
+};
 
 export const mobileicon = [
   {
@@ -774,43 +765,48 @@ export const mobileServicesdata = {
   ],
 };
 
-export const serviceAccordiandata={
-  button:"Contact Us",
-  data:[
+export const serviceAccordiandata = {
+  button: "Contact Us",
+  data: [
     {
-      id:1,
+      id: 1,
       image: "/icons/atom-symbol.svg",
       title: "Ecommerce",
-      content:"Optimize operations and deliver personalized shopping experience with apps packed with next-generation tech and featuring geo-targeted push notifications, integrated payment solutions, and much more."
+      content:
+        "Optimize operations and deliver personalized shopping experience with apps packed with next-generation tech and featuring geo-targeted push notifications, integrated payment solutions, and much more.",
     },
     {
-      id:2,
+      id: 2,
       image: "/icons/atom-symbol.svg",
       title: "Enterprise",
-      content:"Maximize employee productivity and performance, improve resource planning and overcome other business challenges with secure and scalable enterprise mobile apps that can be seamlessly integrated with corporate databases and workflows."
+      content:
+        "Maximize employee productivity and performance, improve resource planning and overcome other business challenges with secure and scalable enterprise mobile apps that can be seamlessly integrated with corporate databases and workflows.",
     },
     {
-      id:3,
+      id: 3,
       image: "/icons/atom-symbol.svg",
       title: "Social Media",
-      content:"We build any kind of social media apps - from corporate solutions to interest-based networks - that incorporate emerging tech such as AR/VR and AI, and feature content sharing, live chats, newsfeeds, push notifications, and more."
+      content:
+        "We build any kind of social media apps - from corporate solutions to interest-based networks - that incorporate emerging tech such as AR/VR and AI, and feature content sharing, live chats, newsfeeds, push notifications, and more.",
     },
     {
-      id:4,
+      id: 4,
       image: "/icons/atom-symbol.svg",
       title: "Real-Time Communication",
-      content:"Building apps for real-time video and voice communication, instant messaging, multi-party conferencing and file sharing that let consumers stay connected and give businesses access to remote live collaboration or data sharing."
+      content:
+        "Building apps for real-time video and voice communication, instant messaging, multi-party conferencing and file sharing that let consumers stay connected and give businesses access to remote live collaboration or data sharing.",
     },
     {
-      id:5,
+      id: 5,
       image: "/icons/atom-symbol.svg",
       title: "Finance",
-      content:"Creating fast and reliable mobile solutions for the entire financial industry that offer a user experience balancing security and simplicity and utilize new technology like blockchain and AI"
-    }
-  ]
+      content:
+        "Creating fast and reliable mobile solutions for the entire financial industry that offer a user experience balancing security and simplicity and utilize new technology like blockchain and AI",
+    },
+  ],
 };
 
-      export const latestThinkingData = {
+export const latestThinkingData = {
   data: [
     {
       id: 1,
@@ -831,38 +827,42 @@ export const serviceAccordiandata={
   ],
 };
 
-export const serviceAccordiandata1={
-
-  data:[
+export const serviceAccordiandata1 = {
+  data: [
     {
-      id:1,
+      id: 1,
       image: "/icons/atom-symbol.svg",
       title: "Entertainment",
-      content:"Keep users engaged with feature-rich and customizable applications that let them enjoy sports, movies, music, games and all kinds of other entertainment content on the go"
+      content:
+        "Keep users engaged with feature-rich and customizable applications that let them enjoy sports, movies, music, games and all kinds of other entertainment content on the go",
     },
     {
-      id:2,
+      id: 2,
       image: "/icons/atom-symbol.svg",
       title: "Wellness",
-      content:"Satisfy the health conscious with apps for workouts, activity tracking, nutrition and diet planning, and health monitoring that have perfect connectivity with wearables and great personalization, and leverage the benefits of AI and AR/VR."
+      content:
+        "Satisfy the health conscious with apps for workouts, activity tracking, nutrition and diet planning, and health monitoring that have perfect connectivity with wearables and great personalization, and leverage the benefits of AI and AR/VR.",
     },
     {
-      id:3,
+      id: 3,
       image: "/icons/atom-symbol.svg",
       title: "Healthcare",
-      content:"Redefine healthcare with AI-powered digital therapeutics, real-time telehealth, remote patient monitoring, AR/VR-enabled training simulators, and apps for booking doctor appointments and managing health records."
+      content:
+        "Redefine healthcare with AI-powered digital therapeutics, real-time telehealth, remote patient monitoring, AR/VR-enabled training simulators, and apps for booking doctor appointments and managing health records.",
     },
     {
-      id:4,
+      id: 4,
       image: "/icons/atom-symbol.svg",
       title: "Education",
-      content:"We build the entire range of m-learning apps that boast AR-powered instructions, videoconferencing and gamification features, and are easily integrated with social media and payment gateways."
+      content:
+        "We build the entire range of m-learning apps that boast AR-powered instructions, videoconferencing and gamification features, and are easily integrated with social media and payment gateways.",
     },
     {
-      id:5,
+      id: 5,
       image: "/icons/atom-symbol.svg",
       title: "Logistics & Transportation",
-      content:"Helping businesses reduce paperwork, minimize delivery time and costs, track shipments in real time, and optimize fleet and warehouse management with scalable custom mobile applications"
+      content:
+        "Helping businesses reduce paperwork, minimize delivery time and costs, track shipments in real time, and optimize fleet and warehouse management with scalable custom mobile applications",
     },
   ],
 };
@@ -1010,37 +1010,37 @@ export const saasSection = {
     "Leverage our top-tier skills and experience in Software-as-a-Service development to create a SaaS product that will drive long-term success among customers. Our SaaS development services span the entire software lifecycle, including:",
   section: [
     {
-      id: 1,
+      // id: 1,
       title: "SaaS Development Consulting",
       description:
         "We help with brainstorming SaaS ideas, drilling down the scope, selecting the right tech stack, estimating ROI, and more. Get the best guidance to overcome any SaaS software development challenge you might face.",
     },
     {
-      id: 2,
+      // id: 2,
       title: "SaaS Design & Prototyping",
       description:
         "If you want to glue customers to your SaaS app, you need to deliver state-of-the-art design. Our SaaS development services help you turn a great idea into great UI/UX and validate the concept with rapid prototyping.",
     },
     {
-      id: 3,
+      // id: 3,
       title: "End-to-End SaaS Development",
       description:
         "Need professionals to create a SaaS app from scratch? Our full-cycle SaaS development company has worked with many startups and enterprises since 2009, delivering successful SaaS products that are built to last and grow.",
     },
     {
-      id: 4,
+      // id: 4,
       title: "Migration to SaaS",
       description:
         "Transform your on-prem solution into a mind-blowing SaaS product. We will re-architecture your app to best suit a new environment, choose the right approach to cloud migration, configure the cloud, and move data safely",
     },
     {
-      id: 5,
+      // id: 5,
       title: "Third-Party Integrations",
       description:
         "As part of our SaaS application development services, we can add versatility to your SaaS app by connecting external systems through APIs. Build new business opportunities with new integrations executed flawlessly.",
     },
     {
-      id: 6,
+      // id: 6,
       title: "SaaS Support & Maintenance",
       description:
         "Optimize your SaaS performance, fix bugs, improve user experience, and cut costs using our SaaS development services. We can provide ad-hoc or regular support. Focus on your business while we take care of the tech.",
@@ -1062,37 +1062,37 @@ export const YellowBannerData3 = {
 export const saasSection2 = [
   {
     id: 1,
-    title: " Tech stack choice",
+    title: ". Tech stack choice",
     description:
       "We deeply analyze your project requirements, planned features, and the capabilities of the cloud provider to identify the right combination of tech.",
   },
   {
     id: 2,
-    title: " Multi-tenant architecture",
+    title: ". Multi-tenant architecture",
     description:
       "We build multi-tenant architecture with security in mind to make your scaling straightforward and customization easy while minimizing costs.",
   },
   {
     id: 3,
-    title: " External services integration",
+    title: ". External services integration",
     description:
       "We save you time building functionality from scratch by performing complex integrations with external services based on your growth metrics.",
   },
   {
     id: 4,
-    title: " Scalability on demand",
+    title: ". Scalability on demand",
     description:
       "We take scalability into account from the beginning of your SaaS software development project so that your app is able to adapt as you evolve.",
   },
   {
     id: 5,
-    title: " Security audit",
+    title: ". Security audit",
     description:
       "We test your system thoroughly before deployment to ensure that all stored data is well-protected and compliant with standards like GDPR or HIPAA.",
   },
   {
     id: 6,
-    title: " Smooth deployment",
+    title: ". Smooth deployment",
     description:
       "We take a tailored deployment approach to keep business disruption to a minimum, using DevOps to automate the process as much as possible.",
   },
@@ -1111,32 +1111,348 @@ export const imageBanner12 = {
 
 // <---- SwiperServices ----->
 
-
-
 // <---- MobileSwiper ---->
 
-export const MobileSwiperData ={
-  data:[
+export const MobileSwiperData = {
+  data: [
     {
       src: "/images/Jeff-Block-150x150.jpg",
-      name: 'Jeff Block',
-      title: 'VP of Process and Technology',
-      company: 'PotentiaMetrics, Inc.',
-      quote: "Itrex’s team are experts in their trade. The software development they provided was critical to advancing the project to the next level.",
-  },
-  {
+      name: "Jeff Block",
+      title: "VP of Process and Technology",
+      company: "PotentiaMetrics, Inc.",
+      quote:
+        "Itrex’s team are experts in their trade. The software development they provided was critical to advancing the project to the next level.",
+    },
+    {
       src: "/images/Daniel-Schuler-150x150.jpg",
-      name: 'Denial Schular',
-      title: 'CTO',
-      company: 'Hyginex',
-      quote: "When you hire them, you're actually going to get something valuable.",
+      name: "Denial Schular",
+      title: "CTO",
+      company: "Hyginex",
+      quote:
+        "When you hire them, you're actually going to get something valuable.",
+    },
+    {
+      src: "/images/author-1.jpg",
+      name: "Ashley Lewis",
+      title: "Director of Product Management",
+      company: "Dollar Shave Club",
+      quote:
+        "Itrex is an outstanding partner. They don't even feel like a contractor, but more like a fully integrated team.",
+    },
+  ],
+};
+
+export const imageAccordianData = {
+  data: [
+    {
+      image: "/images/imageacc1.webp",
+      header: "Online stores",
+      text: "Storefronts with device-agnostic interfaces and streamlined workflow, from order placement to checkout, offering smooth integration with popular payment gateways, ERP systems, CRMs, PIMs, inventory management.",
+    },
+    {
+      image: "/images/imageacc2.webp",
+      header: "B2C marketplaces",
+      text: "Omnichannel one-stop-shops that sell multiple brands, offering personalized shopping experience, simplified onboarding and easy checkout.",
+    },
+    {
+      image: "/images/imageacc3.webp",
+      header: "B2B portals",
+      text: "Complex B2B platforms capable of handling large catalogs, vast payment methods and price variations, bringing together manufacturers, wholesalers and distributors as a centralized hub.",
+    },
+    {
+      image: "/images/imageacc4.webp",
+      header: "Auctions",
+      text: "From basic features to the most sophisticated, high-load auction platforms that provide a variety of auction types, the configuration of bid items, real-time live bidding via video streaming, multiple payment gateways, full analytics reports, and more.",
+    },
+    {
+      image: "/images/imageacc5.webp",
+      header: "Ecommerce aggregators",
+      text: "Platforms that partner with multiple merchants under one brand to promote their goods or services and at the same time, create a convenient ecosystem for customers.",
+    },
+    {
+      image: "/images/imageacc6.webp",
+      header: "Shopping carts",
+      text: "Shopping cart solutions for installation, integration, and upgrade for fully custom features, automated billing tasks, and secure payment processing.",
+    },
+    {
+      image: "/images/imageacc7.webp",
+      header: "Mobile shopping apps",
+      text: "With professional ecommerce mobile app development you can be sure that nothing causes friction when customers decide to buy, with features from voice search and chat to on-touch payments.",
+    },
+    {
+      image: "/images/imageacc8.webp",
+      header: "Delivery apps",
+      text: "Apps that make it simple to track orders, automating the bulk of the shipping process while providing a personalized platform for communicating with customers about their delivery.",
+    },
+    {
+      image: "/images/imageacc9.webp",
+      header: "Social commerce",
+      text: "Setup of the entire shopping process on a social media platform, from peer-to-peer platforms to group buying, to participatory commerce, to social shopping with chats, forums and commenting features to create the real world shopping experience.",
+    },
+  ],
+};
+export const listData1 = {
+  data: [
+    {
+      id: 1,
+      title: "CRMs",
+    },
+    {
+      id: 2,
+      title: "ERPs",
+    },
+    {
+      id: 3,
+      title: "Accounting Systems",
+    },
+    {
+      id: 4,
+      title: "Document Automation Solutions",
+    },
+    {
+      id: 5,
+      title: "Communication & Collaboration Tools",
+    },
+  ],
+};
+
+export const listData2 = {
+  data: [
+    {
+      id: 1,
+      title: "HR/HRM Software",
+    },
+    {
+      id: 2,
+      title: "Marketing Software",
+    },
+    {
+      id: 3,
+      title: "Cybersecurity Platforms",
+    },
+    {
+      id: 4,
+      title: "Project Management Systems",
+    },
+    {
+      id: 5,
+      title: "Other",
+    },
+  ],
+};
+
+export const imageBanner13 = {
+  url: "/images/soft3.webp",
+  title1: "How our SaaS development",
+  title2: "services differ",
+};
+
+export const serviceBox1 = [
+  {
+    id: 1,
+    // title: "Maturity:",
+    discription: "Building SaaS systems since 2009",
   },
   {
-      src: "/images/author-1.jpg",
-      name: 'Ashley Lewis',
-      title: 'Director of Product Management',
-      company: 'Dollar Shave Club',
-      quote: "Itrex is an outstanding partner. They don't even feel like a contractor, but more like a fully integrated team.",
+    id: 2,
+    // title: "Agility:",
+    discription:
+      "Over 80% of our team are middle and senior-level professionals",
   },
-  ]
-}
+  {
+    id: 3,
+    // title: "Experience:",
+    discription: "Tens of thousands of hours of custom software development",
+  },
+  {
+    id: 4,
+    // title: "Mastery:",
+    discription: "Global corporations among 200+ happy clients",
+  },
+  {
+    id: 5,
+    // title: "Flexibility:",
+    discription: "Proven track record in virtually every industry vertical",
+  },
+  {
+    id: 6,
+    // title: "Reliability: ",
+    discription:
+      "Expertise in disruptive tech to put you miles ahead of the competition",
+  },
+  {
+    id: 7,
+    // title: "Transparency: ",
+    discription: "Product mindset focusing on the value we add",
+  },
+  {
+    id: 8,
+    // title: "Excellence:",
+    discription:
+      "Agile delivery to let you go faster, with a guaranteed success",
+  },
+];
+
+export const banner4 = {
+  imageurl: "/images/backBanner.webp",
+  title: "Expert back-end development services",
+  button1: "Hire back-end",
+  button2: " developers",
+  description:
+    "Join forces with our back-end development services company to create tech products that scale rapidly, perform well, and keep your employees and customers happy",
+};
+
+export const backSection = {
+  title: "A rundown of our back-end development services",
+  description:
+    "We kick off back-end development projects with a meticulous analysis of your requirements and IT infrastructure. Next, we devise a software architecture, create a technical roadmap, select suitable tools, decide on the engagement model, and come up with an estimate that matches your budget and objectives. Our back-end development services span:",
+  section: [
+    {
+      // id: 1,
+      title: "Mobile app back-end development",
+      description:
+        "Our specialists create mobile back ends enabling advanced business logic in native and cross-platform apps. Whether you need an application with multiple types of user accounts, payment services, built-in customer loyalty and referral programs, or real-time sensor data processing capabilities, we’ll take on the challenge!",
+    },
+    {
+      // id: 2,
+      title: "Back-end web development",
+      description:
+        "As part of our back-end web development services, we build applications from the ground up or assist our clients’ front-end teams on a dedicated team or pay-as-you-go basis. Hire back-end developers at ITRex if you need a customer-facing portal, sleek e-commerce website, or enterprise-grade web application!",
+    },
+    {
+      // id: 3,
+      title: "Back-end integration via APIs",
+      description:
+        "With our back-end development services, you can interconnect the components of your IT infrastructure and harness the power of third-party applications to move your business forward! Our back-end API solutions securely log into apps, scavenge information across databases, and automate processes, freeing up your employees’ time for creative work",
+    },
+    {
+      // id: 4,
+      title: "Back end as a service (BaaS)",
+      description:
+        "To help you roll out apps across different platforms and user bases faster, we build reliable mobile back end as a service (mBaaS) solutions comprising a universal application programming interface (API) for your future deployments. Tap into our back-end development services to thrive in the digital, API-first era!",
+    },
+    {
+      // id: 5,
+      title: "Cloud back-end development",
+      description:
+        "A vetted Google Cloud and Microsoft partner, our back-end development company has the right skills and tools to expedite your project. From setting up scalable data warehouse solutions to managing containerized apps with Kubernetes or implementing DevOps and test automation , we know how to build cloud back-end solutions that deliver",
+    },
+    {
+      // id: 6,
+      title: "Back-end refactoring",
+      description:
+        "Changing an app’s behavior under the hood without disrupting user experience on the front end is a trick few companies can pull. Our back-end development services team will help you optimize web and cloud apps’ performance, address technical debt, split applications into self-sufficient microservices, and migrate software to the cloud",
+    },
+  ],
+};
+
+export const imageBanner14 = {
+  url: "/images/soft.webp",
+  title1: "Our back-end",
+  title2: "solutions",
+};
+
+export const YellowBannerData4 = {
+  description:
+    "We provide back-end development services to companies looking to modernize legacy software systems, adapt their processes to the needs imposed by the remote work era, automate workflows, and fill the gaps in their security defense. We’re excellent at building:",
+};
+
+export const backicon = [
+  {
+    url: "/images/accord_1-1.gif",
+    title: "Enterprise Back-End Solutions",
+    description:
+      "The ITRex back-end development services for the enterprise segment include the creation of fail-proof, scalable back-office systems and server-side infrastructure for ERP, SCM, CRM, DMS, LMS, MarTech, and FinTech applications",
+  },
+  {
+    url: "/images/accord_2-2.gif",
+    title: "Data Storage & Analytics",
+    description:
+      "If you hire back-end developers at ITRex, you’ll get a team of experts in data warehouse, data lake, and data lakehouse solutions. We’re also no strangers to business intelligence (BI) and can set up a complete data ecosystem driven by AI algorithms, too",
+  },
+  {
+    url: "/images/accord_3-3.gif",
+    title: "Software as a Service Products",
+    description:
+      "We’ll assist you in creating web and mobile SaaS applications for the B2B and B2C segments. Our back-end solutions boast high speed and uninterrupted performance, scale along with your user base, and support seamless feature rollouts",
+  },
+  {
+    url: "/images/accord_4-4.gif",
+    title: "IoT Back-End Infrastructure",
+    description:
+      "From cloud infrastructure for sensor data processing and over-the-air (OTA) updates to web consoles for IoT device management, our back-end development team knows the Internet of Things inside out — and we’re eager to share this knowledge with you!",
+  },
+];
+
+export const imageBanner15 = {
+  url: "/images/soft2.webp",
+  title1: "Our back-end development",
+  title2: "tech stack",
+};
+
+export const backicon2 = [
+  {
+    // url: "/images/accord_1-1.gif",
+    title: "Programming Languages",
+    description: "Java, Python, PHP, JavaScrip, C#, Go",
+  },
+  {
+    // url: "/images/accord_2-2.gif",
+    title: "Frameworks & Development Environments",
+    description:
+      ".Net, .Node.js, Express.js, Nest.js, Symphony, Laravel, Django, Falkon, Flask",
+  },
+  {
+    // url: "/images/accord_3-3.gif",
+    title: "Databases",
+    description:
+      "MySQL, PostgreSQL, Microsoft SQL Server, MongoDB, DynamoDB, MariaDB, Firebase, Apache Cassandra, Redis, Elasticsearch",
+  },
+  {
+    // url: "/images/accord_4-4.gif",
+    title: "Cloud",
+    description: "Google Cloud, Microsoft Azure, Amazon Web Services",
+  },
+];
+
+export const imageBanner16 = {
+  url: "/images/soft3.webp",
+  title1: "Why hire back-end",
+  title2: "developers at The Special Char?",
+};
+
+export const backbox = [
+  {
+    id: 1,
+    title: "We are many.",
+    discription:
+      "With 300+ IT specialists on board and 13+ years of experience in back-end software engineering, we’re uniquely poised to crack your technology challenges.",
+  },
+  {
+    id: 2,
+    title: "We are flexible.",
+    discription:
+      "A distributed and inherently agile back-end development services team scattered across three continents will help you achieve a faster return on your tech investments and improve time to market. Innovation through iteration is the principle we live and work by.",
+  },
+  {
+    id: 3,
+    title: "We are goal-oriented.",
+    discription:
+      "Our back-end development team doesn’t simply craft server-side code — we nurture your company’s transformation from the core. Should you need to revamp an existing app’s logic or launch a novel tech product supporting thousands of users, that’s what we do best!",
+  },
+  {
+    id: 4,
+    title: "We are The Special Char.",
+    discription:
+      "A back-end development company with a “We care” attitude, we strive for our clients’ success and seek to build a lasting, mutually beneficial relationship with your company. And crafting superb back-end solutions is the only way to achieve that.",
+  },
+];
+
+export const banner5 = {
+  imageurl: "/images/cloudBanner.webp",
+  title: "Cloud computing consulting and implementation",
+  button1: "Talk to our",
+  button2: "experts",
+  description:
+    "Harness the power of the cloud for lower operational costs, ultimate scalability, and unparalleled performance with our all-encompassing cloud computing consulting and implementation services",
+};
