@@ -535,26 +535,19 @@ export const accordionItems = {
     {
       value: "item-1",
       title: "Services",
-      link:"services",
-      content: [
-        "Mobile",
-        "Web",
-        "Saas",
-        "Back-End",
-        "Cloud & Devops",
-        "Ui & Ux",
-      ],
+      link: "services",
+      content: ["Mobile", "Web", "Saas", "Back-End", "Cloud-Devops", "Ui-&-Ux"],
     },
     {
       value: "item-2",
       title: "Industry",
-      link:"#",
+      link: "#",
       content: ["EdTech & eLearning", "Ecommerce"],
     },
     {
       value: "item-3",
       title: "Company",
-      link:"#",
+      link: "#",
       content: ["About", "Career", "How Is Work"],
     },
   ],
@@ -575,7 +568,7 @@ export const IconData = {
 export const banner2 = {
   imageurl: "/images/mobile2.jpg",
   title: "Mobile app development company",
-  button: "Hire App Developer",
+  button1: "Hire App Developer",
   description:
     "We create custom mobile Apps that beat business challenges, generate revenue and hit millions of downloads",
 };
@@ -1377,4 +1370,40 @@ export const imageBanner16 = {
   url: "/images/soft3.webp",
   title1: "Why hire back-end",
   title2: "developers at The Special Char?",
+};
+
+export const backbox = [
+  {
+    id: 1,
+    title: "We are many.",
+    discription:
+      "With 300+ IT specialists on board and 13+ years of experience in back-end software engineering, we’re uniquely poised to crack your technology challenges.",
+  },
+  {
+    id: 2,
+    title: "We are flexible.",
+    discription:
+      "A distributed and inherently agile back-end development services team scattered across three continents will help you achieve a faster return on your tech investments and improve time to market. Innovation through iteration is the principle we live and work by.",
+  },
+  {
+    id: 3,
+    title: "We are goal-oriented.",
+    discription:
+      "Our back-end development team doesn’t simply craft server-side code — we nurture your company’s transformation from the core. Should you need to revamp an existing app’s logic or launch a novel tech product supporting thousands of users, that’s what we do best!",
+  },
+  {
+    id: 4,
+    title: "We are The Special Char.",
+    discription:
+      "A back-end development company with a “We care” attitude, we strive for our clients’ success and seek to build a lasting, mutually beneficial relationship with your company. And crafting superb back-end solutions is the only way to achieve that.",
+  },
+];
+
+export const banner5 = {
+  imageurl: "/images/cloudBanner.webp",
+  title: "Cloud computing consulting and implementation",
+  button1: "Talk to our",
+  button2: "experts",
+  description:
+    "Harness the power of the cloud for lower operational costs, ultimate scalability, and unparalleled performance with our all-encompassing cloud computing consulting and implementation services",
 };
