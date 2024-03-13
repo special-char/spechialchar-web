@@ -37,6 +37,7 @@ const MobileNavbar = ({data}:Header) => {
 
   return (
     <>
+ 
       <div onClick={toggleDropdown}>
         <Humburger className="fill-white" />
       </div>
