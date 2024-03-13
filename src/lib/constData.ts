@@ -529,11 +529,8 @@ export const banner1 = {
     "We develop powerful educational solutions that turn in-person and online learning into a diverse, engaging, and results-driven experience",
 };
 
- 
-
-
 // <---- Accordion Headre --->
-export const accordionItems ={
+export const accordionItems = {
   data: [
     {
       value: "item-1",
@@ -656,7 +653,7 @@ export const serviceicon2 = {
         "We draw on our extended reality and blockchain development expertise to create metaverse apps of all sizes and levels of complexity. Whether you need an augmented reality app with Snapchat-like filters or a marketplace to trade NFTs, we’re the right software engineering firm to undertake your project!",
     },
   ],
-}
+};
 
 export const mobiletabdata = {
   button: "Contact our app developers",
@@ -666,7 +663,7 @@ export const mobiletabdata = {
       trigger: "Big Data",
       content:
         "Use Big Data to create a user-driven app, get real-time insights, improve the app’s performance, and make your marketing more effective.",
-         value: "Big Data",
+      value: "Big Data",
       image: "/icons/atom-symbol.svg",
     },
     {
@@ -688,20 +685,21 @@ export const mobiletabdata = {
     {
       id: 4,
       trigger: "IOT",
-      content:"We build mobile apps that let businesses and consumers manage connected smart gadgets and analyze valuable data provided by them with just a few taps.",
-        value: "IoT",
+      content:
+        "We build mobile apps that let businesses and consumers manage connected smart gadgets and analyze valuable data provided by them with just a few taps.",
+      value: "IoT",
       image: "/icons/atom-symbol.svg",
     },
     {
       id: 5,
       trigger: "Cloud",
-      content:"Achieve speed and flexibility with cloud-based apps that are quick to build and easy to scale and safely store the most sensitive data.",
+      content:
+        "Achieve speed and flexibility with cloud-based apps that are quick to build and easy to scale and safely store the most sensitive data.",
       value: "Cloud",
       image: "/icons/atom-symbol.svg",
-}
-  ]
-}
-
+    },
+  ],
+};
 
 export const mobileicon = [
   {
@@ -771,43 +769,48 @@ export const mobileServicesdata = {
   ],
 };
 
-export const serviceAccordiandata={
-  button:"Contact Us",
-  data:[
+export const serviceAccordiandata = {
+  button: "Contact Us",
+  data: [
     {
-      id:1,
+      id: 1,
       image: "/icons/atom-symbol.svg",
       title: "Ecommerce",
-      content:"Optimize operations and deliver personalized shopping experience with apps packed with next-generation tech and featuring geo-targeted push notifications, integrated payment solutions, and much more."
+      content:
+        "Optimize operations and deliver personalized shopping experience with apps packed with next-generation tech and featuring geo-targeted push notifications, integrated payment solutions, and much more.",
     },
     {
-      id:2,
+      id: 2,
       image: "/icons/atom-symbol.svg",
       title: "Enterprise",
-      content:"Maximize employee productivity and performance, improve resource planning and overcome other business challenges with secure and scalable enterprise mobile apps that can be seamlessly integrated with corporate databases and workflows."
+      content:
+        "Maximize employee productivity and performance, improve resource planning and overcome other business challenges with secure and scalable enterprise mobile apps that can be seamlessly integrated with corporate databases and workflows.",
     },
     {
-      id:3,
+      id: 3,
       image: "/icons/atom-symbol.svg",
       title: "Social Media",
-      content:"We build any kind of social media apps - from corporate solutions to interest-based networks - that incorporate emerging tech such as AR/VR and AI, and feature content sharing, live chats, newsfeeds, push notifications, and more."
+      content:
+        "We build any kind of social media apps - from corporate solutions to interest-based networks - that incorporate emerging tech such as AR/VR and AI, and feature content sharing, live chats, newsfeeds, push notifications, and more.",
     },
     {
-      id:4,
+      id: 4,
       image: "/icons/atom-symbol.svg",
       title: "Real-Time Communication",
-      content:"Building apps for real-time video and voice communication, instant messaging, multi-party conferencing and file sharing that let consumers stay connected and give businesses access to remote live collaboration or data sharing."
+      content:
+        "Building apps for real-time video and voice communication, instant messaging, multi-party conferencing and file sharing that let consumers stay connected and give businesses access to remote live collaboration or data sharing.",
     },
     {
-      id:5,
+      id: 5,
       image: "/icons/atom-symbol.svg",
       title: "Finance",
-      content:"Creating fast and reliable mobile solutions for the entire financial industry that offer a user experience balancing security and simplicity and utilize new technology like blockchain and AI"
-    }
-  ]
+      content:
+        "Creating fast and reliable mobile solutions for the entire financial industry that offer a user experience balancing security and simplicity and utilize new technology like blockchain and AI",
+    },
+  ],
 };
 
-      export const latestThinkingData = {
+export const latestThinkingData = {
   data: [
     {
       id: 1,
@@ -828,38 +831,42 @@ export const serviceAccordiandata={
   ],
 };
 
-export const serviceAccordiandata1={
-
-  data:[
+export const serviceAccordiandata1 = {
+  data: [
     {
-      id:1,
+      id: 1,
       image: "/icons/atom-symbol.svg",
       title: "Entertainment",
-      content:"Keep users engaged with feature-rich and customizable applications that let them enjoy sports, movies, music, games and all kinds of other entertainment content on the go"
+      content:
+        "Keep users engaged with feature-rich and customizable applications that let them enjoy sports, movies, music, games and all kinds of other entertainment content on the go",
     },
     {
-      id:2,
+      id: 2,
       image: "/icons/atom-symbol.svg",
       title: "Wellness",
-      content:"Satisfy the health conscious with apps for workouts, activity tracking, nutrition and diet planning, and health monitoring that have perfect connectivity with wearables and great personalization, and leverage the benefits of AI and AR/VR."
+      content:
+        "Satisfy the health conscious with apps for workouts, activity tracking, nutrition and diet planning, and health monitoring that have perfect connectivity with wearables and great personalization, and leverage the benefits of AI and AR/VR.",
     },
     {
-      id:3,
+      id: 3,
       image: "/icons/atom-symbol.svg",
       title: "Healthcare",
-      content:"Redefine healthcare with AI-powered digital therapeutics, real-time telehealth, remote patient monitoring, AR/VR-enabled training simulators, and apps for booking doctor appointments and managing health records."
+      content:
+        "Redefine healthcare with AI-powered digital therapeutics, real-time telehealth, remote patient monitoring, AR/VR-enabled training simulators, and apps for booking doctor appointments and managing health records.",
     },
     {
-      id:4,
+      id: 4,
       image: "/icons/atom-symbol.svg",
       title: "Education",
-      content:"We build the entire range of m-learning apps that boast AR-powered instructions, videoconferencing and gamification features, and are easily integrated with social media and payment gateways."
+      content:
+        "We build the entire range of m-learning apps that boast AR-powered instructions, videoconferencing and gamification features, and are easily integrated with social media and payment gateways.",
     },
     {
-      id:5,
+      id: 5,
       image: "/icons/atom-symbol.svg",
       title: "Logistics & Transportation",
-      content:"Helping businesses reduce paperwork, minimize delivery time and costs, track shipments in real time, and optimize fleet and warehouse management with scalable custom mobile applications"
+      content:
+        "Helping businesses reduce paperwork, minimize delivery time and costs, track shipments in real time, and optimize fleet and warehouse management with scalable custom mobile applications",
     },
   ],
 };
@@ -1108,32 +1115,83 @@ export const imageBanner12 = {
 
 // <---- SwiperServices ----->
 
-
-
 // <---- MobileSwiper ---->
 
-export const MobileSwiperData ={
-  data:[
+export const MobileSwiperData = {
+  data: [
     {
       src: "/images/Jeff-Block-150x150.jpg",
-      name: 'Jeff Block',
-      title: 'VP of Process and Technology',
-      company: 'PotentiaMetrics, Inc.',
-      quote: "Itrex’s team are experts in their trade. The software development they provided was critical to advancing the project to the next level.",
-  },
-  {
+      name: "Jeff Block",
+      title: "VP of Process and Technology",
+      company: "PotentiaMetrics, Inc.",
+      quote:
+        "Itrex’s team are experts in their trade. The software development they provided was critical to advancing the project to the next level.",
+    },
+    {
       src: "/images/Daniel-Schuler-150x150.jpg",
-      name: 'Denial Schular',
-      title: 'CTO',
-      company: 'Hyginex',
-      quote: "When you hire them, you're actually going to get something valuable.",
-  },
-  {
+      name: "Denial Schular",
+      title: "CTO",
+      company: "Hyginex",
+      quote:
+        "When you hire them, you're actually going to get something valuable.",
+    },
+    {
       src: "/images/author-1.jpg",
-      name: 'Ashley Lewis',
-      title: 'Director of Product Management',
-      company: 'Dollar Shave Club',
-      quote: "Itrex is an outstanding partner. They don't even feel like a contractor, but more like a fully integrated team.",
-  },
-  ]
-}
+      name: "Ashley Lewis",
+      title: "Director of Product Management",
+      company: "Dollar Shave Club",
+      quote:
+        "Itrex is an outstanding partner. They don't even feel like a contractor, but more like a fully integrated team.",
+    },
+  ],
+};
+
+export const imageAccordianData = {
+  data: [
+    {
+      image: "/images/imageacc1.webp",
+      header: "Online stores",
+      text: "Storefronts with device-agnostic interfaces and streamlined workflow, from order placement to checkout, offering smooth integration with popular payment gateways, ERP systems, CRMs, PIMs, inventory management.",
+    },
+    {
+      image: "/images/imageacc2.webp",
+      header: "B2C marketplaces",
+      text: "Omnichannel one-stop-shops that sell multiple brands, offering personalized shopping experience, simplified onboarding and easy checkout.",
+    },
+    {
+      image: "/images/imageacc3.webp",
+      header: "B2B portals",
+      text: "Complex B2B platforms capable of handling large catalogs, vast payment methods and price variations, bringing together manufacturers, wholesalers and distributors as a centralized hub.",
+    },
+    {
+      image: "/images/imageacc4.webp",
+      header: "Auctions",
+      text: "From basic features to the most sophisticated, high-load auction platforms that provide a variety of auction types, the configuration of bid items, real-time live bidding via video streaming, multiple payment gateways, full analytics reports, and more.",
+    },
+    {
+      image: "/images/imageacc5.webp",
+      header: "Ecommerce aggregators",
+      text: "Platforms that partner with multiple merchants under one brand to promote their goods or services and at the same time, create a convenient ecosystem for customers.",
+    },
+    {
+      image: "/images/imageacc6.webp",
+      header: "Shopping carts",
+      text: "Shopping cart solutions for installation, integration, and upgrade for fully custom features, automated billing tasks, and secure payment processing.",
+    },
+    {
+      image: "/images/imageacc7.webp",
+      header: "Mobile shopping apps",
+      text: "With professional ecommerce mobile app development you can be sure that nothing causes friction when customers decide to buy, with features from voice search and chat to on-touch payments.",
+    },
+    {
+      image: "/images/imageacc8.webp",
+      header: "Delivery apps",
+      text: "Apps that make it simple to track orders, automating the bulk of the shipping process while providing a personalized platform for communicating with customers about their delivery.",
+    },
+    {
+      image: "/images/imageacc9.webp",
+      header: "Social commerce",
+      text: "Setup of the entire shopping process on a social media platform, from peer-to-peer platforms to group buying, to participatory commerce, to social shopping with chats, forums and commenting features to create the real world shopping experience.",
+    },
+  ],
+};

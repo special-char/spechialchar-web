@@ -9,7 +9,7 @@ const Tab = ({ data }: tabdataType) => {
 
         <section className="">
             <div className="lg:py-12 py-10">
-                <Tabs defaultValue="account" className="">
+                <Tabs defaultValue="Turnkey Projects" className="">
 
                     <div className="flex  max-sm:overflow-x-scroll ">
                         <TabsList>
@@ -17,10 +17,10 @@ const Tab = ({ data }: tabdataType) => {
                                 {tabdata.data.map((item) => {
                                     return (
                                         <>
-                                            <div className="flex flex-col gap-5 border-b-2 active:border-blue-600  text-xl md:text-2xl p-5 lg:text-4xl lg:p-11 lg:px-13 md:p-8   font-bold">
+                                            <div className="flex flex-col gap-3 border-b-2   text-xl md:text-2xl px-5 lg:text-4xl  lg:px-16 md:px-8   font-bold">
                                                 <Image src={item.image} alt="" height={40} width={40} className="mx-auto" />
 
-                                                <TabsTrigger value={item.value}>{item.trigger}</TabsTrigger>
+                                                <TabsTrigger className="pb-3 md:py-10 " value={item.value}>{item.trigger}</TabsTrigger>
                                             </div>
                                         </>
 

@@ -160,3 +160,11 @@ export type SaasSectionType = {
     description: string;
   };
 };
+
+export type imageAccordianDataType = {
+  data: {
+    image: string;
+    header: string;
+    text: string;
+  };
+};

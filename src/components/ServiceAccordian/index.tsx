@@ -25,7 +25,7 @@ const ServiceAccordian = ({ data }: serviceAccordiandataType) => {
                         {serviceAccordiandata.data.map((item) => {
                             return (
                                 <AccordionItem className="border-b py-3 border-gray-300" key={item.id} value={`item-${item.id}`}>
-                                    <AccordionTrigger className=" flex flex-1 items-center justify-between text-xl lg:text-3xl font-semibold active:text-blue-500">
+                                    <AccordionTrigger className=" flex flex-1 items-center justify-between text-xl lg:text-3xl font-semibold    ">
                                         <div className="flex gap-10 md:gap-3  items-center">
                                             <div className=" md:flex md:gap-40 lg:gap-[30rem] items-center  hidden">
                                                 <Image alt="" src={item.image} width={40} height={40} />
