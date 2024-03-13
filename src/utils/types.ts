@@ -59,6 +59,21 @@ export type Header = {
     content: string;
   };
 };
+export type mobileServicesType = {
+  data: {
+    id: number;
+    title: string;
+    description: string;
+  };
+};
+
+export type latestThinkingType = {
+  data: {
+    id: number;
+    title: string;
+    img: string;
+  };
+};
 
 export type SwiperServicesData = {
   data: {
@@ -97,6 +112,7 @@ export type ServiceIconType = {
     url: string;
     title: string;
     description: string;
+    languages: string;
   };
 };
 
@@ -106,14 +122,32 @@ export type BgYellowType = {
   };
 };
 
-export type serviceAccordiandataType={
-  data:{
-    id:number;
-    image:string;
-    content:string;
-    title:string;
-    button:string;
+export type serviceAccordiandataType = {
+  data: {
+    id: number;
+    image: string;
+    content: string;
+    title: string;
+    button: string;
   };
 };
 
+export type BgBannerType = {
+  data: {
+    url: string;
+    title1: string;
+    title2: string;
+  };
+};
 
+export type SaasSectionType = {
+  data: [
+    title: string,
+    description: string,
+    section: {
+      id: number;
+      title: string;
+      descrition: string;
+    }
+  ];
+};

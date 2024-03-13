@@ -556,12 +556,6 @@ export const accordionItems = {
   ],
 };
 
-export const BgBanner = {
-  url: "/images/AboutBanner2.webp",
-  title1: "We are hungrrrrry",
-  title2: "for your success",
-};
-
 export const YellowBannerData = {
   description:
     "Our software engineering company collaborates with businesses from the healthcare, finance, education, retail, supply chain management, and other verticals. We help our clients test the novel technology waters, scale IT systems company wide, and ensure faster paybacks. Our core software engineering solutions expertise spans:",
@@ -586,73 +580,76 @@ export const testimonial = {
     {
       id: 1,
       image: "/images/testimonial1.webp",
-       title1: "Daniel Schuler", 
-       title2:"CTO",
-       title3: "Hyginex",
-      description: "When you hire them, you're actually going to get something valuable.",
+      title1: "Daniel Schuler",
+      title2: "CTO",
+      title3: "Hyginex",
+      description:
+        "When you hire them, you're actually going to get something valuable.",
     },
     {
       id: 2,
       image: "/images/testimonial2.webp",
-       title1: "Ashley Lewis",
-       title2 : "Director of Product Management  ",
-       title3:"Dollar Shave Club",
-      description: "Itrex is an outstanding partner. They don't even feel like a contractor, but more like a fully integrated team.",
+      title1: "Ashley Lewis",
+      title2: "Director of Product Management  ",
+      title3: "Dollar Shave Club",
+      description:
+        "Itrex is an outstanding partner. They don't even feel like a contractor, but more like a fully integrated team.",
     },
     {
       id: 3,
       image: "/images/testimonial3.webp",
-       title1: "Jeff Block",
-       title2 : "VP of Process and Technology   ",
-       title3:" PotentiaMetrics, Inc.",
-      description: "Itrex’s team are experts in their trade. The&nbsp;software development they provided was critical to advancing the project to the next level.",
+      title1: "Jeff Block",
+      title2: "VP of Process and Technology   ",
+      title3: " PotentiaMetrics, Inc.",
+      description:
+        "Itrex’s team are experts in their trade. The&nbsp;software development they provided was critical to advancing the project to the next level.",
     },
-  ]
-}
+  ],
+};
 
 export const serviceicon2 = {
   data: [
     {
-      
       url: "/images/accord_1-1.gif",
-      
+
       title: "Enterprise Technology",
-      description: "The ITRex software product engineering firm is well-versed in enterprise IT technologies. ERP systems, CRM and help desk solutions, document and learning management systems, HRM and project management software, accounting and eProcurement tools — you can find it all in our portfolio.",
+      description:
+        "The ITRex software product engineering firm is well-versed in enterprise IT technologies. ERP systems, CRM and help desk solutions, document and learning management systems, HRM and project management software, accounting and eProcurement tools — you can find it all in our portfolio.",
     },
     {
-      
       url: "/images/accord_2-2.gif",
-      
+
       title: "Artificial Intelligence",
-      description: "We take pride in our AI expertise and offer a wide range of innovative software engineering services to supercharge your technology systems. Partner with ITRex to develop apps with computer vision capabilities, train highly accurate machine learning models, and reduce bias in custom AI deployments. ",
+      description:
+        "We take pride in our AI expertise and offer a wide range of innovative software engineering services to supercharge your technology systems. Partner with ITRex to develop apps with computer vision capabilities, train highly accurate machine learning models, and reduce bias in custom AI deployments. ",
     },
     {
-      
       url: "/images/accord_3-3.gif",
-      
+
       title: "Automation",
-      description: "Rule-based business process automation tools, lightweight RPA bots interacting with application interfaces, and AI algorithms automating processes based on historical and real-time data — we’ve been there, done that. Tap into our software engineering services to boost employee productivity and cut operational costs!",
+      description:
+        "Rule-based business process automation tools, lightweight RPA bots interacting with application interfaces, and AI algorithms automating processes based on historical and real-time data — we’ve been there, done that. Tap into our software engineering services to boost employee productivity and cut operational costs!",
     },
     {
-      
       url: "/images/accord_4-4.gif",
-      
+
       title: "Big Data & Analytics",
-      description: "ITRex Group is a software engineering company with a strong background in data science. Do you need help customizing SaaS business intelligence (BI) products to best suit your analytics? Are you struggling to interpret unstructured data or ensure an uninterrupted flow of information across your IT infrastructure? Whatever your objectives are, we’ve got you covered!    ",
+      description:
+        "ITRex Group is a software engineering company with a strong background in data science. Do you need help customizing SaaS business intelligence (BI) products to best suit your analytics? Are you struggling to interpret unstructured data or ensure an uninterrupted flow of information across your IT infrastructure? Whatever your objectives are, we’ve got you covered!    ",
     },
     {
-      
       url: "/images/accord_5-5.gif",
-      
+
       title: "Internet of Everything",
-      description: "To help you further boost your data analytics and automation efforts, we transform your assets, equipment, and even personnel into a wealth of data. For this, we design and implement smart sensors, embedded systems, cloud-based data storage and processing solutions, and rich user interfaces, which range from mobile apps to built-in voice assistants.     ",
+      description:
+        "To help you further boost your data analytics and automation efforts, we transform your assets, equipment, and even personnel into a wealth of data. For this, we design and implement smart sensors, embedded systems, cloud-based data storage and processing solutions, and rich user interfaces, which range from mobile apps to built-in voice assistants.     ",
     },
     {
-      
       url: "/images/accord_6-6.gif",
-      
+
       title: "Metaverses",
-      description: "We draw on our extended reality and blockchain development expertise to create metaverse apps of all sizes and levels of complexity. Whether you need an augmented reality app with Snapchat-like filters or a marketplace to trade NFTs, we’re the right software engineering firm to undertake your project!",
+      description:
+        "We draw on our extended reality and blockchain development expertise to create metaverse apps of all sizes and levels of complexity. Whether you need an augmented reality app with Snapchat-like filters or a marketplace to trade NFTs, we’re the right software engineering firm to undertake your project!",
     },
   ],
 }
@@ -697,6 +694,75 @@ export const mobiletabdata = {
       content:"Achieve speed and flexibility with cloud-based apps that are quick to build and easy to scale and safely store the most sensitive data.",
       value: "Cloud",
       image: "/icons/atom-symbol.svg",
+}
+  ]
+}
+
+
+export const mobileicon = [
+  {
+    url: "/icons/aindroid.svg",
+    title: "Andorid",
+    description:
+      "Using innovative concepts and data-driven insights, we craft high-performance apps that rank high on Google Play and transform business.",
+
+    languages: ["Java", "|", "Kotlin"],
+  },
+  {
+    url: "/icons/ios-1.svg",
+    title: "Ios",
+    description:
+      "We boast a legacy of great iOS apps for a range of business niches, which never leave the iPhones and iPads home screens of the delighted users.",
+
+    languages: ["Swift", "|", "Objective-C"],
+  },
+  {
+    url: "/icons/cross_platforms.svg",
+    title: "Cross Platform",
+    description:
+      "Whatever the complexity, we bring the full benefit of cross-platform tech to the table, including lower costs, faster time to market and maximum reach.",
+
+    languages: ["React Native", "|", "Flutter"],
+  },
+];
+
+export const mobileServicesdata = {
+  data: [
+    {
+      id: 1,
+      title: "Discovery & R&D",
+      description:
+        "We translate your app idea into a feature setlist and draw up a detailed development roadmap that leads to the desired outcomes",
+    },
+    {
+      id: 2,
+      title: "UX/UI Design",
+      description:
+        "To deliver an intuitive user experience and attractive look and feel for your app, we define personas, map user journeys and carefully test our assumptions.",
+    },
+    {
+      id: 3,
+      title: "Development",
+      description:
+        "Our development strategies focus on creating a future-proof app architecture, selecting the right tech stack and using best development practices.",
+    },
+    {
+      id: 4,
+      title: "QA",
+      description:
+        "Throughout development, we carry out comprehensive mobile testing to make sure the app functions as intended across devices and screen resolutions.",
+    },
+    {
+      id: 5,
+      title: "Launch",
+      description:
+        "To deliver an intuitive user experience and attractive look and feel for your app, we define personas, map user journeys and carefully test our assWe release your app on the App Store or integrate it seamlessly into your enterprise tech infrastructure.",
+    },
+    {
+      id: 6,
+      title: "Maintenance & Support",
+      description:
+        "Our apps come with continuous post-release support, which includes making improvements to meet the evolving needs of your business and users.",
     },
   ],
 };
@@ -733,6 +799,27 @@ export const serviceAccordiandata={
       image: "/icons/atom-symbol.svg",
       title: "Finance",
       content:"Creating fast and reliable mobile solutions for the entire financial industry that offer a user experience balancing security and simplicity and utilize new technology like blockchain and AI"
+    }
+  ]
+};
+
+      export const latestThinkingData = {
+  data: [
+    {
+      id: 1,
+      title: "Waterfall vs. Agile: how to choose the right approach",
+      img: "/images/latestThinking1.webp",
+    },
+    {
+      id: 2,
+      title: "What self-service BI is and how to do it right",
+      img: "/images/latestThinking2.webp",
+    },
+    {
+      id: 3,
+      title:
+        "AI-powered augmented analytics: capabilities and benefits for business→",
+      img: "/images/latestThinking3.webp",
     },
   ],
 };
@@ -771,4 +858,196 @@ export const serviceAccordiandata1={
       content:"Helping businesses reduce paperwork, minimize delivery time and costs, track shipments in real time, and optimize fleet and warehouse management with scalable custom mobile applications"
     },
   ],
+};
+export const imageBanner3 = {
+  url: "/images/soft4.webp",
+  title1: "End-to-end mobile",
+  title2: "development services",
+};
+
+export const imageBanner4 = {
+  url: "/images/soft5.webp",
+  title1: "Delivering industry-specific",
+  title2: "mobile app solutions",
+};
+
+export const YellowBannerData1 = {
+  description:
+    "With a deep understanding of industry-specific challenges and requirements, the ITRex app development company delivers products tailored to your needs. Whether you are a startup aiming to disrupt the market or an enterprise looking to improve employee productivity, obtain valuable data insights or build a loyal customer base, we are ready to take on the challenge.",
+};
+
+export const imageBanner5 = {
+  url: "/images/soft6.webp",
+  title1: "Next-gen tech",
+  title2: "for mobile app development",
+};
+
+export const YellowBannerData2 = {
+  description:
+    "We bring innovation to the fore and use emerging technology to power a new style of mobile apps.",
+};
+
+export const banner3 = {
+  imageurl: "/images/webBanner.webp",
+  title: "Custom web development services",
+  button: "Get in touch",
+  description:
+    "Make a unique impact online now to grow business with end-to-end custom web development services from TheSpecialChar",
+};
+
+export const webicon = [
+  {
+    url: "/images/accord_1-1.gif",
+    title: "Complex web apps",
+    description:
+      "Tailored to your precise business needs, be it redefining internal workflows or shipping a mind-blowing product to the market. Optimized for speed and security at scale. Designed for flexibility and growth",
+  },
+  {
+    url: "/images/accord_2-2.gif",
+    title: "Feature-rich web portals",
+    description:
+      "From B2C/B2B portals for ecommerce and banking to web portals for patients, students, employees, and public services, incorporating user-centric design, customized user journeys, and smooth integrations",
+  },
+  {
+    url: "/images/accord_3-3.gif",
+    title: "Truly unique websites",
+    description:
+      "Running seamlessly and allowing dynamic content management — websites designed with the right aesthetics and functionality for any industry and using the best-fit platform (WordPress, Webflow, Joomla, or Squarespace)",
+  },
+];
+
+export const Bgbanner2 = {
+  description:
+    "Providing full-stack custom web development services, we create everything from the UI of your web solution to algorithms and databases behind it. And we bring more as your trusted software development partner, ready to resolve any of your tech challenges.",
+};
+
+export const imageBanner7 = {
+  url: "/images/soft2.webp",
+  title1: "Every step of your web development journey",
+  title2: "covered ― by experts",
+};
+
+export const imageBanner8 = {
+  url: "/images/soft7.webp",
+  title1: "Tap into new trends",
+  title2: "with our custom web development services",
+};
+
+export const webSection = [
+  {
+    title: "Progressive Web Apps (PWAs)",
+    description:
+      "Build a lightweight and platform-agnostic PWA in its latest iteration or revamp your existing web app into a PWA for impressive performance",
+  },
+  {
+    title: "Accelerated Mobile Pages",
+    description:
+      "Strip your web pages down to the basics so that they load superfast, delivering an unmatched user experience and improving your site visibility",
+  },
+  {
+    title: "Single-page Applications",
+    description:
+      "Dynamically updating content with no page refreshing, SPAs are a superb way to provide a faster and simple experience to users. Build your SPA with us",
+  },
+  {
+    title: "Serverless architecture",
+    description:
+      "Get excellent scalability, improve your web app performance, and cut project costs by placing the underlying infrastructure in the cloud",
+  },
+];
+
+export const imageBanner9 = {
+  url: "/images/soft8.webp",
+  title1: "Technologies",
+  title2: "we work with",
+};
+
+export const imageBanner10 = {
+  url: "/images/soft3.webp",
+  title1: "How The Spacial Character",
+  title2: "makes a difference",
+};
+
+export const webgrid = [
+  {
+    url: "/images/websec1.webp",
+    title: "A-class team",
+    description:
+      "Delivering web solutions across industry verticals since 2009, our team of senior web developers and designers know how to build your project right the first time. With us, you get a deep understanding of your business challenges and unparalleled tech expertise to beat them",
+  },
+  {
+    url: "/images/websec2.webp",
+    title: "Fast time-to-value",
+    description:
+      "Using an agile approach and DevOps best practices, we ship new functionality faster while keeping quality high. Along the way, you stay in the loop as we show results early to adapt to your current vision",
+  },
+  {
+    url: "/images/websec3.webp",
+    title: "Deeply customized solutions",
+    description:
+      "Each and every step of our process in custom web development services is focused on your unique business needs. We get a buzz out of unlocking tech complexities and tailoring a solution that serves your mission best. This is because we are fully engaged in your success",
+  },
+];
+
+export const saasBanner = {
+  imageurl: "/images/saasBanner.jpg",
+  title: "End-to-end SaaS development services",
+  button: "Get in touch",
+  description:
+    "As a top provider of SaaS development services, we are focused on building SaaS applications that surpass your and your customers’ expectations",
+};
+
+export const saasSection = {
+  title: "Our SaaS development services let you win big",
+  description:
+    "Leverage our top-tier skills and experience in Software-as-a-Service development to create a SaaS product that will drive long-term success among customers. Our SaaS development services span the entire software lifecycle, including:",
+  section: [
+    {
+      id: 1,
+      title: "SaaS Development Consulting",
+      description:
+        "We help with brainstorming SaaS ideas, drilling down the scope, selecting the right tech stack, estimating ROI, and more. Get the best guidance to overcome any SaaS software development challenge you might face.",
+    },
+    {
+      id: 2,
+      title: "SaaS Design & Prototyping",
+      description:
+        "If you want to glue customers to your SaaS app, you need to deliver state-of-the-art design. Our SaaS development services help you turn a great idea into great UI/UX and validate the concept with rapid prototyping.",
+    },
+    {
+      id: 3,
+      title: "End-to-End SaaS Development",
+      description:
+        "Need professionals to create a SaaS app from scratch? Our full-cycle SaaS development company has worked with many startups and enterprises since 2009, delivering successful SaaS products that are built to last and grow.",
+    },
+    {
+      id: 4,
+      title: "Migration to SaaS",
+      description:
+        "Transform your on-prem solution into a mind-blowing SaaS product. We will re-architecture your app to best suit a new environment, choose the right approach to cloud migration, configure the cloud, and move data safely",
+    },
+    {
+      id: 5,
+      title: "Third-Party Integrations",
+      description:
+        "As part of our SaaS application development services, we can add versatility to your SaaS app by connecting external systems through APIs. Build new business opportunities with new integrations executed flawlessly.",
+    },
+    {
+      id: 6,
+      title: "SaaS Support & Maintenance",
+      description:
+        "Optimize your SaaS performance, fix bugs, improve user experience, and cut costs using our SaaS development services. We can provide ad-hoc or regular support. Focus on your business while we take care of the tech.",
+    },
+  ],
+};
+
+export const imageBanner11 = {
+  url: "/images/soft.webp",
+  title1: "Our six-pillar approach",
+  title2: "to SaaS software development",
+};
+
+export const YellowBannerData3 = {
+  description:
+    "We build impactful SaaS applications using our road-tested six-pillar approach:",
 };
