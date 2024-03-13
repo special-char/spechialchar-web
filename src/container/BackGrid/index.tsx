@@ -1,13 +1,13 @@
-import SaasSec from "@/components/SaasSec";
-import ServiceIcon from "@/components/ServiceIcon";
-import { Button } from "@/components/ui/button";
-import { saasSection } from "@/lib/constData";
-import { SaasSectionType } from "@/utils/types";
-import React from "react";
+import { backSection } from '@/lib/constData'
+import { SaasSectionType } from '@/utils/types'
+import React from 'react'
+import SaasService from '../SaasService'
+import SaasSec from '@/components/SaasSec'
+import { Button } from '@/components/ui/button'
 
-type Props = {};
+type Props = {}
 
-const SaasGrid = ({ data }: SaasSectionType) => {
+const BackGrid = ({data}: SaasSectionType) => {
   return (
     <section>
       <div className="flex flex-wrap w-[75%]">
@@ -19,7 +19,7 @@ const SaasGrid = ({ data }: SaasSectionType) => {
         </div>
       </div>
       <div className="grid lg:grid-cols-3 max-md:grid-cols-1 gap-10">
-        {saasSection.section.map((item) => (
+        {backSection.section.map((item) => (
           // <ServiceIcon data={item}/>
           <SaasSec data={item} />
         ))}
@@ -36,7 +36,7 @@ const SaasGrid = ({ data }: SaasSectionType) => {
         </Button>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default SaasGrid;
+export default BackGrid

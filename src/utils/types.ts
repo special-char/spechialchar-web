@@ -50,7 +50,8 @@ export type Card1Type = {
 
 export type BannerType = {
   title: string;
-  button: string;
+  button1: string;
+  button2:string;
   description: string;
   imageurl: string;
 };

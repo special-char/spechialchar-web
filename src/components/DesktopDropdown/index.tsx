@@ -21,7 +21,7 @@ const DesktopDropdown = ({ data }: Header) => {
   }, []);
   return (
     <>
-      <div className="hidden w-full lg:block z-50 ">
+      <div className="hidden w-full lg:block z-50">
         <ul className=" flex justify-end items-center lg:gap-x-10 py-3 bg-inherit w-full  ">
           {accordionItems.data.map((dropdown, index) => (
             <div key={index} className="dropdown inline-block z-50 ">
@@ -32,9 +32,9 @@ const DesktopDropdown = ({ data }: Header) => {
                 {dropdown.title}
                 <ChevronDownIcon className="hover:rotate-180 mt-1" />
               </Link>
-              <div className="w-full">
+              <div className="relative w-full h-full left-0">
                 <li
-                  className="dropdown-content  text-white  py-5 hover:block hidden  left-0   px-2"
+                  className="dropdown-content text-white absolute py-5 hover:block hidden w-full  px-2"
                   style={{
                     backgroundColor:
                       scrollPosition > 100
@@ -42,7 +42,7 @@ const DesktopDropdown = ({ data }: Header) => {
                         : "rgba(0, 0, 0, 0)",
                   }}
                 >
-                  <div className=" absolute left-3/2">
+                  <div className="w-[100vw] bg-inherit absolute left-0">
                     {dropdown.content.map((item, itemIndex) => (
                       <Link
                         key={itemIndex}
