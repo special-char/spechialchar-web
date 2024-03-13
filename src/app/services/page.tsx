@@ -1,5 +1,4 @@
 import ImageBanner from "@/components/ImageBanner";
-import MobileIcon from "@/components/MobileIcon";
 import ServiceBox from "@/components/ServiceBox";
 import ServiceIcon2 from "@/components/ServiceIcon2";
 import Swiper1 from "@/components/Swiper";
@@ -25,17 +24,16 @@ const Services = () => {
   return (
     <>
       <Banner data={banner} className="" />
-      <Service/>
-      <Testimonial/>
+      <Service />
       <ImageBanner data={imageBanner} />
       <YellowBanner data={Bgbanner} />
-      <ServiceIcon2/>
+      <ServiceIcon2 />
       <ImageBanner data={imageBanner1} />
       <YellowBanner data={Bgbanner1} />
       <Tab data={tabdata} />
       <ImageBanner data={imageBanner2} />
       <ServiceBox />
-      <MobileIcon/>
+
       <Swiper1 data={SwiperServices} />
     </>
   );

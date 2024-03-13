@@ -1,23 +1,23 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { tabdata } from "@/lib/constData";
+import { mobiletabdata, tabdata } from "@/lib/constData";
 import { tabdataType } from "@/utils/types";
 import Image from "next/image";
 import { Button } from "../ui/button";
 
-const Tab = ({ data }: tabdataType) => {
+const Tab1 = ({ data }: tabdataType) => {
     return (
 
         <section className="">
-            <div className="lg:py-12 py-10">
+            <div className=" py-10">
                 <Tabs defaultValue="account" className="">
 
-                    <div className="flex  max-sm:overflow-x-scroll ">
+                    <div className="flex md:justify-center max-sm:overflow-x-scroll ">
                         <TabsList>
                             <div className="flex  ">
-                                {tabdata.data.map((item) => {
+                                {mobiletabdata.data.map((item) => {
                                     return (
                                         <>
-                                            <div className="flex flex-col gap-5 border-b-2 active:border-blue-600  text-xl md:text-2xl p-5 lg:text-4xl lg:p-11 lg:px-13 md:p-8   font-bold">
+                                            <div className="flex flex-col gap-5 border-b-2 active:border-blue-600  text-xl md:text-2xl p-5 lg:text-4xl  xl:p-16  md:p-9   font-bold">
                                                 <Image src={item.image} alt="" height={40} width={40} className="mx-auto" />
 
                                                 <TabsTrigger value={item.value}>{item.trigger}</TabsTrigger>
@@ -32,7 +32,7 @@ const Tab = ({ data }: tabdataType) => {
 
                     </div>
 
-                    {tabdata.data.map((item) => {
+                    {mobiletabdata.data.map((item) => {
                         return (
                             <TabsContent className="text-black lg:text-2xl lg:px-1" value={item.value}>{item.content}</TabsContent>
 
@@ -47,5 +47,5 @@ const Tab = ({ data }: tabdataType) => {
         </section>
     );
 };
-export default Tab;
+export default Tab1;
 
