@@ -15,16 +15,13 @@ const Banner = ({
 
   return (
     <section
-      className={cn(
-        "h-screen w-full bg-black text-white flex items-center justify-center max-md:pt-20",
-        {
-          [`${className}`]: className,
-        }
-      )}
+      className={cn("h-screen w-full bg-black text-white flex items-center", {
+        [`${className}`]: className,
+      })}
     >
-      <div className=" flex flex-wrap lg:flex-1 gap-x-40 md:flex-row items-center justify-center">
-        <div className="lg:w-[30rem] gap-y-10 z-20 flex justify-evenly flex-col sm:justify-center">
-          <h1 className=" text-heading1 lg:text-7xl font-bold ">
+      <div className=" grid md:grid-cols-[40%_1fr] grid-cols-1items-center lg:gap-x-40 sm:pt-20 max-sm:pt-10 max-sm:gap-y-7  justify-center">
+        <div className="lg:w-[30rem] md:gap-y-10  flex justify-evenly flex-col sm:justify-center">
+          <h1 className=" text-heading1 lg:text-7xl md:text-4xl sm:text-2xl max-sm:text-2xl font-bold ">
             {data.title}
           </h1>
 
@@ -39,19 +36,19 @@ const Banner = ({
               className="flex flex-wrap group text-base"
             >
               {data.button}
-              <span className="text-black group-hover:text-white">
+              <span className="flex flex-wrap text-black group-hover:text-white">
                 &nbsp;&rarr;
               </span>
             </Button>
           </div>
         </div>
-        <div className="flex justify-center items-center object-contain">
+        <div className="lg:relative flex justify-center items-center ">
           <Image
             src={data.imageurl}
             alt="image"
             height={500}
             width={500}
-            className=""
+            className="flex flex-wrap object-fill"
           />
         </div>
       </div>

@@ -1,12 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import question from "@/public/images/questionnaire-line.png";
-import Aindroid from "@/public/aindroid.svg";
-
 import { ServiceIconType } from '@/utils/types';
 
 
-const ServiceIcon = ({data}: Props) => {
+const ServiceIcon = ({data}: ServiceIconType) => {
     return (
         <div className=''>
             <div className=' lg:gap-5 '>
@@ -16,12 +13,19 @@ const ServiceIcon = ({data}: Props) => {
                         <Image src={data.url} height={50} width={50} alt='image'/>
                     </div>
                     <div>
-                        <h2 className='font-bold text-3xl'>{data.title}</h2>
+                        <h2 className='font-bold lg:text-3xl md:text-xl text-xl'>{data.title}</h2>
                     </div>
-                    <div className="text-xl text-slate-500 md:pr-6 lg:pr-4 ">
+                    <div className="lg:text-xl md:text-sm sm:text-sm text-slate-500 md:pr-6 lg:pr-4 ">
 
                         {data.description}   </div>
                 </div>
+                
+                  
+                  
+                  <div className="lg:text-xl md:text-sm sm:text-sm font-extrabold md:pr-6 lg:pr-4 gap-3 ">
+                {data?.languages}
+                </div> 
+                 
             </div>
         </div>
     )

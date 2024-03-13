@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Cards } from "@/lib/constData";
+import { Card1, Cards } from "@/lib/constData";
 
 import Image from "next/image";
 import { Button } from "../ui/button";
@@ -21,7 +21,7 @@ export function ThinkCard({ data }: CardType) {
         <Carousel opts={{ align: "start" }}>
           <div className="w-full flex z-20 gap-x-10">
             <CarouselContent className="w-full">
-              {Cards.card.map((item) => (
+              {Card1.cards.map((item) => (
                 <CarouselItem
                   key={item.id}
                   className="group md:basis-1/2 lg:basis-1/3"
@@ -45,8 +45,8 @@ export function ThinkCard({ data }: CardType) {
               ))}
             </CarouselContent>
           </div>
-          <CarouselPrevious className="bg-blue-500 h-10 w-10 ml-10" />
-          <CarouselNext className="bg-blue-500 h-10 w-10 mr-10" />
+          <CarouselPrevious className="bg-blue-500 h-10 w-10 ml-10 max-sm:hidden" />
+          <CarouselNext className="bg-blue-500 h-10 w-10 mr-10 max-sm:hidden" />
         </Carousel>
       </div>
     </div>

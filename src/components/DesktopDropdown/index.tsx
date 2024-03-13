@@ -1,27 +1,25 @@
-import Link from 'next/link';
-import React from 'react'
-import './style.css'
-import { ChevronDownIcon } from "@radix-ui/react-icons"
-import {Header} from '@/utils/types'
+import Link from "next/link";
+import React from "react";
+import "./style.css";
+import { ChevronDownIcon } from "@radix-ui/react-icons";
+import { Header } from "@/utils/types";
 import { accordionItems } from "@/lib/constData";
+import { Button } from "../ui/button";
 
 
-
-
-const DesktopDropdown = ({data}:Header) => {
+const DesktopDropdown = ({ data }: Header) => {
   return (
-    <div>
-         <div className="hidden lg:block z-50">
-        <ul className="flex justify-between items-center lg:gap-x-10   ">
+    <>
+      <div className="hidden w-full lg:block z-50 ">
+        <ul className=" flex justify-end items-center lg:gap-x-10 py-3  ">
           {accordionItems.data.map((dropdown, index) => (
-            <div key={index} className="dropdown hover:block relative inline-block z-50 " >
+            <div key={index} className="dropdown inline-block z-50 ">
               <Link
                 href={`/${dropdown.title.toLowerCase()}`}
                 className="  text-white cursor-pointer hover:text-yellow-300 flex gap-x-2 text-lg "
               >
                 {dropdown.title}
-                <ChevronDownIcon className='hover:rotate-180 mt-1'/>
-               
+                <ChevronDownIcon className="hover:rotate-180 mt-1" />
               </Link>
               <div className=''>
 
@@ -44,20 +42,28 @@ const DesktopDropdown = ({data}:Header) => {
             </div>
           ))}
           <Link href="/ourthing">
-            <ul className="text-white hover:text-yellow-300 text-lg ">Our Thing</ul>
+            <ul className="text-white hover:text-yellow-300 text-lg ">
+              Our Thing
+            </ul>
           </Link>
           <Link href="/casestudio">
-            <ul className="text-white hover:text-yellow-300 text-lg">Case Studio</ul>
+            <ul className="text-white hover:text-yellow-300 text-lg">
+              Case Studio
+            </ul>
           </Link>
           <div>
-            <button className="bg-transparent border border-white py-1 px-4 text-white ">
+            <Button
+              variant={"outline"}
+              size={"xl"}
+              className=" py-1 px-4 text-white "
+            >
               Contact Us
-            </button>
+            </Button>
           </div>
         </ul>
       </div>
-    </div>
-  )
-}
+    </>
+  );
+};
 
-export default DesktopDropdown
+export default DesktopDropdown;

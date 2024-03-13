@@ -1,8 +1,8 @@
-"use client"
+"use client";
 import React from "react";
 import "swiper/css";
 import "swiper/css/pagination";
-import {  SwiperSlide, useSwiper } from "swiper/react";
+import { SwiperSlide, useSwiper } from "swiper/react";
 import { Swiper } from "swiper/react";
 import { A11y, Navigation, Pagination } from "swiper/modules";
 import Image from "next/image";
@@ -10,14 +10,12 @@ import { SwiperNavButtons } from "./SwiperButton";
 import { SwiperServicesData } from "@/utils/types";
 import { SwiperServices } from "@/lib/constData";
 
-
-
-const Swiper1 = ({data}:SwiperServicesData) => {
+const Swiper1 = ({ data }: SwiperServicesData) => {
   return (
-    <section className="p-4 px-6 py-10 md:px-8 lg:px-container">
-        <div className="py-5 lg:pb-10 text-2xl font-bold pr-4 md:text-4xl lg:text-5xl lg:pr-44  ">
+    <section className=" py-10 ">
+      <div className="py-5 lg:pb-10 text-2xl font-bold pr-4 md:text-4xl lg:text-5xl lg:pr-44  ">
         {data.title}
-        </div>
+      </div>
       <Swiper
         modules={[Navigation, Pagination, A11y]}
         spaceBetween={10}
@@ -50,11 +48,10 @@ const Swiper1 = ({data}:SwiperServicesData) => {
                   {car.alt}&rarr;
                 </div>
               </div>
-              
             </SwiperSlide>
           ))}
         </div>
-       <SwiperNavButtons/>
+        <SwiperNavButtons />
       </Swiper>
     </section>
   );

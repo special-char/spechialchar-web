@@ -29,12 +29,12 @@ const Navbar = ({data}:Header) => {
           <NavbarLogo className="" />
         </div>
         {/* <--webView---> */}
-        <div className="hidden lg:block">
-          <DesktopDropdown data={accordionItems}/>
+        <div className="hidden lg:block w-full">
+          <DesktopDropdown data={accordionItems} />
         </div>
         {/* <---Mobilview----> */}
         <div className="lg:hidden ">
-         <MobileNavbar data={accordionItems}/>
+          <MobileNavbar data={accordionItems} />
         </div>
       </div>
     </header>

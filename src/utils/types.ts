@@ -48,59 +48,32 @@ export type Card1Type = {
   };
 };
 
-
 export type BannerType = {
   title: string;
   button: string;
   description: string;
   imageurl: string;
 };
-  export type Header = {
-    data: {
-      value:string;
-      title:string;
-      content:string;
-    }
-  }
-
-  export type SwiperServicesData = {
-    data: {
-      id:string;
-      src:string;
-      alt:string;
-      title:string;
-    }
-    
-  }
-  export type marquedataType = {
-    data : {
-      id: number;
-      url: string;
-    };
+export type Header = {
+  data: {
+    value: string;
+    title: string;
+    content: string;
   };
-
- export type tabdataType={
+};
+  export type mobileServicesType={
   data:{
-    id:number;
-    trigger:string;
-    content:string;
-    value:string;
-    image:string;
-    button:string;
-  }
- } 
-  export type ServiceBoxType = {
-    data: {
-      id: number;
-      title: string;
-      description: string;
-    };
-  };
-  export type ServiceIconType ={
-    data:{
-      url:string;
+      id:number;
       title:string;
       description:string;
+  }
+  }
+
+  export type latestThinkingType={
+    data:{
+      id:number;
+      title:string;
+      img:string;
     }
   }
 
@@ -114,3 +87,52 @@ export type MobileSwiperType = {
 
   }
 }
+
+export type SwiperServicesData = {
+  data: {
+    id: string;
+    src: string;
+    alt: string;
+    title: string;
+  };
+};
+export type marquedataType = {
+  data: {
+    id: number;
+    url: string;
+  };
+};
+
+export type tabdataType = {
+  data: {
+    id: number;
+    trigger: string;
+    content: string;
+    value: string;
+    image: string;
+    button: string;
+  };
+};
+export type ServiceBoxType = {
+  data: {
+    id: number;
+    title: string;
+    description: string;
+  };
+};
+export type ServiceIconType = {
+  data: {
+    url: string;
+    title: string;
+    description: string;
+    languages: string;
+  };
+};
+
+export type BgYellowType = {
+  data: {
+    description: string;
+  };
+};
+
+
