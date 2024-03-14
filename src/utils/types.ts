@@ -52,7 +52,7 @@ export type Card1Type = {
 export type BannerType = {
   title: string;
   button1: string;
-  button2:string;
+  button2: string;
   description: string;
   imageurl: string;
 };
@@ -61,7 +61,7 @@ export type Header = {
     value: string;
     title: string;
     content: string;
-    link:string;
+    link: string;
   };
 };
 export type mobileServicesType = {
@@ -196,3 +196,9 @@ export type careerBannerType = {
     url:string;
   }
 }
+ 
+
+export type PageBanner = {
+  title1: string;
+  title2: string;
+};

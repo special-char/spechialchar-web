@@ -2012,7 +2012,6 @@ export const edSection3 = [
   },
 ];
 
-
 export const edBox = [
   {
     id: 1,
@@ -2043,4 +2042,71 @@ export const edBox = [
 export const careerBanner2 = {
   url: "/images/CareersBanner2.webp",
   
+};
+export const pageBanner = {
+  title1: "Thinking",
+  title2: "Useful. Relevant. Challenging.",
+};
+
+export const blogs = [
+  {
+    id: 1,
+    image: "/images/blog1.webp",
+    categories: ["Big Data", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 2,
+    image: "/images/blog2.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 3,
+    image: "/images/blog3.webp",
+    categories: ["Big Data", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 4,
+    image: "/images/blog4.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 5,
+    image: "/images/blog5.webp",
+    categories: ["Big Data", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 6,
+    image: "/images/blog6.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 7,
+    image: "/images/blog7.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 8,
+    image: "/images/blog6.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+];
+
+export const caseBanner = {
+  title1: "Our latest challenges",
 };
