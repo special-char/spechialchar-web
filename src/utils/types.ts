@@ -170,3 +170,12 @@ export type imageAccordianDataType = {
     text: string;
   };
 };
+
+export type EcommerceData ={
+  data:{
+      swipertitle:string;
+      url:string;
+      title:string;
+      description:string;
+    }
+}
