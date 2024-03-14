@@ -1137,3 +1137,80 @@ export const MobileSwiperData ={
   },
   ]
 }
+
+
+export const careerbannerdata = {
+  url: "/images/soft.webp",
+  title1: "Build things you’re",
+  title2: "proud of",
+  title3: "Join a crew as motivated as you. Make cool stuff for global brands.",
+  title4: "Level up, learn, and grow.",
+};
+
+export const careerpage2data = {
+  src: "/images/Career-who-we-are.webp",
+  title: "Who we are",
+  des1: "ITRex is more than 300 technology professionals based in Poland,Georgia, Ukraine, Armenia, and the USA. We write software, craft strategies, and give expert advice.",
+  des2: "We solve problems and drive growth for our clients. They’ve included big names like Walmart, Take a Swing at Cancer, Procter & Gamble, Dun & Bradstreet, Warner Bros., 21st Century Fox, and the Dollar Shave Club.",
+};
+
+
+export const CareerPage3data = {
+  title: "Our SaaS development services let you win big",
+  data : [
+    {
+    id: 1,
+    src: "/icons/p&g.svg",
+    description: "Artificial intelligence, machine learning and big data",
+  },
+  {
+    id: 2,
+    src: "/icons/p&g.svg",
+    description: "Embedded systems and the Internet of Things",
+  },
+  {
+    id: 3,
+    src: "/icons/p&g.svg",
+    description: "Virtual reality, augmented reality and mixed reality",
+  },
+  {
+    id: 4,
+    src: "/icons/p&g.svg",
+    description: "Intelligent business automation",
+  },
+]};
+
+export const careerpage4data = {
+  title: "Who should apply",
+  title1: "Look,",
+  title2: "this is not for everyone.",
+  desc1: "If you only want a salary and don’t much care about how good your projects are, you’ll probably hate it here.",
+  desc2: "If you hide behind policies and processes because, secretly, you’re terrified of owning ideas or decisions, you too will think it sucks.",
+  src: "/images/career-who-should-apply.webp",
+};
+
+export const careerpage5data = {
+  title: "Now ask yourself (and be honest)",
+  desc1: "Does being part of a shoddy project bother you so much that you have to speak up?",
+  desc2: "Do you care about your client, your project, your decisions and your team?",
+  desc3: "Do you get a buzz out of solving hard problems?",
+};
+
+export const careerpage6data = {
+  src: "/images/Career-honesty-1.webp",
+  title: "Honesty, transparency and family spirit",
+  desc1: "We strive always to be honest with each other and the client. That’s more than being truthful, it’s about not dodging responsibility or concealing important things.",
+  desc2: "We aren’t afraid to argue. Because we care about our work, it happens. We disagree like family; we help and support each other no matter what.",
+  desc3: " Our managers live by this too. You’re never too junior to ask questions or to have an opinion.",
+};
+
+export const careerpage7data = {
+  title: "Do you play to win? Or just to avoid blame?",
+  title1: "Does this sound overly lofty?",
+  title2: "We’re definitely not perfect.",
+  title3: "We make mistakes.",
+  desc1: "You’re allowed to get things wrong – even horribly wrong – sometimes too. If you’re honest enough to own your mistakes, you will be safe.",
+  desc2: " Working at ITRex, you’ll watch us admit mistakes all the time. That’s what initiative and transparency looks like.",
+  desc3: "  We are all committed to each other’s success. All we ask in return is the same commitment back.",
+  src: "/images/Career-play-to-win-1.webp",
+};

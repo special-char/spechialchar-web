@@ -160,3 +160,65 @@ export type SaasSectionType = {
     description: string;
   };
 };
+
+
+export type CareerBannerdataType = {
+  data: {
+    url: string;
+    title1: string;
+    title2: string;
+    title3: string;
+    title4: string;
+  };
+};
+
+export type CareerPage2dataType = {
+  data: {
+    src: string;
+    title: string;
+    des1: string;
+    des2: string;
+    // des3: any;
+  };
+};
+
+export type CareerPage3dataType = {
+  data: {
+    title: string;
+    id: number;
+    src: string;
+    description: string;
+  };
+};
+
+export type CareerPage5dataType = {
+  data: {
+    title: string;
+    desc1: string;
+    desc2: string;
+    desc3: string;
+  };
+};
+
+export type CareerPage6dataType = {
+  data: {
+    src: string;
+    title: string;
+    desc1: string;
+    desc2: string;
+    desc3: string;
+  };
+};
+
+export type CareerPage7dataType = {
+  data: {
+    title: string;
+    title1: string;
+    title2: string;
+    title3: string;
+    desc1: string;
+    desc2: string;
+    desc3: string;
+    src: string;
+  };
+};
