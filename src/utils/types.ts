@@ -144,3 +144,79 @@ export type SaasSectionType = {
   
 }
 
+export type NowAskType = {
+  data: {
+    id: number;
+    title: string;
+    
+  };
+};
+
+
+export type CareerSectionType={
+  data:{
+    title1: string;
+    title2: string;
+    desc1: string;
+    desc2: string;
+}
+}
+
+export type CareerSection1Type={
+  data:{
+    title1: string;
+    
+    desc1: string;
+    desc2: string;
+}
+}
+
+export type CareerCityType={
+  data:{
+    title: string;
+    description:string;
+    id:number;
+    url:string;
+    
+}
+}
+
+export type CareerCapType={
+  data:{
+    title: string;
+    id:number;
+    url:string;
+    
+   desc :string;
+    
+}
+}
+
+export type CareerManyType={
+  data:{
+    title: string;
+    desc1:string;
+    desc2:string;
+    
+   desc :string;
+    
+}
+}
+
+export type CareerCVType={
+  data:{
+    title: string;
+  }
+}
+
+export type HowModelType={
+  data:{
+    title: string;
+    desc1:string;
+    desc2:string;
+    heading:string;
+    par:string;
+   id :number;
+    
+}
+}
