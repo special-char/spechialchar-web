@@ -648,3 +648,17 @@ export const serviceicon2 = {
     },
   ],
 }
+
+export const aboutBannerdata = {
+ 
+  
+    url:"/images/AboutBanner1.webp",
+    title: "Your innovation",
+    title2: "partner",
+   description: "We get a buzz out of unlocking the power of emerging tech for both",
+   subdescription : " big-name enterprises and ambitious startups."
+  };
+ 
+      
+    
+ 

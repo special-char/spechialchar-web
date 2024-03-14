@@ -1,3 +1,5 @@
+import { type } from "os";
+
 export type FooterdataType = {
   data: {
     title: string;
@@ -106,4 +108,13 @@ export type BgYellowType = {
   };
 };
 
+export type aboutBannerType = {
+  data:{
+    url:string;
+    title: string;
+    title2: string;
+    description: string;
+    subdescription : string;
+  };
+}
 
