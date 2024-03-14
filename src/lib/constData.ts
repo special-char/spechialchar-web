@@ -1070,6 +1070,131 @@ export const YellowBannerData3 = {
     "We build impactful SaaS applications using our road-tested six-pillar approach:",
 };
 
+
+export const nowask = [
+  {
+    id: 1,
+    title: "Does being part of a shoddy project bother you so much that you have to speak up?",
+    
+  },
+  {
+    id: 2,
+    title: "Do you care about your client, your project, your decisions and your team?",
+    
+  },
+  {
+    id: 3,
+    title:  "Do you get a buzz out of solving hard problems?"
+    
+  },]
+
+  export const career =
+    {
+      title1:"Flexibility and balance",
+      title2:"We believe in hard work. That means you honestly give your best effort. It doesn’t mean you give every waking hour.",
+      desc1:"Our crew is motivated and accountable, so they earn a lot of trust. Flexible and remote working arrangements are no problem.",
+      desc2:"If you’re so stuck on a hard problem that you need to switch gears, head to the gym to work out, or to the Playstation to shoot bad guys.",
+
+    }
+  
+    export const career2 =
+    {
+      title1:"Opportunity and growth",
+      
+      desc1:"We expect you to work hard on difficult challenges, among high-level professionals who support you. You will take hard decisions, with permission to make mistakes and learn from them. If you have the attitude to make this work, your skills will level up fast and you’ll feel proud of how you grow.",
+      desc2:"We offer language classes and career progression tracks too.",
+
+    }
+
+    export const careercity = {
+      title: "Build a new life in a new city",
+      description:
+        "If you’d like, you can relocate to Poland, Georgia, or Armenia. We’ll help you and your family with the legal, transport, health care, and a home.",
+      section: [
+        {
+          id: 1,
+          url: "/images/city1.webp",
+          
+        },
+        {
+          id: 2,
+          url: "/images/city2.webp",
+          
+        },
+        {
+          id: 3,
+          url: "/images/city3.webp",
+          
+        },]}
+
+        export const careercap = {
+          title: "Our capabilities include:",
+          
+          section: [
+            {
+              id: 1,
+              url: "/icons/atom-symbol.svg",
+              desc:"Artificial intelligence, machine learning and big data",
+              
+            },
+            {
+              id: 2,
+              url: "/icons/atom-symbol.svg",
+              desc:"Embedded systems and the Internet of Things",
+            },
+            {
+              id: 3,
+              url: "/icons/atom-symbol.svg",
+              desc:"Virtual reality, augmented reality and mixed reality",
+            },
+          
+          
+            {
+              id: 4,
+              url: "/icons/atom-symbol.svg",
+              desc:"Intelligent business automation",
+            },]}
+
+
+            export const careermany ={
+title:"Many say they want this",
+desc:"Some even mean it.",
+desc1:"If you feel like you’d thrive at ITRex, we’d love to hear from you. Please browse through our vacancies",
+desc2:"and see if anything suits you.",
+
+            }
+
+            export const careercv ={
+
+              title:"Didn’t find a suitable job?",
+            }
+
+            export const howmodel ={
+
+              heading:"Our engagement models",
+              par:"When selecting an optimum engagement model for our clients, we discuss a lot of details, from their primary business objective and project scope to the level of flexibility and control they require. Our aim is to come up with a solution that balances cost efficiency, performance, and flexibility best.",
+              section: [
+                {
+                  id: 1,
+                  title: "Time & Materials",
+                  desc:"Under the Time & Materials model, we can build your software product either in a linear sequence of stages or in increments through constant communication with you. You pay only for actual work done on daily or hourly rates per specialist.",
+                  desc1:"Show more",
+                  
+                },
+                {
+                  id: 2,
+                  title: "Fixed Price",
+                  desc:"With this model, we build your software product for a price fixed upfront for the entire project. This often involves planning and estimating the entire project scope before development starts.",
+                  desc1:"Show more",
+                },
+                {
+                  id: 3,
+                  title: "Dedicated Team",
+                  desc:"Alternatively, you can simply hire our highly skilled engineers to fill in specific in-house skill gaps, or go for a full-fledged dedicated and self-managed team. You get professionals that integrate seamlessly into your environment, bring in a fresh angle and ideas, and deliver top results with in-house-like dedication.",
+                  desc1:"Show more",
+                },]
+
+            }
 export const saasSection2 = [
   {
     id: 1,
@@ -2012,7 +2137,6 @@ export const edSection3 = [
   },
 ];
 
-
 export const edBox = [
   {
     id: 1,
@@ -2039,3 +2163,71 @@ export const edBox = [
       "We’ve successfully completed 600+ projects and served 200+ satisfied customers across the globe",
   },
 ];
+
+export const pageBanner = {
+  title1: "Thinking",
+  title2: "Useful. Relevant. Challenging.",
+};
+
+export const blogs = [
+  {
+    id: 1,
+    image: "/images/blog1.webp",
+    categories: ["Big Data", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 2,
+    image: "/images/blog2.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 3,
+    image: "/images/blog3.webp",
+    categories: ["Big Data", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 4,
+    image: "/images/blog4.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 5,
+    image: "/images/blog5.webp",
+    categories: ["Big Data", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 6,
+    image: "/images/blog6.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 7,
+    image: "/images/blog7.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 8,
+    image: "/images/blog6.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+];
+
+export const caseBanner = {
+  title1: "Our latest challenges",
+};
