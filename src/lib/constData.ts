@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const homeBannerdata = {
   title: "Next-gen enterprise",
   title2: "software development company",
@@ -550,6 +552,16 @@ export const accordionItems = {
       link: "#",
       content: ["About", "Career", "How Is Work"],
     },
+    {
+      value: "item-4",
+      title: "Our Thinking",
+      link: "/ourthinking",
+    },
+    {
+      value: "item-5",
+      title: "Case Studies",
+      link: "/casestudies",
+    },
   ],
 };
 
@@ -649,18 +661,16 @@ export const serviceicon2 = {
         "We draw on our extended reality and blockchain development expertise to create metaverse apps of all sizes and levels of complexity. Whether you need an augmented reality app with Snapchat-like filters or a marketplace to trade NFTs, we’re the right software engineering firm to undertake your project!",
     },
   ],
-}
+};
 
 export const aboutBannerdata = {
- 
-  
-    url:"/images/AboutBanner1.webp",
-    title: "Your innovation",
-    title2: "partner",
-   description: "We get a buzz out of unlocking the power of emerging tech for both",
-   subdescription : " big-name enterprises and ambitious startups."
-  };
- 
+  url: "/images/AboutBanner1.webp",
+  title: "Your innovation",
+  title2: "partner",
+  description:
+    "We get a buzz out of unlocking the power of emerging tech for both",
+  subdescription: " big-name enterprises and ambitious startups.",
+};
 
 export const mobiletabdata = {
   button: "Contact our app developers",
@@ -2105,4 +2115,193 @@ export const blogs = [
 
 export const caseBanner = {
   title1: "Our latest challenges",
+};
+
+export const banner8 = {
+  imageurl: "/images/ecomBanner.webp",
+  title: "Ecommerce development services",
+  button1: "Let's talk",
+  button2: "ecommererce",
+  description:
+    "We build best-in-class B2B ecommerce solutions, helping you drive reach, conversion rates, and ROI",
+};
+
+export const ecomSocial = {
+  title: "Using the power of the best ecommerce platforms",
+  section: [
+    {
+      id: 1,
+      url: "/icons/ecom1.svg",
+    },
+    {
+      id: 2,
+      url: "/icons/ecom2.svg",
+    },
+    {
+      id: 3,
+      url: "/icons/ecom3.svg",
+    },
+    {
+      id: 4,
+      url: "/icons/ecom4.svg",
+    },
+  ],
+};
+
+export const imageBanner28 = {
+  url: "/images/soft18.webp",
+  title1: "Integrate all your systems",
+  title2: "with custom ecommerce solutions",
+};
+
+export const Bgbanner5 = {
+  description:
+    "Seamless integration of your ecommerce website with the right mix of back-office systems is what makes or breaks customer experience and real-time analytics. We have helped dozens of brands to build top digital ecosystems where apps work happily together, and are here to guide you in the right direction.",
+};
+
+export const ecomSection = {
+  section: [
+    {
+      id: 1,
+      title1: "ERP integration",
+      description: "for streamlined catalog management",
+    },
+    {
+      id: 2,
+      title1: "CRM integration",
+      description: "to get instant access to customer information",
+    },
+    {
+      id: 3,
+      title1: "Payment gateways",
+      description: "to process payments swiftly and securely",
+    },
+    {
+      id: 4,
+      title1: "Analytics and reporting",
+      description: "for immediate business insights",
+    },
+    {
+      id: 5,
+      title1: "Marketing automation",
+      description: "to expand your reach",
+    },
+    {
+      id: 6,
+      title1: "POS",
+      description: "to eliminate manual entry of data while reducing errors",
+    },
+    {
+      id: 7,
+      title1: "Online chats and help desks",
+      description: "for real-world support of customers",
+    },
+    {
+      id: 8,
+      title1: "Other third party apps",
+      description: "to meet your unique business needs",
+    },
+  ],
+};
+
+export const imageBanner29 = {
+  url: "/images/soft19.webp",
+  title1: "And adopting new tech",
+  title2: "for ecommerce software solutions",
+};
+
+export const Bgbanner6 = {
+  description:
+    "By empowering ecommerce development services with with battle-proven technologies, including Adobe Commerce (ex Magento), we help you push the boundaries with big ideas and bold changes to edge out the toughest competition.",
+};
+
+export const imageBanner30 = {
+  url: "/images/soft20.webp",
+  title1: "End-to-end ecommerce",
+  title2: "software development services",
+};
+
+export const Bgbanner7 = {
+  description:
+    "With more than a decade of experience and extensive cross-domain expertise, we offer a full suite of ecommerce development services to address your challenges no matter how big or small they are. From expert advice to comprehensive maintenance services, we have done it all, keeping our clients delighted.",
+};
+
+export const ecommercesdata = {
+  data: [
+    {
+      id: 1,
+      title: "Consulting",
+      description:
+        "Our team guides projects from proof-of-concept to implementation, knowing all about the competition in the ecommerce space to help you beat it.",
+    },
+    {
+      id: 2,
+      title: "Design",
+      description:
+        "Focusing on uniqueness and advanced functionality, we create fully immersive experiences that fetch visitors' attention and convert them into customers.",
+    },
+    {
+      id: 3,
+      title: "Development",
+      description:
+        "Our techs code and build amazing software, delivering ecommerce solutions that keep you always one step ahead of competitors",
+    },
+    {
+      id: 4,
+      title: "Testing",
+      description:
+        "Relying on the right balance of manual and automated testing, we know how to take care of quality and give you confidence that your system delivers seamless experience",
+    },
+    {
+      id: 5,
+      title: "Maintenece and Support",
+      description:
+        "From upgrades and complete health checks to back-ups, we provide the best ecommerce development services to make sure that your system functions smoothly and securely with no interruptions.",
+    },
+  ],
+};
+
+export const Eco1 = {
+  section3: [
+    {
+      id: 1,
+      url: "/icons/virtual.svg",
+      title: "Virtual fitting rooms",
+    },
+    {
+      id: 2,
+      title: "Product recommendations",
+      url: "/icons/recommend.svg",
+    },
+    {
+      id: 3,
+      title: "AR product modelling",
+      url: "/icons/virtual-reality.svg",
+    },
+    {
+      id: 4,
+      title: "Voice shopping",
+      url: "/icons/shopping-bag.svg",
+    },
+    {
+      id: 5,
+      title: "Immersive product catalog",
+      url: "/icons/products.svg",
+    },
+    {
+      id: 6,
+      title: "Virtual assistants and chatbots",
+      url: "/icons/chatbot.svg",
+    },
+    {
+      id: 7,
+      title: "AI-powered smart pricing",
+      url: "/icons/percentage.svg",
+    },
+    {
+      id: 8,
+      title: "Predictive customer analytics",
+      url: "/icons/stock-market.svg",
+    },
+  ],
 };

@@ -195,3 +195,8 @@ export type PageBanner = {
   title1: string;
   title2: string;
 };
+
+export type ecomSectionType = {
+  title:string;
+  section:string;
+}
