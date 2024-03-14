@@ -1,0 +1,37 @@
+.image-accordion {
+    @apply flex  cursor-pointer;
+  }
+  
+  .image-accordion-item {
+    @apply relative overflow-hidden w-64 h-[500px]  flex items-end  transition duration-500;
+  }
+  
+  
+  .image-accordion :is(h2, p) {
+    @apply m-0;
+  }
+  
+  .image-accordion-item h2 {
+    @apply text-2xl font-light text-white;
+  }
+  
+  .image-accordion-item p {
+    @apply text-white;
+  }
+  
+  .image-accordion-item.active {
+    @apply w-[90rem] opacity-100;
+  }
+  
+  .image-accordion-item .content {
+    @apply absolute bottom-0 left-0 z-10 opacity-0 invisible p-[100px] gap-14 transition duration-200;
+  }
+  
+  .image-accordion-item.active .content {
+    @apply opacity-100 visible;
+  }
+  
+  .image-accordion-item img {
+    @apply absolute z-0 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  h-[100%] ;
+  }
+  

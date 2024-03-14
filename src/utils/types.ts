@@ -162,3 +162,21 @@ export type SaasSectionType = {
     description: string;
   };
 };
+
+export type imageAccordianDataType = {
+  data: {
+    image: string;
+    header: string;
+    text: string;
+  };
+};
+
+export type uiSectionType = {
+  data:{
+    title:string;
+    text:string;
+      id:number,
+      title1:string,
+      description:string,
+  }
+}

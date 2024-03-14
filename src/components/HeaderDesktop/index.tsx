@@ -8,7 +8,7 @@ import { Button } from "../ui/button";
 
 const HeaderDesktop = ({ data }: Header) => {
   return (
-    <div className="h-full w-full  ">
+    <div className="h-full w-full  flex flex-col justify-between">
       <div className="flex justify-between items-start">
         <Link href="/">
           <div>
@@ -16,8 +16,8 @@ const HeaderDesktop = ({ data }: Header) => {
           </div>
         </Link>
         {accordionItems.data.map((item, index) => (
-          <div key={index} className="flex flex-col pt-2 group">
-            <div className="flex text-white hover:text-yellow-300 gap-x-2 text-xl">
+          <div key={index} className="flex flex-col pt-3 group">
+            <div className="flex text-white hover:text-yellow-300 gap-x-1 justify-center text-xl">
               <Link
                 href={`${item.link.toLowerCase()}`}
                 className="cursor-pointer"
@@ -43,23 +43,24 @@ const HeaderDesktop = ({ data }: Header) => {
           </div>
         ))}
         <Link href="/ourthing">
-          <ul className="text-white hover:text-yellow-300 text-xl pt-2">
+          <ul className="text-white hover:text-yellow-300 text-xl pt-3">
             Our Thing
           </ul>
         </Link>
         <Link href="/casestudio">
-          <ul className="text-white hover:text-yellow-300 text-xl pt-2">
+          <ul className="text-white hover:text-yellow-300 text-xl pt-3">
             Case Studio
           </ul>
         </Link>
-
-        <Button
-          variant={"outline"}
-          size={"xl"}
-          className=" py-1 px-4 text-white "
-        >
-          Contact Us
-        </Button>
+        <div className="pt-1">
+          <Button
+            variant={"outline"}
+            size={"xl"}
+            className=" py-1 px-4 text-white "
+          >
+            Contact Us
+          </Button>
+        </div>
       </div>
     </div>
   );

@@ -24,6 +24,7 @@ const config = {
       decimal: 'decimal',
       square: 'square',
       roman: 'upper-roman',
+      check: 'url(/images/chackmark.png)',
     },
     extend: {
       colors: {
