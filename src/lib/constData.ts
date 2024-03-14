@@ -536,7 +536,7 @@ export const accordionItems = {
       value: "item-1",
       title: "Services",
       link: "services",
-      content: ["Mobile", "Web", "Saas", "Back-End", "Cloud-Devops", "Ui-&-Ux"],
+      content: ["Mobile", "Web", "Saas", "Back-End", "Cloud-Devops", "UiUx"],
     },
     {
       value: "item-2",
@@ -1455,4 +1455,321 @@ export const banner5 = {
   button2: "experts",
   description:
     "Harness the power of the cloud for lower operational costs, ultimate scalability, and unparalleled performance with our all-encompassing cloud computing consulting and implementation services",
+};
+
+export const cloudAccordiandata = {
+  button: "Contact Us",
+  data: [
+    {
+      id: 1,
+      image: "/icons/atom-symbol.svg",
+      title: "Cloud Adoption and Migration",
+      content:
+        "Our vetted cloud solutions consultants dive in your tech infrastructure and study your needs to help you adopt the best-fit cloud migration strategy. We re-platform and modernize your apps and put APIs in place to integrate the newly migrated applications with enterprise software at minimal risks",
+    },
+    {
+      id: 2,
+      image: "/icons/atom-symbol.svg",
+      title: "Cloud Infrastructure Management",
+      content:
+        "We configure, monitor, and optimize the components of your cloud infrastructure, setting up DevOps, DevSecOps, and Infrastructure as Code practices to ensure optimal usage of cloud resources and high software performance with no downtime",
+    },
+  ],
+};
+
+export const cloudAccordiandata1 = {
+  data: [
+    {
+      id: 1,
+      image: "/icons/atom-symbol.svg",
+      title: "Cloud Optimization",
+      content:
+        "We analyze your cloud infrastructure, detect under- and over-provisioned instances and idle resources, and identify security gaps to remove performance bottlenecks, achieve 99.9% uptime, and lower your cloud computing costs",
+    },
+    {
+      id: 2,
+      image: "/icons/atom-symbol.svg",
+      title: "Cloud Application Development",
+      content:
+        "We are well-versed in working with AWS, Microsoft Azure, Google Cloud, and other cloud platforms and are ready to use our knowledge to implement a resilient and high-performing cloud app of any kind — from a mobile app back end to a complex AI-powered system",
+    },
+  ],
+};
+
+export const imageBanner17 = {
+  url: "/images/soft9.webp",
+  title1: "Expert consulting on cloud-native",
+  title2: "and cloud-agnostic solutions",
+};
+
+export const YellowBannerData5 = {
+  description:
+    "We consult on and build IaaS, PaaS, and SaaS solutions to let you capture the cloud value with the most fitting implementation. To balance technology, risks, and costs, while keeping your business goals in focus, our cloud computing consultants orchestrate multiple deployment models.",
+};
+
+export const cloudBox = [
+  {
+    id: 1,
+    title: "Private cloud.",
+    discription:
+      "Securely govern sensitive data, keep your operations under control, and enjoy wider opportunities for customization",
+  },
+  {
+    id: 2,
+    title: "Public.",
+    discription:
+      "Provide easily accessible cloud computing consulting and implementation services and launch scalable solutions without infrastructure provisioning and maintenance headache",
+  },
+  {
+    id: 3,
+    title: "Hybrid.",
+    discription:
+      "Achieve great agility and reliability in handling data and resources, balancing the advantages of on- and off-premises deployment",
+  },
+  {
+    id: 4,
+    title: "Multicloud.",
+    discription:
+      "Avoid vendor lock-in and take advantage of best-of-breed cloud solutions to expand your service portfolio and business reach",
+  },
+  {
+    id: 5,
+    title: "Distributed cloud.",
+    discription:
+      "Target location-dependent use cases, eliminate latency issues, and massively reduce the risk of downtime",
+  },
+];
+
+export const cloudgrid = {
+  data: [
+    {
+      id: 1,
+      title: "IT infrastructure assessment",
+      description:
+        "Our cloud computing consultants get a grip on your critical infrastructure, application dependencies, estimated costs, and business objectives to lay out cloud use cases and optimization opportunities and pave your way to risk-free cloud adoption",
+    },
+    {
+      id: 2,
+      title: "Planning",
+      description:
+        "Our solution architects and engineers design a future-proof, secure, and compliant cloud architecture, choose an optimal tech stack, and come up with a detailed cloud adoption plan in line with your business objectives",
+    },
+    {
+      id: 3,
+      title: "Development and deployment",
+      description:
+        "We oversee cloud deployment or, if needed, implement your cloud infrastructure, setting up best practices to speed up and even automate the development process",
+    },
+    {
+      id: 4,
+      title: "Optimization",
+      description:
+        "If you already have a cloud environment in place and seek to optimize resource consumption, improve compliance or cut operating costs, we can do that for you, providing cloud infrastructure consulting and optimization",
+    },
+    {
+      id: 5,
+      title: "Ongoing support",
+      description:
+        "We will track and optimize cloud resource usage and spend, extend your cloud services portfolio, perform compliance checks, and provide employee trainings to keep your cloud workflows swift, secure, and aligned with your business processes",
+    },
+  ],
+};
+
+export const imageBanner18 = {
+  url: "/images/soft10.webp",
+  title1: "Every aspect of cloud adoption,",
+  title2: "taken care of",
+};
+
+export const YellowBannerData6 = {
+  description:
+    "From analyzing your business needs and providing cloud strategy consulting all the way to employee training, we dedicate to proactively delivering quality service throughout cooperation. Our business analysts work hand in hand with solution architects to make your cloud adoption and usage journey as smooth as possible.",
+};
+
+export const imageBanner19 = {
+  url: "/images/soft10.webp",
+  title1: "Cloud computing consulting with The Special Char:",
+  title2: "our value proposition",
+};
+
+export const YellowBannerData7 = {
+  description:
+    "Our mission as a cloud consulting firm is to help you undergo digital transformation with reasonable effort and little to no risk. Our cloud consulting services are dedicated to making your cloud infrastructure drive tangible business value, not costs.",
+};
+
+export const cloudBox2 = [
+  {
+    id: 1,
+    title: "Vendor-agnostic.",
+    discription:
+      "We are not tied to any specific cloud platform provider, so we only resort to those cloud tools and technologies that are a perfect fit for your project and workflows.",
+  },
+  {
+    id: 2,
+    title: "Top cloud architects with niche skills.",
+    discription:
+      "With a 300-strong team, we bring in professional BAs, skilled cloud solution architects and DevOps engineers, as well as R&D department to fill any talent gaps.",
+  },
+  {
+    id: 3,
+    title: "Diverse expertise.",
+    discription:
+      "A cloud computing consulting company with 13+ years of experience, we provide cloud consultancy and deliver software for ecommerce, fintech, healthcare, logistics, real estate, and many other industries",
+  },
+  {
+    id: 4,
+    title: "Proven track record.",
+    discription:
+      "We’ve successfully completed 600+ projects and served 200+ satisfied customers across the globe",
+  },
+];
+
+export const imageBanner20 = {
+  url: "/images/soft11.webp",
+  title1: "Technology",
+  title2: "stack",
+};
+
+export const cloudSocial = [
+  {
+    id: 1,
+    url: "/icons/cloudimage1.svg",
+  },
+  {
+    id: 2,
+    url: "/icons/cloudimage2.svg",
+  },
+  {
+    id: 3,
+    url: "/icons/cloudimage3.svg",
+  },
+  {
+    id: 4,
+    url: "/icons/cloudimage4.svg",
+  },
+  {
+    id: 5,
+    url: "/icons/cloudimage5.svg",
+  },
+  {
+    id: 6,
+    url: "/icons/cloudimage6.svg",
+  },
+  {
+    id: 7,
+    url: "/icons/cloudimage1.svg",
+  },
+];
+
+export const banner6 = {
+  imageurl: "/images/uiBanner.webp",
+  title: "End-to-end UI/UX design services",
+  button1: "hire Ui/Ux",
+  button2: "designers",
+  description:
+    "The Special Char offers a whole gamut of UI/UX design services to transform unremarkable mobile apps, websites, dashboards, and cyber-physical systems into tech solutions that delight users and bring tangible business results",
+};
+
+export const uiGrid = {
+  title: "UI/UX design services that set us apart",
+  text: "Whether you’re an enterprise on the verge of digital transformation or a SaaS startup preparing to roll out a new product, there’s a strong reason for you to partner with our UI/UX design company. Here’s what we can do to tell your brand’s story, make it stand out among the competition, and build an enduring bond with your clients:",
+  section: [
+    {
+      id: 1,
+      title1: "User Research",
+      description:
+        "Our human-centered UI/UX design services start with rigorous user research. We collaborate with your internal and external stakeholders to define functional and non-functional requirements of a software product, benchmark competitors, and create low-fidelity prototypes",
+    },
+    {
+      id: 2,
+      title1: "Prototyping",
+      description:
+        "To validate the assumptions made in the previous step, our UI/UX design services team will develop high-fidelity prototypes using battle-proven tools. These prototypes will go through multiple iterations until the proposed concept fully meets your and your customers’ needs",
+    },
+    {
+      id: 3,
+      title1: "UX Design",
+      description:
+        "Our UX design services offering includes customer journey maps, user flows, and diagram creation. This helps us figure out how and in what context users will interact with UI elements and whether they correlate with the desired solution features. We’ll assist you with developing complete design guidelines for your brand, too",
+    },
+    {
+      id: 4,
+      title1: "UI design",
+      description:
+        "ITRex provides a whole range of UI design services. Typography, color schemes, layouts, UI elements, and custom imagery — there’s nothing we can’t do. We also guarantee close cooperation between the UI/UX specialists and software engineers to develop software solutions up to spec and on budget and improve your time to market",
+    },
+    {
+      id: 5,
+      title1: "UI/UX audit and consulting",
+      description:
+        "Our UI/UX design company treats user experience as a cornerstone of a customer acquisition and retention strategy. To help you fine-tune yours, we offer expert UI/UX audit and consulting services: usability audits of your software solutions, buyer journey analysis, A/B tests preceding app redesign and functionality updates, and more!",
+    },
+    {
+      id: 6,
+      title1: "Usability testing",
+      description:
+        "Throughout the project, we encourage clients to take advantage of our usability testing services and learn how target customer segments will navigate your apps in real life. These insights will help you eliminate unnecessary steps in the digital customer journey, allowing users to perform intended actions faster",
+    },
+  ],
+};
+
+export const imageBanner21 = {
+  url: "/images/soft.webp",
+  title1: "What our UI/UX design company",
+  title2: "does best",
+};
+
+export const YellowBannerData8 = {
+  description:
+    "Your software solution can be complex beneath the surface. Its UI/UX design cannot. As an IT company that adheres to this principle no matter what, we build consistency, responsiveness, and usability into every product we create:",
+};
+
+export const uiGrid2 = [
+  {
+    id: 1,
+    title1: "Enterprise software",
+    description:
+      "If you’re looking to hire a UI/UX designer to revamp the look and feel of your CRM, ERP, HRM, MarTech, and FinTech solutions, you’ve come to the right place. When delivering UI/UX design services to clients from the enterprise segment, we ensure that every employee, regardless of their tech background, can effortlessly use the system and become more productive",
+  },
+  {
+    id: 2,
+    title1: "Mobile Apps",
+    description:
+      "Considering mobile applications a key point in the digital buyer journey, our UI/UX company empowers your customers to perform intended actions, be it logging in via a social media account or making a purchase, faster and in a hassle-free manner. Get in touch to learn more about our mobile UI/UX design services!",
+  },
+  {
+    id: 3,
+    title1: "Web Apps",
+    description:
+      "Need a high-conversion eCommerce website, web portal, or a single-page web application updating content in real time? We’re here to help! Our UI/UX web design services team will go the extra mile to create apps that look and perform well across different browsers and screen sizes",
+  },
+  {
+    id: 4,
+    title1: "Dashboards",
+    description:
+      "A UI/UX company with solid data visualization expertise, ITRex designs sleek cloud dashboards and interfaces for self-service BI and data analytics tools like no other. We’ll implement custom logic, filters, charts, and collaboration tools to help you interpret business data and make better decisions",
+  },
+  {
+    id: 5,
+    title1: "Immersive tech solutions",
+    description:
+      "Digital objects that infiltrate your camera feed in augmented reality apps. Immersive sounds for games and mental health applications. Metaverses populated with realistic 3D avatars. Our UI/UX design company has done it all — and you can lean on our experts to take your clients’ experience to a whole new dimension!",
+  },
+  {
+    id: 6,
+    title1: "Embedded interfaces",
+    description:
+      "We augment our IoT and AI development efforts with professional UI/UX services. To that end, we create robust embedded solutions, including human-machine interfaces (HMIs), voice user interfaces (VUIs), and software supporting cross-device interactions. Whatever touchpoints your user journey maps incorporate, the ITRex team knows how to take the friction out of user experience",
+  },
+];
+
+export const imageBanner22 = {
+  url: "/images/soft12.webp",
+  title1: "How we deliver our",
+  title2: "UI/UX design services",
+};
+
+export const YellowBannerData9 = {
+  description:
+    "The Special Char Group is a full-stack software engineering company. That’s why our UI/UX designers don’t have to wear multiple hats on a project. Instead, they join forces with skilled business analysts, front-end developers, manual and automation testing specialists, and software architects to deliver best-in-class UI/UX design and development services:",
 };

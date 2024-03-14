@@ -170,3 +170,13 @@ export type imageAccordianDataType = {
     text: string;
   };
 };
+
+export type uiSectionType = {
+  data:{
+    title:string;
+    text:string;
+      id:number,
+      title1:string,
+      description:string,
+  }
+}
