@@ -190,3 +190,9 @@ export type uiSectionType = {
       description:string,
   }
 }
+
+export type careerBannerType = {
+  data:{
+    url:string;
+  }
+}

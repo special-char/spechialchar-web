@@ -2039,3 +2039,8 @@ export const edBox = [
       "We’ve successfully completed 600+ projects and served 200+ satisfied customers across the globe",
   },
 ];
+
+export const careerBanner2 = {
+  url: "/images/CareersBanner2.webp",
+  
+};
