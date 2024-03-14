@@ -649,7 +649,18 @@ export const serviceicon2 = {
         "We draw on our extended reality and blockchain development expertise to create metaverse apps of all sizes and levels of complexity. Whether you need an augmented reality app with Snapchat-like filters or a marketplace to trade NFTs, we’re the right software engineering firm to undertake your project!",
     },
   ],
-};
+}
+
+export const aboutBannerdata = {
+ 
+  
+    url:"/images/AboutBanner1.webp",
+    title: "Your innovation",
+    title2: "partner",
+   description: "We get a buzz out of unlocking the power of emerging tech for both",
+   subdescription : " big-name enterprises and ambitious startups."
+  };
+ 
 
 export const mobiletabdata = {
   button: "Contact our app developers",

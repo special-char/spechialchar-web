@@ -1,3 +1,4 @@
+import { type } from "os";
 import { string } from "yup";
 
 export type FooterdataType = {
@@ -135,6 +136,15 @@ export type BgYellowType = {
   };
 };
 
+export type aboutBannerType = {
+  data:{
+    url:string;
+    title: string;
+    title2: string;
+    description: string;
+    subdescription : string;
+  };
+}
 export type serviceAccordiandataType = {
   data: {
     id: number;
