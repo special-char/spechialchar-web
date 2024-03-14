@@ -8,7 +8,7 @@ import { Button } from "../ui/button";
 
 const HeaderDesktop = ({ data }: Header) => {
   return (
-    <div className="h-full w-full flex flex-col justify-between pt-3">
+    <div className="h-full w-full flex flex-col  justify-between pt-3">
       <div className="flex justify-between items-start">
         <Link href="/">
           <div>

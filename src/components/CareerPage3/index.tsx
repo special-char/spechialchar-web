@@ -12,9 +12,7 @@ const CareerPage3 = ({ data }: CareerPage3dataType) => {
           <div key={x.id}>
             {/* <Svg fill="yellow" /> */}
             {x.src}
-            <h4 className="text-2xl">
-              {x.description}
-            </h4>
+            <h4 className="text-2xl">{x.description}</h4>
           </div>
         ))}
       </div>
