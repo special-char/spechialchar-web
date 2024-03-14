@@ -33,7 +33,7 @@ const Blog = () => {
                   </React.Fragment>
                 ))}
               </div>
-              <div className="py-4 hover:text-blue">
+              <div className="py-4 hover:text-button">
                 <a href={blog.link}>
                   <span className="text-2xl font-bold md:text-4xl">
                     {blog.title}

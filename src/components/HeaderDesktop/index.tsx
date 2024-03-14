@@ -17,17 +17,19 @@ const HeaderDesktop = ({ data }: Header) => {
         </Link>
         {accordionItems.data.map((item, index) => (
           <div key={index} className="flex flex-col pt-3 group">
-            <div className="flex text-white hover:text-yellow-300 gap-x-1 justify-center text-xl">
+            <div className="flex text-white hover:text-yellow-300 gap-x-1  text-xl">
               <Link
-                href={`${item.link.toLowerCase()}`}
+                href={`${item.link?.toLowerCase()}`}
                 className="cursor-pointer"
               >
                 {item.title}
               </Link>
-              <ChevronDownIcon className="mt-1 transition-transform duration-300 transform group-hover:rotate-180 hover:text-yellow-300" />
+              {item?.content && (
+                <ChevronDownIcon className="mt-1 transition-transform duration-300 transform group-hover:rotate-180 hover:text-yellow-300" />
+              )}
             </div>
-            <ul className="text-white top-full left-0 mt-1 max-h-0 overflow-hidden transition-all duration-300 group-hover:max-h-screen flex flex-col gap-y-4 pt-4">
-              {item.content.map((itemContent, subindex) => (
+            <ul className="text-white top-full left-0 mt-1 max-h-0 overflow-hidden transition-all duration-300 group-hover:max-h-screen flex flex-col gap-y-4 pt-4 ">
+              {item?.content?.map((itemContent, subindex) => (
                 <Link
                   key={subindex}
                   href={`/${item.title.toLowerCase()}/${item.content[
@@ -42,7 +44,7 @@ const HeaderDesktop = ({ data }: Header) => {
             </ul>
           </div>
         ))}
-        <Link href="/ourthinking">
+        {/* <Link href="/ourthinking">
           <ul className="text-white hover:text-yellow-300 text-xl pt-3">
             Our Thinking
           </ul>
@@ -51,7 +53,7 @@ const HeaderDesktop = ({ data }: Header) => {
           <ul className="text-white hover:text-yellow-300 text-xl pt-3">
             Case Studies
           </ul>
-        </Link>
+        </Link> */}
         <div className="pt-1">
           <Button
             variant={"outline"}
