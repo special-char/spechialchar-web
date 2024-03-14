@@ -12,10 +12,10 @@ import { SwiperServices } from "@/lib/constData";
 
 const Swiper1 = ({ data }: SwiperServicesData) => {
   return (
-    <section className=" py-10 ">
-      <div className="py-5 lg:pb-10 text-2xl font-bold pr-4 md:text-4xl lg:text-5xl lg:pr-44  ">
+    <div className="pl-10 py-10 ">
+      <section className="py-5 lg:pb-10 text-2xl font-bold pr-4 md:text-4xl lg:text-5xl lg:pr-44  ">
         {data.title}
-      </div>
+      </section>
       <Swiper
         modules={[Navigation, Pagination, A11y]}
         spaceBetween={10}
@@ -51,9 +51,11 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
             </SwiperSlide>
           ))}
         </div>
-        <SwiperNavButtons />
+        <section>
+          <SwiperNavButtons />
+        </section>
       </Swiper>
-    </section>
+    </div>
   );
 };
 
