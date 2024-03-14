@@ -16,15 +16,16 @@ const config = {
       screens: {
         "2xl": "1400px",
       },
-      
     },
     listStyleType: {
-      none: 'none',
-      disc: 'disc',
-      decimal: 'decimal',
-      square: 'square',
-      roman: 'upper-roman',
-      check: 'url(/images/chackmark.png)',
+      none: "none",
+      disc: "disc",
+      decimal: "decimal",
+      square: "square",
+      roman: "upper-roman",
+    },
+    listStyleImage: {
+      check: 'url("/icons/check.svg")',
     },
     extend: {
       colors: {

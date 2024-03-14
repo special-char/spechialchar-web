@@ -1,19 +1,16 @@
 import { Button } from "@/components/ui/button";
-import { cloudBox2 } from "@/lib/constData";
+import { edBox } from "@/lib/constData";
 import React from "react";
 
 type Props = {};
 
-const CloudGrid3 = (props: Props) => {
+const EdList = () => {
   return (
     <>
       <section className="bg-[#fffae3] border-r-2 m-10 px-24 lg: py-20  p-4 rounded-lg flex flex-col gap-y-9">
-        <div className="text-subtitle1 font-bold">
-          Why work with The Special Char?
-        </div>
         <div>
-          <ul className="list-image-check pl-7 grid lg:grid-cols-2 lg:px-1 gap-4 md:grid-cols-2">
-            {cloudBox2.map((i) => (
+          <ul className="list-square pl-7 grid lg:grid-cols-2 lg:px-1 gap-4 md:grid-cols-2">
+            {edBox.map((i) => (
               <li key={i.id} className="text-lg mb-2 ">
                 <span className="font-bold text-xl">{i.title}</span>{" "}
                 {i.discription}
@@ -25,7 +22,7 @@ const CloudGrid3 = (props: Props) => {
       <section className="py-10">
         <Button>
           <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-            Discuss my cloud <span>project</span>
+            Discuss your custom <span>elearning solution</span>
             <span>&rarr;</span>
           </span>
         </Button>
@@ -34,4 +31,4 @@ const CloudGrid3 = (props: Props) => {
   );
 };
 
-export default CloudGrid3;
+export default EdList;

@@ -8,20 +8,20 @@ import {
 import {
   cloudAccordiandata,
   cloudAccordiandata1,
-  serviceAccordiandata,
-  serviceAccordiandata1,
+  edAccordiandata,
+  edAccordiandata1,
 } from "@/lib/constData";
 import { serviceAccordiandataType } from "@/utils/types";
 import Image from "next/image";
 import { Button } from "../ui/button";
 
-const CloudAccordian = ({ data }: serviceAccordiandataType) => {
+const EdAccordian = ({ data }: serviceAccordiandataType) => {
   return (
       <>
         <div className="grid md:grid-cols-2 md:gap-16 ">
           <Accordion type="single" collapsible className="">
             <hr className="border-1 border-gray-300" />
-            {cloudAccordiandata.data.map((item) => {
+            {edAccordiandata.data.map((item) => {
               return (
                 <AccordionItem
                   className="border-b py-3 border-gray-300"
@@ -46,7 +46,7 @@ const CloudAccordian = ({ data }: serviceAccordiandataType) => {
           </Accordion>
           <Accordion type="single" collapsible className="">
             <hr className="border-1 border-gray-300 flex max-sm:hidden" />
-            {cloudAccordiandata1.data.map((item) => {
+            {edAccordiandata1.data.map((item) => {
               return (
                 <AccordionItem
                   className="border-b py-3 border-gray-300"
@@ -74,4 +74,4 @@ const CloudAccordian = ({ data }: serviceAccordiandataType) => {
       
   );
 };
-export default CloudAccordian;
+export default EdAccordian;
