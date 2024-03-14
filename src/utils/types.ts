@@ -1,3 +1,4 @@
+import { type } from "os";
 import { string } from "yup";
 
 export type FooterdataType = {
@@ -51,7 +52,7 @@ export type Card1Type = {
 export type BannerType = {
   title: string;
   button1: string;
-  button2:string;
+  button2: string;
   description: string;
   imageurl: string;
 };
@@ -60,7 +61,7 @@ export type Header = {
     value: string;
     title: string;
     content: string;
-    link:string;
+    link: string;
   };
 };
 export type mobileServicesType = {
@@ -136,6 +137,15 @@ export type BgYellowType = {
   };
 };
 
+export type aboutBannerType = {
+  data:{
+    url:string;
+    title: string;
+    title2: string;
+    description: string;
+    subdescription : string;
+  };
+}
 export type serviceAccordiandataType = {
   data: {
     id: number;
@@ -173,11 +183,16 @@ export type imageAccordianDataType = {
 };
 
 export type uiSectionType = {
-  data:{
-    title:string;
-    text:string;
-      id:number,
-      title1:string,
-      description:string,
-  }
-}
+  data: {
+    title: string;
+    text: string;
+    id: number;
+    title1: string;
+    description: string;
+  };
+};
+
+export type PageBanner = {
+  title1: string;
+  title2: string;
+};

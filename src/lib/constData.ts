@@ -542,7 +542,7 @@ export const accordionItems = {
       value: "item-2",
       title: "Industry",
       link: "#",
-      content: ["EdTech & eLearning", "Ecommerce"],
+      content: ["EdTech-eLearning", "Ecommerce"],
     },
     {
       value: "item-3",
@@ -649,7 +649,18 @@ export const serviceicon2 = {
         "We draw on our extended reality and blockchain development expertise to create metaverse apps of all sizes and levels of complexity. Whether you need an augmented reality app with Snapchat-like filters or a marketplace to trade NFTs, we’re the right software engineering firm to undertake your project!",
     },
   ],
-};
+}
+
+export const aboutBannerdata = {
+ 
+  
+    url:"/images/AboutBanner1.webp",
+    title: "Your innovation",
+    title2: "partner",
+   description: "We get a buzz out of unlocking the power of emerging tech for both",
+   subdescription : " big-name enterprises and ambitious startups."
+  };
+ 
 
 export const mobiletabdata = {
   button: "Contact our app developers",
@@ -1776,4 +1787,326 @@ export const imageBanner22 = {
 export const YellowBannerData9 = {
   description:
     "The Special Char Group is a full-stack software engineering company. That’s why our UI/UX designers don’t have to wear multiple hats on a project. Instead, they join forces with skilled business analysts, front-end developers, manual and automation testing specialists, and software architects to deliver best-in-class UI/UX design and development services:",
+};
+
+export const banner7 = {
+  imageurl: "/images/edBanner.webp",
+  title: "eLearning software development services",
+  button1: "Contact",
+  button2: "Us",
+  description:
+    "We develop powerful educational solutions that turn in-person and online learning into a diverse, engaging, and results-driven experience",
+};
+
+export const edSection = {
+  title: "We craft educational software for every need",
+  text: "We help our clients in K-12, postsecondary, and corporate segments to redefine the way they teach, learn, communicate, and operate. EdTech startups and educational software companies, in turn, use our eLearning software development expertise to win the market with next-gen features that drive online education way forward. K-12",
+  section: [
+    {
+      id: 1,
+      title1: "K-12",
+      description:
+        "We help K-12 leaders unleash the power of technology-assisted learning with R&D and consulting services and deliver turnkey educational software that automates workflows, simplifies student performance management, and makes knowledge delivery more efficient and interactive",
+    },
+    {
+      id: 2,
+      title1: "EdTech and eLearning companies",
+      description:
+        "We can fill in the skills gap in your knowledge-intensive project and enrich your eLearning software with AI-driven data analytics, natural language processing, teleconferencing, as well as augmented and virtual reality capabilities to attract more customers with stellar functionality and user experience",
+    },
+    {
+      id: 3,
+      title1: "Colleges and universities",
+      description:
+        "Along with educational technology consulting services, we craft innovative educational software solutions from scratch, so that you can attract the right students, personalize learning materials, optimize daily operations, and tap into useful insights about the school’s academic performance",
+    },
+    {
+      id: 4,
+      title1: "Corporations and nonprofits",
+      description:
+        "We can enhance your existing learning management software or develop a corporate eLearning solution from scratch. We deep dive into the specifics of your business and tailor our eLearning solutions to match them, supporting your corporate training programs with the right tech",
+    },
+  ],
+};
+
+export const imageBanner23 = {
+  url: "/images/soft13.webp",
+  title1: "Building upon an extensive eLearning",
+  title2: "software development know-how",
+};
+
+export const YellowBannerData10 = {
+  description:
+    "Applying our expertise in providing EdTech and eLearning software development services and setting up security safeguards regarding student data management, we help you make knowledge delivery instant, engaging, and intuitive while ensuring compliance with FERPA, COPPA, CIPA, GLBA, and other relevant standards.",
+};
+
+export const edSection1 = [
+  {
+    title: "Back-end development",
+    description:
+      "We are well-versed in custom web development, cloud computing, and DevOps, as well as data acquisition, management, and analysis, and deliver functional and high-performing educational software solutions that run without glitches",
+  },
+  {
+    title: "Front-end development",
+    description:
+      "We craft all kinds of interfaces, including cloud dashboards, voice interfaces, as well as educational web and mobile apps, so you can reach out to more learners with highly accessible and easy-to-use software",
+  },
+  {
+    title: "Reliable integration",
+    description:
+      "We focus on creating coherent learning environments and connect your education technology solutions with other applications and devices within your IT infrastructure, as well as third-party tools and service",
+  },
+  {
+    title: "End-to-end software testing",
+    description:
+      "We build visualizations that tell stories in a simple way, enabling informed decision-making and solid ad-hoc data analysis. Take your next big step forward with AR/VR or voice assistants that will deliver convenient access to all of your data",
+  },
+];
+
+export const imageBanner24 = {
+  url: "/images/soft14.webp",
+  title1: "Delivering custom eLearning solutions",
+  title2: "to make practice perfect",
+};
+
+export const YellowBannerData11 = {
+  description:
+    "Technologies keep reshaping every aspect of our daily lives, and education needs innovative tools to make offline and online learners’ practice more efficient. An eLearning software development company with a decade of experience, we design and develop high-performing, full-fledged solutions for students, educators, and instructional designers.",
+};
+
+export const edSection2 = [
+  {
+    title: "LMS and LCMS",
+    description:
+      "We are well-versed in custom web development, cloud computing, and DevOps, as well as data acquisition, management, and analysis, and deliver functional and high-performing educational software solutions that run without glitches",
+  },
+  {
+    title: "School management software",
+    description:
+      "Increase operational efficiency and drive cost savings with school management and school ERP software. Our educational solutions help manage daily administrative tasks, such as fee and staff payroll management, accounting and financial management, library and inventory management, school transportation tracking, and many more",
+  },
+  {
+    title: "Education portals",
+    description:
+      "Manage educational data online with feature-rich education portals and information systems. Our custom eLearning solutions optimize scheduling, facilitate student attendance monitoring, speed upgrading, and allow educators and students to conveniently view educational information, generate performance reports, and more",
+  },
+  {
+    title: "Assistive learning solutions",
+    description:
+      "Make education accessible to students with special needs by leveraging AI-powered text-to-speech, speech-to-text, writing assistance, proofreading, as well as planning and class scheduling software. Our custom assistive learning solutions improve focus, promote independent learning, and spark academic success for all students",
+  },
+];
+
+export const imageBanner25 = {
+  url: "/images/soft15.webp",
+  title1: "Embracing the possibilities",
+  title2: "of educational technology to the fullest",
+};
+
+export const YellowBannerData12 = {
+  description:
+    "We design feature-rich educational software solutions that help learners hone essential skills faster, bring a human touch to online learning, boost educational content delivery, and enhance the learner experience.",
+};
+
+export const edAccordiandata = {
+  button: "Contact Us",
+  data: [
+    {
+      id: 1,
+      image: "/icons/atom-symbol.svg",
+      title: "Communication technology",
+      content:
+        "Leveraging live chats, IP telephony, and videoconferencing, we offset the lack of in-person interaction and make learning more accessible",
+    },
+    {
+      id: 2,
+      image: "/icons/atom-symbol.svg",
+      title: "Gamification",
+      content:
+        "We make sure the tech-savvy students of today stay focused and interested with gamified features smoothly integrated into your educational software",
+    },
+    {
+      id: 3,
+      image: "/icons/atom-symbol.svg",
+      title: "Media streaming",
+      content:
+        "We enrich our educational apps with audio- and video streaming components supported by flexible and resilient cloud content delivery networks and real-time communication techs",
+    },
+  ],
+};
+
+export const edAccordiandata1 = {
+  data: [
+    {
+      id: 1,
+      image: "/icons/atom-symbol.svg",
+      title: "Artificial intelligence",
+      content:
+        "Taking advantage of AI for education, we help you derive insights from academic data, keep digital-first students engaged with personalized learning plans, and free up educators’ time for meaningful interactions",
+    },
+    {
+      id: 2,
+      image: "/icons/atom-symbol.svg",
+      title: "Augmented and virtual reality",
+      content:
+        "Take advantage of VR and AR solutions for headsets and mobile phones and tap in comprehensive data visualizations, intelligent simulations of real-world experiences, and immersive learning scenarios",
+    },
+    {
+      id: 3,
+      image: "/icons/atom-symbol.svg",
+      title: "Cross-platform availability",
+      content:
+        "We make sure our eLearning solutions are accessible anytime and from any device, tailoring them to run in browsers and on multiple desktop and mobile operating systems",
+    },
+  ],
+};
+
+export const imageBanner26 = {
+  url: "/images/soft16.webp",
+  title1: "Unleashing the benefits",
+  title2: "of tech-assisted learning",
+};
+
+export const YellowBannerData13 = {
+  description:
+    "Driven by the COVID-19 crisis, education has tapped in radical transformation. With distance learning sparking public interest in educational innovations, EdTech will continue to reshape the way we teach and learn. Now, it’s the perfect time for educational institutions to take the first step toward digital transformation and start enjoying the improvements it ignites",
+};
+
+export const imageBanner27 = {
+  url: "/images/soft17.webp",
+  title1: "Offering flexible",
+  title2: "engagement models",
+};
+
+export const edSection3 = [
+  {
+    title: "Accessibility",
+    description:
+      "Friendly for learners with special needs and those without the ‘geek gene",
+  },
+  {
+    title: "Flexibility",
+    description:
+      "Customizable for all participants, tailored to your business needs",
+  },
+  {
+    title: "Granularity",
+    description:
+      "Highlighting all the peculiarities of the educational process",
+  },
+  {
+    title: "Personalization",
+    description: "Overcoming the one-size-fits-all eLearning problem",
+  },
+  {
+    title: "Persistence",
+    description: "Instrumentally motivating target learners to carry on",
+  },
+  {
+    title: "Motivation",
+    description: "Making courseware products engaging",
+  },
+  {
+    title: "Collaboration",
+    description: "Designing easy-to-use tools for fruitful teamwork",
+  },
+  {
+    title: "Age-friendly",
+    description: "Providing a helpful environment for adults",
+  },
+];
+
+export const edBox = [
+  {
+    id: 1,
+    title: "Vendor-agnostic.",
+    discription:
+      "We are not tied to any specific cloud platform provider, so we only resort to those cloud tools and technologies that are a perfect fit for your project and workflows.",
+  },
+  {
+    id: 2,
+    title: "Top cloud architects with niche skills.",
+    discription:
+      "With a 300-strong team, we bring in professional BAs, skilled cloud solution architects and DevOps engineers, as well as R&D department to fill any talent gaps.",
+  },
+  {
+    id: 3,
+    title: "Diverse expertise.",
+    discription:
+      "A cloud computing consulting company with 13+ years of experience, we provide cloud consultancy and deliver software for ecommerce, fintech, healthcare, logistics, real estate, and many other industries",
+  },
+  {
+    id: 4,
+    title: "Proven track record.",
+    discription:
+      "We’ve successfully completed 600+ projects and served 200+ satisfied customers across the globe",
+  },
+];
+
+export const pageBanner = {
+  title1: "Thinking",
+  title2: "Useful. Relevant. Challenging.",
+};
+
+export const blogs = [
+  {
+    id: 1,
+    image: "/images/blog1.webp",
+    categories: ["Big Data", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 2,
+    image: "/images/blog2.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 3,
+    image: "/images/blog3.webp",
+    categories: ["Big Data", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 4,
+    image: "/images/blog4.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 5,
+    image: "/images/blog5.webp",
+    categories: ["Big Data", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 6,
+    image: "/images/blog6.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 7,
+    image: "/images/blog7.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 8,
+    image: "/images/blog6.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+];
+
+export const caseBanner = {
+  title1: "Our latest challenges",
 };
