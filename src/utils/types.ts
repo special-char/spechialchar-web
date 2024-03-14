@@ -76,6 +76,7 @@ export type latestThinkingType = {
     id: number;
     title: string;
     img: string;
+    Link:string;
   };
 };
 export type MobileSwiperType = {

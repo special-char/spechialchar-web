@@ -810,19 +810,23 @@ export const latestThinkingData = {
   data: [
     {
       id: 1,
-      title: "Waterfall vs. Agile: how to choose the right approach",
+      title: "Waterfall vs. Agile: how to choose the right",
       img: "/images/latestThinking1.webp",
+
+      Link:"./"
     },
     {
       id: 2,
       title: "What self-service BI is and how to do it right",
       img: "/images/latestThinking2.webp",
+      Link:"./"
     },
     {
       id: 3,
       title:
-        "AI-powered augmented analytics: capabilities and benefits for business→",
+        "AI-powered augmented analytics: capabilities and benefits for business",
       img: "/images/latestThinking3.webp",
+      Link:"./"
     },
   ],
 };
