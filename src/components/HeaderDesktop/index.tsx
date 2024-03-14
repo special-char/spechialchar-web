@@ -8,7 +8,7 @@ import { Button } from "../ui/button";
 
 const HeaderDesktop = ({ data }: Header) => {
   return (
-    <div className="h-full w-full  flex flex-col justify-between ">
+    <div className="h-full w-full flex flex-col justify-between pt-3">
       <div className="flex justify-between items-start">
         <Link href="/">
           <div>
@@ -42,14 +42,14 @@ const HeaderDesktop = ({ data }: Header) => {
             </ul>
           </div>
         ))}
-        <Link href="/ourthing">
+        <Link href="/ourthinking">
           <ul className="text-white hover:text-yellow-300 text-xl pt-3">
-            Our Thing
+            Our Thinking
           </ul>
         </Link>
-        <Link href="/casestudio">
+        <Link href="/casestudies">
           <ul className="text-white hover:text-yellow-300 text-xl pt-3">
-            Case Studio
+            Case Studies
           </ul>
         </Link>
         <div className="pt-1">

@@ -649,7 +649,18 @@ export const serviceicon2 = {
         "We draw on our extended reality and blockchain development expertise to create metaverse apps of all sizes and levels of complexity. Whether you need an augmented reality app with Snapchat-like filters or a marketplace to trade NFTs, we’re the right software engineering firm to undertake your project!",
     },
   ],
-};
+}
+
+export const aboutBannerdata = {
+ 
+  
+    url:"/images/AboutBanner1.webp",
+    title: "Your innovation",
+    title2: "partner",
+   description: "We get a buzz out of unlocking the power of emerging tech for both",
+   subdescription : " big-name enterprises and ambitious startups."
+  };
+ 
 
 export const mobiletabdata = {
   button: "Contact our app developers",
@@ -2001,7 +2012,6 @@ export const edSection3 = [
   },
 ];
 
-
 export const edBox = [
   {
     id: 1,
@@ -2028,3 +2038,71 @@ export const edBox = [
       "We’ve successfully completed 600+ projects and served 200+ satisfied customers across the globe",
   },
 ];
+
+export const pageBanner = {
+  title1: "Thinking",
+  title2: "Useful. Relevant. Challenging.",
+};
+
+export const blogs = [
+  {
+    id: 1,
+    image: "/images/blog1.webp",
+    categories: ["Big Data", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 2,
+    image: "/images/blog2.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 3,
+    image: "/images/blog3.webp",
+    categories: ["Big Data", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 4,
+    image: "/images/blog4.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 5,
+    image: "/images/blog5.webp",
+    categories: ["Big Data", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 6,
+    image: "/images/blog6.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 7,
+    image: "/images/blog7.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 8,
+    image: "/images/blog6.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+];
+
+export const caseBanner = {
+  title1: "Our latest challenges",
+};
