@@ -834,20 +834,20 @@ export const latestThinkingData = {
       title: "Waterfall vs. Agile: how to choose the right",
       img: "/images/latestThinking1.webp",
 
-      Link:"./"
+      Link: "./",
     },
     {
       id: 2,
       title: "What self-service BI is and how to do it right",
       img: "/images/latestThinking2.webp",
-      Link:"./"
+      Link: "./",
     },
     {
       id: 3,
       title:
         "AI-powered augmented analytics: capabilities and benefits for business",
       img: "/images/latestThinking3.webp",
-      Link:"./"
+      Link: "./",
     },
   ],
 };
@@ -1084,131 +1084,125 @@ export const YellowBannerData3 = {
     "We build impactful SaaS applications using our road-tested six-pillar approach:",
 };
 
-
 export const nowask = [
   {
     id: 1,
-    title: "Does being part of a shoddy project bother you so much that you have to speak up?",
-    
+    title:
+      "Does being part of a shoddy project bother you so much that you have to speak up?",
   },
   {
     id: 2,
-    title: "Do you care about your client, your project, your decisions and your team?",
-    
+    title:
+      "Do you care about your client, your project, your decisions and your team?",
   },
   {
     id: 3,
-    title:  "Do you get a buzz out of solving hard problems?"
-    
-  },]
+    title: "Do you get a buzz out of solving hard problems?",
+  },
+];
 
-  export const career =
+export const career = {
+  title1: "Flexibility and balance",
+  title2:
+    "We believe in hard work. That means you honestly give your best effort. It doesn’t mean you give every waking hour.",
+  desc1:
+    "Our crew is motivated and accountable, so they earn a lot of trust. Flexible and remote working arrangements are no problem.",
+  desc2:
+    "If you’re so stuck on a hard problem that you need to switch gears, head to the gym to work out, or to the Playstation to shoot bad guys.",
+};
+
+export const career2 = {
+  title1: "Opportunity and growth",
+
+  desc1:
+    "We expect you to work hard on difficult challenges, among high-level professionals who support you. You will take hard decisions, with permission to make mistakes and learn from them. If you have the attitude to make this work, your skills will level up fast and you’ll feel proud of how you grow.",
+  desc2: "We offer language classes and career progression tracks too.",
+};
+
+export const careercity = {
+  title: "Build a new life in a new city",
+  description:
+    "If you’d like, you can relocate to Poland, Georgia, or Armenia. We’ll help you and your family with the legal, transport, health care, and a home.",
+  section: [
     {
-      title1:"Flexibility and balance",
-      title2:"We believe in hard work. That means you honestly give your best effort. It doesn’t mean you give every waking hour.",
-      desc1:"Our crew is motivated and accountable, so they earn a lot of trust. Flexible and remote working arrangements are no problem.",
-      desc2:"If you’re so stuck on a hard problem that you need to switch gears, head to the gym to work out, or to the Playstation to shoot bad guys.",
-
-    }
-  
-    export const career2 =
+      id: 1,
+      url: "/images/city1.webp",
+    },
     {
-      title1:"Opportunity and growth",
-      
-      desc1:"We expect you to work hard on difficult challenges, among high-level professionals who support you. You will take hard decisions, with permission to make mistakes and learn from them. If you have the attitude to make this work, your skills will level up fast and you’ll feel proud of how you grow.",
-      desc2:"We offer language classes and career progression tracks too.",
+      id: 2,
+      url: "/images/city2.webp",
+    },
+    {
+      id: 3,
+      url: "/images/city3.webp",
+    },
+  ],
+};
 
-    }
+export const careercap = {
+  title: "Our capabilities include:",
 
-    export const careercity = {
-      title: "Build a new life in a new city",
-      description:
-        "If you’d like, you can relocate to Poland, Georgia, or Armenia. We’ll help you and your family with the legal, transport, health care, and a home.",
-      section: [
-        {
-          id: 1,
-          url: "/images/city1.webp",
-          
-        },
-        {
-          id: 2,
-          url: "/images/city2.webp",
-          
-        },
-        {
-          id: 3,
-          url: "/images/city3.webp",
-          
-        },]}
+  section: [
+    {
+      id: 1,
+      url: "/icons/atom-symbol.svg",
+      desc: "Artificial intelligence, machine learning and big data",
+    },
+    {
+      id: 2,
+      url: "/icons/atom-symbol.svg",
+      desc: "Embedded systems and the Internet of Things",
+    },
+    {
+      id: 3,
+      url: "/icons/atom-symbol.svg",
+      desc: "Virtual reality, augmented reality and mixed reality",
+    },
 
-        export const careercap = {
-          title: "Our capabilities include:",
-          
-          section: [
-            {
-              id: 1,
-              url: "/icons/atom-symbol.svg",
-              desc:"Artificial intelligence, machine learning and big data",
-              
-            },
-            {
-              id: 2,
-              url: "/icons/atom-symbol.svg",
-              desc:"Embedded systems and the Internet of Things",
-            },
-            {
-              id: 3,
-              url: "/icons/atom-symbol.svg",
-              desc:"Virtual reality, augmented reality and mixed reality",
-            },
-          
-          
-            {
-              id: 4,
-              url: "/icons/atom-symbol.svg",
-              desc:"Intelligent business automation",
-            },]}
+    {
+      id: 4,
+      url: "/icons/atom-symbol.svg",
+      desc: "Intelligent business automation",
+    },
+  ],
+};
 
+export const careermany = {
+  title: "Many say they want this",
+  desc: "Some even mean it.",
+  desc1:
+    "If you feel like you’d thrive at ITRex, we’d love to hear from you. Please browse through our vacancies",
+  desc2: "and see if anything suits you.",
+};
 
-            export const careermany ={
-title:"Many say they want this",
-desc:"Some even mean it.",
-desc1:"If you feel like you’d thrive at ITRex, we’d love to hear from you. Please browse through our vacancies",
-desc2:"and see if anything suits you.",
+export const careercv = {
+  title: "Didn’t find a suitable job?",
+};
 
-            }
-
-            export const careercv ={
-
-              title:"Didn’t find a suitable job?",
-            }
-
-            export const howmodel ={
-
-              heading:"Our engagement models",
-              par:"When selecting an optimum engagement model for our clients, we discuss a lot of details, from their primary business objective and project scope to the level of flexibility and control they require. Our aim is to come up with a solution that balances cost efficiency, performance, and flexibility best.",
-              section: [
-                {
-                  id: 1,
-                  title: "Time & Materials",
-                  desc:"Under the Time & Materials model, we can build your software product either in a linear sequence of stages or in increments through constant communication with you. You pay only for actual work done on daily or hourly rates per specialist.",
-                  desc1:"Show more",
-                  
-                },
-                {
-                  id: 2,
-                  title: "Fixed Price",
-                  desc:"With this model, we build your software product for a price fixed upfront for the entire project. This often involves planning and estimating the entire project scope before development starts.",
-                  desc1:"Show more",
-                },
-                {
-                  id: 3,
-                  title: "Dedicated Team",
-                  desc:"Alternatively, you can simply hire our highly skilled engineers to fill in specific in-house skill gaps, or go for a full-fledged dedicated and self-managed team. You get professionals that integrate seamlessly into your environment, bring in a fresh angle and ideas, and deliver top results with in-house-like dedication.",
-                  desc1:"Show more",
-                },]
-
-            }
+export const howmodel = {
+  heading: "Our engagement models",
+  par: "When selecting an optimum engagement model for our clients, we discuss a lot of details, from their primary business objective and project scope to the level of flexibility and control they require. Our aim is to come up with a solution that balances cost efficiency, performance, and flexibility best.",
+  section: [
+    {
+      id: 1,
+      title: "Time & Materials",
+      desc: "Under the Time & Materials model, we can build your software product either in a linear sequence of stages or in increments through constant communication with you. You pay only for actual work done on daily or hourly rates per specialist.",
+      desc1: "Show more",
+    },
+    {
+      id: 2,
+      title: "Fixed Price",
+      desc: "With this model, we build your software product for a price fixed upfront for the entire project. This often involves planning and estimating the entire project scope before development starts.",
+      desc1: "Show more",
+    },
+    {
+      id: 3,
+      title: "Dedicated Team",
+      desc: "Alternatively, you can simply hire our highly skilled engineers to fill in specific in-house skill gaps, or go for a full-fledged dedicated and self-managed team. You get professionals that integrate seamlessly into your environment, bring in a fresh angle and ideas, and deliver top results with in-house-like dedication.",
+      desc1: "Show more",
+    },
+  ],
+};
 export const saasSection2 = [
   {
     id: 1,
@@ -1283,14 +1277,14 @@ export const MobileSwiperData = {
     },
     {
       src: "/images/author-1.jpg",
-      name: 'Ashley Lewis',
-      title: 'Director of Product Management',
-      company: 'Dollar Shave Club',
-      quote: "Itrex is an outstanding partner. They don't even feel like a contractor, but more like a fully integrated team.",
-  },
-  ]
-}
-
+      name: "Ashley Lewis",
+      title: "Director of Product Management",
+      company: "Dollar Shave Club",
+      quote:
+        "Itrex is an outstanding partner. They don't even feel like a contractor, but more like a fully integrated team.",
+    },
+  ],
+};
 
 export const careerbannerdata = {
   url: "/images/soft.webp",
@@ -1307,54 +1301,61 @@ export const careerpage2data = {
   des2: "We solve problems and drive growth for our clients. They’ve included big names like Walmart, Take a Swing at Cancer, Procter & Gamble, Dun & Bradstreet, Warner Bros., 21st Century Fox, and the Dollar Shave Club.",
 };
 
-
 export const CareerPage3data = {
   title: "Our SaaS development services let you win big",
-  data : [
+  data: [
     {
-    id: 1,
-    src: "/icons/p&g.svg",
-    description: "Artificial intelligence, machine learning and big data",
-  },
-  {
-    id: 2,
-    src: "/icons/p&g.svg",
-    description: "Embedded systems and the Internet of Things",
-  },
-  {
-    id: 3,
-    src: "/icons/p&g.svg",
-    description: "Virtual reality, augmented reality and mixed reality",
-  },
-  {
-    id: 4,
-    src: "/icons/p&g.svg",
-    description: "Intelligent business automation",
-  },
-]};
+      id: 1,
+      src: "/icons/p&g.svg",
+      description: "Artificial intelligence, machine learning and big data",
+    },
+    {
+      id: 2,
+      src: "/icons/p&g.svg",
+      description: "Embedded systems and the Internet of Things",
+    },
+    {
+      id: 3,
+      src: "/icons/p&g.svg",
+      description: "Virtual reality, augmented reality and mixed reality",
+    },
+    {
+      id: 4,
+      src: "/icons/p&g.svg",
+      description: "Intelligent business automation",
+    },
+  ],
+};
 
 export const careerpage4data = {
   title: "Who should apply",
   title1: "Look,",
   title2: "this is not for everyone.",
-  desc1: "If you only want a salary and don’t much care about how good your projects are, you’ll probably hate it here.",
-  desc2: "If you hide behind policies and processes because, secretly, you’re terrified of owning ideas or decisions, you too will think it sucks.",
+  desc1:
+    "If you only want a salary and don’t much care about how good your projects are, you’ll probably hate it here.",
+  desc2:
+    "If you hide behind policies and processes because, secretly, you’re terrified of owning ideas or decisions, you too will think it sucks.",
   src: "/images/career-who-should-apply.webp",
 };
 
 export const careerpage5data = {
   title: "Now ask yourself (and be honest)",
-  desc1: "Does being part of a shoddy project bother you so much that you have to speak up?",
-  desc2: "Do you care about your client, your project, your decisions and your team?",
+  desc1:
+    "Does being part of a shoddy project bother you so much that you have to speak up?",
+  desc2:
+    "Do you care about your client, your project, your decisions and your team?",
   desc3: "Do you get a buzz out of solving hard problems?",
 };
 
 export const careerpage6data = {
   src: "/images/Career-honesty-1.webp",
   title: "Honesty, transparency and family spirit",
-  desc1: "We strive always to be honest with each other and the client. That’s more than being truthful, it’s about not dodging responsibility or concealing important things.",
-  desc2: "We aren’t afraid to argue. Because we care about our work, it happens. We disagree like family; we help and support each other no matter what.",
-  desc3: " Our managers live by this too. You’re never too junior to ask questions or to have an opinion.",
+  desc1:
+    "We strive always to be honest with each other and the client. That’s more than being truthful, it’s about not dodging responsibility or concealing important things.",
+  desc2:
+    "We aren’t afraid to argue. Because we care about our work, it happens. We disagree like family; we help and support each other no matter what.",
+  desc3:
+    " Our managers live by this too. You’re never too junior to ask questions or to have an opinion.",
 };
 
 export const imageBanner17 = {
@@ -1957,6 +1958,49 @@ export const caseBanner = {
   title1: "Our latest challenges",
 };
 
+export const aboutBanner2 = {
+  
+  heading: "  We live by powerfull values:",
+  section:[
+  {
+    id:1,
+    number:1,
+    url:"/images/book-1.webp",
+    title:"We are always honest no matter what.",
+  },
+  {
+    id:2,
+    number:2,
+    url:"/images/book-1.webp",
+    title:"We deep dive into every project to deliver excellence.",
+  },
+  {
+    id:3,
+    number:3,
+    url:"/images/book-1.webp",
+    title:"We take ownership of what we do.",
+  },
+  {
+    id:4,
+    number:4,
+    url:"/images/book-1.webp",
+    title:"We value long-term relationships above quick wins and want to bring lasting gains for you.",
+  },
+  {
+    id:5,
+    number:5,
+    url:"/images/book-1.webp",
+    title:"We believe we can help you drive margins while remaining true to our ethical values.",
+  },
+  {
+    id:6,
+    number:6,
+    url:"/images/book-1.webp",
+    title:"We say “we” since we are a big ITRex family united together around one goal - to help you innovate for growth.",
+  },
+
+  ],
+};
 export const banner8 = {
   imageurl: "/images/ecomBanner.webp",
   title: "Ecommerce development services",
@@ -2146,14 +2190,21 @@ export const Eco1 = {
   ],
 };
 
-
 export const careerpage7data = {
   title: "Do you play to win? Or just to avoid blame?",
   title1: "Does this sound overly lofty?",
   title2: "We’re definitely not perfect.",
   title3: "We make mistakes.",
-  desc1: "You’re allowed to get things wrong – even horribly wrong – sometimes too. If you’re honest enough to own your mistakes, you will be safe.",
-  desc2: " Working at ITRex, you’ll watch us admit mistakes all the time. That’s what initiative and transparency looks like.",
-  desc3: "  We are all committed to each other’s success. All we ask in return is the same commitment back.",
+  desc1:
+    "You’re allowed to get things wrong – even horribly wrong – sometimes too. If you’re honest enough to own your mistakes, you will be safe.",
+  desc2:
+    " Working at ITRex, you’ll watch us admit mistakes all the time. That’s what initiative and transparency looks like.",
+  desc3:
+    "  We are all committed to each other’s success. All we ask in return is the same commitment back.",
   src: "/images/Career-play-to-win-1.webp",
-}
+};
+
+
+export const careerBanner2 = {
+  url: "/images/CareerBanner2.webp",
+};

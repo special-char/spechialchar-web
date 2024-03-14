@@ -42,22 +42,6 @@ import CareerPage7 from "@/components/CareerPage7";
 export default function Home() {
   return (
     <>
-      {/* <HomeBanner data={homeBannerdata}/>
-      <Marque data={MarqueData}/>
-      <HomeAccord/>
-      <ProjectSec/>
-      <Collabrate/>
-      <ThinkSec/> */}
-      {/* <SectionBox/>
-      <Service/> */}
-      {/* <MobilePage/> */}
-      <CareerBanner data={careerbannerdata}/>
-      <CareerPage2 data={careerpage2data}/>
-      <CareerPage3 data={CareerPage3data}/>
-      <CareerPage4 data={careerpage4data}/>
-      <CareerPage5 data={careerpage5data}/>
-      <CareerPage6 data={careerpage6data}/>
-      <CareerPage7 data={careerpage7data}/>
       <HomeBanner data={homeBannerdata} />
       <Marque data={MarqueData} />
       <HomeAccord />
