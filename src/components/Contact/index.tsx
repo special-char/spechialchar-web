@@ -54,7 +54,7 @@ const Contact = () => {
 
   return (
     <section
-      className="h-full lg:h-screen lg:p-32 w-full bg-black text-white"
+      className="h-full lg:h-screen lg:py-32 w-full bg-black text-white"
       style={{ backgroundImage: `url(/images/ContactUsImage.webp)` }}
     >
       <div className="p-3 py-6">
@@ -106,7 +106,7 @@ const Contact = () => {
 
                 <div className="flex gap-x-2 pt-4 items-center">
                   <div className="">
-                    <FileAttch className="h-6 w-6 fill-yellow" />
+                    <FileAttch className="h-6 w-6" />
                   </div>
                   <div>
                     <h6 className="text-base md:text-sm">Attach your file</h6>
