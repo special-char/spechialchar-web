@@ -77,6 +77,7 @@ export type latestThinkingType = {
     id: number;
     title: string;
     img: string;
+    Link:string;
   };
 };
 export type MobileSwiperType = {
@@ -173,6 +174,143 @@ export type SaasSectionType = {
   };
 };
 
+
+export type CareerBannerdataType = {
+  data: {
+    url: string;
+    title1: string;
+    title2: string;
+    title3: string;
+    title4: string;
+  };
+};
+
+export type CareerPage2dataType = {
+  data: {
+    src: string;
+    title: string;
+    des1: string;
+    des2: string;
+    // des3: any;
+  };
+};
+
+export type CareerPage3dataType = {
+  data: {
+    title: string;
+    id: number;
+    src: string;
+    description: string;
+  };
+};
+
+export type CareerPage5dataType = {
+  data: {
+    title: string;
+    desc1: string;
+    desc2: string;
+    desc3: string;
+  };
+};
+
+export type CareerPage6dataType = {
+  data: {
+    src: string;
+    title: string;
+    desc1: string;
+    desc2: string;
+    desc3: string;
+  };
+};
+
+export type CareerPage7dataType = {
+  data: {
+    title: string;
+    title1: string;
+    title2: string;
+    title3: string;
+    desc1: string;
+    desc2: string;
+    desc3: string;
+    src: string;
+  };
+};
+export type NowAskType = {
+  data: {
+    id: number;
+    title: string;
+    
+  };
+};
+
+
+export type CareerSectionType={
+  data:{
+    title1: string;
+    title2: string;
+    desc1: string;
+    desc2: string;
+}
+}
+
+export type CareerSection1Type={
+  data:{
+    title1: string;
+    
+    desc1: string;
+    desc2: string;
+}
+}
+
+export type CareerCityType={
+  data:{
+    title: string;
+    description:string;
+    id:number;
+    url:string;
+    
+}
+}
+
+export type CareerCapType={
+  data:{
+    title: string;
+    id:number;
+    url:string;
+    
+   desc :string;
+    
+}
+}
+
+export type CareerManyType={
+  data:{
+    title: string;
+    desc1:string;
+    desc2:string;
+    
+   desc :string;
+    
+}
+}
+
+export type CareerCVType={
+  data:{
+    title: string;
+  }
+}
+
+export type HowModelType={
+  data:{
+    title: string;
+    desc1:string;
+    desc2:string;
+    heading:string;
+    par:string;
+   id :number;
+    
+}
+}
 export type imageAccordianDataType = {
   data: {
     image: string;
@@ -182,14 +320,21 @@ export type imageAccordianDataType = {
 };
 
 export type uiSectionType = {
-  data: {
-    title: string;
-    text: string;
-    id: number;
-    title1: string;
-    description: string;
-  };
-};
+  data:{
+    title:string;
+    text:string;
+      id:number,
+      title1:string,
+      description:string,
+  }
+}
+
+export type careerBannerType = {
+  data:{
+    url:string;
+  }
+}
+ 
 
 export type PageBanner = {
   title1: string;
