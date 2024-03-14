@@ -340,3 +340,17 @@ export type PageBanner = {
   title1: string;
   title2: string;
 };
+
+export type aboutBanner2Type = {
+  data:{
+    id:number;
+    number:number;
+    url:string;
+    title:string;
+    heading:string;
+  }
+}
+export type ecomSectionType = {
+  title:string;
+  section:string;
+}
