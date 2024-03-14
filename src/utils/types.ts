@@ -258,14 +258,21 @@ export type imageAccordianDataType = {
 };
 
 export type uiSectionType = {
-  data: {
-    title: string;
-    text: string;
-    id: number;
-    title1: string;
-    description: string;
-  };
-};
+  data:{
+    title:string;
+    text:string;
+      id:number,
+      title1:string,
+      description:string,
+  }
+}
+
+export type careerBannerType = {
+  data:{
+    url:string;
+  }
+}
+ 
 
 export type PageBanner = {
   title1: string;

@@ -2164,6 +2164,10 @@ export const edBox = [
   },
 ];
 
+export const careerBanner2 = {
+  url: "/images/CareersBanner2.webp",
+  
+};
 export const pageBanner = {
   title1: "Thinking",
   title2: "Useful. Relevant. Challenging.",
