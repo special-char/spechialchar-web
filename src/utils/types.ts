@@ -1,3 +1,4 @@
+import { type } from "os";
 import { string } from "yup";
 
 export type FooterdataType = {
@@ -50,7 +51,8 @@ export type Card1Type = {
 
 export type BannerType = {
   title: string;
-  button: string;
+  button1: string;
+  button2: string;
   description: string;
   imageurl: string;
 };
@@ -59,6 +61,7 @@ export type Header = {
     value: string;
     title: string;
     content: string;
+    link: string;
   };
 };
 export type mobileServicesType = {
@@ -133,6 +136,15 @@ export type BgYellowType = {
   };
 };
 
+export type aboutBannerType = {
+  data:{
+    url:string;
+    title: string;
+    title2: string;
+    description: string;
+    subdescription : string;
+  };
+}
 export type serviceAccordiandataType = {
   data: {
     id: number;
@@ -221,4 +233,109 @@ export type CareerPage7dataType = {
     desc3: string;
     src: string;
   };
+};
+export type NowAskType = {
+  data: {
+    id: number;
+    title: string;
+    
+  };
+};
+
+
+export type CareerSectionType={
+  data:{
+    title1: string;
+    title2: string;
+    desc1: string;
+    desc2: string;
+}
+}
+
+export type CareerSection1Type={
+  data:{
+    title1: string;
+    
+    desc1: string;
+    desc2: string;
+}
+}
+
+export type CareerCityType={
+  data:{
+    title: string;
+    description:string;
+    id:number;
+    url:string;
+    
+}
+}
+
+export type CareerCapType={
+  data:{
+    title: string;
+    id:number;
+    url:string;
+    
+   desc :string;
+    
+}
+}
+
+export type CareerManyType={
+  data:{
+    title: string;
+    desc1:string;
+    desc2:string;
+    
+   desc :string;
+    
+}
+}
+
+export type CareerCVType={
+  data:{
+    title: string;
+  }
+}
+
+export type HowModelType={
+  data:{
+    title: string;
+    desc1:string;
+    desc2:string;
+    heading:string;
+    par:string;
+   id :number;
+    
+}
+}
+export type imageAccordianDataType = {
+  data: {
+    image: string;
+    header: string;
+    text: string;
+  };
+};
+
+export type uiSectionType = {
+  data:{
+    title:string;
+    text:string;
+      id:number,
+      title1:string,
+      description:string,
+  }
+}
+
+export type careerBannerType = {
+  data:{
+    url:string;
+  }
+}
+ 
+
+export type PageBanner = {
+  title1: string;
+  title2: string;
 };

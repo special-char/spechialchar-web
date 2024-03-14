@@ -529,32 +529,25 @@ export const banner1 = {
     "We develop powerful educational solutions that turn in-person and online learning into a diverse, engaging, and results-driven experience",
 };
 
- 
-
-
 // <---- Accordion Headre --->
-export const accordionItems ={
+export const accordionItems = {
   data: [
     {
       value: "item-1",
       title: "Services",
-      content: [
-        "Mobile",
-        "Web",
-        "Saas",
-        "Back-End",
-        "Cloud & Devops",
-        "Ui & Ux",
-      ],
+      link: "services",
+      content: ["Mobile", "Web", "Saas", "Back-End", "Cloud-Devops", "UiUx"],
     },
     {
       value: "item-2",
       title: "Industry",
-      content: ["EdTech & eLearning", "Ecommerce"],
+      link: "#",
+      content: ["EdTech-eLearning", "Ecommerce"],
     },
     {
       value: "item-3",
       title: "Company",
+      link: "#",
       content: ["About", "Career", "How Is Work"],
     },
   ],
@@ -575,7 +568,7 @@ export const IconData = {
 export const banner2 = {
   imageurl: "/images/mobile2.jpg",
   title: "Mobile app development company",
-  button: "Hire App Developer",
+  button1: "Hire App Developer",
   description:
     "We create custom mobile Apps that beat business challenges, generate revenue and hit millions of downloads",
 };
@@ -658,6 +651,17 @@ export const serviceicon2 = {
   ],
 }
 
+export const aboutBannerdata = {
+ 
+  
+    url:"/images/AboutBanner1.webp",
+    title: "Your innovation",
+    title2: "partner",
+   description: "We get a buzz out of unlocking the power of emerging tech for both",
+   subdescription : " big-name enterprises and ambitious startups."
+  };
+ 
+
 export const mobiletabdata = {
   button: "Contact our app developers",
   data: [
@@ -666,7 +670,7 @@ export const mobiletabdata = {
       trigger: "Big Data",
       content:
         "Use Big Data to create a user-driven app, get real-time insights, improve the app’s performance, and make your marketing more effective.",
-         value: "Big Data",
+      value: "Big Data",
       image: "/icons/atom-symbol.svg",
     },
     {
@@ -688,20 +692,21 @@ export const mobiletabdata = {
     {
       id: 4,
       trigger: "IOT",
-      content:"We build mobile apps that let businesses and consumers manage connected smart gadgets and analyze valuable data provided by them with just a few taps.",
-        value: "IoT",
+      content:
+        "We build mobile apps that let businesses and consumers manage connected smart gadgets and analyze valuable data provided by them with just a few taps.",
+      value: "IoT",
       image: "/icons/atom-symbol.svg",
     },
     {
       id: 5,
       trigger: "Cloud",
-      content:"Achieve speed and flexibility with cloud-based apps that are quick to build and easy to scale and safely store the most sensitive data.",
+      content:
+        "Achieve speed and flexibility with cloud-based apps that are quick to build and easy to scale and safely store the most sensitive data.",
       value: "Cloud",
       image: "/icons/atom-symbol.svg",
-}
-  ]
-}
-
+    },
+  ],
+};
 
 export const mobileicon = [
   {
@@ -771,43 +776,48 @@ export const mobileServicesdata = {
   ],
 };
 
-export const serviceAccordiandata={
-  button:"Contact Us",
-  data:[
+export const serviceAccordiandata = {
+  button: "Contact Us",
+  data: [
     {
-      id:1,
+      id: 1,
       image: "/icons/atom-symbol.svg",
       title: "Ecommerce",
-      content:"Optimize operations and deliver personalized shopping experience with apps packed with next-generation tech and featuring geo-targeted push notifications, integrated payment solutions, and much more."
+      content:
+        "Optimize operations and deliver personalized shopping experience with apps packed with next-generation tech and featuring geo-targeted push notifications, integrated payment solutions, and much more.",
     },
     {
-      id:2,
+      id: 2,
       image: "/icons/atom-symbol.svg",
       title: "Enterprise",
-      content:"Maximize employee productivity and performance, improve resource planning and overcome other business challenges with secure and scalable enterprise mobile apps that can be seamlessly integrated with corporate databases and workflows."
+      content:
+        "Maximize employee productivity and performance, improve resource planning and overcome other business challenges with secure and scalable enterprise mobile apps that can be seamlessly integrated with corporate databases and workflows.",
     },
     {
-      id:3,
+      id: 3,
       image: "/icons/atom-symbol.svg",
       title: "Social Media",
-      content:"We build any kind of social media apps - from corporate solutions to interest-based networks - that incorporate emerging tech such as AR/VR and AI, and feature content sharing, live chats, newsfeeds, push notifications, and more."
+      content:
+        "We build any kind of social media apps - from corporate solutions to interest-based networks - that incorporate emerging tech such as AR/VR and AI, and feature content sharing, live chats, newsfeeds, push notifications, and more.",
     },
     {
-      id:4,
+      id: 4,
       image: "/icons/atom-symbol.svg",
       title: "Real-Time Communication",
-      content:"Building apps for real-time video and voice communication, instant messaging, multi-party conferencing and file sharing that let consumers stay connected and give businesses access to remote live collaboration or data sharing."
+      content:
+        "Building apps for real-time video and voice communication, instant messaging, multi-party conferencing and file sharing that let consumers stay connected and give businesses access to remote live collaboration or data sharing.",
     },
     {
-      id:5,
+      id: 5,
       image: "/icons/atom-symbol.svg",
       title: "Finance",
-      content:"Creating fast and reliable mobile solutions for the entire financial industry that offer a user experience balancing security and simplicity and utilize new technology like blockchain and AI"
-    }
-  ]
+      content:
+        "Creating fast and reliable mobile solutions for the entire financial industry that offer a user experience balancing security and simplicity and utilize new technology like blockchain and AI",
+    },
+  ],
 };
 
-      export const latestThinkingData = {
+export const latestThinkingData = {
   data: [
     {
       id: 1,
@@ -828,38 +838,42 @@ export const serviceAccordiandata={
   ],
 };
 
-export const serviceAccordiandata1={
-
-  data:[
+export const serviceAccordiandata1 = {
+  data: [
     {
-      id:1,
+      id: 1,
       image: "/icons/atom-symbol.svg",
       title: "Entertainment",
-      content:"Keep users engaged with feature-rich and customizable applications that let them enjoy sports, movies, music, games and all kinds of other entertainment content on the go"
+      content:
+        "Keep users engaged with feature-rich and customizable applications that let them enjoy sports, movies, music, games and all kinds of other entertainment content on the go",
     },
     {
-      id:2,
+      id: 2,
       image: "/icons/atom-symbol.svg",
       title: "Wellness",
-      content:"Satisfy the health conscious with apps for workouts, activity tracking, nutrition and diet planning, and health monitoring that have perfect connectivity with wearables and great personalization, and leverage the benefits of AI and AR/VR."
+      content:
+        "Satisfy the health conscious with apps for workouts, activity tracking, nutrition and diet planning, and health monitoring that have perfect connectivity with wearables and great personalization, and leverage the benefits of AI and AR/VR.",
     },
     {
-      id:3,
+      id: 3,
       image: "/icons/atom-symbol.svg",
       title: "Healthcare",
-      content:"Redefine healthcare with AI-powered digital therapeutics, real-time telehealth, remote patient monitoring, AR/VR-enabled training simulators, and apps for booking doctor appointments and managing health records."
+      content:
+        "Redefine healthcare with AI-powered digital therapeutics, real-time telehealth, remote patient monitoring, AR/VR-enabled training simulators, and apps for booking doctor appointments and managing health records.",
     },
     {
-      id:4,
+      id: 4,
       image: "/icons/atom-symbol.svg",
       title: "Education",
-      content:"We build the entire range of m-learning apps that boast AR-powered instructions, videoconferencing and gamification features, and are easily integrated with social media and payment gateways."
+      content:
+        "We build the entire range of m-learning apps that boast AR-powered instructions, videoconferencing and gamification features, and are easily integrated with social media and payment gateways.",
     },
     {
-      id:5,
+      id: 5,
       image: "/icons/atom-symbol.svg",
       title: "Logistics & Transportation",
-      content:"Helping businesses reduce paperwork, minimize delivery time and costs, track shipments in real time, and optimize fleet and warehouse management with scalable custom mobile applications"
+      content:
+        "Helping businesses reduce paperwork, minimize delivery time and costs, track shipments in real time, and optimize fleet and warehouse management with scalable custom mobile applications",
     },
   ],
 };
@@ -1007,37 +1021,37 @@ export const saasSection = {
     "Leverage our top-tier skills and experience in Software-as-a-Service development to create a SaaS product that will drive long-term success among customers. Our SaaS development services span the entire software lifecycle, including:",
   section: [
     {
-      id: 1,
+      // id: 1,
       title: "SaaS Development Consulting",
       description:
         "We help with brainstorming SaaS ideas, drilling down the scope, selecting the right tech stack, estimating ROI, and more. Get the best guidance to overcome any SaaS software development challenge you might face.",
     },
     {
-      id: 2,
+      // id: 2,
       title: "SaaS Design & Prototyping",
       description:
         "If you want to glue customers to your SaaS app, you need to deliver state-of-the-art design. Our SaaS development services help you turn a great idea into great UI/UX and validate the concept with rapid prototyping.",
     },
     {
-      id: 3,
+      // id: 3,
       title: "End-to-End SaaS Development",
       description:
         "Need professionals to create a SaaS app from scratch? Our full-cycle SaaS development company has worked with many startups and enterprises since 2009, delivering successful SaaS products that are built to last and grow.",
     },
     {
-      id: 4,
+      // id: 4,
       title: "Migration to SaaS",
       description:
         "Transform your on-prem solution into a mind-blowing SaaS product. We will re-architecture your app to best suit a new environment, choose the right approach to cloud migration, configure the cloud, and move data safely",
     },
     {
-      id: 5,
+      // id: 5,
       title: "Third-Party Integrations",
       description:
         "As part of our SaaS application development services, we can add versatility to your SaaS app by connecting external systems through APIs. Build new business opportunities with new integrations executed flawlessly.",
     },
     {
-      id: 6,
+      // id: 6,
       title: "SaaS Support & Maintenance",
       description:
         "Optimize your SaaS performance, fix bugs, improve user experience, and cut costs using our SaaS development services. We can provide ad-hoc or regular support. Focus on your business while we take care of the tech.",
@@ -1056,40 +1070,165 @@ export const YellowBannerData3 = {
     "We build impactful SaaS applications using our road-tested six-pillar approach:",
 };
 
+
+export const nowask = [
+  {
+    id: 1,
+    title: "Does being part of a shoddy project bother you so much that you have to speak up?",
+    
+  },
+  {
+    id: 2,
+    title: "Do you care about your client, your project, your decisions and your team?",
+    
+  },
+  {
+    id: 3,
+    title:  "Do you get a buzz out of solving hard problems?"
+    
+  },]
+
+  export const career =
+    {
+      title1:"Flexibility and balance",
+      title2:"We believe in hard work. That means you honestly give your best effort. It doesn’t mean you give every waking hour.",
+      desc1:"Our crew is motivated and accountable, so they earn a lot of trust. Flexible and remote working arrangements are no problem.",
+      desc2:"If you’re so stuck on a hard problem that you need to switch gears, head to the gym to work out, or to the Playstation to shoot bad guys.",
+
+    }
+  
+    export const career2 =
+    {
+      title1:"Opportunity and growth",
+      
+      desc1:"We expect you to work hard on difficult challenges, among high-level professionals who support you. You will take hard decisions, with permission to make mistakes and learn from them. If you have the attitude to make this work, your skills will level up fast and you’ll feel proud of how you grow.",
+      desc2:"We offer language classes and career progression tracks too.",
+
+    }
+
+    export const careercity = {
+      title: "Build a new life in a new city",
+      description:
+        "If you’d like, you can relocate to Poland, Georgia, or Armenia. We’ll help you and your family with the legal, transport, health care, and a home.",
+      section: [
+        {
+          id: 1,
+          url: "/images/city1.webp",
+          
+        },
+        {
+          id: 2,
+          url: "/images/city2.webp",
+          
+        },
+        {
+          id: 3,
+          url: "/images/city3.webp",
+          
+        },]}
+
+        export const careercap = {
+          title: "Our capabilities include:",
+          
+          section: [
+            {
+              id: 1,
+              url: "/icons/atom-symbol.svg",
+              desc:"Artificial intelligence, machine learning and big data",
+              
+            },
+            {
+              id: 2,
+              url: "/icons/atom-symbol.svg",
+              desc:"Embedded systems and the Internet of Things",
+            },
+            {
+              id: 3,
+              url: "/icons/atom-symbol.svg",
+              desc:"Virtual reality, augmented reality and mixed reality",
+            },
+          
+          
+            {
+              id: 4,
+              url: "/icons/atom-symbol.svg",
+              desc:"Intelligent business automation",
+            },]}
+
+
+            export const careermany ={
+title:"Many say they want this",
+desc:"Some even mean it.",
+desc1:"If you feel like you’d thrive at ITRex, we’d love to hear from you. Please browse through our vacancies",
+desc2:"and see if anything suits you.",
+
+            }
+
+            export const careercv ={
+
+              title:"Didn’t find a suitable job?",
+            }
+
+            export const howmodel ={
+
+              heading:"Our engagement models",
+              par:"When selecting an optimum engagement model for our clients, we discuss a lot of details, from their primary business objective and project scope to the level of flexibility and control they require. Our aim is to come up with a solution that balances cost efficiency, performance, and flexibility best.",
+              section: [
+                {
+                  id: 1,
+                  title: "Time & Materials",
+                  desc:"Under the Time & Materials model, we can build your software product either in a linear sequence of stages or in increments through constant communication with you. You pay only for actual work done on daily or hourly rates per specialist.",
+                  desc1:"Show more",
+                  
+                },
+                {
+                  id: 2,
+                  title: "Fixed Price",
+                  desc:"With this model, we build your software product for a price fixed upfront for the entire project. This often involves planning and estimating the entire project scope before development starts.",
+                  desc1:"Show more",
+                },
+                {
+                  id: 3,
+                  title: "Dedicated Team",
+                  desc:"Alternatively, you can simply hire our highly skilled engineers to fill in specific in-house skill gaps, or go for a full-fledged dedicated and self-managed team. You get professionals that integrate seamlessly into your environment, bring in a fresh angle and ideas, and deliver top results with in-house-like dedication.",
+                  desc1:"Show more",
+                },]
+
+            }
 export const saasSection2 = [
   {
     id: 1,
-    title: " Tech stack choice",
+    title: ". Tech stack choice",
     description:
       "We deeply analyze your project requirements, planned features, and the capabilities of the cloud provider to identify the right combination of tech.",
   },
   {
     id: 2,
-    title: " Multi-tenant architecture",
+    title: ". Multi-tenant architecture",
     description:
       "We build multi-tenant architecture with security in mind to make your scaling straightforward and customization easy while minimizing costs.",
   },
   {
     id: 3,
-    title: " External services integration",
+    title: ". External services integration",
     description:
       "We save you time building functionality from scratch by performing complex integrations with external services based on your growth metrics.",
   },
   {
     id: 4,
-    title: " Scalability on demand",
+    title: ". Scalability on demand",
     description:
       "We take scalability into account from the beginning of your SaaS software development project so that your app is able to adapt as you evolve.",
   },
   {
     id: 5,
-    title: " Security audit",
+    title: ". Security audit",
     description:
       "We test your system thoroughly before deployment to ensure that all stored data is well-protected and compliant with standards like GDPR or HIPAA.",
   },
   {
     id: 6,
-    title: " Smooth deployment",
+    title: ". Smooth deployment",
     description:
       "We take a tailored deployment approach to keep business disruption to a minimum, using DevOps to automate the process as much as possible.",
   },
@@ -1108,27 +1247,27 @@ export const imageBanner12 = {
 
 // <---- SwiperServices ----->
 
-
-
 // <---- MobileSwiper ---->
 
-export const MobileSwiperData ={
-  data:[
+export const MobileSwiperData = {
+  data: [
     {
       src: "/images/Jeff-Block-150x150.jpg",
-      name: 'Jeff Block',
-      title: 'VP of Process and Technology',
-      company: 'PotentiaMetrics, Inc.',
-      quote: "Itrex’s team are experts in their trade. The software development they provided was critical to advancing the project to the next level.",
-  },
-  {
+      name: "Jeff Block",
+      title: "VP of Process and Technology",
+      company: "PotentiaMetrics, Inc.",
+      quote:
+        "Itrex’s team are experts in their trade. The software development they provided was critical to advancing the project to the next level.",
+    },
+    {
       src: "/images/Daniel-Schuler-150x150.jpg",
-      name: 'Denial Schular',
-      title: 'CTO',
-      company: 'Hyginex',
-      quote: "When you hire them, you're actually going to get something valuable.",
-  },
-  {
+      name: "Denial Schular",
+      title: "CTO",
+      company: "Hyginex",
+      quote:
+        "When you hire them, you're actually going to get something valuable.",
+    },
+    {
       src: "/images/author-1.jpg",
       name: 'Ashley Lewis',
       title: 'Director of Product Management',

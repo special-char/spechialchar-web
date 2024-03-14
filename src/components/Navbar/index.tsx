@@ -1,10 +1,13 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import NavbarLogo from "../../../public/Navbar.svg";
+import NavbarLogo from "../../../public/icons/Navbar.svg";
 import DesktopDropdown from "../DesktopDropdown";
 import MobileNavbar from "../MobileNavbar";
 import { Header } from "@/utils/types";
 import { accordionItems } from "@/lib/constData";
+import Link from "next/link";
+import HeaderDesktop from "../HeaderDesktop";
+import { cn } from "@/lib/utils";
 
 const Navbar = ({ data }: Header) => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -21,19 +24,24 @@ const Navbar = ({ data }: Header) => {
   }, []);
   return (
     <header
-      className=" w-full z-10 fixed py-2  "
-      style={{
-        backgroundColor:
-          scrollPosition > 100 ? "rgba(0, 0, 0, 1)" : "rgba(0, 0, 0, 0)",
-      }}
+      className={cn(
+        " w-full z-10 fixed py-2  transition-all ease-in-out duration-500",
+        {
+          ["bg-black"]: scrollPosition > 100,
+          ["bg-transparent hover:bg-black "]: scrollPosition <= 100,
+        }
+      )}
     >
       <div className="flex justify-between items-center">
-        <div>
-          <NavbarLogo className="" />
-        </div>
+        <Link href="/">
+          <div className="lg:hidden">
+            <NavbarLogo className="" />
+          </div>
+        </Link>
         {/* <--webView---> */}
         <div className="hidden lg:block w-full">
-          <DesktopDropdown data={accordionItems} />
+          {/* <DesktopDropdown data={accordionItems} /> */}
+          <HeaderDesktop data={accordionItems} />
         </div>
         {/* <---Mobilview----> */}
         <div className="lg:hidden ">

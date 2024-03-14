@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import HomeAccord from "@/container/HomeAccord";
@@ -59,8 +58,12 @@ export default function Home() {
       <CareerPage5 data={careerpage5data}/>
       <CareerPage6 data={careerpage6data}/>
       <CareerPage7 data={careerpage7data}/>
+      <HomeBanner data={homeBannerdata} />
+      <Marque data={MarqueData} />
+      <HomeAccord />
+      <ProjectSec />
+      <Collabrate />
+      <ThinkSec />
     </>
   );
 }
-
-
