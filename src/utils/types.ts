@@ -1,3 +1,6 @@
+import { type } from "os";
+import { string } from "yup";
+
 export type FooterdataType = {
   data: {
     title: string;
@@ -48,7 +51,8 @@ export type Card1Type = {
 
 export type BannerType = {
   title: string;
-  button: string;
+  button1: string;
+  button2: string;
   description: string;
   imageurl: string;
 };
@@ -57,24 +61,33 @@ export type Header = {
     value: string;
     title: string;
     content: string;
+    link: string;
   };
 };
-  export type mobileServicesType={
-  data:{
-      id:number;
-      title:string;
-      description:string;
-  }
-  }
+export type mobileServicesType = {
+  data: {
+    id: number;
+    title: string;
+    description: string;
+  };
+};
 
-  export type latestThinkingType={
-    data:{
-      id:number;
-      title:string;
-      img:string;
-    }
-  }
-
+export type latestThinkingType = {
+  data: {
+    id: number;
+    title: string;
+    img: string;
+  };
+};
+export type MobileSwiperType = {
+  data: {
+    src: string;
+    name: string;
+    title: string;
+    company: string;
+    quote: string;
+  };
+};
 
 export type SwiperServicesData = {
   data: {
@@ -123,26 +136,42 @@ export type BgYellowType = {
   };
 };
 
-export type BgBannerType = {
+export type aboutBannerType = {
   data:{
     url:string;
-    title1:string;
-    title2:string;
-  }
+    title: string;
+    title2: string;
+    description: string;
+    subdescription : string;
+  };
 }
+export type serviceAccordiandataType = {
+  data: {
+    id: number;
+    image: string;
+    content: string;
+    title: string;
+    button: string;
+  };
+};
+
+export type BgBannerType = {
+  data: {
+    url: string;
+    title1: string;
+    title2: string;
+  };
+};
 
 export type SaasSectionType = {
-  data:[
-    title:string,
-    description:string,
-    section:{
-    id:number;
-    title:string;
-    descrition:string;
-  }
-  ]
-  
-}
+  data: {
+    id: number;
+    title1: string;
+    description1: string;
+    title: string;
+    description: string;
+  };
+};
 
 export type NowAskType = {
   data: {
@@ -220,3 +249,25 @@ export type HowModelType={
     
 }
 }
+export type imageAccordianDataType = {
+  data: {
+    image: string;
+    header: string;
+    text: string;
+  };
+};
+
+export type uiSectionType = {
+  data: {
+    title: string;
+    text: string;
+    id: number;
+    title1: string;
+    description: string;
+  };
+};
+
+export type PageBanner = {
+  title1: string;
+  title2: string;
+};
