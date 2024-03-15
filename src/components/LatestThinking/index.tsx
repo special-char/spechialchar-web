@@ -36,7 +36,7 @@ const Banner = ({ data }: latestThinkingType) => {
                   <div className="md:flex-1  gap-2">
                     <Link
                       href={x.Link}
-                      className=" leading-10 max-lg:text-heading2 text-4xl max-sm:text-xl font-bold"
+                      className=" leading-10 max-lg:text-heading2 text-4xl max-sm:text-subtitle1 font-bold"
                     >
                       {x.title}
                       <span className="text-blue-500">&rarr;</span>

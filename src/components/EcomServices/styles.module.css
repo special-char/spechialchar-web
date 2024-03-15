@@ -32,7 +32,7 @@
   .contentdiv{
     @apply flex max-lg:flex-1 w-full;
     & > .tabsContent{
-      @apply text-xl
+      @apply text-subtitle1
     } 
   }
   
