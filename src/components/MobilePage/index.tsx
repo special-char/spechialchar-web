@@ -2,42 +2,11 @@
 import React from "react";
 import ImageBanner from "../ImageBanner";
 import YellowBanner from "../YellowBanner";
-import { MarqueData } from "@/lib/constData";
+import { Data, MarqueData } from "@/lib/constData";
 import { MobilePageData } from "@/utils/types";
 import Marque from "../Marque";
 
-const Data = [
-  {
-    id: 1,
-    title1: "13+",
-    title2: "years in mobile application development",
-  },
-  {
-    id: 2,
-    title1: "300+",
-    title2: "top-tier software development experts",
-  },
-  {
-    id: 3,
-    title1: "100+",
-    title2: "millions of users enjoy our apps",
-  },
-  {
-    id: 4,
-    title1: "200+",
-    title2: "clients around the globe",
-  },
-  {
-    id: 5,
-    title1: "99%",
-    title2: "app reliability rate",
-  },
-  {
-    id: 6,
-    title1: "600+",
-    title2: "products delivered",
-  },
-];
+
 
 const MobilePage = ({ data }: MobilePageData) => {
   return (

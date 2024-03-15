@@ -5,7 +5,7 @@ import { aboutBannerType } from "@/utils/types";
 
 const AboutBanner = ({data}:aboutBannerType ) => {
   return (
-    <main className="bg-yellow-400 relative overflow-hidden h-screen -z-10">
+    <main className="bg-second relative overflow-hidden h-screen -z-10">
       <Image
         src={data.url}
         alt="image"
