@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { BannerType } from "@/utils/types";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Banner = ({
@@ -29,14 +30,14 @@ const Banner = ({
             {data.description}
           </div>
 
-          <div>
+          <Link href={"https://thespecialcharacter.graphy.com/"}>
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
                 {data?.button1} <span>{data?.button2}</span>
                 <span>&rarr;</span>
               </span>
             </Button>
-          </div>
+          </Link>
         </div>
         <div className="lg:relative flex justify-center items-center ">
           <Image

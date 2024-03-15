@@ -2,6 +2,7 @@
 import { HomeBannerdataType } from "@/utils/types";
 import React, { useState, useEffect } from "react";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 const HomeBanner = ({ data }: HomeBannerdataType) => {
   const [index, setIndex] = useState(0);
@@ -34,7 +35,7 @@ const HomeBanner = ({ data }: HomeBannerdataType) => {
             {data.subtitle}{" "}
             <span className="text-yellow-300">{values[index]}</span>
           </div>
-          <div className="">
+          <Link href={"https://thespecialcharacter.graphy.com/"} className="">
             <Button
               variant="default"
               size="sm"
@@ -42,7 +43,7 @@ const HomeBanner = ({ data }: HomeBannerdataType) => {
             >
               {data.button}
             </Button>
-          </div>
+          </Link>
         </div>
       </section>
     </main>

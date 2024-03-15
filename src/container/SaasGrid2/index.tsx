@@ -1,6 +1,7 @@
 import SaasSec from "@/components/SaasSec";
 import { Button } from "@/components/ui/button";
 import { saasSection, saasSection2 } from "@/lib/constData";
+import Link from "next/link";
 import React from "react";
 
 type Props = {};
@@ -14,14 +15,14 @@ const SaasGrid = (props: Props) => {
           <SaasSec data={item} />
         ))}
       </div>
-      <div className="py-10">
+      <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
         <Button>
           <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
             Talk to our <span>Saas experts</span>
             <span>&rarr;</span>
           </span>
         </Button>
-      </div>
+      </Link>
     </section>
   );
 };
