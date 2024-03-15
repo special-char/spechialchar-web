@@ -558,7 +558,7 @@ export const accordionItems = {
       value: "item-3",
       title: "Company",
       link: "#",
-      content: ["About", "Career", "How We Work"],
+      content: ["About", "Career", "How-We-Work"],
     },
     {
       value: "item-4",

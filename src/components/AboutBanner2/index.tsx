@@ -11,7 +11,7 @@ const AboutBanner2 = ({ data }: aboutBanner2Type) => {
       {aboutBanner2.section.map((item, i) => {
         return (
           <>
-            <div className="bg-second  ">
+            <div className="bg-second h-[80vh]">
               <div
                 className={cn(
                   item.id % 2 !== 0
@@ -19,7 +19,7 @@ const AboutBanner2 = ({ data }: aboutBanner2Type) => {
                     : "md:flex md:flex-1 justify-evenly max-sm:flex-wrap max-sm:flex-row"
                 )}
               >
-                <div className=" w-full sm:text-[40rem] max-sm:text-[20rem] max-md:justify-center flex  relative">
+                <div className=" w-full sm:text-[30rem] max-sm:text-[20rem] max-md:justify-center flex  relative">
                   {item.number}
                   <Image
                     src={item.url}
