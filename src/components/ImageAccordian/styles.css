@@ -1,37 +1,34 @@
 .image-accordion {
-    @apply flex  cursor-pointer;
-  }
-  
-  .image-accordion-item {
-    @apply relative overflow-hidden w-64 h-[500px]  flex items-end  transition duration-500;
-  }
-  
-  
-  .image-accordion :is(h2, p) {
-    @apply m-0;
-  }
-  
-  .image-accordion-item h2 {
-    @apply text-2xl font-light text-white;
-  }
-  
-  .image-accordion-item p {
-    @apply text-white;
-  }
-  
-  .image-accordion-item.active {
-    @apply w-[90rem] opacity-100;
-  }
-  
-  .image-accordion-item .content {
-    @apply absolute bottom-0 left-0 z-10 opacity-0 invisible p-[100px] gap-14 transition duration-200;
-  }
-  
-  .image-accordion-item.active .content {
-    @apply opacity-100 visible;
-  }
-  
-  .image-accordion-item img {
-    @apply absolute z-0 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  h-[100%] ;
-  }
-  
+  @apply flex max-lg:flex-wrap cursor-pointer;
+}
+
+.image-accordion-item {
+  @apply relative overflow-hidden w-[48rem] lg:w-64 h-[500px]    transition duration-500 max-lg:h-[60px];
+}
+
+.image-accordion-item p {
+  @apply text-white text-xl  font-medium ;
+}
+
+.image-accordion-item.active {
+  @apply lg:w-[90rem]  duration-700  opacity-100 max-lg:h-10 ;
+}
+
+.image-accordion-item .content {
+  @apply absolute invisible p-8  bottom-0 transition duration-200;
+}
+
+.image-accordion-item .content1 {
+  @apply absolute text-xl lg:p-5 p-4 lg:w-[600px] lg:h-[600px] lg:bottom-0 lg:text-3xl lg:font-bold text-white lg:-rotate-90;
+}
+
+.image-accordion-item.active .content1 {
+  @apply lg:p-8 max-lg:p-2 rotate-0 absolute text-xl top-0 lg:text-4xl lg:font-bold text-white;
+}
+
+.image-accordion-item.active .content {
+  @apply opacity-100 lg:visible;
+}
+.image-accordion-item img {
+  @apply absolute  object-cover top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  h-[100%] ;
+}
