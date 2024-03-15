@@ -8,7 +8,7 @@ type Props = {};
 const CloudAccordian = (props: Props) => {
   return (
     <section className="flex flex-col gap-y-16">
-      <div className="w-[60vw]">
+      <div className="lg:w-[60vw]">
         <div className="text-heading2 font-bold ">
           All-encompassing cloud computing consulting and implementation
           services

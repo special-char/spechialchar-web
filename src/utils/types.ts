@@ -357,16 +357,13 @@ export type PageBanner = {
 };
 
 export type HowBannerType = {
-  data:{
+  data: {
     url: string;
     title: string;
-    
-    desc:string;
-    desc1:string;
-  }
-    
- 
-  
+
+    desc: string;
+    desc1: string;
+  };
 };
 export type aboutBanner2Type = {
   data: {

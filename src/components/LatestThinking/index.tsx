@@ -17,7 +17,7 @@ const Banner = ({ data }: latestThinkingType) => {
   return (
     <>
       <section>
-        <h1 className="text-3xl font-bold ">Latest thinking</h1>
+        <h1 className="text-heading1 font-bold ">Latest thinking</h1>
 
         <div className="bg-background flex gap-4 md:items-center md:justify-between pt-6 max-md:pt-6 max-md:py-0">
           <Swiper
@@ -32,11 +32,11 @@ const Banner = ({ data }: latestThinkingType) => {
           >
             {latestThinkingData.data.map((x) => (
               <SwiperSlide className="h-full" key={x.id}>
-                <div className="flex bg-background max-md:flex-col-reverse">
-                  <div className="md:flex-1  gap-2">
+                <div className="flex bg-background max-lg:flex-col-reverse">
+                  <div className="md:flex-1 gap-2">
                     <Link
                       href={x.Link}
-                      className=" leading-10 max-lg:text-heading2 text-4xl max-sm:text-subtitle1 font-bold"
+                      className=" leading-10 max-lg:text-heading2 text-4xl max-sm:text-heading2 font-bold"
                     >
                       {x.title}
                       <span className="text-blue-500">&rarr;</span>

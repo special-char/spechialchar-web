@@ -9,7 +9,7 @@ type Props = {};
 const SaasGrid = (props: Props) => {
   return (
     <section>
-      <div className="grid lg:grid-cols-2 max-md:grid-cols-1 gap-10">
+      <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-10">
         {saasSection2.map((item) => (
           // <ServiceIcon data={item}/>
           <SaasSec data={item} />

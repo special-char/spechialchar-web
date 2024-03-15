@@ -7,7 +7,7 @@ type Props = {};
 const SaasService = () => {
   return (
     <section className="flex flex-col ">
-      <ul className="grid lg:grid-cols-2 px-4">
+      <ul className="grid md:grid-cols-2 px-4">
         <div className="">
           {listData1.data.map((i) => {
             return (

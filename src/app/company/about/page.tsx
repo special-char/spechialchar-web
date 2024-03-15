@@ -24,7 +24,7 @@ const AboutPage = (props: Props) => {
       <AboutCount />
       <OurClients />
       <AboutAccordian data={aboutAccordianData} />
-      <OurClients />
+
       <AboutBanner2 data={aboutBanner2} />
       <ImageBanner data={imageBanner2} />
       <LatestThinking data={latestThinkingData} />
