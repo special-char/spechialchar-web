@@ -13,10 +13,10 @@ import Link from "next/link";
 
 const Swiper1 = ({ data }: SwiperServicesData) => {
   return (
-    <div className="pl-10 py-10 ">
-      <section className="py-5 lg:pb-10 text-2xl font-bold pr-4 md:text-4xl lg:text-5xl lg:pr-44  ">
+    <section className=" py-10 bg-gray-100">
+      <div className="py-5 lg:pb-10 text-2xl font-bold pr-4 md:text-4xl lg:text-5xl lg:pr-44  ">
         {data.title}
-      </section>
+      </div>
       <Swiper
         modules={[Navigation, Pagination, A11y]}
         spaceBetween={10}
@@ -55,11 +55,11 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
             </SwiperSlide>
           ))}
         </div>
-        <section>
+        <div className="py-16">
           <SwiperNavButtons />
-        </section>
+        </div>
       </Swiper>
-    </div>
+    </section>
   );
 };
 

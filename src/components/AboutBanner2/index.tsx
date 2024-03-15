@@ -7,7 +7,7 @@ import React from "react";
 const AboutBanner2 = ({ data }: aboutBanner2Type) => {
   return (
     <section className="bg-second">
-      <div className="lg:text-8xl text-5xl font-bold">{data.heading}</div>
+      <div className="sm:text-7xl text-5xl font-bold">{data.heading}</div>
       {aboutBanner2.section.map((item, i) => {
         return (
           <>
@@ -26,10 +26,10 @@ const AboutBanner2 = ({ data }: aboutBanner2Type) => {
                     alt={"image"}
                     width={600}
                     height={600}
-                    className="absolute top-[40%]"
+                    className="absolute top-[30%]"
                   />
                 </div>
-                <div className="lg:text-4xl text-2xl sm:mt-96 h-full w-full ">
+                <div className="md:text-3xl text-2xl sm:mt-96 w-full ">
                   {item.title}
                 </div>
               </div>

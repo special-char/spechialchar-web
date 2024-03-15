@@ -8,7 +8,7 @@ import { Button } from "../ui/button";
 
 const HeaderDesktop = ({ data }: Header) => {
   return (
-    <div className="h-full w-full flex flex-col  justify-between pt-3">
+    <div className="h-full w-full flex flex-col  justify-between">
       <div className="flex justify-between items-start">
         <Link href="/">
           <div>
@@ -28,7 +28,7 @@ const HeaderDesktop = ({ data }: Header) => {
                 <ChevronDownIcon className="mt-1 transition-transform duration-300 transform group-hover:rotate-180 hover:text-yellow-300" />
               )}
             </div>
-            <ul className="text-white top-full left-0 mt-1 max-h-0 overflow-hidden transition-all duration-300 group-hover:max-h-screen flex flex-col gap-y-4 pt-4 ">
+            <ul className="text-white top-full left-0 mt-1 max-h-0 overflow-hidden transition-all duration-300 group-hover:max-h-screen flex flex-col gap-y-4 pt-2">
               {item?.content?.map((itemContent, subindex) => (
                 <Link
                   key={subindex}
@@ -36,7 +36,7 @@ const HeaderDesktop = ({ data }: Header) => {
                     subindex
                   ].toLocaleLowerCase()}`}
                 >
-                  <span className="hover:text-yellow-300  text-base flex flex-col ">
+                  <span className="hover:text-yellow-300  text-base flex flex-col flex-wrap">
                     {itemContent}
                   </span>
                 </Link>

@@ -1918,7 +1918,7 @@ export const edAccordiandata = {
     {
       id: 1,
       image: "/icons/atom-symbol.svg",
-      title: "Communication technology",
+      title: "Communication ",
       content:
         "Leveraging live chats, IP telephony, and videoconferencing, we offset the lack of in-person interaction and make learning more accessible",
     },
@@ -1951,7 +1951,7 @@ export const edAccordiandata1 = {
     {
       id: 2,
       image: "/icons/atom-symbol.svg",
-      title: "Augmented and virtual reality",
+      title: "Virtual reality",
       content:
         "Take advantage of VR and AR solutions for headsets and mobile phones and tap in comprehensive data visualizations, intelligent simulations of real-world experiences, and immersive learning scenarios",
     },
@@ -2115,13 +2115,12 @@ export const caseBanner = {
   title1: "Our latest challenges",
 };
 
-
 export const howbanner = {
   url: "/images/CareersBanner.webp",
   title: "How we can work with you",
   desc: "Team up with ITRex at any stage of your project, choosing the engagement model that fits best your project scope and business priorities.",
-desc1: "We can build your product on the Time & Materials, Fixed Price, or Dedicated Team basis using agile or waterfall depending on your project specifics.",
-
+  desc1:
+    "We can build your product on the Time & Materials, Fixed Price, or Dedicated Team basis using agile or waterfall depending on your project specifics.",
 };
 export const aboutBanner2 = {
   heading: "  We live by powerfull values:",
@@ -2681,7 +2680,7 @@ export const cloudAccordiandata1 = {
     {
       id: 1,
       image: "/icons/atom-symbol.svg",
-      title: "Cloud Optimization",
+      title: "Cloud Optimization and Consulting",
       content:
         "We analyze your cloud infrastructure, detect under- and over-provisioned instances and idle resources, and identify security gaps to remove performance bottlenecks, achieve 99.9% uptime, and lower your cloud computing costs",
     },

@@ -10,9 +10,11 @@ const CloudGrid2 = (props: Props) => {
       <section>
         {cloudgrid.data.map((i) => {
           return (
-            <div className="flex justify-between my-10 pb-10 border-b-2 border-b-gray-200">
-              <div className="font-bold text-xl w-60">{i.title}</div>
-              <div className="text-gray-400 text-xl w-[40rem]">
+            <div className="flex max-sm:flex-col gap-5 justify-between my-10 pb-10 border-b-2 border-b-gray-200">
+              <div className="font-bold md:text-heading4 text-heading3 w-60">
+                {i.title}
+              </div>
+              <div className="text-gray-400 text-xl lg:w-[40rem] md:w-[30rem]">
                 {i.description}
               </div>
             </div>

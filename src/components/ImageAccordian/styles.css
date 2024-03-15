@@ -19,7 +19,7 @@
 }
 
 .image-accordion-item .content1 {
-  @apply absolute text-xl lg:p-5 p-4 lg:w-[600px] lg:h-[600px] lg:bottom-0 lg:text-3xl lg:font-bold text-white lg:-rotate-90;
+  @apply absolute text-xl lg:p-5 p-4 lg:w-[600px] lg:h-[600px] lg:bottom-0 lg:text-3xl font-bold text-white lg:-rotate-90;
 }
 
 .image-accordion-item.active .content1 {

@@ -10,10 +10,8 @@ type Props = {};
 const SaasGrid = ({ data }: SaasSectionType) => {
   return (
     <section>
-      <div className="flex flex-wrap w-[75%]">
-        <div className="text-4xl font-extrabold">
-          {data?.title}
-        </div>
+      <div className="flex flex-wrap lg:w-[75%]">
+        <div className="text-4xl font-extrabold">{data?.title}</div>
         <div className=" text-2xl max-md:text-lg py-10 font-light">
           {data?.description}
         </div>

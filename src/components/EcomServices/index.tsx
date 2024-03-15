@@ -36,7 +36,7 @@ export default function Index({ data }: mobileServicesType) {
       </div>
       <div>
         <Button variant={"secondary"}>
-          <span>Hire mobile app devalopers &rarr;</span>
+          <span>Contact us &rarr;</span>
         </Button>
       </div>
     </section>
