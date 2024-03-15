@@ -1,4 +1,3 @@
-
 import { serviceBox } from "@/lib/constData";
 import React from "react";
 import { Button } from "../ui/button";
@@ -6,7 +5,7 @@ import { Button } from "../ui/button";
 const ServiceBox = () => {
   return (
     <>
-      <section className="bg-blue-100 border-r-2 m-10 px-24 lg: py-20  p-4 rounded-lg ">
+      <section className="bg-blue-100 border-r-2 m-10 lg:px-24 lg: py-20  max-md:p-4 rounded-lg ">
         <ul className="list-square pl-7 grid lg:grid-cols-2 lg:px-1 gap-4 md:grid-cols-2">
           {serviceBox.map((i) => (
             <li key={i.id} className="text-lg mb-2 ">

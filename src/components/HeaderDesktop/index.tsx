@@ -8,7 +8,7 @@ import { Button } from "../ui/button";
 
 const HeaderDesktop = ({ data }: Header) => {
   return (
-    <div className="h-full w-full  ">
+    <div className="h-full w-full flex flex-col  justify-between pt-3">
       <div className="flex justify-between items-start">
         <Link href="/">
           <div>
@@ -16,18 +16,20 @@ const HeaderDesktop = ({ data }: Header) => {
           </div>
         </Link>
         {accordionItems.data.map((item, index) => (
-          <div key={index} className="flex flex-col pt-2 group">
-            <div className="flex text-white hover:text-yellow-300 gap-x-2 text-xl">
+          <div key={index} className="flex flex-col pt-3 group">
+            <div className="flex text-white hover:text-yellow-300 gap-x-1  text-xl">
               <Link
-                href={`${item.link.toLowerCase()}`}
+                href={`${item.link?.toLowerCase()}`}
                 className="cursor-pointer"
               >
                 {item.title}
               </Link>
-              <ChevronDownIcon className="mt-1 transition-transform duration-300 transform group-hover:rotate-180 hover:text-yellow-300" />
+              {item?.content && (
+                <ChevronDownIcon className="mt-1 transition-transform duration-300 transform group-hover:rotate-180 hover:text-yellow-300" />
+              )}
             </div>
-            <ul className="text-white top-full left-0 mt-1 max-h-0 overflow-hidden transition-all duration-300 group-hover:max-h-screen flex flex-col gap-y-4 pt-4">
-              {item.content.map((itemContent, subindex) => (
+            <ul className="text-white top-full left-0 mt-1 max-h-0 overflow-hidden transition-all duration-300 group-hover:max-h-screen flex flex-col gap-y-4 pt-4 ">
+              {item?.content?.map((itemContent, subindex) => (
                 <Link
                   key={subindex}
                   href={`/${item.title.toLowerCase()}/${item.content[
@@ -42,24 +44,25 @@ const HeaderDesktop = ({ data }: Header) => {
             </ul>
           </div>
         ))}
-        <Link href="/ourthing">
-          <ul className="text-white hover:text-yellow-300 text-xl pt-2">
-            Our Thing
+        {/* <Link href="/ourthinking">
+          <ul className="text-white hover:text-yellow-300 text-xl pt-3">
+            Our Thinking
           </ul>
         </Link>
-        <Link href="/casestudio">
-          <ul className="text-white hover:text-yellow-300 text-xl pt-2">
-            Case Studio
+        <Link href="/casestudies">
+          <ul className="text-white hover:text-yellow-300 text-xl pt-3">
+            Case Studies
           </ul>
-        </Link>
-
-        <Button
-          variant={"outline"}
-          size={"xl"}
-          className=" py-1 px-4 text-white "
-        >
-          Contact Us
-        </Button>
+        </Link> */}
+        <div className="pt-1">
+          <Button
+            variant={"outline"}
+            size={"xl"}
+            className=" py-1 px-4 text-white "
+          >
+            Contact Us
+          </Button>
+        </div>
       </div>
     </div>
   );

@@ -63,14 +63,14 @@ const MobileNavbar = ({data}:Header) => {
             <div className="flex flex-col">
               <Link
                 href="/ourthing"
-                className="text-white font-bold hover:text-yellow-300 text-xl md:text-2xl py-3"
+                className="text-white font-bold hover:text-second text-subtitle1 md:text-2xl py-3"
               >
                 Our Things
               </Link>
 
               <Link
                 href="/casestudio"
-                className="text-white font-bold hover:text-yellow-300 text-xl md:text-2xl py-3"
+                className="text-white font-bold hover:text-second text-subtitle1 md:text-2xl py-3"
               >
                 Case Studio
               </Link>

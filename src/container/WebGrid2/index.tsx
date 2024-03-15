@@ -28,7 +28,10 @@ const WebGrid2 = (props: Props) => {
       </div>
       <div className="py-10">
         <Button>
-          Contect Us<span>&rarr;</span>
+          <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+            Schedule a free <span>descussion </span>
+            <span>&rarr;</span>
+          </span>
         </Button>
       </div>
     </section>

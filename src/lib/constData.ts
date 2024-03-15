@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const homeBannerdata = {
   title: "Next-gen enterprise",
   title2: "software development company",
@@ -536,19 +538,36 @@ export const accordionItems = {
       value: "item-1",
       title: "Services",
       link: "services",
-      content: ["Mobile", "Web", "Saas", "Back-End", "Cloud-Devops", "Ui-&-Ux"],
+      content: [
+        "Mobile",
+        "Web",
+        "Saas",
+        "Back-End",
+        "Cloud-Devops",
+        "UiUx-Design",
+      ],
     },
     {
       value: "item-2",
       title: "Industry",
       link: "#",
-      content: ["EdTech & eLearning", "Ecommerce"],
+      content: ["EdTech-eLearning", "Ecommerce"],
     },
     {
       value: "item-3",
       title: "Company",
       link: "#",
       content: ["About", "Career", "How Is Work"],
+    },
+    {
+      value: "item-4",
+      title: "Our Thinking",
+      link: "/ourthinking",
+    },
+    {
+      value: "item-5",
+      title: "Case Studies",
+      link: "/casestudies",
     },
   ],
 };
@@ -649,6 +668,15 @@ export const serviceicon2 = {
         "We draw on our extended reality and blockchain development expertise to create metaverse apps of all sizes and levels of complexity. Whether you need an augmented reality app with Snapchat-like filters or a marketplace to trade NFTs, we’re the right software engineering firm to undertake your project!",
     },
   ],
+};
+
+export const aboutBannerdata = {
+  url: "/images/AboutBanner1.webp",
+  title: "Your innovation",
+  title2: "partner",
+  description:
+    "We get a buzz out of unlocking the power of emerging tech for both",
+  subdescription: " big-name enterprises and ambitious startups.",
 };
 
 export const mobiletabdata = {
@@ -810,19 +838,23 @@ export const latestThinkingData = {
   data: [
     {
       id: 1,
-      title: "Waterfall vs. Agile: how to choose the right approach",
+      title: "Waterfall vs. Agile: how to choose the right",
       img: "/images/latestThinking1.webp",
+
+      Link: "./",
     },
     {
       id: 2,
       title: "What self-service BI is and how to do it right",
       img: "/images/latestThinking2.webp",
+      Link: "./",
     },
     {
       id: 3,
       title:
-        "AI-powered augmented analytics: capabilities and benefits for business→",
+        "AI-powered augmented analytics: capabilities and benefits for business",
       img: "/images/latestThinking3.webp",
+      Link: "./",
     },
   ],
 };
@@ -1059,6 +1091,125 @@ export const YellowBannerData3 = {
     "We build impactful SaaS applications using our road-tested six-pillar approach:",
 };
 
+export const nowask = [
+  {
+    id: 1,
+    title:
+      "Does being part of a shoddy project bother you so much that you have to speak up?",
+  },
+  {
+    id: 2,
+    title:
+      "Do you care about your client, your project, your decisions and your team?",
+  },
+  {
+    id: 3,
+    title: "Do you get a buzz out of solving hard problems?",
+  },
+];
+
+export const career = {
+  title1: "Flexibility and balance",
+  title2:
+    "We believe in hard work. That means you honestly give your best effort. It doesn’t mean you give every waking hour.",
+  desc1:
+    "Our crew is motivated and accountable, so they earn a lot of trust. Flexible and remote working arrangements are no problem.",
+  desc2:
+    "If you’re so stuck on a hard problem that you need to switch gears, head to the gym to work out, or to the Playstation to shoot bad guys.",
+};
+
+export const career2 = {
+  title1: "Opportunity and growth",
+
+  desc1:
+    "We expect you to work hard on difficult challenges, among high-level professionals who support you. You will take hard decisions, with permission to make mistakes and learn from them. If you have the attitude to make this work, your skills will level up fast and you’ll feel proud of how you grow.",
+  desc2: "We offer language classes and career progression tracks too.",
+};
+
+export const careercity = {
+  title: "Build a new life in a new city",
+  description:
+    "If you’d like, you can relocate to Poland, Georgia, or Armenia. We’ll help you and your family with the legal, transport, health care, and a home.",
+  section: [
+    {
+      id: 1,
+      url: "/images/city1.webp",
+    },
+    {
+      id: 2,
+      url: "/images/city2.webp",
+    },
+    {
+      id: 3,
+      url: "/images/city3.webp",
+    },
+  ],
+};
+
+export const careercap = {
+  title: "Our capabilities include:",
+
+  section: [
+    {
+      id: 1,
+      url: "/icons/atom-symbol.svg",
+      desc: "Artificial intelligence, machine learning and big data",
+    },
+    {
+      id: 2,
+      url: "/icons/atom-symbol.svg",
+      desc: "Embedded systems and the Internet of Things",
+    },
+    {
+      id: 3,
+      url: "/icons/atom-symbol.svg",
+      desc: "Virtual reality, augmented reality and mixed reality",
+    },
+
+    {
+      id: 4,
+      url: "/icons/atom-symbol.svg",
+      desc: "Intelligent business automation",
+    },
+  ],
+};
+
+export const careermany = {
+  title: "Many say they want this",
+  desc: "Some even mean it.",
+  desc1:
+    "If you feel like you’d thrive at ITRex, we’d love to hear from you. Please browse through our vacancies",
+  desc2: "and see if anything suits you.",
+};
+
+export const careercv = {
+  title: "Didn’t find a suitable job?",
+};
+
+export const howmodel = {
+  heading: "Our engagement models",
+  par: "When selecting an optimum engagement model for our clients, we discuss a lot of details, from their primary business objective and project scope to the level of flexibility and control they require. Our aim is to come up with a solution that balances cost efficiency, performance, and flexibility best.",
+  section: [
+    {
+      id: 1,
+      title: "Time & Materials",
+      desc: "Under the Time & Materials model, we can build your software product either in a linear sequence of stages or in increments through constant communication with you. You pay only for actual work done on daily or hourly rates per specialist.",
+      desc1: "Show more",
+    },
+    {
+      id: 2,
+      title: "Fixed Price",
+      desc: "With this model, we build your software product for a price fixed upfront for the entire project. This often involves planning and estimating the entire project scope before development starts.",
+      desc1: "Show more",
+    },
+    {
+      id: 3,
+      title: "Dedicated Team",
+      desc: "Alternatively, you can simply hire our highly skilled engineers to fill in specific in-house skill gaps, or go for a full-fledged dedicated and self-managed team. You get professionals that integrate seamlessly into your environment, bring in a fresh angle and ideas, and deliver top results with in-house-like dedication.",
+      desc1: "Show more",
+    },
+  ],
+};
 export const saasSection2 = [
   {
     id: 1,
@@ -1197,6 +1348,954 @@ export const imageAccordianData = {
     },
   ],
 };
+export const careerbannerdata = {
+  url: "/images/careerBanner.webp",
+  title1: "Build things you’re",
+  title2: "proud of",
+  title3: "Join a crew as motivated as you. Make cool stuff for global brands.",
+  title4: "Level up, learn, and grow.",
+};
+
+export const careerpage2data = {
+  src: "/images/Career-who-we-are.webp",
+  title: "Who we are",
+  des1: "ITRex is more than 300 technology professionals based in Poland,Georgia, Ukraine, Armenia, and the USA. We write software, craft strategies, and give expert advice.",
+  des2: "We solve problems and drive growth for our clients. They’ve included big names like Walmart, Take a Swing at Cancer, Procter & Gamble, Dun & Bradstreet, Warner Bros., 21st Century Fox, and the Dollar Shave Club.",
+};
+
+export const CareerPage3data = {
+  title: "Our SaaS development services let you win big",
+  data: [
+    {
+      id: 1,
+      src: "/icons/p&g.svg",
+      description: "Artificial intelligence, machine learning and big data",
+    },
+    {
+      id: 2,
+      src: "/icons/p&g.svg",
+      description: "Embedded systems and the Internet of Things",
+    },
+    {
+      id: 3,
+      src: "/icons/p&g.svg",
+      description: "Virtual reality, augmented reality and mixed reality",
+    },
+    {
+      id: 4,
+      src: "/icons/p&g.svg",
+      description: "Intelligent business automation",
+    },
+  ],
+};
+
+export const careerpage4data = {
+  title: "Who should apply",
+  title1: "Look,",
+  title2: "this is not for everyone.",
+  desc1:
+    "If you only want a salary and don’t much care about how good your projects are, you’ll probably hate it here.",
+  desc2:
+    "If you hide behind policies and processes because, secretly, you’re terrified of owning ideas or decisions, you too will think it sucks.",
+  src: "/images/career-who-should-apply.webp",
+};
+
+export const careerpage5data = {
+  title: "Now ask yourself (and be honest)",
+  desc1:
+    "Does being part of a shoddy project bother you so much that you have to speak up?",
+  desc2:
+    "Do you care about your client, your project, your decisions and your team?",
+  desc3: "Do you get a buzz out of solving hard problems?",
+};
+
+export const careerpage6data = {
+  src: "/images/Career-honesty-1.webp",
+  title: "Honesty, transparency and family spirit",
+  desc1:
+    "We strive always to be honest with each other and the client. That’s more than being truthful, it’s about not dodging responsibility or concealing important things.",
+  desc2:
+    "We aren’t afraid to argue. Because we care about our work, it happens. We disagree like family; we help and support each other no matter what.",
+  desc3:
+    " Our managers live by this too. You’re never too junior to ask questions or to have an opinion.",
+};
+
+export const imageBanner17 = {
+  url: "/images/soft9.webp",
+  title1: "Expert consulting on cloud-native",
+  title2: "and cloud-agnostic solutions",
+};
+
+export const YellowBannerData5 = {
+  description:
+    "We consult on and build IaaS, PaaS, and SaaS solutions to let you capture the cloud value with the most fitting implementation. To balance technology, risks, and costs, while keeping your business goals in focus, our cloud computing consultants orchestrate multiple deployment models.",
+};
+
+export const cloudBox = [
+  {
+    id: 1,
+    title: "Private cloud.",
+    discription:
+      "Securely govern sensitive data, keep your operations under control, and enjoy wider opportunities for customization",
+  },
+  {
+    id: 2,
+    title: "Public.",
+    discription:
+      "Provide easily accessible cloud computing consulting and implementation services and launch scalable solutions without infrastructure provisioning and maintenance headache",
+  },
+  {
+    id: 3,
+    title: "Hybrid.",
+    discription:
+      "Achieve great agility and reliability in handling data and resources, balancing the advantages of on- and off-premises deployment",
+  },
+  {
+    id: 4,
+    title: "Multicloud.",
+    discription:
+      "Avoid vendor lock-in and take advantage of best-of-breed cloud solutions to expand your service portfolio and business reach",
+  },
+  {
+    id: 5,
+    title: "Distributed cloud.",
+    discription:
+      "Target location-dependent use cases, eliminate latency issues, and massively reduce the risk of downtime",
+  },
+];
+
+export const cloudgrid = {
+  data: [
+    {
+      id: 1,
+      title: "IT infrastructure assessment",
+      description:
+        "Our cloud computing consultants get a grip on your critical infrastructure, application dependencies, estimated costs, and business objectives to lay out cloud use cases and optimization opportunities and pave your way to risk-free cloud adoption",
+    },
+    {
+      id: 2,
+      title: "Planning",
+      description:
+        "Our solution architects and engineers design a future-proof, secure, and compliant cloud architecture, choose an optimal tech stack, and come up with a detailed cloud adoption plan in line with your business objectives",
+    },
+    {
+      id: 3,
+      title: "Development and deployment",
+      description:
+        "We oversee cloud deployment or, if needed, implement your cloud infrastructure, setting up best practices to speed up and even automate the development process",
+    },
+    {
+      id: 4,
+      title: "Optimization",
+      description:
+        "If you already have a cloud environment in place and seek to optimize resource consumption, improve compliance or cut operating costs, we can do that for you, providing cloud infrastructure consulting and optimization",
+    },
+    {
+      id: 5,
+      title: "Ongoing support",
+      description:
+        "We will track and optimize cloud resource usage and spend, extend your cloud services portfolio, perform compliance checks, and provide employee trainings to keep your cloud workflows swift, secure, and aligned with your business processes",
+    },
+  ],
+};
+
+export const imageBanner18 = {
+  url: "/images/soft10.webp",
+  title1: "Every aspect of cloud adoption,",
+  title2: "taken care of",
+};
+
+export const YellowBannerData6 = {
+  description:
+    "From analyzing your business needs and providing cloud strategy consulting all the way to employee training, we dedicate to proactively delivering quality service throughout cooperation. Our business analysts work hand in hand with solution architects to make your cloud adoption and usage journey as smooth as possible.",
+};
+
+export const imageBanner19 = {
+  url: "/images/soft10.webp",
+  title1: "Cloud computing consulting with The Special Char:",
+  title2: "our value proposition",
+};
+
+export const YellowBannerData7 = {
+  description:
+    "Our mission as a cloud consulting firm is to help you undergo digital transformation with reasonable effort and little to no risk. Our cloud consulting services are dedicated to making your cloud infrastructure drive tangible business value, not costs.",
+};
+
+export const cloudBox2 = [
+  {
+    id: 1,
+    title: "Vendor-agnostic.",
+    discription:
+      "We are not tied to any specific cloud platform provider, so we only resort to those cloud tools and technologies that are a perfect fit for your project and workflows.",
+  },
+  {
+    id: 2,
+    title: "Top cloud architects with niche skills.",
+    discription:
+      "With a 300-strong team, we bring in professional BAs, skilled cloud solution architects and DevOps engineers, as well as R&D department to fill any talent gaps.",
+  },
+  {
+    id: 3,
+    title: "Diverse expertise.",
+    discription:
+      "A cloud computing consulting company with 13+ years of experience, we provide cloud consultancy and deliver software for ecommerce, fintech, healthcare, logistics, real estate, and many other industries",
+  },
+  {
+    id: 4,
+    title: "Proven track record.",
+    discription:
+      "We’ve successfully completed 600+ projects and served 200+ satisfied customers across the globe",
+  },
+];
+
+export const imageBanner20 = {
+  url: "/images/soft11.webp",
+  title1: "Technology",
+  title2: "stack",
+};
+
+export const cloudSocial = [
+  {
+    id: 1,
+    url: "/icons/cloudimage1.svg",
+  },
+  {
+    id: 2,
+    url: "/icons/cloudimage2.svg",
+  },
+  {
+    id: 3,
+    url: "/icons/cloudimage3.svg",
+  },
+  {
+    id: 4,
+    url: "/icons/cloudimage4.svg",
+  },
+  {
+    id: 5,
+    url: "/icons/cloudimage5.svg",
+  },
+  {
+    id: 6,
+    url: "/icons/cloudimage6.svg",
+  },
+  {
+    id: 7,
+    url: "/icons/cloudimage1.svg",
+  },
+];
+
+export const banner6 = {
+  imageurl: "/images/uiBanner.webp",
+  title: "End-to-end UI/UX design services",
+  button1: "hire Ui/Ux",
+  button2: "designers",
+  description:
+    "The Special Char offers a whole gamut of UI/UX design services to transform unremarkable mobile apps, websites, dashboards, and cyber-physical systems into tech solutions that delight users and bring tangible business results",
+};
+
+export const uiGrid = {
+  title: "UI/UX design services that set us apart",
+  text: "Whether you’re an enterprise on the verge of digital transformation or a SaaS startup preparing to roll out a new product, there’s a strong reason for you to partner with our UI/UX design company. Here’s what we can do to tell your brand’s story, make it stand out among the competition, and build an enduring bond with your clients:",
+  section: [
+    {
+      id: 1,
+      title1: "User Research",
+      description:
+        "Our human-centered UI/UX design services start with rigorous user research. We collaborate with your internal and external stakeholders to define functional and non-functional requirements of a software product, benchmark competitors, and create low-fidelity prototypes",
+    },
+    {
+      id: 2,
+      title1: "Prototyping",
+      description:
+        "To validate the assumptions made in the previous step, our UI/UX design services team will develop high-fidelity prototypes using battle-proven tools. These prototypes will go through multiple iterations until the proposed concept fully meets your and your customers’ needs",
+    },
+    {
+      id: 3,
+      title1: "UX Design",
+      description:
+        "Our UX design services offering includes customer journey maps, user flows, and diagram creation. This helps us figure out how and in what context users will interact with UI elements and whether they correlate with the desired solution features. We’ll assist you with developing complete design guidelines for your brand, too",
+    },
+    {
+      id: 4,
+      title1: "UI design",
+      description:
+        "ITRex provides a whole range of UI design services. Typography, color schemes, layouts, UI elements, and custom imagery — there’s nothing we can’t do. We also guarantee close cooperation between the UI/UX specialists and software engineers to develop software solutions up to spec and on budget and improve your time to market",
+    },
+    {
+      id: 5,
+      title1: "UI/UX audit and consulting",
+      description:
+        "Our UI/UX design company treats user experience as a cornerstone of a customer acquisition and retention strategy. To help you fine-tune yours, we offer expert UI/UX audit and consulting services: usability audits of your software solutions, buyer journey analysis, A/B tests preceding app redesign and functionality updates, and more!",
+    },
+    {
+      id: 6,
+      title1: "Usability testing",
+      description:
+        "Throughout the project, we encourage clients to take advantage of our usability testing services and learn how target customer segments will navigate your apps in real life. These insights will help you eliminate unnecessary steps in the digital customer journey, allowing users to perform intended actions faster",
+    },
+  ],
+};
+
+export const imageBanner21 = {
+  url: "/images/soft.webp",
+  title1: "What our UI/UX design company",
+  title2: "does best",
+};
+
+export const YellowBannerData8 = {
+  description:
+    "Your software solution can be complex beneath the surface. Its UI/UX design cannot. As an IT company that adheres to this principle no matter what, we build consistency, responsiveness, and usability into every product we create:",
+};
+
+export const uiGrid2 = [
+  {
+    id: 1,
+    title1: "Enterprise software",
+    description:
+      "If you’re looking to hire a UI/UX designer to revamp the look and feel of your CRM, ERP, HRM, MarTech, and FinTech solutions, you’ve come to the right place. When delivering UI/UX design services to clients from the enterprise segment, we ensure that every employee, regardless of their tech background, can effortlessly use the system and become more productive",
+  },
+  {
+    id: 2,
+    title1: "Mobile Apps",
+    description:
+      "Considering mobile applications a key point in the digital buyer journey, our UI/UX company empowers your customers to perform intended actions, be it logging in via a social media account or making a purchase, faster and in a hassle-free manner. Get in touch to learn more about our mobile UI/UX design services!",
+  },
+  {
+    id: 3,
+    title1: "Web Apps",
+    description:
+      "Need a high-conversion eCommerce website, web portal, or a single-page web application updating content in real time? We’re here to help! Our UI/UX web design services team will go the extra mile to create apps that look and perform well across different browsers and screen sizes",
+  },
+  {
+    id: 4,
+    title1: "Dashboards",
+    description:
+      "A UI/UX company with solid data visualization expertise, ITRex designs sleek cloud dashboards and interfaces for self-service BI and data analytics tools like no other. We’ll implement custom logic, filters, charts, and collaboration tools to help you interpret business data and make better decisions",
+  },
+  {
+    id: 5,
+    title1: "Immersive tech solutions",
+    description:
+      "Digital objects that infiltrate your camera feed in augmented reality apps. Immersive sounds for games and mental health applications. Metaverses populated with realistic 3D avatars. Our UI/UX design company has done it all — and you can lean on our experts to take your clients’ experience to a whole new dimension!",
+  },
+  {
+    id: 6,
+    title1: "Embedded interfaces",
+    description:
+      "We augment our IoT and AI development efforts with professional UI/UX services. To that end, we create robust embedded solutions, including human-machine interfaces (HMIs), voice user interfaces (VUIs), and software supporting cross-device interactions. Whatever touchpoints your user journey maps incorporate, the ITRex team knows how to take the friction out of user experience",
+  },
+];
+
+export const imageBanner22 = {
+  url: "/images/soft12.webp",
+  title1: "How we deliver our",
+  title2: "UI/UX design services",
+};
+
+export const YellowBannerData9 = {
+  description:
+    "The Special Char Group is a full-stack software engineering company. That’s why our UI/UX designers don’t have to wear multiple hats on a project. Instead, they join forces with skilled business analysts, front-end developers, manual and automation testing specialists, and software architects to deliver best-in-class UI/UX design and development services:",
+};
+
+export const banner7 = {
+  imageurl: "/images/edBanner.webp",
+  title: "eLearning software development services",
+  button1: "Contact",
+  button2: "Us",
+  description:
+    "We develop powerful educational solutions that turn in-person and online learning into a diverse, engaging, and results-driven experience",
+};
+
+export const edSection = {
+  title: "We craft educational software for every need",
+  text: "We help our clients in K-12, postsecondary, and corporate segments to redefine the way they teach, learn, communicate, and operate. EdTech startups and educational software companies, in turn, use our eLearning software development expertise to win the market with next-gen features that drive online education way forward. K-12",
+  section: [
+    {
+      id: 1,
+      title1: "K-12",
+      description:
+        "We help K-12 leaders unleash the power of technology-assisted learning with R&D and consulting services and deliver turnkey educational software that automates workflows, simplifies student performance management, and makes knowledge delivery more efficient and interactive",
+    },
+    {
+      id: 2,
+      title1: "EdTech and eLearning companies",
+      description:
+        "We can fill in the skills gap in your knowledge-intensive project and enrich your eLearning software with AI-driven data analytics, natural language processing, teleconferencing, as well as augmented and virtual reality capabilities to attract more customers with stellar functionality and user experience",
+    },
+    {
+      id: 3,
+      title1: "Colleges and universities",
+      description:
+        "Along with educational technology consulting services, we craft innovative educational software solutions from scratch, so that you can attract the right students, personalize learning materials, optimize daily operations, and tap into useful insights about the school’s academic performance",
+    },
+    {
+      id: 4,
+      title1: "Corporations and nonprofits",
+      description:
+        "We can enhance your existing learning management software or develop a corporate eLearning solution from scratch. We deep dive into the specifics of your business and tailor our eLearning solutions to match them, supporting your corporate training programs with the right tech",
+    },
+  ],
+};
+
+export const imageBanner23 = {
+  url: "/images/soft13.webp",
+  title1: "Building upon an extensive eLearning",
+  title2: "software development know-how",
+};
+
+export const YellowBannerData10 = {
+  description:
+    "Applying our expertise in providing EdTech and eLearning software development services and setting up security safeguards regarding student data management, we help you make knowledge delivery instant, engaging, and intuitive while ensuring compliance with FERPA, COPPA, CIPA, GLBA, and other relevant standards.",
+};
+
+export const edSection1 = [
+  {
+    title: "Back-end development",
+    description:
+      "We are well-versed in custom web development, cloud computing, and DevOps, as well as data acquisition, management, and analysis, and deliver functional and high-performing educational software solutions that run without glitches",
+  },
+  {
+    title: "Front-end development",
+    description:
+      "We craft all kinds of interfaces, including cloud dashboards, voice interfaces, as well as educational web and mobile apps, so you can reach out to more learners with highly accessible and easy-to-use software",
+  },
+  {
+    title: "Reliable integration",
+    description:
+      "We focus on creating coherent learning environments and connect your education technology solutions with other applications and devices within your IT infrastructure, as well as third-party tools and service",
+  },
+  {
+    title: "End-to-end software testing",
+    description:
+      "We build visualizations that tell stories in a simple way, enabling informed decision-making and solid ad-hoc data analysis. Take your next big step forward with AR/VR or voice assistants that will deliver convenient access to all of your data",
+  },
+];
+
+export const imageBanner24 = {
+  url: "/images/soft14.webp",
+  title1: "Delivering custom eLearning solutions",
+  title2: "to make practice perfect",
+};
+
+export const YellowBannerData11 = {
+  description:
+    "Technologies keep reshaping every aspect of our daily lives, and education needs innovative tools to make offline and online learners’ practice more efficient. An eLearning software development company with a decade of experience, we design and develop high-performing, full-fledged solutions for students, educators, and instructional designers.",
+};
+
+export const edSection2 = [
+  {
+    title: "LMS and LCMS",
+    description:
+      "We are well-versed in custom web development, cloud computing, and DevOps, as well as data acquisition, management, and analysis, and deliver functional and high-performing educational software solutions that run without glitches",
+  },
+  {
+    title: "School management software",
+    description:
+      "Increase operational efficiency and drive cost savings with school management and school ERP software. Our educational solutions help manage daily administrative tasks, such as fee and staff payroll management, accounting and financial management, library and inventory management, school transportation tracking, and many more",
+  },
+  {
+    title: "Education portals",
+    description:
+      "Manage educational data online with feature-rich education portals and information systems. Our custom eLearning solutions optimize scheduling, facilitate student attendance monitoring, speed upgrading, and allow educators and students to conveniently view educational information, generate performance reports, and more",
+  },
+  {
+    title: "Assistive learning solutions",
+    description:
+      "Make education accessible to students with special needs by leveraging AI-powered text-to-speech, speech-to-text, writing assistance, proofreading, as well as planning and class scheduling software. Our custom assistive learning solutions improve focus, promote independent learning, and spark academic success for all students",
+  },
+];
+
+export const imageBanner25 = {
+  url: "/images/soft15.webp",
+  title1: "Embracing the possibilities",
+  title2: "of educational technology to the fullest",
+};
+
+export const YellowBannerData12 = {
+  description:
+    "We design feature-rich educational software solutions that help learners hone essential skills faster, bring a human touch to online learning, boost educational content delivery, and enhance the learner experience.",
+};
+
+export const edAccordiandata = {
+  button: "Contact Us",
+  data: [
+    {
+      id: 1,
+      image: "/icons/atom-symbol.svg",
+      title: "Communication technology",
+      content:
+        "Leveraging live chats, IP telephony, and videoconferencing, we offset the lack of in-person interaction and make learning more accessible",
+    },
+    {
+      id: 2,
+      image: "/icons/atom-symbol.svg",
+      title: "Gamification",
+      content:
+        "We make sure the tech-savvy students of today stay focused and interested with gamified features smoothly integrated into your educational software",
+    },
+    {
+      id: 3,
+      image: "/icons/atom-symbol.svg",
+      title: "Media streaming",
+      content:
+        "We enrich our educational apps with audio- and video streaming components supported by flexible and resilient cloud content delivery networks and real-time communication techs",
+    },
+  ],
+};
+
+export const edAccordiandata1 = {
+  data: [
+    {
+      id: 1,
+      image: "/icons/atom-symbol.svg",
+      title: "Artificial intelligence",
+      content:
+        "Taking advantage of AI for education, we help you derive insights from academic data, keep digital-first students engaged with personalized learning plans, and free up educators’ time for meaningful interactions",
+    },
+    {
+      id: 2,
+      image: "/icons/atom-symbol.svg",
+      title: "Augmented and virtual reality",
+      content:
+        "Take advantage of VR and AR solutions for headsets and mobile phones and tap in comprehensive data visualizations, intelligent simulations of real-world experiences, and immersive learning scenarios",
+    },
+    {
+      id: 3,
+      image: "/icons/atom-symbol.svg",
+      title: "Cross-platform availability",
+      content:
+        "We make sure our eLearning solutions are accessible anytime and from any device, tailoring them to run in browsers and on multiple desktop and mobile operating systems",
+    },
+  ],
+};
+
+export const imageBanner26 = {
+  url: "/images/soft16.webp",
+  title1: "Unleashing the benefits",
+  title2: "of tech-assisted learning",
+};
+
+export const YellowBannerData13 = {
+  description:
+    "Driven by the COVID-19 crisis, education has tapped in radical transformation. With distance learning sparking public interest in educational innovations, EdTech will continue to reshape the way we teach and learn. Now, it’s the perfect time for educational institutions to take the first step toward digital transformation and start enjoying the improvements it ignites",
+};
+
+export const imageBanner27 = {
+  url: "/images/soft17.webp",
+  title1: "Offering flexible",
+  title2: "engagement models",
+};
+
+export const edSection3 = [
+  {
+    title: "Accessibility",
+    description:
+      "Friendly for learners with special needs and those without the ‘geek gene",
+  },
+  {
+    title: "Flexibility",
+    description:
+      "Customizable for all participants, tailored to your business needs",
+  },
+  {
+    title: "Granularity",
+    description:
+      "Highlighting all the peculiarities of the educational process",
+  },
+  {
+    title: "Personalization",
+    description: "Overcoming the one-size-fits-all eLearning problem",
+  },
+  {
+    title: "Persistence",
+    description: "Instrumentally motivating target learners to carry on",
+  },
+  {
+    title: "Motivation",
+    description: "Making courseware products engaging",
+  },
+  {
+    title: "Collaboration",
+    description: "Designing easy-to-use tools for fruitful teamwork",
+  },
+  {
+    title: "Age-friendly",
+    description: "Providing a helpful environment for adults",
+  },
+];
+
+export const edBox = [
+  {
+    id: 1,
+    title: "Vendor-agnostic.",
+    discription:
+      "We are not tied to any specific cloud platform provider, so we only resort to those cloud tools and technologies that are a perfect fit for your project and workflows.",
+  },
+  {
+    id: 2,
+    title: "Top cloud architects with niche skills.",
+    discription:
+      "With a 300-strong team, we bring in professional BAs, skilled cloud solution architects and DevOps engineers, as well as R&D department to fill any talent gaps.",
+  },
+  {
+    id: 3,
+    title: "Diverse expertise.",
+    discription:
+      "A cloud computing consulting company with 13+ years of experience, we provide cloud consultancy and deliver software for ecommerce, fintech, healthcare, logistics, real estate, and many other industries",
+  },
+  {
+    id: 4,
+    title: "Proven track record.",
+    discription:
+      "We’ve successfully completed 600+ projects and served 200+ satisfied customers across the globe",
+  },
+];
+
+export const pageBanner = {
+  title1: "Thinking",
+  title2: "Useful. Relevant. Challenging.",
+};
+
+export const blogs = [
+  {
+    id: 1,
+    image: "/images/blog1.webp",
+    categories: ["Big Data", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 2,
+    image: "/images/blog2.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 3,
+    image: "/images/blog3.webp",
+    categories: ["Big Data", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 4,
+    image: "/images/blog4.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 5,
+    image: "/images/blog5.webp",
+    categories: ["Big Data", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 6,
+    image: "/images/blog6.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 7,
+    image: "/images/blog7.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 8,
+    image: "/images/blog6.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+];
+
+export const caseBanner = {
+  title1: "Our latest challenges",
+};
+
+export const aboutBanner2 = {
+  heading: "  We live by powerfull values:",
+  section: [
+    {
+      id: 1,
+      number: 1,
+      url: "/images/book-1.webp",
+      title: "We are always honest no matter what.",
+    },
+    {
+      id: 2,
+      number: 2,
+      url: "/images/book-2.webp",
+      title: "We deep dive into every project to deliver excellence.",
+    },
+    {
+      id: 3,
+      number: 3,
+      url: "/images/book-3.webp",
+      title: "We take ownership of what we do.",
+    },
+    {
+      id: 4,
+      number: 4,
+      url: "/images/book-4.webp",
+      title:
+        "We value long-term relationships above quick wins and want to bring lasting gains for you.",
+    },
+    {
+      id: 5,
+      number: 5,
+      url: "/images/book-5.webp",
+      title:
+        "We believe we can help you drive margins while remaining true to our ethical values.",
+    },
+    {
+      id: 6,
+      number: 6,
+      url: "/images/book-6.webp",
+      title:
+        "We say “we” since we are a big ITRex family united together around one goal - to help you innovate for growth.",
+    },
+  ],
+};
+export const banner8 = {
+  imageurl: "/images/ecomBanner.webp",
+  title: "Ecommerce development services",
+  button1: "Let's talk",
+  button2: "ecommererce",
+  description:
+    "We build best-in-class B2B ecommerce solutions, helping you drive reach, conversion rates, and ROI",
+};
+
+export const ecomSocial = {
+  title: "Using the power of the best ecommerce platforms",
+  section: [
+    {
+      id: 1,
+      url: "/icons/ecom1.svg",
+    },
+    {
+      id: 2,
+      url: "/icons/ecom2.svg",
+    },
+    {
+      id: 3,
+      url: "/icons/ecom3.svg",
+    },
+    {
+      id: 4,
+      url: "/icons/ecom4.svg",
+    },
+  ],
+};
+
+export const imageBanner28 = {
+  url: "/images/soft18.webp",
+  title1: "Integrate all your systems",
+  title2: "with custom ecommerce solutions",
+};
+
+export const Bgbanner5 = {
+  description:
+    "Seamless integration of your ecommerce website with the right mix of back-office systems is what makes or breaks customer experience and real-time analytics. We have helped dozens of brands to build top digital ecosystems where apps work happily together, and are here to guide you in the right direction.",
+};
+
+export const ecomSection = {
+  section: [
+    {
+      id: 1,
+      title1: "ERP integration",
+      description: "for streamlined catalog management",
+    },
+    {
+      id: 2,
+      title1: "CRM integration",
+      description: "to get instant access to customer information",
+    },
+    {
+      id: 3,
+      title1: "Payment gateways",
+      description: "to process payments swiftly and securely",
+    },
+    {
+      id: 4,
+      title1: "Analytics and reporting",
+      description: "for immediate business insights",
+    },
+    {
+      id: 5,
+      title1: "Marketing automation",
+      description: "to expand your reach",
+    },
+    {
+      id: 6,
+      title1: "POS",
+      description: "to eliminate manual entry of data while reducing errors",
+    },
+    {
+      id: 7,
+      title1: "Online chats and help desks",
+      description: "for real-world support of customers",
+    },
+    {
+      id: 8,
+      title1: "Other third party apps",
+      description: "to meet your unique business needs",
+    },
+  ],
+};
+
+export const imageBanner29 = {
+  url: "/images/soft19.webp",
+  title1: "And adopting new tech",
+  title2: "for ecommerce software solutions",
+};
+
+export const Bgbanner6 = {
+  description:
+    "By empowering ecommerce development services with with battle-proven technologies, including Adobe Commerce (ex Magento), we help you push the boundaries with big ideas and bold changes to edge out the toughest competition.",
+};
+
+export const imageBanner30 = {
+  url: "/images/soft20.webp",
+  title1: "End-to-end ecommerce",
+  title2: "software development services",
+};
+
+export const Bgbanner7 = {
+  description:
+    "With more than a decade of experience and extensive cross-domain expertise, we offer a full suite of ecommerce development services to address your challenges no matter how big or small they are. From expert advice to comprehensive maintenance services, we have done it all, keeping our clients delighted.",
+};
+
+export const ecommercesdata = {
+  data: [
+    {
+      id: 1,
+      title: "Consulting",
+      description:
+        "Our team guides projects from proof-of-concept to implementation, knowing all about the competition in the ecommerce space to help you beat it.",
+    },
+    {
+      id: 2,
+      title: "Design",
+      description:
+        "Focusing on uniqueness and advanced functionality, we create fully immersive experiences that fetch visitors' attention and convert them into customers.",
+    },
+    {
+      id: 3,
+      title: "Development",
+      description:
+        "Our techs code and build amazing software, delivering ecommerce solutions that keep you always one step ahead of competitors",
+    },
+    {
+      id: 4,
+      title: "Testing",
+      description:
+        "Relying on the right balance of manual and automated testing, we know how to take care of quality and give you confidence that your system delivers seamless experience",
+    },
+    {
+      id: 5,
+      title: "Maintenece and Support",
+      description:
+        "From upgrades and complete health checks to back-ups, we provide the best ecommerce development services to make sure that your system functions smoothly and securely with no interruptions.",
+    },
+  ],
+};
+
+export const Eco1 = {
+  section3: [
+    {
+      id: 1,
+      url: "/icons/virtual.svg",
+      title: "Virtual fitting rooms",
+    },
+    {
+      id: 2,
+      title: "Product recommendations",
+      url: "/icons/recommend.svg",
+    },
+    {
+      id: 3,
+      title: "AR product modelling",
+      url: "/icons/virtual-reality.svg",
+    },
+    {
+      id: 4,
+      title: "Voice shopping",
+      url: "/icons/shopping-bag.svg",
+    },
+    {
+      id: 5,
+      title: "Immersive product catalog",
+      url: "/icons/products.svg",
+    },
+    {
+      id: 6,
+      title: "Virtual assistants and chatbots",
+      url: "/icons/chatbot.svg",
+    },
+    {
+      id: 7,
+      title: "AI-powered smart pricing",
+      url: "/icons/percentage.svg",
+    },
+    {
+      id: 8,
+      title: "Predictive customer analytics",
+      url: "/icons/stock-market.svg",
+    },
+  ],
+};
+
+export const careerpage7data = {
+  title: "Do you play to win? Or just to avoid blame?",
+  title1: "Does this sound overly lofty?",
+  title2: "We’re definitely not perfect.",
+  title3: "We make mistakes.",
+  desc1:
+    "You’re allowed to get things wrong – even horribly wrong – sometimes too. If you’re honest enough to own your mistakes, you will be safe.",
+  desc2:
+    " Working at ITRex, you’ll watch us admit mistakes all the time. That’s what initiative and transparency looks like.",
+  desc3:
+    "  We are all committed to each other’s success. All we ask in return is the same commitment back.",
+  src: "/images/Career-play-to-win-1.webp",
+};
+
+export const careerBanner2 = {
+  url: "/images/CareersBanner2.webp",
+};
+
+export const banner5 = {
+  imageurl: "/images/cloudBanner.webp",
+  title: "Cloud computing consulting and implementation",
+  button1: "Talk to our",
+  button2: " experts",
+  description:
+    "Harness the power of the cloud for lower operational costs, ultimate scalability, and unparalleled performance with our all-encompassing cloud computing consulting and implementation services",
+};
+
+// export const banner9 = {
+//   imageurl: "/images/webBanner.webp",
+//   title: "Custom web development services",
+//   button: "Get in touch",
+//   description:
+//     "Make a unique impact online now to grow business with end-to-end custom web development services from TheSpecialChar",
+// };
+
+// export const banner10 = {
+//   imageurl: "/images/webBanner.webp",
+//   title: "Custom web development services",
+//   button: "Get in touch",
+//   description:
+//     "Make a unique impact online now to grow business with end-to-end custom web development services from TheSpecialChar",
+// };
+
 export const listData1 = {
   data: [
     {
@@ -1298,15 +2397,6 @@ export const serviceBox1 = [
       "Agile delivery to let you go faster, with a guaranteed success",
   },
 ];
-
-export const banner4 = {
-  imageurl: "/images/backBanner.webp",
-  title: "Expert back-end development services",
-  button1: "Hire back-end",
-  button2: " developers",
-  description:
-    "Join forces with our back-end development services company to create tech products that scale rapidly, perform well, and keep your employees and customers happy",
-};
 
 export const backSection = {
   title: "A rundown of our back-end development services",
@@ -1454,13 +2544,52 @@ export const backbox = [
   },
 ];
 
-export const banner5 = {
-  imageurl: "/images/cloudBanner.webp",
-  title: "Cloud computing consulting and implementation",
-  button1: "Talk to our",
-  button2: "experts",
+export const banner4 = {
+  imageurl: "/images/backBanner.webp",
+  title: "Expert back-end development services",
+  button1: "Hire back-end",
+  button2: " developers",
   description:
-    "Harness the power of the cloud for lower operational costs, ultimate scalability, and unparalleled performance with our all-encompassing cloud computing consulting and implementation services",
+    "Join forces with our back-end development services company to create tech products that scale rapidly, perform well, and keep your employees and customers happy",
+};
+
+export const cloudAccordiandata = {
+  button: "Contact Us",
+  data: [
+    {
+      id: 1,
+      image: "/icons/atom-symbol.svg",
+      title: "Cloud Adoption and Migration",
+      content:
+        "Our vetted cloud solutions consultants dive in your tech infrastructure and study your needs to help you adopt the best-fit cloud migration strategy. We re-platform and modernize your apps and put APIs in place to integrate the newly migrated applications with enterprise software at minimal risks",
+    },
+    {
+      id: 2,
+      image: "/icons/atom-symbol.svg",
+      title: "Cloud Infrastructure Management",
+      content:
+        "We configure, monitor, and optimize the components of your cloud infrastructure, setting up DevOps, DevSecOps, and Infrastructure as Code practices to ensure optimal usage of cloud resources and high software performance with no downtime",
+    },
+  ],
+};
+
+export const cloudAccordiandata1 = {
+  data: [
+    {
+      id: 1,
+      image: "/icons/atom-symbol.svg",
+      title: "Cloud Optimization",
+      content:
+        "We analyze your cloud infrastructure, detect under- and over-provisioned instances and idle resources, and identify security gaps to remove performance bottlenecks, achieve 99.9% uptime, and lower your cloud computing costs",
+    },
+    {
+      id: 2,
+      image: "/icons/atom-symbol.svg",
+      title: "Cloud Application Development",
+      content:
+        "We are well-versed in working with AWS, Microsoft Azure, Google Cloud, and other cloud platforms and are ready to use our knowledge to implement a resilient and high-performing cloud app of any kind — from a mobile app back end to a complex AI-powered system",
+    },
+  ],
 };
 
 export const aboutAccordianData = {

@@ -2,6 +2,7 @@ import ImageBanner from "@/components/ImageBanner";
 import Swiper1 from "@/components/Swiper";
 import YellowBanner from "@/components/YellowBanner";
 import Banner from "@/container/Banner";
+import SaasGrid2 from "@/container/SaasGrid2";
 import WebGrid from "@/container/WebGrid";
 import WebGrid2 from "@/container/WebGrid2";
 import WebGrid3 from "@/container/WebGrid3";
@@ -25,6 +26,7 @@ const Web = (props: Props) => {
       <WebGrid />
       <ImageBanner data={imageBanner7} />
       <YellowBanner data={Bgbanner2} />
+      <SaasGrid2 />
       <ImageBanner data={imageBanner8} />
       <WebGrid2 />
       <ImageBanner data={imageBanner9} />
