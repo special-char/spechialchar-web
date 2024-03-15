@@ -1970,31 +1970,31 @@ export const aboutBanner2 = {
   {
     id:2,
     number:2,
-    url:"/images/book-1.webp",
+    url:"/images/book-2.webp",
     title:"We deep dive into every project to deliver excellence.",
   },
   {
     id:3,
     number:3,
-    url:"/images/book-1.webp",
+    url:"/images/book-3.webp",
     title:"We take ownership of what we do.",
   },
   {
     id:4,
     number:4,
-    url:"/images/book-1.webp",
+    url:"/images/book-4.webp",
     title:"We value long-term relationships above quick wins and want to bring lasting gains for you.",
   },
   {
     id:5,
     number:5,
-    url:"/images/book-1.webp",
+    url:"/images/book-5.webp",
     title:"We believe we can help you drive margins while remaining true to our ethical values.",
   },
   {
     id:6,
     number:6,
-    url:"/images/book-1.webp",
+    url:"/images/book-6.webp",
     title:"We say “we” since we are a big ITRex family united together around one goal - to help you innovate for growth.",
   },
 
