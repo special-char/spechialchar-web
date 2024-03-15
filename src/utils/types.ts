@@ -77,7 +77,7 @@ export type latestThinkingType = {
     id: number;
     title: string;
     img: string;
-    Link:string;
+    Link: string;
   };
 };
 export type MobileSwiperType = {
@@ -113,8 +113,8 @@ export type tabdataType = {
     value: string;
     image: string;
     button: string;
-    title1:string;
-    title2:string;
+    title1: string;
+    title2: string;
     list: {
       id: number;
       text: string;
@@ -144,14 +144,14 @@ export type BgYellowType = {
 };
 
 export type aboutBannerType = {
-  data:{
-    url:string;
+  data: {
+    url: string;
     title: string;
     title2: string;
     description: string;
-    subdescription : string;
+    subdescription: string;
   };
-}
+};
 export type serviceAccordiandataType = {
   data: {
     id: number;
@@ -179,7 +179,6 @@ export type SaasSectionType = {
     description: string;
   };
 };
-
 
 export type CareerBannerdataType = {
   data: {
@@ -245,78 +244,76 @@ export type NowAskType = {
   data: {
     id: number;
     title: string;
-    
   };
 };
 
-
-export type CareerSectionType={
-  data:{
+export type CareerSectionType = {
+  data: {
     title1: string;
     title2: string;
     desc1: string;
     desc2: string;
-}
-}
+  };
+};
 
-export type CareerSection1Type={
-  data:{
+export type CareerSection1Type = {
+  data: {
     title1: string;
-    
+
     desc1: string;
     desc2: string;
-}
-}
+  };
+};
 
-export type CareerCityType={
-  data:{
+export type CareerCityType = {
+  data: {
     title: string;
-    description:string;
-    id:number;
-    url:string;
-    
-}
-}
+    description: string;
+    id: number;
+    url: string;
+  };
+};
 
-export type CareerCapType={
-  data:{
+export type CareerCapType = {
+  data: {
     title: string;
-    id:number;
-    url:string;
-    
-   desc :string;
-    
-}
-}
+    id: number;
+    url: string;
 
-export type CareerManyType={
-  data:{
-    title: string;
-    desc1:string;
-    desc2:string;
-    
-   desc :string;
-    
-}
-}
+    desc: string;
+  };
+};
 
-export type CareerCVType={
-  data:{
+export type CareerManyType = {
+  data: {
     title: string;
-  }
-}
+    desc1: string;
+    desc2: string;
 
-export type HowModelType={
-  data:{
+    desc: string;
+  };
+};
+
+export type CareerCVType = {
+  data: {
     title: string;
-    desc1:string;
-    desc2:string;
-    heading:string;
-    par:string;
-   id :number;
-    
-}
-}
+  };
+};
+
+export type HowModelType = {
+  data: {
+    title: string;
+    desc1: string;
+    desc2: string;
+    heading: string;
+    par: string;
+    id: number;
+    list: {
+      id: number;
+      content: string;
+    };
+  };
+};
 export type imageAccordianDataType = {
   data: {
     image: string;
@@ -339,21 +336,20 @@ export type aboutAccordianDatatype = {
 };
 
 export type uiSectionType = {
-  data:{
-    title:string;
-    text:string;
-      id:number,
-      title1:string,
-      description:string,
-  }
-}
+  data: {
+    title: string;
+    text: string;
+    id: number;
+    title1: string;
+    description: string;
+  };
+};
 
 export type careerBannerType = {
-  data:{
-    url:string;
-  }
-}
- 
+  data: {
+    url: string;
+  };
+};
 
 export type PageBanner = {
   title1: string;
@@ -361,15 +357,15 @@ export type PageBanner = {
 };
 
 export type aboutBanner2Type = {
-  data:{
-    id:number;
-    number:number;
-    url:string;
-    title:string;
-    heading:string;
-  }
-}
+  data: {
+    id: number;
+    number: number;
+    url: string;
+    title: string;
+    heading: string;
+  };
+};
 export type ecomSectionType = {
-  title:string;
-  section:string;
-}
+  title: string;
+  section: string;
+};

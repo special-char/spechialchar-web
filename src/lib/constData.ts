@@ -1195,18 +1195,112 @@ export const howmodel = {
       title: "Time & Materials",
       desc: "Under the Time & Materials model, we can build your software product either in a linear sequence of stages or in increments through constant communication with you. You pay only for actual work done on daily or hourly rates per specialist.",
       desc1: "Show more",
+      list: [
+        {
+          id: 1,
+          content:
+            "This model is the right way to go when you don’t have precise software requirements and the exact project scope is hard to define or is likely to evolve",
+        },
+        {
+          id: 2,
+          content:
+            "We develop your product in increments. You see the deliverables early and provide feedback, keeping the development process under control",
+        },
+        {
+          id: 3,
+          content:
+            "You get regular reports from our project manager to track project budget and progress",
+        },
+        {
+          id: 4,
+          content:
+            "Kickoff is then really fast: we define a high-level scope, agree on daily or hourly rates, and get started",
+        },
+        {
+          id: 5,
+          content:
+            "Along the way, you can change anything, from the list of planned features to skill sets on the team, to align with changing market trends or business needs",
+        },
+        {
+          id: 6,
+          content:
+            "You can measure product effectiveness early and pivot or suspend the project at any time, if needed, avoiding further expenses",
+        },
+      ],
     },
     {
       id: 2,
       title: "Fixed Price",
       desc: "With this model, we build your software product for a price fixed upfront for the entire project. This often involves planning and estimating the entire project scope before development starts.",
       desc1: "Show more",
+      list: [
+        {
+          id: 1,
+          content:
+            "This model is mostly suitable for projects with a well-specified scope and clear requirements that aren’t going to change",
+        },
+        {
+          id: 2,
+          content:
+            "All of us get a clear understanding of what exactly the end product and deliverables should be",
+        },
+        {
+          id: 3,
+          content:
+            "This model requires little to zero involvement from your side after the requirements elicitation and planning stage",
+        },
+        {
+          id: 4,
+          content:
+            "Together with your team, we begin with gathering requirements and planning thoroughly the project scope and time for product delivery",
+        },
+        {
+          id: 5,
+          content:
+            "We agree on the total price of the project and start development based on the documented scope, reporting the progress regularly",
+        },
+        {
+          id: 6,
+          content:
+            "During the development process, you may introduce changes but only through a formal change request process that will require amendments to the contract",
+        },
+      ],
     },
     {
       id: 3,
       title: "Dedicated Team",
       desc: "Alternatively, you can simply hire our highly skilled engineers to fill in specific in-house skill gaps, or go for a full-fledged dedicated and self-managed team. You get professionals that integrate seamlessly into your environment, bring in a fresh angle and ideas, and deliver top results with in-house-like dedication.",
       desc1: "Show more",
+      list: [
+        {
+          id: 1,
+          content:
+            "This model is applicable when you need either extra engineering talent to boost your team or full-cycle services, from development to support",
+        },
+        {
+          id: 2,
+          content: "We offer a 30-day trial period for each specialist",
+        },
+        {
+          id: 3,
+          content:
+            "You have full control over the team, budget and development process",
+        },
+        {
+          id: 4,
+          content:
+            "We agree on a monthly cost per specialist or team at the beginning of the project",
+        },
+        {
+          id: 5,
+          content:
+            "We can replace any team member based on your feedback or requirements update",
+        },
+        {
+          id: 6,
+          content: "You are free to scale the team up or down at any moment",
+        },
+      ],
     },
   ],
 };

@@ -1,45 +1,23 @@
-// import { howmodel } from '@/lib/constData'
-// import { HowModelType } from '@/utils/types'
-// import React from 'react'
-
-
-
-// const HowModel = ({data}: HowModelType) => {
-//   return (
-//     <section>
-//         <div>
-//         <h3 className='lg:text-4xl font-bold md:text-2xl  '>{data.heading}</h3>
-//         </div>
-//         <div className='flex-1 lg:text-xl md:text-base text-sm py-10'>
-//         {data.par}
-
-//                 </div>
-
-//                 <div>
-//                 {howmodel.section.map((item) => (
-//           <div key={item.id} className='flex    '>
-//             <div className='font-bold lg:text-2xl md:text-2xl'>
-//               {item.title}
-//             </div>
-//             <div>
-//               <div>{item.desc}</div>
-//               <div>{item.desc1}</div>
-//             </div>
-//             </div>
-//           ))}
-//                 </div>
-//     </section>
-//   )
-// }
-
-// export default HowModel
-
+"use client";
 import { howmodel } from '@/lib/constData';
 import { HowModelType } from '@/utils/types';
-import React from 'react';
+import React, { SetStateAction, useState } from 'react';
 import { Button } from '../ui/button';
+import Arrow from "@/public.icons/arrow_forward.svg";
 
 const HowModel = ({ data }: HowModelType) => {
+  const [show, setShow] = useState(0)
+
+  const Show = (i: React.SetStateAction<number>) => {
+    // if (show == true) {
+    //   setShow(false)
+    // }
+    // else {
+    //   setShow(true)
+    // }
+    setShow(i);
+
+  }
   return (
     <section className="py-8">
       <div className=" mb-8">
@@ -49,32 +27,37 @@ const HowModel = ({ data }: HowModelType) => {
       <div className=" mb-8 lg:pr-72 md: pr-12 ">
         <p className="text-base md:text-lg lg:text-base flex-1 text-gray-400">{data.par}</p>
       </div>
+      <hr className='border-gray-300 ' />
+      <hr className='border-gray-300 ' />
+      {howmodel.section.map((item, index) => {
 
-  
-
-<div className="">
-  {howmodel.section.map((item) => (
-    <div key={item.id} className="border-b-2 border-gray-300 py-4 flex flex-col md:flex-row ">
-      <div className='flex-1'>
-        <h4 className="text-lg md:text-subtitle1 lg:text-3xl font-bold mb-2">{item.title}</h4>
-      </div>
-      <div className='flex-1 md:flex-grow '>
-        <div className=''>
-          <p className="text-sm md:text-base lg:text-subtitle1 text-slate-400 lg:py-6">{item.desc}</p>
-        </div>
-        <div className='-pl-2'>
-          {/* <p className="text-base md:text-base lg:text-lg font-bold lg:py-4 py-3">{item.desc1}</p> */}
-            <Button variant={"link"} size={"icon"}>show more</Button>
-          <div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  ))}
-</div>
-
-    </section>
+        return (
+          <div className='border-b-2 border-gray-300'>
+            <div key={item.id} className=" py-8 flex flex-col md:flex-row ">
+              <div className='flex-1'>
+                <h4 className="text-lg md:text-subtitle1 lg:text-3xl font-bold mb-2">{item.title}</h4>
+              </div>
+              <div className='flex-1 md:flex-grow '>
+                <p className="text-sm md:text-base lg:text-lg text-slate-400 ">{item.desc}</p>
+                <div className='-pl-2'>
+                  <Button
+                    className="rounded-full my-4" onClick={(e) => Show(index + 1)}>show more<Arrow /></Button>
+                  <div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {index + 1 === show && (
+              <ul className='grid grid-cols-3 max-sm:grid-cols-1 gap-8 list-square max-lg:px-4'>
+                {item.list.map((x, index) => (
+                  <li key={index}>{x.content} </li>
+                ))}
+              </ul>
+            )}
+          </div >
+        )
+      })}
+    </section >
   );
 };
 
@@ -84,21 +67,3 @@ export default HowModel;
 
 
 
-    {/* <div className=" ">
-        {howmodel.section.map((item) => (
-          <div key={item.id} className="border-b-2 border-gray-300  py-4 flex  ">
-            <div className='flex flex-1'>
-              <h4 className="text-lg md:text-xl lg:text-2xl font-semibold mb-2">{item.title}</h4>
-            </div>
-            <div className=' flex-1 '>
-  <div className=''>
-    <p className="text-sm md:text-base lg:text-lg">{item.desc}</p>
-  </div>
-  <div className='py-4'>
-    <p className="text-sm md:text-base lg:text-lg font-bold">{item.desc1}</p>
-  </div>
-</div>
-
-          </div>
-        ))}
-      </div> */}
