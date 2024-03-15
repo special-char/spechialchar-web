@@ -51,7 +51,7 @@ export type Card1Type = {
 export type BannerType = {
   title: string;
   button1: string;
-  button2:string;
+  button2: string;
   description: string;
   imageurl: string;
 };
@@ -60,7 +60,7 @@ export type Header = {
     value: string;
     title: string;
     content: string;
-    link:string;
+    link: string;
   };
 };
 export type mobileServicesType = {
@@ -111,6 +111,12 @@ export type tabdataType = {
     value: string;
     image: string;
     button: string;
+    title1:string;
+    title2:string;
+    list: {
+      id: number;
+      text: string;
+    };
   };
 };
 export type ServiceBoxType = {
@@ -168,5 +174,18 @@ export type imageAccordianDataType = {
     image: string;
     header: string;
     text: string;
+    title1: string;
+    title2: string;
+    title3: string;
+    button: string;
+  };
+};
+
+export type aboutAccordianDatatype = {
+  data: {
+    title1: string;
+    id: number;
+    title: string;
+    content: string;
   };
 };
