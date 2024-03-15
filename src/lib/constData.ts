@@ -2021,6 +2021,14 @@ export const caseBanner = {
   title1: "Our latest challenges",
 };
 
+
+export const howbanner = {
+  url: "/images/CareersBanner.webp",
+  title: "How we can work with you",
+  desc: "Team up with ITRex at any stage of your project, choosing the engagement model that fits best your project scope and business priorities.",
+desc1: "We can build your product on the Time & Materials, Fixed Price, or Dedicated Team basis using agile or waterfall depending on your project specifics.",
+
+};
 export const aboutBanner2 = {
   heading: "  We live by powerfull values:",
   section: [
