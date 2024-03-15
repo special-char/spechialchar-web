@@ -12,8 +12,8 @@ export const SwiperNavButtons = () => {
 
     <button className=' bg-red-100  p-3 px-4 py-5 rounded-2xl  grid grid-cols-2 gap-x-2 sm:mt-[85px] md:mt-[140px] lg:gap-x-4  '>
         
-    <IoIosArrowBack className="h-4 w-4 text-black text-xl" onClick={() => swiper.slidePrev()} />
-    <IoIosArrowForward className="h-4 w-4 text-black text-xl"onClick={() => swiper.slideNext()} />
+    <IoIosArrowBack className="h-4 w-4 text-black text-subtitle1" onClick={() => swiper.slidePrev()} />
+    <IoIosArrowForward className="h-4 w-4 text-black text-subtitle1"onClick={() => swiper.slideNext()} />
   </button>
     </div>
   );

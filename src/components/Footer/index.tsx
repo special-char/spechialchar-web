@@ -23,11 +23,11 @@ const Footer = ({ data }: FooterdataType) => {
         </div>
         <div className="flex flex-wrap lg:gap-x-40 max-md:gap-x-24 md:gap-x-24 sm:gap-x-[5.9rem] max-sm:gap-y-10">
           <div className="md:w-64 ">
-            <p className="text-xl">Office:</p>
+            <p className="text-subtitle1">Office:</p>
             <p className="w-40 text-gray-500 text-md">{data.address}</p>
           </div>
           <div className="flex flex-col max-md:justify-between gap-y-8">
-            <div className="flex flex-col sm:text-xl max-sm:text-md">
+            <div className="flex flex-col sm:text-subtitle1 max-sm:text-md">
               <div>
                 <Link href={"#"}>{data.email}</Link>
               </div>

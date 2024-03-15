@@ -33,7 +33,6 @@ const Services = () => {
       <Tab data={tabdata} />
       <ImageBanner data={imageBanner2} />
       <ServiceBox />
-
       <Swiper1 data={SwiperServices} />
     </>
   );

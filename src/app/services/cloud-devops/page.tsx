@@ -1,4 +1,5 @@
 import ImageBanner from "@/components/ImageBanner";
+import LatestThinking from "@/components/LatestThinking";
 import MobilePage from "@/components/MobilePage";
 import MobileSwiper from "@/components/MobileSwiper";
 import YellowBanner from "@/components/YellowBanner";
@@ -19,6 +20,7 @@ import {
   imageBanner18,
   imageBanner19,
   imageBanner20,
+  latestThinkingData,
 } from "@/lib/constData";
 import React from "react";
 
@@ -42,6 +44,7 @@ const CloudDevops = (props: Props) => {
       <CloudSocial />
       <OurClients/>
       <MobileSwiper data={MobileSwiperData} />
+      <LatestThinking data={latestThinkingData}/>
     </>
   );
 };
