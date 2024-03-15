@@ -271,3 +271,16 @@ export type PageBanner = {
   title1: string;
   title2: string;
 };
+
+export type HowBannerType = {
+  data:{
+    url: string;
+    title: string;
+    
+    desc:string;
+    desc1:string;
+  }
+    
+ 
+  
+};
