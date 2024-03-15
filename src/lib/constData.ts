@@ -2213,7 +2213,7 @@ export const careerpage7data = {
 };
 
 export const careerBanner2 = {
-  url: "/images/CareerBanner2.webp",
+  url: "/images/CareersBanner2.webp",
 };
 
 export const banner5 = {
