@@ -47,7 +47,7 @@ const CareerCity = ({ data }: CareerCityType) => {
     <section>
       <div className='flex flex-col sm:flex-row gap-9 lg:py-5  '>
 
-        <div className=' lg:text-xl md:text-base text-sm py-12'>
+        <div className=' lg:text-subtitle1 md:text-base text-sm py-12'>
           {data.description}
         </div>
         <div className=' lg:p-3 '><h2 className='lg:text-6xl font-bold md:text-4xl text-3xl '>{data.title}</h2></div>

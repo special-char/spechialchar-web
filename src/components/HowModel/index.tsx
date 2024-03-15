@@ -8,7 +8,7 @@
 //   return (
 //     <section>
 //         <div>
-//         <h3 className='lg:text-4xl font-bold md:text-2xl text-xl '>{data.heading}</h3>
+//         <h3 className='lg:text-4xl font-bold md:text-2xl  '>{data.heading}</h3>
 //         </div>
 //         <div className='flex-1 lg:text-xl md:text-base text-sm py-10'>
 //         {data.par}
@@ -56,11 +56,11 @@ const HowModel = ({ data }: HowModelType) => {
   {howmodel.section.map((item) => (
     <div key={item.id} className="border-b-2 border-gray-300 py-4 flex flex-col md:flex-row ">
       <div className='flex-1'>
-        <h4 className="text-lg md:text-xl lg:text-3xl font-bold mb-2">{item.title}</h4>
+        <h4 className="text-lg md:text-subtitle1 lg:text-3xl font-bold mb-2">{item.title}</h4>
       </div>
       <div className='flex-1 md:flex-grow '>
         <div className=''>
-          <p className="text-sm md:text-base lg:text-xl text-slate-400 lg:py-6">{item.desc}</p>
+          <p className="text-sm md:text-base lg:text-subtitle1 text-slate-400 lg:py-6">{item.desc}</p>
         </div>
         <div className='-pl-2'>
           {/* <p className="text-base md:text-base lg:text-lg font-bold lg:py-4 py-3">{item.desc1}</p> */}

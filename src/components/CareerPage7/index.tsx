@@ -13,7 +13,7 @@ const CareerPage7= ({ data }: CareerPage7dataType) => {
             <h2 className="font-bold text-3xl lg:text-6xl">
              {data.title}
             </h2>
-            <div className="mt-8 text-xs leading-5 lg:text-xl lg:flex lg:items-center lg:gap-x-6">
+            <div className="mt-8 text-xs leading-5 lg:text-subtitle1 lg:flex lg:items-center lg:gap-x-6">
                 <div className="gap-y-4 grid">
               <h3 className="font-bold text-2xl">
                 {data.title1} </h3>

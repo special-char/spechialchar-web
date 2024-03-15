@@ -1,4 +1,5 @@
 import ImageBanner from "@/components/ImageBanner";
+import LatestThinking from "@/components/LatestThinking";
 import MobileIcon from "@/components/MobileIcon";
 import MobilePage from "@/components/MobilePage";
 import MobileServices from "@/components/MobileServices";
@@ -19,6 +20,7 @@ import {
   imageBanner3,
   imageBanner4,
   imageBanner5,
+  latestThinkingData,
   mobileServicesdata,
   mobiletabdata,
   serviceAccordiandata,
@@ -44,6 +46,7 @@ const Mobile = () => {
       <Tab1 data={mobiletabdata}/>
       <MobilePage />
       <MobileSwiper data={MobileSwiperData} />
+      <LatestThinking data={latestThinkingData}/>
       
     </>
   );

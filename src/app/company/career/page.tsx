@@ -1,4 +1,6 @@
+import AboutBanner2 from "@/components/AboutBanner2";
 import CareerBanner from "@/components/CareerBanner";
+import CareerBanner2 from "@/components/CareerBanner2";
 import CareersBanner2 from "@/components/CareerBanner2";
 import CareerCV from "@/components/CareerCV";
 import CareerCap from "@/components/CareerCap";
@@ -14,6 +16,7 @@ import CareerSection from "@/components/CareerSection";
 import CareerSection2 from "@/components/CareerSection2";
 import {
   CareerPage3data,
+  aboutBanner2,
   career,
   career2,
   careerBanner2,
@@ -36,6 +39,7 @@ const AboutPage = (props: Props) => {
   return (
     <>
       <CareerBanner data={careerbannerdata} />
+      <AboutBanner2 data={aboutBanner2} />
       <CareerPage2 data={careerpage2data} />
       {/* <CareerPage3 data={CareerPage3data} /> */}
       <CareerCap data={careercap} />
@@ -44,7 +48,7 @@ const AboutPage = (props: Props) => {
       <CareerPage6 data={careerpage6data} />
       <CareerPage7 data={careerpage7data} />
       <CareerSection data={career} />
-      {/* <CareersBanner2 data={careerBanner2} /> */}
+      <CareerBanner2 data={careerBanner2} />
       <CareerSection2 data={career2} />
       <CareerCity data={careercity} />
       <CareerMany data={careermany} />

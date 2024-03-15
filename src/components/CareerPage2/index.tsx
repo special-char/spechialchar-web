@@ -12,7 +12,7 @@ const CareerPage2 = ({data}:CareerPage2dataType) => {
         </div>
         <div className="mt-8">
           <h2 className="font-bold text-3xl lg:text-6xl">{data.title}</h2>
-          <div className="mt-8 leading-6 flex flex-col gap-16 lg:text-xl">
+          <div className="mt-8 leading-6 flex flex-col gap-16 lg:text-subtitle1">
             <p>
             {data.des1}
             </p>

@@ -1,7 +1,6 @@
 import EcommerceServices from "@/components/EcomServices";
 import ImageBanner from "@/components/ImageBanner";
-import MobilePage from "@/components/MobilePage";
-import MobileServices from "@/components/MobileServices";
+import LatestThinking from "@/components/LatestThinking";
 import MobileSwiper from "@/components/MobileSwiper";
 import YellowBanner from "@/components/YellowBanner";
 import Banner from "@/container/Banner";
@@ -14,14 +13,13 @@ import {
   Bgbanner6,
   Bgbanner7,
   MobileSwiperData,
-  banner7,
   banner8,
   ecomSocial,
   ecommercesdata,
   imageBanner28,
   imageBanner29,
   imageBanner30,
-  mobileServicesdata,
+  latestThinkingData,
 } from "@/lib/constData";
 import React from "react";
 
@@ -41,8 +39,9 @@ const Ecommerce = (props: Props) => {
       <ImageBanner data={imageBanner30} />
       <YellowBanner data={Bgbanner7} />
       <EcommerceServices data={ecommercesdata} />
-      <OurClients />
       <MobileSwiper data={MobileSwiperData} />
+      <OurClients />
+      <LatestThinking data={latestThinkingData} />
     </>
   );
 };

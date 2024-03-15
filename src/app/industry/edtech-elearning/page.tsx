@@ -1,4 +1,5 @@
 import ImageBanner from "@/components/ImageBanner";
+import LatestThinking from "@/components/LatestThinking";
 import YellowBanner from "@/components/YellowBanner";
 import Banner from "@/container/Banner";
 import EdAccordian from "@/container/EdAccordian";
@@ -19,6 +20,7 @@ import {
   imageBanner25,
   imageBanner26,
   imageBanner27,
+  latestThinkingData,
 } from "@/lib/constData";
 import React from "react";
 
@@ -41,6 +43,7 @@ const EdTechPage = () => {
       <EdGrid5 />
       <ImageBanner data={imageBanner27} />
       <EdList/>
+      <LatestThinking data={latestThinkingData}/>
     </>
   );
 };
