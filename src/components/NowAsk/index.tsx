@@ -11,7 +11,7 @@ const NowAsk = (props: Props) => {
       </div>
       <div className='flex flex-col md:flex-row  justify-between  m-10'>
       {nowask.map((i) => (
-          <div key={i.id} className=" lg:items-center lg:justify-center md:flex-1 max-sm:border-b-2 md:border-r-2 border-blue-400 md:text-xl sm:text-base font-extrabold text-center ">
+          <div key={i.id} className=" lg:items-center lg:justify-center md:flex-1 max-sm:border-b-2 md:border-r-2 border-blue-400 md:text-subtitle1 sm:text-base font-extrabold text-center ">
             <div className="md:px-5 max-sm:py-5">{i.title}</div>
           </div>
         ))}

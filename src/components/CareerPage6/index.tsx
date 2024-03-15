@@ -15,7 +15,7 @@ const CareerPage6 = ({ data }: CareerPage6dataType) => {
             <h2 className="font-bold text-3xl lg:text-6xl">
               {data.title}
             </h2>
-            <div className="mt-8 leading-6 flex flex-col lg:gap-10 gap-16 lg:text-xl">
+            <div className="mt-8 leading-6 flex flex-col lg:gap-10 gap-16 lg:text-subtitle1">
               <p>
                 {data.desc1}
               </p>

@@ -538,7 +538,14 @@ export const accordionItems = {
       value: "item-1",
       title: "Services",
       link: "services",
-      content: ["Mobile", "Web", "Saas", "Back-End", "Cloud-Devops", "UiUx"],
+      content: [
+        "Mobile",
+        "Web",
+        "Saas",
+        "Back-End",
+        "Cloud-Devops",
+        "UiUx-Design",
+      ],
     },
     {
       value: "item-2",
@@ -834,20 +841,20 @@ export const latestThinkingData = {
       title: "Waterfall vs. Agile: how to choose the right",
       img: "/images/latestThinking1.webp",
 
-      Link:"./"
+      Link: "./",
     },
     {
       id: 2,
       title: "What self-service BI is and how to do it right",
       img: "/images/latestThinking2.webp",
-      Link:"./"
+      Link: "./",
     },
     {
       id: 3,
       title:
         "AI-powered augmented analytics: capabilities and benefits for business",
       img: "/images/latestThinking3.webp",
-      Link:"./"
+      Link: "./",
     },
   ],
 };
@@ -1084,131 +1091,125 @@ export const YellowBannerData3 = {
     "We build impactful SaaS applications using our road-tested six-pillar approach:",
 };
 
-
 export const nowask = [
   {
     id: 1,
-    title: "Does being part of a shoddy project bother you so much that you have to speak up?",
-    
+    title:
+      "Does being part of a shoddy project bother you so much that you have to speak up?",
   },
   {
     id: 2,
-    title: "Do you care about your client, your project, your decisions and your team?",
-    
+    title:
+      "Do you care about your client, your project, your decisions and your team?",
   },
   {
     id: 3,
-    title:  "Do you get a buzz out of solving hard problems?"
-    
-  },]
+    title: "Do you get a buzz out of solving hard problems?",
+  },
+];
 
-  export const career =
+export const career = {
+  title1: "Flexibility and balance",
+  title2:
+    "We believe in hard work. That means you honestly give your best effort. It doesn’t mean you give every waking hour.",
+  desc1:
+    "Our crew is motivated and accountable, so they earn a lot of trust. Flexible and remote working arrangements are no problem.",
+  desc2:
+    "If you’re so stuck on a hard problem that you need to switch gears, head to the gym to work out, or to the Playstation to shoot bad guys.",
+};
+
+export const career2 = {
+  title1: "Opportunity and growth",
+
+  desc1:
+    "We expect you to work hard on difficult challenges, among high-level professionals who support you. You will take hard decisions, with permission to make mistakes and learn from them. If you have the attitude to make this work, your skills will level up fast and you’ll feel proud of how you grow.",
+  desc2: "We offer language classes and career progression tracks too.",
+};
+
+export const careercity = {
+  title: "Build a new life in a new city",
+  description:
+    "If you’d like, you can relocate to Poland, Georgia, or Armenia. We’ll help you and your family with the legal, transport, health care, and a home.",
+  section: [
     {
-      title1:"Flexibility and balance",
-      title2:"We believe in hard work. That means you honestly give your best effort. It doesn’t mean you give every waking hour.",
-      desc1:"Our crew is motivated and accountable, so they earn a lot of trust. Flexible and remote working arrangements are no problem.",
-      desc2:"If you’re so stuck on a hard problem that you need to switch gears, head to the gym to work out, or to the Playstation to shoot bad guys.",
-
-    }
-  
-    export const career2 =
+      id: 1,
+      url: "/images/city1.webp",
+    },
     {
-      title1:"Opportunity and growth",
-      
-      desc1:"We expect you to work hard on difficult challenges, among high-level professionals who support you. You will take hard decisions, with permission to make mistakes and learn from them. If you have the attitude to make this work, your skills will level up fast and you’ll feel proud of how you grow.",
-      desc2:"We offer language classes and career progression tracks too.",
+      id: 2,
+      url: "/images/city2.webp",
+    },
+    {
+      id: 3,
+      url: "/images/city3.webp",
+    },
+  ],
+};
 
-    }
+export const careercap = {
+  title: "Our capabilities include:",
 
-    export const careercity = {
-      title: "Build a new life in a new city",
-      description:
-        "If you’d like, you can relocate to Poland, Georgia, or Armenia. We’ll help you and your family with the legal, transport, health care, and a home.",
-      section: [
-        {
-          id: 1,
-          url: "/images/city1.webp",
-          
-        },
-        {
-          id: 2,
-          url: "/images/city2.webp",
-          
-        },
-        {
-          id: 3,
-          url: "/images/city3.webp",
-          
-        },]}
+  section: [
+    {
+      id: 1,
+      url: "/icons/atom-symbol.svg",
+      desc: "Artificial intelligence, machine learning and big data",
+    },
+    {
+      id: 2,
+      url: "/icons/atom-symbol.svg",
+      desc: "Embedded systems and the Internet of Things",
+    },
+    {
+      id: 3,
+      url: "/icons/atom-symbol.svg",
+      desc: "Virtual reality, augmented reality and mixed reality",
+    },
 
-        export const careercap = {
-          title: "Our capabilities include:",
-          
-          section: [
-            {
-              id: 1,
-              url: "/icons/atom-symbol.svg",
-              desc:"Artificial intelligence, machine learning and big data",
-              
-            },
-            {
-              id: 2,
-              url: "/icons/atom-symbol.svg",
-              desc:"Embedded systems and the Internet of Things",
-            },
-            {
-              id: 3,
-              url: "/icons/atom-symbol.svg",
-              desc:"Virtual reality, augmented reality and mixed reality",
-            },
-          
-          
-            {
-              id: 4,
-              url: "/icons/atom-symbol.svg",
-              desc:"Intelligent business automation",
-            },]}
+    {
+      id: 4,
+      url: "/icons/atom-symbol.svg",
+      desc: "Intelligent business automation",
+    },
+  ],
+};
 
+export const careermany = {
+  title: "Many say they want this",
+  desc: "Some even mean it.",
+  desc1:
+    "If you feel like you’d thrive at ITRex, we’d love to hear from you. Please browse through our vacancies",
+  desc2: "and see if anything suits you.",
+};
 
-            export const careermany ={
-title:"Many say they want this",
-desc:"Some even mean it.",
-desc1:"If you feel like you’d thrive at ITRex, we’d love to hear from you. Please browse through our vacancies",
-desc2:"and see if anything suits you.",
+export const careercv = {
+  title: "Didn’t find a suitable job?",
+};
 
-            }
-
-            export const careercv ={
-
-              title:"Didn’t find a suitable job?",
-            }
-
-            export const howmodel ={
-
-              heading:"Our engagement models",
-              par:"When selecting an optimum engagement model for our clients, we discuss a lot of details, from their primary business objective and project scope to the level of flexibility and control they require. Our aim is to come up with a solution that balances cost efficiency, performance, and flexibility best.",
-              section: [
-                {
-                  id: 1,
-                  title: "Time & Materials",
-                  desc:"Under the Time & Materials model, we can build your software product either in a linear sequence of stages or in increments through constant communication with you. You pay only for actual work done on daily or hourly rates per specialist.",
-                  desc1:"Show more",
-                  
-                },
-                {
-                  id: 2,
-                  title: "Fixed Price",
-                  desc:"With this model, we build your software product for a price fixed upfront for the entire project. This often involves planning and estimating the entire project scope before development starts.",
-                  desc1:"Show more",
-                },
-                {
-                  id: 3,
-                  title: "Dedicated Team",
-                  desc:"Alternatively, you can simply hire our highly skilled engineers to fill in specific in-house skill gaps, or go for a full-fledged dedicated and self-managed team. You get professionals that integrate seamlessly into your environment, bring in a fresh angle and ideas, and deliver top results with in-house-like dedication.",
-                  desc1:"Show more",
-                },]
-
-            }
+export const howmodel = {
+  heading: "Our engagement models",
+  par: "When selecting an optimum engagement model for our clients, we discuss a lot of details, from their primary business objective and project scope to the level of flexibility and control they require. Our aim is to come up with a solution that balances cost efficiency, performance, and flexibility best.",
+  section: [
+    {
+      id: 1,
+      title: "Time & Materials",
+      desc: "Under the Time & Materials model, we can build your software product either in a linear sequence of stages or in increments through constant communication with you. You pay only for actual work done on daily or hourly rates per specialist.",
+      desc1: "Show more",
+    },
+    {
+      id: 2,
+      title: "Fixed Price",
+      desc: "With this model, we build your software product for a price fixed upfront for the entire project. This often involves planning and estimating the entire project scope before development starts.",
+      desc1: "Show more",
+    },
+    {
+      id: 3,
+      title: "Dedicated Team",
+      desc: "Alternatively, you can simply hire our highly skilled engineers to fill in specific in-house skill gaps, or go for a full-fledged dedicated and self-managed team. You get professionals that integrate seamlessly into your environment, bring in a fresh angle and ideas, and deliver top results with in-house-like dedication.",
+      desc1: "Show more",
+    },
+  ],
+};
 export const saasSection2 = [
   {
     id: 1,
@@ -1283,17 +1284,17 @@ export const MobileSwiperData = {
     },
     {
       src: "/images/author-1.jpg",
-      name: 'Ashley Lewis',
-      title: 'Director of Product Management',
-      company: 'Dollar Shave Club',
-      quote: "Itrex is an outstanding partner. They don't even feel like a contractor, but more like a fully integrated team.",
-  },
-  ]
-}
-
+      name: "Ashley Lewis",
+      title: "Director of Product Management",
+      company: "Dollar Shave Club",
+      quote:
+        "Itrex is an outstanding partner. They don't even feel like a contractor, but more like a fully integrated team.",
+    },
+  ],
+};
 
 export const careerbannerdata = {
-  url: "/images/soft.webp",
+  url: "/images/careerBanner.webp",
   title1: "Build things you’re",
   title2: "proud of",
   title3: "Join a crew as motivated as you. Make cool stuff for global brands.",
@@ -1307,54 +1308,61 @@ export const careerpage2data = {
   des2: "We solve problems and drive growth for our clients. They’ve included big names like Walmart, Take a Swing at Cancer, Procter & Gamble, Dun & Bradstreet, Warner Bros., 21st Century Fox, and the Dollar Shave Club.",
 };
 
-
 export const CareerPage3data = {
   title: "Our SaaS development services let you win big",
-  data : [
+  data: [
     {
-    id: 1,
-    src: "/icons/p&g.svg",
-    description: "Artificial intelligence, machine learning and big data",
-  },
-  {
-    id: 2,
-    src: "/icons/p&g.svg",
-    description: "Embedded systems and the Internet of Things",
-  },
-  {
-    id: 3,
-    src: "/icons/p&g.svg",
-    description: "Virtual reality, augmented reality and mixed reality",
-  },
-  {
-    id: 4,
-    src: "/icons/p&g.svg",
-    description: "Intelligent business automation",
-  },
-]};
+      id: 1,
+      src: "/icons/p&g.svg",
+      description: "Artificial intelligence, machine learning and big data",
+    },
+    {
+      id: 2,
+      src: "/icons/p&g.svg",
+      description: "Embedded systems and the Internet of Things",
+    },
+    {
+      id: 3,
+      src: "/icons/p&g.svg",
+      description: "Virtual reality, augmented reality and mixed reality",
+    },
+    {
+      id: 4,
+      src: "/icons/p&g.svg",
+      description: "Intelligent business automation",
+    },
+  ],
+};
 
 export const careerpage4data = {
   title: "Who should apply",
   title1: "Look,",
   title2: "this is not for everyone.",
-  desc1: "If you only want a salary and don’t much care about how good your projects are, you’ll probably hate it here.",
-  desc2: "If you hide behind policies and processes because, secretly, you’re terrified of owning ideas or decisions, you too will think it sucks.",
+  desc1:
+    "If you only want a salary and don’t much care about how good your projects are, you’ll probably hate it here.",
+  desc2:
+    "If you hide behind policies and processes because, secretly, you’re terrified of owning ideas or decisions, you too will think it sucks.",
   src: "/images/career-who-should-apply.webp",
 };
 
 export const careerpage5data = {
   title: "Now ask yourself (and be honest)",
-  desc1: "Does being part of a shoddy project bother you so much that you have to speak up?",
-  desc2: "Do you care about your client, your project, your decisions and your team?",
+  desc1:
+    "Does being part of a shoddy project bother you so much that you have to speak up?",
+  desc2:
+    "Do you care about your client, your project, your decisions and your team?",
   desc3: "Do you get a buzz out of solving hard problems?",
 };
 
 export const careerpage6data = {
   src: "/images/Career-honesty-1.webp",
   title: "Honesty, transparency and family spirit",
-  desc1: "We strive always to be honest with each other and the client. That’s more than being truthful, it’s about not dodging responsibility or concealing important things.",
-  desc2: "We aren’t afraid to argue. Because we care about our work, it happens. We disagree like family; we help and support each other no matter what.",
-  desc3: " Our managers live by this too. You’re never too junior to ask questions or to have an opinion.",
+  desc1:
+    "We strive always to be honest with each other and the client. That’s more than being truthful, it’s about not dodging responsibility or concealing important things.",
+  desc2:
+    "We aren’t afraid to argue. Because we care about our work, it happens. We disagree like family; we help and support each other no matter what.",
+  desc3:
+    " Our managers live by this too. You’re never too junior to ask questions or to have an opinion.",
 };
 
 export const imageBanner17 = {
@@ -1958,7 +1966,6 @@ export const caseBanner = {
 };
 
 export const aboutBanner2 = {
-  
   heading: "  We live by powerfull values:",
   section:[
   {
@@ -1970,31 +1977,31 @@ export const aboutBanner2 = {
   {
     id:2,
     number:2,
-    url:"/images/book-1.webp",
+    url:"/images/book-2.webp",
     title:"We deep dive into every project to deliver excellence.",
   },
   {
     id:3,
     number:3,
-    url:"/images/book-1.webp",
+    url:"/images/book-3.webp",
     title:"We take ownership of what we do.",
   },
   {
     id:4,
     number:4,
-    url:"/images/book-1.webp",
+    url:"/images/book-4.webp",
     title:"We value long-term relationships above quick wins and want to bring lasting gains for you.",
   },
   {
     id:5,
     number:5,
-    url:"/images/book-1.webp",
+    url:"/images/book-5.webp",
     title:"We believe we can help you drive margins while remaining true to our ethical values.",
   },
   {
     id:6,
     number:6,
-    url:"/images/book-1.webp",
+    url:"/images/book-6.webp",
     title:"We say “we” since we are a big ITRex family united together around one goal - to help you innovate for growth.",
   },
 
@@ -2189,14 +2196,341 @@ export const Eco1 = {
   ],
 };
 
-
 export const careerpage7data = {
   title: "Do you play to win? Or just to avoid blame?",
   title1: "Does this sound overly lofty?",
   title2: "We’re definitely not perfect.",
   title3: "We make mistakes.",
-  desc1: "You’re allowed to get things wrong – even horribly wrong – sometimes too. If you’re honest enough to own your mistakes, you will be safe.",
-  desc2: " Working at ITRex, you’ll watch us admit mistakes all the time. That’s what initiative and transparency looks like.",
-  desc3: "  We are all committed to each other’s success. All we ask in return is the same commitment back.",
+  desc1:
+    "You’re allowed to get things wrong – even horribly wrong – sometimes too. If you’re honest enough to own your mistakes, you will be safe.",
+  desc2:
+    " Working at ITRex, you’ll watch us admit mistakes all the time. That’s what initiative and transparency looks like.",
+  desc3:
+    "  We are all committed to each other’s success. All we ask in return is the same commitment back.",
   src: "/images/Career-play-to-win-1.webp",
-}
+};
+
+export const careerBanner2 = {
+  url: "/images/CareerBanner2.webp",
+};
+
+export const banner5 = {
+  imageurl: "/images/cloudBanner.webp",
+  title: "Cloud computing consulting and implementation",
+  button1: "Talk to our",
+  button2: " experts",
+  description:
+    "Harness the power of the cloud for lower operational costs, ultimate scalability, and unparalleled performance with our all-encompassing cloud computing consulting and implementation services",
+};
+
+// export const banner9 = {
+//   imageurl: "/images/webBanner.webp",
+//   title: "Custom web development services",
+//   button: "Get in touch",
+//   description:
+//     "Make a unique impact online now to grow business with end-to-end custom web development services from TheSpecialChar",
+// };
+
+// export const banner10 = {
+//   imageurl: "/images/webBanner.webp",
+//   title: "Custom web development services",
+//   button: "Get in touch",
+//   description:
+//     "Make a unique impact online now to grow business with end-to-end custom web development services from TheSpecialChar",
+// };
+
+export const listData1 = {
+  data: [
+    {
+      id: 1,
+      title: "CRMs",
+    },
+    {
+      id: 2,
+      title: "ERPs",
+    },
+    {
+      id: 3,
+      title: "Accounting Systems",
+    },
+    {
+      id: 4,
+      title: "Document Automation Solutions",
+    },
+    {
+      id: 5,
+      title: "Communication & Collaboration Tools",
+    },
+  ],
+};
+
+export const listData2 = {
+  data: [
+    {
+      id: 1,
+      title: "HR/HRM Software",
+    },
+    {
+      id: 2,
+      title: "Marketing Software",
+    },
+    {
+      id: 3,
+      title: "Cybersecurity Platforms",
+    },
+    {
+      id: 4,
+      title: "Project Management Systems",
+    },
+    {
+      id: 5,
+      title: "Other",
+    },
+  ],
+};
+
+export const imageBanner13 = {
+  url: "/images/soft3.webp",
+  title1: "How our SaaS development",
+  title2: "services differ",
+};
+
+export const serviceBox1 = [
+  {
+    id: 1,
+    // title: "Maturity:",
+    discription: "Building SaaS systems since 2009",
+  },
+  {
+    id: 2,
+    // title: "Agility:",
+    discription:
+      "Over 80% of our team are middle and senior-level professionals",
+  },
+  {
+    id: 3,
+    // title: "Experience:",
+    discription: "Tens of thousands of hours of custom software development",
+  },
+  {
+    id: 4,
+    // title: "Mastery:",
+    discription: "Global corporations among 200+ happy clients",
+  },
+  {
+    id: 5,
+    // title: "Flexibility:",
+    discription: "Proven track record in virtually every industry vertical",
+  },
+  {
+    id: 6,
+    // title: "Reliability: ",
+    discription:
+      "Expertise in disruptive tech to put you miles ahead of the competition",
+  },
+  {
+    id: 7,
+    // title: "Transparency: ",
+    discription: "Product mindset focusing on the value we add",
+  },
+  {
+    id: 8,
+    // title: "Excellence:",
+    discription:
+      "Agile delivery to let you go faster, with a guaranteed success",
+  },
+];
+
+export const backSection = {
+  title: "A rundown of our back-end development services",
+  description:
+    "We kick off back-end development projects with a meticulous analysis of your requirements and IT infrastructure. Next, we devise a software architecture, create a technical roadmap, select suitable tools, decide on the engagement model, and come up with an estimate that matches your budget and objectives. Our back-end development services span:",
+  section: [
+    {
+      // id: 1,
+      title: "Mobile app back-end development",
+      description:
+        "Our specialists create mobile back ends enabling advanced business logic in native and cross-platform apps. Whether you need an application with multiple types of user accounts, payment services, built-in customer loyalty and referral programs, or real-time sensor data processing capabilities, we’ll take on the challenge!",
+    },
+    {
+      // id: 2,
+      title: "Back-end web development",
+      description:
+        "As part of our back-end web development services, we build applications from the ground up or assist our clients’ front-end teams on a dedicated team or pay-as-you-go basis. Hire back-end developers at ITRex if you need a customer-facing portal, sleek e-commerce website, or enterprise-grade web application!",
+    },
+    {
+      // id: 3,
+      title: "Back-end integration via APIs",
+      description:
+        "With our back-end development services, you can interconnect the components of your IT infrastructure and harness the power of third-party applications to move your business forward! Our back-end API solutions securely log into apps, scavenge information across databases, and automate processes, freeing up your employees’ time for creative work",
+    },
+    {
+      // id: 4,
+      title: "Back end as a service (BaaS)",
+      description:
+        "To help you roll out apps across different platforms and user bases faster, we build reliable mobile back end as a service (mBaaS) solutions comprising a universal application programming interface (API) for your future deployments. Tap into our back-end development services to thrive in the digital, API-first era!",
+    },
+    {
+      // id: 5,
+      title: "Cloud back-end development",
+      description:
+        "A vetted Google Cloud and Microsoft partner, our back-end development company has the right skills and tools to expedite your project. From setting up scalable data warehouse solutions to managing containerized apps with Kubernetes or implementing DevOps and test automation , we know how to build cloud back-end solutions that deliver",
+    },
+    {
+      // id: 6,
+      title: "Back-end refactoring",
+      description:
+        "Changing an app’s behavior under the hood without disrupting user experience on the front end is a trick few companies can pull. Our back-end development services team will help you optimize web and cloud apps’ performance, address technical debt, split applications into self-sufficient microservices, and migrate software to the cloud",
+    },
+  ],
+};
+
+export const imageBanner14 = {
+  url: "/images/soft.webp",
+  title1: "Our back-end",
+  title2: "solutions",
+};
+
+export const YellowBannerData4 = {
+  description:
+    "We provide back-end development services to companies looking to modernize legacy software systems, adapt their processes to the needs imposed by the remote work era, automate workflows, and fill the gaps in their security defense. We’re excellent at building:",
+};
+
+export const backicon = [
+  {
+    url: "/images/accord_1-1.gif",
+    title: "Enterprise Back-End Solutions",
+    description:
+      "The ITRex back-end development services for the enterprise segment include the creation of fail-proof, scalable back-office systems and server-side infrastructure for ERP, SCM, CRM, DMS, LMS, MarTech, and FinTech applications",
+  },
+  {
+    url: "/images/accord_2-2.gif",
+    title: "Data Storage & Analytics",
+    description:
+      "If you hire back-end developers at ITRex, you’ll get a team of experts in data warehouse, data lake, and data lakehouse solutions. We’re also no strangers to business intelligence (BI) and can set up a complete data ecosystem driven by AI algorithms, too",
+  },
+  {
+    url: "/images/accord_3-3.gif",
+    title: "Software as a Service Products",
+    description:
+      "We’ll assist you in creating web and mobile SaaS applications for the B2B and B2C segments. Our back-end solutions boast high speed and uninterrupted performance, scale along with your user base, and support seamless feature rollouts",
+  },
+  {
+    url: "/images/accord_4-4.gif",
+    title: "IoT Back-End Infrastructure",
+    description:
+      "From cloud infrastructure for sensor data processing and over-the-air (OTA) updates to web consoles for IoT device management, our back-end development team knows the Internet of Things inside out — and we’re eager to share this knowledge with you!",
+  },
+];
+
+export const imageBanner15 = {
+  url: "/images/soft2.webp",
+  title1: "Our back-end development",
+  title2: "tech stack",
+};
+
+export const backicon2 = [
+  {
+    // url: "/images/accord_1-1.gif",
+    title: "Programming Languages",
+    description: "Java, Python, PHP, JavaScrip, C#, Go",
+  },
+  {
+    // url: "/images/accord_2-2.gif",
+    title: "Frameworks & Development Environments",
+    description:
+      ".Net, .Node.js, Express.js, Nest.js, Symphony, Laravel, Django, Falkon, Flask",
+  },
+  {
+    // url: "/images/accord_3-3.gif",
+    title: "Databases",
+    description:
+      "MySQL, PostgreSQL, Microsoft SQL Server, MongoDB, DynamoDB, MariaDB, Firebase, Apache Cassandra, Redis, Elasticsearch",
+  },
+  {
+    // url: "/images/accord_4-4.gif",
+    title: "Cloud",
+    description: "Google Cloud, Microsoft Azure, Amazon Web Services",
+  },
+];
+
+export const imageBanner16 = {
+  url: "/images/soft3.webp",
+  title1: "Why hire back-end",
+  title2: "developers at The Special Char?",
+};
+
+export const backbox = [
+  {
+    id: 1,
+    title: "We are many.",
+    discription:
+      "With 300+ IT specialists on board and 13+ years of experience in back-end software engineering, we’re uniquely poised to crack your technology challenges.",
+  },
+  {
+    id: 2,
+    title: "We are flexible.",
+    discription:
+      "A distributed and inherently agile back-end development services team scattered across three continents will help you achieve a faster return on your tech investments and improve time to market. Innovation through iteration is the principle we live and work by.",
+  },
+  {
+    id: 3,
+    title: "We are goal-oriented.",
+    discription:
+      "Our back-end development team doesn’t simply craft server-side code — we nurture your company’s transformation from the core. Should you need to revamp an existing app’s logic or launch a novel tech product supporting thousands of users, that’s what we do best!",
+  },
+  {
+    id: 4,
+    title: "We are The Special Char.",
+    discription:
+      "A back-end development company with a “We care” attitude, we strive for our clients’ success and seek to build a lasting, mutually beneficial relationship with your company. And crafting superb back-end solutions is the only way to achieve that.",
+  },
+];
+
+export const banner4 = {
+  imageurl: "/images/backBanner.webp",
+  title: "Expert back-end development services",
+  button1: "Hire back-end",
+  button2: " developers",
+  description:
+    "Join forces with our back-end development services company to create tech products that scale rapidly, perform well, and keep your employees and customers happy",
+};
+
+export const cloudAccordiandata = {
+  button: "Contact Us",
+  data: [
+    {
+      id: 1,
+      image: "/icons/atom-symbol.svg",
+      title: "Cloud Adoption and Migration",
+      content:
+        "Our vetted cloud solutions consultants dive in your tech infrastructure and study your needs to help you adopt the best-fit cloud migration strategy. We re-platform and modernize your apps and put APIs in place to integrate the newly migrated applications with enterprise software at minimal risks",
+    },
+    {
+      id: 2,
+      image: "/icons/atom-symbol.svg",
+      title: "Cloud Infrastructure Management",
+      content:
+        "We configure, monitor, and optimize the components of your cloud infrastructure, setting up DevOps, DevSecOps, and Infrastructure as Code practices to ensure optimal usage of cloud resources and high software performance with no downtime",
+    },
+  ],
+};
+
+export const cloudAccordiandata1 = {
+  data: [
+    {
+      id: 1,
+      image: "/icons/atom-symbol.svg",
+      title: "Cloud Optimization",
+      content:
+        "We analyze your cloud infrastructure, detect under- and over-provisioned instances and idle resources, and identify security gaps to remove performance bottlenecks, achieve 99.9% uptime, and lower your cloud computing costs",
+    },
+    {
+      id: 2,
+      image: "/icons/atom-symbol.svg",
+      title: "Cloud Application Development",
+      content:
+        "We are well-versed in working with AWS, Microsoft Azure, Google Cloud, and other cloud platforms and are ready to use our knowledge to implement a resilient and high-performing cloud app of any kind — from a mobile app back end to a complex AI-powered system",
+    },
+  ],
+};
