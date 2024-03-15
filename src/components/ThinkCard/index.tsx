@@ -18,7 +18,7 @@ export function ThinkCard({ data }: CardType) {
   return (
     <div>
       <div className=" ">
-        <Carousel opts={{ align: "start" }}>
+        <Carousel opts={{ align: "start" }} className="relative">
           <div className="w-full flex z-20 gap-x-10">
             <CarouselContent className="w-full">
               {Card1.cards.map((item) => (
@@ -45,8 +45,8 @@ export function ThinkCard({ data }: CardType) {
               ))}
             </CarouselContent>
           </div>
-          <CarouselPrevious className="bg-blue-500 h-10 w-10 ml-10 max-sm:hidden" />
-          <CarouselNext className="bg-blue-500 h-10 w-10 mr-10 max-sm:hidden" />
+          <CarouselPrevious className="bg-blue-500 h-10 w-10 ml-10 absolute top-1/4 -left-4 translate-x-[-100%] max-sm:hidden" />
+          <CarouselNext className="bg-blue-500 h-10 w-10 mr-10 absolute top-1/4 right-0 translate-x-[100%]  max-sm:hidden" />
         </Carousel>
       </div>
     </div>

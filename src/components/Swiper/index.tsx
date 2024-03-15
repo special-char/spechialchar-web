@@ -9,6 +9,7 @@ import Image from "next/image";
 import { SwiperNavButtons } from "./SwiperButton";
 import { SwiperServicesData } from "@/utils/types";
 import { SwiperServices } from "@/lib/constData";
+import Link from "next/link";
 
 const Swiper1 = ({ data }: SwiperServicesData) => {
   return (
@@ -36,7 +37,10 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
         <div className="">
           {SwiperServices.data.map((car, index) => (
             <SwiperSlide key={index} className="py-4">
-              <div className=" overflow-hidden overflow-y-hidden  h-56 ">
+              <Link
+                className=" overflow-hidden overflow-y-hidden  h-56 "
+                href={"https://thespecialcharacter.graphy.com/"}
+              >
                 <Image
                   src={car.src}
                   alt={car.alt}
@@ -47,7 +51,7 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
                 <div className=" px-6 py-3  md:px-12  text-white  text-2xl md:text-3xl   font-bold overflow-hidden lg:px-10 lg:pr-20">
                   {car.alt}&rarr;
                 </div>
-              </div>
+              </Link>
             </SwiperSlide>
           ))}
         </div>

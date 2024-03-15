@@ -3,6 +3,7 @@ import { tabdata } from "@/lib/constData";
 import { tabdataType } from "@/utils/types";
 import Image from "next/image";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 const Tab = ({ data }: tabdataType) => {
     return (
@@ -40,10 +41,10 @@ const Tab = ({ data }: tabdataType) => {
                     })}
 
                 </Tabs>
-            </div><div className="flex md:justify-start justify-center"><Button variant="default" size="sm" className='px-8 md:px-20 py-7 text-base '>
+            </div><Link className="flex md:justify-start justify-center" href={"https://thespecialcharacter.graphy.com/"}><Button variant="default" size="sm" className='px-8 md:px-20 py-7 text-base '>
                 {data.button}
             </Button>
-            </div>
+            </Link>
         </section>
     );
 };
