@@ -16,7 +16,7 @@ export function ProjectCard() {
   return (
     <div>
       <div className="">
-        <Carousel opts={{ align: "start" }}>
+        <Carousel opts={{ align: "start" }} className="relative">
           <div className=" flex z-20 gap-x-10">
             <CarouselContent className="w-full">
               {Cards.card.map((item) => (
@@ -43,8 +43,8 @@ export function ProjectCard() {
               ))}
             </CarouselContent>
           </div>
-          <CarouselPrevious className="bg-blue-500 h-10 w-10 ml-10 max-sm:hidden" />
-          <CarouselNext className="bg-blue-500 h-10 w-10 mr-10 max-sm:hidden " />
+          <CarouselPrevious className="bg-blue-500 h-10 w-10 absolute top-1/4 left-0 translate-x-[-50%] max-sm:hidden" />
+          <CarouselNext className="bg-blue-500 h-10 w-10 absolute top-1/4 right-0 max-sm:hidden " />
         </Carousel>
       </div>
     </div>

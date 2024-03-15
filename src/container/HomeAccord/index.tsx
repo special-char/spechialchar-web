@@ -1,6 +1,7 @@
 import HomeAccordian from "@/components/HomeAccordian";
 import { Button } from "@/components/ui/button";
 import { homeAccordiandata } from "@/lib/constData";
+import Link from "next/link";
 
 const AccCards = () => {
   return (
@@ -10,7 +11,7 @@ const AccCards = () => {
           How we can help you
         </h1>
         <HomeAccordian data={homeAccordiandata} />
-        <div className="flex md:justify-start justify-center">
+        <Link className="flex md:justify-start justify-center" href={"https://thespecialcharacter.graphy.com/"}>
           <Button
             variant="default"
             size="sm"
@@ -18,7 +19,7 @@ const AccCards = () => {
           >
             Discuss my Project
           </Button>
-        </div>
+        </Link>
       </div>
     </>
   );

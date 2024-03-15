@@ -54,7 +54,7 @@ const HeaderDesktop = ({ data }: Header) => {
             Case Studies
           </ul>
         </Link> */}
-        <div className="pt-1">
+        <Link className="pt-1" href={"https://thespecialcharacter.graphy.com/"}>
           <Button
             variant={"outline"}
             size={"xl"}
@@ -62,7 +62,7 @@ const HeaderDesktop = ({ data }: Header) => {
           >
             Contact Us
           </Button>
-        </div>
+        </Link>
       </div>
     </div>
   );
