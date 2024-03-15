@@ -5,7 +5,7 @@ import { aboutBannerType } from "@/utils/types";
 
 const AboutBanner = ({data}:aboutBannerType ) => {
   return (
-    <main className="bg-yellow-400 relative overflow-hidden h-screen -z-10">
+    <main className="bg-second relative overflow-hidden h-screen -z-10">
       <Image
         src={data.url}
         alt="image"
@@ -23,7 +23,7 @@ const AboutBanner = ({data}:aboutBannerType ) => {
           <div className=" font-bold  text-5xl sm:text-7xl md:text-8xl lg:text-9xl  text-black mt-2 sm:mt-1 md:mt-4 ">
             {data.title2}
           </div>
-      <div className=" text-base sm:text-lg md:text-xl lg:text-3xl  text-black mt-8 sm:mt-8 md:mt-14 lg:mt-32">
+      <div className=" text-base sm:text-lg md:text-subtitle1 lg:text-3xl  text-black mt-8 sm:mt-8 md:mt-14 lg:mt-32">
         {data.description}
         <br />
             {data.subdescription}

@@ -15,7 +15,7 @@ const Banner = ({
 
   return (
     <section
-      className={cn("h-screen w-full bg-black text-white flex items-center", {
+      className={cn("h-screen w-full bg-black text-white flex ", {
         [`${className}`]: className,
       })}
     >
@@ -44,7 +44,7 @@ const Banner = ({
             alt="image"
             height={500}
             width={500}
-            className="flex flex-wrap object-scale-down"
+            className="h-full w-full object-cover"
           />
         </div>
       </div>

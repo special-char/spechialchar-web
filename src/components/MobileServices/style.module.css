@@ -25,13 +25,13 @@
     }
     &::after {
         content: "";
-        @apply bg-gray-300 absolute -left-[9px] top-1/2 -translate-y-1/2 w-2 aspect-square rounded-full;
+        @apply bg-gray-300 absolute -left-[7px] top-1/2 -translate-y-1/2 w-2 aspect-square rounded-full;
       }
 }
 
 .contentdiv{
   @apply flex max-lg:flex-1 w-full;
   & > .tabsContent{
-    @apply text-xl
+    @apply text-subtitle1
   } 
 }
