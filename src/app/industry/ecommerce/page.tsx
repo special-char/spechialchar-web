@@ -1,4 +1,5 @@
 import EcommerceServices from "@/components/EcomServices";
+import ImageAccordion from "@/components/ImageAccordian";
 import ImageBanner from "@/components/ImageBanner";
 import LatestThinking from "@/components/LatestThinking";
 import MobileSwiper from "@/components/MobileSwiper";
