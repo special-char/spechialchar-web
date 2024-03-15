@@ -360,6 +360,18 @@ export type PageBanner = {
   title2: string;
 };
 
+export type HowBannerType = {
+  data:{
+    url: string;
+    title: string;
+    
+    desc:string;
+    desc1:string;
+  }
+    
+ 
+  
+};
 export type aboutBanner2Type = {
   data:{
     id:number;

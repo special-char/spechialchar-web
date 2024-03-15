@@ -6,7 +6,7 @@ const ImageBanner = ({ data }: BgBannerType) => {
     <section
       className="h-full w-full"
       style={{
-        backgroundImage: `url(${data.url})`,
+        backgroundImage: `url(${data.url})`
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

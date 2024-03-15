@@ -459,7 +459,8 @@ export const serviceicon = [
 export const banner = {
   imageurl: "/images/service3.png",
   title: "Software engineering Service",
-  button: "Software Engineering",
+  button1: "Discuss your Software",
+  button2: "engineering needs",
   description:
     "Overhaul business processes, modernize existing technology systems, and bring innovative technology product to market with ITRex — a software engineering company that cares",
 };
@@ -929,7 +930,7 @@ export const YellowBannerData2 = {
 export const banner3 = {
   imageurl: "/images/webBanner.webp",
   title: "Custom web development services",
-  button: "Get in touch",
+  button1: "Get in touch",
   description:
     "Make a unique impact online now to grow business with end-to-end custom web development services from TheSpecialChar",
 };
@@ -1031,7 +1032,7 @@ export const webgrid = [
 export const saasBanner = {
   imageurl: "/images/saasBanner.jpg",
   title: "End-to-end SaaS development services",
-  button: "Get in touch",
+  button1: "Get in touch",
   description:
     "As a top provider of SaaS development services, we are focused on building SaaS applications that surpass your and your customers’ expectations",
 };
@@ -2020,6 +2021,14 @@ export const caseBanner = {
   title1: "Our latest challenges",
 };
 
+
+export const howbanner = {
+  url: "/images/CareersBanner.webp",
+  title: "How we can work with you",
+  desc: "Team up with ITRex at any stage of your project, choosing the engagement model that fits best your project scope and business priorities.",
+desc1: "We can build your product on the Time & Materials, Fixed Price, or Dedicated Team basis using agile or waterfall depending on your project specifics.",
+
+};
 export const aboutBanner2 = {
   heading: "  We live by powerfull values:",
   section: [
