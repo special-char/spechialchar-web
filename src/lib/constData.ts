@@ -557,7 +557,7 @@ export const accordionItems = {
       value: "item-3",
       title: "Company",
       link: "#",
-      content: ["About", "Career", "How Is Work"],
+      content: ["About", "Career", "How We Work"],
     },
     {
       value: "item-4",
@@ -1293,6 +1293,61 @@ export const MobileSwiperData = {
   ],
 };
 
+export const imageAccordianData = {
+  title1:
+    "Ecommerce development services for online and brick-and-mortar retailers",
+  title2:
+    "No matter what type of retail business you are, we have the right expertise and experience to deliver a successful ecommerce solution that will engage your specific audience — with a tailored functionality, sleek design, and human-centered approach.",
+  title3: "What we build:",
+  button: "Tell us about your project",
+  data: [
+    {
+      image: "/images/imageacc1.webp",
+      header: "Online stores",
+      text: "Storefronts with device-agnostic interfaces and streamlined workflow, from order placement to checkout, offering smooth integration with popular payment gateways, ERP systems, CRMs, PIMs, inventory management.",
+    },
+    {
+      image: "/images/imageacc2.webp",
+      header: "B2C marketplaces",
+      text: "Omnichannel one-stop-shops that sell multiple brands, offering personalized shopping experience, simplified onboarding and easy checkout.",
+    },
+    {
+      image: "/images/imageacc3.webp",
+      header: "B2B portals",
+      text: "Complex B2B platforms capable of handling large catalogs, vast payment methods and price variations, bringing together manufacturers, wholesalers and distributors as a centralized hub.",
+    },
+    {
+      image: "/images/imageacc4.webp",
+      header: "Auctions",
+      text: "From basic features to the most sophisticated, high-load auction platforms that provide a variety of auction types, the configuration of bid items, real-time live bidding via video streaming, multiple payment gateways, full analytics reports, and more.",
+    },
+    {
+      image: "/images/imageacc5.webp",
+      header: "Ecommerce aggregators",
+      text: "Platforms that partner with multiple merchants under one brand to promote their goods or services and at the same time, create a convenient ecosystem for customers.",
+    },
+    {
+      image: "/images/imageacc6.webp",
+      header: "Shopping carts",
+      text: "Shopping cart solutions for installation, integration, and upgrade for fully custom features, automated billing tasks, and secure payment processing.",
+    },
+    {
+      image: "/images/imageacc7.webp",
+      header: "Mobile shopping apps",
+      text: "With professional ecommerce mobile app development you can be sure that nothing causes friction when customers decide to buy, with features from voice search and chat to on-touch payments.",
+    },
+    {
+      image: "/images/imageacc8.webp",
+      header: "Delivery apps",
+      text: "Apps that make it simple to track orders, automating the bulk of the shipping process while providing a personalized platform for communicating with customers about their delivery.",
+    },
+    {
+      image: "/images/imageacc9.webp",
+      header: "Social commerce",
+      text: "Setup of the entire shopping process on a social media platform, from peer-to-peer platforms to group buying, to participatory commerce, to social shopping with chats, forums and commenting features to create the real world shopping experience.",
+    },
+  ],
+};
 export const careerbannerdata = {
   url: "/images/careerBanner.webp",
   title1: "Build things you’re",
@@ -1967,44 +2022,46 @@ export const caseBanner = {
 
 export const aboutBanner2 = {
   heading: "  We live by powerfull values:",
-  section:[
-  {
-    id:1,
-    number:1,
-    url:"/images/book-1.webp",
-    title:"We are always honest no matter what.",
-  },
-  {
-    id:2,
-    number:2,
-    url:"/images/book-2.webp",
-    title:"We deep dive into every project to deliver excellence.",
-  },
-  {
-    id:3,
-    number:3,
-    url:"/images/book-3.webp",
-    title:"We take ownership of what we do.",
-  },
-  {
-    id:4,
-    number:4,
-    url:"/images/book-4.webp",
-    title:"We value long-term relationships above quick wins and want to bring lasting gains for you.",
-  },
-  {
-    id:5,
-    number:5,
-    url:"/images/book-5.webp",
-    title:"We believe we can help you drive margins while remaining true to our ethical values.",
-  },
-  {
-    id:6,
-    number:6,
-    url:"/images/book-6.webp",
-    title:"We say “we” since we are a big ITRex family united together around one goal - to help you innovate for growth.",
-  },
-
+  section: [
+    {
+      id: 1,
+      number: 1,
+      url: "/images/book-1.webp",
+      title: "We are always honest no matter what.",
+    },
+    {
+      id: 2,
+      number: 2,
+      url: "/images/book-2.webp",
+      title: "We deep dive into every project to deliver excellence.",
+    },
+    {
+      id: 3,
+      number: 3,
+      url: "/images/book-3.webp",
+      title: "We take ownership of what we do.",
+    },
+    {
+      id: 4,
+      number: 4,
+      url: "/images/book-4.webp",
+      title:
+        "We value long-term relationships above quick wins and want to bring lasting gains for you.",
+    },
+    {
+      id: 5,
+      number: 5,
+      url: "/images/book-5.webp",
+      title:
+        "We believe we can help you drive margins while remaining true to our ethical values.",
+    },
+    {
+      id: 6,
+      number: 6,
+      url: "/images/book-6.webp",
+      title:
+        "We say “we” since we are a big ITRex family united together around one goal - to help you innovate for growth.",
+    },
   ],
 };
 export const banner8 = {
@@ -2211,7 +2268,7 @@ export const careerpage7data = {
 };
 
 export const careerBanner2 = {
-  url: "/images/CareerBanner2.webp",
+  url: "/images/CareersBanner2.webp",
 };
 
 export const banner5 = {
@@ -2534,3 +2591,140 @@ export const cloudAccordiandata1 = {
     },
   ],
 };
+
+export const aboutAccordianData = {
+  title1: "Why work with us",
+  data: [
+    {
+      id: 1,
+      title: "Full-cycle services",
+      content:
+        "From strategic consulting to custom enterprise software, legacy system modernization, cloud migration, and DevOps, our talented teams deliver smashing solutions, putting your business priorities at the center of everything.",
+    },
+    {
+      id: 2,
+      title: "Top expertise",
+      content:
+        "We stay at the forefront of the current and emerging technologies, delivering expertly crafted disruption in domains like AI/ML, Big Data, Extended Reality, and Cloud.",
+    },
+    {
+      id: 3,
+      title: "Quality management",
+      content:
+        "We are big fans of continuous improvement and tools that allow us to scale and meet the highest quality requirements in software engineering. This comes with our equally strong focus on information security and regulatory compliance.",
+    },
+    {
+      id: 4,
+      title: "Agility",
+      content:
+        "We live and breathe agile principles. They give us the speed to deliver value to your company whatever the challenge and adapt to your changing business needs and user requirements along the way.",
+    },
+    {
+      id: 5,
+      title: "Innovation",
+      content:
+        "At our R&D labs, we research and incubate new technological concepts around your business challenges to build prototypes based on meaningful insights. This way we make sure you get a winning product that brings you on top of the competition.",
+    },
+    {
+      id: 6,
+      title: "Utmost flexibility",
+      content:
+        "Whether you need first-rate talent to fill in skill gaps or take up your project at any stage, you are in the right place. Start with any number of FTEs and extend the team with extra professionals at any moment.",
+    },
+  ],
+};
+
+export const howWeWorktabdata = {
+  title1: "Software development methodologies",
+  title2:
+    "Having completed hundreds of successful projects, we will help you figure out what approach works best for the development of your software product, and assemble a powerful team to deliver the desired results.",
+  button: "Get a free consultation!",
+
+  data: [
+    {
+      id: 1,
+      trigger: "Agile",
+      content:
+        "The Agile approach centers around a continuously evolving project scope and iterative development where the team delivers a work product — a new feature or meaningful improvement — at the end of every iteration. This approach allows you to start quickly and make decisions in action based on instant feedback.",
+      value: "Agile",
+      title: "Agile is your go-to methodology when:",
+      list: [
+        {
+          id: 1,
+          text: "Your end-product vision is likely to evolve in the course of development",
+        },
+        {
+          id: 2,
+          text: "It’s difficult to detail all the requirements at the project onset, for instance, because of its complexity",
+        },
+        {
+          id: 3,
+          text: "The success of your product is strongly dependant on user feedback",
+        },
+        {
+          id: 4,
+          text: "It’s critical to direct the team’s energy straight off toward development, skipping a lengthy planning stage, to bring your product to market quickly",
+        },
+      ],
+    },
+    {
+      id: 2,
+      trigger: "Waterfall",
+      content:
+        "In the waterfall model, your entire project, including phases, tasks, and dependencies, is mapped out before development. This means thoroughly planning and documenting all processes, timelines, deliverables, resources, and costs beforehand. At the end of the day, you get less flexibility but a greater level of predictability.",
+      value: "Waterfall",
+      title: "The waterfall methodology is best when:",
+      list: [
+        {
+          id: 1,
+          text: "Your end vision and stakeholders’ needs are well defined and are not going to change",
+        },
+        {
+          id: 2,
+          text: "It is possible to fix all the requirements upfront",
+        },
+        {
+          id: 3,
+          text: "Your product requires multiple integrations with external systems, including in the process of development",
+        },
+        {
+          id: 4,
+          text: "You need to comply with more extensive project tracking or documentation requirements",
+        },
+      ],
+    },
+  ],
+};
+
+export const Data = [
+  {
+    id: 1,
+    title1: "13+",
+    title2: "years in mobile application development",
+  },
+  {
+    id: 2,
+    title1: "300+",
+    title2: "top-tier software development experts",
+  },
+  {
+    id: 3,
+    title1: "100+",
+    title2: "millions of users enjoy our apps",
+  },
+  {
+    id: 4,
+    title1: "200+",
+    title2: "clients around the globe",
+  },
+  {
+    id: 5,
+    title1: "99%",
+    title2: "app reliability rate",
+  },
+  {
+    id: 6,
+    title1: "600+",
+    title2: "products delivered",
+  },
+];
