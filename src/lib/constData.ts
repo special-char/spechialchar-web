@@ -557,7 +557,7 @@ export const accordionItems = {
       value: "item-3",
       title: "Company",
       link: "#",
-      content: ["About", "Career", "How Is Work"],
+      content: ["About", "Career", "How We Work"],
     },
     {
       value: "item-4",
@@ -2534,3 +2534,36 @@ export const cloudAccordiandata1 = {
     },
   ],
 };
+
+export const Data = [
+  {
+    id: 1,
+    title1: "13+",
+    title2: "years in mobile application development",
+  },
+  {
+    id: 2,
+    title1: "300+",
+    title2: "top-tier software development experts",
+  },
+  {
+    id: 3,
+    title1: "100+",
+    title2: "millions of users enjoy our apps",
+  },
+  {
+    id: 4,
+    title1: "200+",
+    title2: "clients around the globe",
+  },
+  {
+    id: 5,
+    title1: "99%",
+    title2: "app reliability rate",
+  },
+  {
+    id: 6,
+    title1: "600+",
+    title2: "products delivered",
+  },
+];
