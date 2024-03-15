@@ -2,6 +2,7 @@ import { CollaboratorCard } from "@/lib/constData";
 import React from "react";
 import CollabrateCard from "@/components/CollabrateCard";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const Collabrate = () => {
   return (
@@ -16,6 +17,14 @@ const Collabrate = () => {
           <CollabrateCard data={x} />
         ))}
       </div>
+      <Link
+        className=" max-sm:grid overflow-hidden "
+        href={"https://thespecialcharacter.graphy.com/"}
+      >
+        <Button variant={"default"} size={"md"} className="">
+          Start your innovation journey
+        </Button>
+      </Link>
     </section>
   );
 };

@@ -19,7 +19,7 @@ const ThinkSec = (props: Props) => {
       <div className="flex flex-wrap justify-between my-10 gap-y-9 text-xl text-white">
         <div className="flex items-center">
           <Link
-            href={"#"}
+            href={"https://thespecialcharacter.graphy.com/"}
             className="pt-1 flex gap-x-2 items-center text-black font-bold"
           >
             View all cases <Arrow />

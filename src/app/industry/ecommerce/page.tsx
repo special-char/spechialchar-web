@@ -1,4 +1,5 @@
 import EcommerceServices from "@/components/EcomServices";
+import ImageAccordion from "@/components/ImageAccordian";
 import ImageBanner from "@/components/ImageBanner";
 import LatestThinking from "@/components/LatestThinking";
 import MobileSwiper from "@/components/MobileSwiper";
@@ -16,6 +17,7 @@ import {
   banner8,
   ecomSocial,
   ecommercesdata,
+  imageAccordianData,
   imageBanner28,
   imageBanner29,
   imageBanner30,
@@ -30,6 +32,7 @@ const Ecommerce = (props: Props) => {
     <>
       <Banner data={banner8} className="bg-[#eaeceb] text-black" />
       <EcomSocial data={ecomSocial} />
+      <ImageAccordion data={imageAccordianData} />
       <ImageBanner data={imageBanner28} />
       <YellowBanner data={Bgbanner5} />
       <EcomGrid />
