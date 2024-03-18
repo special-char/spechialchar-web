@@ -16,6 +16,7 @@ import {
   imageBanner,
   imageBanner1,
   imageBanner2,
+  serviceicon,
   tabdata,
 } from "@/lib/constData";
 import React from "react";
@@ -24,7 +25,7 @@ const Services = () => {
   return (
     <>
       <Banner data={banner} className="" />
-      <Service />
+      <Service data={serviceicon} />
       <ImageBanner data={imageBanner} />
       <YellowBanner data={Bgbanner} />
       <ServiceIcon2 />

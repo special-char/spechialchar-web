@@ -112,7 +112,8 @@ export type tabdataType = {
     content: string;
     value: string;
     image: string;
-    button: string;
+    button1: string;
+    button2: string;
     title1: string;
     title2: string;
     list: {
@@ -129,7 +130,12 @@ export type ServiceBoxType = {
   };
 };
 export type ServiceIconType = {
+  
   data: {
+    button1:string;
+    button2:string;
+    heading:string;
+    texts:string;
     url: string;
     title: string;
     description: string;
@@ -378,3 +384,11 @@ export type ecomSectionType = {
   title: string;
   section: string;
 };
+
+export type webGridSectionType={
+ data:{
+  id:number;
+  link:string;
+  ref:string
+ } 
+}
