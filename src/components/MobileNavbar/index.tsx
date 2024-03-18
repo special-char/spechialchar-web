@@ -10,11 +10,9 @@ import Humburger from "@/public.three-horizontal-lines-icon.svg";
 import Close from "@/public.icons/close-icon.svg";
 import NavbarLogo from "../../../public/icons/Navbar.svg";
 import { Header } from "@/utils/types";
-import { accordionItems } from "@/lib/constData";
+import { accordionItems1 } from "@/lib/constData";
 
-
-
-const MobileNavbar = ({data}:Header) => {
+const MobileNavbar = ({ data }: Header) => {
   const [click, setClicked] = useState(false);
   const toggleDropdown = () => {
     setClicked(!click);
@@ -22,7 +20,6 @@ const MobileNavbar = ({data}:Header) => {
 
   return (
     <>
- 
       <div onClick={toggleDropdown}>
         <Humburger className="fill-white" />
       </div>
@@ -37,45 +34,47 @@ const MobileNavbar = ({data}:Header) => {
             </div>
           </div>
           <div className="pt-8">
-
-          <Accordion type="single" className="  ">
-            {accordionItems.data.map((item,i) => (
-              <AccordionItem key={item.value} value={item.value} className="">
-                <AccordionTrigger className="">
-                  <Link href={item.link.toLowerCase()}>{item.title}</Link>
-                </AccordionTrigger>
-                <AccordionContent className="p-4">
-                  <ul className="flex flex-col gap-y-2">
-                    {item?.content?.map((itemContent, index) => (
-                      <li key={index} className="text-base hover:text-yellow-300  ">
-                        <Link
-                          href={`${item.title.toLowerCase()}/${itemContent.toLowerCase()}`}
-                          className=""
+            <Accordion type="single" className="  ">
+              {accordionItems1.data.map((item, i) => (
+                <AccordionItem key={item.value} value={item.value} className="">
+                  <AccordionTrigger className="">
+                    <Link href={item.link.toLowerCase()}>{item.title}</Link>
+                  </AccordionTrigger>
+                  <AccordionContent className="p-4">
+                    <ul className="flex flex-col gap-y-2">
+                      {item?.content?.map((itemContent, index) => (
+                        <li
+                          key={index}
+                          className="text-base hover:text-yellow-300  "
                         >
-                          {itemContent}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-            <div className="flex flex-col">
-              <Link
-                href="/ourthing"
-                className="text-white font-bold hover:text-second text-subtitle1 md:text-2xl py-3"
-              >
-                Our Thinking
-              </Link>
+                          <Link
+                            href={`${item.title.toLowerCase()}/${itemContent.toLowerCase()}`}
+                            className=""
+                          >
+                            {itemContent}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+              <div className="flex flex-col">
+                <Link
+                  href="/ourthinking"
+                  className="text-white font-bold hover:text-second text-subtitle1 md:text-2xl py-3"
+                >
+                  Our Thinking
+                </Link>
 
-              <Link
-                href="/casestudio"
-                className="text-white font-bold hover:text-second text-subtitle1 md:text-2xl py-3"
-              >
-                Case Studies
-              </Link>
-            </div>
-          </Accordion>
+                <Link
+                  href="/casestudies"
+                  className="text-white font-bold hover:text-second text-subtitle1 md:text-2xl py-3"
+                >
+                  Case Studies
+                </Link>
+              </div>
+            </Accordion>
           </div>
         </div>
       )}
