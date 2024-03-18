@@ -2949,7 +2949,7 @@ export const aboutlinks = {
     {
       id: 1,
       title: "EdTech & eLearning",
-      link: "/industry/edtech-elearning",
+      link: "/industry/elearning",
       image: "/icons/refresh.svg",
     },
     {
@@ -3251,6 +3251,73 @@ export const SwiperServices4 = {
       id: 5,
       src: "/images/fitness-app-e1626716488925-1440x1018.webp",
       alt: "AI-powered fittness  mirror with a personal coach inside",
+    },
+  ],
+};
+
+
+export const TableContent = {
+  title: "Comparison of engagement models",
+  header: [
+    {
+      id: 1,
+      title: "Features",
+    },
+    {
+      id: 2,
+      title: "Fixed Price",
+    },
+    {
+      id: 3,
+      title: "Time & Material",
+    },
+    {
+      id: 4,
+      title: "Dedicated Team",
+    },
+  ],
+  invoices: [
+    {
+      invoice: "Project Size",
+      paymentStatus: "any",
+      totalAmount: "any",
+      paymentMethod: "any",
+    },
+    {
+      invoice: "Requirement",
+      paymentStatus: "fixed",
+      totalAmount: "evolving",
+      paymentMethod: "evolving",
+    },
+    {
+      invoice: "Scope Flexibility",
+      paymentStatus: "limited flexibility",
+      totalAmount: "flexible",
+      paymentMethod: "flexible",
+    },
+    {
+      invoice: "Budget Predictability",
+      paymentStatus: "highest",
+      totalAmount: "pay as you go",
+      paymentMethod: "fixed team cost",
+    },
+    {
+      invoice: "Timelines",
+      paymentStatus: "fixed",
+      totalAmount: "flexible",
+      paymentMethod: "flexible",
+    },
+    {
+      invoice: "Client’s Involvement",
+      paymentStatus: "minimal",
+      totalAmount: "regular",
+      paymentMethod: "constant",
+    },
+    {
+      invoice: "Quick Start",
+      paymentStatus: "no",
+      totalAmount: "yes",
+      paymentMethod: "yes",
     },
   ],
 };

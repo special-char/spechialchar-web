@@ -5,6 +5,7 @@ import { HowBannerType } from '@/utils/types'
 import React from 'react'
 import Image from 'next/image'
 import { Button } from '../ui/button'
+import Link from 'next/link'
 
 type Props = {}
 
@@ -27,11 +28,11 @@ const HowBanner = ({data}: HowBannerType) => {
           {data.desc}
         </div>
         <div className=" text-sm ">{data.desc1}</div>
-        <div className=" max-lg:mt-20 lg:mt-8 -px-4 max-sm:-py-20 max-sm:-my-1 ">
+        <Link className=" max-lg:mt-20 lg:mt-8 -px-4 max-sm:-py-20 max-sm:-my-1 " href={'https://thespecialcharacter.graphy.com/'}>
           <Button variant="default" size="sm" className="text-base lg:px-16 lg:py-7">
             Get a free consultant
           </Button>
-        </div>
+        </Link>
       </div>
     </section>
   )
