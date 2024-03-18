@@ -21,14 +21,16 @@ const Service = ({ data }: ServiceIconType) => {
           <ServiceIcon data={x} />
         ))}
       </div>
-      <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
-        <Button>
-          <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-            Discuss your software <span>engineering needs </span>
-            <span>&rarr;</span>
-          </span>
-        </Button>
-      </Link>
+      <div className="py-10">
+        <Link href={"https://thespecialcharacter.graphy.com/"}>
+          <Button>
+            <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+              Discuss your software <span>engineering needs </span>
+              <span>&rarr;</span>
+            </span>
+          </Button>
+        </Link>
+      </div>
     </section>
   );
 };
