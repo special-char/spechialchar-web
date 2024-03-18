@@ -9,15 +9,7 @@ import Marque from "../Marque";
 const MobilePage = ({ data }: MobilePageData) => {
   return (
     <>
-      {/* <ImageBanner data={MobileBgBanner1} />
 
-    <ImageBanner data={MobileBgBanner2}/>
-
-    <YellowBanner data={MobileYellowBanner1}/>
-
-    <ImageBanner data={MobileBgBanner3} />
-
-    <YellowBanner data={MobileYellowBanner2}/> */}
 
       <section className=" text-white">
         {/* p-8 bg-black md:px-12 md:pt-8 grid gap-8 lg:gap-12 lg:m-4 lg:mx-20 lg:p-24 */}
