@@ -1672,7 +1672,7 @@ export const YellowBannerData6 = {
 };
 
 export const imageBanner19 = {
-  url: "/images/soft10.webp",
+  url: "/images/flexible.webp",
   title1: "Cloud computing consulting with The Special Char:",
   title2: "our value proposition",
 };
@@ -2897,6 +2897,114 @@ export const Data = [
   },
 ];
 
+export const uiuxtabdata = {
+  button: "Hire UI/UX designers",
+  data: [
+    {
+      id: 1,
+      trigger: "Discover",
+      content:
+        "We dive headfirst into the project to better understand your business, processes, and objectives — and come up with viable UI/UX concepts",
+      value: "Discover",
+      image: "/icons/refresh.svg",
+    },
+    {
+      id: 2,
+      trigger: "Validate",
+      content:
+        "We create prototypes with specific customer personas in mind, gather stakeholder feedback, analyze common user behavior patterns, and revise initial assumptions",
+      value: "Validate",
+      image: "/icons/refresh.svg",
+    },
+    {
+      id: 3,
+      trigger: "Design",
+      content:
+        "We transform prototypes into full-fledged application interfaces that render correctly across all platforms and devices, convey your brand message, and streamline workflows",
+      value: "Design",
+      image: "/icons/refresh.svg",
+    },
+    {
+      id: 4,
+      trigger: "Test",
+      content:
+        "We identify and correct flaws and inconsistencies in UI/UX design and proceed to testing the solution with real users — either through traditional user tests or beta product launch.",
+      value: "Test",
+      image: "/icons/refresh.svg",
+    },
+    {
+      id: 5,
+      trigger: "Improve",
+      content:
+        "We tweak application interfaces and navigation logic based on user feedback and repeat tests again and again until you get a tech product that fulfills your business objectives",
+      value: "Improve",
+      image: "/icons/refresh.svg",
+    },
+  ],
+};
+
+export const aboutlinks = {
+  title1: "Our industry focus",
+  data: [
+    {
+      id: 1,
+      title: "EdTech & eLearning",
+      link: "/industry/edtech-elearning",
+      image: "/icons/refresh.svg",
+    },
+    {
+      id: 2,
+      title: "Ecommerce",
+      link: "/industry/ecommerce",
+      image: "/icons/refresh.svg",
+    },
+    {
+      id: 3,
+      title: "UI/UX Design",
+      link: "/services/uiux-design",
+      image: "/icons/refresh.svg",
+    },
+    {
+      id: 4,
+      title: "Cloud & DevOps",
+      link: "/services/cloud-devops",
+      image: "/icons/refresh.svg",
+    },
+  ],
+};
+
+export const imageBanner32 = {
+  url: "/images/soft3.webp",
+  title1: "Why work with our",
+  title2: "UI/UX design company?",
+};
+
+export const uiuxbox = [
+  {
+    id: 1,
+    title: "Mature UI/UX design specialists.",
+    discription:
+      "When you hire UI/UX designers at ITRex, you get a team with the right soft and hard skills, recognized certifications, a powerful toolset, and unleashed imagination.",
+  },
+  {
+    id: 2,
+    title: "Proven track record of UI/UX projects.",
+    discription:
+      "We’re well-versed in UI/UX design and development — and we’ve got an extensive portfolio to back up our claim. And while you’re at it, you can check out our page on Dribbble, too.",
+  },
+  {
+    id: 3,
+    title: "Focus on customer needs. ",
+    discription:
+      "We believe in user-centered design, and we apply its core principles in every project we do. Whoever your clients are and whatever their goals might be, our UI/UX design company will ideate and create exactly what you need.",
+  },
+  {
+    id: 4,
+    title: "Business background. ",
+    discription:
+      "We provide UI/UX services to companies from different business verticals, including healthcare, retail, education, and logistics. Our team fully comprehends the challenges your company faces and knows how to address them on the user experience side.",
+  },
+];
 export const Bgbanner8 = {
   description:
     "As a top-tier provider of custom web application development services to enterprises, ITRex can fulfill any of your digital needs, whatever your industry is. Create your innovative and high-performing web application using the right front and back-end technology to get results quickly. Our web apps deliver the utmost usability, scalability, and cross-browser compatibility, along with a competitive edge to drive your growth.",
