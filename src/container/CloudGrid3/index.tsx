@@ -7,7 +7,7 @@ type Props = {};
 const CloudGrid3 = (props: Props) => {
   return (
     <>
-      <section className="bg-[#fffae3] border-r-2 lg:m-10 md:px-24 lg: py-20  p-4 rounded-lg flex flex-col gap-y-9">
+      <section className="bg-[#fffae3] lg:m-10 md:px-24 lg: py-20  p-4 rounded-lg flex flex-col gap-y-9">
         <div className="text-subtitle1 font-bold">
           Why work with The Special Char?
         </div>

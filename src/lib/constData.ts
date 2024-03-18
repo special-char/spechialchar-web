@@ -558,7 +558,7 @@ export const accordionItems = {
       value: "item-2",
       title: "Industry",
       link: "#",
-      content: ["EdTech-eLearning", "Ecommerce"],
+      content: ["eLearning", "Ecommerce"],
     },
     {
       value: "item-3",
@@ -3007,8 +3007,8 @@ export const SwiperServices2 = {
       src: "/images/swiper7.webp",
       alt: "Custom app with color watching features for Shopify-based ecommerce store  ",
     },
-  ]
-}
+  ],
+};
 
 export const webGridSectiondata = {
   data: [
@@ -3017,14 +3017,15 @@ export const webGridSectiondata = {
       link: "Enterprise-Grade Solutions (ERP, CRM, PLM, etc.)",
       ref: "./",
     },
-    { 
+    {
       id: 2,
-     link: "Logistics Solutions", 
-     ref: "./" },
-    { 
-      id: 3, 
-      link: "Data Analytics", 
-      ref: "./" 
+      link: "Logistics Solutions",
+      ref: "./",
+    },
+    {
+      id: 3,
+      link: "Data Analytics",
+      ref: "./",
     },
     {
       id: 4,
@@ -3032,45 +3033,116 @@ export const webGridSectiondata = {
       ref: "./",
     },
     {
-      id:5,
-      link:"SaaS Applications",
-      ref:"./"
+      id: 5,
+      link: "SaaS Applications",
+      ref: "./",
     },
     {
-      id:6,
-      link:"eHealth",
-      ref:"./"
+      id: 6,
+      link: "eHealth",
+      ref: "./",
     },
     {
-      id:7,
-      link:"Omnichannel Ecommerce",
-      ref:"./"
+      id: 7,
+      link: "Omnichannel Ecommerce",
+      ref: "./",
     },
     {
-      id:8,
-      link:"FinTech Solutions",
-      ref:"./"
+      id: 8,
+      link: "FinTech Solutions",
+      ref: "./",
     },
     {
-      id:9,
-      link:"Marketing Management",
-      ref:"./"
+      id: 9,
+      link: "Marketing Management",
+      ref: "./",
     },
     {
-      id:10,
-      link:"Employee Productivity Apps",
-      ref:"./"
+      id: 10,
+      link: "Employee Productivity Apps",
+      ref: "./",
     },
     {
-      id:11,
-      link:"Digital Sports",
-      ref:"./"
-    }
-    ,
+      id: 11,
+      link: "Digital Sports",
+      ref: "./",
+    },
     {
-      id:12,
-      link:"Video Streaming",
-      ref:"./"
-    }
+      id: 12,
+      link: "Video Streaming",
+      ref: "./",
+    },
+  ],
+};
+
+export const SwiperServices3 = {
+  title: "Selectback-end development case studies",
+  data: [
+    {
+      id: 1,
+      src: "/images/backswiper1.webp",
+      alt: "AI-powered self-service BI and big  data plateform",
+    },
+    {
+      id: 2,
+      src: "/images/swiper2.webp",
+      alt: "Custom business budgeting software for consulting firm",
+    },
+    {
+      id: 3,
+      src: "/images/backswiper3.webp",
+      alt: "Machine Learing for Marketing Campaigns",
+    },
+    {
+      id: 4,
+      src: "/images/backswiper4.webp",
+      alt: "Data-driven daibetes management system",
+    },
+    {
+      id: 5,
+      src: "/images/backswiper5.webp",
+      alt: "Ecommerce plateform for affilate marketing",
+    },
+    {
+      id: 5,
+      src: "/images/fitness-app-e1626716488925-1440x1018.webp",
+      alt: "AI-powered fittness  mirror with a personal coach inside",
+    },
+  ],
+};
+
+export const SwiperServices4 = {
+  title: "Featured Projects",
+  data: [
+    {
+      id: 1,
+      src: "/images/uiswiper1.webp",
+      alt: "Social Network",
+    },
+    {
+      id: 2,
+      src: "/images/uiswiper2.webp",
+      alt: "Podcast app",
+    },
+    {
+      id: 3,
+      src: "/images/uiswiper3.webp",
+      alt: "Freight management app",
+    },
+    {
+      id: 4,
+      src: "/images/backswiper4.webp",
+      alt: "Data-driven daibetes management system",
+    },
+    {
+      id: 5,
+      src: "/images/backswiper5.webp",
+      alt: "Ecommerce plateform for affilate marketing",
+    },
+    {
+      id: 5,
+      src: "/images/fitness-app-e1626716488925-1440x1018.webp",
+      alt: "AI-powered fittness  mirror with a personal coach inside",
+    },
   ],
 };
