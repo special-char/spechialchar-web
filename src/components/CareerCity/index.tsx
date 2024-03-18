@@ -47,7 +47,7 @@ const CareerCity = ({ data }: CareerCityType) => {
             {data.title}
           </h2>
         </div>
-        <div className=" lg:text-subtitle1 md:text-base text-sm lg:py-12">
+        <div className=" lg:text-xl md:text-base text-sm lg:py-12">
           {data.description}
         </div>
       </div>

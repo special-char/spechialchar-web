@@ -8,6 +8,7 @@ import CloudAccordian from "@/container/CloudAccordian";
 import CloudGrid from "@/container/CloudGrid";
 import CloudGrid2 from "@/container/CloudGrid2";
 import CloudGrid3 from "@/container/CloudGrid3";
+import CloudGrid4 from "@/container/CloudGrid4";
 import CloudSocial from "@/container/CloudSocial";
 import OurClients from "@/container/OurClients";
 import {
@@ -16,6 +17,7 @@ import {
   YellowBannerData6,
   YellowBannerData7,
   banner5,
+  cloudgrid4,
   imageBanner17,
   imageBanner18,
   imageBanner19,
@@ -39,12 +41,13 @@ const CloudDevops = (props: Props) => {
       <CloudGrid2 />
       <ImageBanner data={imageBanner19} />
       <YellowBanner data={YellowBannerData7} />
+      <CloudGrid4 data={cloudgrid4} />
       <CloudGrid3 />
       <ImageBanner data={imageBanner20} />
       <CloudSocial />
-      <OurClients/>
+      <OurClients />
       <MobileSwiper data={MobileSwiperData} />
-      <LatestThinking data={latestThinkingData}/>
+      <LatestThinking data={latestThinkingData} />
     </>
   );
 };

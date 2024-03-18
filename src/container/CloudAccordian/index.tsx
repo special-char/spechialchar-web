@@ -1,6 +1,7 @@
 import CloudAccord from "@/components/CloudAccord";
 import { Button } from "@/components/ui/button";
 import { cloudAccordiandata } from "@/lib/constData";
+import Link from "next/link";
 import React from "react";
 
 type Props = {};
@@ -24,11 +25,11 @@ const CloudAccordian = (props: Props) => {
       <div>
         <CloudAccord data={cloudAccordiandata} />
       </div>
-      <div>
+      <Link href={"https://thespecialcharacter.graphy.com/"}>
         <Button variant="default" size="sm" className=" py-7 text-base ">
           Let's Talk &rarr;
         </Button>
-      </div>
+      </Link>
     </section>
   );
 };
