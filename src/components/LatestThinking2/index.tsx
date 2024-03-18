@@ -9,7 +9,7 @@ import style from "./swiper.module.css";
 import { Autoplay, EffectFade, Navigation } from "swiper/modules";
 import Image from "next/image";
 import { latestThinkingType } from "@/utils/types";
-import { latestThinkingData } from "@/lib/constData";
+import { latestThinkingData, latestThinkingData2 } from "@/lib/constData";
 import Link from "next/link";
 
 const Banner = ({ data }: latestThinkingType) => {
@@ -29,10 +29,10 @@ const Banner = ({ data }: latestThinkingType) => {
             modules={[Autoplay, EffectFade, Navigation]}
             className={style.swiper}
           >
-            {latestThinkingData.data.map((x) => (
+            {latestThinkingData2.data.map((x) => (
               <SwiperSlide className="h-full" key={x.id}>
                 <div className="flex bg-background max-lg:flex-col-reverse">
-                  <div className="md:flex-1 gap-2">
+                  <div className="md:flex-1 gap-2 pr-3">
                     <Link
                       href={x.Link}
                       className=" leading-10 max-lg:text-heading2 text-4xl max-sm:text-heading2 font-bold"

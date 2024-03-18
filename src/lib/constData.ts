@@ -889,6 +889,8 @@ export const serviceAccordiandata = {
 };
 
 export const latestThinkingData = {
+  title: "Latest thinking",
+  button: "",
   data: [
     {
       id: 1,
@@ -3183,6 +3185,72 @@ export const webGridSectiondata = {
   ],
 };
 
+export const ourThinkingData={
+  All:[
+    {
+      id: 1,
+      image: "/images/blog1.webp",
+      categories: ["Big Data", "Product Development"],
+      title: "Mastering data discovery: A Practical Manual",
+      link: "#",
+    },
+    {
+      id: 2,
+      image: "/images/blog2.webp",
+      categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+      title: "Generative AI in business: top 5 use cases every company should consider [with a free eBook]",
+      link: "#",
+    },
+  ],
+  Strategy:[ {
+    id: 3,
+    image: "/images/blog3.webp",
+    categories: ["Big Data", "Product Development"],
+    title: "Generative AI in banking: current state of affairs",
+    link: "#",
+  },
+  {
+    id: 4,
+    image: "/images/blog4.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "AI outsourcing: tips for choosing the right technology partner for your company",
+    link: "#",
+  },
+  ],
+  Trending:[{
+    
+      id: 1,
+      image: "/images/blog1.webp",
+      categories: ["Big Data", "Product Development"],
+      title: "Mastering data discovery: A Practical Manual",
+      link: "#",
+    },
+    {
+      id: 2,
+      image: "/images/blog2.webp",
+      categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+      title: "Mastering data discovery: A Practical Manual",
+      link: "#",
+    },
+  ], 
+  Development:[{
+    id: 3,
+    image: "/images/blog3.webp",
+    categories: ["Big Data", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 4,
+    image: "/images/blog4.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "AI outsourcing: tips for choosing the right technology partner for your company ",
+    link: "#",
+  },
+  ],
+
+
+}
 export const AboutData = [
   {
     id: 1,
@@ -3316,7 +3384,6 @@ export const SwiperServices4 = {
   ],
 };
 
-
 export const TableContent = {
   title: "Comparison of engagement models",
   header: [
@@ -3379,6 +3446,83 @@ export const TableContent = {
       paymentStatus: "no",
       totalAmount: "yes",
       paymentMethod: "yes",
+    },
+  ],
+};
+
+export const latestThinkingData2 = {
+  data: [
+    {
+      id: 1,
+      title:
+        "Olab education research platform modernization for highly-engaging virtual sceana",
+      img: "/images/e-learn1.webp",
+      Link: "./",
+    },
+    {
+      id: 2,
+      title: "Innovation data management solution for global analystic leader",
+      img: "/images/e-learn2.webp",
+      Link: "./",
+    },
+    {
+      id: 3,
+      title:
+        "Modernization of on education and collabaration platform for healthcare professional",
+      img: "/images/e-learn3.webp.webp",
+      Link: "./",
+    },
+  ],
+};
+
+export const latestThinkingData3 = {
+  title: "Latest challenges",
+  data: [
+    {
+      id: 1,
+      title:
+        "Olab education research platform modernization for highly-engaging virtual sceana",
+      img: "/images/aboutswiper1.webp",
+      Link: "./",
+    },
+    {
+      id: 2,
+      title: "Innovation data management solution for global analystic leader",
+      img: "/images/aboutswiper2.webp",
+      Link: "./",
+    },
+    {
+      id: 3,
+      title:
+        "Modernization of on education and collabaration platform for healthcare professional",
+      img: "/images/aboutswiper3.webp",
+      Link: "./",
+    },
+  ],
+};
+
+export const latestThinkingData4 = {
+  title: "Latest thinking",
+  data: [
+    {
+      id: 1,
+      title:
+        "Olab education research platform modernization for highly-engaging virtual sceana",
+      img: "/images/aboutswiper4.webp",
+      Link: "./",
+    },
+    {
+      id: 2,
+      title: "Innovation data management solution for global analystic leader",
+      img: "/images/aboutswiper5.webp",
+      Link: "./",
+    },
+    {
+      id: 3,
+      title:
+        "Modernization of on education and collabaration platform for healthcare professional",
+      img: "/images/aboutswiper6.webp",
+      Link: "./",
     },
   ],
 };
