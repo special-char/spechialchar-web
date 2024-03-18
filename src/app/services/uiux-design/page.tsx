@@ -17,6 +17,7 @@ import {
   imageBanner22,
   imageBanner3,
   imageBanner31,
+  imageBanner32,
   uiGrid,
   uiuxtabdata,
 } from "@/lib/constData";
@@ -34,7 +35,7 @@ const UxDesign = () => {
       <YellowBanner data={YellowBannerData9} />
       <Tab3 data={uiuxtabdata} />
       <Swiper1 data={SwiperServices} />
-      <ImageBanner data={imageBanner31} />
+      <ImageBanner data={imageBanner32} />
       <UiUxBox />
     </>
   );
