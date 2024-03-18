@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { serviceBox, serviceBox1 } from "@/lib/constData";
+import {  serviceBox1 } from "@/lib/constData";
+import Link from "next/link";
 import React from "react";
 
 const SaasBox = () => {
@@ -16,12 +17,14 @@ const SaasBox = () => {
         </ul>
       </section>
       <section className="py-10">
+        <Link href={"https://thespecialcharacter.graphy.com/"}>
         <Button>
           <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
             Let's Discuss Our <span>parternship</span>
             <span>&rarr;</span>
           </span>
         </Button>
+        </Link>
       </section>
     </>
   );

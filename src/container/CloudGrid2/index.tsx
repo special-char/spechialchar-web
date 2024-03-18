@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { cloudgrid } from "@/lib/constData";
+import Link from "next/link";
 import React from "react";
 
 type Props = {};
@@ -20,14 +21,14 @@ const CloudGrid2 = (props: Props) => {
             </div>
           );
         })}
-        <div className="py-10">
+        <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Talk to <span>cloud expert </span>
               <span>&rarr;</span>
             </span>
           </Button>
-        </div>
+        </Link>
       </section>
     </>
   );

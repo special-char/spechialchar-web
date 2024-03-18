@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ecomSocial } from "@/lib/constData";
 import { ecomSectionType } from "@/utils/types";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const EcomSocial = ({ data }: ecomSectionType) => {
@@ -25,14 +26,14 @@ const EcomSocial = ({ data }: ecomSectionType) => {
             );
           })}
         </div>
-        <div className="py-10">
+        <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Let's discuss your<span>optimal fit </span>
               <span>&rarr;</span>
             </span>
           </Button>
-        </div>
+        </Link>
       </section>
     </>
   );

@@ -384,6 +384,15 @@ export type ecomSectionType = {
   section: string;
 };
 
+export type ourThinkingType={
+  data:{
+    id: number,
+      image: string,
+      categories: any,
+      title:string,
+      link: string,
+  }
+}
 export type aboutlinksType = {
   data: {
     id: number;

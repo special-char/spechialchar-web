@@ -2,6 +2,7 @@ import GridSection from "@/components/GridSection";
 import { Button } from "@/components/ui/button";
 import { uiGrid } from "@/lib/constData";
 import { uiSectionType } from "@/utils/types";
+import Link from "next/link";
 import React from "react";
 
 type Props = {};
@@ -21,14 +22,14 @@ const UiGrid = ({ data }: uiSectionType) => {
             <GridSection data={item} />
           ))}
         </div>
-        <div className="py-10">
+        <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Explore our UI/UX<span>design services </span>
               <span>&rarr;</span>
             </span>
           </Button>
-        </div>
+        </Link>
       </section>
     </>
   );
