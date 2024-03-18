@@ -3007,5 +3007,70 @@ export const SwiperServices2 = {
       src: "/images/swiper7.webp",
       alt: "Custom app with color watching features for Shopify-based ecommerce store  ",
     },
+  ]
+}
+
+export const webGridSectiondata = {
+  data: [
+    {
+      id: 1,
+      link: "Enterprise-Grade Solutions (ERP, CRM, PLM, etc.)",
+      ref: "./",
+    },
+    { 
+      id: 2,
+     link: "Logistics Solutions", 
+     ref: "./" },
+    { 
+      id: 3, 
+      link: "Data Analytics", 
+      ref: "./" 
+    },
+    {
+      id: 4,
+      link: "eLearning",
+      ref: "./",
+    },
+    {
+      id:5,
+      link:"SaaS Applications",
+      ref:"./"
+    },
+    {
+      id:6,
+      link:"eHealth",
+      ref:"./"
+    },
+    {
+      id:7,
+      link:"Omnichannel Ecommerce",
+      ref:"./"
+    },
+    {
+      id:8,
+      link:"FinTech Solutions",
+      ref:"./"
+    },
+    {
+      id:9,
+      link:"Marketing Management",
+      ref:"./"
+    },
+    {
+      id:10,
+      link:"Employee Productivity Apps",
+      ref:"./"
+    },
+    {
+      id:11,
+      link:"Digital Sports",
+      ref:"./"
+    }
+    ,
+    {
+      id:12,
+      link:"Video Streaming",
+      ref:"./"
+    }
   ],
 };

@@ -384,3 +384,11 @@ export type ecomSectionType = {
   title: string;
   section: string;
 };
+
+export type webGridSectionType={
+ data:{
+  id:number;
+  link:string;
+  ref:string
+ } 
+}
