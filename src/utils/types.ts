@@ -391,4 +391,11 @@ export type webGridSectionType={
   link:string;
   ref:string
  } 
+export type EcommerceData ={
+  data:{
+      swipertitle:string;
+      url:string;
+      title:string;
+      description:string;
+    }
 }

@@ -3074,3 +3074,42 @@ export const webGridSectiondata = {
     }
   ],
 };
+
+
+
+
+export const EcommerceSwiper ={
+  swipertitle:"Latest Project",
+  data:[
+    {
+      url:"/images/charlesd.webp",
+      title:"A US-based ecommerce startup",
+      description:"An ecommerce integration solution revolutionizing brand-influencer relationships "
+    },
+    {
+      url:"/images/MobileSwiper.webp",
+      title:"DealMe",
+      description:"Location-based discount-finding mobile app for Shoppers "
+    },
+    {
+      url:"/images/Car.webp",
+      title:"Car.co.uk",
+      description:"Website design and functionality upgrade for Car.co.uk "
+    },
+    {
+      url:"/images/DogVacay.webp",
+      title:"DogVacay",
+      description:"Full-featured Android app DogVacay for dog  boarding "
+    },
+    {
+      url:"/images/dollar.webp",
+      title:"Dollar Shave Club",
+      description:"The Dollar Shave Club Android app for shaving products deliver "
+    },
+    {
+      url:"/images/Livby.webp",
+      title:"Livby",
+      description:"The Livby live streaming app reimagines the way people shop "
+    }
+  ]
+}
