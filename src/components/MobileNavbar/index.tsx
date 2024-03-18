@@ -14,9 +14,12 @@ import { accordionItems1 } from "@/lib/constData";
 
 const MobileNavbar = ({ data }: Header) => {
   const [click, setClicked] = useState(false);
+
   const toggleDropdown = () => {
     setClicked(!click);
   };
+
+
 
   return (
     <>
@@ -24,20 +27,23 @@ const MobileNavbar = ({ data }: Header) => {
         <Humburger className="fill-white" />
       </div>
       {click && (
-        <div className="absolute z-50  bg-black h-screen w-full left-0 top-0 p-4 ">
+        <div
+          className="absolute z-50 bg-black h-screen w-full left-0 top-0 p-4"
+         
+        >
           <div className="flex justify-between items-center">
             <div>
               <NavbarLogo />
             </div>
-            <div onClick={toggleDropdown}>
-              <Close className="fill-white  h-6 w-8" />
+            <div onClick={toggleDropdown}> 
+              <Close className="fill-white h-6 w-8" />
             </div>
           </div>
           <div className="pt-8">
-            <Accordion type="single" className="  ">
+            <Accordion type="single">
               {accordionItems1.data.map((item, i) => (
-                <AccordionItem key={item.value} value={item.value} className="">
-                  <AccordionTrigger className="">
+                <AccordionItem key={item.value} value={item.value}>
+                  <AccordionTrigger>
                     <Link href={item.link.toLowerCase()}>{item.title}</Link>
                   </AccordionTrigger>
                   <AccordionContent className="p-4">
@@ -45,11 +51,11 @@ const MobileNavbar = ({ data }: Header) => {
                       {item?.content?.map((itemContent, index) => (
                         <li
                           key={index}
-                          className="text-base hover:text-yellow-300  "
+                          className="text-base hover:text-yellow-300"
                         >
                           <Link
                             href={`${item.title.toLowerCase()}/${itemContent.toLowerCase()}`}
-                            className=""
+                            onClick={toggleDropdown} 
                           >
                             {itemContent}
                           </Link>
@@ -63,13 +69,14 @@ const MobileNavbar = ({ data }: Header) => {
                 <Link
                   href="/ourthinking"
                   className="text-white font-bold hover:text-second text-subtitle1 md:text-2xl py-3"
+                  onClick={toggleDropdown} 
                 >
                   Our Thinking
                 </Link>
-
                 <Link
                   href="/casestudies"
                   className="text-white font-bold hover:text-second text-subtitle1 md:text-2xl py-3"
+                  onClick={toggleDropdown} 
                 >
                   Case Studies
                 </Link>
