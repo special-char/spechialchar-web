@@ -1,6 +1,7 @@
 import ImageBanner from "@/components/ImageBanner";
 import ServiceBox from "@/components/ServiceBox";
 import Swiper1 from "@/components/Swiper";
+import Swiper3 from "@/components/Swiper3";
 import YellowBanner from "@/components/YellowBanner";
 import BackBox from "@/container/BackBox";
 import BackGrid from "@/container/BackGrid";
@@ -9,6 +10,7 @@ import BackGrid3 from "@/container/BackGrid3";
 import Banner from "@/container/Banner";
 import {
   SwiperServices,
+  SwiperServices3,
   YellowBannerData4,
   backSection,
   banner4,
@@ -33,7 +35,7 @@ const Backend = (props: Props) => {
       <BackGrid3 />
       <ImageBanner data={imageBanner16} />
       <BackBox />
-      <Swiper1 data={SwiperServices} />
+      <Swiper3 data={SwiperServices3} />
     </>
   );
 };
