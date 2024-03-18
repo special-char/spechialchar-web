@@ -1,5 +1,6 @@
 import ImageBanner from "@/components/ImageBanner";
 import Swiper1 from "@/components/Swiper";
+import Swiper4 from "@/components/Swiper4";
 import Tab3 from "@/components/Tab/index3";
 import YellowBanner from "@/components/YellowBanner";
 import Banner from "@/container/Banner";
@@ -8,6 +9,7 @@ import UiGrid2 from "@/container/UiGrid2";
 import UiUxBox from "@/container/UiUxBox";
 import {
   SwiperServices,
+  SwiperServices4,
   YellowBannerData7,
   YellowBannerData8,
   YellowBannerData9,
@@ -33,6 +35,8 @@ const UxDesign = () => {
       <UiGrid2 />
       <ImageBanner data={imageBanner22} />
       <YellowBanner data={YellowBannerData9} />
+      <Swiper4 data={SwiperServices4} />
+      <ImageBanner data={imageBanner2} />
       <Tab3 data={uiuxtabdata} />
       <Swiper1 data={SwiperServices} />
       <ImageBanner data={imageBanner32} />
