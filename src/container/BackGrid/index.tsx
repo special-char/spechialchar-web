@@ -1,19 +1,17 @@
-import { backSection } from '@/lib/constData'
-import { SaasSectionType } from '@/utils/types'
-import React from 'react'
-import SaasService from '../SaasService'
-import SaasSec from '@/components/SaasSec'
-import { Button } from '@/components/ui/button'
+import { backSection } from "@/lib/constData";
+import { SaasSectionType } from "@/utils/types";
+import React from "react";
+import SaasService from "../SaasService";
+import SaasSec from "@/components/SaasSec";
+import { Button } from "@/components/ui/button";
 
-type Props = {}
+type Props = {};
 
-const BackGrid = ({data}: SaasSectionType) => {
+const BackGrid = ({ data }: SaasSectionType) => {
   return (
     <section>
-      <div className="flex flex-wrap w-[75%]">
-        <div className="text-4xl font-extrabold">
-          {data?.title}
-        </div>
+      <div className="flex flex-wrap lg:w-[75%]">
+        <div className="text-4xl font-extrabold">{data?.title}</div>
         <div className=" text-2xl max-md:text-lg py-10 font-light">
           {data?.description}
         </div>
@@ -36,7 +34,7 @@ const BackGrid = ({data}: SaasSectionType) => {
         </Button>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default BackGrid
+export default BackGrid;

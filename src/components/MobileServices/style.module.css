@@ -1,5 +1,5 @@
 .tabContainer {
-  @apply w-full flex gap-4  max-md:px-0 max-lg:flex-col ;
+  @apply w-full flex gap-4  max-md:px-0 max-md:flex-col ;
 
   & > .container {
     @apply relative flex flex-col gap-4 h-max max-lg:flex-1;
@@ -19,7 +19,7 @@
 
 
 .tab {
-    @apply relative text-3xl font-bold;
+    @apply relative lg:text-3xl max-md:text-heading6 font-bold;
     &[aria-selected="true"]::after {
         @apply bg-blue-600;
     }

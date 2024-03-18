@@ -357,16 +357,13 @@ export type PageBanner = {
 };
 
 export type HowBannerType = {
-  data:{
+  data: {
     url: string;
     title: string;
-    
-    desc:string;
-    desc1:string;
-  }
-    
- 
-  
+
+    desc: string;
+    desc1: string;
+  };
 };
 export type aboutBanner2Type = {
   data: {
@@ -381,3 +378,11 @@ export type ecomSectionType = {
   title: string;
   section: string;
 };
+
+export type webGridSectionType={
+ data:{
+  id:number;
+  link:string;
+  ref:string
+ } 
+}

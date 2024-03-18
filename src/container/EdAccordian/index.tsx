@@ -15,7 +15,7 @@ const EdAccordian = (props: Props) => {
         <div className="py-10">
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-              Strart your elearning <span>software development project </span>
+              Start your elearning software<span> development project </span>
               <span>&rarr;</span>
             </span>
           </Button>

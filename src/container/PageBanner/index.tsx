@@ -11,11 +11,11 @@ const PageBanner = ({
 }) => {
   return (
     <main
-      className={cn("h-screen flex bg-white flex-wrap items-center", {
+      className={cn("py-40 flex bg-white flex-wrap items-center", {
         [`${className}`]: className,
       })}
     >
-      <div className="text-black  pl-8 md:pl-48 pt-12">
+      <div className="text-black  pl-8 pt-12">
         <h1 className="text-5xl md:text-7xl lg:text-9xl w-[75vw] font-extrabold mb-4 md:mb-12 ">
           {data.title1}
         </h1>

@@ -39,14 +39,14 @@ const MobileNavbar = ({data}:Header) => {
           <div className="pt-8">
 
           <Accordion type="single" className="  ">
-            {accordionItems.data.map((item) => (
+            {accordionItems.data.map((item,i) => (
               <AccordionItem key={item.value} value={item.value} className="">
                 <AccordionTrigger className="">
                   <Link href={item.link.toLowerCase()}>{item.title}</Link>
                 </AccordionTrigger>
-                <AccordionContent className="p-4  ">
+                <AccordionContent className="p-4">
                   <ul className="flex flex-col gap-y-2">
-                    {item.content.map((itemContent, index) => (
+                    {item?.content?.map((itemContent, index) => (
                       <li key={index} className="text-base hover:text-yellow-300  ">
                         <Link
                           href={`${item.title.toLowerCase()}/${itemContent.toLowerCase()}`}
@@ -65,14 +65,14 @@ const MobileNavbar = ({data}:Header) => {
                 href="/ourthing"
                 className="text-white font-bold hover:text-second text-subtitle1 md:text-2xl py-3"
               >
-                Our Things
+                Our Thinking
               </Link>
 
               <Link
                 href="/casestudio"
                 className="text-white font-bold hover:text-second text-subtitle1 md:text-2xl py-3"
               >
-                Case Studio
+                Case Studies
               </Link>
             </div>
           </Accordion>

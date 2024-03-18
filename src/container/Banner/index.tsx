@@ -16,7 +16,7 @@ const Banner = ({
 
   return (
     <section
-      className={cn(" w-full bg-black text-white flex ", {
+      className={cn(" w-full bg-black text-white  ", {
         [`${className}`]: className,
       })}
     >

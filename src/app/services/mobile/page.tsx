@@ -40,14 +40,13 @@ const Mobile = () => {
       <MobileServices data={mobileServicesdata} />
       <ImageBanner data={imageBanner4} />
       <YellowBanner data={YellowBannerData1} />
-      <ServiceAccordian data={serviceAccordiandata}/>
+      <ServiceAccordian data={serviceAccordiandata} />
       <ImageBanner data={imageBanner5} />
       <YellowBanner data={YellowBannerData2} />
-      <Tab1 data={mobiletabdata}/>
-      <MobilePage />
+      <Tab1 data={mobiletabdata} />
       <MobileSwiper data={MobileSwiperData} />
-      <LatestThinking data={latestThinkingData}/>
-      
+      <MobilePage />
+      <LatestThinking data={latestThinkingData} />
     </>
   );
 };

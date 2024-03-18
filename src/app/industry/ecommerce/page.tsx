@@ -31,8 +31,8 @@ const Ecommerce = (props: Props) => {
   return (
     <>
       <Banner data={banner8} className="bg-[#eaeceb] text-black" />
-      <EcomSocial data={ecomSocial} />
       <ImageAccordion data={imageAccordianData} />
+      <EcomSocial data={ecomSocial} />
       <ImageBanner data={imageBanner28} />
       <YellowBanner data={Bgbanner5} />
       <EcomGrid />
@@ -42,8 +42,8 @@ const Ecommerce = (props: Props) => {
       <ImageBanner data={imageBanner30} />
       <YellowBanner data={Bgbanner7} />
       <EcommerceServices data={ecommercesdata} />
-      <MobileSwiper data={MobileSwiperData} />
       <OurClients />
+      <MobileSwiper data={MobileSwiperData} />
       <LatestThinking data={latestThinkingData} />
     </>
   );
