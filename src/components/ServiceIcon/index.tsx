@@ -15,7 +15,7 @@ const ServiceIcon = ({ data }: ServiceIconType) => {
             )}
           </div>
           <div>
-            <h2 className="font-bold lg:text-3xl md:text-xl text-xl">
+            <h2 className="font-bold lg:text-3xl md:text-xl text-lg">
               {data.title}
             </h2>
           </div>

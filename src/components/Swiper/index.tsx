@@ -13,8 +13,8 @@ import Link from "next/link";
 
 const Swiper1 = ({ data }: SwiperServicesData) => {
   return (
-    <section className=" py-10 bg-gray-100">
-      <div className="py-5 lg:pb-10 text-2xl font-bold pr-4 md:text-4xl lg:text-5xl lg:pr-44  ">
+    <section className=" py-10 bg-gray-100 ">
+      <div className="py-5 lg:pb-10 text-2xl font-bold pr-4 max-md:text-heading2 md:text-4xl lg:text-5xl lg:pr-44  ">
         {data.title}
       </div>
       <Swiper
@@ -44,7 +44,7 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
                 <Image
                   src={car.src}
                   alt={car.alt}
-                  className=" h-64 absolute w-screen left-0 top-0 -z-10 md:h-96 lg:grid  sm:h-[350px] md:w-[560px] lg:h-[400px] lg:w-[90%] "
+                  className=" h-64  absolute w-screen left-0 top-0 -z-10 md:h-96 lg:grid  sm:h-[350px] md:w-[560px] lg:h-[400px] lg:w-[90%] "
                   height={200}
                   width={800}
                 />
@@ -55,7 +55,7 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
             </SwiperSlide>
           ))}
         </div>
-        <div className="py-16">
+        <div className="lg:py-20 sm:py-24 max-sm:hidden">
           <SwiperNavButtons />
         </div>
       </Swiper>

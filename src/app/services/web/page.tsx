@@ -1,19 +1,26 @@
 import ImageBanner from "@/components/ImageBanner";
-import Swiper1 from "@/components/Swiper";
+import Swiper2 from "@/components/Swiper2";
 import YellowBanner from "@/components/YellowBanner";
 import Banner from "@/container/Banner";
-import SaasGrid2 from "@/container/SaasGrid2";
 import WebGrid from "@/container/WebGrid";
 import WebGrid2 from "@/container/WebGrid2";
 import WebGrid3 from "@/container/WebGrid3";
+import WebGrid4 from "@/container/WebGrid4";
+import WebGrid5 from "@/container/WebGrid5";
 import {
   Bgbanner2,
-  SwiperServices,
+  Bgbanner8,
+  SwiperServices2,
   banner3,
   imageBanner10,
+  imageBanner31,
   imageBanner7,
   imageBanner8,
   imageBanner9,
+  webSection,
+  webSection2,
+  webSection3,
+  webicon,
 } from "@/lib/constData";
 import React from "react";
 
@@ -23,16 +30,19 @@ const Web = (props: Props) => {
   return (
     <>
       <Banner data={banner3} className="bg-[#02142c] text-white" />
-      <WebGrid />
+      <WebGrid data={webicon} />
+      <ImageBanner data={imageBanner31} />
+      <YellowBanner data={Bgbanner8} />
       <ImageBanner data={imageBanner7} />
       <YellowBanner data={Bgbanner2} />
-      <SaasGrid2 />
+      <WebGrid5 data={webSection3} />
       <ImageBanner data={imageBanner8} />
-      <WebGrid2 />
+      <WebGrid2 data={webSection} />
       <ImageBanner data={imageBanner9} />
+      <WebGrid4 data={webSection2} />
       <ImageBanner data={imageBanner10} />
       <WebGrid3 />
-      <Swiper1 data={SwiperServices} />
+      <Swiper2 data={SwiperServices2} />
     </>
   );
 };

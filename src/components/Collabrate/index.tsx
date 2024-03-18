@@ -17,14 +17,21 @@ const Collabrate = () => {
           <CollabrateCard data={x} />
         ))}
       </div>
-      <Link
-        className=" max-sm:grid overflow-hidden "
-        href={"https://thespecialcharacter.graphy.com/"}
-      >
-        <Button variant={"default"} size={"md"} className="">
-          Start your innovation journey
-        </Button>
-      </Link>
+      <div className="py-10">
+        <Link
+          className=" max-sm:grid overflow-hidden "
+          href={"https://thespecialcharacter.graphy.com/"}
+        >
+          {/* <Button variant={"default"} size={"md"} className="">
+            Start your innovation journey
+          </Button> */}
+          <Button variant={"default"} size={"md"}>
+            <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+              Start your innovation <span>journey </span>
+            </span>
+          </Button>
+        </Link>
+      </div>
     </section>
   );
 };

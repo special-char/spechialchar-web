@@ -55,7 +55,8 @@ export const homeAccordiandata = {
 };
 
 export const tabdata = {
-  button: "Let's Discuss our partnership",
+  button1: "Let's Discuss",
+  button2: "our partnership",
   data: [
     {
       id: 1,
@@ -405,56 +406,61 @@ export const serviceBox = [
       " ISO 9001:2015, ISO/IEC 27001 compliance; Microsoft and Google Cloud partnerships",
   },
 ];
-export const serviceicon = [
-  {
-    url: "/images/questionnaire-line.png",
-    title: "Technology Consulting & Audits",
-    description:
-      "Technology consulting is the cornerstone of our software engineering services package. We’ll assess your business requirements, review your existing IT infrastructure, propose a suitable tech, and create a proof of concept to assess the feasibility of your idea.",
-  },
-  {
-    url: "/images/code-box-line.png",
-    title: "Software Development",
-    description:
-      "Whether you need a mobile app with a powerful cloud back end, a dynamic web app, embedded software for a Smart Home device, or an advanced analytics platform to crunch your Big Data, our software engineering company is here at your service!",
-  },
-  {
-    url: "/images/line.webp",
-    title: "Solution Architecture",
-    description:
-      "Drawing on the insights uncovered during the project discovery phase, our software architects join forces with skilled business analysts to design a resilient software architecture that will scale flexibly along with your business and leave room for innovation.",
-  },
-  {
-    url: "/images/device-line.png",
-    title: "Application Modernization",
-    description:
-      "Besides custom software engineering, we migrate legacy applications to a modern tech stack, segment bulky software into microservices, orchestrate containerized apps with Kubernetes, and interconnect the components of your IT infrastructure.",
-  },
-  {
-    url: "/images/settings-4-line.png",
-    title: "Deployment & Maintenance",
-    description:
-      "The ITRex software engineering service team will follow DevOps best practices to set up a complete cloud infrastructure for your software solution, ensure faster updates, and monitor application performance. We offer three tiers of support, too.",
-  },
-  {
-    url: "/images/pencil-ruler-line.png",
-    title: "UI/UX Design",
-    description:
-      "From auditing your customers’ buying journey to applying data democratization principles in data analytics dashboard design, our software engineering company always creates navigation logic and interfaces that allow users to perform intended actions with minimal friction.",
-  },
-  {
-    url: "/images/bug.webp",
-    title: "Quality Assurance",
-    description:
-      "As part of our software product engineering services, we turn to manual testing and write scripts for automated tests to validate that your applications contain zero bugs, perform as expected, and deliver unsurpassed user experience.",
-  },
-  {
-    url: "/images/lightbulb-line.png",
-    title: "Product Innovation",
-    description:
-      "We provide innovative software engineering services to tech startups and enterprises undergoing digital transformation. If you’re looking to add RPA bots to your accounting software or build an IoT-powered fitness mirror from the ground up, just drop us a line!",
-  },
-];
+export const serviceicon = {
+  heading: "Custom software engineering services that bring value from day one",
+  texts:
+    "We offer a whole gamut of software engineering and consulting services to help our clients create technology systems for enterprise resource planning, collaboration, customer management, data analysis, and process automation. You can turn to our software engineering firm for:",
+  data: [
+    {
+      url: "/images/questionnaire-line.png",
+      title: "Technology Consulting & Audits",
+      description:
+        "Technology consulting is the cornerstone of our software engineering services package. We’ll assess your business requirements, review your existing IT infrastructure, propose a suitable tech, and create a proof of concept to assess the feasibility of your idea.",
+    },
+    {
+      url: "/images/code-box-line.png",
+      title: "Software Development",
+      description:
+        "Whether you need a mobile app with a powerful cloud back end, a dynamic web app, embedded software for a Smart Home device, or an advanced analytics platform to crunch your Big Data, our software engineering company is here at your service!",
+    },
+    {
+      url: "/images/line.webp",
+      title: "Solution Architecture",
+      description:
+        "Drawing on the insights uncovered during the project discovery phase, our software architects join forces with skilled business analysts to design a resilient software architecture that will scale flexibly along with your business and leave room for innovation.",
+    },
+    {
+      url: "/images/device-line.png",
+      title: "Application Modernization",
+      description:
+        "Besides custom software engineering, we migrate legacy applications to a modern tech stack, segment bulky software into microservices, orchestrate containerized apps with Kubernetes, and interconnect the components of your IT infrastructure.",
+    },
+    {
+      url: "/images/settings-4-line.png",
+      title: "Deployment & Maintenance",
+      description:
+        "The ITRex software engineering service team will follow DevOps best practices to set up a complete cloud infrastructure for your software solution, ensure faster updates, and monitor application performance. We offer three tiers of support, too.",
+    },
+    {
+      url: "/images/pencil-ruler-line.png",
+      title: "UI/UX Design",
+      description:
+        "From auditing your customers’ buying journey to applying data democratization principles in data analytics dashboard design, our software engineering company always creates navigation logic and interfaces that allow users to perform intended actions with minimal friction.",
+    },
+    {
+      url: "/images/bug.webp",
+      title: "Quality Assurance",
+      description:
+        "As part of our software product engineering services, we turn to manual testing and write scripts for automated tests to validate that your applications contain zero bugs, perform as expected, and deliver unsurpassed user experience.",
+    },
+    {
+      url: "/images/lightbulb-line.png",
+      title: "Product Innovation",
+      description:
+        "We provide innovative software engineering services to tech startups and enterprises undergoing digital transformation. If you’re looking to add RPA bots to your accounting software or build an IoT-powered fitness mirror from the ground up, just drop us a line!",
+    },
+  ],
+};
 
 export const banner = {
   imageurl: "/images/service3.png",
@@ -552,7 +558,7 @@ export const accordionItems = {
       value: "item-2",
       title: "Industry",
       link: "#",
-      content: ["EdTech-eLearning", "Ecommerce"],
+      content: ["eLearning", "Ecommerce"],
     },
     {
       value: "item-3",
@@ -570,6 +576,47 @@ export const accordionItems = {
       title: "Case Studies",
       link: "/casestudies",
     },
+  ],
+};
+
+// Mobile NavBar Links
+export const accordionItems1 = {
+  data: [
+    {
+      value: "item-1",
+      title: "Services",
+      link: "services",
+      content: [
+        "Mobile",
+        "Web",
+        "Saas",
+        "Back-End",
+        "Cloud-Devops",
+        "UiUx-Design",
+      ],
+    },
+    {
+      value: "item-2",
+      title: "Industry",
+      link: "#",
+      content: ["EdTech-eLearning", "Ecommerce"],
+    },
+    {
+      value: "item-3",
+      title: "Company",
+      link: "#",
+      content: ["About", "Career", "How-We-Work"],
+    },
+    // {
+    //   value: "item-4",
+    //   title: "Our Thinking",
+    //   link: "/ourthinking",
+    // },
+    // {
+    //   value: "item-5",
+    //   title: "Case Studies",
+    //   link: "/casestudies",
+    // },
   ],
 };
 
@@ -681,7 +728,7 @@ export const aboutBannerdata = {
 };
 
 export const mobiletabdata = {
-  button: "Contact our app developers",
+  button1: "Contact our app developers",
   data: [
     {
       id: 1,
@@ -726,32 +773,38 @@ export const mobiletabdata = {
   ],
 };
 
-export const mobileicon = [
-  {
-    url: "/icons/aindroid.svg",
-    title: "Andorid",
-    description:
-      "Using innovative concepts and data-driven insights, we craft high-performance apps that rank high on Google Play and transform business.",
+export const mobileicon = {
+  heading: "Custom app solutions for any mobile platform",
+  texts:
+    "We develop consumer and enterprise apps of any complexity that can handle a rapidly growing user base. Many of our clients’ products have expanded from an MVP to a full-featured app with millions of users.",
+  button1: "Let's build an app",
+  data: [
+    {
+      url: "/icons/aindroid.svg",
+      title: "Andorid",
+      description:
+        "Using innovative concepts and data-driven insights, we craft high-performance apps that rank high on Google Play and transform business.",
 
-    languages: ["Java", "|", "Kotlin"],
-  },
-  {
-    url: "/icons/ios-1.svg",
-    title: "Ios",
-    description:
-      "We boast a legacy of great iOS apps for a range of business niches, which never leave the iPhones and iPads home screens of the delighted users.",
+      languages: ["Java", "|", "Kotlin"],
+    },
+    {
+      url: "/icons/ios-1.svg",
+      title: "Ios",
+      description:
+        "We boast a legacy of great iOS apps for a range of business niches, which never leave the iPhones and iPads home screens of the delighted users.",
 
-    languages: ["Swift", "|", "Objective-C"],
-  },
-  {
-    url: "/icons/cross_platforms.svg",
-    title: "Cross Platform",
-    description:
-      "Whatever the complexity, we bring the full benefit of cross-platform tech to the table, including lower costs, faster time to market and maximum reach.",
+      languages: ["Swift", "|", "Objective-C"],
+    },
+    {
+      url: "/icons/cross_platforms.svg",
+      title: "Cross Platform",
+      description:
+        "Whatever the complexity, we bring the full benefit of cross-platform tech to the table, including lower costs, faster time to market and maximum reach.",
 
-    languages: ["React Native", "|", "Flutter"],
-  },
-];
+      languages: ["React Native", "|", "Flutter"],
+    },
+  ],
+};
 
 export const mobileServicesdata = {
   data: [
@@ -935,26 +988,34 @@ export const banner3 = {
     "Make a unique impact online now to grow business with end-to-end custom web development services from TheSpecialChar",
 };
 
-export const webicon = [
-  {
-    url: "/images/accord_1-1.gif",
-    title: "Complex web apps",
-    description:
-      "Tailored to your precise business needs, be it redefining internal workflows or shipping a mind-blowing product to the market. Optimized for speed and security at scale. Designed for flexibility and growth",
-  },
-  {
-    url: "/images/accord_2-2.gif",
-    title: "Feature-rich web portals",
-    description:
-      "From B2C/B2B portals for ecommerce and banking to web portals for patients, students, employees, and public services, incorporating user-centric design, customized user journeys, and smooth integrations",
-  },
-  {
-    url: "/images/accord_3-3.gif",
-    title: "Truly unique websites",
-    description:
-      "Running seamlessly and allowing dynamic content management — websites designed with the right aesthetics and functionality for any industry and using the best-fit platform (WordPress, Webflow, Joomla, or Squarespace)",
-  },
-];
+export const webicon = {
+  heading:
+    "Our custom web development services help you break away from the ordinary",
+  texts:
+    "Building successful web solutions since 2009, we have the expertise to build something great for you, too. Whatever your challenge is, there would be few things in the web development world that we haven’t worked with. Tap our custom web development services to create seamless web experiences that captivate. Our ITRex team delivers:",
+  button1: "Request our Custom",
+  button2: "web Development services",
+  data: [
+    {
+      url: "/images/accord_1-1.gif",
+      title: "Complex web apps",
+      description:
+        "Tailored to your precise business needs, be it redefining internal workflows or shipping a mind-blowing product to the market. Optimized for speed and security at scale. Designed for flexibility and growth",
+    },
+    {
+      url: "/images/accord_2-2.gif",
+      title: "Feature-rich web portals",
+      description:
+        "From B2C/B2B portals for ecommerce and banking to web portals for patients, students, employees, and public services, incorporating user-centric design, customized user journeys, and smooth integrations",
+    },
+    {
+      url: "/images/accord_3-3.gif",
+      title: "Truly unique websites",
+      description:
+        "Running seamlessly and allowing dynamic content management — websites designed with the right aesthetics and functionality for any industry and using the best-fit platform (WordPress, Webflow, Joomla, or Squarespace)",
+    },
+  ],
+};
 
 export const Bgbanner2 = {
   description:
@@ -973,28 +1034,33 @@ export const imageBanner8 = {
   title2: "with our custom web development services",
 };
 
-export const webSection = [
-  {
-    title: "Progressive Web Apps (PWAs)",
-    description:
-      "Build a lightweight and platform-agnostic PWA in its latest iteration or revamp your existing web app into a PWA for impressive performance",
-  },
-  {
-    title: "Accelerated Mobile Pages",
-    description:
-      "Strip your web pages down to the basics so that they load superfast, delivering an unmatched user experience and improving your site visibility",
-  },
-  {
-    title: "Single-page Applications",
-    description:
-      "Dynamically updating content with no page refreshing, SPAs are a superb way to provide a faster and simple experience to users. Build your SPA with us",
-  },
-  {
-    title: "Serverless architecture",
-    description:
-      "Get excellent scalability, improve your web app performance, and cut project costs by placing the underlying infrastructure in the cloud",
-  },
-];
+export const webSection = {
+  texts:
+    "Our mission is to take business like yours to the top. That’s why ITRex is more than just a professional provider of custom web development services. Innovators at heart, we help you turn the latest tech innovations into exceptional business value. We help you outrun the competition.",
+  button1: "Contect Us",
+  data: [
+    {
+      title: "Progressive Web Apps (PWAs)",
+      description:
+        "Build a lightweight and platform-agnostic PWA in its latest iteration or revamp your existing web app into a PWA for impressive performance",
+    },
+    {
+      title: "Accelerated Mobile Pages",
+      description:
+        "Strip your web pages down to the basics so that they load superfast, delivering an unmatched user experience and improving your site visibility",
+    },
+    {
+      title: "Single-page Applications",
+      description:
+        "Dynamically updating content with no page refreshing, SPAs are a superb way to provide a faster and simple experience to users. Build your SPA with us",
+    },
+    {
+      title: "Serverless architecture",
+      description:
+        "Get excellent scalability, improve your web app performance, and cut project costs by placing the underlying infrastructure in the cloud",
+    },
+  ],
+};
 
 export const imageBanner9 = {
   url: "/images/soft8.webp",
@@ -1606,7 +1672,7 @@ export const YellowBannerData6 = {
 };
 
 export const imageBanner19 = {
-  url: "/images/soft10.webp",
+  url: "/images/flexible.webp",
   title1: "Cloud computing consulting with The Special Char:",
   title2: "our value proposition",
 };
@@ -2830,3 +2896,361 @@ export const Data = [
     title2: "products delivered",
   },
 ];
+
+export const uiuxtabdata = {
+  button: "Hire UI/UX designers",
+  data: [
+    {
+      id: 1,
+      trigger: "Discover",
+      content:
+        "We dive headfirst into the project to better understand your business, processes, and objectives — and come up with viable UI/UX concepts",
+      value: "Discover",
+      image: "/icons/refresh.svg",
+    },
+    {
+      id: 2,
+      trigger: "Validate",
+      content:
+        "We create prototypes with specific customer personas in mind, gather stakeholder feedback, analyze common user behavior patterns, and revise initial assumptions",
+      value: "Validate",
+      image: "/icons/refresh.svg",
+    },
+    {
+      id: 3,
+      trigger: "Design",
+      content:
+        "We transform prototypes into full-fledged application interfaces that render correctly across all platforms and devices, convey your brand message, and streamline workflows",
+      value: "Design",
+      image: "/icons/refresh.svg",
+    },
+    {
+      id: 4,
+      trigger: "Test",
+      content:
+        "We identify and correct flaws and inconsistencies in UI/UX design and proceed to testing the solution with real users — either through traditional user tests or beta product launch.",
+      value: "Test",
+      image: "/icons/refresh.svg",
+    },
+    {
+      id: 5,
+      trigger: "Improve",
+      content:
+        "We tweak application interfaces and navigation logic based on user feedback and repeat tests again and again until you get a tech product that fulfills your business objectives",
+      value: "Improve",
+      image: "/icons/refresh.svg",
+    },
+  ],
+};
+
+export const aboutlinks = {
+  title1: "Our industry focus",
+  data: [
+    {
+      id: 1,
+      title: "EdTech & eLearning",
+      link: "/industry/edtech-elearning",
+      image: "/icons/refresh.svg",
+    },
+    {
+      id: 2,
+      title: "Ecommerce",
+      link: "/industry/ecommerce",
+      image: "/icons/refresh.svg",
+    },
+    {
+      id: 3,
+      title: "UI/UX Design",
+      link: "/services/uiux-design",
+      image: "/icons/refresh.svg",
+    },
+    {
+      id: 4,
+      title: "Cloud & DevOps",
+      link: "/services/cloud-devops",
+      image: "/icons/refresh.svg",
+    },
+  ],
+};
+
+export const imageBanner32 = {
+  url: "/images/soft3.webp",
+  title1: "Why work with our",
+  title2: "UI/UX design company?",
+};
+
+export const uiuxbox = [
+  {
+    id: 1,
+    title: "Mature UI/UX design specialists.",
+    discription:
+      "When you hire UI/UX designers at ITRex, you get a team with the right soft and hard skills, recognized certifications, a powerful toolset, and unleashed imagination.",
+  },
+  {
+    id: 2,
+    title: "Proven track record of UI/UX projects.",
+    discription:
+      "We’re well-versed in UI/UX design and development — and we’ve got an extensive portfolio to back up our claim. And while you’re at it, you can check out our page on Dribbble, too.",
+  },
+  {
+    id: 3,
+    title: "Focus on customer needs. ",
+    discription:
+      "We believe in user-centered design, and we apply its core principles in every project we do. Whoever your clients are and whatever their goals might be, our UI/UX design company will ideate and create exactly what you need.",
+  },
+  {
+    id: 4,
+    title: "Business background. ",
+    discription:
+      "We provide UI/UX services to companies from different business verticals, including healthcare, retail, education, and logistics. Our team fully comprehends the challenges your company faces and knows how to address them on the user experience side.",
+  },
+];
+export const Bgbanner8 = {
+  description:
+    "As a top-tier provider of custom web application development services to enterprises, ITRex can fulfill any of your digital needs, whatever your industry is. Create your innovative and high-performing web application using the right front and back-end technology to get results quickly. Our web apps deliver the utmost usability, scalability, and cross-browser compatibility, along with a competitive edge to drive your growth.",
+};
+
+export const imageBanner31 = {
+  url: "/images/soft.webp",
+  title1: "Custom web app development services",
+  title2: "to launch business to the next level",
+};
+
+export const webSection2 = {
+  button1: "Get in touch",
+  data: [
+    {
+      title: "Front-End",
+      description: "React.js | Vue.js | Angular | JavaScript",
+    },
+    {
+      title: "Back-End",
+      description: ".NET | Node.js | Java | Python | PHP | Laravel | Django",
+    },
+    {
+      title: "Databases",
+      description:
+        "MS SQL | PostgreSQL | MySQL | MongoDB | CouchDB | Cassandra | Hadoop | DynamoDB | Google BigQuery",
+    },
+    {
+      title: "Cloud",
+      description:
+        "Amazon Web Services | Google Cloud Platform | Microsoft Azure",
+    },
+  ],
+};
+
+export const webSection3 = {
+  button1: "Tell us your web",
+  button2: "development needs",
+  data: [
+    {
+      title: "UX/UI Design",
+      description:
+        "We leverage best practices of user-centric design to translate vision into the responsiveness, interactivity, ease of use, and grace of your web solution",
+    },
+    {
+      title: "Front-end Development",
+      description:
+        "Highly proficient in modern frameworks like Angular, React, or Vue we create user experiences that captivate and engage users",
+    },
+    {
+      title: "Back-end Development",
+      description:
+        "Our back-end developers build the best-customized functionality while making sure your web solution works flawlessly behind the scenes",
+    },
+    {
+      title: "API Integration",
+      description:
+        "To save you time building essential functionality from scratch, we connect 3rd party services through APIs, from marketing to payment or geolocation",
+    },
+    {
+      title: "Web Development Consulting",
+      description:
+        "With our seasoned consultants who can guide you through every step of your web development journey, you navigate tech complexities safely",
+    },
+    {
+      title: "Support & Maintenance",
+      description:
+        "As part of our custom web development services, we provide 24/7 infrastructure monitoring, problem resolution, updates, custom redesign, and more",
+    },
+  ],
+};
+
+export const SwiperServices2 = {
+  title: "Latest case studies",
+  data: [
+    {
+      id: 1,
+      src: "/images/swiper1.webp",
+      alt: "Car.co.uk get huge boost ",
+    },
+    {
+      id: 2,
+      src: "/images/swiper2.webp",
+      alt: "Vedio Content management API solution for 21st Century Fox",
+    },
+    {
+      id: 3,
+      src: "/images/swiper3.webp",
+      alt: "Ecommerce plateform for affiate marketing ",
+    },
+    {
+      id: 4,
+      src: "/images/swiper4.webp",
+      alt: "E-learning plateform for medical rediology students ",
+    },
+    {
+      id: 5,
+      src: "/images/swiper5.webp",
+      alt: "Web AI application facilitating healthcare decision-making  ",
+    },
+    {
+      id: 5,
+      src: "/images/swiper6.webp",
+      alt: "Ecommerce solution for a leading developer of virtual instruments",
+    },
+    {
+      id: 5,
+      src: "/images/swiper7.webp",
+      alt: "Custom app with color watching features for Shopify-based ecommerce store  ",
+    },
+  ],
+};
+
+export const webGridSectiondata = {
+  data: [
+    {
+      id: 1,
+      link: "Enterprise-Grade Solutions (ERP, CRM, PLM, etc.)",
+      ref: "./",
+    },
+    {
+      id: 2,
+      link: "Logistics Solutions",
+      ref: "./",
+    },
+    {
+      id: 3,
+      link: "Data Analytics",
+      ref: "./",
+    },
+    {
+      id: 4,
+      link: "eLearning",
+      ref: "./",
+    },
+    {
+      id: 5,
+      link: "SaaS Applications",
+      ref: "./",
+    },
+    {
+      id: 6,
+      link: "eHealth",
+      ref: "./",
+    },
+    {
+      id: 7,
+      link: "Omnichannel Ecommerce",
+      ref: "./",
+    },
+    {
+      id: 8,
+      link: "FinTech Solutions",
+      ref: "./",
+    },
+    {
+      id: 9,
+      link: "Marketing Management",
+      ref: "./",
+    },
+    {
+      id: 10,
+      link: "Employee Productivity Apps",
+      ref: "./",
+    },
+    {
+      id: 11,
+      link: "Digital Sports",
+      ref: "./",
+    },
+    {
+      id: 12,
+      link: "Video Streaming",
+      ref: "./",
+    },
+  ],
+};
+
+export const SwiperServices3 = {
+  title: "Selectback-end development case studies",
+  data: [
+    {
+      id: 1,
+      src: "/images/backswiper1.webp",
+      alt: "AI-powered self-service BI and big  data plateform",
+    },
+    {
+      id: 2,
+      src: "/images/swiper2.webp",
+      alt: "Custom business budgeting software for consulting firm",
+    },
+    {
+      id: 3,
+      src: "/images/backswiper3.webp",
+      alt: "Machine Learing for Marketing Campaigns",
+    },
+    {
+      id: 4,
+      src: "/images/backswiper4.webp",
+      alt: "Data-driven daibetes management system",
+    },
+    {
+      id: 5,
+      src: "/images/backswiper5.webp",
+      alt: "Ecommerce plateform for affilate marketing",
+    },
+    {
+      id: 5,
+      src: "/images/fitness-app-e1626716488925-1440x1018.webp",
+      alt: "AI-powered fittness  mirror with a personal coach inside",
+    },
+  ],
+};
+
+export const SwiperServices4 = {
+  title: "Featured Projects",
+  data: [
+    {
+      id: 1,
+      src: "/images/uiswiper1.webp",
+      alt: "Social Network",
+    },
+    {
+      id: 2,
+      src: "/images/uiswiper2.webp",
+      alt: "Podcast app",
+    },
+    {
+      id: 3,
+      src: "/images/uiswiper3.webp",
+      alt: "Freight management app",
+    },
+    {
+      id: 4,
+      src: "/images/backswiper4.webp",
+      alt: "Data-driven daibetes management system",
+    },
+    {
+      id: 5,
+      src: "/images/backswiper5.webp",
+      alt: "Ecommerce plateform for affilate marketing",
+    },
+    {
+      id: 5,
+      src: "/images/fitness-app-e1626716488925-1440x1018.webp",
+      alt: "AI-powered fittness  mirror with a personal coach inside",
+    },
+  ],
+};

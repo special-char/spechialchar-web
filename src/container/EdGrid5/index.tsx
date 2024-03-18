@@ -17,7 +17,7 @@ const EdGrid5 = (props: Props) => {
         <div className="py-10">
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-              GEt your custom eLearning <span>solution </span>
+              Get your custom eLearning <span>solution </span>
               <span>&rarr;</span>
             </span>
           </Button>
