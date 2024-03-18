@@ -1,9 +1,11 @@
 import ImageBanner from "@/components/ImageBanner";
 import Swiper1 from "@/components/Swiper";
+import Tab3 from "@/components/Tab/index3";
 import YellowBanner from "@/components/YellowBanner";
 import Banner from "@/container/Banner";
 import UiGrid from "@/container/UiGrid";
 import UiGrid2 from "@/container/UiGrid2";
+import UiUxBox from "@/container/UiUxBox";
 import {
   SwiperServices,
   YellowBannerData7,
@@ -14,7 +16,10 @@ import {
   imageBanner21,
   imageBanner22,
   imageBanner3,
+  imageBanner31,
+  imageBanner32,
   uiGrid,
+  uiuxtabdata,
 } from "@/lib/constData";
 import React from "react";
 
@@ -28,8 +33,10 @@ const UxDesign = () => {
       <UiGrid2 />
       <ImageBanner data={imageBanner22} />
       <YellowBanner data={YellowBannerData9} />
+      <Tab3 data={uiuxtabdata} />
       <Swiper1 data={SwiperServices} />
-      <ImageBanner data={imageBanner2} />
+      <ImageBanner data={imageBanner32} />
+      <UiUxBox />
     </>
   );
 };

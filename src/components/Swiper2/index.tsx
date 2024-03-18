@@ -6,9 +6,9 @@ import { SwiperSlide, useSwiper } from "swiper/react";
 import { Swiper } from "swiper/react";
 import { A11y, Navigation, Pagination } from "swiper/modules";
 import Image from "next/image";
-import { SwiperNavButtons } from "./SwiperButton";
+import { SwiperNavButtons } from "@/components/Swiper/SwiperButton";
 import { SwiperServicesData } from "@/utils/types";
-import { SwiperServices } from "@/lib/constData";
+import { SwiperServices, SwiperServices2 } from "@/lib/constData";
 import Link from "next/link";
 
 const Swiper1 = ({ data }: SwiperServicesData) => {
@@ -35,7 +35,7 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
         className="   "
       >
         <div className="">
-          {SwiperServices.data.map((car, index) => (
+          {SwiperServices2.data.map((car, index) => (
             <SwiperSlide key={index} className="py-4">
               <Link
                 className=" overflow-hidden overflow-y-hidden  h-56 "

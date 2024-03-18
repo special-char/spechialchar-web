@@ -22,6 +22,7 @@ import {
   imageBanner5,
   latestThinkingData,
   mobileServicesdata,
+  mobileicon,
   mobiletabdata,
   serviceAccordiandata,
   tabdata,
@@ -34,7 +35,7 @@ const Mobile = () => {
   return (
     <>
       <Banner data={banner2} className="bg-[#dfdfdf] text-black" />
-      <MobileIcon />
+      <MobileIcon data={mobileicon} />
       <Swiper1 data={SwiperServices} />
       <ImageBanner data={imageBanner3} />
       <MobileServices data={mobileServicesdata} />
