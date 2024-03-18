@@ -3,7 +3,6 @@ import { mobiletabdata, tabdata } from "@/lib/constData";
 import { tabdataType } from "@/utils/types";
 import Image from "next/image";
 import { Button } from "../ui/button";
-import style from "@/components/Tab/style.module.css";
 import Link from "next/link";
 const Tab1 = ({ data }: tabdataType) => {
   return (
