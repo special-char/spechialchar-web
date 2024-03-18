@@ -1,22 +1,31 @@
-import { serviceicon2 } from '@/lib/constData'
-import React from 'react'
-import ServiceIcon from '../ServiceIcon'
-import { Button } from '../ui/button'
+import { serviceicon2 } from "@/lib/constData";
+import React from "react";
+import ServiceIcon from "../ServiceIcon";
+import { Button } from "../ui/button";
+import Link from "next/link";
 
-type Props = {}
+type Props = {};
 
 const ServiceIcon2 = (props: Props) => {
-    return (
-        <section className="grid lg:grid-cols-3 sm:grid-cols-1 gap-20 md:grid-cols-3 ">
-            {serviceicon2.data.map(x =>
-                <ServiceIcon data={x} />)}
-            {/* <div className="flex md:justify-start justify-center"><Button variant="default" size="sm" className='px-8 md:px-20 py-7 text-base '>
+  return (
+    <section className="grid lg:grid-cols-3 sm:grid-cols-1 gap-20 md:grid-cols-3">
+      {serviceicon2.data.map((x) => (
+        <ServiceIcon data={x} />
+      ))}
+      {/* <div className="flex md:justify-start justify-center"><Button variant="default" size="sm" className='px-8 md:px-20 py-7 text-base '>
                 Gate Fatern retiurn on your investment &rarr;
             </Button> */}
-            {/* </div> */}
-        </section>
+      {/* </div> */}
+      <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
+        <Button className="">
+          <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+            get return on tech <span>investments </span>
+            <span>&rarr;</span>
+          </span>
+        </Button>
+      </Link>
+    </section>
+  );
+};
 
-    )
-}
-
-export default ServiceIcon2
+export default ServiceIcon2;

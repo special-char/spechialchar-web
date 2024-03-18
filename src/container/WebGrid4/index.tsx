@@ -1,19 +1,20 @@
-import ServiceIcon from "@/components/ServiceIcon";
+import GridSection from "@/components/GridSection";
 import { Button } from "@/components/ui/button";
-import { webSection } from "@/lib/constData";
+import { webSection2 } from "@/lib/constData";
 import { ServiceIconType } from "@/utils/types";
 import Link from "next/link";
 import React from "react";
 
-const WebGrid2 = ({ data }: ServiceIconType) => {
+const WebGrid4 = ({ data }: ServiceIconType) => {
   return (
     <section className="flex flex-col gap-y-5">
       <div className="py-4   md:pr-12 lg:pr-64 ">
-        <p className="text-bold text-2xl">{data.texts}</p>
+        <p className="text-bold text-2xl">{data?.texts}</p>
       </div>
       <div className="grid md:grid-cols-4 gap-8  ">
-        {webSection.data.map((x) => (
-          <ServiceIcon data={x} />
+        {webSection2.data.map((x) => (
+          //   <ServiceIcon data={x} />
+          <GridSection data={x} />
         ))}
       </div>
       <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
@@ -28,4 +29,4 @@ const WebGrid2 = ({ data }: ServiceIconType) => {
   );
 };
 
-export default WebGrid2;
+export default WebGrid4;
