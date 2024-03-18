@@ -1,5 +1,6 @@
 import ImageBanner from "@/components/ImageBanner";
 import Swiper2 from "@/components/Swiper2";
+import WebGridSection from "@/components/WebGridSection";
 import YellowBanner from "@/components/YellowBanner";
 import Banner from "@/container/Banner";
 import WebGrid from "@/container/WebGrid";
@@ -17,6 +18,7 @@ import {
   imageBanner7,
   imageBanner8,
   imageBanner9,
+  webGridSectiondata,
   webSection,
   webSection2,
   webSection3,
@@ -33,6 +35,7 @@ const Web = (props: Props) => {
       <WebGrid data={webicon} />
       <ImageBanner data={imageBanner31} />
       <YellowBanner data={Bgbanner8} />
+      <WebGridSection data={webGridSectiondata}/>
       <ImageBanner data={imageBanner7} />
       <YellowBanner data={Bgbanner2} />
       <WebGrid5 data={webSection3} />

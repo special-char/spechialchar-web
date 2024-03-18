@@ -50,6 +50,7 @@ const MobileNavbar = ({ data }: Header) => {
                           <Link
                             href={`${item.title.toLowerCase()}/${itemContent.toLowerCase()}`}
                             className=""
+                            onClick={toggleDropdown}
                           >
                             {itemContent}
                           </Link>
@@ -62,6 +63,7 @@ const MobileNavbar = ({ data }: Header) => {
               <div className="flex flex-col">
                 <Link
                   href="/ourthinking"
+                  onClick={toggleDropdown}
                   className="text-white font-bold hover:text-second text-subtitle1 md:text-2xl py-3"
                 >
                   Our Thinking
@@ -69,6 +71,7 @@ const MobileNavbar = ({ data }: Header) => {
 
                 <Link
                   href="/casestudies"
+                  onClick={toggleDropdown}
                   className="text-white font-bold hover:text-second text-subtitle1 md:text-2xl py-3"
                 >
                   Case Studies

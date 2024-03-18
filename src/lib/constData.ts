@@ -2949,7 +2949,7 @@ export const aboutlinks = {
     {
       id: 1,
       title: "EdTech & eLearning",
-      link: "/industry/edtech-elearning",
+      link: "/industry/elearning",
       image: "/icons/refresh.svg",
     },
     {
@@ -3183,6 +3183,67 @@ export const webGridSectiondata = {
   ],
 };
 
+export const AboutData = [
+  {
+    id: 1,
+    title1: "2009",
+    title2: "the year of foundation",
+  },
+  {
+    id: 2,
+    title1: "600+",
+    title2: "solutions delivered",
+  },
+  {
+    id: 3,
+    title1: "200+",
+    title2: "happy clients and counting",
+  },
+  {
+    id: 4,
+    title1: "3+",
+    title2: "years’ client engagement",
+  },
+  {
+    id: 5,
+    title1: "300+",
+    title2: "professionals and growing",
+  },
+  {
+    id: 6,
+    title1: "90%",
+    title2: "hold BS, MS, or PhD in Math/Computer Science",
+  },
+];
+
+export const cloudgrid4 = {
+  section: [
+    {
+      id: 1,
+      title1: "Scalability from day one",
+      description:
+        "A cloud infrastructure that will scale flexibly along with your business for unstoppable growth",
+    },
+    {
+      id: 2,
+      title1: "Built-in security",
+      description:
+        "Advanced security tools and best practices of cloud security consulting for utmost data protection",
+    },
+    {
+      id: 3,
+      title1: "Compliance with industry-specific standards",
+      description:
+        "Comprehensive compliance controls for HIPAA, PCI-DSS, GDPR, and other standards",
+    },
+    {
+      id: 4,
+      title1: "Room for innovation",
+      description:
+        "A perfect environment for deploying AI, ML, IoT, and other next-gen solutions",
+    },
+  ],
+};
 export const SwiperServices3 = {
   title: "Selectback-end development case studies",
   data: [
@@ -3251,6 +3312,73 @@ export const SwiperServices4 = {
       id: 5,
       src: "/images/fitness-app-e1626716488925-1440x1018.webp",
       alt: "AI-powered fittness  mirror with a personal coach inside",
+    },
+  ],
+};
+
+
+export const TableContent = {
+  title: "Comparison of engagement models",
+  header: [
+    {
+      id: 1,
+      title: "Features",
+    },
+    {
+      id: 2,
+      title: "Fixed Price",
+    },
+    {
+      id: 3,
+      title: "Time & Material",
+    },
+    {
+      id: 4,
+      title: "Dedicated Team",
+    },
+  ],
+  invoices: [
+    {
+      invoice: "Project Size",
+      paymentStatus: "any",
+      totalAmount: "any",
+      paymentMethod: "any",
+    },
+    {
+      invoice: "Requirement",
+      paymentStatus: "fixed",
+      totalAmount: "evolving",
+      paymentMethod: "evolving",
+    },
+    {
+      invoice: "Scope Flexibility",
+      paymentStatus: "limited flexibility",
+      totalAmount: "flexible",
+      paymentMethod: "flexible",
+    },
+    {
+      invoice: "Budget Predictability",
+      paymentStatus: "highest",
+      totalAmount: "pay as you go",
+      paymentMethod: "fixed team cost",
+    },
+    {
+      invoice: "Timelines",
+      paymentStatus: "fixed",
+      totalAmount: "flexible",
+      paymentMethod: "flexible",
+    },
+    {
+      invoice: "Client’s Involvement",
+      paymentStatus: "minimal",
+      totalAmount: "regular",
+      paymentMethod: "constant",
+    },
+    {
+      invoice: "Quick Start",
+      paymentStatus: "no",
+      totalAmount: "yes",
+      paymentMethod: "yes",
     },
   ],
 };

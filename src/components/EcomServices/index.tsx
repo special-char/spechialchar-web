@@ -9,6 +9,7 @@ import React from "react";
 import { ecommercesdata } from "@/lib/constData";
 import style from "./styles.module.css";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 export default function Index({ data }: mobileServicesType) {
   return (
@@ -34,11 +35,11 @@ export default function Index({ data }: mobileServicesType) {
           </div>
         </Tabs>
       </div>
-      <div>
+      <Link href={"https://thespecialcharacter.graphy.com/"}>
         <Button variant={"secondary"}>
           <span>Contact us &rarr;</span>
         </Button>
-      </div>
+      </Link>
     </section>
   );
 }

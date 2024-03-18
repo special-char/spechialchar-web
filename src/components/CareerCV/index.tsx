@@ -1,6 +1,7 @@
 import { CareerCVType } from '@/utils/types'
 import React from 'react'
 import { Button } from '../ui/button'
+import Link from 'next/link'
 
 
 const CareerCV = ({data}: CareerCVType) => {
@@ -9,7 +10,7 @@ const CareerCV = ({data}: CareerCVType) => {
     <div className='lg:py-10 py-3  '>
     <h3 className='lg:text-4xl font-bold md:text-2xl text-subtitle1 text-center'>{data.title}</h3>
         </div>
-        <div className="grid pt-10 ">
+        <Link className="grid pt-10 " href={'https://thespecialcharacter.graphy.com/'}>
                 <Button
                   variant="default"
                   type="submit"
@@ -18,7 +19,7 @@ const CareerCV = ({data}: CareerCVType) => {
                 >
                   Send a CV anyway
                 </Button>
-              </div>
+              </Link>
     </section>
   )
 }
