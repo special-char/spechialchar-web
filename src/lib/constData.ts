@@ -2895,3 +2895,70 @@ export const webGridSectiondata = {
     }
   ],
 };
+
+export const ourThinkingData={
+  All:[
+    {
+      id: 1,
+      image: "/images/blog1.webp",
+      categories: ["Big Data", "Product Development"],
+      title: "Mastering data discovery: A Practical Manual",
+      link: "#",
+    },
+    {
+      id: 2,
+      image: "/images/blog2.webp",
+      categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+      title: "Generative AI in business: top 5 use cases every company should consider [with a free eBook]",
+      link: "#",
+    },
+  ],
+  Strategy:[ {
+    id: 3,
+    image: "/images/blog3.webp",
+    categories: ["Big Data", "Product Development"],
+    title: "Generative AI in banking: current state of affairs",
+    link: "#",
+  },
+  {
+    id: 4,
+    image: "/images/blog4.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "AI outsourcing: tips for choosing the right technology partner for your company",
+    link: "#",
+  },
+  ],
+  Trending:[{
+    
+      id: 1,
+      image: "/images/blog1.webp",
+      categories: ["Big Data", "Product Development"],
+      title: "Mastering data discovery: A Practical Manual",
+      link: "#",
+    },
+    {
+      id: 2,
+      image: "/images/blog2.webp",
+      categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+      title: "Mastering data discovery: A Practical Manual",
+      link: "#",
+    },
+  ], 
+  Development:[{
+    id: 3,
+    image: "/images/blog3.webp",
+    categories: ["Big Data", "Product Development"],
+    title: "Mastering data discovery: A Practical Manual",
+    link: "#",
+  },
+  {
+    id: 4,
+    image: "/images/blog4.webp",
+    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+    title: "AI outsourcing: tips for choosing the right technology partner for your company ",
+    link: "#",
+  },
+  ],
+
+
+}

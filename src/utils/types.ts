@@ -386,3 +386,13 @@ export type webGridSectionType={
   ref:string
  } 
 }
+
+export type ourThinkingType={
+  data:{
+    id: number,
+      image: string,
+      categories: any,
+      title:string,
+      link: string,
+  }
+}
