@@ -378,3 +378,13 @@ export type ecomSectionType = {
   title: string;
   section: string;
 };
+
+export type aboutlinksType = {
+  data: {
+    id: number;
+    title: string;
+    title1: string;
+    link: string;
+    image: string;
+  };
+};

@@ -18,13 +18,13 @@ const UiGrid = ({ data }: uiSectionType) => {
         </div>
         <div className="grid lg:grid-cols-3 max-md:grid-cols-1 gap-10">
           {uiGrid.section.map((item) => (
-            <GridSection data={item}/>
+            <GridSection data={item} />
           ))}
         </div>
         <div className="py-10">
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-              Discuss your web <span>app development project </span>
+              Explore our UI/UX<span>design services </span>
               <span>&rarr;</span>
             </span>
           </Button>
