@@ -5,6 +5,7 @@ import AboutCount from "@/components/AboutCount";
 import AboutLinks from "@/components/AboutLinks";
 import ImageBanner from "@/components/ImageBanner";
 import LatestThinking from "@/components/LatestThinking";
+import MobilePage from "@/components/MobilePage";
 import OurClients from "@/container/OurClients";
 import {
   aboutAccordianData,
@@ -22,7 +23,6 @@ const AboutPage = (props: Props) => {
   return (
     <>
       <AboutBanner data={aboutBannerdata} />
-      {/* <MobilePage /> */}
       <AboutCount />
       <OurClients />
       <AboutAccordian data={aboutAccordianData} />

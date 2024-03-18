@@ -3182,3 +3182,65 @@ export const webGridSectiondata = {
     },
   ],
 };
+
+export const AboutData = [
+  {
+    id: 1,
+    title1: "2009",
+    title2: "the year of foundation",
+  },
+  {
+    id: 2,
+    title1: "600+",
+    title2: "solutions delivered",
+  },
+  {
+    id: 3,
+    title1: "200+",
+    title2: "happy clients and counting",
+  },
+  {
+    id: 4,
+    title1: "3+",
+    title2: "years’ client engagement",
+  },
+  {
+    id: 5,
+    title1: "300+",
+    title2: "professionals and growing",
+  },
+  {
+    id: 6,
+    title1: "90%",
+    title2: "hold BS, MS, or PhD in Math/Computer Science",
+  },
+];
+
+export const cloudgrid4 = {
+  section: [
+    {
+      id: 1,
+      title1: "Scalability from day one",
+      description:
+        "A cloud infrastructure that will scale flexibly along with your business for unstoppable growth",
+    },
+    {
+      id: 2,
+      title1: "Built-in security",
+      description:
+        "Advanced security tools and best practices of cloud security consulting for utmost data protection",
+    },
+    {
+      id: 3,
+      title1: "Compliance with industry-specific standards",
+      description:
+        "Comprehensive compliance controls for HIPAA, PCI-DSS, GDPR, and other standards",
+    },
+    {
+      id: 4,
+      title1: "Room for innovation",
+      description:
+        "A perfect environment for deploying AI, ML, IoT, and other next-gen solutions",
+    },
+  ],
+};

@@ -1,28 +1,30 @@
-import { Data } from '@/lib/constData'
+import { AboutData, Data } from '@/lib/constData'
 import React from 'react'
 
 type Props = {}
 
 const AboutCount = (props: Props) => {
   return (
-    <section className=" text-white">
+    <div className='bg-black'>
+      <section className=" text-white">
         {/* p-8 bg-black md:px-12 md:pt-8 grid gap-8 lg:gap-12 lg:m-4 lg:mx-20 lg:p-24 */}
-        <div className="bg-black grid gap-8 py-4 md:p-8 lg:py-12 lg:px-20">
-          <div className="pt-8">
-            <h2 className="text-3xl md:text-5xl font-extrabold lg:text-7xl">
-              What makes us different
+        <div className="bg-black grid gap-10 py-4 md:py-8 ">
+          <div className="py-8">
+            <h2 className="text-5xl md:text-7xl text-yellow-400 font-bold lg:text-9xl">
+              Key facts <span className='text-white'>about us </span>
             </h2>
           </div>
           <div className="grid md:grid-cols-2 gap-10">
-            {Data.map((x) => (
+            {AboutData.map((x) => (
               <div key={x.id}>
-                <div className="text-yellow-400 text-6xl">{x.title1}</div>
-                <div className="font-base">{x.title2}</div>
+                <div className="text-yellow-400 font-bold text-4xl lg:text-8xl">{x.title1}</div>
+                <div className="md:text-2xl font-base">{x.title2}</div>
               </div>
             ))}
           </div>
         </div>
       </section>
+    </div>
   )
 }
 
