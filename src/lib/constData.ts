@@ -552,7 +552,7 @@ export const accordionItems = {
     {
       value: "item-1",
       title: "Services",
-      link: "services",
+      link: "/services/software-engineering",
       content: [
         "Mobile",
         "Web",
@@ -1562,8 +1562,8 @@ export const CareerPage3data = {
 
 export const careerpage4data = {
   title: "Who should apply",
-  title1: "Look,",
-  title2: "this is not for everyone.",
+  title1: "Look,this is not for everyone.",
+
   desc1:
     "If you only want a salary and don’t much care about how good your projects are, you’ll probably hate it here.",
   desc2:
@@ -1583,12 +1583,9 @@ export const careerpage5data = {
 export const careerpage6data = {
   src: "/images/Career-honesty-1.webp",
   title: "Honesty, transparency and family spirit",
-  desc1:
-    "We strive always to be honest with each other and the client. That’s more than being truthful, it’s about not dodging responsibility or concealing important things.",
-  desc2:
-    "We aren’t afraid to argue. Because we care about our work, it happens. We disagree like family; we help and support each other no matter what.",
-  desc3:
-    " Our managers live by this too. You’re never too junior to ask questions or to have an opinion.",
+  des1: "We strive always to be honest with each other and the client. That’s more than being truthful, it’s about not dodging responsibility or concealing important things.",
+  des2: "We aren’t afraid to argue. Because we care about our work, it happens. We disagree like family; we help and support each other no matter what.",
+  des3: " Our managers live by this too. You’re never too junior to ask questions or to have an opinion.",
 };
 
 export const imageBanner17 = {

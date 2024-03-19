@@ -15,6 +15,7 @@ const CareerPage2 = ({ data }: CareerPage2dataType) => {
           <div className="mt-8 leading-6 flex flex-col gap-16 lg:text-subtitle1">
             <p>{data.des1}</p>
             <p>{data.des2}</p>
+            <p>{data?.des3}</p>
           </div>
         </div>
       </div>
