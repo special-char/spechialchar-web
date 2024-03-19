@@ -9,7 +9,7 @@ import style from "./swiper.module.css";
 import { Autoplay, EffectFade, Navigation } from "swiper/modules";
 import Image from "next/image";
 import { latestThinkingType } from "@/utils/types";
-import { latestThinkingData, latestThinkingData2 } from "@/lib/constData";
+import { latestThinkingData2 } from "@/lib/constData";
 import Link from "next/link";
 
 const Banner = ({ data }: latestThinkingType) => {

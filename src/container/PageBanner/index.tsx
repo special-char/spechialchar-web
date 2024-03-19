@@ -10,7 +10,7 @@ const PageBanner = ({
   className?: string;
 }) => {
   return (
-    <main
+    <section
       className={cn("py-40 flex bg-white flex-wrap items-center", {
         [`${className}`]: className,
       })}
@@ -23,7 +23,7 @@ const PageBanner = ({
           {data?.title2}
         </div>
       </div>
-    </main>
+    </section>
   );
 };
 

@@ -8,6 +8,7 @@ import LatestThinking from "@/components/LatestThinking";
 import LatestThinking3 from "@/components/LatestThinking3";
 import LatestThinking4 from "@/components/LatestThinking4";
 import MobilePage from "@/components/MobilePage";
+import Sticky from "@/components/Sticky";
 import OurClients from "@/container/OurClients";
 import {
   aboutAccordianData,
@@ -35,6 +36,7 @@ const AboutPage = (props: Props) => {
       <ImageBanner data={imageBanner2} />
       <LatestThinking3 data={latestThinkingData3} />
       <LatestThinking4 data={latestThinkingData4} />
+      <Sticky/>
     </>
   );
 };
