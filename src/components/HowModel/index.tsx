@@ -19,7 +19,7 @@ const HowModel = ({ data }: HowModelType) => {
     setShow(i);
   };
   return (
-    <section className="py-8 flex flex-col gap-y-10">
+    <section className="py-8 flex flex-col ">
       <div className=" mb-8">
         <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold">
           {data.heading}

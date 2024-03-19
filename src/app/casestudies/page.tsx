@@ -1,6 +1,7 @@
 import Blog from "@/components/Blog";
+import OurThinking from "@/components/OurThinking";
 import PageBanner from "@/container/PageBanner";
-import { caseBanner } from "@/lib/constData";
+import { caseBanner, ourThinkingData } from "@/lib/constData";
 import React from "react";
 
 type Props = {};
@@ -9,7 +10,8 @@ const CaseStudies = (props: Props) => {
   return (
     <>
       <PageBanner data={caseBanner} className="bg-second" />
-      <Blog/>
+      {/* <Blog/> */}
+      <OurThinking data={ourThinkingData} />
     </>
   );
 };

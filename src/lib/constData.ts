@@ -3185,8 +3185,8 @@ export const webGridSectiondata = {
   ],
 };
 
-export const ourThinkingData={
-  All:[
+export const ourThinkingData = {
+  All: [
     {
       id: 1,
       image: "/images/blog1.webp",
@@ -3198,27 +3198,30 @@ export const ourThinkingData={
       id: 2,
       image: "/images/blog2.webp",
       categories: ["Artificial Intelligence", "FinTech", "Product Development"],
-      title: "Generative AI in business: top 5 use cases every company should consider [with a free eBook]",
+      title:
+        "Generative AI in business: top 5 use cases every company should consider [with a free eBook]",
       link: "#",
     },
   ],
-  Strategy:[ {
-    id: 3,
-    image: "/images/blog3.webp",
-    categories: ["Big Data", "Product Development"],
-    title: "Generative AI in banking: current state of affairs",
-    link: "#",
-  },
-  {
-    id: 4,
-    image: "/images/blog4.webp",
-    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
-    title: "AI outsourcing: tips for choosing the right technology partner for your company",
-    link: "#",
-  },
+  Strategy: [
+    {
+      id: 3,
+      image: "/images/blog3.webp",
+      categories: ["Big Data", "Product Development"],
+      title: "Generative AI in banking: current state of affairs",
+      link: "#",
+    },
+    {
+      id: 4,
+      image: "/images/blog4.webp",
+      categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+      title:
+        "AI outsourcing: tips for choosing the right technology partner for your company",
+      link: "#",
+    },
   ],
-  Trending:[{
-    
+  Trending: [
+    {
       id: 1,
       image: "/images/blog1.webp",
       categories: ["Big Data", "Product Development"],
@@ -3232,25 +3235,25 @@ export const ourThinkingData={
       title: "Mastering data discovery: A Practical Manual",
       link: "#",
     },
-  ], 
-  Development:[{
-    id: 3,
-    image: "/images/blog3.webp",
-    categories: ["Big Data", "Product Development"],
-    title: "Mastering data discovery: A Practical Manual",
-    link: "#",
-  },
-  {
-    id: 4,
-    image: "/images/blog4.webp",
-    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
-    title: "AI outsourcing: tips for choosing the right technology partner for your company ",
-    link: "#",
-  },
   ],
-
-
-}
+  Development: [
+    {
+      id: 3,
+      image: "/images/blog3.webp",
+      categories: ["Big Data", "Product Development"],
+      title: "Mastering data discovery: A Practical Manual",
+      link: "#",
+    },
+    {
+      id: 4,
+      image: "/images/blog4.webp",
+      categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+      title:
+        "AI outsourcing: tips for choosing the right technology partner for your company ",
+      link: "#",
+    },
+  ],
+};
 export const AboutData = [
   {
     id: 1,
@@ -3469,7 +3472,7 @@ export const latestThinkingData2 = {
       id: 3,
       title:
         "Modernization of on education and collabaration platform for healthcare professional",
-      img: "/images/e-learn3.webp.webp",
+      img: "/images/e-learn3.webp",
       Link: "./",
     },
   ],
@@ -3523,6 +3526,47 @@ export const latestThinkingData4 = {
         "Modernization of on education and collabaration platform for healthcare professional",
       img: "/images/aboutswiper6.webp",
       Link: "./",
+    },
+  ],
+};
+
+export const SwiperServices1 = {
+  title: "Latest Projects",
+  data: [
+    {
+      id: 1,
+      src: "/images/proSwiper1.webp",
+      alt: "Lotto, scratches and raffle games",
+    },
+    {
+      id: 2,
+      src: "/images/proSwiper2.webp",
+      alt: "Doller Shave Club",
+    },
+    {
+      id: 3,
+      src: "/images/proSwiper3.webp",
+      alt: "JibJab eCards app",
+    },
+    {
+      id: 4,
+      src: "/images/proSwiper4.webp",
+      alt: "Live Streaming",
+    },
+    {
+      id: 5,
+      src: "/images/proSwiper5.webp",
+      alt: "Dog Vacay  ",
+    },
+    {
+      id: 6,
+      src: "/images/proSwiper6.webp",
+      alt: "Prodcast app  ",
+    },
+    {
+      id: 7,
+      src: "/images/proSwiper7.webp",
+      alt: "Online monitoring and social networking  ",
     },
   ],
 };

@@ -10,7 +10,7 @@ const GridSection = ({ data }: uiSectionType) => {
         {data?.title1}
         {data?.title}
       </div>
-      <div className=" text-md max-md:text-lg py-10 text-gray-400 font-light">
+      <div className=" text-md max-md:text-xl py-10 text-gray-400 font-medium">
         {data.description}
       </div>
     </div>
