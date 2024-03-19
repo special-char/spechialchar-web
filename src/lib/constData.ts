@@ -599,7 +599,7 @@ export const accordionItems1 = {
       value: "item-2",
       title: "Industry",
       link: "#",
-      content: ["EdTech-eLearning", "Ecommerce"],
+      content: ["eLearning", "Ecommerce"],
     },
     {
       value: "item-3",

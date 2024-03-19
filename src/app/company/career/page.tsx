@@ -1,13 +1,11 @@
-import AboutBanner2 from "@/components/AboutBanner2";
+
 import CareerBanner from "@/components/CareerBanner";
 import CareerBanner2 from "@/components/CareerBanner2";
-import CareersBanner2 from "@/components/CareerBanner2";
 import CareerCV from "@/components/CareerCV";
 import CareerCap from "@/components/CareerCap";
 import CareerCity from "@/components/CareerCity";
 import CareerMany from "@/components/CareerMany";
 import CareerPage2 from "@/components/CareerPage2";
-import CareerPage3 from "@/components/CareerPage3";
 import CareerPage4 from "@/components/CareerPage4";
 import CareerPage5 from "@/components/CareerPage5";
 import CareerPage6 from "@/components/CareerPage6";
@@ -15,8 +13,6 @@ import CareerPage7 from "@/components/CareerPage7";
 import CareerSection from "@/components/CareerSection";
 import CareerSection2 from "@/components/CareerSection2";
 import {
-  CareerPage3data,
-  aboutBanner2,
   career,
   career2,
   careerBanner2,
@@ -40,7 +36,6 @@ const AboutPage = (props: Props) => {
     <>
       <CareerBanner data={careerbannerdata} />
       <CareerPage2 data={careerpage2data} />
-      {/* <CareerPage3 data={CareerPage3data} /> */}
       <CareerCap data={careercap} />
       <CareerPage4 data={careerpage4data} />
       <CareerPage5 data={careerpage5data} />
