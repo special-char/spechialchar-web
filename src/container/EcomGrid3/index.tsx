@@ -18,6 +18,7 @@ const EcomGrid3 = (props: Props) => {
 
                     </div>
                 ))}
+                <div className="py-10">
                 <Link className="py-10" href={'https://thespecialcharacter.graphy.com/'}>
                     <Button>
                     <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
@@ -26,6 +27,8 @@ const EcomGrid3 = (props: Props) => {
                     </span>
                     </Button>
                 </Link>
+                </div>
+                
             </section>
     </>
   )

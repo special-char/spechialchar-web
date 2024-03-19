@@ -21,6 +21,7 @@ import {
   imageBanner26,
   imageBanner27,
   latestThinkingData,
+  latestThinkingData2,
 } from "@/lib/constData";
 import React from "react";
 
@@ -43,7 +44,7 @@ const EdTechPage = () => {
       <EdGrid5 />
       <ImageBanner data={imageBanner27} />
       <EdList/>
-      <LatestThinking data={latestThinkingData}/>
+      <LatestThinking data={latestThinkingData2}/>
     </>
   );
 };

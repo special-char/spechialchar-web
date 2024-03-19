@@ -6,12 +6,14 @@ import MobileServices from "@/components/MobileServices";
 import MobileSwiper from "@/components/MobileSwiper";
 import ServiceAccordian from "@/components/ServiceAccordian";
 import Swiper1 from "@/components/Swiper";
+import Swiper from "@/components/Swiper1";
 import Tab1 from "@/components/Tab/index1";
 import YellowBanner from "@/components/YellowBanner";
 import Banner from "@/container/Banner";
 import {
   MobileSwiperData,
   SwiperServices,
+  SwiperServices1,
   YellowBannerData,
   YellowBannerData1,
   YellowBannerData2,
@@ -36,7 +38,7 @@ const Mobile = () => {
     <>
       <Banner data={banner2} className="bg-[#dfdfdf] text-black" />
       <MobileIcon data={mobileicon} />
-      <Swiper1 data={SwiperServices} />
+      <Swiper data={SwiperServices1} />
       <ImageBanner data={imageBanner3} />
       <MobileServices data={mobileServicesdata} />
       <ImageBanner data={imageBanner4} />

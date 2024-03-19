@@ -54,6 +54,7 @@ const Contact = () => {
 
   return (
     <section
+      id="Contact"
       className="h-full lg:h-screen lg:py-32 w-full bg-black text-white"
       style={{ backgroundImage: `url(/images/ContactUsImage.webp)` }}
     >

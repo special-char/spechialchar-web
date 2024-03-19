@@ -25,7 +25,7 @@ const Navbar = ({ data }: Header) => {
   return (
     <header
       className={cn(
-        " w-full z-10 fixed py-2 bg-black transition-all ease-in-out duration-500",
+        " w-full z-20 fixed py-2 bg-black transition-all ease-in-out duration-500",
         {
           ["bg-black"]: scrollPosition > 100,
           // ["bg-transparent hover:bg-black "]: scrollPosition <= 100,
