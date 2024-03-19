@@ -201,7 +201,7 @@ export type CareerPage2dataType = {
     title: string;
     des1: string;
     des2: string;
-    // des3: any;
+    des3: string;
   };
 };
 
@@ -233,7 +233,7 @@ export type CareerPage6dataType = {
   };
 };
 
-export type CareerPage7dataType = {
+export type CareerPage4dataType = {
   data: {
     title: string;
     title1: string;
@@ -384,15 +384,15 @@ export type ecomSectionType = {
   section: string;
 };
 
-export type ourThinkingType={
-  data:{
-    id: number,
-      image: string,
-      categories: any,
-      title:string,
-      link: string,
-  }
-}
+export type ourThinkingType = {
+  data: {
+    id: number;
+    image: string;
+    categories: any;
+    title: string;
+    link: string;
+  };
+};
 export type aboutlinksType = {
   data: {
     id: number;
