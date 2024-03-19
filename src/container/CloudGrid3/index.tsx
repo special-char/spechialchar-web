@@ -27,7 +27,7 @@ const CloudGrid3 = (props: Props) => {
         <Link href={"https://thespecialcharacter.graphy.com/"}>
         <Button>
           <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-            Discuss my cloud <span>project</span>
+            Get started with <span>cloud computing</span>
             <span>&rarr;</span>
           </span>
         </Button>

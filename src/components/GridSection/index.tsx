@@ -5,8 +5,8 @@ type Props = {};
 
 const GridSection = ({ data }: uiSectionType) => {
   return (
-    <div key={data.id} className="border-b-2 border-b-second">
-      <div className="text-heading3 font-extrabold">
+    <div key={data.id} className="border-b-2 border-b-second ">
+      <div className="text-2xl font-bold">
         {data?.title1}
         {data?.title}
       </div>

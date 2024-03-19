@@ -39,8 +39,8 @@ const AboutPage = (props: Props) => {
       <CareerCap data={careercap} />
       <CareerPage4 data={careerpage4data} />
       <CareerPage5 data={careerpage5data} />
-      <CareerPage6 data={careerpage6data} />
-      <CareerPage7 data={careerpage7data} />
+      <CareerPage2 data={careerpage6data} />
+      <CareerPage4 data={careerpage7data} />
       <CareerSection data={career} />
       <CareerBanner2 data={careerBanner2} />
       <CareerSection2 data={career2} />

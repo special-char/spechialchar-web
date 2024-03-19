@@ -56,9 +56,15 @@ const CareerCity = ({ data }: CareerCityType) => {
         {careercity.section.map((item) => (
           <div
             key={item.id}
-            className="flex flex-col items-center mb-4   md:mr-4 gap-4"
+            className="flex flex-col items-center mb-4  md:mr-4 gap-4"
           >
-            <Image src={item.url} height={400} width={400} alt="image" />
+            <Image
+              src={item.url}
+              height={400}
+              width={400}
+              alt="image"
+              className="object-cover aspect-[4/3]"
+            />
           </div>
         ))}
       </div>

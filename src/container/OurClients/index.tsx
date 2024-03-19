@@ -1,10 +1,11 @@
 import Marque from '@/components/Marque'
-import { MarqueData } from '@/lib/constData'
+import WhiteMarque from '@/components/WhiteMarque'
+import { MarqueData, MarqueData2 } from '@/lib/constData'
 import React from 'react'
 
 type Props = {}
 
-const COurClients = (props: Props) => {
+const OurClients = (props: Props) => {
   return (
     <>
         <section>
@@ -15,10 +16,10 @@ const COurClients = (props: Props) => {
         </div>
       </section>
       <div>
-        <Marque data={MarqueData} color="black" fill="black" className="" />
+        <WhiteMarque data={MarqueData2} className='bg-white'/>
       </div>
     </>
   )
 }
 
-export default COurClients
+export default OurClients

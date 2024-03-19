@@ -15,9 +15,10 @@ import Link from "next/link";
 const Banner = ({ data }: latestThinkingType) => {
   return (
     <>
+      <div className="text-5xl px-container py-4 font-bold md:text-8xl">
+        {data.title}
+      </div>
       <section>
-        <h1 className="text-heading1 font-bold ">{data.title}</h1>
-
         <div className="bg-background flex gap-4 md:items-center md:justify-between pt-6 max-md:pt-6 max-md:py-0">
           <Swiper
             effect={"fade"}

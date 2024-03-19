@@ -12,7 +12,7 @@ const CloudGrid2 = (props: Props) => {
         {cloudgrid.data.map((i) => {
           return (
             <div className="flex max-sm:flex-col gap-5 justify-between my-10 pb-10 border-b-2 border-b-gray-200">
-              <div className="font-bold md:text-heading4 text-heading3 w-60">
+              <div className="font-bold md:text-heading6 flex flex-nowrap text-heading3 max-lg:w-60">
                 {i.title}
               </div>
               <div className="text-gray-400 text-xl lg:w-[40rem] md:w-[30rem]">
@@ -21,7 +21,10 @@ const CloudGrid2 = (props: Props) => {
             </div>
           );
         })}
-        <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
+        <Link
+          className="py-10"
+          href={"https://thespecialcharacter.graphy.com/"}
+        >
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Talk to <span>cloud expert </span>
