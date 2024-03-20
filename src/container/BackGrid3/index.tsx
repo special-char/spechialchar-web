@@ -15,14 +15,16 @@ const BackGrid3 = (props: Props) => {
           <SaasSec data={x} />
         ))}
       </div>
-      <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
-        <Button>
-          <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-            Build Custom back-end<span>Solution </span>
-            <span>&rarr;</span>
-          </span>
-        </Button>
-      </Link>
+      <div className="py-10">
+        <Link href={"https://thespecialcharacter.graphy.com/"}>
+          <Button>
+            <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+              Build Custom back-end<span>Solution </span>
+              <span>&rarr;</span>
+            </span>
+          </Button>
+        </Link>
+      </div>
     </section>
   );
 };

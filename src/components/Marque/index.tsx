@@ -16,37 +16,28 @@ const Marque = ({
 }: {
   data: marquedataType;
   className?: string;
-}
-) => (
-  <div className={cn("h-72 flex items-center bg-black" , {
-    [`${className}`]: className,
-  }) }>
+}) => (
+  <div
+    className={cn("h-72 flex items-center bg-black", {
+      [`${className}`]: className,
+    })}
+  >
     <Marquee speed={100}>
-      <div className="flex gap-28">
+      <div className="flex gap-x-[7.5rem]">
         {MarqueData.map((x) => (
           <div key={x.id}>
-            <Image src={x.src} alt="image" height={100} width={220} />
+            <Image
+              src={x.src}
+              alt="image"
+              height={70}
+              width={70}
+              className="object-cover"
+            />
+            {/* {x.src} */}
           </div>
         ))}
       </div>
-
-      
     </Marquee>
-
-    {/* <div className="flex gap-4">
-      <div>
-        <Icon1 />
-      </div>
-      <div>
-        <Icon3/>
-      </div>
-      <div>
-        <Icon2 />
-      </div>
-      <div>
-        <Icon4/>
-      </div>
-    </div> */}
   </div>
 );
 

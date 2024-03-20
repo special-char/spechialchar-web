@@ -10,15 +10,15 @@ import { Autoplay, EffectFade, Navigation } from "swiper/modules";
 import Image from "next/image";
 import { latestThinkingType } from "@/utils/types";
 import { latestThinkingData } from "@/lib/constData";
-import { SwiperNavButtons } from "./SwiperButton";
 import Link from "next/link";
 
 const Banner = ({ data }: latestThinkingType) => {
   return (
     <>
+      <div className="text-5xl px-container py-4 font-bold md:text-8xl">
+        {data.title}
+      </div>
       <section>
-        <h1 className="text-heading1 font-bold ">Latest thinking</h1>
-
         <div className="bg-background flex gap-4 md:items-center md:justify-between pt-6 max-md:pt-6 max-md:py-0">
           <Swiper
             effect={"fade"}

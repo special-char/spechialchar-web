@@ -337,27 +337,35 @@ export const Card1 = {
 export const MarqueData = [
   {
     id: 1,
-    src: "/images/turvo-logo.webp",
+    src: "/icons/p&g.svg",
   },
   {
     id: 2,
-    src: "/images/universalelectroniocs-logo.webp",
+    src: "/icons/wb.svg",
   },
   {
     id: 3,
-    src: "/images/turvo-logo.webp",
+    src: "/icons/p&g.svg",
   },
   {
     id: 4,
-    src: "/images/universalelectroniocs-logo.webp",
+    src: "/icons/wb.svg",
   },
   {
     id: 5,
-    src: "/images/turvo-logo.webp",
+    src: "/icons/p&g.svg",
   },
   {
     id: 6,
-    src: "/images/universalelectroniocs-logo.webp",
+    src: "/icons/wb.svg",
+  },
+  {
+    id: 7,
+    src: "/icons/p&g.svg",
+  },
+  {
+    id: 8,
+    src: "/icons/wb.svg",
   },
 ];
 
@@ -544,7 +552,7 @@ export const accordionItems = {
     {
       value: "item-1",
       title: "Services",
-      link: "services",
+      link: "/services/software-engineering",
       content: [
         "Mobile",
         "Web",
@@ -599,7 +607,7 @@ export const accordionItems1 = {
       value: "item-2",
       title: "Industry",
       link: "#",
-      content: ["EdTech-eLearning", "Ecommerce"],
+      content: ["eLearning", "Ecommerce"],
     },
     {
       value: "item-3",
@@ -889,6 +897,8 @@ export const serviceAccordiandata = {
 };
 
 export const latestThinkingData = {
+  title: "Latest thinking",
+  button: "",
   data: [
     {
       id: 1,
@@ -1552,8 +1562,8 @@ export const CareerPage3data = {
 
 export const careerpage4data = {
   title: "Who should apply",
-  title1: "Look,",
-  title2: "this is not for everyone.",
+  title1: "Look,this is not for everyone.",
+
   desc1:
     "If you only want a salary and don’t much care about how good your projects are, you’ll probably hate it here.",
   desc2:
@@ -1573,12 +1583,9 @@ export const careerpage5data = {
 export const careerpage6data = {
   src: "/images/Career-honesty-1.webp",
   title: "Honesty, transparency and family spirit",
-  desc1:
-    "We strive always to be honest with each other and the client. That’s more than being truthful, it’s about not dodging responsibility or concealing important things.",
-  desc2:
-    "We aren’t afraid to argue. Because we care about our work, it happens. We disagree like family; we help and support each other no matter what.",
-  desc3:
-    " Our managers live by this too. You’re never too junior to ask questions or to have an opinion.",
+  des1: "We strive always to be honest with each other and the client. That’s more than being truthful, it’s about not dodging responsibility or concealing important things.",
+  des2: "We aren’t afraid to argue. Because we care about our work, it happens. We disagree like family; we help and support each other no matter what.",
+  des3: " Our managers live by this too. You’re never too junior to ask questions or to have an opinion.",
 };
 
 export const imageBanner17 = {
@@ -2196,40 +2203,49 @@ export const aboutBanner2 = {
       id: 1,
       number: 1,
       url: "/images/book-1.webp",
-      title: "We are always honest no matter what.",
+      title1: "We are ",
+      title2: " always honest no matter what.",
     },
     {
       id: 2,
       number: 2,
       url: "/images/book-2.webp",
-      title: "We deep dive into every project to deliver excellence.",
+      title1: "We deep dive",
+      title2: "into every project to deliver excellence.",
     },
     {
       id: 3,
       number: 3,
       url: "/images/book-3.webp",
-      title: "We take ownership of what we do.",
+      title1: "We take",
+      title2: "ownership of what we do.",
     },
     {
       id: 4,
       number: 4,
       url: "/images/book-4.webp",
-      title:
-        "We value long-term relationships above quick wins and want to bring lasting gains for you.",
+      title1:
+        "We value",
+      title2:
+        "long-term relationships above quick wins and want to bring lasting gains for you.",
     },
     {
       id: 5,
       number: 5,
       url: "/images/book-5.webp",
-      title:
-        "We believe we can help you drive margins while remaining true to our ethical values.",
+      title1:
+        "We believe ",
+      title2:
+        " we can help you drive margins while remaining true to our ethical values.",
     },
     {
       id: 6,
       number: 6,
       url: "/images/book-6.webp",
-      title:
-        "We say “we” since we are a big ITRex family united together around one goal - to help you innovate for growth.",
+      title1:
+        "We say “we” ",
+      title2:
+        " since we are a big ITRex family united together around one goal - to help you innovate for growth.",
     },
   ],
 };
@@ -3184,8 +3200,8 @@ export const webGridSectiondata = {
   ],
 };
 
-export const ourThinkingData={
-  All:[
+export const ourThinkingData = {
+  All: [
     {
       id: 1,
       image: "/images/blog1.webp",
@@ -3197,27 +3213,88 @@ export const ourThinkingData={
       id: 2,
       image: "/images/blog2.webp",
       categories: ["Artificial Intelligence", "FinTech", "Product Development"],
-      title: "Generative AI in business: top 5 use cases every company should consider [with a free eBook]",
+      title:
+        "Generative AI in business: top 5 use cases every company should consider [with a free eBook]",
+      link: "#",
+    },
+    {
+      id: 3,
+      image: "/images/blog3.webp",
+      categories: ["Big Data", "Product Development"],
+      title: "Generative AI in banking: current state of affairs",
+      link: "#",
+    },
+    {
+      id: 4,
+      image: "/images/blog4.webp",
+      categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+      title:
+        "AI outsourcing: tips for choosing the right technology partner for your company",
+      link: "#",
+    },
+    {
+      id: 5,
+      image: "/images/blog1.webp",
+      categories: ["Big Data", "Product Development"],
+      title: "Mastering data discovery: A Practical Manual",
+      link: "#",
+    },
+    {
+      id: 6,
+      image: "/images/blog2.webp",
+      categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+      title: "Mastering data discovery: A Practical Manual",
+      link: "#",
+    },
+    {
+      id: 7,
+      image: "/images/blog3.webp",
+      categories: ["Big Data", "Product Development"],
+      title: "Mastering data discovery: A Practical Manual",
+      link: "#",
+    },
+    {
+      id: 8,
+      image: "/images/blog4.webp",
+      categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+      title:
+        "AI outsourcing: tips for choosing the right technology partner for your company ",
       link: "#",
     },
   ],
-  Strategy:[ {
-    id: 3,
-    image: "/images/blog3.webp",
-    categories: ["Big Data", "Product Development"],
-    title: "Generative AI in banking: current state of affairs",
-    link: "#",
-  },
-  {
-    id: 4,
-    image: "/images/blog4.webp",
-    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
-    title: "AI outsourcing: tips for choosing the right technology partner for your company",
-    link: "#",
-  },
+  Strategy: [
+    {
+      id: 3,
+      image: "/images/blog3.webp",
+      categories: ["Big Data", "Product Development"],
+      title: "Generative AI in banking: current state of affairs",
+      link: "#",
+    },
+    {
+      id: 4,
+      image: "/images/blog4.webp",
+      categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+      title:
+        "AI outsourcing: tips for choosing the right technology partner for your company",
+      link: "#",
+    },
+    {
+      id: 5,
+      image: "/images/blog1.webp",
+      categories: ["Big Data", "Product Development"],
+      title: "Mastering data discovery: A Practical Manual",
+      link: "#",
+    },
+    {
+      id: 6,
+      image: "/images/blog2.webp",
+      categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+      title: "Mastering data discovery: A Practical Manual",
+      link: "#",
+    },
   ],
-  Trending:[{
-    
+  Trending: [
+    {
       id: 1,
       image: "/images/blog1.webp",
       categories: ["Big Data", "Product Development"],
@@ -3231,25 +3308,68 @@ export const ourThinkingData={
       title: "Mastering data discovery: A Practical Manual",
       link: "#",
     },
-  ], 
-  Development:[{
-    id: 3,
-    image: "/images/blog3.webp",
-    categories: ["Big Data", "Product Development"],
-    title: "Mastering data discovery: A Practical Manual",
-    link: "#",
-  },
-  {
-    id: 4,
-    image: "/images/blog4.webp",
-    categories: ["Artificial Intelligence", "FinTech", "Product Development"],
-    title: "AI outsourcing: tips for choosing the right technology partner for your company ",
-    link: "#",
-  },
+    {
+      id: 3,
+      image: "/images/blog3.webp",
+      categories: ["Big Data", "Product Development"],
+      title: "Generative AI in banking: current state of affairs",
+      link: "#",
+    },
+    {
+      id: 4,
+      image: "/images/blog4.webp",
+      categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+      title:
+        "AI outsourcing: tips for choosing the right technology partner for your company",
+      link: "#",
+    },
+    {
+      id: 5,
+      image: "/images/blog1.webp",
+      categories: ["Big Data", "Product Development"],
+      title: "Mastering data discovery: A Practical Manual",
+      link: "#",
+    },
+    {
+      id: 6,
+      image: "/images/blog2.webp",
+      categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+      title: "Mastering data discovery: A Practical Manual",
+      link: "#",
+    },
   ],
-
-
-}
+  Development: [
+    {
+      id: 3,
+      image: "/images/blog3.webp",
+      categories: ["Big Data", "Product Development"],
+      title: "Mastering data discovery: A Practical Manual",
+      link: "#",
+    },
+    {
+      id: 4,
+      image: "/images/blog4.webp",
+      categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+      title:
+        "AI outsourcing: tips for choosing the right technology partner for your company ",
+      link: "#",
+    },
+    {
+      id: 5,
+      image: "/images/blog1.webp",
+      categories: ["Big Data", "Product Development"],
+      title: "Mastering data discovery: A Practical Manual",
+      link: "#",
+    },
+    {
+      id: 6,
+      image: "/images/blog2.webp",
+      categories: ["Artificial Intelligence", "FinTech", "Product Development"],
+      title: "Mastering data discovery: A Practical Manual",
+      link: "#",
+    },
+  ],
+};
 export const AboutData = [
   {
     id: 1,
@@ -3383,7 +3503,6 @@ export const SwiperServices4 = {
   ],
 };
 
-
 export const TableContent = {
   title: "Comparison of engagement models",
   header: [
@@ -3449,3 +3568,189 @@ export const TableContent = {
     },
   ],
 };
+
+export const latestThinkingData2 = {
+  title: "Latest Projects",
+  data: [
+    {
+      id: 1,
+      title:
+        "Olab education research platform modernization for highly-engaging virtual sceana",
+      img: "/images/e-learn1.webp",
+      Link: "./",
+    },
+    {
+      id: 2,
+      title: "Innovation data management solution for global analystic leader",
+      img: "/images/e-learn2.webp",
+      Link: "./",
+    },
+    {
+      id: 3,
+      title:
+        "Modernization of on education and collabaration platform for healthcare professional",
+      img: "/images/e-learn3.webp",
+      Link: "./",
+    },
+  ],
+};
+
+export const latestThinkingData3 = {
+  title: "Latest challenges",
+  data: [
+    {
+      id: 1,
+      title:
+        "Olab education research platform modernization for highly-engaging virtual sceana",
+      img: "/images/aboutswiper1.webp",
+      Link: "./",
+    },
+    {
+      id: 2,
+      title: "Innovation data management solution for global analystic leader",
+      img: "/images/aboutswiper2.webp",
+      Link: "./",
+    },
+    {
+      id: 3,
+      title:
+        "Modernization of on education and collabaration platform for healthcare professional",
+      img: "/images/aboutswiper3.webp",
+      Link: "./",
+    },
+  ],
+};
+
+export const latestThinkingData4 = {
+  title: "Latest thinking",
+  data: [
+    {
+      id: 1,
+      title:
+        "Olab education research platform modernization for highly-engaging virtual sceana",
+      img: "/images/aboutswiper4.webp",
+      Link: "./",
+    },
+    {
+      id: 2,
+      title: "Innovation data management solution for global analystic leader",
+      img: "/images/aboutswiper5.webp",
+      Link: "./",
+    },
+    {
+      id: 3,
+      title:
+        "Modernization of on education and collabaration platform for healthcare professional",
+      img: "/images/aboutswiper6.webp",
+      Link: "./",
+    },
+  ],
+};
+
+export const SwiperServices1 = {
+  title: "Latest Projects",
+  data: [
+    {
+      id: 1,
+      src: "/images/proSwiper1.webp",
+      alt: "Lotto, scratches and raffle games",
+    },
+    {
+      id: 2,
+      src: "/images/proSwiper2.webp",
+      alt: "Doller Shave Club",
+    },
+    {
+      id: 3,
+      src: "/images/proSwiper3.webp",
+      alt: "JibJab eCards app",
+    },
+    {
+      id: 4,
+      src: "/images/proSwiper4.webp",
+      alt: "Live Streaming",
+    },
+    {
+      id: 5,
+      src: "/images/proSwiper5.webp",
+      alt: "Dog Vacay  ",
+    },
+    {
+      id: 6,
+      src: "/images/proSwiper6.webp",
+      alt: "Prodcast app  ",
+    },
+    {
+      id: 7,
+      src: "/images/proSwiper7.webp",
+      alt: "Online monitoring and social networking  ",
+    },
+  ],
+};
+
+export const edBox2 = [
+  {
+    id: 1,
+    title: "R&D and consulting.",
+    discription:
+      "Analyzing your educational needs, we will help you formulate a business case, select the right software solution, define its feature set, and devise an implementation roadmap",
+  },
+  {
+    id: 2,
+    title: "Custom eLearning software development.",
+    discription:
+      "We will develop an educational solution from scratch, packing it with the necessary features, putting the required integrations in place, and ensuring compliance and high performance",
+  },
+  {
+    id: 3,
+    title: "Legacy eLearning solution enhancement.",
+    discription:
+      "We will enrich your solution with new features, optimize the existing workflows, improve the solution’s performance and user experience, or help migrate legacy software to the cloud",
+  },
+  {
+    id: 4,
+    title: "Customization of open-source learning platforms.",
+    discription:
+      "We will assist you in choosing an optimum open-source solution and tweak it to better suit your needs and workflows",
+  },
+];
+//-----------------------------------------//
+
+import Icons from "@/public.icons/21stCenturyFox.svg";
+import Icons1 from "@/public.icons/21stCenturyFox.svg";
+import Icons2 from "@/public.icons/21stCenturyFox.svg";
+
+export const MarqueData2 = [
+  {
+    id: 1,
+    src: "/icons/p&g2.svg",
+  },
+  {
+    id: 2,
+    src: "/icons/wb2.svg",
+  },
+  {
+    id: 3,
+    src: "/icons/p&g2.svg",
+  },
+  {
+    id: 4,
+    src: "/icons/wb2.svg",
+  },
+  {
+    id: 5,
+    src: "/icons/p&g2.svg",
+  },
+  {
+    id: 6,
+    src: "/icons/wb2.svg",
+  },
+  {
+    id: 7,
+    src: "/icons/p&g2.svg",
+  },
+  {
+    id: 8,
+    src: "/icons/wb2.svg",
+  },
+];

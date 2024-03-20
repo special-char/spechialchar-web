@@ -5,12 +5,12 @@ type Props = {};
 
 const GridSection = ({ data }: uiSectionType) => {
   return (
-    <div key={data.id} className="border-b-2 border-b-second">
-      <div className="text-heading3 font-extrabold">
+    <div key={data.id} className="border-b-2 border-b-second ">
+      <div className="text-2xl font-bold">
         {data?.title1}
         {data?.title}
       </div>
-      <div className=" text-md max-md:text-lg py-10 text-gray-400 font-light">
+      <div className=" text-md max-md:text-xl py-10 text-gray-400 font-medium">
         {data.description}
       </div>
     </div>

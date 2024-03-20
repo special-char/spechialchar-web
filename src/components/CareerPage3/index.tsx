@@ -10,7 +10,6 @@ const CareerPage3 = ({ data }: CareerPage3dataType) => {
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-x-6">
         {data.data.map((x) => (
           <div key={x.id}>
-            {/* <Svg fill="yellow" /> */}
             {x.src}
             <h4 className="text-2xl">{x.description}</h4>
           </div>

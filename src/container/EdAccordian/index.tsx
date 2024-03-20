@@ -13,6 +13,7 @@ const EdAccordian = (props: Props) => {
         <div>
           <EdAccord data={edAccordiandata} />
         </div>
+        <div className="py-10">
         <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
@@ -21,6 +22,8 @@ const EdAccordian = (props: Props) => {
             </span>
           </Button>
         </Link>
+        </div>
+        
       </section>
     </>
   );

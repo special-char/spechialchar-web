@@ -15,12 +15,12 @@ const Banner = ({
   console.log(className);
 
   return (
-    <section
-      className={cn(" w-full bg-black text-white  ", {
+    <div
+      className={cn(" w-full bg-black text-white py-20", {
         [`${className}`]: className,
       })}
     >
-      <div className=" grid md:grid-cols-[40%_1fr] grid-cols-1 items-center lg:gap-x-40 sm:pt-20 max-sm:pt-10 max-sm:gap-y-7  justify-center">
+      <div className=" grid pl-container md:grid-cols-[40%_1fr]  grid-cols-1 items-center lg:gap-x-40  max-sm:gap-y-7  justify-center">
         <div className="lg:w-[30rem] sm:gap-y-10 md:gap-y-10 max-sm:gap-y-4 flex justify-evenly flex-col sm:justify-center">
           <h1 className=" text-heading1 lg:text-6xl md:text-4xl sm:text-2xl max-sm:text-2xl font-bold ">
             {data.title}
@@ -49,7 +49,7 @@ const Banner = ({
           />
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

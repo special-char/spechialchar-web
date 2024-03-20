@@ -33,10 +33,10 @@ export function ProjectCard() {
                       width={700}
                     />
                   </div>
-                  <h1 className="lg:text-3xl md:text-2xl sm:text-xl max-sm:text-lg group-hover:text-blue  font-bold mb-2 mt-4 ">
+                  <h1 className="lg:text-2xl md:text-xl sm:text-lg max-sm:text-md group-hover:text-button font-bold mb-2 mt-4 ">
                     {item.title}
                   </h1>
-                  <div className="text-gray-400 lg:text-xl md:text-lg sm:text-md max-sm:text-md">
+                  <div className="text-gray-400 lg:text-lg md:text-md sm:text-sm max-sm:text-md">
                     {item.description}
                   </div>
                 </CarouselItem>

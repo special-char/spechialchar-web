@@ -5,7 +5,10 @@ import AboutCount from "@/components/AboutCount";
 import AboutLinks from "@/components/AboutLinks";
 import ImageBanner from "@/components/ImageBanner";
 import LatestThinking from "@/components/LatestThinking";
+import LatestThinking3 from "@/components/LatestThinking3";
+import LatestThinking4 from "@/components/LatestThinking4";
 import MobilePage from "@/components/MobilePage";
+import Sticky from "@/components/Sticky";
 import OurClients from "@/container/OurClients";
 import {
   aboutAccordianData,
@@ -14,6 +17,8 @@ import {
   aboutlinks,
   imageBanner2,
   latestThinkingData,
+  latestThinkingData3,
+  latestThinkingData4,
 } from "@/lib/constData";
 import React from "react";
 
@@ -29,7 +34,9 @@ const AboutPage = (props: Props) => {
       <AboutLinks data={aboutlinks} />
       <AboutBanner2 data={aboutBanner2} />
       <ImageBanner data={imageBanner2} />
-      <LatestThinking data={latestThinkingData} />
+      <LatestThinking3 data={latestThinkingData3} />
+      <LatestThinking4 data={latestThinkingData4} />
+      <Sticky/>
     </>
   );
 };
