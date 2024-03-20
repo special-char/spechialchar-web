@@ -12,20 +12,20 @@ const EcomGrid = (props: Props) => {
       <section>
         <div className="grid lg:grid-cols-2 max-md:grid-cols-1 gap-10">
           {ecomSection.section.map((item) => (
-            <GridSection data={item} />
+            <GridSection key={item.id} data={item} />
           ))}
         </div>
         <div className="py-10">
-        <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
-          <Button>
-            <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-              Schedule a free <span> consultation with us </span>
-              <span>&rarr;</span>
-            </span>
-          </Button>
-        </Link>
+          <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
+            <Button>
+              <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+                Schedule a free <span> consultation with us </span>
+                <span>&rarr;</span>
+              </span>
+            </Button>
+          </Link>
         </div>
-        
+
       </section>
     </>
   );

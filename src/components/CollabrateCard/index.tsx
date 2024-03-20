@@ -1,8 +1,8 @@
 import React from "react";
-import { CollaboratorCard } from "@/lib/constData";
 import Image from "next/image";
+import { ColllabrateCardType } from "@/utils/types";
 
-const CollabrateCard = ({ data }: Props) => {
+const CollabrateCard = ({ data }: ColllabrateCardType) => {
   return (
     <div>
       <div className="md:flex-row flex justify-start flex-col lg:gap-8 m-4 md:gap-3 text-white ">

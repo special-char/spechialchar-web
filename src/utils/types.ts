@@ -58,68 +58,68 @@ export type BannerType = {
 };
 export type Header = {
   data: {
-    value: string;
-    title: string;
-    content: string;
-    link: string;
+    // value: string;
+    // title: string;
+    // content: string;
+    // link: string;
   };
 };
 export type mobileServicesType = {
   data: {
-    id: number;
-    title: string;
-    description: string;
+    // id: number;
+    // title: string;
+    // description: string;
   };
 };
 
 export type latestThinkingType = {
   data: {
-    id: number;
     title: string;
-    img: string;
-    Link: string;
+    // id: number;
+    // img: string;
+    // Link: string;
   };
 };
 export type MobileSwiperType = {
   data: {
-    src: string;
-    name: string;
-    title: string;
-    company: string;
-    quote: string;
+    // src: string;
+    // name: string;
+    // title: string;
+    // company: string;
+    // quote: string;
   };
 };
 
 export type SwiperServicesData = {
   data: {
-    id: string;
-    src: string;
-    alt: string;
+    // id: string;
+    // src: string;
+    // alt: string;
     title: string;
   };
 };
 export type marquedataType = {
   data: {
-    id: number;
-    url: string;
+    // id: number;
+    // url: string;
   };
 };
 
 export type tabdataType = {
   data: {
-    id: number;
-    trigger: string;
-    content: string;
-    value: string;
-    image: string;
-    button1: string;
+    // id: number;
+    // trigger: string;
+    // content: string;
+    // value: string;
+    // image: string;
     button2: string;
+    button: string;
     title1: string;
     title2: string;
-    list: {
-      id: number;
-      text: string;
-    };
+    // list: {
+    //   id: number;
+    //   text: string;
+    // };
   };
 };
 export type ServiceBoxType = {
@@ -135,6 +135,11 @@ export type ServiceIconType = {
     button2: string;
     heading: string;
     texts: string;
+  };
+};
+
+export type ServiceItem = {
+  data: {
     url: string;
     title: string;
     description: string;
@@ -159,10 +164,10 @@ export type aboutBannerType = {
 };
 export type serviceAccordiandataType = {
   data: {
-    id: number;
-    image: string;
-    content: string;
-    title: string;
+    // id: number;
+    // image: string;
+    // content: string;
+    // title: string;
     button: string;
   };
 };
@@ -177,9 +182,9 @@ export type BgBannerType = {
 
 export type SaasSectionType = {
   data: {
-    id: number;
-    title1: string;
-    description1: string;
+    // description1: string;
+    // id: number;
+    // title1: string;
     title: string;
     description: string;
   };
@@ -197,8 +202,8 @@ export type CareerBannerdataType = {
 
 export type CareerPage2dataType = {
   data: {
-    src: string;
     title: string;
+    src: string;
     des1: string;
     des2: string;
     des3: string;
@@ -274,18 +279,17 @@ export type CareerCityType = {
   data: {
     title: string;
     description: string;
-    id: number;
-    url: string;
+    // id: number;
+    // url: string;
   };
 };
 
 export type CareerCapType = {
   data: {
     title: string;
-    id: number;
-    url: string;
-
-    desc: string;
+    // id: number;
+    // url: string;
+    // desc: string;
   };
 };
 
@@ -307,23 +311,23 @@ export type CareerCVType = {
 
 export type HowModelType = {
   data: {
-    title: string;
-    desc1: string;
-    desc2: string;
+    // title: string;
+    // desc1: string;
+    // desc2: string;
     heading: string;
     par: string;
-    id: number;
-    list: {
-      id: number;
-      content: string;
-    };
+    // id: number;
+    // list: {
+    //   id: number;
+    //   content: string;
+    // };
   };
 };
 export type imageAccordianDataType = {
   data: {
-    image: string;
-    header: string;
-    text: string;
+    // image: string;
+    // header: string;
+    // text: string;
     title1: string;
     title2: string;
     title3: string;
@@ -334,9 +338,9 @@ export type imageAccordianDataType = {
 export type aboutAccordianDatatype = {
   data: {
     title1: string;
-    id: number;
-    title: string;
-    content: string;
+    // id: number;
+    // title: string;
+    // content: string;
   };
 };
 
@@ -372,16 +376,18 @@ export type HowBannerType = {
 };
 export type aboutBanner2Type = {
   data: {
-    id: number;
-    number: number;
-    url: string;
-    title: string;
     heading: string;
+    // id: number;
+    // number: number;
+    // url: string;
+    // title: string;
   };
 };
 export type ecomSectionType = {
-  title: string;
-  section: string;
+  data: {
+    title: string;
+    // section: string;
+  };
 };
 
 export type ourThinkingType = {
@@ -395,17 +401,25 @@ export type ourThinkingType = {
 };
 export type aboutlinksType = {
   data: {
-    id: number;
-    title: string;
     title1: string;
-    link: string;
-    image: string;
+    // id: number;
+    // title: string;
+    // link: string;
+    // image: string;
   };
 };
 export type webGridSectionType = {
   data: {
-    id: number;
-    link: string;
-    ref: string;
+    // id: number;
+    // link: string;
+    // ref: string;
+  };
+};
+
+export type ColllabrateCardType = {
+  data: {
+    title: string;
+    url: string;
+    description: string;
   };
 };

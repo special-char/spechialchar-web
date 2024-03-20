@@ -21,7 +21,7 @@ const MobileIcon = ({ data }: ServiceIconType) => {
         </div>
         <div className="grid md:grid-cols-3 gap-8 py-10">
           {mobileicon.data.map((x) => (
-            <ServiceIcon data={x} />
+            <ServiceIcon key={x.title} data={x} />
           ))}
         </div>
         <Link

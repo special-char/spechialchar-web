@@ -11,7 +11,7 @@ const EdGrid4 = (props: Props) => {
       <section>
         <div className="grid md:grid-cols-2 gap-8">
           {edSection2.map((x) => (
-            <ServiceIcon data={x} />
+            <ServiceIcon key={x.title} data={x} />
           ))}
         </div>
         <div className="py-10">

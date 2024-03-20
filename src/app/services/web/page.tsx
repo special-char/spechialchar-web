@@ -35,7 +35,7 @@ const Web = (props: Props) => {
       <WebGrid data={webicon} />
       <ImageBanner data={imageBanner31} />
       <YellowBanner data={Bgbanner8} />
-      <WebGridSection data={webGridSectiondata}/>
+      <WebGridSection />
       <ImageBanner data={imageBanner7} />
       <YellowBanner data={Bgbanner2} />
       <WebGrid5 data={webSection3} />

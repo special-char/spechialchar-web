@@ -15,7 +15,7 @@ const Tab1 = ({ data }: tabdataType) => {
                 {mobiletabdata.data.map((item) => {
                   return (
                     <>
-                      <div className="flex flex-col gap-5  border-b-2  text-xl md:text-2xl  px-5 lg:text-4xl  xl:px-16  md:px-9   font-bold">
+                      <div key={item.id} className="flex flex-col gap-5  border-b-2  text-xl md:text-2xl  px-5 lg:text-4xl  xl:px-16  md:px-9   font-bold">
                         <Image
                           src={item.image}
                           alt=""
@@ -41,6 +41,7 @@ const Tab1 = ({ data }: tabdataType) => {
           {mobiletabdata.data.map((item) => {
             return (
               <TabsContent
+                key={item.id}
                 className="text-black lg:text-2xl lg:px-1"
                 value={item.value}
               >

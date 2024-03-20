@@ -20,7 +20,7 @@ const SaasGrid = ({ data }: SaasSectionType) => {
       <div className="grid lg:grid-cols-3 max-md:grid-cols-1 gap-10">
         {saasSection.section.map((item) => (
           // <ServiceIcon data={item}/>
-          <SaasSec data={item} />
+          <SaasSec key={item.title} data={item} />
         ))}
       </div>
       {/* <div className="my-8 font-bold text-2xl">

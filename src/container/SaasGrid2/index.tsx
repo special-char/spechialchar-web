@@ -12,7 +12,7 @@ const SaasGrid = (props: Props) => {
       <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-10">
         {saasSection2.map((item) => (
           // <ServiceIcon data={item}/>
-          <SaasSec data={item} />
+          <SaasSec key={item.id} data={item} />
         ))}
       </div>
       <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>

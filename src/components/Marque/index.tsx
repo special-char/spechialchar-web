@@ -11,10 +11,10 @@ import { cn } from "@/lib/utils";
 // import Icon4 from "@/public.icons/universalelectroniocs-logo.svg";
 
 const Marque = ({
-  data,
+
   className,
 }: {
-  data: marquedataType;
+
   className?: string;
 }) => (
   <div

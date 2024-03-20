@@ -12,20 +12,20 @@ const EdGrid3 = (props: Props) => {
       <section>
         <div className="grid lg:grid-cols-2 gap-8">
           {edSection2.map((x) => (
-            <ServiceIcon data={x} />
+            <ServiceIcon key={x.title} data={x} />
           ))}
         </div>
         <div className="py-10">
-        <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
-          <Button>
-            <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-              get your <span>educational app </span>
-              <span>&rarr;</span>
-            </span>
-          </Button>
-        </Link>
+          <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
+            <Button>
+              <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+                get your <span>educational app </span>
+                <span>&rarr;</span>
+              </span>
+            </Button>
+          </Link>
         </div>
-        
+
       </section>
     </>
   );

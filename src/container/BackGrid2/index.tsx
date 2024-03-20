@@ -11,7 +11,7 @@ const BackGrid2 = (props: Props) => {
     <section>
       <div className="grid md:grid-cols-4 gap-8  ">
         {backicon.map((x) => (
-          <ServiceIcon data={x} />
+          <ServiceIcon key={x.title} data={x} />
         ))}
       </div>
       <div className="py-10">
