@@ -16,7 +16,7 @@ const AboutBanner2 = ({ data }: aboutBanner2Type) => {
                 className={cn(
                   item.id % 2 !== 0
                     ? "flex flex-row-reverse max-sm:flex-wrap max-sm:flex-row"
-                    : "md:flex md:flex-1 max-sm:flex-wrap max-sm:flex-row"
+                    : "flex justify-between max-sm:flex-wrap flex-row"
                 )}
               >
                 <div className="h-[70vh] w-full sm:text-[30rem] max-sm:text-[20rem] max-lg:justify-center lg:justify-evenly flex  relative ">
@@ -26,7 +26,7 @@ const AboutBanner2 = ({ data }: aboutBanner2Type) => {
                     alt={"image"}
                     width={600}
                     height={600}
-                    className="absolute lg:top-[34%] max-sm:top-[36%] max-lg:top-[60%] max-lg:left-[10%] lg:left-[20%] "
+                    className="absolute lg:top-[36%] max-sm:top-[36%] max-lg:top-[60%] max-lg:left-[10%] lg:left-[10%] "
                   />
                 </div>
                 <div className="md:text-3xl text-2xl  sm:mt-72 w-full  gap-x-[0.12rem]">

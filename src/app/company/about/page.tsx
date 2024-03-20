@@ -16,6 +16,7 @@ import {
   aboutBannerdata,
   aboutlinks,
   imageBanner2,
+  imageBanner33,
   latestThinkingData,
   latestThinkingData3,
   latestThinkingData4,
@@ -33,7 +34,7 @@ const AboutPage = (props: Props) => {
       <AboutAccordian data={aboutAccordianData} />
       <AboutLinks data={aboutlinks} />
       <AboutBanner2 data={aboutBanner2} />
-      <ImageBanner data={imageBanner2} />
+      <ImageBanner data={imageBanner33} />
       <LatestThinking3 data={latestThinkingData3} />
       <LatestThinking4 data={latestThinkingData4} />
       <Sticky/>
