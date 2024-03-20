@@ -2056,38 +2056,39 @@ export const imageBanner27 = {
 };
 
 export const edSection3 = [
-  {
+  {id:1,
     title: "Accessibility",
     description:
       "Friendly for learners with special needs and those without the ‘geek gene",
   },
-  {
+  {id:2,
     title: "Flexibility",
     description:
       "Customizable for all participants, tailored to your business needs",
   },
   {
+    id:3,
     title: "Granularity",
     description:
       "Highlighting all the peculiarities of the educational process",
   },
-  {
+  {id:4,
     title: "Personalization",
     description: "Overcoming the one-size-fits-all eLearning problem",
   },
-  {
+  {id:5,
     title: "Persistence",
     description: "Instrumentally motivating target learners to carry on",
   },
-  {
+  {id:6,
     title: "Motivation",
     description: "Making courseware products engaging",
   },
-  {
+  {id:7,
     title: "Collaboration",
     description: "Designing easy-to-use tools for fruitful teamwork",
   },
-  {
+  {id:8,
     title: "Age-friendly",
     description: "Providing a helpful environment for adults",
   },
@@ -2223,8 +2224,7 @@ export const aboutBanner2 = {
       id: 4,
       number: 4,
       url: "/images/book-4.webp",
-      title1:
-        "We value",
+      title1: "We value",
       title2:
         "long-term relationships above quick wins and want to bring lasting gains for you.",
     },
@@ -2232,8 +2232,7 @@ export const aboutBanner2 = {
       id: 5,
       number: 5,
       url: "/images/book-5.webp",
-      title1:
-        "We believe ",
+      title1: "We believe ",
       title2:
         " we can help you drive margins while remaining true to our ethical values.",
     },
@@ -2241,8 +2240,7 @@ export const aboutBanner2 = {
       id: 6,
       number: 6,
       url: "/images/book-6.webp",
-      title1:
-        "We say “we” ",
+      title1: "We say “we” ",
       title2:
         " since we are a big ITRex family united together around one goal - to help you innovate for growth.",
     },
@@ -3753,3 +3751,9 @@ export const MarqueData2 = [
     src: "/icons/wb2.svg",
   },
 ];
+
+export const imageBanner33 = {
+  url: "/images/weare.webp",
+  title1: "We are hungrrrrry",
+  title2: "for your success",
+};
