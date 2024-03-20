@@ -11,7 +11,7 @@ const CaseStudies = (props: Props) => {
     <>
       <PageBanner data={caseBanner} className="bg-second" />
       {/* <Blog/> */}
-      <OurThinking data={ourThinkingData} />
+      <OurThinking />
     </>
   );
 };

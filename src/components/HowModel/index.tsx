@@ -35,8 +35,8 @@ const HowModel = ({ data }: HowModelType) => {
       <hr className="border-gray-300 " />
       {howmodel.section.map((item, index) => {
         return (
-          <div className="border-b-2 border-gray-300">
-            <div key={item.id} className=" py-8 flex flex-col md:flex-row ">
+          <div key={item.id} className="border-b-2 border-gray-300">
+            <div className=" py-8 flex flex-col md:flex-row ">
               <div className="flex-1">
                 <h4 className="text-lg md:text-subtitle1 lg:text-3xl font-bold mb-2">
                   {item.title}

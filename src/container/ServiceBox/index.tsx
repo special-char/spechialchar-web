@@ -7,13 +7,13 @@ type Props = {}
 const SectionBox = (props: Props) => {
   return (
     <section>
-        <ServiceBox/>
-        <div className=' grid justify-start lg:px-4'>
+      <ServiceBox />
+      <div className=' grid justify-start lg:px-4'>
         <Button variant="default" size="lg" className="">
-                                Let's Discuss Our Partnership &rarr;    
-                                </Button>
-        </div>
-        
+          <span>Lets Discuss Our Partnership</span><span>&rarr;</span>
+        </Button>
+      </div>
+
     </section>
   )
 }

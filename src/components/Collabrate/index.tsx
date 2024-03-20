@@ -14,7 +14,7 @@ const Collabrate = () => {
       </div>
       <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 ">
         {CollaboratorCard.map((x) => (
-          <CollabrateCard data={x} />
+          <CollabrateCard key={x.title} data={x} />
         ))}
       </div>
       <div className="py-10">

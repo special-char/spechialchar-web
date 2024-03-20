@@ -14,7 +14,7 @@ const WebGrid4 = ({ data }: ServiceIconType) => {
       <div className="grid md:grid-cols-4 gap-8  ">
         {webSection2.data.map((x) => (
           //   <ServiceIcon data={x} />
-          <GridSection data={x} />
+          <GridSection key={x.description} data={x} />
         ))}
       </div>
       <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>

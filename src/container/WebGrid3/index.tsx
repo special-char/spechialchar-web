@@ -4,12 +4,12 @@ import { webgrid } from "@/lib/constData";
 import Link from "next/link";
 import React from "react";
 
-const WebGrid3 = (props: Props) => {
+const WebGrid3 = () => {
   return (
     <section>
       <div className="grid md:grid-cols-3 gap-8  ">
         {webgrid.map((x) => (
-          <ServiceIcon data={x} />
+          <ServiceIcon key={x.url} data={x} />
         ))}
       </div>
       <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>

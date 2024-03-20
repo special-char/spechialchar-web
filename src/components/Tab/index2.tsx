@@ -39,7 +39,7 @@ const Tab2 = ({ data }: tabdataType) => {
 
                     {howWeWorktabdata.data.map((item) => {
                         return (
-                            <TabsContent className="text-black" value={item.value}>
+                            <TabsContent key={item.id} className="text-black" value={item.value}>
                                 <div className="flex text-left flex-wrap text-md lg:p-0 px-5 gap-10">
                                     <div className=" lg:flex-1 lg:pr-20">{item.content}</div>
                                     <div className="font-bold  flex  gap-3 flex-col lg:flex-1">

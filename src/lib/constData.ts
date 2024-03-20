@@ -57,6 +57,9 @@ export const homeAccordiandata = {
 export const tabdata = {
   button1: "Let's Discuss",
   button2: "our partnership",
+  title1: "",
+  title2: "",
+  button: "",
   data: [
     {
       id: 1,
@@ -418,6 +421,8 @@ export const serviceicon = {
   heading: "Custom software engineering services that bring value from day one",
   texts:
     "We offer a whole gamut of software engineering and consulting services to help our clients create technology systems for enterprise resource planning, collaboration, customer management, data analysis, and process automation. You can turn to our software engineering firm for:",
+  button1: "",
+  button2: "",
   data: [
     {
       url: "/images/questionnaire-line.png",
@@ -644,6 +649,7 @@ export const banner2 = {
   imageurl: "/images/mobile2.jpg",
   title: "Mobile app development company",
   button1: "Hire App Developer",
+  button2: "",
   description:
     "We create custom mobile Apps that beat business challenges, generate revenue and hit millions of downloads",
 };
@@ -737,6 +743,10 @@ export const aboutBannerdata = {
 
 export const mobiletabdata = {
   button1: "Contact our app developers",
+  button2: "",
+  button: "",
+  title1: "",
+  title2: "",
   data: [
     {
       id: 1,
@@ -786,6 +796,7 @@ export const mobileicon = {
   texts:
     "We develop consumer and enterprise apps of any complexity that can handle a rapidly growing user base. Many of our clients’ products have expanded from an MVP to a full-featured app with millions of users.",
   button1: "Let's build an app",
+  button2: "",
   data: [
     {
       url: "/icons/aindroid.svg",
@@ -996,6 +1007,7 @@ export const banner3 = {
   button1: "Get in touch",
   description:
     "Make a unique impact online now to grow business with end-to-end custom web development services from TheSpecialChar",
+  button2: "",
 };
 
 export const webicon = {
@@ -1048,6 +1060,8 @@ export const webSection = {
   texts:
     "Our mission is to take business like yours to the top. That’s why ITRex is more than just a professional provider of custom web development services. Innovators at heart, we help you turn the latest tech innovations into exceptional business value. We help you outrun the competition.",
   button1: "Contect Us",
+  button2: "",
+  heading: "",
   data: [
     {
       title: "Progressive Web Apps (PWAs)",
@@ -1088,18 +1102,21 @@ export const webgrid = [
   {
     url: "/images/websec1.webp",
     title: "A-class team",
+    languages: "",
     description:
       "Delivering web solutions across industry verticals since 2009, our team of senior web developers and designers know how to build your project right the first time. With us, you get a deep understanding of your business challenges and unparalleled tech expertise to beat them",
   },
   {
     url: "/images/websec2.webp",
     title: "Fast time-to-value",
+    languages: "",
     description:
       "Using an agile approach and DevOps best practices, we ship new functionality faster while keeping quality high. Along the way, you stay in the loop as we show results early to adapt to your current vision",
   },
   {
     url: "/images/websec3.webp",
     title: "Deeply customized solutions",
+    languages: "",
     description:
       "Each and every step of our process in custom web development services is focused on your unique business needs. We get a buzz out of unlocking tech complexities and tailoring a solution that serves your mission best. This is because we are fully engaged in your success",
   },
@@ -1109,6 +1126,7 @@ export const saasBanner = {
   imageurl: "/images/saasBanner.jpg",
   title: "End-to-end SaaS development services",
   button1: "Get in touch",
+  button2: "",
   description:
     "As a top provider of SaaS development services, we are focused on building SaaS applications that surpass your and your customers’ expectations",
 };
@@ -1532,6 +1550,7 @@ export const careerpage2data = {
   title: "Who we are",
   des1: "ITRex is more than 300 technology professionals based in Poland,Georgia, Ukraine, Armenia, and the USA. We write software, craft strategies, and give expert advice.",
   des2: "We solve problems and drive growth for our clients. They’ve included big names like Walmart, Take a Swing at Cancer, Procter & Gamble, Dun & Bradstreet, Warner Bros., 21st Century Fox, and the Dollar Shave Club.",
+  des3: "",
 };
 
 export const CareerPage3data = {
@@ -1563,12 +1582,14 @@ export const CareerPage3data = {
 export const careerpage4data = {
   title: "Who should apply",
   title1: "Look,this is not for everyone.",
-
+  title2: "",
+  title3: "",
   desc1:
     "If you only want a salary and don’t much care about how good your projects are, you’ll probably hate it here.",
   desc2:
     "If you hide behind policies and processes because, secretly, you’re terrified of owning ideas or decisions, you too will think it sucks.",
   src: "/images/career-who-should-apply.webp",
+  desc3: "",
 };
 
 export const careerpage5data = {
@@ -1763,6 +1784,9 @@ export const banner6 = {
 };
 
 export const uiGrid = {
+  id: 1,
+  title1: "",
+  description: "",
   title: "UI/UX design services that set us apart",
   text: "Whether you’re an enterprise on the verge of digital transformation or a SaaS startup preparing to roll out a new product, there’s a strong reason for you to partner with our UI/UX design company. Here’s what we can do to tell your brand’s story, make it stand out among the competition, and build an enduring bond with your clients:",
   section: [
@@ -1876,6 +1900,9 @@ export const banner7 = {
 };
 
 export const edSection = {
+  id: 1,
+  title1: "",
+  description: "",
   title: "We craft educational software for every need",
   text: "We help our clients in K-12, postsecondary, and corporate segments to redefine the way they teach, learn, communicate, and operate. EdTech startups and educational software companies, in turn, use our eLearning software development expertise to win the market with next-gen features that drive online education way forward. K-12",
   section: [
@@ -2056,39 +2083,46 @@ export const imageBanner27 = {
 };
 
 export const edSection3 = [
-  {id:1,
+  {
+    id: 1,
     title: "Accessibility",
     description:
       "Friendly for learners with special needs and those without the ‘geek gene",
   },
-  {id:2,
+  {
+    id: 2,
     title: "Flexibility",
     description:
       "Customizable for all participants, tailored to your business needs",
   },
   {
-    id:3,
+    id: 3,
     title: "Granularity",
     description:
       "Highlighting all the peculiarities of the educational process",
   },
-  {id:4,
+  {
+    id: 4,
     title: "Personalization",
     description: "Overcoming the one-size-fits-all eLearning problem",
   },
-  {id:5,
+  {
+    id: 5,
     title: "Persistence",
     description: "Instrumentally motivating target learners to carry on",
   },
-  {id:6,
+  {
+    id: 6,
     title: "Motivation",
     description: "Making courseware products engaging",
   },
-  {id:7,
+  {
+    id: 7,
     title: "Collaboration",
     description: "Designing easy-to-use tools for fruitful teamwork",
   },
-  {id:8,
+  {
+    id: 8,
     title: "Age-friendly",
     description: "Providing a helpful environment for adults",
   },
@@ -2187,6 +2221,7 @@ export const blogs = [
 
 export const caseBanner = {
   title1: "Our latest challenges",
+  title2: "",
 };
 
 export const howbanner = {
@@ -2224,8 +2259,7 @@ export const aboutBanner2 = {
       id: 4,
       number: 4,
       url: "/images/book-4.webp",
-      title1:
-        "We value",
+      title1: "We value",
       title2:
         "long-term relationships above quick wins and want to bring lasting gains for you.",
     },
@@ -2233,8 +2267,7 @@ export const aboutBanner2 = {
       id: 5,
       number: 5,
       url: "/images/book-5.webp",
-      title1:
-        "We believe ",
+      title1: "We believe ",
       title2:
         " we can help you drive margins while remaining true to our ethical values.",
     },
@@ -2242,8 +2275,7 @@ export const aboutBanner2 = {
       id: 6,
       number: 6,
       url: "/images/book-6.webp",
-      title1:
-        "We say “we” ",
+      title1: "We say “we” ",
       title2:
         " since we are a big ITRex family united together around one goal - to help you innovate for growth.",
     },
@@ -2540,44 +2572,44 @@ export const imageBanner13 = {
 export const serviceBox1 = [
   {
     id: 1,
-    // title: "Maturity:",
+    title: "",
     discription: "Building SaaS systems since 2009",
   },
   {
     id: 2,
-    // title: "Agility:",
+    title: "",
     discription:
       "Over 80% of our team are middle and senior-level professionals",
   },
   {
     id: 3,
-    // title: "Experience:",
+    title: "",
     discription: "Tens of thousands of hours of custom software development",
   },
   {
     id: 4,
-    // title: "Mastery:",
+    title: "",
     discription: "Global corporations among 200+ happy clients",
   },
   {
     id: 5,
-    // title: "Flexibility:",
+    title: "",
     discription: "Proven track record in virtually every industry vertical",
   },
   {
     id: 6,
-    // title: "Reliability: ",
+    title: "",
     discription:
       "Expertise in disruptive tech to put you miles ahead of the competition",
   },
   {
     id: 7,
-    // title: "Transparency: ",
+    title: "",
     discription: "Product mindset focusing on the value we add",
   },
   {
     id: 8,
-    // title: "Excellence:",
+    title: "",
     discription:
       "Agile delivery to let you go faster, with a guaranteed success",
   },
@@ -2824,6 +2856,7 @@ export const howWeWorktabdata = {
   title2:
     "Having completed hundreds of successful projects, we will help you figure out what approach works best for the development of your software product, and assemble a powerful team to deliver the desired results.",
   button: "Get a free consultation!",
+  button2: "",
 
   data: [
     {
@@ -2916,6 +2949,10 @@ export const Data = [
 
 export const uiuxtabdata = {
   button: "Hire UI/UX designers",
+  button1: "",
+  button2: "",
+  title1: "",
+  title2: "",
   data: [
     {
       id: 1,
@@ -3035,22 +3072,25 @@ export const imageBanner31 = {
 
 export const webSection2 = {
   button1: "Get in touch",
+  button2: "",
+  heading: "",
+  texts: "",
   data: [
     {
-      title: "Front-End",
+      title1: "Front-End",
       description: "React.js | Vue.js | Angular | JavaScript",
     },
     {
-      title: "Back-End",
+      title1: "Back-End",
       description: ".NET | Node.js | Java | Python | PHP | Laravel | Django",
     },
     {
-      title: "Databases",
+      title1: "Databases",
       description:
         "MS SQL | PostgreSQL | MySQL | MongoDB | CouchDB | Cassandra | Hadoop | DynamoDB | Google BigQuery",
     },
     {
-      title: "Cloud",
+      title1: "Cloud",
       description:
         "Amazon Web Services | Google Cloud Platform | Microsoft Azure",
     },
@@ -3060,6 +3100,8 @@ export const webSection2 = {
 export const webSection3 = {
   button1: "Tell us your web",
   button2: "development needs",
+  heading: "",
+  texts: "",
   data: [
     {
       title: "UX/UI Design",
@@ -3404,6 +3446,8 @@ export const AboutData = [
 ];
 
 export const cloudgrid4 = {
+  title1: "",
+
   section: [
     {
       id: 1,
@@ -3754,3 +3798,9 @@ export const MarqueData2 = [
     src: "/icons/wb2.svg",
   },
 ];
+
+export const imageBanner33 = {
+  url: "/images/weare.webp",
+  title1: "We are hungrrrrry",
+  title2: "for your success",
+};

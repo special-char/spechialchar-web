@@ -11,7 +11,7 @@ const Ourthinking = (props: Props) => {
     <>
       <PageBanner data={pageBanner} />
       {/* <Blog /> */}
-      <OurThinking data={ourThinkingData}/>
+      <OurThinking />
     </>
   );
 };

@@ -34,7 +34,7 @@ const Tab3 = ({ data }: tabdataType) => {
 
                     {uiuxtabdata.data.map((item) => {
                         return (
-                            <TabsContent className="text-black lg:text-2xl lg:px-1" value={item.value}>{item.content}</TabsContent>
+                            <TabsContent key={item.id} className="text-black lg:text-2xl lg:px-1" value={item.value}>{item.content}</TabsContent>
 
                         );
                     })}
@@ -42,12 +42,12 @@ const Tab3 = ({ data }: tabdataType) => {
                 </Tabs>
             </div>
             <div className="py-10">
-            <Link className="flex md:justify-start justify-center" href={"https://thespecialcharacter.graphy.com/"}><Button variant="default" size="sm" className='px-8 md:px-20 py-7 text-base '>
-                {data.button} &rarr;
-            </Button>
-            </Link>
+                <Link className="flex md:justify-start justify-center" href={"https://thespecialcharacter.graphy.com/"}><Button variant="default" size="sm" className='px-8 md:px-20 py-7 text-base '>
+                    {data.button} &rarr;
+                </Button>
+                </Link>
             </div>
-            
+
         </section>
     );
 };

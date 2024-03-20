@@ -18,7 +18,7 @@ const WebGrid = ({ data }: ServiceIconType) => {
       </div>
       <div className="grid md:grid-cols-3 gap-8  ">
         {webicon.data.map((x) => (
-          <ServiceIcon data={x} />
+          <ServiceIcon key={x.url} data={x} />
         ))}
       </div>
       <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>

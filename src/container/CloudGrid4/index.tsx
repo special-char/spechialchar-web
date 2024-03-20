@@ -6,13 +6,13 @@ import React from "react";
 
 type Props = {};
 
-const CloudGrid4 = ({ data }: uiSectionType) => {
+const CloudGrid4 = () => {
     return (
         <>
             <section>
                 <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-10">
                     {cloudgrid4.section.map((item) => (
-                        <GridSection data={item} />
+                        <GridSection key={item.id} data={item} />
                     ))}
                 </div>
                 <div className="py-10">

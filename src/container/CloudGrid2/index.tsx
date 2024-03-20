@@ -5,13 +5,13 @@ import React from "react";
 
 type Props = {};
 
-const CloudGrid2 = (props: Props) => {
+const CloudGrid2 = () => {
   return (
     <>
       <section>
         {cloudgrid.data.map((i) => {
           return (
-            <div className="flex max-sm:flex-col gap-5 justify-between my-10 pb-10 border-b-2 border-b-gray-200">
+            <div key={i.id} className="flex max-sm:flex-col gap-5 justify-between my-10 pb-10 border-b-2 border-b-gray-200">
               <div className="font-bold md:text-heading6 flex flex-nowrap text-heading3 max-lg:w-60">
                 {i.title}
               </div>
