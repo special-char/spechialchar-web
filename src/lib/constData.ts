@@ -2049,38 +2049,39 @@ export const imageBanner27 = {
 };
 
 export const edSection3 = [
-  {
+  {id:1,
     title: "Accessibility",
     description:
       "Friendly for learners with special needs and those without the ‘geek gene",
   },
-  {
+  {id:2,
     title: "Flexibility",
     description:
       "Customizable for all participants, tailored to your business needs",
   },
   {
+    id:3,
     title: "Granularity",
     description:
       "Highlighting all the peculiarities of the educational process",
   },
-  {
+  {id:4,
     title: "Personalization",
     description: "Overcoming the one-size-fits-all eLearning problem",
   },
-  {
+  {id:5,
     title: "Persistence",
     description: "Instrumentally motivating target learners to carry on",
   },
-  {
+  {id:6,
     title: "Motivation",
     description: "Making courseware products engaging",
   },
-  {
+  {id:7,
     title: "Collaboration",
     description: "Designing easy-to-use tools for fruitful teamwork",
   },
-  {
+  {id:8,
     title: "Age-friendly",
     description: "Providing a helpful environment for adults",
   },
