@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
 import { marquedataType } from "@/utils/types";
-import { MarqueData } from "@/lib/constData";
+import { MarqueData2 } from "@/lib/constData";
 import { cn } from "@/lib/utils";
 // import Icon1 from "@/public.icons/wb.svg";
 // import Icon5 from "@/public.icons/turvo-logo.svg";
@@ -24,7 +24,7 @@ const Marque = ({
   >
     <Marquee speed={100}>
       <div className="flex gap-x-[7.5rem]">
-        {MarqueData.map((x) => (
+        {MarqueData2.map((x) => (
           <div key={x.id}>
             <Image
               src={x.src}

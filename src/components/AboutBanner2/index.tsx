@@ -11,26 +11,27 @@ const AboutBanner2 = ({ data }: aboutBanner2Type) => {
       {aboutBanner2.section.map((item, i) => {
         return (
           <>
-            <div className="bg-second h-[94vh]">
+            <div className="bg-second max-lg:h-[89vh] px-container overflow-hidden">
               <div
                 className={cn(
                   item.id % 2 !== 0
                     ? "flex flex-row-reverse max-sm:flex-wrap max-sm:flex-row"
-                    : "md:flex md:flex-1 justify-evenly max-sm:flex-wrap max-sm:flex-row"
+                    : "md:flex md:flex-1 max-sm:flex-wrap max-sm:flex-row"
                 )}
               >
-                <div className=" w-full sm:text-[30rem] max-sm:text-[20rem] max-md:justify-center flex  relative">
+                <div className="h-[70vh] w-full sm:text-[30rem] max-sm:text-[20rem] max-lg:justify-center lg:justify-evenly flex  relative ">
                   {item.number}
                   <Image
                     src={item.url}
                     alt={"image"}
                     width={600}
                     height={600}
-                    className="absolute top-[30%]"
+                    className="absolute lg:top-[34%] max-sm:top-[36%] max-lg:top-[60%] max-lg:left-[10%] lg:left-[20%] "
                   />
                 </div>
-                <div className="md:text-3xl text-2xl sm:mt-96 w-full ">
-                  {item.title}
+                <div className="md:text-3xl text-2xl  sm:mt-72 w-full  gap-x-[0.12rem]">
+                  <span className="font-bold">{item.title1}</span>
+                  <span>{item.title2}</span>
                 </div>
               </div>
             </div>
