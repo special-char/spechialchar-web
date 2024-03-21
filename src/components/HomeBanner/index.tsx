@@ -13,7 +13,7 @@ const HomeBanner = ({ data }: HomeBannerdataType) => {
       setIndex((prevIndex) => (prevIndex + 1) % values.length);
     }, 1000);
     return () => clearInterval(interval);
-  }, []);
+  });
 
   return (
     <div className=" relative overflow-hidden h-screen ">
