@@ -1,7 +1,6 @@
 import EcommerceServices from "@/components/EcomServices";
 import ImageAccordion from "@/components/ImageAccordian";
 import ImageBanner from "@/components/ImageBanner";
-import LatestThinking from "@/components/LatestThinking";
 import LatestThinking2 from "@/components/LatestThinking2";
 import MobileSwiper from "@/components/MobileSwiper";
 import YellowBanner from "@/components/YellowBanner";
@@ -22,7 +21,6 @@ import {
   imageBanner28,
   imageBanner29,
   imageBanner30,
-  latestThinkingData,
   latestThinkingData2,
 } from "@/lib/constData";
 import React from "react";

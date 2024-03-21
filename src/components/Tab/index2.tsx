@@ -1,9 +1,7 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { howWeWorktabdata, mobiletabdata, tabdata } from "@/lib/constData";
+import { howWeWorktabdata } from "@/lib/constData";
 import { tabdataType } from "@/utils/types";
-import Image from "next/image";
 import { Button } from "../ui/button";
-import style from "@/components/Tab/style.module.css";
 import Link from "next/link";
 const Tab2 = ({ data }: tabdataType) => {
     return (

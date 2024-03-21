@@ -8,8 +8,6 @@ import CareerMany from "@/components/CareerMany";
 import CareerPage2 from "@/components/CareerPage2";
 import CareerPage4 from "@/components/CareerPage4";
 import CareerPage5 from "@/components/CareerPage5";
-import CareerPage6 from "@/components/CareerPage6";
-import CareerPage7 from "@/components/CareerPage7";
 import CareerSection from "@/components/CareerSection";
 import CareerSection2 from "@/components/CareerSection2";
 import {

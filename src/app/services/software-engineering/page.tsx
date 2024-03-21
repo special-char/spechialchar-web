@@ -9,7 +9,6 @@ import Service from "@/container/Service";
 import {
   Bgbanner,
   Bgbanner1,
-  Card1,
   SwiperServices,
   banner,
   imageBanner,

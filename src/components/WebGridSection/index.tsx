@@ -1,5 +1,4 @@
 import { webGridSectiondata } from "@/lib/constData";
-import { webGridSectionType } from "@/utils/types";
 import React from "react";
 import Link from "next/link";
 import { Button } from "../ui/button";

@@ -1,4 +1,4 @@
-import { AboutData, Data } from '@/lib/constData'
+import { AboutData } from '@/lib/constData'
 import React from 'react'
 
 type Props = {}
@@ -7,7 +7,6 @@ const AboutCount = (props: Props) => {
   return (
     <div className='bg-black'>
       <section className=" text-white">
-        {/* p-8 bg-black md:px-12 md:pt-8 grid gap-8 lg:gap-12 lg:m-4 lg:mx-20 lg:p-24 */}
         <div className="bg-black grid gap-10 py-4 md:py-8 ">
           <div className="py-8">
             <h2 className="text-5xl md:text-7xl text-yellow-400 font-bold lg:text-9xl">

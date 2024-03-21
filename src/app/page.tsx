@@ -2,7 +2,6 @@
 import HomeAccord from "@/container/HomeAccord";
 import ProjectSec from "@/container/ProjectSec";
 import {
-  MarqueData,
   homeBannerdata,
 } from "@/lib/constData";
 import ThinkSec from "@/container/ThinkSec";

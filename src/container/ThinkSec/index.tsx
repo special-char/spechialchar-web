@@ -1,9 +1,8 @@
 import Link from "next/link";
 import React from "react";
 import Arrow from "@/public.icons/angle-circle-arrow-right-icon.svg";
-import { Button } from "@/components/ui/button";
 import Card from "@/components/ThinkCard";
-import { Card1 } from "@/lib/constData";
+
 
 type Props = {};
 

@@ -2,15 +2,13 @@
 import React from "react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { SwiperSlide, useSwiper } from "swiper/react";
+import { SwiperSlide } from "swiper/react";
 import { Swiper } from "swiper/react";
 import { A11y, Navigation, Pagination } from "swiper/modules";
 import Image from "next/image";
 import { SwiperNavButtons } from "@/components/Swiper/SwiperButton";
 import { SwiperServicesData } from "@/utils/types";
 import {
-  SwiperServices,
-  SwiperServices2,
   SwiperServices3,
 } from "@/lib/constData";
 import Link from "next/link";

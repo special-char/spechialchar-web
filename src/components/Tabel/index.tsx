@@ -2,9 +2,7 @@ import React from "react";
 import {
   Table,
   TableBody,
-  TableCaption,
   TableCell,
-  TableFooter,
   TableHead,
   TableHeader,
   TableRow,
@@ -15,7 +13,7 @@ import { TableContent } from "@/lib/constData"
 
 
 export default function TableDemo() {
-  // const { title, header, invoices } = TableContent;
+
 
   return (
     <section className="h-full w-full flex flex-col gap-y-10">

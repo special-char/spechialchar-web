@@ -1,5 +1,4 @@
 import React from "react";
-// import { careersection } from '@/lib/constData'
 import { CareerSectionType } from "@/utils/types";
 
 const CareerSection = ({ data }: CareerSectionType) => {

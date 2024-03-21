@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Card1, Cards } from "@/lib/constData";
+import { Card1 } from "@/lib/constData";
 
 import Image from "next/image";
 

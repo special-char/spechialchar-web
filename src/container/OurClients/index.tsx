@@ -1,6 +1,4 @@
-import Marque from '@/components/Marque'
 import WhiteMarque from '@/components/WhiteMarque'
-import { MarqueData, MarqueData2 } from '@/lib/constData'
 import React from 'react'
 
 type Props = {}
