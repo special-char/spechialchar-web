@@ -43,18 +43,7 @@ const DesktopDropdown = ({ data }: Header) => {
                   }}
                 >
                   <div >
-                    {/* {dropdown.content.map((item, itemIndex) => (
-                      <Link
-                        key={itemIndex}
-                        href={`/${dropdown.title.toLowerCase()}/${dropdown.content[
-                          itemIndex
-                        ].toLocaleLowerCase()}`}
-                      >
-                        <span className="hover:text-yellow-300  text-base ">
-                          {item}
-                        </span>
-                      </Link>
-                    ))} */}
+
                   </div>
                 </li>
               </div>

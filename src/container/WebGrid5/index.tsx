@@ -1,6 +1,6 @@
 import ServiceIcon from "@/components/ServiceIcon";
 import { Button } from "@/components/ui/button";
-import { webSection, webSection3 } from "@/lib/constData";
+import { webSection3 } from "@/lib/constData";
 import { ServiceIconType } from "@/utils/types";
 import Link from "next/link";
 import React from "react";

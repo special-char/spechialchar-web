@@ -1,6 +1,5 @@
 import ImageBanner from "@/components/ImageBanner";
 import LatestThinking from "@/components/LatestThinking";
-import MobilePage from "@/components/MobilePage";
 import MobileSwiper from "@/components/MobileSwiper";
 import YellowBanner from "@/components/YellowBanner";
 import Banner from "@/container/Banner";
@@ -17,7 +16,6 @@ import {
   YellowBannerData6,
   YellowBannerData7,
   banner5,
-  cloudgrid4,
   imageBanner17,
   imageBanner18,
   imageBanner19,

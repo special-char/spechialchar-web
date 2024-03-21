@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
-import { marquedataType } from "@/utils/types";
 import { MarqueData } from "@/lib/constData";
 import { cn } from "@/lib/utils";
 
@@ -28,7 +27,7 @@ const Marque = ({
               width={70}
               className="object-cover"
             />
-            {/* {x.src} */}
+
           </div>
         ))}
       </div>

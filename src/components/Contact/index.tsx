@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import { Formik, Form, Field, ErrorMessage } from "formik";
@@ -43,7 +42,7 @@ const Data = [
 ];
 
 const Contact = () => {
-  // Define validation schema using Yup
+
   const validationSchema = Yup.object().shape({
     name: Yup.string().required("Name is required"),
     email: Yup.string().email("Invalid email").required("Email is required"),
@@ -86,9 +85,8 @@ const Contact = () => {
                           id={x.id}
                           name={x.name}
                           placeholder={x.placeholder}
-                          className={`bg-transparent  hover:border-b-[#F2AA4CFF]  focus:outline-none ${
-                            touched.name && errors.name ? "border-red-500" : ""
-                          }`}
+                          className={`bg-transparent  hover:border-b-[#F2AA4CFF]  focus:outline-none ${touched.name && errors.name ? "border-red-500" : ""
+                            }`}
                         />
                       </label>
 
@@ -134,9 +132,8 @@ const Contact = () => {
                       type="checkbox"
                       name="privacy"
                       id="privacy"
-                      className={`rounded-lg ${
-                        touched.privacy && errors.privacy ? "border-red" : ""
-                      }`}
+                      className={`rounded-lg ${touched.privacy && errors.privacy ? "border-red" : ""
+                        }`}
                     />
                     <label
                       htmlFor="privacy"

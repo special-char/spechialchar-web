@@ -44,16 +44,7 @@ const HeaderDesktop = ({ data }: Header) => {
             </ul>
           </div>
         ))}
-        {/* <Link href="/ourthinking">
-          <ul className="text-white hover:text-yellow-300 text-xl pt-3">
-            Our Thinking
-          </ul>
-        </Link>
-        <Link href="/casestudies">
-          <ul className="text-white hover:text-yellow-300 text-xl pt-3">
-            Case Studies
-          </ul>
-        </Link> */}
+
         <Link className="pt-1" href={"#Contact"}>
           <Button
             variant={"outline"}

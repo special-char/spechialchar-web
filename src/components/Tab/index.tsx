@@ -52,16 +52,7 @@ const Tab = ({ data }: tabdataType) => {
           })}
         </Tabs>
       </div>
-      {/* <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
-        <Button
-          variant="default"
-          size="lg"
-          className="flex flex-wrap justify-center gap-x-[0.22rem]"
-        >
-          <span>{data.button}</span>
-          <span> &rarr; </span>
-        </Button>
-      </Link> */}
+
       <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
         <Button className="">
           <span className="flex flex-wrap justify-center gap-x-[0.22rem]">

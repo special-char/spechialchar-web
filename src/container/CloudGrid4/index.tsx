@@ -1,7 +1,6 @@
 import GridSection from "@/components/GridSection";
 import { Button } from "@/components/ui/button";
-import { cloudgrid4, edSection } from "@/lib/constData";
-import { uiSectionType } from "@/utils/types";
+import { cloudgrid4 } from "@/lib/constData";
 import React from "react";
 
 type Props = {};
