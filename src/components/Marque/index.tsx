@@ -4,11 +4,6 @@ import Marquee from "react-fast-marquee";
 import { marquedataType } from "@/utils/types";
 import { MarqueData } from "@/lib/constData";
 import { cn } from "@/lib/utils";
-// import Icon1 from "@/public.icons/wb.svg";
-// import Icon5 from "@/public.icons/turvo-logo.svg";
-// import Icon2 from "@/public.icons/poplidays.svg";
-// import Icon3 from "@/public.icons/p&g.svg";
-// import Icon4 from "@/public.icons/universalelectroniocs-logo.svg";
 
 const Marque = ({
 

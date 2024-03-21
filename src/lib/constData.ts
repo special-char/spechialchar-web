@@ -820,7 +820,7 @@ export const mobileicon = {
       description:
         "Whatever the complexity, we bring the full benefit of cross-platform tech to the table, including lower costs, faster time to market and maximum reach.",
 
-      languages: F"React Native | Flutter",
+      languages: "React Native | Flutter",
     },
   ],
 };
