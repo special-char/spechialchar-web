@@ -1113,7 +1113,7 @@ export const imageBanner9 = {
 
 export const imageBanner10 = {
   url: "/images/soft3.webp",
-  title1: "How The Spacial Character",
+  title1: "How The Special Character",
   title2: "makes a difference",
 };
 
