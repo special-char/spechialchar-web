@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar data={accordionItems} />
+        <Navbar />
         {children}
         <Contact />
         <Footer data={footerdata} />

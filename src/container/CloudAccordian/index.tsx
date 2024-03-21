@@ -27,7 +27,7 @@ const CloudAccordian = (props: Props) => {
       </div>
       <Link href={"https://thespecialcharacter.graphy.com/"}>
         <Button variant="default" size="sm" className=" py-7 text-base ">
-          Let's Talk &rarr;
+          Lets Talk &rarr;
         </Button>
       </Link>
     </section>

@@ -8,12 +8,12 @@ const CareerPage3 = ({ data }: CareerPage3dataType) => {
         <h3 className="text-4xl ">{data.title}</h3>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-x-6">
-        {data.data.map((x) => (
+        {/* {data.data.map((x) => (
           <div key={x.id}>
             {x.src}
             <h4 className="text-2xl">{x.description}</h4>
           </div>
-        ))}
+        ))} */}
       </div>
     </section>
   );

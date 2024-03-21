@@ -9,7 +9,7 @@ import Link from "next/link";
 import HeaderDesktop from "../HeaderDesktop";
 import { cn } from "@/lib/utils";
 
-const Navbar = ({ data }: Header) => {
+const Navbar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   useEffect(() => {
     const handleScroll = () => {

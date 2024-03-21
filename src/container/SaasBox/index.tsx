@@ -21,7 +21,7 @@ const SaasBox = () => {
           <Link href={"https://thespecialcharacter.graphy.com/"}>
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-                Let's Discuss Our <span>parternship</span>
+                Lets Discuss Our <span>parternship</span>
                 <span>&rarr;</span>
               </span>
             </Button>

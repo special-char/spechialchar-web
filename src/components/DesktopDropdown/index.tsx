@@ -43,7 +43,7 @@ const DesktopDropdown = ({ data }: Header) => {
                   }}
                 >
                   <div >
-                    {dropdown.content.map((item, itemIndex) => (
+                    {/* {dropdown.content.map((item, itemIndex) => (
                       <Link
                         key={itemIndex}
                         href={`/${dropdown.title.toLowerCase()}/${dropdown.content[
@@ -54,7 +54,7 @@ const DesktopDropdown = ({ data }: Header) => {
                           {item}
                         </span>
                       </Link>
-                    ))}
+                    ))} */}
                   </div>
                 </li>
               </div>

@@ -3,16 +3,14 @@ import { ourThinkingData } from "@/lib/constData";
 import React, { useState } from "react";
 import Image from "next/image";
 import { Button } from "../ui/button";
-import { ourThinkingType } from "@/utils/types";
+
 import { cn } from "@/lib/utils";
 
 type Props = {};
 
 function OurThinking({
-  data,
   className,
 }: {
-  data: ourThinkingType;
   className?: string;
 }) {
   const [currentCategory, setCurrentCategory] = useState("All");

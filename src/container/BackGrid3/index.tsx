@@ -12,7 +12,7 @@ const BackGrid3 = (props: Props) => {
     <section>
       <div className="grid md:grid-cols-4 gap-8 ">
         {backicon2.map((x) => (
-          <SaasSec data={x} />
+          <SaasSec key={x.title} data={x} />
         ))}
       </div>
       <div className="py-10">

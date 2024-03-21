@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { listData, listData1, listData2 } from "@/lib/constData";
+import { listData1, listData2 } from "@/lib/constData";
 import Link from "next/link";
 import React from "react";
 
@@ -12,8 +12,8 @@ const SaasService = () => {
         <div className="">
           {listData1.data.map((i) => {
             return (
-              <div className="list-square text-subtitle2">
-                <li key={i?.id} className="font-bold">
+              <div key={i?.id} className="list-square text-subtitle2">
+                <li className="font-bold">
                   {i.title}
                 </li>
               </div>
@@ -23,8 +23,8 @@ const SaasService = () => {
         <div>
           {listData2.data.map((i) => {
             return (
-              <div className="list-square text-subtitle2">
-                <li key={i?.id} className="font-bold">
+              <div key={i?.id} className="list-square text-subtitle2">
+                <li className="font-bold">
                   {i.title}
                 </li>
               </div>

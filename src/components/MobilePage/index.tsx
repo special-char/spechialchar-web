@@ -1,12 +1,9 @@
 "use client";
 import React from "react";
-import ImageBanner from "../ImageBanner";
-import YellowBanner from "../YellowBanner";
-import { Data, MarqueData } from "@/lib/constData";
-import { MobilePageData } from "@/utils/types";
+import { Data } from "@/lib/constData";
 import Marque from "../Marque";
 
-const MobilePage = ({ data }: MobilePageData) => {
+const MobilePage = () => {
   return (
     <>
 
@@ -38,7 +35,7 @@ const MobilePage = ({ data }: MobilePageData) => {
         </div>
       </section>
       <div>
-        <Marque data={MarqueData} color="black" fill="black" className="" />
+        <Marque/>
       </div>
     </>
   );

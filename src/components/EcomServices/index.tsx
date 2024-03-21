@@ -21,14 +21,14 @@ export default function Index({ data }: mobileServicesType) {
         >
           <TabsList className={style.container}>
             {ecommercesdata.data.map((item) => (
-              <TabsTrigger value={item.title} className={style.tab}>
+              <TabsTrigger key={item.id} value={item.title} className={style.tab}>
                 {item.title}
               </TabsTrigger>
             ))}
           </TabsList>
           <div className={style.contentdiv}>
             {ecommercesdata.data.map((item) => (
-              <TabsContent value={item.title} className={style.tabsContent}>
+              <TabsContent key={item.id} value={item.title} className={style.tabsContent}>
                 {item.description}
               </TabsContent>
             ))}
@@ -36,13 +36,13 @@ export default function Index({ data }: mobileServicesType) {
         </Tabs>
       </div>
       <div className="py-10">
-      <Link href={"https://thespecialcharacter.graphy.com/"}>
-        <Button variant={"secondary"}>
-          <span>Contact us &rarr;</span>
-        </Button>
-      </Link>
+        <Link href={"https://thespecialcharacter.graphy.com/"}>
+          <Button variant={"secondary"}>
+            <span>Contact us &rarr;</span>
+          </Button>
+        </Link>
       </div>
-      
+
     </section>
   );
 }

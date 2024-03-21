@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <HomeBanner data={homeBannerdata} />
-      <Marque data={MarqueData} />
+      <Marque />
       <HomeAccord />
       <ProjectSec />
       <Collabrate />

@@ -2,9 +2,9 @@
 import Image from "next/image";
 import React from "react";
 import ptw from "@/public.images/Career-play-to-win-1.webp";
-import { CareerPage7dataType } from "@/utils/types";
+import { CareerPage4dataType } from "@/utils/types";
 
-const CareerPage7 = ({ data }: CareerPage7dataType) => {
+const CareerPage7 = ({ data }: CareerPage4dataType) => {
   return (
     <>
       <section className="">

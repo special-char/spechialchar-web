@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import { ServiceIconType } from "@/utils/types";
+import { ServiceItem } from "@/utils/types";
 
-const ServiceIcon = ({ data }: ServiceIconType) => {
+const ServiceIcon = ({ data }: ServiceItem) => {
   return (
     <div className="">
       <div className=" lg:gap-5 ">
@@ -25,7 +25,7 @@ const ServiceIcon = ({ data }: ServiceIconType) => {
         </div>
 
         <div className="lg:text-xl md:text-sm sm:text-sm font-extrabold md:pr-6 lg:pr-4 gap-3 ">
-          {data?.languages}
+          {data.languages}
         </div>
       </div>
     </div>

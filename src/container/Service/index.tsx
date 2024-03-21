@@ -18,7 +18,7 @@ const Service = ({ data }: ServiceIconType) => {
       </div>
       <div className="grid md:grid-cols-4 gap-8 p-4 ">
         {serviceicon.data.map((x) => (
-          <ServiceIcon data={x} />
+          <ServiceIcon key={x.url} data={x} />
         ))}
       </div>
       <div className="py-10">

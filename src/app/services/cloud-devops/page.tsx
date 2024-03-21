@@ -41,7 +41,7 @@ const CloudDevops = (props: Props) => {
       <CloudGrid2 />
       <ImageBanner data={imageBanner19} />
       <YellowBanner data={YellowBannerData7} />
-      <CloudGrid4 data={cloudgrid4} />
+      <CloudGrid4 />
       <CloudGrid3 />
       <ImageBanner data={imageBanner20} />
       <CloudSocial />
