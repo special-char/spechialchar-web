@@ -55,11 +55,11 @@ export const homeAccordiandata = {
 };
 
 export const tabdata = {
-  button1: "Let's Discuss",
+  button1: "",
   button2: "our partnership",
   title1: "",
   title2: "",
-  button: "",
+  button: "Let's Discuss",
   data: [
     {
       id: 1,
@@ -427,48 +427,56 @@ export const serviceicon = {
     {
       url: "/images/questionnaire-line.png",
       title: "Technology Consulting & Audits",
+      languages: "",
       description:
         "Technology consulting is the cornerstone of our software engineering services package. We’ll assess your business requirements, review your existing IT infrastructure, propose a suitable tech, and create a proof of concept to assess the feasibility of your idea.",
     },
     {
       url: "/images/code-box-line.png",
       title: "Software Development",
+      languages: "",
       description:
         "Whether you need a mobile app with a powerful cloud back end, a dynamic web app, embedded software for a Smart Home device, or an advanced analytics platform to crunch your Big Data, our software engineering company is here at your service!",
     },
     {
       url: "/images/line.webp",
       title: "Solution Architecture",
+      languages: "",
       description:
         "Drawing on the insights uncovered during the project discovery phase, our software architects join forces with skilled business analysts to design a resilient software architecture that will scale flexibly along with your business and leave room for innovation.",
     },
     {
       url: "/images/device-line.png",
       title: "Application Modernization",
+      languages: "",
       description:
         "Besides custom software engineering, we migrate legacy applications to a modern tech stack, segment bulky software into microservices, orchestrate containerized apps with Kubernetes, and interconnect the components of your IT infrastructure.",
     },
     {
       url: "/images/settings-4-line.png",
       title: "Deployment & Maintenance",
+      languages: "",
       description:
         "The ITRex software engineering service team will follow DevOps best practices to set up a complete cloud infrastructure for your software solution, ensure faster updates, and monitor application performance. We offer three tiers of support, too.",
     },
     {
       url: "/images/pencil-ruler-line.png",
       title: "UI/UX Design",
+      languages: "",
       description:
         "From auditing your customers’ buying journey to applying data democratization principles in data analytics dashboard design, our software engineering company always creates navigation logic and interfaces that allow users to perform intended actions with minimal friction.",
     },
     {
       url: "/images/bug.webp",
       title: "Quality Assurance",
+      languages: "",
       description:
         "As part of our software product engineering services, we turn to manual testing and write scripts for automated tests to validate that your applications contain zero bugs, perform as expected, and deliver unsurpassed user experience.",
     },
     {
       url: "/images/lightbulb-line.png",
       title: "Product Innovation",
+      languages: "",
       description:
         "We provide innovative software engineering services to tech startups and enterprises undergoing digital transformation. If you’re looking to add RPA bots to your accounting software or build an IoT-powered fitness mirror from the ground up, just drop us a line!",
     },
@@ -689,42 +697,42 @@ export const serviceicon2 = {
   data: [
     {
       url: "/images/accord_1-1.gif",
-
+      languages: "",
       title: "Enterprise Technology",
       description:
         "The ITRex software product engineering firm is well-versed in enterprise IT technologies. ERP systems, CRM and help desk solutions, document and learning management systems, HRM and project management software, accounting and eProcurement tools — you can find it all in our portfolio.",
     },
     {
       url: "/images/accord_2-2.gif",
-
+      languages: "",
       title: "Artificial Intelligence",
       description:
         "We take pride in our AI expertise and offer a wide range of innovative software engineering services to supercharge your technology systems. Partner with ITRex to develop apps with computer vision capabilities, train highly accurate machine learning models, and reduce bias in custom AI deployments. ",
     },
     {
       url: "/images/accord_3-3.gif",
-
+      languages: "",
       title: "Automation",
       description:
         "Rule-based business process automation tools, lightweight RPA bots interacting with application interfaces, and AI algorithms automating processes based on historical and real-time data — we’ve been there, done that. Tap into our software engineering services to boost employee productivity and cut operational costs!",
     },
     {
       url: "/images/accord_4-4.gif",
-
+      languages: "",
       title: "Big Data & Analytics",
       description:
         "ITRex Group is a software engineering company with a strong background in data science. Do you need help customizing SaaS business intelligence (BI) products to best suit your analytics? Are you struggling to interpret unstructured data or ensure an uninterrupted flow of information across your IT infrastructure? Whatever your objectives are, we’ve got you covered!    ",
     },
     {
       url: "/images/accord_5-5.gif",
-
+      languages: "",
       title: "Internet of Everything",
       description:
         "To help you further boost your data analytics and automation efforts, we transform your assets, equipment, and even personnel into a wealth of data. For this, we design and implement smart sensors, embedded systems, cloud-based data storage and processing solutions, and rich user interfaces, which range from mobile apps to built-in voice assistants.     ",
     },
     {
       url: "/images/accord_6-6.gif",
-
+      languages: "",
       title: "Metaverses",
       description:
         "We draw on our extended reality and blockchain development expertise to create metaverse apps of all sizes and levels of complexity. Whether you need an augmented reality app with Snapchat-like filters or a marketplace to trade NFTs, we’re the right software engineering firm to undertake your project!",
@@ -742,9 +750,9 @@ export const aboutBannerdata = {
 };
 
 export const mobiletabdata = {
-  button1: "Contact our app developers",
+  button1: "",
   button2: "",
-  button: "",
+  button: "Contact our app developers",
   title1: "",
   title2: "",
   data: [
@@ -1021,18 +1029,21 @@ export const webicon = {
     {
       url: "/images/accord_1-1.gif",
       title: "Complex web apps",
+      languages: "",
       description:
         "Tailored to your precise business needs, be it redefining internal workflows or shipping a mind-blowing product to the market. Optimized for speed and security at scale. Designed for flexibility and growth",
     },
     {
       url: "/images/accord_2-2.gif",
       title: "Feature-rich web portals",
+      languages: "",
       description:
         "From B2C/B2B portals for ecommerce and banking to web portals for patients, students, employees, and public services, incorporating user-centric design, customized user journeys, and smooth integrations",
     },
     {
       url: "/images/accord_3-3.gif",
       title: "Truly unique websites",
+      languages: "",
       description:
         "Running seamlessly and allowing dynamic content management — websites designed with the right aesthetics and functionality for any industry and using the best-fit platform (WordPress, Webflow, Joomla, or Squarespace)",
     },
@@ -1065,21 +1076,29 @@ export const webSection = {
   data: [
     {
       title: "Progressive Web Apps (PWAs)",
+      languages: "",
+      url: "",
       description:
         "Build a lightweight and platform-agnostic PWA in its latest iteration or revamp your existing web app into a PWA for impressive performance",
     },
     {
       title: "Accelerated Mobile Pages",
+      languages: "",
+      url: "",
       description:
         "Strip your web pages down to the basics so that they load superfast, delivering an unmatched user experience and improving your site visibility",
     },
     {
       title: "Single-page Applications",
+      languages: "",
+      url: "",
       description:
         "Dynamically updating content with no page refreshing, SPAs are a superb way to provide a faster and simple experience to users. Build your SPA with us",
     },
     {
       title: "Serverless architecture",
+      languages: "",
+      url: "",
       description:
         "Get excellent scalability, improve your web app performance, and cut project costs by placing the underlying infrastructure in the cloud",
     },
@@ -1947,21 +1966,29 @@ export const YellowBannerData10 = {
 export const edSection1 = [
   {
     title: "Back-end development",
+    url: "",
+    languages: "",
     description:
       "We are well-versed in custom web development, cloud computing, and DevOps, as well as data acquisition, management, and analysis, and deliver functional and high-performing educational software solutions that run without glitches",
   },
   {
     title: "Front-end development",
+    url: "",
+    languages: "",
     description:
       "We craft all kinds of interfaces, including cloud dashboards, voice interfaces, as well as educational web and mobile apps, so you can reach out to more learners with highly accessible and easy-to-use software",
   },
   {
     title: "Reliable integration",
+    url: "",
+    languages: "",
     description:
       "We focus on creating coherent learning environments and connect your education technology solutions with other applications and devices within your IT infrastructure, as well as third-party tools and service",
   },
   {
     title: "End-to-end software testing",
+    url: "",
+    languages: "",
     description:
       "We build visualizations that tell stories in a simple way, enabling informed decision-making and solid ad-hoc data analysis. Take your next big step forward with AR/VR or voice assistants that will deliver convenient access to all of your data",
   },
@@ -1981,21 +2008,29 @@ export const YellowBannerData11 = {
 export const edSection2 = [
   {
     title: "LMS and LCMS",
+    url: "",
+    languages: "",
     description:
       "We are well-versed in custom web development, cloud computing, and DevOps, as well as data acquisition, management, and analysis, and deliver functional and high-performing educational software solutions that run without glitches",
   },
   {
     title: "School management software",
+    url: "",
+    languages: "",
     description:
       "Increase operational efficiency and drive cost savings with school management and school ERP software. Our educational solutions help manage daily administrative tasks, such as fee and staff payroll management, accounting and financial management, library and inventory management, school transportation tracking, and many more",
   },
   {
     title: "Education portals",
+    url: "",
+    languages: "",
     description:
       "Manage educational data online with feature-rich education portals and information systems. Our custom eLearning solutions optimize scheduling, facilitate student attendance monitoring, speed upgrading, and allow educators and students to conveniently view educational information, generate performance reports, and more",
   },
   {
     title: "Assistive learning solutions",
+    url: "",
+    languages: "",
     description:
       "Make education accessible to students with special needs by leveraging AI-powered text-to-speech, speech-to-text, writing assistance, proofreading, as well as planning and class scheduling software. Our custom assistive learning solutions improve focus, promote independent learning, and spark academic success for all students",
   },
@@ -2086,44 +2121,60 @@ export const edSection3 = [
   {
     id: 1,
     title: "Accessibility",
+    url: "",
+    languages: "",
     description:
       "Friendly for learners with special needs and those without the ‘geek gene",
   },
   {
     id: 2,
     title: "Flexibility",
+    url: "",
+    languages: "",
     description:
       "Customizable for all participants, tailored to your business needs",
   },
   {
     id: 3,
     title: "Granularity",
+    url: "",
+    languages: "",
     description:
       "Highlighting all the peculiarities of the educational process",
   },
   {
     id: 4,
     title: "Personalization",
+    url: "",
+    languages: "",
     description: "Overcoming the one-size-fits-all eLearning problem",
   },
   {
     id: 5,
     title: "Persistence",
+    url: "",
+    languages: "",
     description: "Instrumentally motivating target learners to carry on",
   },
   {
     id: 6,
     title: "Motivation",
+    url: "",
+    languages: "",
     description: "Making courseware products engaging",
   },
   {
     id: 7,
     title: "Collaboration",
+    url: "",
+    languages: "",
     description: "Designing easy-to-use tools for fruitful teamwork",
   },
   {
     id: 8,
     title: "Age-friendly",
+    url: "",
+    languages: "",
     description: "Providing a helpful environment for adults",
   },
 ];
@@ -2324,6 +2375,8 @@ export const Bgbanner5 = {
 };
 
 export const ecomSection = {
+  title: "",
+
   section: [
     {
       id: 1,
@@ -2672,24 +2725,28 @@ export const YellowBannerData4 = {
 
 export const backicon = [
   {
+    languages: "",
     url: "/images/accord_1-1.gif",
     title: "Enterprise Back-End Solutions",
     description:
       "The ITRex back-end development services for the enterprise segment include the creation of fail-proof, scalable back-office systems and server-side infrastructure for ERP, SCM, CRM, DMS, LMS, MarTech, and FinTech applications",
   },
   {
+    languages: "",
     url: "/images/accord_2-2.gif",
     title: "Data Storage & Analytics",
     description:
       "If you hire back-end developers at ITRex, you’ll get a team of experts in data warehouse, data lake, and data lakehouse solutions. We’re also no strangers to business intelligence (BI) and can set up a complete data ecosystem driven by AI algorithms, too",
   },
   {
+    languages: "",
     url: "/images/accord_3-3.gif",
     title: "Software as a Service Products",
     description:
       "We’ll assist you in creating web and mobile SaaS applications for the B2B and B2C segments. Our back-end solutions boast high speed and uninterrupted performance, scale along with your user base, and support seamless feature rollouts",
   },
   {
+    languages: "",
     url: "/images/accord_4-4.gif",
     title: "IoT Back-End Infrastructure",
     description:
@@ -3077,19 +3134,23 @@ export const webSection2 = {
   texts: "",
   data: [
     {
+      id: 1,
       title1: "Front-End",
       description: "React.js | Vue.js | Angular | JavaScript",
     },
     {
+      id: 2,
       title1: "Back-End",
       description: ".NET | Node.js | Java | Python | PHP | Laravel | Django",
     },
     {
+      id: 3,
       title1: "Databases",
       description:
         "MS SQL | PostgreSQL | MySQL | MongoDB | CouchDB | Cassandra | Hadoop | DynamoDB | Google BigQuery",
     },
     {
+      id: 4,
       title1: "Cloud",
       description:
         "Amazon Web Services | Google Cloud Platform | Microsoft Azure",
@@ -3105,31 +3166,43 @@ export const webSection3 = {
   data: [
     {
       title: "UX/UI Design",
+      languages: "",
+      url: "",
       description:
         "We leverage best practices of user-centric design to translate vision into the responsiveness, interactivity, ease of use, and grace of your web solution",
     },
     {
       title: "Front-end Development",
+      languages: "",
+      url: "",
       description:
         "Highly proficient in modern frameworks like Angular, React, or Vue we create user experiences that captivate and engage users",
     },
     {
       title: "Back-end Development",
+      languages: "",
+      url: "",
       description:
         "Our back-end developers build the best-customized functionality while making sure your web solution works flawlessly behind the scenes",
     },
     {
       title: "API Integration",
+      languages: "",
+      url: "",
       description:
         "To save you time building essential functionality from scratch, we connect 3rd party services through APIs, from marketing to payment or geolocation",
     },
     {
       title: "Web Development Consulting",
+      languages: "",
+      url: "",
       description:
         "With our seasoned consultants who can guide you through every step of your web development journey, you navigate tech complexities safely",
     },
     {
       title: "Support & Maintenance",
+      languages: "",
+      url: "",
       description:
         "As part of our custom web development services, we provide 24/7 infrastructure monitoring, problem resolution, updates, custom redesign, and more",
     },
@@ -3413,7 +3486,6 @@ export const ourThinkingData = {
   ],
 };
 
-
 export const AboutData = [
   {
     id: 1,
@@ -3448,28 +3520,32 @@ export const AboutData = [
 ];
 
 export const cloudgrid4 = {
-  title1: "",
+  title: "",
 
   section: [
     {
+      title: "",
       id: 1,
       title1: "Scalability from day one",
       description:
         "A cloud infrastructure that will scale flexibly along with your business for unstoppable growth",
     },
     {
+      title: "",
       id: 2,
       title1: "Built-in security",
       description:
         "Advanced security tools and best practices of cloud security consulting for utmost data protection",
     },
     {
+      title: "",
       id: 3,
       title1: "Compliance with industry-specific standards",
       description:
         "Comprehensive compliance controls for HIPAA, PCI-DSS, GDPR, and other standards",
     },
     {
+      title: "",
       id: 4,
       title1: "Room for innovation",
       description:

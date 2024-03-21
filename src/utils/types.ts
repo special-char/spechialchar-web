@@ -348,19 +348,22 @@ export type uiSectionType = {
   data: {
     title: string;
     text: string;
+  };
+};
+export type gridsectiontype = {
+  data: {
     id: number;
     title1: string;
     description: string;
   };
 };
-
 export type careerBannerType = {
   data: {
     url: string;
   };
 };
 
-export type PageBanner = {
+export type pageBannerType = {
   title1: string;
   title2: string;
 };

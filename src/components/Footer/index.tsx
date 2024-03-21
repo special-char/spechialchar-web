@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import FooterLogo from "@/public.icons/footer_logo.svg";
+import FooterLogo from "@/public.icons/Logo New Website.svg";
 import Image from "next/image";
 import { FooterdataType } from "@/utils/types";
 import SocialIcon from "./SocialIcon";

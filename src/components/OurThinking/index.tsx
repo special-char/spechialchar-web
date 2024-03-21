@@ -52,7 +52,7 @@ function OurThinking({
         </div>
         <div className="grid grid-cols-2 max-md:grid-cols-1 justify-center">
           {ourThinkingData[
-            currentCategory === "All" ? "All" : currentCategory
+            currentCategory === "All" ? "All" : currentCategory as keyof typeof ourThinkingData
           ].map((x) => (
             <div
               key={x.id}

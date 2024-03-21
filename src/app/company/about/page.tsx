@@ -37,7 +37,7 @@ const AboutPage = (props: Props) => {
       <ImageBanner data={imageBanner33} />
       <LatestThinking3 data={latestThinkingData3} />
       <LatestThinking4 data={latestThinkingData4} />
-      <Sticky/>
+      <Sticky />
     </>
   );
 };

@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import NavbarLogo from "../../../public/icons/Navbar.svg";
+import NavbarLogo from "../../../public/icons/Logo New Website.svg";
 import DesktopDropdown from "../DesktopDropdown";
 import MobileNavbar from "../MobileNavbar";
 import { Header } from "@/utils/types";
@@ -32,10 +32,10 @@ const Navbar = () => {
         }
       )}
     >
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-start">
         <Link href="/">
-          <div className="lg:hidden">
-            <NavbarLogo className="" />
+          <div className="">
+            <NavbarLogo className="mt-1" />
           </div>
         </Link>
         {/* <--webView---> */}

@@ -1,6 +1,6 @@
 import React from "react";
 import { ChevronDownIcon } from "@radix-ui/react-icons";
-import NavbarLogo from "@/public.icons/footer_logo.svg";
+import NavbarLogo from "@/public.icons/Logo New Website.svg";
 import { Header } from "@/utils/types";
 import { accordionItems } from "@/lib/constData";
 import Link from "next/link";
@@ -11,7 +11,7 @@ const HeaderDesktop = ({ data }: Header) => {
     <div className="h-full w-full flex flex-col  justify-between">
       <div className="flex justify-between items-start">
         <Link href="/" className="flex justify-center items-center pt-1">
-          <div>
+          <div className="hidden">
             <NavbarLogo className="" />
           </div>
         </Link>

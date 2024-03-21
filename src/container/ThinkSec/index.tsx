@@ -14,7 +14,7 @@ const ThinkSec = (props: Props) => {
         Latest Thinking
       </h1>
 
-      <Card data={Card1} />
+      <Card />
 
       <div className="flex flex-wrap justify-between my-10 gap-y-9 text-xl text-white">
         <div className="flex items-center">
