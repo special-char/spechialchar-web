@@ -1,6 +1,6 @@
 import SaasSec from "@/components/SaasSec";
 import { Button } from "@/components/ui/button";
-import { saasSection, saasSection2 } from "@/lib/constData";
+import { saasSection2 } from "@/lib/constData";
 import Link from "next/link";
 import React from "react";
 
@@ -11,7 +11,6 @@ const SaasGrid = (props: Props) => {
     <section>
       <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-10">
         {saasSection2.map((item) => (
-          // <ServiceIcon data={item}/>
           <SaasSec key={item.id} data={item} />
         ))}
       </div>

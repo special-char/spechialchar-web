@@ -18,7 +18,6 @@ import {
   imageBanner7,
   imageBanner8,
   imageBanner9,
-  webGridSectiondata,
   webSection,
   webSection2,
   webSection3,

@@ -1,6 +1,6 @@
 import { aboutBanner2 } from "@/lib/constData";
 import { cn } from "@/lib/utils";
-import { aboutBanner2Type, aboutBannerType } from "@/utils/types";
+import { aboutBanner2Type } from "@/utils/types";
 import Image from "next/image";
 import React from "react";
 

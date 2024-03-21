@@ -7,9 +7,7 @@ import {
 } from "@/components/ui/accordian";
 import { aboutAccordianData } from "@/lib/constData";
 import { aboutAccordianDatatype } from "@/utils/types";
-import Image from "next/image";
-import { Button } from "../ui/button";
-import Arrow from "@/public.icons/arrow_forward.svg";
+
 
 const AboutAccordian = ({ data }: aboutAccordianDatatype) => {
     return (

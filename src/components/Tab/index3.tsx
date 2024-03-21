@@ -1,5 +1,5 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { mobiletabdata, tabdata, uiuxtabdata } from "@/lib/constData";
+import { uiuxtabdata } from "@/lib/constData";
 import { tabdataType } from "@/utils/types";
 import Image from "next/image";
 import { Button } from "../ui/button";

@@ -1,5 +1,4 @@
 import SaasSec from "@/components/SaasSec";
-import ServiceIcon from "@/components/ServiceIcon";
 import { Button } from "@/components/ui/button";
 import { backicon2 } from "@/lib/constData";
 import Link from "next/link";

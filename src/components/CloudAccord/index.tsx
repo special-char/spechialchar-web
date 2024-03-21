@@ -8,12 +8,10 @@ import {
 import {
   cloudAccordiandata,
   cloudAccordiandata1,
-  serviceAccordiandata,
-  serviceAccordiandata1,
 } from "@/lib/constData";
 import { serviceAccordiandataType } from "@/utils/types";
 import Image from "next/image";
-import { Button } from "../ui/button";
+
 
 const CloudAccordian = ({ data }: serviceAccordiandataType) => {
   return (

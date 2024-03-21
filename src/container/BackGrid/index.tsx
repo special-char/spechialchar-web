@@ -1,7 +1,6 @@
 import { backSection } from "@/lib/constData";
 import { SaasSectionType } from "@/utils/types";
 import React from "react";
-import SaasService from "../SaasService";
 import SaasSec from "@/components/SaasSec";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -19,13 +18,9 @@ const BackGrid = ({ data }: SaasSectionType) => {
       </div>
       <div className="grid lg:grid-cols-3 max-md:grid-cols-1 gap-10">
         {backSection.section.map((item) => (
-          // <ServiceIcon data={item}/>
           <SaasSec key={item.title} data={item} />
         ))}
       </div>
-      {/* <div className="my-8 font-bold text-2xl">
-        <Button>Otp for custom eLearning development</Button>
-      </div> */}
       <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
         <Button>
           <span className="flex flex-wrap justify-center gap-x-[0.22rem]">

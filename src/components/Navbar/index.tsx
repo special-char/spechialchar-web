@@ -1,9 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import NavbarLogo from "../../../public/icons/Logo New Website.svg";
-import DesktopDropdown from "../DesktopDropdown";
 import MobileNavbar from "../MobileNavbar";
-import { Header } from "@/utils/types";
 import { accordionItems } from "@/lib/constData";
 import Link from "next/link";
 import HeaderDesktop from "../HeaderDesktop";
@@ -28,7 +26,7 @@ const Navbar = () => {
         " w-full z-20 fixed py-2 bg-black transition-all ease-in-out duration-500",
         {
           ["bg-black"]: scrollPosition > 100,
-          // ["bg-transparent hover:bg-black "]: scrollPosition <= 100,
+
         }
       )}
     >
@@ -40,7 +38,7 @@ const Navbar = () => {
         </Link>
         {/* <--webView---> */}
         <div className="hidden lg:block w-full">
-          {/* <DesktopDropdown data={accordionItems} /> */}
+
           <HeaderDesktop data={accordionItems} />
         </div>
         {/* <---Mobilview----> */}

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { backbox, uiuxbox } from "@/lib/constData";
+import { uiuxbox } from "@/lib/constData";
 import Link from "next/link";
 import React from "react";
 
@@ -20,14 +20,14 @@ const UiUxBox = (props: Props) => {
             </section>
             <section className="py-10">
                 <Link href={"https://thespecialcharacter.graphy.com/"}>
-                <Button>
-                    <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-                        Work with our UI/UX<span>design company</span>
-                        <span>&rarr;</span>
-                    </span>
-                </Button>
+                    <Button>
+                        <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+                            Work with our UI/UX<span>design company</span>
+                            <span>&rarr;</span>
+                        </span>
+                    </Button>
                 </Link>
-                
+
             </section>
         </>
     );

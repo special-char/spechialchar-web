@@ -5,20 +5,16 @@ import MobilePage from "@/components/MobilePage";
 import MobileServices from "@/components/MobileServices";
 import MobileSwiper from "@/components/MobileSwiper";
 import ServiceAccordian from "@/components/ServiceAccordian";
-import Swiper1 from "@/components/Swiper";
 import Swiper from "@/components/Swiper1";
 import Tab1 from "@/components/Tab/index1";
 import YellowBanner from "@/components/YellowBanner";
 import Banner from "@/container/Banner";
 import {
   MobileSwiperData,
-  SwiperServices,
   SwiperServices1,
-  YellowBannerData,
   YellowBannerData1,
   YellowBannerData2,
   banner2,
-  imageBanner,
   imageBanner3,
   imageBanner4,
   imageBanner5,
@@ -27,7 +23,6 @@ import {
   mobileicon,
   mobiletabdata,
   serviceAccordiandata,
-  tabdata,
 } from "@/lib/constData";
 import React from "react";
 

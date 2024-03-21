@@ -1,6 +1,4 @@
 import ImageBanner from "@/components/ImageBanner";
-import ServiceBox from "@/components/ServiceBox";
-import Swiper1 from "@/components/Swiper";
 import Swiper3 from "@/components/Swiper3";
 import YellowBanner from "@/components/YellowBanner";
 import BackBox from "@/container/BackBox";
@@ -9,7 +7,6 @@ import BackGrid2 from "@/container/BackGrid2";
 import BackGrid3 from "@/container/BackGrid3";
 import Banner from "@/container/Banner";
 import {
-  SwiperServices,
   SwiperServices3,
   YellowBannerData4,
   backSection,
@@ -17,7 +14,6 @@ import {
   imageBanner14,
   imageBanner15,
   imageBanner16,
-  imageBanner4,
 } from "@/lib/constData";
 import React from "react";
 
