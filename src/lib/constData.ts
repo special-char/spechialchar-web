@@ -804,7 +804,7 @@ export const mobileicon = {
       description:
         "Using innovative concepts and data-driven insights, we craft high-performance apps that rank high on Google Play and transform business.",
 
-      languages: ["Java", "|", "Kotlin"],
+      languages: "Java | Kotlin",
     },
     {
       url: "/icons/ios-1.svg",
@@ -812,7 +812,7 @@ export const mobileicon = {
       description:
         "We boast a legacy of great iOS apps for a range of business niches, which never leave the iPhones and iPads home screens of the delighted users.",
 
-      languages: ["Swift", "|", "Objective-C"],
+      languages: "Swift | Objective-C",
     },
     {
       url: "/icons/cross_platforms.svg",
@@ -820,7 +820,7 @@ export const mobileicon = {
       description:
         "Whatever the complexity, we bring the full benefit of cross-platform tech to the table, including lower costs, faster time to market and maximum reach.",
 
-      languages: ["React Native", "|", "Flutter"],
+      languages: F"React Native | Flutter",
     },
   ],
 };
@@ -3412,6 +3412,8 @@ export const ourThinkingData = {
     },
   ],
 };
+
+
 export const AboutData = [
   {
     id: 1,
