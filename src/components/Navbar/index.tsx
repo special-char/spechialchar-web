@@ -33,7 +33,7 @@ const Navbar = () => {
       <div className="flex justify-between items-start">
         <Link href="/">
           <div className="">
-            <NavbarLogo className="mt-1" />
+            <NavbarLogo className="mt-1 h-12 w-40" />
           </div>
         </Link>
         {/* <--webView---> */}
