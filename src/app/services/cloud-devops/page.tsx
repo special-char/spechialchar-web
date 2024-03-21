@@ -44,7 +44,7 @@ const CloudDevops = (props: Props) => {
       <ImageBanner data={imageBanner20} />
       <CloudSocial />
       <OurClients />
-      <MobileSwiper data={MobileSwiperData} />
+      <MobileSwiper />
       <LatestThinking data={latestThinkingData} />
     </>
   );

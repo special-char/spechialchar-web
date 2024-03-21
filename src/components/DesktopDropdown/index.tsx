@@ -2,11 +2,10 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import "./style.css";
 import { ChevronDownIcon } from "@radix-ui/react-icons";
-import { Header } from "@/utils/types";
 import { accordionItems } from "@/lib/constData";
 import { Button } from "../ui/button";
 
-const DesktopDropdown = ({ data }: Header) => {
+const DesktopDropdown = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   useEffect(() => {
     const handleScroll = () => {

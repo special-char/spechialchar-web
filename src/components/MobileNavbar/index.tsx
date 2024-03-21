@@ -9,10 +9,9 @@ import Link from "next/link";
 import Humburger from "@/public.three-horizontal-lines-icon.svg";
 import Close from "@/public.icons/close-icon.svg";
 import NavbarLogo from "../../../public/icons/Logo New Website.svg";
-import { Header } from "@/utils/types";
 import { accordionItems1 } from "@/lib/constData";
 
-const MobileNavbar = ({ data }: Header) => {
+const MobileNavbar = () => {
   const [click, setClicked] = useState(false);
   const toggleDropdown = () => {
     setClicked(!click);

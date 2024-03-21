@@ -1,4 +1,4 @@
-import { mobileServicesType } from "@/utils/types";
+
 import {
   Tabs,
   TabsContent,
@@ -11,7 +11,7 @@ import style from "./style.module.css";
 import { Button } from "../ui/button";
 import Link from "next/link";
 
-export default function Index({ data }: mobileServicesType) {
+export default function Index() {
   return (
     <section className="gap-y-10 flex flex-col">
       <div>
