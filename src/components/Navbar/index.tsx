@@ -39,11 +39,11 @@ const Navbar = () => {
         {/* <--webView---> */}
         <div className="hidden lg:block w-full">
 
-          <HeaderDesktop data={accordionItems} />
+          <HeaderDesktop/>
         </div>
         {/* <---Mobilview----> */}
         <div className="lg:hidden ">
-          <MobileNavbar data={accordionItems} />
+          <MobileNavbar />
         </div>
       </div>
     </header>

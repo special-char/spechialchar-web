@@ -4,10 +4,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Mousewheel, Autoplay } from "swiper/modules";
 import Image from "next/image";
-import { MobileSwiperType } from "@/utils/types";
 import { MobileSwiperData } from "@/lib/constData";
 
-const MobileSwiper = ({ data }: MobileSwiperType) => {
+const MobileSwiper = () => {
   return (
     <section className="bg-black h-[50%] w-full ">
       <Swiper

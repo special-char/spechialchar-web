@@ -41,9 +41,9 @@ const Ecommerce = (props: Props) => {
       <EcomGrid3 />
       <ImageBanner data={imageBanner30} />
       <YellowBanner data={Bgbanner7} />
-      <EcommerceServices data={ecommercesdata} />
+      <EcommerceServices />
       <OurClients />
-      <MobileSwiper data={MobileSwiperData} />
+      <MobileSwiper  />
       <LatestThinking2 data={latestThinkingData2} />
     </>
   );
