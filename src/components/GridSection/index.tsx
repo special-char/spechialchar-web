@@ -1,9 +1,9 @@
-import { uiSectionType } from "@/utils/types";
+import { gridsectiontype, uiSectionType } from "@/utils/types";
 import React from "react";
 
 type Props = {};
 
-const GridSection = ({ data }: uiSectionType) => {
+const GridSection = ({ data }: gridsectiontype) => {
   return (
     <div key={data.id} className="border-b-2 border-b-second ">
       <div className="text-2xl font-bold">

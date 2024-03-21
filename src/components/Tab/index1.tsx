@@ -61,7 +61,7 @@ const Tab1 = ({ data }: tabdataType) => {
           className="px-8 md:px-20 py-7 text-base "
         >
           <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-            {data.button1} <span>{data?.button2} </span>
+            {data.button} <span>{data?.button2} </span>
             <span>&rarr;</span>
           </span>
         </Button>

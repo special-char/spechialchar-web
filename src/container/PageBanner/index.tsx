@@ -1,12 +1,12 @@
 import { cn } from "@/lib/utils";
-import { PageBanner } from "@/utils/types";
+import { pageBannerType } from "@/utils/types";
 import React from "react";
 
 const PageBanner = ({
   data,
   className,
 }: {
-  data: PageBanner;
+  data: pageBannerType;
   className?: string;
 }) => {
   return (

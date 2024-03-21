@@ -8,7 +8,7 @@ import {
 import Link from "next/link";
 import Humburger from "@/public.three-horizontal-lines-icon.svg";
 import Close from "@/public.icons/close-icon.svg";
-import NavbarLogo from "../../../public/icons/Navbar.svg";
+import NavbarLogo from "../../../public/icons/Logo New Website.svg";
 import { Header } from "@/utils/types";
 import { accordionItems1 } from "@/lib/constData";
 
@@ -21,7 +21,7 @@ const MobileNavbar = ({ data }: Header) => {
   return (
     <>
       <div onClick={toggleDropdown}>
-        <Humburger className="fill-white" />
+        <Humburger className="fill-white mt-2" />
       </div>
       {click && (
         <div className="absolute z-50  bg-black h-screen w-full left-0 top-0 p-4 ">

@@ -8,7 +8,7 @@ type Props = {}
 const OurClients = (props: Props) => {
   return (
     <>
-        <section>
+      <section>
         <div className=" pt-4 md:pt-8">
           <div>
             <h2 className="text-5xl  font-bold md:text-8xl">Our Clients</h2>
@@ -16,7 +16,7 @@ const OurClients = (props: Props) => {
         </div>
       </section>
       <div>
-        <WhiteMarque data={MarqueData2} className='bg-white'/>
+        <WhiteMarque className='bg-white' />
       </div>
     </>
   )

@@ -10,7 +10,7 @@ const AccCards = () => {
         <h1 className="font-bold  text-2xl md:text-4xl lg:text-5xl flex md:justify-start justify-center">
           How we can help you
         </h1>
-        <HomeAccordian data={homeAccordiandata} />
+        <HomeAccordian />
         <Link className="flex md:justify-start justify-center" href={"https://thespecialcharacter.graphy.com/"}>
           <Button
             variant="default"

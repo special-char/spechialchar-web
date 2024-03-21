@@ -6,7 +6,7 @@ import { SwiperSlide, useSwiper } from "swiper/react";
 import { Swiper } from "swiper/react";
 import { A11y, Navigation, Pagination } from "swiper/modules";
 import Image from "next/image";
-import { SwiperNavButtons } from "./SwiperButton";
+import { SwiperNavButtons } from "@/components/Swiper/SwiperButton";
 import { SwiperServicesData } from "@/utils/types";
 import { SwiperServices1 } from "@/lib/constData";
 import Link from "next/link";
@@ -64,7 +64,7 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
         <Link href={"https://thespecialcharacter.graphy.com/"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-              Contect Us 
+              Contect Us
               <span>&rarr;</span>
             </span>
           </Button>

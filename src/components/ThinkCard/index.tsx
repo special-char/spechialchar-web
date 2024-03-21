@@ -2,8 +2,7 @@ import * as React from "react";
 import { Card1, Cards } from "@/lib/constData";
 
 import Image from "next/image";
-import { Button } from "../ui/button";
-import { CardType } from "@/utils/types";
+
 
 import {
   Carousel,
@@ -12,9 +11,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import Link from "next/link";
 
-export function ThinkCard({ data }: CardType) {
+export function ThinkCard() {
   return (
     <div>
       <div className=" ">

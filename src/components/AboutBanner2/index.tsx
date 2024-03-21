@@ -11,7 +11,8 @@ const AboutBanner2 = ({ data }: aboutBanner2Type) => {
       {aboutBanner2.section.map((item, i) => {
         return (
           <>
-            <div className="bg-second max-lg:h-[89vh] px-container overflow-hidden">
+
+            <div className="bg-second max-xl:h-[89vh] px-container max-xl:overflow-hidden ">
               <div
                 className={cn(
                   item.id % 2 !== 0
@@ -35,6 +36,7 @@ const AboutBanner2 = ({ data }: aboutBanner2Type) => {
                 </div>
               </div>
             </div>
+
           </>
         );
       })}

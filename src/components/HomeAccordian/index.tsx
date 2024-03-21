@@ -6,12 +6,11 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordian";
 import { homeAccordiandata } from "@/lib/constData";
-import { homeAccordiandataType } from "@/utils/types";
 import Image from "next/image";
 import { Button } from "../ui/button";
 import Arrow from "@/public.icons/arrow_forward.svg";
 
-const HomeAccordian = ({ data }: homeAccordiandataType) => {
+const HomeAccordian = () => {
   return (
     <>
       <Accordion
