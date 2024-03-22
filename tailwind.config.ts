@@ -40,6 +40,11 @@ const config = {
         },
         button: "rgb(var(--color-button) / <alpha-value>)",
         second: "rgb(var(--color-second) / <alpha-value>)",
+        background1: "rgb(var(--color-background1) / <alpha-value>)",
+        background2: "rgb(var(--color-background2) / <alpha-value>)",
+        background3: "rgb(var(--color-background3) / <alpha-value>)",
+        background4: "rgb(var(--color-background4) / <alpha-value>)",
+        background5: "rgb(var(--color-background5) / <alpha-value>)",
 
         secondary: {
           DEFAULT: "hsl(var(--secondary))",

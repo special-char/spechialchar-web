@@ -6,11 +6,7 @@ import { cn } from "@/lib/utils";
 
 type Props = {};
 
-function OurThinking({
-  className,
-}: {
-  className?: string;
-}) {
+function OurThinking({ className }: { className?: string }) {
   const [currentCategory, setCurrentCategory] = useState("All");
 
   return (
@@ -18,24 +14,24 @@ function OurThinking({
       <section>
         <div
           className={cn(
-            "flex max-md:flex-col max-sm:text-2xl max-md:text-3xl py-10 text-4xl font-bold justify-start ",
+            "flex max-md:flex-col max-sm:text-2xl max-md:text-3xl py-10 text-4xl font-bold justify-start gap-x-4",
             {
               [`${className}`]: className,
             }
           )}
         >
           <button type="button" onClick={() => setCurrentCategory("All")}>
-            <div className="flex justify-start mr-4 active:text-blue-600">
+            <div className="flex justify-start mr-4 active:text-blue-600 hover:text-button">
               All
             </div>
           </button>
           <button type="button" onClick={() => setCurrentCategory("Strategy")}>
-            <div className="flex justify-start mr-4 active:text-blue-600">
+            <div className="flex justify-start mr-4 active:text-blue-600 hover:text-button">
               Strategy
             </div>
           </button>
           <button type="button" onClick={() => setCurrentCategory("Trending")}>
-            <div className="flex justify-start mr-4 active:text-blue-600">
+            <div className="flex justify-start mr-4 active:text-blue-600 hover:text-button">
               Trending
             </div>
           </button>
@@ -43,14 +39,16 @@ function OurThinking({
             type="button"
             onClick={() => setCurrentCategory("Development")}
           >
-            <div className="flex justify-start mr-4 active:text-blue-600">
+            <div className="flex justify-start mr-4 active:text-blue-600 hover:text-button">
               Development
             </div>
           </button>
         </div>
         <div className="grid grid-cols-2 max-md:grid-cols-1 justify-center">
           {ourThinkingData[
-            currentCategory === "All" ? "All" : currentCategory as keyof typeof ourThinkingData
+            currentCategory === "All"
+              ? "All"
+              : (currentCategory as keyof typeof ourThinkingData)
           ].map((x) => (
             <div
               key={x.id}

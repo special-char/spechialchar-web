@@ -22,7 +22,7 @@ import React from "react";
 const Services = () => {
   return (
     <>
-      <Banner data={banner} className="" />
+      <Banner data={banner}/>
       <Service data={serviceicon} />
       <ImageBanner data={imageBanner} />
       <YellowBanner data={Bgbanner} />

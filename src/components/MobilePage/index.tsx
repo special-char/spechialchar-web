@@ -7,8 +7,7 @@ const MobilePage = () => {
   return (
     <>
       <section className=" text-white">
-
-        <section className="bg-black grid gap-8 p-4 md:p-8 lg:py-12 lg:px-20">
+        <div className="bg-black grid gap-8 p-4 md:p-8 lg:py-12 lg:px-20">
           <div className="pt-8">
             <h2 className="text-3xl md:text-5xl font-extrabold lg:text-7xl">
               What makes us different
@@ -22,16 +21,16 @@ const MobilePage = () => {
               </div>
             ))}
           </div>
-        </section>
-      </section>
-
-      <section>
-        <div className=" pt-4 md:pt-8">
-          <div>
-            <h2 className="text-5xl  font-bold md:text-8xl">Our Clients</h2>
-          </div>
         </div>
       </section>
+
+      <div>
+        <div className="px-container pb-10">
+          <div>
+            <h2 className="text-5xl font-bold md:text-8xl">Our Clients</h2>
+          </div>
+        </div>
+      </div>
       <div>
         <Marque />
       </div>

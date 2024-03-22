@@ -9,7 +9,6 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-
 export function ProjectCard() {
   return (
     <div>
@@ -41,8 +40,8 @@ export function ProjectCard() {
               ))}
             </CarouselContent>
           </div>
-          <CarouselPrevious className="bg-blue-500 h-10 w-10 absolute top-1/4 left-0 translate-x-[-50%] max-sm:hidden" />
-          <CarouselNext className="bg-blue-500 h-10 w-10 absolute top-1/4 right-0 max-sm:hidden " />
+          <CarouselPrevious className="bg-blue-500 h-10 w-10 absolute  left-0 translate-x-[-50%] max-sm:hidden" />
+          <CarouselNext className="bg-blue-500 h-10 w-10 absolute  right-0 max-sm:hidden " />
         </Carousel>
       </div>
     </div>

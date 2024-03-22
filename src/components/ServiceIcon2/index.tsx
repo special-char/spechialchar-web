@@ -8,18 +8,20 @@ type Props = {};
 
 const ServiceIcon2 = (props: Props) => {
   return (
-    <section className="grid lg:grid-cols-3 sm:grid-cols-1 gap-20 md:grid-cols-3">
+    <section className="grid lg:grid-cols-3 sm:grid-cols-1 gap-5 md:grid-cols-3 pt-10 pb-5">
       {serviceicon2.data.map((x) => (
         <ServiceIcon key={x.title} data={x} />
       ))}
-      <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
-        <Button className="">
-          <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-            get return on tech <span>investments </span>
-            <span>&rarr;</span>
-          </span>
-        </Button>
-      </Link>
+      <div className="grid w-full pb-10 pt-4">
+        <Link href={"https://thespecialcharacter.graphy.com/"}>
+          <Button variant="default" size="lg" className=" py-7 text-base ">
+            <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+              Get return on tech <span>investments</span>
+              <span>&rarr;</span>
+            </span>
+          </Button>
+        </Link>
+      </div>
     </section>
   );
 };

@@ -20,13 +20,15 @@ const MobileNavbar = () => {
   return (
     <>
       <div onClick={toggleDropdown}>
-        <Humburger className="fill-white mt-2" />
+        <Humburger className="fill-white mt-3" />
       </div>
       {click && (
         <div className="absolute z-50  bg-black h-screen w-full left-0 top-0 p-4 ">
           <div className="flex justify-between items-center">
             <div>
-              <NavbarLogo />
+              <Link href="/">
+                <NavbarLogo />
+              </Link>
             </div>
             <div onClick={toggleDropdown}>
               <Close className="fill-white  h-6 w-8" />
@@ -37,17 +39,24 @@ const MobileNavbar = () => {
               {accordionItems1.data.map((item, i) => (
                 <AccordionItem key={item.value} value={item.value} className="">
                   <AccordionTrigger className="">
-                    <Link href={item.link.toLowerCase()}>{item.title}</Link>
+                    <Link
+                      href={item.link.toLowerCase()}
+                      onClick={toggleDropdown}
+                    >
+                      {item.title}
+                    </Link>
                   </AccordionTrigger>
                   <AccordionContent className="p-4">
                     <ul className="flex flex-col gap-y-2">
-                      {item?.content?.map((itemContent, index) => (
+                      {item?.content?.map((itemContent, subindex) => (
                         <li
-                          key={index}
+                          key={subindex}
                           className="text-base hover:text-yellow-300  "
                         >
                           <Link
-                            href={`${item.title.toLowerCase()}/${itemContent.toLowerCase()}`}
+                            href={`/${item.title.toLowerCase()}/${item.content[
+                              subindex
+                            ].toLocaleLowerCase()}`}
                             className=""
                             onClick={toggleDropdown}
                           >

@@ -1,4 +1,3 @@
-
 export const homeBannerdata = {
   title: "Next-gen enterprise",
   title2: "software development company",
@@ -95,7 +94,7 @@ export const CollaboratorCard = [
       " After digging deep to understand holistically your challenges and business objectives, we chart your technology path that will keep your business future-proof.",
   },
   {
-    url: "/icons/collaborate1.png",
+    url: "/icons/collaborate2.png",
     title: "Starting small",
     description:
       "At the beginning of the transformation journey, we start with simple use cases that bring you immediate results.",
@@ -117,7 +116,7 @@ export const CollaboratorCard = [
 export const footerdata = {
   title:
     "We are an enterprise software development company that is inspired by the future",
-  address: "B-604/605, GaneshGlory 11,Jagatpur Road",
+  address: "B-604/605, GaneshGlory 11,Jagatpur Road, Ahemdabad ",
   email: "contact@thespecialcharacter.com",
   mobile: "+91 76000 96432 / 33",
   privacy: "Privacy Policy",
@@ -577,13 +576,13 @@ export const accordionItems = {
     {
       value: "item-2",
       title: "Industry",
-      link: "#",
+      link: "/industry/elearning",
       content: ["eLearning", "Ecommerce"],
     },
     {
       value: "item-3",
       title: "Company",
-      link: "#",
+      link: "/company/about",
       content: ["About", "Career", "How-We-Work"],
     },
     {
@@ -605,7 +604,7 @@ export const accordionItems1 = {
     {
       value: "item-1",
       title: "Services",
-      link: "services",
+      link: "/services/software-engineering",
       content: [
         "Mobile",
         "Web",
@@ -618,25 +617,15 @@ export const accordionItems1 = {
     {
       value: "item-2",
       title: "Industry",
-      link: "#",
+      link: "/industry/elearning",
       content: ["eLearning", "Ecommerce"],
     },
     {
       value: "item-3",
       title: "Company",
-      link: "#",
+      link: "/company/about",
       content: ["About", "Career", "How-We-Work"],
     },
-    // {
-    //   value: "item-4",
-    //   title: "Our Thinking",
-    //   link: "/ourthinking",
-    // },
-    // {
-    //   value: "item-5",
-    //   title: "Case Studies",
-    //   link: "/casestudies",
-    // },
   ],
 };
 

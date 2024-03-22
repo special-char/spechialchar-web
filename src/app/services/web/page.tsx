@@ -30,7 +30,7 @@ type Props = {};
 const Web = (props: Props) => {
   return (
     <>
-      <Banner data={banner3} className="bg-[#02142c] text-white" />
+      <Banner data={banner3} className="bg-background2 text-white" />
       <WebGrid data={webicon} />
       <ImageBanner data={imageBanner31} />
       <YellowBanner data={Bgbanner8} />

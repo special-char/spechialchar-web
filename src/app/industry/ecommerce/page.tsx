@@ -13,10 +13,8 @@ import {
   Bgbanner5,
   Bgbanner6,
   Bgbanner7,
-  MobileSwiperData,
   banner8,
   ecomSocial,
-  ecommercesdata,
   imageAccordianData,
   imageBanner28,
   imageBanner29,
@@ -30,7 +28,7 @@ type Props = {};
 const Ecommerce = (props: Props) => {
   return (
     <>
-      <Banner data={banner8} className="bg-[#eaeceb] text-black" />
+      <Banner data={banner8} className="bg-background5 text-black" />
       <ImageAccordion data={imageAccordianData} />
       <EcomSocial data={ecomSocial} />
       <ImageBanner data={imageBanner28} />
@@ -43,7 +41,7 @@ const Ecommerce = (props: Props) => {
       <YellowBanner data={Bgbanner7} />
       <EcommerceServices />
       <OurClients />
-      <MobileSwiper  />
+      <MobileSwiper />
       <LatestThinking2 data={latestThinkingData2} />
     </>
   );
