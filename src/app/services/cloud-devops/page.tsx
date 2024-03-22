@@ -11,7 +11,6 @@ import CloudGrid4 from "@/container/CloudGrid4";
 import CloudSocial from "@/container/CloudSocial";
 import OurClients from "@/container/OurClients";
 import {
-  MobileSwiperData,
   YellowBannerData5,
   YellowBannerData6,
   YellowBannerData7,
@@ -29,7 +28,7 @@ type Props = {};
 const CloudDevops = (props: Props) => {
   return (
     <>
-      <Banner data={banner5} />
+      <Banner data={banner5}/>
       <CloudAccordian />
       <ImageBanner data={imageBanner17} />
       <YellowBanner data={YellowBannerData5} />

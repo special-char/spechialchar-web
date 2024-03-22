@@ -26,20 +26,18 @@ const Navbar = () => {
         " w-full z-20 fixed py-2 bg-black transition-all ease-in-out duration-500",
         {
           ["bg-black"]: scrollPosition > 100,
-
         }
       )}
     >
       <div className="flex justify-between items-start">
         <Link href="/">
           <div className="">
-            <NavbarLogo className="mt-1 h-12 w-40" />
+            <NavbarLogo className="lg:mt-3 h-12 w-40" />
           </div>
         </Link>
         {/* <--webView---> */}
         <div className="hidden lg:block w-full">
-
-          <HeaderDesktop/>
+          <HeaderDesktop />
         </div>
         {/* <---Mobilview----> */}
         <div className="lg:hidden ">

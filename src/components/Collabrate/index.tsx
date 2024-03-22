@@ -8,7 +8,7 @@ const Collabrate = () => {
   return (
     <section className="bg-black text-white gap-y-10">
       <div className=" py-10  ">
-        <h1 className=" font-extrabold lg:text-5xl sm:text-3xl text-3xl">
+        <h1 className=" font-extrabold lg:text-5xl sm:text-3xl text-xl max-sm:text-center">
           How we collaborate with you
         </h1>
       </div>
@@ -22,10 +22,9 @@ const Collabrate = () => {
           className=" max-sm:grid overflow-hidden "
           href={"https://thespecialcharacter.graphy.com/"}
         >
-
           <Button variant={"default"} size={"md"}>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-              Start your innovation <span>journey </span>
+              Lets Collaborate
             </span>
           </Button>
         </Link>

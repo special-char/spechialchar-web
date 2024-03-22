@@ -31,7 +31,7 @@ type Props = {};
 const Mobile = () => {
   return (
     <>
-      <Banner data={banner2} className="bg-[#dfdfdf] text-black" />
+      <Banner data={banner2} className="bg-background1 text-black" />
       <MobileIcon data={mobileicon} />
       <Swiper data={SwiperServices1} />
       <ImageBanner data={imageBanner3} />

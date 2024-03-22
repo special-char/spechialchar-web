@@ -22,7 +22,7 @@ type Props = {};
 const Backend = (props: Props) => {
   return (
     <>
-      <Banner data={banner4} className="bg-[#170f1b] text-white" />
+      <Banner data={banner4} className="bg-background3 text-white" />
       <BackGrid data={backSection} />
       <ImageBanner data={imageBanner14} />
       <YellowBanner data={YellowBannerData4} />

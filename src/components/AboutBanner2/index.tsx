@@ -11,13 +11,12 @@ const AboutBanner2 = ({ data }: aboutBanner2Type) => {
       {aboutBanner2.section.map((item, i) => {
         return (
           <>
-
             <div className="bg-second max-xl:h-[89vh] px-container max-xl:overflow-hidden ">
               <div
                 className={cn(
                   item.id % 2 !== 0
                     ? "flex flex-row-reverse max-sm:flex-wrap max-sm:flex-row"
-                    : "flex justify-between max-sm:flex-wrap flex-row"
+                    : "h-screen flex justify-between max-sm:flex-wrap flex-row"
                 )}
               >
                 <div className="h-[70vh] w-full sm:text-[30rem] max-sm:text-[20rem] max-lg:justify-center lg:justify-evenly flex  relative ">
@@ -30,13 +29,14 @@ const AboutBanner2 = ({ data }: aboutBanner2Type) => {
                     className="absolute lg:top-[36%] max-sm:top-[36%] max-lg:top-[60%] max-lg:left-[10%] lg:left-[10%] "
                   />
                 </div>
-                <div className="md:text-3xl text-2xl  sm:mt-72 w-full  gap-x-[0.12rem]">
-                  <span className="font-bold">{item.title1}</span>
-                  <span>{item.title2}</span>
+                <div className="md:text-3xl text-2xl flex justify-center items-center w-full  gap-x-[0.12rem]">
+                  <div className="">
+                    <span className="font-bold">{item.title1}</span>
+                    <span>{item.title2}</span>
+                  </div>
                 </div>
               </div>
             </div>
-
           </>
         );
       })}

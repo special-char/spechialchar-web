@@ -3,7 +3,6 @@ import { Card1 } from "@/lib/constData";
 
 import Image from "next/image";
 
-
 import {
   Carousel,
   CarouselContent,
@@ -33,7 +32,7 @@ export function ThinkCard() {
                       width={700}
                     />
                   </div>
-                  <h1 className="lg:text-2xl md:text-xl sm:text-lg max-sm:text-md group-hover:text-buttonButton  font-bold mb-2 mt-4 ">
+                  <h1 className="lg:text-2xl md:text-xl sm:text-lg max-sm:text-md group-hover:text-button  font-bold mb-2 mt-4 ">
                     {item.title}
                   </h1>
                   <div className="text-gray-400 lg:text-lg md:text-md sm:text-sm max-sm:text-md">
@@ -43,8 +42,8 @@ export function ThinkCard() {
               ))}
             </CarouselContent>
           </div>
-          <CarouselPrevious className="bg-blue-500 h-10 w-10 ml-10 absolute top-1/4 -left-4 translate-x-[-100%] max-sm:hidden" />
-          <CarouselNext className="bg-blue-500 h-10 w-10 mr-10 absolute top-1/4 right-0 translate-x-[100%]  max-sm:hidden" />
+          <CarouselPrevious className="bg-blue-500 h-10 w-10 absolute  left-0 translate-x-[-50%] max-sm:hidden" />
+          <CarouselNext className="bg-blue-500 h-10 w-10 absolute  right-0 max-sm:hidden" />
         </Carousel>
       </div>
     </div>

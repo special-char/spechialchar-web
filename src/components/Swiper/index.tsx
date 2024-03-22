@@ -39,17 +39,17 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
           {SwiperServices.data.map((car, index) => (
             <SwiperSlide key={index} className="py-4">
               <Link
-                className=" overflow-hidden overflow-y-hidden  h-56 "
+                className=" overflow-hidden overflow-y-hidden aspect-square max-md:h-[30rem] "
                 href={"https://thespecialcharacter.graphy.com/"}
               >
                 <Image
                   src={car.src}
                   alt={car.alt}
-                  className=" h-64  absolute w-screen left-0 top-0 -z-10 md:h-96 lg:grid  sm:h-[350px] md:w-[560px] lg:h-[400px] lg:w-[90%] "
+                  className=" flex flex-col absolute max-md:object-cover md:aspect-square left-0 top-0 -z-10  gap-x-4"
                   height={200}
                   width={800}
                 />
-                <div className=" px-6 py-3  md:px-12  text-white  text-2xl md:text-3xl   font-bold overflow-hidden lg:px-10 lg:pr-20">
+                <div className=" py-3 px-4 md:px-12  text-white  text-2xl md:text-3xl   font-bold overflow-hidden lg:px-10 lg:pr-20">
                   {car.alt}&rarr;
                 </div>
               </Link>
