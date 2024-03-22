@@ -1,5 +1,3 @@
-import { title } from "process";
-
 export const homeBannerdata = {
   title: "Next-gen enterprise",
   title2: "software development company",
@@ -96,7 +94,7 @@ export const CollaboratorCard = [
       " After digging deep to understand holistically your challenges and business objectives, we chart your technology path that will keep your business future-proof.",
   },
   {
-    url: "/icons/collaborate1.png",
+    url: "/icons/collaborate2.png",
     title: "Starting small",
     description:
       "At the beginning of the transformation journey, we start with simple use cases that bring you immediate results.",
@@ -118,7 +116,7 @@ export const CollaboratorCard = [
 export const footerdata = {
   title:
     "We are an enterprise software development company that is inspired by the future",
-  address: "B-604/605, GaneshGlory 11,Jagatpur Road",
+  address: "B-604/605, GaneshGlory 11,Jagatpur Road, Ahemdabad ",
   email: "contact@thespecialcharacter.com",
   mobile: "+91 76000 96432 / 33",
   privacy: "Privacy Policy",
@@ -578,13 +576,13 @@ export const accordionItems = {
     {
       value: "item-2",
       title: "Industry",
-      link: "#",
+      link: "/industry/elearning",
       content: ["eLearning", "Ecommerce"],
     },
     {
       value: "item-3",
       title: "Company",
-      link: "#",
+      link: "/company/about",
       content: ["About", "Career", "How-We-Work"],
     },
     {
@@ -606,7 +604,7 @@ export const accordionItems1 = {
     {
       value: "item-1",
       title: "Services",
-      link: "services",
+      link: "/services/software-engineering",
       content: [
         "Mobile",
         "Web",
@@ -619,25 +617,15 @@ export const accordionItems1 = {
     {
       value: "item-2",
       title: "Industry",
-      link: "#",
+      link: "/industry/elearning",
       content: ["eLearning", "Ecommerce"],
     },
     {
       value: "item-3",
       title: "Company",
-      link: "#",
+      link: "/company/about",
       content: ["About", "Career", "How-We-Work"],
     },
-    // {
-    //   value: "item-4",
-    //   title: "Our Thinking",
-    //   link: "/ourthinking",
-    // },
-    // {
-    //   value: "item-5",
-    //   title: "Case Studies",
-    //   link: "/casestudies",
-    // },
   ],
 };
 
@@ -2550,22 +2538,6 @@ export const banner5 = {
     "Harness the power of the cloud for lower operational costs, ultimate scalability, and unparalleled performance with our all-encompassing cloud computing consulting and implementation services",
 };
 
-// export const banner9 = {
-//   imageurl: "/images/webBanner.webp",
-//   title: "Custom web development services",
-//   button: "Get in touch",
-//   description:
-//     "Make a unique impact online now to grow business with end-to-end custom web development services from TheSpecialChar",
-// };
-
-// export const banner10 = {
-//   imageurl: "/images/webBanner.webp",
-//   title: "Custom web development services",
-//   button: "Get in touch",
-//   description:
-//     "Make a unique impact online now to grow business with end-to-end custom web development services from TheSpecialChar",
-// };
-
 export const listData1 = {
   data: [
     {
@@ -2674,37 +2646,31 @@ export const backSection = {
     "We kick off back-end development projects with a meticulous analysis of your requirements and IT infrastructure. Next, we devise a software architecture, create a technical roadmap, select suitable tools, decide on the engagement model, and come up with an estimate that matches your budget and objectives. Our back-end development services span:",
   section: [
     {
-      // id: 1,
       title: "Mobile app back-end development",
       description:
         "Our specialists create mobile back ends enabling advanced business logic in native and cross-platform apps. Whether you need an application with multiple types of user accounts, payment services, built-in customer loyalty and referral programs, or real-time sensor data processing capabilities, we’ll take on the challenge!",
     },
     {
-      // id: 2,
       title: "Back-end web development",
       description:
         "As part of our back-end web development services, we build applications from the ground up or assist our clients’ front-end teams on a dedicated team or pay-as-you-go basis. Hire back-end developers at ITRex if you need a customer-facing portal, sleek e-commerce website, or enterprise-grade web application!",
     },
     {
-      // id: 3,
       title: "Back-end integration via APIs",
       description:
         "With our back-end development services, you can interconnect the components of your IT infrastructure and harness the power of third-party applications to move your business forward! Our back-end API solutions securely log into apps, scavenge information across databases, and automate processes, freeing up your employees’ time for creative work",
     },
     {
-      // id: 4,
       title: "Back end as a service (BaaS)",
       description:
         "To help you roll out apps across different platforms and user bases faster, we build reliable mobile back end as a service (mBaaS) solutions comprising a universal application programming interface (API) for your future deployments. Tap into our back-end development services to thrive in the digital, API-first era!",
     },
     {
-      // id: 5,
       title: "Cloud back-end development",
       description:
         "A vetted Google Cloud and Microsoft partner, our back-end development company has the right skills and tools to expedite your project. From setting up scalable data warehouse solutions to managing containerized apps with Kubernetes or implementing DevOps and test automation , we know how to build cloud back-end solutions that deliver",
     },
     {
-      // id: 6,
       title: "Back-end refactoring",
       description:
         "Changing an app’s behavior under the hood without disrupting user experience on the front end is a trick few companies can pull. Our back-end development services team will help you optimize web and cloud apps’ performance, address technical debt, split applications into self-sufficient microservices, and migrate software to the cloud",

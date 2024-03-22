@@ -31,18 +31,18 @@ type Props = {};
 const Mobile = () => {
   return (
     <>
-      <Banner data={banner2} className="bg-[#dfdfdf] text-black" />
+      <Banner data={banner2} className="bg-background1 text-black" />
       <MobileIcon data={mobileicon} />
       <Swiper data={SwiperServices1} />
       <ImageBanner data={imageBanner3} />
-      <MobileServices data={mobileServicesdata} />
+      <MobileServices />
       <ImageBanner data={imageBanner4} />
       <YellowBanner data={YellowBannerData1} />
       <ServiceAccordian data={serviceAccordiandata} />
       <ImageBanner data={imageBanner5} />
       <YellowBanner data={YellowBannerData2} />
       <Tab1 data={mobiletabdata} />
-      <MobileSwiper data={MobileSwiperData} />
+      <MobileSwiper />
       <MobilePage />
       <LatestThinking data={latestThinkingData} />
     </>

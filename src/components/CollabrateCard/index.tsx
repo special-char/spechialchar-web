@@ -18,7 +18,7 @@ const CollabrateCard = ({ data }: ColllabrateCardType) => {
           <h3 className="lg:text-3xl md:text-subtitle1 font-extrabold">
             {data.title}
           </h3>
-          <div className="mt-1.5 lg:text-base md:text-sm text-gray">
+          <div className="mt-1.5 lg:text-base md:text-sm  text-gray-400">
             {data.description}
           </div>
         </div>

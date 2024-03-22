@@ -16,7 +16,7 @@ const HomeBanner = ({ data }: HomeBannerdataType) => {
   });
 
   return (
-    <div className=" relative overflow-hidden h-screen ">
+    <div className=" relative overflow-hidden max-md:top-14 h-[calc(100vh-56px)]">
       <video
         autoPlay
         loop
@@ -26,9 +26,9 @@ const HomeBanner = ({ data }: HomeBannerdataType) => {
       >
         Your browser does not support the video tag.
       </video>
-      <section className="relative  z-0  text-yellow-300 h-full flex flex-wrap flex-col items-left justify-center lg:text-6xl font-bold text-4xl ">
+      <section className="relative z-0 text-yellow-300 h-full flex flex-wrap flex-col max-sm:items-center justify-center lg:text-6xl font-bold text-4xl ">
         {data.title}
-        <div className="text-white">{data.title2}</div>
+        <div className="text-white max-sm:items-center">{data.title2}</div>
         <div className="flex flex-wrap  justify-between  mt-32 gap-10 text-3xl text-white">
           <div className="pt-1">
             {" "}
