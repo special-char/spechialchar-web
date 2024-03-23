@@ -42,21 +42,23 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
                 className=" overflow-hidden overflow-y-hidden aspect-square max-md:h-[30rem] "
                 href={"https://thespecialcharacter.graphy.com/"}
               >
+                <div className="relative">
                 <Image
                   src={car.src}
                   alt={car.alt}
-                  className=" flex flex-col absolute max-md:object-cover md:aspect-square left-0 top-0 -z-10  gap-x-4"
+                  className=" flex flex-col  max-md:object-cover md:aspect-square left-0 top-0 -z-10  gap-x-4"
                   height={200}
                   width={800}
                 />
-                <div className=" py-3 px-4 md:px-12  text-white  text-2xl md:text-3xl   font-bold overflow-hidden lg:px-10 lg:pr-20">
+                <div className=" py-3 px-4 md:px-12 absolute left-0 top-0  text-white  text-2xl md:text-3xl   font-bold overflow-hidden lg:px-10 lg:pr-20">
                   {car.alt}&rarr;
+                </div>
                 </div>
               </Link>
             </SwiperSlide>
           ))}
         </div>
-        <div className="lg:pt-20 sm:pt-24 max-sm:hidden">
+        <div className="max-sm:hidden">
           <SwiperNavButtons />
         </div>
       </Swiper>

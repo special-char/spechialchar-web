@@ -67,13 +67,13 @@ const ServiceAccordian = ({ data }: serviceAccordiandataType) => {
             })}
           </Accordion>
         </div>
-      </section>
-      <section>
+      <div className="pt-10">
         <Link href={"https://thespecialcharacter.graphy.com/"}>
           <Button variant="default" size="sm" className=" py-7 text-base ">
             Contact Us &rarr;
           </Button>
         </Link>
+      </div>
       </section>
     </>
   );
