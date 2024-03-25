@@ -15,8 +15,10 @@ const EdTechGrid2 = (props: Props) => {
             <ServiceIcon key={x.title} data={x} />
           ))}
         </div>
-        <div className="py-10">
-          <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
+        <div className="pt-10">
+          <Link
+            href={"https://thespecialcharacter.graphy.com/"}
+          >
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
                 Schedule a free <span>discussion </span>
@@ -25,7 +27,6 @@ const EdTechGrid2 = (props: Props) => {
             </Button>
           </Link>
         </div>
-
       </section>
     </>
   );

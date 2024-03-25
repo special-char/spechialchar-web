@@ -48,7 +48,7 @@ const Swiper4 = ({ data }: SwiperServicesData) => {
                 <Image
                   src={car.src}
                   alt={car.alt}
-                  className=" flex flex-col  max-md:object-cover aspect-square left-0 top-0 -z-10  gap-x-4"
+                  className=" flex flex-col object-cover aspect-square left-0 top-0 -z-10  gap-x-4"
                   height={200}
                   width={800}
                 />
@@ -60,11 +60,11 @@ const Swiper4 = ({ data }: SwiperServicesData) => {
             </SwiperSlide>
           ))}
         </div>
-        <div className=" max-sm:hidden">
+        <div className="max-sm:hidden pt-4">
           <SwiperNavButtons />
         </div>
       </Swiper>
-      <div>
+      <div className="sm:pt-10 sm:pb-2">
         <Link href={"https://thespecialcharacter.graphy.com/"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">

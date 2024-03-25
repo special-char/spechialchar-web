@@ -14,7 +14,7 @@ const BackGrid2 = (props: Props) => {
           <ServiceIcon key={x.title} data={x} />
         ))}
       </div>
-      <div className="py-10">
+      <div className="pt-10">
         <Link href={"https://thespecialcharacter.graphy.com/"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">

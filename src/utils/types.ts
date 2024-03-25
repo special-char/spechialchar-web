@@ -103,6 +103,13 @@ export type ServiceItem = {
   };
 };
 
+export type WebGridType = {
+  data: {
+    title: string;
+    description: string;
+  };
+};
+
 export type BgYellowType = {
   data: {
     description: string;
@@ -124,6 +131,13 @@ export type serviceAccordiandataType = {
   };
 };
 
+export type CloudAccordiandataType = {
+  data: {
+    title: string;
+    description:string;
+  };
+};
+
 export type BgBannerType = {
   data: {
     url: string;
@@ -134,6 +148,14 @@ export type BgBannerType = {
 
 export type SaasSectionType = {
   data: {
+    title: string;
+    description: string;
+  };
+};
+
+export type ListSaasSectionType = {
+  data: {
+    id:number;
     title: string;
     description: string;
   };

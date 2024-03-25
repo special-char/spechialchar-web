@@ -1011,8 +1011,8 @@ export const webicon = {
     "Our custom web development services help you break away from the ordinary",
   texts:
     "Building successful web solutions since 2009, we have the expertise to build something great for you, too. Whatever your challenge is, there would be few things in the web development world that we haven’t worked with. Tap our custom web development services to create seamless web experiences that captivate. Our ITRex team delivers:",
-  button1: "Request our Custom",
-  button2: "web Development services",
+  button1: "Request our custom web",
+  button2: "development services",
   data: [
     {
       url: "/images/accord_1-1.gif",
@@ -2728,24 +2728,24 @@ export const imageBanner15 = {
 
 export const backicon2 = [
   {
-    // url: "/images/accord_1-1.gif",
+    id:1,
     title: "Programming Languages",
     description: "Java, Python, PHP, JavaScrip, C#, Go",
   },
   {
-    // url: "/images/accord_2-2.gif",
+    id:2,
     title: "Frameworks & Development Environments",
     description:
       ".Net, .Node.js, Express.js, Nest.js, Symphony, Laravel, Django, Falkon, Flask",
   },
   {
-    // url: "/images/accord_3-3.gif",
+    id:3,
     title: "Databases",
     description:
       "MySQL, PostgreSQL, Microsoft SQL Server, MongoDB, DynamoDB, MariaDB, Firebase, Apache Cassandra, Redis, Elasticsearch",
   },
   {
-    // url: "/images/accord_4-4.gif",
+    id:4,
     title: "Cloud",
     description: "Google Cloud, Microsoft Azure, Amazon Web Services",
   },
@@ -2794,6 +2794,8 @@ export const banner4 = {
 };
 
 export const cloudAccordiandata = {
+  title:"All-encompassing cloud computing consulting and implementation services",
+  description:"We embrace an end-to-end approach — from thinking over the strategic aspects of cloud adoption and migration to cloud, security consulting and cloud infrastructure management. Our team of cloud consultants, business analysts, developers, and DevOps engineers will ensure that your cloud environment is efficient, safe, and high-performing.",
   button: "Contact Us",
   data: [
     {
@@ -3490,30 +3492,30 @@ export const cloudgrid4 = {
 
   section: [
     {
-      title: "",
+      title1: "",
       id: 1,
-      title1: "Scalability from day one",
+      title: "Scalability from day one",
       description:
         "A cloud infrastructure that will scale flexibly along with your business for unstoppable growth",
     },
     {
-      title: "",
+      title1: "",
       id: 2,
-      title1: "Built-in security",
+      title: "Built-in security",
       description:
         "Advanced security tools and best practices of cloud security consulting for utmost data protection",
     },
     {
-      title: "",
+      title1: "",
       id: 3,
-      title1: "Compliance with industry-specific standards",
+      title: "Compliance with industry-specific standards",
       description:
         "Comprehensive compliance controls for HIPAA, PCI-DSS, GDPR, and other standards",
     },
     {
-      title: "",
+      title1: "",
       id: 4,
-      title1: "Room for innovation",
+      title: "Room for innovation",
       description:
         "A perfect environment for deploying AI, ML, IoT, and other next-gen solutions",
     },
