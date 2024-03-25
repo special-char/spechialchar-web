@@ -1,25 +1,20 @@
 import CloudAccord from "@/components/CloudAccord";
 import { Button } from "@/components/ui/button";
 import { cloudAccordiandata } from "@/lib/constData";
+import { CloudAccordiandataType } from "@/utils/types";
 import Link from "next/link";
 import React from "react";
 
-type Props = {};
 
-const CloudAccordian = (props: Props) => {
+const CloudAccordian = ({data}:CloudAccordiandataType) => {
   return (
     <section className="flex flex-col gap-y-16">
-      <div className="lg:w-[60vw]">
+      <div className="lg:w-[60vw] flex flex-col gap-y-10">
         <div className="text-heading2 font-bold ">
-          All-encompassing cloud computing consulting and implementation
-          services
+          {data.title}
         </div>
         <div className="text-subtitle2">
-          We embrace an end-to-end approach — from thinking over the strategic
-          aspects of cloud adoption and migration to cloud, security consulting
-          and cloud infrastructure management. Our team of cloud consultants,
-          business analysts, developers, and DevOps engineers will ensure that
-          your cloud environment is efficient, safe, and high-performing.
+          {data.description}
         </div>
       </div>
       <div>

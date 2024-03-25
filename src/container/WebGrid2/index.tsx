@@ -1,9 +1,9 @@
-import ServiceIcon from "@/components/ServiceIcon";
 import { Button } from "@/components/ui/button";
 import { webSection } from "@/lib/constData";
 import { ServiceIconType } from "@/utils/types";
 import Link from "next/link";
 import React from "react";
+import WebGrid from "@/components/WebGrid";
 
 const WebGrid2 = ({ data }: ServiceIconType) => {
   return (
@@ -13,17 +13,19 @@ const WebGrid2 = ({ data }: ServiceIconType) => {
       </div>
       <div className="grid md:grid-cols-4 gap-8  ">
         {webSection.data.map((x) => (
-          <ServiceIcon key={x.description} data={x} />
+          <WebGrid key={x.description} data={x} />
         ))}
       </div>
-      <Link className="" href={"https://thespecialcharacter.graphy.com/"}>
-        <Button>
-          <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-            {data.button1} <span>{data?.button2}</span>
-            <span>&rarr;</span>
-          </span>
-        </Button>
-      </Link>
+      <div className="pt-3">
+        <Link className="" href={"https://thespecialcharacter.graphy.com/"}>
+          <Button>
+            <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+              {data.button1} <span>{data?.button2}</span>
+              <span>&rarr;</span>
+            </span>
+          </Button>
+        </Link>
+      </div>
     </section>
   );
 };
