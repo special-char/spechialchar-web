@@ -20,11 +20,13 @@ const CloudAccordian = ({data}:CloudAccordiandataType) => {
       <div>
         <CloudAccord data={cloudAccordiandata} />
       </div>
+      <div>
       <Link href={"https://thespecialcharacter.graphy.com/"}>
         <Button variant="default" size="sm" className=" py-7 text-base ">
           Lets Talk &rarr;
         </Button>
       </Link>
+      </div>
     </section>
   );
 };

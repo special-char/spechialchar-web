@@ -52,10 +52,7 @@ const Tab3 = ({ data }: tabdataType) => {
         </Tabs>
       </div>
       <div>
-        <Link
-          className="flex md:justify-start justify-center"
-          href={"https://thespecialcharacter.graphy.com/"}
-        >
+        <Link href={"https://thespecialcharacter.graphy.com/"}>
           <Button
             variant="default"
             size="sm"

@@ -11,15 +11,17 @@ const AccCards = () => {
           How we can help you
         </h1>
         <HomeAccordian />
-        <Link className="flex md:justify-start justify-center" href={"https://thespecialcharacter.graphy.com/"}>
-          <Button
-            variant="default"
-            size="sm"
-            className="px-16 md:px-20 py-7 text-base "
-          >
-            Discuss my Project
-          </Button>
-        </Link>
+        <div>
+          <Link href={"https://thespecialcharacter.graphy.com/"}>
+            <Button
+              variant="default"
+              size="sm"
+              className="px-16 md:px-20 py-7 text-base "
+            >
+              Discuss my Project
+            </Button>
+          </Link>
+        </div>
       </div>
     </>
   );
