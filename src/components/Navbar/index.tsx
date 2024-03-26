@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <header
       className={cn(
-        "w-full max-w-screen z-20 absolute top-0 py-2 bg-black transition-all ease-in-out duration-500",
+        "w-full fixed max-w-screen z-20 top-0 py-2 bg-black transition-all ease-in-out duration-500",
         {
           ["max-lg:bg-black"]: visible,
           ["max-lg:-translate-y-full"]: !visible,

@@ -16,7 +16,7 @@ const HomeBanner = ({ data }: HomeBannerdataType) => {
   });
 
   return (
-    <div className=" relative overflow-hidden max-md:top-14 max-md:h-[calc(100vh-56px)] h-screen">
+    <div className=" relative overflow-hidden max-sm:h-[calc(100vh-70px)] h-screen">
       <video
         autoPlay
         loop
