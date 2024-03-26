@@ -5,7 +5,7 @@ import React from "react";
 
 type Props = {};
 
-const CloudGrid3 = (props: Props) => {
+const CloudGrid3 = () => {
   return (
     <>
       <section className="bg-[#fffae3] lg:m-10 md:px-24 lg:  max-sm:py-7 sm:py-20  p-4 rounded-lg flex flex-col gap-y-9">
@@ -27,8 +27,10 @@ const CloudGrid3 = (props: Props) => {
         <Link href={"https://thespecialcharacter.graphy.com/"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-              Get started with <span>cloud computing</span>
-              <span>&rarr;</span>
+              Get started with{" "}
+              <span>
+                cloud computing<span>&rarr;</span>
+              </span>
             </span>
           </Button>
         </Link>

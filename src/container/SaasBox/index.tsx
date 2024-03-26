@@ -7,7 +7,7 @@ const SaasBox = () => {
   return (
     <>
       <div>
-        <div className="bg-blue-100 mx-5 my-10 lg: rounded-lg ">
+        <div className="bg-blue-100 mx-5 my-10 lg:rounded-lg ">
           <section>
             <ul className="list-square pl-4 grid lg:grid-cols-2 lg:px-1 gap-x-8 gap-y-8 md:grid-cols-2">
               {serviceBox1.map((i) => (

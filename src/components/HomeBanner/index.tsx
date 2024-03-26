@@ -16,13 +16,13 @@ const HomeBanner = ({ data }: HomeBannerdataType) => {
   });
 
   return (
-    <div className=" relative overflow-hidden max-sm:h-[calc(100vh-70px)] h-screen">
+    <div className=" relative overflow-hidden h-screen">
       <video
         autoPlay
         loop
         muted
         title="homeBanner"
-        className="absolute xl:w-full max-w-none "
+        className="absolute max-md:h-screen xl:w-full max-w-none "
         src="/images/newVideo.mp4"
       >
         Your browser does not support the video tag.
