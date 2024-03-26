@@ -36,7 +36,7 @@ const MobileNavbar = () => {
               <Cross1Icon width={24} height={24} />
             </div>
           </div>
-          <div className="pt-8 w-full">
+          <div className="pt-4 w-full">
             <Accordion type="single" collapsible>
               {accordionItems1.data.map((item, i) => (
                 <AccordionItem key={item.value} value={item.value} className="">
@@ -49,8 +49,8 @@ const MobileNavbar = () => {
                       {item.title}
                     </Link>
                   </AccordionTrigger>
-                  <AccordionContent className="p-4">
-                    <ul className="flex flex-col gap-y-2">
+                  <AccordionContent className="py-4">
+                    <ul className="flex flex-col gap-y-4">
                       {item?.content?.map((itemContent, subindex) => (
                         <li
                           key={subindex}

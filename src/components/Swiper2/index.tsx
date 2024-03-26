@@ -66,8 +66,7 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
         <Link href={"https://thespecialcharacter.graphy.com/"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-              Talk to web <span>development experts </span>
-              <span>&rarr;</span>
+              Talk to web <span>development experts <span>&rarr;</span></span>
             </span>
           </Button>
         </Link>
