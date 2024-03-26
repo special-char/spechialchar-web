@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 
 const Marque = ({ className }: { className?: string }) => (
   <div
-    className={cn("h-72 flex items-center bg-black", {
+    className={cn("py-20 flex items-center bg-black", {
       [`${className}`]: className,
     })}
   >
