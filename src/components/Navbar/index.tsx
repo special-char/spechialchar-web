@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <header
       className={cn(
-        "w-full z-20 fixed py-2 bg-black transition-all ease-in-out duration-500",
+        "w-full max-w-screen z-20 absolute top-0 py-2 bg-black transition-all ease-in-out duration-500",
         {
           ["max-lg:bg-black"]: visible,
           ["max-lg:-translate-y-full"]: !visible,
@@ -37,9 +37,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-start">
         <Link href="/">
-          <div className="">
-            <NavbarLogo className="lg:mt-3 h-12 w-40" />
-          </div>
+          <NavbarLogo className="lg:my-2 h-12 w-40" />
         </Link>
         {/* <--webView---> */}
         <div className="hidden lg:block w-full">
