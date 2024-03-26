@@ -57,11 +57,12 @@ const Tab2 = ({ data }: tabdataType) => {
                     })}
 
                 </Tabs>
-            </div><Link className="flex md:justify-start justify-center" href={"https://thespecialcharacter.graphy.com/"}><Button variant="default" size="sm" className='px-8 md:px-20 py-7 text-base '>
+            </div>
+            <div><Link href={"https://thespecialcharacter.graphy.com/"}><Button variant="default" size="sm" className='px-8 md:px-20 py-7 text-base '>
                 {data.button}
             </Button>
             </Link>
-
+            </div>
 
 
         </section>

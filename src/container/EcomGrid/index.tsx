@@ -15,7 +15,7 @@ const EcomGrid = (props: Props) => {
             <GridSection key={item.id} data={item} />
           ))}
         </div>
-        <div className="py-10">
+        <div className="pt-10">
           <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
