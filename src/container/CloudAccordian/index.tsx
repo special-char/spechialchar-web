@@ -10,12 +10,12 @@ const CloudAccordian = ({data}:CloudAccordiandataType) => {
   return (
     <section className="flex flex-col gap-y-16">
       <div className="lg:w-[60vw] flex flex-col gap-y-10">
-        <div className="text-heading2 font-bold ">
+        <h1 className="text-heading2 font-bold ">
           {data.title}
-        </div>
-        <div className="text-subtitle2">
+        </h1>
+        <h2 className="text-subtitle2">
           {data.description}
-        </div>
+        </h2>
       </div>
       <div>
         <CloudAccord data={cloudAccordiandata} />
