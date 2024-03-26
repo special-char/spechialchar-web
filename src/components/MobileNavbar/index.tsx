@@ -7,9 +7,11 @@ import {
 } from "@/components/According1";
 import Link from "next/link";
 import Humburger from "@/public.three-horizontal-lines-icon.svg";
-import Close from "@/public.icons/close-icon.svg";
 import NavbarLogo from "../../../public/icons/Logo New Website.svg";
 import { accordionItems1 } from "@/lib/constData";
+import { Cross1Icon } from "@radix-ui/react-icons";
+import { Button } from "../ui/button";
+import SocialIcon from "../Footer/SocialIcon";
 
 const MobileNavbar = () => {
   const [click, setClicked] = useState(false);
@@ -23,25 +25,26 @@ const MobileNavbar = () => {
         <Humburger className="fill-white mt-3" />
       </div>
       {click && (
-        <div className="absolute z-50  bg-black h-screen w-full left-0 top-0 p-4 ">
+        <div className="absolute z-50  bg-black text-white h-screen w-full left-0 top-0 p-4 ">
           <div className="flex justify-between items-center">
             <div>
               <Link href="/">
-                <NavbarLogo />
+                <NavbarLogo className="h-12 w-full" />
               </Link>
             </div>
             <div onClick={toggleDropdown}>
-              <Close className="fill-white  h-6 w-8" />
+              <Cross1Icon width={24} height={24} />
             </div>
           </div>
-          <div className="pt-8">
-            <Accordion type="single" className="  ">
+          <div className="pt-8 w-full">
+            <Accordion type="single" collapsible>
               {accordionItems1.data.map((item, i) => (
                 <AccordionItem key={item.value} value={item.value} className="">
                   <AccordionTrigger className="">
                     <Link
                       href={item.link.toLowerCase()}
                       onClick={toggleDropdown}
+                      className="text-xl"
                     >
                       {item.title}
                     </Link>
@@ -72,7 +75,7 @@ const MobileNavbar = () => {
                 <Link
                   href="/ourthinking"
                   onClick={toggleDropdown}
-                  className="text-white font-bold hover:text-second text-subtitle1 md:text-2xl py-3"
+                  className="text-white font-bold hover:text-second text-subtitle1 md:text-xl py-3"
                 >
                   Our Thinking
                 </Link>
@@ -80,9 +83,20 @@ const MobileNavbar = () => {
                 <Link
                   href="/casestudies"
                   onClick={toggleDropdown}
-                  className="text-white font-bold hover:text-second text-subtitle1 md:text-2xl py-3"
+                  className="text-white font-bold hover:text-second text-subtitle1 md:text-xl py-3"
                 >
                   Case Studies
+                </Link>
+              </div>
+              <div className="pt-4">
+                <Link className="pt-1" href={"#Contact"}>
+                  <Button
+                    variant={"outline"}
+                    size={"xl"}
+                    className=" py-1 px-4 text-white "
+                  >
+                    Contact Us
+                  </Button>
                 </Link>
               </div>
             </Accordion>

@@ -585,16 +585,6 @@ export const accordionItems = {
       link: "/company/about",
       content: ["About", "Career", "How-We-Work"],
     },
-    {
-      value: "item-4",
-      title: "Our Thinking",
-      link: "/ourthinking",
-    },
-    {
-      value: "item-5",
-      title: "Case Studies",
-      link: "/casestudies",
-    },
   ],
 };
 
