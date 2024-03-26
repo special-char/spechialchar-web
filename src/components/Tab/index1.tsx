@@ -17,13 +17,13 @@ const Tab1 = ({ data }: tabdataType) => {
                     <>
                       <div
                         key={item.id}
-                        className="flex flex-col gap-5  border-b-2  text-xl md:text-2xl  px-5 lg:text-4xl  xl:px-16  md:px-9   font-bold"
+                        className="flex flex-col gap-5 justify-between border-b-2  text-xl md:text-2xl  px-5 lg:text-4xl  xl:px-16  md:px-9   font-bold"
                       >
                         <Image
                           src={item.image}
                           alt=""
-                          height={40}
-                          width={40}
+                          height={50}
+                          width={50}
                           className="mx-auto"
                         />
 

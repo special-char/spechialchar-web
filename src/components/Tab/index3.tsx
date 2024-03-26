@@ -19,8 +19,8 @@ const Tab3 = ({ data }: tabdataType) => {
                         <Image
                           src={item.image}
                           alt=""
-                          height={40}
-                          width={40}
+                          height={60}
+                          width={60}
                           className="mx-auto"
                         />
 

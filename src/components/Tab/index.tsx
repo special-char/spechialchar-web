@@ -16,7 +16,7 @@ const Tab = ({ data }: tabdataType) => {
                 {tabdata.data.map((item) => {
                   return (
                     <>
-                      <div className="flex flex-col gap-3 border-b-2   text-xl md:text-2xl px-5 lg:text-4xl  lg:px-16 md:px-8   font-bold">
+                      <div className="flex flex-col gap-3 border-b-2  justify-between text-xl md:text-2xl px-5 lg:text-4xl  lg:px-16 md:px-8   font-bold">
                         <Image
                           src={item.image}
                           alt=""

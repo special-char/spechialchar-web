@@ -14,7 +14,7 @@ const AboutLinks = ({ data }: aboutlinksType) => {
                 {aboutlinks.data.map((item) =>
                     <div className='flex md:py-2 gap-3 text-2xl md:text-5xl lg:text-6xl text-blue-600 font-bold' key={item.id}>
                         <Link href={item.link} >{item.title}</Link>
-                        <Image src={item.image} height={40} width={40} alt=" " />
+                        <Image src={item.image} height={50} width={50} alt=" " />
                     </div>
                 )}
             </div>
