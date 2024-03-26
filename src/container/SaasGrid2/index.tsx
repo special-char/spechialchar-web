@@ -14,14 +14,16 @@ const SaasGrid = (props: Props) => {
           <SaasSec key={item.id} data={item} />
         ))}
       </div>
-      <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
-        <Button>
-          <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-            Talk to our <span>Saas experts</span>
-            <span>&rarr;</span>
-          </span>
-        </Button>
-      </Link>
+      <div className="pt-10">
+        <Link href={"https://thespecialcharacter.graphy.com/"}>
+          <Button>
+            <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+              Talk to our <span>Saas experts</span>
+              <span>&rarr;</span>
+            </span>
+          </Button>
+        </Link>
+      </div>
     </section>
   );
 };

@@ -12,14 +12,16 @@ const WebGrid3 = () => {
           <ServiceIcon key={x.url} data={x} />
         ))}
       </div>
-      <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
-        <Button>
-          <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-            Discuss your web <span>app development project </span>
-            <span>&rarr;</span>
-          </span>
-        </Button>
-      </Link>
+      <div className="pt-10">
+        <Link href={"https://thespecialcharacter.graphy.com/"}>
+          <Button>
+            <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+              Discuss your web <span>app development project </span>
+              <span>&rarr;</span>
+            </span>
+          </Button>
+        </Link>
+      </div>
     </section>
   );
 };

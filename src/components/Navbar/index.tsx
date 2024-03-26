@@ -8,10 +8,14 @@ import HeaderDesktop from "../HeaderDesktop";
 import { cn } from "@/lib/utils";
 
 const Navbar = () => {
-  const [scrollPosition, setScrollPosition] = useState(0);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
   useEffect(() => {
     const handleScroll = () => {
-      setScrollPosition(window.scrollY);
+      const currentScrollPos = window.pageYOffset;
+      setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 100);
+      setPrevScrollPos(currentScrollPos);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -19,28 +23,28 @@ const Navbar = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [prevScrollPos]);
+
   return (
     <header
       className={cn(
-        " w-full z-20 fixed py-2 bg-black transition-all ease-in-out duration-500",
+        "w-full fixed max-w-screen z-20 top-0 py-2 bg-black transition-all ease-in-out duration-500",
         {
-          ["bg-black"]: scrollPosition > 100,
+          ["max-lg:bg-black"]: visible,
+          ["max-lg:-translate-y-full"]: !visible,
         }
       )}
     >
       <div className="flex justify-between items-start">
         <Link href="/">
-          <div className="">
-            <NavbarLogo className="lg:mt-3 h-12 w-40" />
-          </div>
+          <NavbarLogo className="lg:my-2 h-12 w-40" />
         </Link>
         {/* <--webView---> */}
         <div className="hidden lg:block w-full">
           <HeaderDesktop />
         </div>
         {/* <---Mobilview----> */}
-        <div className="lg:hidden ">
+        <div className="lg:hidden">
           <MobileNavbar />
         </div>
       </div>

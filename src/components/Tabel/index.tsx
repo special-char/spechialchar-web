@@ -18,10 +18,10 @@ export default function TableDemo() {
   return (
     <section className="h-full w-full flex flex-col gap-y-10">
       <div className="px-4 sm:px-0">
-        <div className="lg:text-4xl font-bold  lg:pt-10 text-2xl">{TableContent.title}</div>
+        <div className="lg:text-4xl font-bold   text-2xl">{TableContent.title}</div>
         <hr />
       </div>
-      <div className="pb-10">
+      <div className="">
         <Table className=" ">
           <TableHeader>
             <TableRow>
@@ -42,9 +42,11 @@ export default function TableDemo() {
           </TableBody>
         </Table>
       </div>
-      <Link href={"https://thespecialcharacter.graphy.com/"}>
-        <Button>Get a Free consultation</Button>
-      </Link>
+      <div>
+        <Link href={"https://thespecialcharacter.graphy.com/"}>
+          <Button className="">Get a Free consultation</Button>
+        </Link>
+      </div>
     </section>
   );
 }

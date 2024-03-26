@@ -10,7 +10,6 @@ import Tab1 from "@/components/Tab/index1";
 import YellowBanner from "@/components/YellowBanner";
 import Banner from "@/container/Banner";
 import {
-  MobileSwiperData,
   SwiperServices1,
   YellowBannerData1,
   YellowBannerData2,
@@ -19,14 +18,12 @@ import {
   imageBanner4,
   imageBanner5,
   latestThinkingData,
-  mobileServicesdata,
   mobileicon,
   mobiletabdata,
   serviceAccordiandata,
 } from "@/lib/constData";
 import React from "react";
 
-type Props = {};
 
 const Mobile = () => {
   return (

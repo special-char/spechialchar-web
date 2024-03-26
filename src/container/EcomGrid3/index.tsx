@@ -7,9 +7,9 @@ import React from 'react'
 type Props = {}
 
 const EcomGrid3 = (props: Props) => {
-  return (
-    <>
-        <section className="grid md:grid-cols-2 max-md:grid-cols-1 gap-10 xl:px-60 px-3 my-20 ">
+    return (
+        <>
+            <section className="grid md:grid-cols-2 max-md:grid-cols-1 gap-10 xl:px-container px-3  ">
                 {Eco1.section3.map((item) => (
 
                     <div key={item.id} className="flex gap-2 sm:gap-5 ">
@@ -18,20 +18,20 @@ const EcomGrid3 = (props: Props) => {
 
                     </div>
                 ))}
-                <div className="py-10">
-                <Link className="py-10" href={'https://thespecialcharacter.graphy.com/'}>
-                    <Button>
-                    <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-                        Discuss your web <span>app development project </span>
-                        <span>&rarr;</span>
-                    </span>
-                    </Button>
-                </Link>
+                <div className="pt-5">
+                    <Link className="pt-10" href={'https://thespecialcharacter.graphy.com/'}>
+                        <Button>
+                            <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+                                Discuss your web <span>app development project </span>
+                                <span>&rarr;</span>
+                            </span>
+                        </Button>
+                    </Link>
                 </div>
-                
+
             </section>
-    </>
-  )
+        </>
+    )
 }
 
 export default EcomGrid3

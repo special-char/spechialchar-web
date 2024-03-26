@@ -1,17 +1,15 @@
-import SaasSec from "@/components/SaasSec";
+import WebGrid from "@/components/WebGrid";
 import { Button } from "@/components/ui/button";
 import { backicon2 } from "@/lib/constData";
 import Link from "next/link";
 import React from "react";
 
-type Props = {};
-
-const BackGrid3 = (props: Props) => {
+const BackGrid3 = () => {
   return (
     <section>
       <div className="grid md:grid-cols-4 gap-8 ">
         {backicon2.map((x) => (
-          <SaasSec key={x.title} data={x} />
+          <WebGrid key={x.id} data={x} />
         ))}
       </div>
       <div className="py-10">

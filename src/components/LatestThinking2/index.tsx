@@ -15,11 +15,9 @@ import Link from "next/link";
 const Banner = ({ data }: latestThinkingType) => {
   return (
     <>
-      <div className="text-5xl px-container py-4 font-bold md:text-8xl">
-        {data.title}
-      </div>
-      <section>
-        <div className="bg-background flex gap-4 md:items-center md:justify-between pt-6 max-md:pt-6 max-md:py-0">
+      <section className="flex flex-col gap-y-5 py-10">
+        <div className="text-5xl font-bold md:text-8xl">{data.title}</div>
+        <div className="bg-background flex gap-x-9 md:items-center md:justify-between pt-6 max-md:pt-6 max-md:py-0">
           <Swiper
             effect={"fade"}
             navigation={false}
@@ -32,8 +30,8 @@ const Banner = ({ data }: latestThinkingType) => {
           >
             {latestThinkingData2.data.map((x) => (
               <SwiperSlide className="h-full" key={x.id}>
-                <div className="flex bg-background max-lg:flex-col-reverse">
-                  <div className="md:flex-1 gap-2 pr-3">
+                <div className="flex bg-background gap-x-10 max-lg:flex-col-reverse">
+                  <div className="md:flex-1 gap-2 pt-10">
                     <Link
                       href={x.Link}
                       className=" leading-10 max-lg:text-heading2 text-4xl max-sm:text-heading2 font-bold"

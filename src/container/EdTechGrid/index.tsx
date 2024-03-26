@@ -22,8 +22,10 @@ const EdTechGrid = ({ data }: uiSectionType) => {
             <GridSection key={item.id} data={item} />
           ))}
         </div>
-        <div className="py-10">
-          <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
+        <div className="pt-10">
+          <Link
+            href={"https://thespecialcharacter.graphy.com/"}
+          >
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
                 Otp for custom eLearning <span>development </span>
@@ -32,7 +34,6 @@ const EdTechGrid = ({ data }: uiSectionType) => {
             </Button>
           </Link>
         </div>
-
       </section>
     </>
   );

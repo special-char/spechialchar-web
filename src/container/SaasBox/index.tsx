@@ -6,28 +6,34 @@ import React from "react";
 const SaasBox = () => {
   return (
     <>
-      <section>
-        <div className="bg-blue-100 border-r-2 sm:m-10 px-10 lg: py-20 rounded-lg ">
-          <ul className="list-square pl-4 grid lg:grid-cols-2 lg:px-1 gap-x-9 md:grid-cols-2">
-            {serviceBox1.map((i) => (
-              <li key={i.id} className="text-lg mb-2 ">
-                <span className="font-bold text-xl">{i?.title}</span>{" "}
-                {i.discription}
-              </li>
-            ))}
-          </ul>
+      <div>
+        <div className="bg-blue-100 mx-5 my-10 lg:rounded-lg ">
+          <section>
+            <ul className="list-square pl-4 grid lg:grid-cols-2 lg:px-1 gap-x-8 gap-y-8 md:grid-cols-2">
+              {serviceBox1.map((i) => (
+                <li key={i.id} className="text-lg mb-2 text-button">
+                  <span className="font-bold text-xl text-black">
+                    {i?.title}
+                  </span>{" "}
+                  <span className="text-black">{i.discription}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
         </div>
-        <div className="py-10">
+        <div className="pb-10 px-container">
           <Link href={"https://thespecialcharacter.graphy.com/"}>
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-                Lets Discuss Our <span>parternship</span>
-                <span>&rarr;</span>
+                Lets Discuss Our{" "}
+                <span>
+                  parternship <span>&rarr;</span>
+                </span>
               </span>
             </Button>
           </Link>
         </div>
-      </section>
+      </div>
     </>
   );
 };

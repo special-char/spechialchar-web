@@ -23,9 +23,7 @@ import {
 } from "@/lib/constData";
 import React from "react";
 
-type Props = {};
-
-const Ecommerce = (props: Props) => {
+const Ecommerce = () => {
   return (
     <>
       <Banner data={banner8} className="bg-background5 text-black" />

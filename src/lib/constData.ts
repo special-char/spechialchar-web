@@ -73,7 +73,7 @@ export const tabdata = {
       content:
         "ITRex Group also provides end-to-end software product engineering services. We’ll dive into your project requirements, come up with a technology vision and estimates, assemble a winning team that will dedicate 100% of their time to your project, and deliver a software solution while keeping you informed and fully in charge of the development process.",
       value: "Dedicated Teams",
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/cooling-icon.svg",
     },
     {
       id: 3,
@@ -81,7 +81,7 @@ export const tabdata = {
       content:
         "Your in-house IT team lacks skilled Kotlin developers? Need a couple Node.js programmers to create dynamic dashboards for an industrial IoT solution? Or is it a virtual CTO that you’re after? Our IT engineering services specialists will augment your team, adopt your methodologies and tools, and help you build quality products — on time, on budget, and up to spec.",
       value: "IT staff Augmentation",
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/snowflake-icon.svg",
     },
   ],
 };
@@ -585,16 +585,6 @@ export const accordionItems = {
       link: "/company/about",
       content: ["About", "Career", "How-We-Work"],
     },
-    {
-      value: "item-4",
-      title: "Our Thinking",
-      link: "/ourthinking",
-    },
-    {
-      value: "item-5",
-      title: "Case Studies",
-      link: "/casestudies",
-    },
   ],
 };
 
@@ -758,7 +748,7 @@ export const mobiletabdata = {
       content:
         "Integrate artificial intelligence into mobile applications to offer a more personalized and engaging user experience, advanced authentication, and task automation",
       value: "AI/ML",
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/snowflake-icon.svg",
     },
     {
       id: 3,
@@ -766,7 +756,7 @@ export const mobiletabdata = {
       content:
         "Leverage the potential of VR and AR apps to pull off interactive and immersive user experience and unlock new possibilities for remote assistance, workplace simulation, training, advertising, entertainment, and much more.",
       value: "AR/VR",
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/cooling-icon.svg",
     },
     {
       id: 4,
@@ -774,7 +764,7 @@ export const mobiletabdata = {
       content:
         "We build mobile apps that let businesses and consumers manage connected smart gadgets and analyze valuable data provided by them with just a few taps.",
       value: "IoT",
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/cluster-data-icon.svg",
     },
     {
       id: 5,
@@ -782,7 +772,7 @@ export const mobiletabdata = {
       content:
         "Achieve speed and flexibility with cloud-based apps that are quick to build and easy to scale and safely store the most sensitive data.",
       value: "Cloud",
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/cloud-download-icon.svg",
     },
   ],
 };
@@ -867,35 +857,35 @@ export const serviceAccordiandata = {
   data: [
     {
       id: 1,
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/bag-icon.svg",
       title: "Ecommerce",
       content:
         "Optimize operations and deliver personalized shopping experience with apps packed with next-generation tech and featuring geo-targeted push notifications, integrated payment solutions, and much more.",
     },
     {
       id: 2,
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/factory-icon.svg",
       title: "Enterprise",
       content:
         "Maximize employee productivity and performance, improve resource planning and overcome other business challenges with secure and scalable enterprise mobile apps that can be seamlessly integrated with corporate databases and workflows.",
     },
     {
       id: 3,
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/user-comment-icon.svg",
       title: "Social Media",
       content:
         "We build any kind of social media apps - from corporate solutions to interest-based networks - that incorporate emerging tech such as AR/VR and AI, and feature content sharing, live chats, newsfeeds, push notifications, and more.",
     },
     {
       id: 4,
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/television-icon.svg",
       title: "Real-Time Communication",
       content:
         "Building apps for real-time video and voice communication, instant messaging, multi-party conferencing and file sharing that let consumers stay connected and give businesses access to remote live collaboration or data sharing.",
     },
     {
       id: 5,
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/bulb-dollar-money-icon.svg",
       title: "Finance",
       content:
         "Creating fast and reliable mobile solutions for the entire financial industry that offer a user experience balancing security and simplicity and utilize new technology like blockchain and AI",
@@ -934,35 +924,35 @@ export const serviceAccordiandata1 = {
   data: [
     {
       id: 1,
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/video-play-roll-icon.svg",
       title: "Entertainment",
       content:
         "Keep users engaged with feature-rich and customizable applications that let them enjoy sports, movies, music, games and all kinds of other entertainment content on the go",
     },
     {
       id: 2,
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/water-drop-teardrop-icon.svg",
       title: "Wellness",
       content:
         "Satisfy the health conscious with apps for workouts, activity tracking, nutrition and diet planning, and health monitoring that have perfect connectivity with wearables and great personalization, and leverage the benefits of AI and AR/VR.",
     },
     {
       id: 3,
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/red-heart-icon.svg",
       title: "Healthcare",
       content:
         "Redefine healthcare with AI-powered digital therapeutics, real-time telehealth, remote patient monitoring, AR/VR-enabled training simulators, and apps for booking doctor appointments and managing health records.",
     },
     {
       id: 4,
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/book-open-icon.svg",
       title: "Education",
       content:
         "We build the entire range of m-learning apps that boast AR-powered instructions, videoconferencing and gamification features, and are easily integrated with social media and payment gateways.",
     },
     {
       id: 5,
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/logistic-truck-icon.svg",
       title: "Logistics & Transportation",
       content:
         "Helping businesses reduce paperwork, minimize delivery time and costs, track shipments in real time, and optimize fleet and warehouse management with scalable custom mobile applications",
@@ -1011,8 +1001,8 @@ export const webicon = {
     "Our custom web development services help you break away from the ordinary",
   texts:
     "Building successful web solutions since 2009, we have the expertise to build something great for you, too. Whatever your challenge is, there would be few things in the web development world that we haven’t worked with. Tap our custom web development services to create seamless web experiences that captivate. Our ITRex team delivers:",
-  button1: "Request our Custom",
-  button2: "web Development services",
+  button1: "Request our custom web",
+  button2: "development services",
   data: [
     {
       url: "/images/accord_1-1.gif",
@@ -1259,18 +1249,18 @@ export const careercap = {
     },
     {
       id: 2,
-      url: "/icons/atom-symbol.svg",
+      url: "/icons/cluster-data-icon.svg",
       desc: "Embedded systems and the Internet of Things",
     },
     {
       id: 3,
-      url: "/icons/atom-symbol.svg",
+      url: "/icons/snowflake-icon.svg",
       desc: "Virtual reality, augmented reality and mixed reality",
     },
 
     {
       id: 4,
-      url: "/icons/atom-symbol.svg",
+      url: "/icons/virtual.svg",
       desc: "Intelligent business automation",
     },
   ],
@@ -2040,21 +2030,21 @@ export const edAccordiandata = {
   data: [
     {
       id: 1,
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/cluster-data-icon.svg",
       title: "Communication ",
       content:
         "Leveraging live chats, IP telephony, and videoconferencing, we offset the lack of in-person interaction and make learning more accessible",
     },
     {
       id: 2,
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/user-comment-icon.svg",
       title: "Gamification",
       content:
         "We make sure the tech-savvy students of today stay focused and interested with gamified features smoothly integrated into your educational software",
     },
     {
       id: 3,
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/video-play-roll-icon.svg",
       title: "Media streaming",
       content:
         "We enrich our educational apps with audio- and video streaming components supported by flexible and resilient cloud content delivery networks and real-time communication techs",
@@ -2073,14 +2063,14 @@ export const edAccordiandata1 = {
     },
     {
       id: 2,
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/virtual-reality.svg",
       title: "Virtual reality",
       content:
         "Take advantage of VR and AR solutions for headsets and mobile phones and tap in comprehensive data visualizations, intelligent simulations of real-world experiences, and immersive learning scenarios",
     },
     {
       id: 3,
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/cloud-download-icon.svg",
       title: "Cross-platform availability",
       content:
         "We make sure our eLearning solutions are accessible anytime and from any device, tailoring them to run in browsers and on multiple desktop and mobile operating systems",
@@ -2728,24 +2718,24 @@ export const imageBanner15 = {
 
 export const backicon2 = [
   {
-    // url: "/images/accord_1-1.gif",
+    id: 1,
     title: "Programming Languages",
     description: "Java, Python, PHP, JavaScrip, C#, Go",
   },
   {
-    // url: "/images/accord_2-2.gif",
+    id: 2,
     title: "Frameworks & Development Environments",
     description:
       ".Net, .Node.js, Express.js, Nest.js, Symphony, Laravel, Django, Falkon, Flask",
   },
   {
-    // url: "/images/accord_3-3.gif",
+    id: 3,
     title: "Databases",
     description:
       "MySQL, PostgreSQL, Microsoft SQL Server, MongoDB, DynamoDB, MariaDB, Firebase, Apache Cassandra, Redis, Elasticsearch",
   },
   {
-    // url: "/images/accord_4-4.gif",
+    id: 4,
     title: "Cloud",
     description: "Google Cloud, Microsoft Azure, Amazon Web Services",
   },
@@ -2794,18 +2784,22 @@ export const banner4 = {
 };
 
 export const cloudAccordiandata = {
+  title:
+    "All-encompassing cloud computing consulting and implementation services",
+  description:
+    "We embrace an end-to-end approach — from thinking over the strategic aspects of cloud adoption and migration to cloud, security consulting and cloud infrastructure management. Our team of cloud consultants, business analysts, developers, and DevOps engineers will ensure that your cloud environment is efficient, safe, and high-performing.",
   button: "Contact Us",
   data: [
     {
       id: 1,
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/cloud-download-icon.svg",
       title: "Cloud Adoption and Migration",
       content:
         "Our vetted cloud solutions consultants dive in your tech infrastructure and study your needs to help you adopt the best-fit cloud migration strategy. We re-platform and modernize your apps and put APIs in place to integrate the newly migrated applications with enterprise software at minimal risks",
     },
     {
       id: 2,
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/logistic-truck-icon.svg",
       title: "Cloud Infrastructure Management",
       content:
         "We configure, monitor, and optimize the components of your cloud infrastructure, setting up DevOps, DevSecOps, and Infrastructure as Code practices to ensure optimal usage of cloud resources and high software performance with no downtime",
@@ -2817,14 +2811,14 @@ export const cloudAccordiandata1 = {
   data: [
     {
       id: 1,
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/cooling-icon.svg",
       title: "Cloud Optimization and Consulting",
       content:
         "We analyze your cloud infrastructure, detect under- and over-provisioned instances and idle resources, and identify security gaps to remove performance bottlenecks, achieve 99.9% uptime, and lower your cloud computing costs",
     },
     {
       id: 2,
-      image: "/icons/atom-symbol.svg",
+      image: "/icons/cluster-data-icon.svg",
       title: "Cloud Application Development",
       content:
         "We are well-versed in working with AWS, Microsoft Azure, Google Cloud, and other cloud platforms and are ready to use our knowledge to implement a resilient and high-performing cloud app of any kind — from a mobile app back end to a complex AI-powered system",
@@ -3027,25 +3021,25 @@ export const aboutlinks = {
       id: 1,
       title: "EdTech & eLearning",
       link: "/industry/elearning",
-      image: "/icons/refresh.svg",
+      image: "/icons/book-open-icon.svg",
     },
     {
       id: 2,
-      title: "Ecommerce",
-      link: "/industry/ecommerce",
-      image: "/icons/refresh.svg",
+      title: "UI/UX Design",
+      link: "/services/uiux-design",
+      image: "/icons/red-heart-icon.svg",
     },
     {
       id: 3,
-      title: "UI/UX Design",
-      link: "/services/uiux-design",
-      image: "/icons/refresh.svg",
+      title: "Cloud & DevOps",
+      link: "/services/cloud-devops",
+      image: "/icons/cloud-download-icon.svg",
     },
     {
       id: 4,
-      title: "Cloud & DevOps",
-      link: "/services/cloud-devops",
-      image: "/icons/refresh.svg",
+      title: "Ecommerce",
+      link: "/industry/ecommerce",
+      image: "/icons/bag-icon.svg",
     },
   ],
 };
@@ -3490,30 +3484,30 @@ export const cloudgrid4 = {
 
   section: [
     {
-      title: "",
+      title1: "",
       id: 1,
-      title1: "Scalability from day one",
+      title: "Scalability from day one",
       description:
         "A cloud infrastructure that will scale flexibly along with your business for unstoppable growth",
     },
     {
-      title: "",
+      title1: "",
       id: 2,
-      title1: "Built-in security",
+      title: "Built-in security",
       description:
         "Advanced security tools and best practices of cloud security consulting for utmost data protection",
     },
     {
-      title: "",
+      title1: "",
       id: 3,
-      title1: "Compliance with industry-specific standards",
+      title: "Compliance with industry-specific standards",
       description:
         "Comprehensive compliance controls for HIPAA, PCI-DSS, GDPR, and other standards",
     },
     {
-      title: "",
+      title1: "",
       id: 4,
-      title1: "Room for innovation",
+      title: "Room for innovation",
       description:
         "A perfect environment for deploying AI, ML, IoT, and other next-gen solutions",
     },

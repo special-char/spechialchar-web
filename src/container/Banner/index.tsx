@@ -30,12 +30,11 @@ const Banner = ({
             {data.description}
           </div>
 
-          <div className="grid w-full">
+          <div className="max-md:grid max-md:w-full">
             <Link className="" href={"https://thespecialcharacter.graphy.com/"}>
               <Button variant="default" size="lg" className=" py-7 text-base ">
                 <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-                  {data?.button1} <span>{data?.button2}</span>
-                  <span>&rarr;</span>
+                  {data?.button1} <span>{data?.button2}<span>&rarr;</span></span>
                 </span>
               </Button>
             </Link>

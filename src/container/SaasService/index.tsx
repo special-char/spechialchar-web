@@ -13,8 +13,8 @@ const SaasService = () => {
           {listData1.data.map((i) => {
             return (
               <div key={i?.id} className="list-square text-subtitle2">
-                <li className="font-bold">
-                  {i.title}
+                <li className="font-bold text-button">
+                  <span className="text-black">{i.title}</span>
                 </li>
               </div>
             );
@@ -24,22 +24,24 @@ const SaasService = () => {
           {listData2.data.map((i) => {
             return (
               <div key={i?.id} className="list-square text-subtitle2">
-                <li className="font-bold">
-                  {i.title}
+                <li className="font-bold text-button">
+                  <span className="text-black">{i.title}</span>
                 </li>
               </div>
             );
           })}
         </div>
       </ul>
-      <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
-        <Button>
-          <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-            Request our saas development<span>services </span>
-            <span>&rarr;</span>
-          </span>
-        </Button>
-      </Link>
+      <div className="pt-10">
+        <Link href={"https://thespecialcharacter.graphy.com/"}>
+          <Button>
+            <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+              Request our saas development<span>services </span>
+              <span>&rarr;</span>
+            </span>
+          </Button>
+        </Link>
+      </div>
     </section>
   );
 };

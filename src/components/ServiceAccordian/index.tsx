@@ -28,7 +28,7 @@ const ServiceAccordian = ({ data }: serviceAccordiandataType) => {
                   <AccordionTrigger className=" flex flex-1 items-center justify-between text-xl lg:text-3xl font-semibold    ">
                     <div className="flex gap-10 md:gap-3  items-center">
                       <div className=" md:flex md:gap-40 lg:gap-[30rem] items-center  hidden">
-                        <Image alt="" src={item.image} width={40} height={40} />
+                        <Image alt="" src={item.image} width={30} height={30} />
                       </div>
 
                       <div>{item.title}</div>
@@ -53,7 +53,7 @@ const ServiceAccordian = ({ data }: serviceAccordiandataType) => {
                   <AccordionTrigger className="  flex flex-1 items-center justify-between text-xl lg:text-3xl font-semibold">
                     <div className="flex gap-10 md:gap-3 items-center">
                       <div className=" md:flex md:gap-40 lg:gap-[30rem] items-center  hidden">
-                        <Image alt="" src={item.image} width={40} height={40} />
+                        <Image alt="" src={item.image} width={30} height={30} />
                       </div>
 
                       <div>{item.title}</div>
@@ -67,13 +67,13 @@ const ServiceAccordian = ({ data }: serviceAccordiandataType) => {
             })}
           </Accordion>
         </div>
-      </section>
-      <section>
-        <Link href={"https://thespecialcharacter.graphy.com/"}>
-          <Button variant="default" size="sm" className=" py-7 text-base ">
-            Contact Us &rarr;
-          </Button>
-        </Link>
+        <div className="pt-10">
+          <Link href={"https://thespecialcharacter.graphy.com/"}>
+            <Button variant="default" size="sm" className=" py-7 text-base ">
+              Contact Us &rarr;
+            </Button>
+          </Link>
+        </div>
       </section>
     </>
   );

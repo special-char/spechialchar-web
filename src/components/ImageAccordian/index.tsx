@@ -39,7 +39,7 @@ const ImageAccordion = ({ data }: imageAccordianDataType) => {
                         );
                     })}
                 </div>
-                <div className="py-10">
+                <div className="pt-10">
                     <Button>
                         <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
                             {data.button}
