@@ -3,11 +3,10 @@ import { backbox } from "@/lib/constData";
 import Link from "next/link";
 import React from "react";
 
-
 const BackBox = () => {
   return (
     <>
-      <div className="bg-blue-100 md:mx-5 md:my-10 px-container py-14 rounded-lg ">
+      <div className="bg-blue-100 md:mx-5 md:my-10 max-md:m-5 px-container py-14 rounded-lg ">
         <ul className="list-square pl-7 grid lg:grid-cols-2  lg:px-1 gap-x-10 gap-y-8 md:grid-cols-2">
           {backbox.map((i) => (
             <li key={i.id} className="text-lg mb-2 text-button">

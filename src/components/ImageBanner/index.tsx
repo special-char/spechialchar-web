@@ -13,10 +13,10 @@ const ImageBanner = ({ data }: BgBannerType) => {
     >
       <div className=" my-12 md:my-36">
         <div className="text-white  ">
-          <h3 className="text-5xl font-extrabold md:text-5xl lg:text-6xl max-sm:text-3xl">
+          <h2 className="text-5xl font-extrabold md:text-5xl lg:text-6xl max-sm:text-3xl">
             {data.title1} <br />
             <span className="text-second">{data.title2}</span>
-          </h3>
+          </h2>
         </div>
       </div>
     </section>
