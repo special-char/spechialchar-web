@@ -21,6 +21,7 @@ const HomeBanner = ({ data }: HomeBannerdataType) => {
         autoPlay
         loop
         muted
+        title="homeBanner"
         className="absolute xl:w-full max-w-none "
         src="/images/newVideo.mp4"
       >

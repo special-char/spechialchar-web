@@ -13,14 +13,16 @@ const WebGrid4 = ({ data }: ServiceIconType) => {
           <GridSection key={x.description} data={x} />
         ))}
       </div>
-      <Link className="pt-5 " href={"https://thespecialcharacter.graphy.com/"}>
-        <Button>
-          <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-            {data.button1} <span>{data?.button2}</span>
-            <span>&rarr;</span>
-          </span>
-        </Button>
-      </Link>
+      <div className="pt-5">
+        <Link href={"https://thespecialcharacter.graphy.com/"}>
+          <Button>
+            <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+              {data.button1} <span>{data?.button2}</span>
+              <span>&rarr;</span>
+            </span>
+          </Button>
+        </Link>
+      </div>
     </section>
   );
 };

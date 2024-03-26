@@ -4,13 +4,7 @@ import Marquee from "react-fast-marquee";
 import { MarqueData } from "@/lib/constData";
 import { cn } from "@/lib/utils";
 
-const Marque = ({
-
-  className,
-}: {
-
-  className?: string;
-}) => (
+const Marque = ({ className }: { className?: string }) => (
   <div
     className={cn("h-72 flex items-center bg-black", {
       [`${className}`]: className,
@@ -23,11 +17,11 @@ const Marque = ({
             <Image
               src={x.src}
               alt="image"
+              title="marqueeLinks"
               height={70}
               width={70}
               className="object-cover"
             />
-
           </div>
         ))}
       </div>

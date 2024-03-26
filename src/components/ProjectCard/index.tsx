@@ -26,6 +26,7 @@ export function ProjectCard() {
                       src={item.url}
                       className="w-full aspect-video object-cover rounded-md group-hover:transform group-hover:duration-75 group-hover:scale-110"
                       alt="image"
+                      title="ProjectCards"
                       height={550}
                       width={700}
                     />

@@ -15,7 +15,10 @@ const Tab1 = ({ data }: tabdataType) => {
                 {mobiletabdata.data.map((item) => {
                   return (
                     <>
-                      <div key={item.id} className="flex flex-col gap-5  border-b-2  text-xl md:text-2xl  px-5 lg:text-4xl  xl:px-16  md:px-9   font-bold">
+                      <div
+                        key={item.id}
+                        className="flex flex-col gap-5  border-b-2  text-xl md:text-2xl  px-5 lg:text-4xl  xl:px-16  md:px-9   font-bold"
+                      >
                         <Image
                           src={item.image}
                           alt=""
@@ -51,21 +54,19 @@ const Tab1 = ({ data }: tabdataType) => {
           })}
         </Tabs>
       </div>
-      <Link
-        className="flex md:justify-start justify-center"
-        href={"https://thespecialcharacter.graphy.com/"}
-      >
-        <Button
-          variant="default"
-          size="sm"
-          className="px-8 md:px-20 py-7 text-base "
-        >
-          <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-            {data.button} {data?.button2} &rarr; 
-          </span>
-          
-        </Button>
-      </Link>
+      <div>
+        <Link href={"https://thespecialcharacter.graphy.com/"}>
+          <Button
+            variant="default"
+            size="sm"
+            className="px-8 md:px-20 py-7 text-base "
+          >
+            <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+              {data.button} {data?.button2} &rarr;
+            </span>
+          </Button>
+        </Link>
+      </div>
     </section>
   );
 };

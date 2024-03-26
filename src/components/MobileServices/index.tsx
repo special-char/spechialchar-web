@@ -35,12 +35,13 @@ export default function Index() {
           </div>
         </Tabs>
       </div>
-
+      <div>
       <Link href={"https://thespecialcharacter.graphy.com/"}>
         <Button variant={"secondary"}>
           <span>Hire mobile app devalopers &rarr;</span>
         </Button>
       </Link>
+      </div>
     </section>
   );
 }
