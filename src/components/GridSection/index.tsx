@@ -10,7 +10,7 @@ const GridSection = ({ data }: gridsectiontype) => {
         {data?.title1}
 
       </div>
-      <div className=" text-md max-md:text-xl py-10 text-gray-400 font-medium">
+      <div className=" text-md max-md:text-xl pt-5 pb-8 text-gray-400 font-medium">
         {data.description}
       </div>
     </div>
