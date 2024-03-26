@@ -7,8 +7,8 @@ export const SwiperNavButtons = () => {
   const swiper = useSwiper();
 
   return (
-    <div className="pt-3 lg:pt-8">
-      <button className=" bg-white   px-4 py-5 rounded-full  grid grid-cols-2 gap-x-2 sm:mt-[85px] md:mt-[140px] lg:gap-x-4  ">
+    <div className="">
+      <button className=" bg-white   px-4 py-5 rounded-full  grid grid-cols-2 gap-x-2  lg:gap-x-4  ">
         <IoIosArrowBack
           className="h-4 w-4 text-black text-xl"
           onClick={() => swiper.slidePrev()}

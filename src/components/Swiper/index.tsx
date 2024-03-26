@@ -39,28 +39,30 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
           {SwiperServices.data.map((car, index) => (
             <SwiperSlide key={index} className="py-4">
               <Link
-                className=" overflow-hidden overflow-y-hidden aspect-square max-md:h-[30rem] "
+                className=" overflow-hidden overflow-y-hidden aspect-square sm:h-[30rem] "
                 href={"https://thespecialcharacter.graphy.com/"}
               >
-                <Image
-                  src={car.src}
-                  alt={car.alt}
-                  className=" flex flex-col absolute max-md:object-cover md:aspect-square left-0 top-0 -z-10  gap-x-4"
-                  height={200}
-                  width={800}
-                />
-                <div className=" py-3 px-4 md:px-12  text-white  text-2xl md:text-3xl   font-bold overflow-hidden lg:px-10 lg:pr-20">
-                  {car.alt}&rarr;
+                <div className="relative">
+                  <Image
+                    src={car.src}
+                    alt={car.alt}
+                    className=" flex flex-col  object-cover aspect-square left-0 top-0 -z-10  gap-x-4"
+                    height={200}
+                    width={800}
+                  />
+                  <div className=" py-3 px-4 md:px-12 absolute left-0 top-0  text-white  text-2xl md:text-3xl   font-bold overflow-hidden lg:px-10 lg:pr-20">
+                    {car.alt}&rarr;
+                  </div>
                 </div>
               </Link>
             </SwiperSlide>
           ))}
         </div>
-        <div className="lg:pt-20 sm:pt-24 max-sm:hidden">
+        <div className="max-sm:hidden pt-4">
           <SwiperNavButtons />
         </div>
       </Swiper>
-      <div className="py-10">
+      <div className="sm:pt-10 sm:pb-2">
         <Link href={"https://thespecialcharacter.graphy.com/"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">

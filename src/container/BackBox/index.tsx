@@ -3,32 +3,30 @@ import { backbox } from "@/lib/constData";
 import Link from "next/link";
 import React from "react";
 
-type Props = {};
 
-const BackBox = (props: Props) => {
+const BackBox = () => {
   return (
     <>
-      <section className="bg-blue-100 border-r-2 lg:m-10 lg:px-24 lg: py-20  p-4 rounded-lg ">
-        <ul className="list-square pl-7 grid lg:grid-cols-2  lg:px-1 gap-x-10 md:grid-cols-2">
+      <div className="bg-blue-100 md:mx-5 md:my-10 px-container py-14 rounded-lg ">
+        <ul className="list-square pl-7 grid lg:grid-cols-2  lg:px-1 gap-x-10 gap-y-8 md:grid-cols-2">
           {backbox.map((i) => (
-            <li key={i.id} className="text-lg mb-2 ">
-              <span className="font-bold text-xl">{i?.title}</span>{" "}
-              {i.discription}
+            <li key={i.id} className="text-lg mb-2 text-button">
+              <span className="font-bold text-xl text-black">{i?.title}</span>{" "}
+              <span className="text-black">{i.discription}</span>
             </li>
           ))}
         </ul>
-      </section>
-      <section className="py-10">
+      </div>
+      <div className="px-container max-md:pt-10 pb-10">
         <Link href={"https://thespecialcharacter.graphy.com/"}>
-        <Button>
-          <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-            Talk to back-end <span>development experts</span>
-            <span>&rarr;</span>
-          </span>
-        </Button>
+          <Button>
+            <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+              Talk to back-end <span>development experts</span>
+              <span>&rarr;</span>
+            </span>
+          </Button>
         </Link>
-        
-      </section>
+      </div>
     </>
   );
 };

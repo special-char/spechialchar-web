@@ -15,8 +15,8 @@ const UiGrid = (props: Props) => {
             <GridSection key={item.id} data={item} />
           ))}
         </div>
-        <div className="py-10">
-          <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
+        <div className="pt-10">
+          <Link href={"https://thespecialcharacter.graphy.com/"}>
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
                 Discuss your Ui/Ux <span>design needs</span>

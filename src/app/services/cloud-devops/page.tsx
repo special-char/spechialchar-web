@@ -15,6 +15,7 @@ import {
   YellowBannerData6,
   YellowBannerData7,
   banner5,
+  cloudAccordiandata,
   imageBanner17,
   imageBanner18,
   imageBanner19,
@@ -23,13 +24,12 @@ import {
 } from "@/lib/constData";
 import React from "react";
 
-type Props = {};
 
-const CloudDevops = (props: Props) => {
+const CloudDevops = () => {
   return (
     <>
       <Banner data={banner5}/>
-      <CloudAccordian />
+      <CloudAccordian data={cloudAccordiandata}/>
       <ImageBanner data={imageBanner17} />
       <YellowBanner data={YellowBannerData5} />
       <CloudGrid />
