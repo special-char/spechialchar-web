@@ -24,7 +24,7 @@ const HeaderDesktop = () => {
             </div>
             <ul className="text-white top-full left-0 mt-1 group-hover:mb-3 max-h-0 overflow-hidden transition-all duration-300 group-hover:max-h-screen flex flex-col gap-y-4 pt-2">
               {item?.content?.map((itemContent, subindex) => (
-                <div className="">
+                <div key={subindex} className="">
                   <Link
                   key={subindex}
                   href={`/${item.title.toLowerCase()}/${item.content[
