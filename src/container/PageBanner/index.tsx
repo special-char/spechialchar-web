@@ -13,7 +13,7 @@ const PageBanner = ({
 }) => {
   return (
     <section
-      className={cn("h-screen py-40 flex bg-white flex-wrap items-center", {
+      className={cn("h-screen py-40 flex bg-background flex-wrap items-center", {
         [`${className}`]: className,
       })}
     >

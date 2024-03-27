@@ -16,10 +16,10 @@ const HowBanner = ({ data }: HowBannerType) => {
         backgroundPosition: "center",
       }}
     >
-      <h1 className="text-slate-200 text-heading2 font-bold lg:pt-36  max-sm:-mb-12  ">
+      <h1 className="text-gray text-heading2 font-bold lg:pt-36  max-sm:-mb-12  ">
         {data.title}
       </h1>
-      <div className="flex max-sm:flex-col  lg:justify-center text-slate-200  gap-10  max-md:pb-28 max-sm:py-2 ">
+      <div className="flex max-sm:flex-col  lg:justify-center text-gray  gap-10  max-md:pb-28 max-sm:py-2 ">
         <h2 className="sm:border-r-2 sm:pr-4  max-sm:border-b-2 max-sm:pb-7 lg:pr-6 border-h-2 text-sm">
           {data.desc}
         </h2>

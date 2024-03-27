@@ -14,7 +14,7 @@ import { Button } from "../ui/button";
 
 const Swiper1 = ({ data }: SwiperServicesData) => {
   return (
-    <section className=" py-10 bg-gray-100 ">
+    <section className=" py-10 bg-gray ">
       <div className="py-5 lg:pb-10 text-2xl font-bold pr-4 max-md:text-heading2 md:text-4xl lg:text-5xl lg:pr-44  ">
         {data.title}
       </div>
@@ -50,7 +50,7 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
                     height={200}
                     width={800}
                   />
-                  <div className=" py-3 px-4 md:px-12 absolute left-0 top-0  text-white  text-2xl md:text-3xl   font-bold overflow-hidden lg:px-10 lg:pr-20">
+                  <div className=" py-3 px-4 md:px-12 absolute left-0 top-0  text-background text-2xl md:text-3xl   font-bold overflow-hidden lg:px-10 lg:pr-20">
                     {car.alt}&rarr;
                   </div>
                 </div>

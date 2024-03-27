@@ -27,16 +27,16 @@ const HowModel = ({ data }: HowModelType) => {
       </div>
 
       <div className=" mb-8 lg:pr-72 md: pr-12 ">
-        <p className="text-base md:text-lg lg:text-base flex-1 text-gray-400">
+        <p className="text-base md:text-lg lg:text-base flex-1 text-gray">
           {data.par}
         </p>
       </div>
-      <hr className="border-gray-300 " />
-      <hr className="border-gray-300 " />
+      <hr className="border-gray " />
+      <hr className="border-gray " />
       <div>
         {howmodel.section.map((item, index) => {
           return (
-            <div key={item.id} className="border-b-2 border-gray-300">
+            <div key={item.id} className="border-b-2 border-gray">
               <div className=" py-8 flex flex-col md:flex-row ">
                 <div className="flex-1">
                   <h4 className="text-lg md:text-subtitle1 lg:text-3xl font-bold mb-2">
@@ -44,7 +44,7 @@ const HowModel = ({ data }: HowModelType) => {
                   </h4>
                 </div>
                 <div className="flex-1 md:flex-grow ">
-                  <p className="text-sm md:text-base lg:text-lg text-slate-400 ">
+                  <p className="text-sm md:text-base lg:text-lg text-gray1 ">
                     {item.desc}
                   </p>
                   <div className="-pl-2">

@@ -26,14 +26,14 @@ const DesktopDropdown = () => {
             <div key={index} className="dropdown inline-block z-50 ">
               <Link
                 href={`/${dropdown.link.toLowerCase()}`}
-                className="  text-white cursor-pointer hover:text-yellow-300 flex gap-x-2 text-lg "
+                className="  text-background cursor-pointer hover:text-yellow flex gap-x-2 text-lg "
               >
                 {dropdown.title}
                 <ChevronDownIcon className="hover:rotate-180 mt-1" />
               </Link>
               <div className="relative w-full h-full left-0">
                 <li
-                  className="dropdown-content  text-white  py-5 hover:block hidden     px-2"
+                  className="dropdown-content  text-background  py-5 hover:block hidden     px-2"
                   style={{
                     backgroundColor:
                       scrollPosition > 100
@@ -49,12 +49,12 @@ const DesktopDropdown = () => {
             </div>
           ))}
           <Link href="/ourthing">
-            <ul className="text-white hover:text-yellow-300 text-lg ">
+            <ul className="text-background hover:text-yellow text-lg ">
               Our Thing
             </ul>
           </Link>
           <Link href="/casestudio">
-            <ul className="text-white hover:text-yellow-300 text-lg">
+            <ul className="text-background hover:text-yellow text-lg">
               Case Studio
             </ul>
           </Link>
@@ -62,7 +62,7 @@ const DesktopDropdown = () => {
             <Button
               variant={"outline"}
               size={"xl"}
-              className=" py-1 px-4 text-white "
+              className=" py-1 px-4 text-background"
             >
               Contact Us
             </Button>

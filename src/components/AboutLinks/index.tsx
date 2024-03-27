@@ -15,7 +15,7 @@ const AboutLinks = ({ data }: aboutlinksType) => {
       <div className="py-5">
         {aboutlinks.data.map((item) => (
           <div
-            className="flex md:py-2 gap-3 text-2xl md:text-5xl lg:text-6xl text-blue-600 font-bold"
+            className="flex md:py-2 gap-3 text-2xl md:text-5xl lg:text-6xl text-blue font-bold"
             key={item.id}
           >
             <Link href={item.link}>{item.title}</Link>

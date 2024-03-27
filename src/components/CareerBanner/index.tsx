@@ -11,9 +11,9 @@ const CareerBanner = ({ data }: CareerBannerdataType) => {
         backgroundPosition: "center",
       }}
     >
-      <div className="text-white text-center p-4 sm:p-0">
+      <div className="text-background text-center p-4 sm:p-0">
         <div className="flex flex-col gap-10 py-4">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-yellow-400 lg:text-8xl">
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-yellow lg:text-8xl">
             {data.title1}
             <br></br>
             {data.title2}
