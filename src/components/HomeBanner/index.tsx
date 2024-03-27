@@ -17,7 +17,7 @@ const HomeBanner = ({ data }: HomeBannerdataType) => {
 
   return (
     <div className=" relative overflow-hidden h-screen">
-      <video
+      {/* <video
         autoPlay
         loop
         muted
@@ -26,15 +26,15 @@ const HomeBanner = ({ data }: HomeBannerdataType) => {
         src="/images/newVideo.mp4"
       >
         Your browser does not support the video tag.
-      </video>
-      <section className="relative z-0 text-yellow-300 h-full flex flex-wrap flex-col  justify-center lg:text-6xl font-bold text-4xl ">
+      </video> */}
+      <section className="relative z-0 text-button h-full flex flex-wrap flex-col  justify-center lg:text-6xl font-bold text-4xl ">
         {data.title}
-        <div className="text-white max-sm:items-center">{data.title2}</div>
-        <div className="flex flex-wrap  justify-between  mt-32 gap-10 text-3xl text-white">
+        <div className="text-black max-sm:items-center">{data.title2}</div>
+        <div className="flex flex-wrap  justify-between  mt-32 gap-10 text-3xl text-black">
           <div className="pt-1">
             {" "}
             {data.subtitle}{" "}
-            <span className="text-yellow-300">{values[index]}</span>
+            <span className="text-button">{values[index]}</span>
           </div>
           <Link href={"https://thespecialcharacter.graphy.com/"} className="">
             <Button

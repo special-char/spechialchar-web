@@ -11,11 +11,11 @@
 }
 
 .image-accordion-item.active {
-  @apply lg:w-[90rem]  duration-700  opacity-100 max-lg:h-10 ;
+  @apply lg:w-[90rem]  transition-all  animate-fadeleft duration-1000  opacity-100 max-lg:h-10 ;
 }
 
 .image-accordion-item .content {
-  @apply absolute invisible p-8  bottom-0 transition duration-200;
+  @apply absolute invisible p-8  bottom-0 ;
 }
 
 .image-accordion-item .content1 {
@@ -27,7 +27,7 @@
 }
 
 .image-accordion-item.active .content {
-  @apply opacity-100 lg:visible;
+  @apply opacity-100 lg:visible animate-fadeinup duration-1000 ;
 }
 .image-accordion-item img {
   @apply absolute  object-cover top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  h-[100%] ;
