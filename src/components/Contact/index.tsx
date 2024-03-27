@@ -42,7 +42,6 @@ const Data = [
 ];
 
 const Contact = () => {
-
   const validationSchema = Yup.object().shape({
     name: Yup.string().required("Name is required"),
     email: Yup.string().email("Invalid email").required("Email is required"),
@@ -79,14 +78,15 @@ const Contact = () => {
                 <div className="gap-2 grid pt-4 lg:grid-cols-2 lg:gap-x-8">
                   {Data.map((x) => (
                     <div key={x.id} className="pt-4">
-                      <label htmlFor={x.htmlfor} className=" ">
+                      <label htmlFor={x.htmlfor} className="">
                         <Field
                           type={x.type}
                           id={x.id}
                           name={x.name}
                           placeholder={x.placeholder}
-                          className={`bg-transparent  hover:border-b-[#F2AA4CFF]  focus:outline-none ${touched.name && errors.name ? "border-red-500" : ""
-                            }`}
+                          className={`bg-transparent  hover:border-b-[#F2AA4CFF] focus:outline-none ${
+                            touched.name && errors.name ? "border-red-500" : ""
+                          }`}
                         />
                       </label>
 
@@ -109,13 +109,13 @@ const Contact = () => {
                   </div>
                   <div>
                     <h6 className="text-base md:text-sm">Attach your file</h6>
-                    <h6 className="text-gray-500 text-sm">Up to 20MB</h6>
+                    <h6 className="text-white text-sm">Up to 20MB</h6>
                   </div>
                 </div>
                 {/* Privacy Policy */}
                 <div className="flex flex-col py-8 md:py-5">
                   <div>
-                    <p className="text-xs text-gray-500 w-full">
+                    <p className="text-xs text-white w-full">
                       We will process your personal information in accordance
                       with our{" "}
                       <Link
@@ -132,12 +132,13 @@ const Contact = () => {
                       type="checkbox"
                       name="privacy"
                       id="privacy"
-                      className={`rounded-lg ${touched.privacy && errors.privacy ? "border-red" : ""
-                        }`}
+                      className={`rounded-lg ${
+                        touched.privacy && errors.privacy ? "border-red" : ""
+                      }`}
                     />
                     <label
                       htmlFor="privacy"
-                      className="text-xs pt-2 text-gray-500"
+                      className="text-xs pt-2 text-white"
                     >
                       I would like to be contacted with news and updates about
                       your events and services

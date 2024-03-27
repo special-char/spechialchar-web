@@ -10,7 +10,7 @@ const SocialIcon = (props: Props) => {
     <>
       {footerdata?.social.map((i) => (
         <Link key={i.id} href={i.link} className="relative ">
-          <Image src={i.icon} alt={"icon"}  width={20} height={20}/>
+          <Image src={i.icon} alt={"icon"}  title={"icon"} width={20} height={20}/>
         </Link>
       ))}
     </>

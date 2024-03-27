@@ -8,7 +8,7 @@ import { Button } from "../ui/button";
 const HeaderDesktop = () => {
   return (
     <div className="h-full w-full flex flex-col  justify-between">
-      <div className="flex justify-between items-start py-2">
+      <div className="flex justify-between items-start py-2 pl-5">
         {accordionItems.data.map((item, index) => (
           <div key={index} className="flex flex-col pt-3 group">
             <div className="flex text-white hover:text-yellow-300 gap-x-1  text-xl">
@@ -26,34 +26,33 @@ const HeaderDesktop = () => {
               {item?.content?.map((itemContent, subindex) => (
                 <div key={subindex} className="">
                   <Link
-                  key={subindex}
-                  href={`/${item.title.toLowerCase()}/${item.content[
-                    subindex
-                  ].toLocaleLowerCase()}`}
-                >
-                  <span className="hover:text-yellow-300 text-base flex flex-col flex-wrap">
-                    {itemContent}
-                  </span>
-                </Link>
+                    key={subindex}
+                    href={`/${item.title.toLowerCase()}/${item.content[
+                      subindex
+                    ].toLocaleLowerCase()}`}
+                  >
+                    <span className="hover:text-yellow-300 text-base flex flex-col flex-wrap">
+                      {itemContent}
+                    </span>
+                  </Link>
                 </div>
-                
               ))}
             </ul>
           </div>
         ))}
-                <Link
-                  href="/ourthinking"
-                  className="text-white hover:text-second text-subtitle1 md:text-xl py-3"
-                >
-                  Our Thinking
-                </Link>
+        <Link
+          href="/ourthinking"
+          className="text-white hover:text-second text-subtitle1 md:text-xl py-3"
+        >
+          Our Thinking
+        </Link>
 
-                <Link
-                  href="/casestudies"
-                  className="text-white hover:text-second text-subtitle1 md:text-xl py-3"
-                >
-                  Case Studies
-                </Link>
+        <Link
+          href="/casestudies"
+          className="text-white hover:text-second text-subtitle1 md:text-xl py-3"
+        >
+          Case Studies
+        </Link>
         <Link className="pt-1" href={"#Contact"}>
           <Button
             variant={"outline"}
