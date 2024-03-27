@@ -26,7 +26,7 @@ import React from "react";
 const Ecommerce = () => {
   return (
     <>
-      <Banner data={banner8} className="bg-background5 text-black" />
+      <Banner data={banner8} className="bg-gray1 text-primary" />
       <ImageAccordion data={imageAccordianData} />
       <EcomSocial data={ecomSocial} />
       <ImageBanner data={imageBanner28} />
