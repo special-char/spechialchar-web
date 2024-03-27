@@ -6,7 +6,7 @@ import React from "react";
 const UiUxBox = () => {
   return (
     <>
-      <div className="bg-[#fffae3] m-5 px-container py-10 rounded-lg ">
+      <div className="bg-background m-5 px-container py-10 rounded-lg ">
         <ul className="list-square pl-7 grid lg:grid-cols-2  lg:px-1 gap-x-10 gap-y-8 md:grid-cols-2">
           {uiuxbox.map((i) => (
             <li key={i.id} className="text-lg mb-2 ">

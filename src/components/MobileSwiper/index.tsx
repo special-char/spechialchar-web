@@ -8,14 +8,14 @@ import { MobileSwiperData } from "@/lib/constData";
 
 const MobileSwiper = () => {
   return (
-    <section className="bg-black h-[50%] w-full ">
+    <section className="bg-primary h-[50%] w-full ">
       <Swiper
         direction={"vertical"}
         slidesPerView={1}
         spaceBetween={30}
         mousewheel={true}
         modules={[Mousewheel, Autoplay]}
-        className="  max-md:h-72 md:h-72 lg:h-80 text-white"
+        className="  max-md:h-72 md:h-72 lg:h-80 text-background"
         autoplay={{
           delay: 3000,
         }}
@@ -35,7 +35,7 @@ const MobileSwiper = () => {
                         width={100}
                       />
                     </div>
-                    <div className="text-yellow-300 text-sm md:text-base flex flex-col">
+                    <div className="text-yellow text-sm md:text-base flex flex-col">
                       <span>{slide.name}</span>
                       <span>{slide.title}</span>
                       <span>{slide.company}</span>

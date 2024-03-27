@@ -16,7 +16,7 @@ const CloudGrid2 = () => {
               <div className="font-bold md:text-heading6 flex flex-nowrap text-heading3 max-lg:w-60">
                 {i.title}
               </div>
-              <div className="text-gray-400 text-xl lg:w-[40rem] md:w-[30rem]">
+              <div className="text-gray text-xl lg:w-[40rem] md:w-[30rem]">
                 {i.description}
               </div>
             </div>

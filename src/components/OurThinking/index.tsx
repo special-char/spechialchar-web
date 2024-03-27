@@ -21,17 +21,17 @@ function OurThinking({ className }: { className?: string }) {
           )}
         >
           <button type="button" onClick={() => setCurrentCategory("All")}>
-            <div className="flex justify-start mr-4 active:text-blue-600 hover:text-button">
+            <div className="flex justify-start mr-4 active:text-blue hover:text-blue">
               All
             </div>
           </button>
           <button type="button" onClick={() => setCurrentCategory("Strategy")}>
-            <div className="flex justify-start mr-4 active:text-blue-600 hover:text-button">
+            <div className="flex justify-start mr-4 active:text-blue hover:text-blue">
               Strategy
             </div>
           </button>
           <button type="button" onClick={() => setCurrentCategory("Trending")}>
-            <div className="flex justify-start mr-4 active:text-blue-600 hover:text-button">
+            <div className="flex justify-start mr-4 active:text-blue hover:text-blue">
               Trending
             </div>
           </button>
@@ -39,7 +39,7 @@ function OurThinking({ className }: { className?: string }) {
             type="button"
             onClick={() => setCurrentCategory("Development")}
           >
-            <div className="flex justify-start mr-4 active:text-blue-600 hover:text-button">
+            <div className="flex justify-start mr-4 active:text-blue hover:text-blue">
               Development
             </div>
           </button>
@@ -76,7 +76,7 @@ function OurThinking({ className }: { className?: string }) {
                     </React.Fragment>
                   ))}
                 </div>
-                <div className="py-4 hover:text-button">
+                <div className="py-4 hover:text-blue">
                   <a href={x.link}>
                     <span className="text-2xl font-bold md:text-4xl">
                       {x.title}

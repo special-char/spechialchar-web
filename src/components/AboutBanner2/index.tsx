@@ -6,12 +6,12 @@ import React from "react";
 
 const AboutBanner2 = ({ data }: aboutBanner2Type) => {
   return (
-    <section className="bg-second">
+    <section className="bg-yellow">
       <div className="sm:text-7xl text-5xl font-bold">{data.heading}</div>
       {aboutBanner2.section.map((item, i) => {
         return (
           <>
-            <div className="bg-second max-xl:h-[89vh] px-container max-xl:overflow-hidden ">
+            <div className="bg-yellow max-xl:h-[89vh] px-container max-xl:overflow-hidden ">
               <div
                 className={cn(
                   item.id % 2 !== 0

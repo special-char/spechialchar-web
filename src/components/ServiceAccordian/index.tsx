@@ -17,11 +17,11 @@ const ServiceAccordian = ({ data }: serviceAccordiandataType) => {
       <section>
         <div className="grid md:grid-cols-2 md:gap-16 ">
           <Accordion type="single" collapsible className="">
-            <hr className="border-1 border-gray-300" />
+            <hr className="border-1 border-gray" />
             {serviceAccordiandata.data.map((item) => {
               return (
                 <AccordionItem
-                  className="border-b py-3 border-gray-300"
+                  className="border-b py-3 border-gray"
                   key={item.id}
                   value={`item-${item.id}`}
                 >
@@ -34,7 +34,7 @@ const ServiceAccordian = ({ data }: serviceAccordiandataType) => {
                       <div>{item.title}</div>
                     </div>
                   </AccordionTrigger>
-                  <AccordionContent className="py-5 text-lg text-gray-600 overflow-hidden max-sm:text-lg">
+                  <AccordionContent className="py-5 text-lg text-gray overflow-hidden max-sm:text-lg">
                     {item.content}
                   </AccordionContent>
                 </AccordionItem>
@@ -42,11 +42,11 @@ const ServiceAccordian = ({ data }: serviceAccordiandataType) => {
             })}
           </Accordion>
           <Accordion type="single" collapsible className="">
-            <hr className="border-1 border-gray-300 flex max-sm:hidden" />
+            <hr className="border-1 border-gray flex max-sm:hidden" />
             {serviceAccordiandata1.data.map((item) => {
               return (
                 <AccordionItem
-                  className="border-b py-3 border-gray-300"
+                  className="border-b py-3 border-gray"
                   key={item.id}
                   value={`item-${item.id}`}
                 >
@@ -59,7 +59,7 @@ const ServiceAccordian = ({ data }: serviceAccordiandataType) => {
                       <div>{item.title}</div>
                     </div>
                   </AccordionTrigger>
-                  <AccordionContent className="py-5 text-lg text-gray-600 overflow-hidden max-sm:text-lg">
+                  <AccordionContent className="py-5 text-lg text-gray overflow-hidden max-sm:text-lg">
                     {item.content}
                   </AccordionContent>
                 </AccordionItem>

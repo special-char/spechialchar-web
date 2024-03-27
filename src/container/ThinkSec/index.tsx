@@ -15,11 +15,11 @@ const ThinkSec = (props: Props) => {
 
       <Card />
 
-      <div className="flex flex-wrap justify-between my-10 gap-y-9 text-xl text-white">
+      <div className="flex flex-wrap justify-between my-10 gap-y-9 text-xl text-background">
         <div className="flex items-center">
           <Link
             href={"https://thespecialcharacter.graphy.com/"}
-            className="pt-1 flex gap-x-2 items-center text-black font-bold"
+            className="pt-1 flex gap-x-2 items-center text-primary font-bold"
           >
             View all cases <Arrow />
           </Link>

@@ -11,7 +11,7 @@
       left: 0;
       height: 100%;
       width: 2px;
-      @apply bg-gray-300 rounded-full -z-10;
+      @apply bg-gray rounded-full -z-10;
     }
   }
 }
@@ -21,11 +21,11 @@
 .tab {
     @apply relative md:text-3xl max-md:text-2xl font-bold;
     &[aria-selected="true"]::after {
-        @apply bg-blue-600;
+        @apply bg-blue;
     }
     &::after {
         content: "";
-        @apply bg-gray-300 absolute -left-[7px] top-1/2 -translate-y-1/2 w-2 aspect-square rounded-full;
+        @apply bg-gray absolute -left-[7px] top-1/2 -translate-y-1/2 w-2 aspect-square rounded-full;
       }
 }
 

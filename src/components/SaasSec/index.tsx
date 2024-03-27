@@ -9,7 +9,7 @@ const SaasGrid = ({ data }: ListSaasSectionType) => {
           {data?.id}
           {data.title}
         </div>
-        <div className="text-lg max-md:text-lg pt-6  text-gray-500 font-light">
+        <div className="text-lg max-md:text-lg pt-6  text-gray font-light">
           {data.description}
         </div>
       </div>

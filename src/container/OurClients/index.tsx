@@ -14,7 +14,7 @@ const OurClients = (props: Props) => {
         </div>
       </section>
       <div>
-        <WhiteMarque className="bg-white" />
+        <WhiteMarque className="bg-background" />
       </div>
     </>
   );

@@ -53,7 +53,7 @@ const Contact = () => {
   return (
     <section
       id="Contact"
-      className="h-full lg:h-screen lg:py-32 w-full bg-black text-white"
+      className="h-full lg:h-screen lg:py-32 w-full bg-primary text-background"
       style={{ backgroundImage: `url(/images/ContactUsImage.webp)` }}
     >
       <div className="p-3 py-6">
@@ -84,13 +84,12 @@ const Contact = () => {
                           id={x.id}
                           name={x.name}
                           placeholder={x.placeholder}
-                          className={`bg-transparent  hover:border-b-[#F2AA4CFF] focus:outline-none ${
-                            touched.name && errors.name ? "border-red-500" : ""
-                          }`}
+                          className={`bg-transparent  hover:border-b-yellow focus:outline-none ${touched.name && errors.name ? "border-red-500" : ""
+                            }`}
                         />
                       </label>
 
-                      <div className="w-full h-[1px] mt-4 bg-gray-600"></div>
+                      <div className="w-full h-[1px] mt-4 bg-gray"></div>
                       <ErrorMessage
                         name={x.errname}
                         component="div"
@@ -109,18 +108,18 @@ const Contact = () => {
                   </div>
                   <div>
                     <h6 className="text-base md:text-sm">Attach your file</h6>
-                    <h6 className="text-white text-sm">Up to 20MB</h6>
+                    <h6 className="text-background text-sm">Up to 20MB</h6>
                   </div>
                 </div>
                 {/* Privacy Policy */}
                 <div className="flex flex-col py-8 md:py-5">
                   <div>
-                    <p className="text-xs text-white w-full">
+                    <p className="text-xs text-background w-full">
                       We will process your personal information in accordance
                       with our{" "}
                       <Link
                         href="/Privacy"
-                        className="text-yellow-400 cursor-pointer"
+                        className="text-yellow cursor-pointer"
                       >
                         Privacy Policy
                       </Link>
@@ -132,13 +131,12 @@ const Contact = () => {
                       type="checkbox"
                       name="privacy"
                       id="privacy"
-                      className={`rounded-lg ${
-                        touched.privacy && errors.privacy ? "border-red" : ""
-                      }`}
+                      className={`rounded-lg ${touched.privacy && errors.privacy ? "border-red" : ""
+                        }`}
                     />
                     <label
                       htmlFor="privacy"
-                      className="text-xs pt-2 text-white"
+                      className="text-xs pt-2 text-background"
                     >
                       I would like to be contacted with news and updates about
                       your events and services

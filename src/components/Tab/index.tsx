@@ -43,7 +43,7 @@ const Tab = ({ data }: tabdataType) => {
             return (
               <TabsContent
                 key={item.id}
-                className="text-black lg:text-2xl lg:px-1"
+                className="text-primary lg:text-2xl lg:px-1"
                 value={item.value}
               >
                 {item.content}
