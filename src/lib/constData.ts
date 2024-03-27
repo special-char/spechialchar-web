@@ -120,7 +120,7 @@ export const footerdata = {
   email: "contact@thespecialcharacter.com",
   mobile: "+91 76000 96432 / 33",
   privacy: "Privacy Policy",
-  copyright: "@2024 TheSpecialChar",
+  copyright: "2024 TheSpecialChar Pvt. ltd.",
   data: [
     {
       id: 1,
@@ -144,7 +144,7 @@ export const footerdata = {
     },
     {
       id: 3,
-      icon: "/icons/Linkedin.svg",
+      icon: "/icons/linkedin.svg",
       link: "https://www.linkedin.com/",
     },
     {
@@ -2187,6 +2187,11 @@ export const edBox = [
 export const pageBanner = {
   title1: "Thinking",
   title2: "Useful. Relevant. Challenging.",
+};
+
+export const pageBanner2 = {
+  title1: "Projects",
+  title2: "the work we do togather!",
 };
 
 export const blogs = [

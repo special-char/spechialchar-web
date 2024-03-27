@@ -15,7 +15,7 @@ const Tab3 = ({ data }: tabdataType) => {
                 {uiuxtabdata.data.map((item) => {
                   return (
                     <>
-                      <div className="flex flex-col gap-5  border-b-2  text-xl md:text-2xl  px-5 lg:text-4xl  xl:px-16  md:px-8   font-bold">
+                      <div className="flex flex-col gap-5 justify-between border-b-2  text-xl md:text-2xl  px-5 lg:text-4xl   md:px-8   font-bold">
                         <Image
                           src={item.image}
                           alt=""
@@ -25,7 +25,7 @@ const Tab3 = ({ data }: tabdataType) => {
                         />
 
                         <TabsTrigger
-                          className="pb-3 md:py-6"
+                          className="max-sm:mx-6 lg:px-3 pb-6"
                           value={item.value}
                         >
                           {item.trigger}
