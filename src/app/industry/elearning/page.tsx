@@ -27,7 +27,7 @@ import React from "react";
 const EdTechPage = () => {
   return (
     <>
-      <Banner data={banner7} className="bg-background4" />
+      <Banner data={banner7} className="bg-darkblue2" />
       <EdTechGrid data={edSection} />
       <ImageBanner data={imageBanner23} />
       <YellowBanner data={YellowBannerData10} />
