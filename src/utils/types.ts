@@ -4,7 +4,6 @@ export type FooterdataType = {
   data: {
     title: string;
     address: string;
-    url:string;
     email: string;
     mobile: string;
     privacy: string;
