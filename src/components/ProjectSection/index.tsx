@@ -2,119 +2,26 @@ import Image from "next/image";
 import React from "react";
 import Rpa from "@/public.images/projectsection.webp";
 import { cn } from "@/lib/utils";
-
-const dataCase = [
-  {
-    title:
-      " From the outset, our collaboration was grounded in innovation and adaptability.  Integrating first closely with the clients Center of Excellence, we helped them:",
-    description: [
-      {
-        title: "Refine RPA solutions to cater to specific demands",
-      },
-      {
-        title:
-          "  Set up and enhance business processes to optimize data collection",
-      },
-      {
-        title: "Build and improve pre-built models",
-      },
-    ],
-  },
-
-  {
-    title:
-      " From the outset, our collaboration was grounded in innovation and adaptability.  Integrating first closely with the clients Center of Excellence, we helped them:",
-    description: [
-      {
-        title: "Refine RPA solutions to cater to specific demands",
-      },
-      {
-        title:
-          "  Set up and enhance business processes to optimize data collection",
-      },
-      {
-        title: "Build and improve pre-built models",
-      },
-    ],
-  },
-  {
-    title:
-      " From the outset, our collaboration was grounded in innovation and adaptability.  Integrating first closely with the clients Center of Excellence, we helped them:",
-    description: [
-      {
-        title: "Refine RPA solutions to cater to specific demands",
-      },
-      {
-        title:
-          "  Set up and enhance business processes to optimize data collection",
-      },
-      {
-        title: "Build and improve pre-built models",
-      },
-    ],
-  },
-  {
-    title:
-      " From the outset, our collaboration was grounded in innovation and adaptability.  Integrating first closely with the clients Center of Excellence, we helped them:",
-    description: [
-      {
-        title: "Refine RPA solutions to cater to specific demands",
-      },
-      {
-        title:
-          "  Set up and enhance business processes to optimize data collection",
-      },
-      {
-        title: "Build and improve pre-built models",
-      },
-    ],
-  },
-  {
-    title:
-      " From the outset, our collaboration was grounded in innovation and adaptability.  Integrating first closely with the clients Center of Excellence, we helped them:",
-    description: [
-      {
-        title: "Refine RPA solutions to cater to specific demands",
-      },
-      {
-        title:
-          "  Set up and enhance business processes to optimize data collection",
-      },
-      {
-        title: "Build and improve pre-built models",
-      },
-    ],
-  },
-  {
-    title:
-      " From the outset, our collaboration was grounded in innovation and adaptability.  Integrating first closely with the clients Center of Excellence, we helped them:",
-    description: [
-      {
-        title: "Refine RPA solutions to cater to specific demands",
-      },
-      {
-        title:
-          "  Set up and enhance business processes to optimize data collection",
-      },
-      {
-        title: "Build and improve pre-built models",
-      },
-    ],
-  },
-];
+import { backendData } from "@/lib/constData";
+import { ProjectSectionType2 } from "@/utils/types";
 
 const CaseBanner = ({
+  data,
   className,
   order,
 }: {
+  data: ProjectSectionType2;
   className?: string;
   order?: string;
 }) => {
   return (
     <div
-      className={cn("grid grid-cols-2 bg-second  h-full w-full  ", {
-        [`${className}`]: className,
-      })}
+      className={cn(
+        " max-md:flex max-md:flex-col lg:grid lg:grid-cols-2 bg-second  h-full w-full  ",
+        {
+          [`${className}`]: className,
+        }
+      )}
     >
       <div
         className={cn("lg:order-2 ", {
@@ -125,24 +32,23 @@ const CaseBanner = ({
           src={Rpa}
           alt="Rpa"
           title="Rpa"
-          className="h-screen  w-full sticky top-0 object-fit"
+          height={600}
+          width={600}
+          className="md:h-screen  w-full sticky top-0 md:object-fit "
         />
       </div>
-      <div className="lg:order-1 px-36 py-10  ">
+      <div className="lg:order-1 lg:px-36 md:py-10 max-lg:p-10">
         <div>
-          <h1 className="font-bold text-5xl">Our collaboration</h1>
+          <h1 className="font-bold md:text-5xl max-md:text-3xl py-10">
+            Solution
+          </h1>
         </div>
 
-        {dataCase.map((x, index) => (
+        {backendData.dataCase.map((x, index) => (
           <div key={index}>
-            <div className="py-3 text-xl">
-              <div className="flex flex-col gap-y-5  flex-nowrap">
-                {x.title}
-              </div>
-            </div>
             <div>
               {x.description.map((y, subindex) => (
-                <ul key={subindex} className="list-disc">
+                <ul key={subindex} className="list-disc text-2xl leading-10">
                   <li>{y.title}</li>
                 </ul>
               ))}

@@ -24,7 +24,6 @@ import {
 } from "@/lib/constData";
 import React from "react";
 
-
 const Mobile = () => {
   return (
     <>

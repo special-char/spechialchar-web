@@ -3847,3 +3847,151 @@ export const imageBanner33 = {
   title1: "We are hungrrrrry",
   title2: "for your success",
 };
+
+export const backendData = {
+  
+  description1:
+    "AI-powered self-service BI and big data platform for the world's leading retailer",
+  section1: [
+    {
+      id: 1,
+      title: "Client",
+      description:
+        "One of the largest retailers that operates a chain of hypermarkets, discount department stores, and grocery stores around the globe",
+    },
+    {
+      id: 2,
+      title: "Industry",
+      description: "Retail",
+    },
+    {
+      id: 3,
+      title: "Services",
+      description:
+        "Product Development, Data Architecture, Data Management, Data Analytics, Data Visualization",
+    },
+    {
+      id: 4,
+      title: "Tech",
+      description:
+        "Cosmos DB, MS Azure, Gremlin, JanusGraph, Cassandra, Java, Python, Kafka, React, Redis",
+    },
+  ],
+  description2:
+    "The importance of data, its accuracy and availability when and where needed, cannot be overestimated when it comes to business prosperity and leadership. For a company operating on a large scale, getting as close to data as possible becomes even more critical. That’s what our client came to us for. With a huge number of internal users, disparate systems and isolated islands of data began to take a toll on the entire data analysis process resulting in inaccurate insights, poor business decisions and missed market opportunities. Our team was entrusted with the task of creating an AI-driven big data and self-service business intelligence platform to provide the client’s almost 3 million internal users with hassle-free on-demand data access.",
+    
+  dataCase: [
+    {
+      title:
+        " From the outset, our collaboration was grounded in innovation and adaptability.  Integrating first closely with the clients Center of Excellence, we helped them:",
+      description: [
+        {
+          title: "Refine RPA solutions to cater to specific demands",
+        },
+        {
+          title:
+            "  Set up and enhance business processes to optimize data collection",
+        },
+        {
+          title: "Build and improve pre-built models",
+        },
+      ],
+    },
+
+    {
+      title:
+        " From the outset, our collaboration was grounded in innovation and adaptability.  Integrating first closely with the clients Center of Excellence, we helped them:",
+      description: [
+        {
+          title: "Refine RPA solutions to cater to specific demands",
+        },
+        {
+          title:
+            "  Set up and enhance business processes to optimize data collection",
+        },
+        {
+          title: "Build and improve pre-built models",
+        },
+      ],
+    },
+    {
+      title:
+        " From the outset, our collaboration was grounded in innovation and adaptability.  Integrating first closely with the clients Center of Excellence, we helped them:",
+      description: [
+        {
+          title: "Refine RPA solutions to cater to specific demands",
+        },
+        {
+          title:
+            "  Set up and enhance business processes to optimize data collection",
+        },
+        {
+          title: "Build and improve pre-built models",
+        },
+      ],
+    },
+    {
+      title:
+        " From the outset, our collaboration was grounded in innovation and adaptability.  Integrating first closely with the clients Center of Excellence, we helped them:",
+      description: [
+        {
+          title: "Refine RPA solutions to cater to specific demands",
+        },
+        {
+          title:
+            "  Set up and enhance business processes to optimize data collection",
+        },
+        {
+          title: "Build and improve pre-built models",
+        },
+      ],
+    },
+    {
+      title:
+        " From the outset, our collaboration was grounded in innovation and adaptability.  Integrating first closely with the clients Center of Excellence, we helped them:",
+      description: [
+        {
+          title: "Refine RPA solutions to cater to specific demands",
+        },
+        {
+          title:
+            "  Set up and enhance business processes to optimize data collection",
+        },
+        {
+          title: "Build and improve pre-built models",
+        },
+      ],
+    },
+    {
+      title:
+        " From the outset, our collaboration was grounded in innovation and adaptability.  Integrating first closely with the clients Center of Excellence, we helped them:",
+      description: [
+        {
+          title: "Refine RPA solutions to cater to specific demands",
+        },
+        {
+          title:
+            "  Set up and enhance business processes to optimize data collection",
+        },
+        {
+          title: "Build and improve pre-built models",
+        },
+      ],
+    },
+  ],
+ SwiperServices : [
+      {
+        id: 1,
+        src: "/images/projectSwiper1.webp",
+      },
+      {
+        id: 2,
+        src: "/images/ProjectSwiper2.webp",
+      },
+    ],
+};
+
+export const backendData2 = {
+  url: "/images/projectsection.webp",
+  sectiontitle1: "Our collaboration",
+}

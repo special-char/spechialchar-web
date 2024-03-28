@@ -5,7 +5,6 @@ import FooterLogo from "@/public.icons/Logo New Website.svg";
 import { FooterdataType } from "@/utils/types";
 import SocialIcon from "./SocialIcon";
 import FooterCirti from "./FooterCirti";
-import Image from "next/image";
 
 const Footer = ({ data }: FooterdataType) => {
   return (
@@ -14,8 +13,7 @@ const Footer = ({ data }: FooterdataType) => {
         <div className="flex flex-wrap gap-x-40 max-sm:gap-y-9 sm:gap-y-10">
           <div className="w-64 overflow-hidden">
             <Link href={"#"}>
-              <FooterLogo className="lg:mt-3 max-md:h-12 max-md:w-40" />
-              {/* <Image src={data.url} alt={""} /> */}
+              <FooterLogo className="-ml-4" />
             </Link>
           </div>
           <div className="flex font-bold lg:text-5xl md:text-4xl sm:text-4xl max-sm:4xl w-[50rem]">
@@ -48,7 +46,7 @@ const Footer = ({ data }: FooterdataType) => {
                 {data.privacy}
               </Link>
             </p>
-            <p className="text-textgrey ">&copy;{data.copyright}</p>
+            <p className="text-textgray ">&copy;{data.copyright}</p>
           </div>
           <div className="flex flex-row overflow-x-auto gap-10">
             <FooterCirti />

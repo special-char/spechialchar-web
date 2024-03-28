@@ -34,7 +34,7 @@ const ServiceAccordian = ({ data }: serviceAccordiandataType) => {
                       <div>{item.title}</div>
                     </div>
                   </AccordionTrigger>
-                  <AccordionContent className="py-5 text-lg text-gray overflow-hidden max-sm:text-lg">
+                  <AccordionContent className="py-5 text-lg text-textgray overflow-hidden max-sm:text-lg">
                     {item.content}
                   </AccordionContent>
                 </AccordionItem>

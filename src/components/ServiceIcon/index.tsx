@@ -19,7 +19,7 @@ const ServiceIcon = ({ data }: ServiceItem) => {
               {data.title}
             </h2>
           </div>
-          <div className="lg:text-xl md:text-sm sm:text-sm text-gray md:pr-6 lg:pr-4">
+          <div className="lg:text-xl md:text-sm sm:text-sm text-blue md:pr-6 lg:pr-4">
             {data.description}{" "}
           </div>
           <div className="lg:text-xl md:text-sm sm:text-sm font-extrabold md:pr-6 lg:pr-4 gap-3 ">
