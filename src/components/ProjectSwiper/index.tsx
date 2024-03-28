@@ -21,18 +21,18 @@ const Swiper1 = () => {
         <div className="">
           {backendData.SwiperServices.map((item, index) => (
             <SwiperSlide key={index} className="">
-              <Link className=" overflow-hidden overflow-y-hidden " href={"#"}>
-                <div className="relative ">
-                  <Image
-                    src={item.src}
-                    alt="projectSwiper"
-                    title="projectSwiper"
-                    className="flex flex-col mx-auto justify-center items-center gap-x-4"
-                    height={500}
-                    width={1000}
-                  />
-                </div>
-              </Link>
+
+              <div className="relative ">
+                <Image
+                  src={item.src}
+                  alt="projectSwiper"
+                  title="projectSwiper"
+                  className="flex flex-col mx-auto justify-center items-center gap-x-4"
+                  height={500}
+                  width={1000}
+                />
+              </div>
+
             </SwiperSlide>
           ))}
         </div>

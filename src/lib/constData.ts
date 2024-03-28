@@ -1774,7 +1774,7 @@ export const cloudSocial = [
 export const banner6 = {
   imageurl: "/images/uiBanner.webp",
   title: "End-to-end UI/UX design services",
-  button1: "hire Ui/Ux",
+  button1: "Hire Ui/Ux",
   button2: "designers",
   description:
     "The Special Char offers a whole gamut of UI/UX design services to transform unremarkable mobile apps, websites, dashboards, and cyber-physical systems into tech solutions that delight users and bring tangible business results",
@@ -1901,7 +1901,7 @@ export const edSection = {
   title1: "",
   description: "",
   title: "We craft educational software for every need",
-  text: "We help our clients in K-12, postsecondary, and corporate segments to redefine the way they teach, learn, communicate, and operate. EdTech startups and educational software companies, in turn, use our eLearning software development expertise to win the market with next-gen features that drive online education way forward. K-12",
+  text: "We help our clients in K-12, postsecondary, and corporate segments to redefine the way they teach, learn, communicate, and operate. EdTech startups and educational software companies, in turn, use our eLearning software development expertise to win the market with next-gen features that drive online education way forward. ",
   section: [
     {
       id: 1,
@@ -3519,7 +3519,7 @@ export const cloudgrid4 = {
   ],
 };
 export const SwiperServices3 = {
-  title: "Selectback-end development case studies",
+  title: "Select back-end development case studies",
   data: [
     {
       id: 1,
@@ -3664,20 +3664,20 @@ export const latestThinkingData2 = {
       title:
         "Olab education research platform modernization for highly-engaging virtual sceana",
       img: "/images/e-learn1.webp",
-      Link: "./",
+      Link: "/",
     },
     {
       id: 2,
       title: "Innovation data management solution for global analystic leader",
       img: "/images/e-learn2.webp",
-      Link: "./",
+      Link: "/",
     },
     {
       id: 3,
       title:
         "Modernization of on education and collabaration platform for healthcare professional",
       img: "/images/e-learn3.webp",
-      Link: "./",
+      Link: "/",
     },
   ],
 };
@@ -3690,20 +3690,20 @@ export const latestThinkingData3 = {
       title:
         "Olab education research platform modernization for highly-engaging virtual sceana",
       img: "/images/aboutswiper1.webp",
-      Link: "./",
+      Link: "/",
     },
     {
       id: 2,
       title: "Innovation data management solution for global analystic leader",
       img: "/images/aboutswiper2.webp",
-      Link: "./",
+      Link: "/",
     },
     {
       id: 3,
       title:
         "Modernization of on education and collabaration platform for healthcare professional",
       img: "/images/aboutswiper3.webp",
-      Link: "./",
+      Link: "/",
     },
   ],
 };
@@ -3716,20 +3716,20 @@ export const latestThinkingData4 = {
       title:
         "Olab education research platform modernization for highly-engaging virtual sceana",
       img: "/images/aboutswiper4.webp",
-      Link: "./",
+      Link: "/",
     },
     {
       id: 2,
       title: "Innovation data management solution for global analystic leader",
       img: "/images/aboutswiper5.webp",
-      Link: "./",
+      Link: "/",
     },
     {
       id: 3,
       title:
         "Modernization of on education and collabaration platform for healthcare professional",
       img: "/images/aboutswiper6.webp",
-      Link: "./",
+      Link: "/",
     },
   ],
 };
@@ -3981,11 +3981,11 @@ export const backendData = {
   SwiperServices: [
     {
       id: 1,
-      src: "/images/projectSwiper1.webp",
+      src: "/images/yagneshsir.png",
     },
     {
       id: 2,
-      src: "/images/ProjectSwiper2.webp",
+      src: "/images/yagneshsir2.png",
     },
   ],
 };

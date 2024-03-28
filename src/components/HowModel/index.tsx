@@ -27,7 +27,7 @@ const HowModel = ({ data }: HowModelType) => {
       </div>
 
       <div className=" mb-8 lg:pr-72 md: pr-12 ">
-        <p className="text-base md:text-lg lg:text-base flex-1 text-gray">
+        <p className="text-base md:text-lg lg:text-base flex-1 text-primary">
           {data.par}
         </p>
       </div>
@@ -44,7 +44,7 @@ const HowModel = ({ data }: HowModelType) => {
                   </h4>
                 </div>
                 <div className="flex-1 md:flex-grow ">
-                  <p className="text-sm md:text-base lg:text-lg text-gray1 ">
+                  <p className="text-sm md:text-base lg:text-lg text-primary ">
                     {item.desc}
                   </p>
                   <div className="-pl-2">

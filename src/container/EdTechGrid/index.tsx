@@ -12,8 +12,8 @@ const EdTechGrid = ({ data }: uiSectionType) => {
     <>
       <section>
         <div className="flex flex-wrap lg:w-[75%]">
-          <div className="text-4xl font-extrabold">{data?.title}</div>
-          <div className=" text-2xl max-md:text-lg py-10 font-light">
+          <div className="text-heading3">{data?.title}</div>
+          <div className="  text-subtitle3 py-10 ">
             {data?.text}
           </div>
         </div>

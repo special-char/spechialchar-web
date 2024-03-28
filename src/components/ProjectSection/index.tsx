@@ -39,7 +39,7 @@ const CaseBanner = ({
       </div>
       <div className="lg:order-1 lg:px-36 md:py-10 max-lg:p-10">
         <div>
-          <h1 className="font-bold md:text-5xl max-md:text-3xl py-10">
+          <h1 className="text-heading1 py-10">
             Solution
           </h1>
         </div>
@@ -48,7 +48,7 @@ const CaseBanner = ({
           <div key={index}>
             <div>
               {x.description.map((y, subindex) => (
-                <ul key={subindex} className="list-disc text-2xl leading-10">
+                <ul key={subindex} className="list-disc text-subtitle3 leading-10">
                   <li>{y.title}</li>
                 </ul>
               ))}

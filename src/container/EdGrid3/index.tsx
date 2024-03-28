@@ -19,7 +19,7 @@ const EdGrid3 = (props: Props) => {
           <Link href={"https://thespecialcharacter.graphy.com/"}>
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-                get your <span>educational app </span>
+                Get your <span>educational app </span>
                 <span>&rarr;</span>
               </span>
             </Button>

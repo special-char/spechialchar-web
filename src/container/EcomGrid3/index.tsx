@@ -14,7 +14,7 @@ const EcomGrid3 = (props: Props) => {
 
                     <div key={item.id} className="flex gap-2 sm:gap-5 ">
                         <Image src={item.url} alt="" height={50} width={50} />
-                        <div className="sm:text-3xl text-2xl pt-2 font-semibold">{item.title}</div>
+                        <div className="text-heading5 pt-2 ">{item.title}</div>
 
                     </div>
                 ))}
