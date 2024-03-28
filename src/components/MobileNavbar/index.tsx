@@ -22,10 +22,10 @@ const MobileNavbar = () => {
   return (
     <>
       <div onClick={toggleDropdown}>
-        <Humburger className="fill-blue mt-3" />
+        <Humburger className="fill-priamry mt-2" />
       </div>
       {click && (
-        <div className="absolute z-50  bg-background text-blue h-screen w-full left-0 top-0 p-4 ">
+        <div className="absolute z-50  bg-background text-primary h-screen w-full left-0 top-0 p-4 ">
           <div className="flex justify-between items-center">
             <div>
               <Link href="/">
@@ -50,7 +50,7 @@ const MobileNavbar = () => {
                     <Link
                       href={item.link.toLowerCase()}
                       onClick={toggleDropdown}
-                      className="text-xl"
+                      className="text-subtitle2"
                     >
                       {item.title}
                     </Link>
@@ -58,7 +58,7 @@ const MobileNavbar = () => {
                   <AccordionContent className="py-4">
                     <ul className="flex flex-col gap-y-4">
                       {item?.content?.map((itemContent, subindex) => (
-                        <li key={subindex} className="text-blue">
+                        <li key={subindex} className="text-primary">
                           <Link
                             href={`/${item.title.toLowerCase()}/${item.content[
                               subindex
@@ -78,7 +78,7 @@ const MobileNavbar = () => {
                 <Link
                   href="/ourthinking"
                   onClick={toggleDropdown}
-                  className="text-blue font-semibold md:text-xl py-3"
+                  className="text-subtitle2 py-3"
                 >
                   Our Thinking
                 </Link>
@@ -86,7 +86,7 @@ const MobileNavbar = () => {
                 <Link
                   href="/casestudies"
                   onClick={toggleDropdown}
-                  className="text-blue font-semibold md:text-xl py-3"
+                  className="text-subtitle2 py-3"
                 >
                   Case Studies
                 </Link>

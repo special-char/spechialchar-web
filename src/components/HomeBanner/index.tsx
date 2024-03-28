@@ -27,9 +27,11 @@ const HomeBanner = ({ data }: HomeBannerdataType) => {
       >
         Your browser does not support the video tag.
       </video>
-      <section className="relative z-0 text-blue h-full flex flex-wrap flex-col  justify-center lg:text-6xl font-bold text-4xl ">
+      <section className="relative z-0 text-blue h-full flex flex-wrap flex-col  justify-center text-heading1 ">
         {data.title}
-        <div className="text-primary max-sm:items-center">{data.title2}</div>
+        <div className="text-primary text-heading1 max-sm:items-center ">
+          {data.title2}
+        </div>
         <div className="flex flex-wrap  justify-between  mt-32 gap-10 text-3xl text-primary">
           <div className="pt-1">
             {" "}

@@ -41,7 +41,7 @@ const Navbar = () => {
           {/* <NavbarLogo className="lg:my-2 h-12 w-40 max-lg:block hidden" /> */}
           <div className="lg:my-2">
             <Image
-              className=" h-14 w-40"
+              className=" lg:h-14 lg:w-40"
               src={"/images/TSC-Logo-1.png"}
               alt={"Tsc-logo"}
               height={100}

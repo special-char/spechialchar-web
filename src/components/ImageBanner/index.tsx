@@ -13,9 +13,9 @@ const ImageBanner = ({ data }: BgBannerType) => {
     >
       <div className=" my-12 md:my-36">
         <div className="text-background  ">
-          <h2 className="text-5xl font-extrabold md:text-5xl lg:text-6xl max-sm:text-3xl">
+          <h2 className="text-heading1 font-extrabold md:text-5xl lg:text-6xl max-sm:text-3xl">
             {data.title1} <br />
-            <span className="text-second">{data.title2}</span>
+            <span className="text-yellow">{data.title2}</span>
           </h2>
         </div>
       </div>
