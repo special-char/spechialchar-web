@@ -38,7 +38,7 @@ const Mobile = () => {
       <ImageBanner data={imageBanner5} />
       <YellowBanner data={YellowBannerData2} />
       <Tab1 data={mobiletabdata} />
-      <MobileSwiper />
+      <MobileSwiper/>
       <MobilePage />
       <LatestThinking data={latestThinkingData} />
     </>
