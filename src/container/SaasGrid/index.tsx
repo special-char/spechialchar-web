@@ -9,8 +9,8 @@ const SaasGrid = ({ data }: SaasSectionType) => {
   return (
     <section>
       <div className="flex flex-wrap lg:w-[75%]">
-        <div className="text-heading3 font-bold">{data?.title}</div>
-        <div className=" text-xl max-lg:text-lg py-10 font-normal">
+        <div className="text-heading3">{data?.title}</div>
+        <div className="text-subtitle3 py-10 font-normal">
           {data?.description}
         </div>
       </div>

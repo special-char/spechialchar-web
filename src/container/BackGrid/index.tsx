@@ -9,10 +9,10 @@ type Props = {};
 
 const BackGrid = ({ data }: SaasSectionType) => {
   return (
-    <section >
+    <section>
       <div className="flex flex-wrap lg:w-[75%]">
-        <div className="text-4xl font-extrabold">{data?.title}</div>
-        <div className=" text-2xl max-md:text-lg py-10 font-light">
+        <div className="text-heading2">{data?.title}</div>
+        <div className="text-subtitle3 py-10 ">
           {data?.description}
         </div>
       </div>
@@ -22,14 +22,14 @@ const BackGrid = ({ data }: SaasSectionType) => {
         ))}
       </div>
       <div className="pt-10">
-      <Link href={"https://thespecialcharacter.graphy.com/"}>
-        <Button>
-          <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-            Tell us your saas software <span>development needs</span>
-            <span>&rarr;</span>
-          </span>
-        </Button>
-      </Link>
+        <Link href={"https://thespecialcharacter.graphy.com/"}>
+          <Button>
+            <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+              Tell us your saas software <span>development needs</span>
+              <span>&rarr;</span>
+            </span>
+          </Button>
+        </Link>
       </div>
     </section>
   );

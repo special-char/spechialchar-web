@@ -25,7 +25,7 @@ const ServiceAccordian = ({ data }: serviceAccordiandataType) => {
                   key={item.id}
                   value={`item-${item.id}`}
                 >
-                  <AccordionTrigger className=" flex flex-1 items-center justify-between text-xl lg:text-3xl font-semibold    ">
+                  <AccordionTrigger className=" flex flex-1 items-center justify-between text-heading5">
                     <div className="flex gap-10 md:gap-3  items-center">
                       <div className=" md:flex md:gap-40 lg:gap-[30rem] items-center  hidden">
                         <Image alt="" src={item.image} width={30} height={30} />
@@ -34,7 +34,7 @@ const ServiceAccordian = ({ data }: serviceAccordiandataType) => {
                       <div>{item.title}</div>
                     </div>
                   </AccordionTrigger>
-                  <AccordionContent className="py-5 text-lg text-textgray overflow-hidden max-sm:text-lg">
+                  <AccordionContent className="py-5 text-primary overflow-hidden text-subtitle2">
                     {item.content}
                   </AccordionContent>
                 </AccordionItem>
@@ -50,7 +50,7 @@ const ServiceAccordian = ({ data }: serviceAccordiandataType) => {
                   key={item.id}
                   value={`item-${item.id}`}
                 >
-                  <AccordionTrigger className="  flex flex-1 items-center justify-between text-xl lg:text-3xl font-semibold">
+                  <AccordionTrigger className="  flex flex-1 items-center justify-between text-heading5">
                     <div className="flex gap-10 md:gap-3 items-center">
                       <div className=" md:flex md:gap-40 lg:gap-[30rem] items-center  hidden">
                         <Image alt="" src={item.image} width={30} height={30} />
@@ -59,7 +59,7 @@ const ServiceAccordian = ({ data }: serviceAccordiandataType) => {
                       <div>{item.title}</div>
                     </div>
                   </AccordionTrigger>
-                  <AccordionContent className="py-5 text-lg text-gray overflow-hidden max-sm:text-lg">
+                  <AccordionContent className="py-5 text-primary text-subtitle2 overflow-hidden">
                     {item.content}
                   </AccordionContent>
                 </AccordionItem>
