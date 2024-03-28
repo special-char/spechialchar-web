@@ -6,9 +6,9 @@ import Link from "next/link";
 
 const Collabrate = () => {
   return (
-    <section className="bg-primary text-background gap-y-10">
+    <section className="bg-darkblue text-background gap-y-10">
       <div className=" py-10  ">
-        <h1 className=" font-extrabold lg:text-5xl sm:text-3xl text-xl max-sm:text-center">
+        <h1 className=" font-extrabold text-heading1 max-sm:text-center">
           How we collaborate with you
         </h1>
       </div>
@@ -22,7 +22,7 @@ const Collabrate = () => {
           className=" max-sm:grid overflow-hidden "
           href={"https://thespecialcharacter.graphy.com/"}
         >
-          <Button variant={"default"} size={"md"}>
+          <Button variant={"default"}>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Lets Collaborate
             </span>

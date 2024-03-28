@@ -48,6 +48,7 @@ const config = {
         lightpink: "rgb(var(--color-lightpink) / <alpha-value>)",
         lightblue: "rgb(var(--color-lightblue) / <alpha-value>)",
         textgray: "rgb(var(--color-textgray) / <alpha-value>)",
+        skyblue: "rgb(var(--color-skyblue) / <alpha-value>)",
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
@@ -79,8 +80,8 @@ const config = {
           {
             lineHeight: "1.3",
             letterSpacing: "-0.01em",
-            // fontWeight: "700",
-            fontWeight: "600",
+            fontWeight: "700",
+            // fontWeight: "600",
           },
         ],
         heading2: [
@@ -129,7 +130,7 @@ const config = {
           },
         ],
         subtitle1: [
-          "clamp(1.25rem, 0.625vw + 1rem, 1.5rem)",
+          "clamp(1.25rem, 0.625vw + 1rem, 1rem)",
           {
             lineHeight: "1.8",
             letterSpacing: "-0.01em",
@@ -138,9 +139,17 @@ const config = {
           },
         ],
         subtitle2: [
-          "clamp(1.125rem, 0.625vw + 0.875rem, 1.375rem)",
+          "clamp(1.015rem, 0.625vw + 0.875rem, 1.075rem)",
           {
             lineHeight: "1.8",
+            letterSpacing: "-0.01em",
+            // fontWeight: "600",
+            fontWeight: "500",
+          },
+        ],
+        subtitle3: [
+          "clamp(1.315rem, 0.625vw + 0.875rem, 1.75rem)",
+          {
             letterSpacing: "-0.01em",
             // fontWeight: "600",
             fontWeight: "500",

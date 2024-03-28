@@ -4,18 +4,19 @@ import { cva, type VariantProps } from "class-variance-authority";
 
 import { cn } from "@/lib/utils";
 
-
 const buttonVariants = cva(
-  "inline-flex items-center justify-center whitespace-nowrap text-md font-bold transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50",
+  "inline-flex items-center justify-center whitespace-nowrap text-subtitle2 font-bold transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50",
   {
     variants: {
       variant: {
-        default: "bg-blue text-primary-foreground shadow hover:bg-blue-200",
+        default:
+          "bg-blue hover:bg-skyblue text-primary-foreground shadow",
         destructive:
-          "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
+          "bg-destructive text-destructive-foreground  shadow-sm hover:bg-destructive/90",
         outline:
-          "border border-white bg-forgournd shadow-sm text-background hover:bg-button hover:border-blue",
-        secondary: "bg-blue text-primary-foreground shadow hover:bg-primary",
+          "border border-white bg-forgournd shadow-sm text-background hover:bg-skyblue hover:border-skyblue",
+        secondary:
+          "bg-blue text-primary-foreground hover:bg-lightblue shadow hover:bg-primary",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:text-blue",
       },
@@ -38,7 +39,7 @@ const buttonVariants = cva(
 
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement>,
-  VariantProps<typeof buttonVariants> {
+    VariantProps<typeof buttonVariants> {
   asChild?: boolean;
 }
 
