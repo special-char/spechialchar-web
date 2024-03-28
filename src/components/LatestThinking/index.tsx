@@ -36,8 +36,7 @@ const Banner = ({ data }: latestThinkingType) => {
                       href={x.Link}
                       className=" leading-10 max-lg:text-heading2 text-4xl max-sm:text-heading2 font-bold"
                     >
-                      {x.title}
-                      <span className="text-blue">&rarr;</span>
+                      {x.title} <span className="text-blue"> &rarr;</span>
                     </Link>
                   </div>
                   <div className="relative flex-1 aspect-square overflow-hidden">

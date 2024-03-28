@@ -13,10 +13,7 @@ const AccCards = () => {
         <HomeAccordian />
         <div>
           <Link href={"https://thespecialcharacter.graphy.com/"}>
-            <Button
-              variant="default"
-              className="px-16 md:px-20 py-7  "
-            >
+            <Button variant="default" className="px-16 md:px-20 py-7  ">
               Discuss my Project
             </Button>
           </Link>

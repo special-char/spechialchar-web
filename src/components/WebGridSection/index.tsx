@@ -21,7 +21,7 @@ function WebGridSection() {
         <Link className="" href={"https://thespecialcharacter.graphy.com/"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-              Discuss your web app<span>develpoment project </span>
+              Discuss your web app<span>develpment project </span>
               <span>&rarr;</span>
             </span>
           </Button>

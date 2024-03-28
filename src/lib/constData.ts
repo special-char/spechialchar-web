@@ -1005,7 +1005,7 @@ export const webicon = {
   button2: "development services",
   data: [
     {
-      url: "/images/accord_1-1.gif",
+      url: "/images/accord_4-4.gif",
       title: "Complex web apps",
       languages: "",
       description:
@@ -1048,7 +1048,7 @@ export const imageBanner8 = {
 export const webSection = {
   texts:
     "Our mission is to take business like yours to the top. That’s why ITRex is more than just a professional provider of custom web development services. Innovators at heart, we help you turn the latest tech innovations into exceptional business value. We help you outrun the competition.",
-  button1: "Contect Us",
+  button1: "Contact Us",
   button2: "",
   heading: "",
   data: [
@@ -2687,7 +2687,7 @@ export const YellowBannerData4 = {
 export const backicon = [
   {
     languages: "",
-    url: "/images/accord_1-1.gif",
+    url: "/images/accord_6-6.gif",
     title: "Enterprise Back-End Solutions",
     description:
       "The ITRex back-end development services for the enterprise segment include the creation of fail-proof, scalable back-office systems and server-side infrastructure for ERP, SCM, CRM, DMS, LMS, MarTech, and FinTech applications",
@@ -3220,62 +3220,62 @@ export const webGridSectiondata = {
     {
       id: 1,
       link: "Enterprise-Grade Solutions (ERP, CRM, PLM, etc.)",
-      ref: "./",
+      ref: "/",
     },
     {
       id: 2,
       link: "Logistics Solutions",
-      ref: "./",
+      ref: "/",
     },
     {
       id: 3,
       link: "Data Analytics",
-      ref: "./",
+      ref: "/",
     },
     {
       id: 4,
       link: "eLearning",
-      ref: "./",
+      ref: "/",
     },
     {
       id: 5,
       link: "SaaS Applications",
-      ref: "./",
+      ref: "/",
     },
     {
       id: 6,
       link: "eHealth",
-      ref: "./",
+      ref: "/",
     },
     {
       id: 7,
       link: "Omnichannel Ecommerce",
-      ref: "./",
+      ref: "/",
     },
     {
       id: 8,
       link: "FinTech Solutions",
-      ref: "./",
+      ref: "/",
     },
     {
       id: 9,
       link: "Marketing Management",
-      ref: "./",
+      ref: "/",
     },
     {
       id: 10,
       link: "Employee Productivity Apps",
-      ref: "./",
+      ref: "/",
     },
     {
       id: 11,
       link: "Digital Sports",
-      ref: "./",
+      ref: "/",
     },
     {
       id: 12,
       link: "Video Streaming",
-      ref: "./",
+      ref: "/",
     },
   ],
 };

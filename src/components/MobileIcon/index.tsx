@@ -12,12 +12,10 @@ const MobileIcon = ({ data }: ServiceIconType) => {
     <>
       <section>
         <div className="gap-3">
-          <h2 className="font-extrabold lg:text-4xl text-3xl py-10">
-            {data.heading}
-          </h2>
+          <h2 className="text-heading1 py-7">{data.heading}</h2>
         </div>
-        <div className=" md:pr-12 lg:pr-64 py-5">
-          <p className="text-bold text-lg lg:text-2xl">{data.texts}</p>
+        <div className=" md:pr-12 lg:pr-64 py-2">
+          <p className="text-bold text-subtitle3">{data.texts}</p>
         </div>
         <div className="grid md:grid-cols-3 gap-8 py-10">
           {mobileicon.data.map((x) => (

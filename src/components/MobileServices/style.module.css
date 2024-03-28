@@ -19,7 +19,7 @@
 
 
 .tab {
-    @apply relative md:text-3xl max-md:text-2xl font-bold;
+    @apply relative text-heading5;
     &[aria-selected="true"]::after {
         @apply bg-blue;
     }
@@ -32,6 +32,6 @@
 .contentdiv{
   @apply flex max-lg:flex-1 w-full;
   & > .tabsContent{
-    @apply text-subtitle1
+    @apply text-subtitle3
   } 
 }

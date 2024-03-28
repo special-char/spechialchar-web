@@ -7,9 +7,9 @@ const ServiceIcon = ({ data }: WebGridType) => {
       <div className=" lg:gap-5 ">
         <div className="flex flex-col gap-y-4 gap-2">
           <div>
-            <h2 className="font-bold text-heading5">{data.title}</h2>
+            <h2 className="text-heading5">{data.title}</h2>
           </div>
-          <div className="lg:text-xl md:text-sm sm:text-sm text-gray1 md:pr-6 lg:pr-4">
+          <div className="text-subtitle2 text-primary md:pr-6 lg:pr-4">
             {data.description}{" "}
           </div>
         </div>

@@ -35,13 +35,13 @@ const MobileSwiper = () => {
                         width={100}
                       />
                     </div>
-                    <div className="text-yellow text-sm md:text-base flex flex-col">
+                    <div className="text-yellow text-subtitle2 flex flex-col">
                       <span>{slide.name}</span>
                       <span>{slide.title}</span>
                       <span>{slide.company}</span>
                     </div>
                   </div>
-                  <div className="py-4 md:text-3xl md:py-5 lg:text-4xl">
+                  <div className="py-4 text-heading4 md:py-5">
                     &quot;{slide.quote}&quot;
                   </div>
                 </div>

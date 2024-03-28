@@ -9,26 +9,26 @@ const WebGrid = ({ data }: ServiceIconType) => {
   return (
     <section className="flex flex-col gap-y-10">
       <div className="">
-        <h2 className="font-extrabold md:text-4xl text-2xl ">{data.heading}</h2>
+        <h2 className="text-heading3 md:text-heading1 ">{data.heading}</h2>
       </div>
       <div className="md:pr-12 lg:pr-64 ">
-        <p className="text-bold lg:text-2xl">{data.texts}</p>
+        <p className=" text-subtitle2 md:text-subtitle3">{data.texts}</p>
       </div>
       <div className="grid md:grid-cols-3 gap-8  ">
         {webicon.data.map((x) => (
           <ServiceIcon key={x.url} data={x} />
         ))}
       </div>
-    <div>
-    <Link className="" href={"https://thespecialcharacter.graphy.com/"}>
-        <Button>
-          <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-            {data.button1} <span>{data.button2}</span>
-            <span>&rarr;</span>
-          </span>
-        </Button>
-      </Link>
-    </div>
+      <div>
+        <Link className="" href={"https://thespecialcharacter.graphy.com/"}>
+          <Button>
+            <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+              {data.button1} <span>{data.button2}</span>
+              <span>&rarr;</span>
+            </span>
+          </Button>
+        </Link>
+      </div>
     </section>
   );
 };

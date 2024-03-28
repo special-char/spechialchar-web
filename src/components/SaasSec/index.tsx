@@ -5,11 +5,11 @@ const SaasGrid = ({ data }: ListSaasSectionType) => {
   return (
     <>
       <div className="">
-        <div className="text-2xl font-extrabold">
+        <div className="text-heading5">
           {data?.id}
           {data.title}
         </div>
-        <div className="text-lg max-md:text-lg pt-6  text-gray font-light">
+        <div className="text-subtitle2 max-md:text-lg pt-6  text-primary">
           {data.description}
         </div>
       </div>

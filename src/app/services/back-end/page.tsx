@@ -25,7 +25,6 @@ const Backend = (props: Props) => {
       <Banner
         data={banner4}
         className="bg-darkblue1 text-background"
-        font="lg:text-5xl"
       />
       <BackGrid data={backSection} />
       <ImageBanner data={imageBanner14} />
