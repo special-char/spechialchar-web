@@ -8,7 +8,7 @@ import FooterCirti from "./FooterCirti";
 
 const Footer = ({ data }: FooterdataType) => {
   return (
-    <footer className="z-20 md:h-[90vh] max-sm:h-screen sm:h-screen overflow-hidden flex bg-[#1e3d60]">
+    <footer className="z-20 md:h-[90vh] max-sm:h-screen sm:h-screen overflow-hidden flex bg-darkblue">
       <div className=" text-background w-full grid max-lg:grid-cols-1 py-12 justify-between items-center">
         <div className="flex flex-wrap gap-x-40 max-sm:gap-y-9 sm:gap-y-10">
           <div className="w-64 overflow-hidden">

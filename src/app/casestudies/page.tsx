@@ -8,7 +8,7 @@ type Props = {};
 const CaseStudies = (props: Props) => {
   return (
     <>
-      <PageBanner data={caseBanner} className="bg-second" />
+      <PageBanner data={caseBanner} className="bg-skyblue " />
       <OurThinking />
     </>
   );

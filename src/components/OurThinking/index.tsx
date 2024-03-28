@@ -14,24 +14,24 @@ function OurThinking({ className }: { className?: string }) {
       <section>
         <div
           className={cn(
-            "flex max-md:flex-col max-sm:text-2xl max-md:text-3xl py-10 text-4xl font-bold justify-start gap-x-4",
+            "flex max-md:flex-col text-heading4 py-10   justify-start gap-x-4",
             {
               [`${className}`]: className,
             }
           )}
         >
           <button type="button" onClick={() => setCurrentCategory("All")}>
-            <div className="flex justify-start mr-4 active:text-blue hover:text-blue">
+            <div className="flex justify-start mr-4 active:text-blue hover:text-blue hover:underline-offset-8 hover:underline">
               All
             </div>
           </button>
           <button type="button" onClick={() => setCurrentCategory("Strategy")}>
-            <div className="flex justify-start mr-4 active:text-blue hover:text-blue">
+            <div className="flex justify-start mr-4 active:text-blue hover:text-blue hover:underline-offset-8 hover:underline">
               Strategy
             </div>
           </button>
           <button type="button" onClick={() => setCurrentCategory("Trending")}>
-            <div className="flex justify-start mr-4 active:text-blue hover:text-blue">
+            <div className="flex justify-start mr-4 active:text-blue hover:text-blue  hover:underline-offset-8 hover:underline">
               Trending
             </div>
           </button>
@@ -39,7 +39,7 @@ function OurThinking({ className }: { className?: string }) {
             type="button"
             onClick={() => setCurrentCategory("Development")}
           >
-            <div className="flex justify-start mr-4 active:text-blue hover:text-blue">
+            <div className="flex justify-start mr-4 active:text-blue hover:text-blue hover:underline-offset-8 hover:underline">
               Development
             </div>
           </button>
@@ -67,18 +67,18 @@ function OurThinking({ className }: { className?: string }) {
                 <div className="flex gap-1 text-nowrap flex-wrap">
                   {x.categories.map((category, index) => (
                     <React.Fragment key={index}>
-                      <a href="#" className="text-base">
+                      <a href="#" className="text-subtitle2">
                         {category}
                       </a>
                       {index !== x.categories.length - 1 && (
-                        <span className="text-base">/</span>
+                        <span className="text-subtitle2">/</span>
                       )}
                     </React.Fragment>
                   ))}
                 </div>
                 <div className="py-4 hover:text-blue">
                   <a href={x.link}>
-                    <span className="text-2xl font-bold md:text-4xl">
+                    <span className="text-heading6">
                       {x.title}
                     </span>
                   </a>

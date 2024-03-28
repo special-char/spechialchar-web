@@ -3,7 +3,7 @@ import { ProjectSectionType } from "@/utils/types";
 import Link from "next/link";
 import React from "react";
 
-const ProjectBanner = ({data}:ProjectSectionType) => {
+const ProjectBanner = ({ data }: ProjectSectionType) => {
   return (
     <div>
       <section className="h-[50vh] bg-yellow flex flex-col justify-center gap-y-10">
@@ -11,13 +11,13 @@ const ProjectBanner = ({data}:ProjectSectionType) => {
           <button>
             <Link href={"/casestudies"}>
               <span className="flex gap-x-[0.22rem]">
-                <span className="text-blue text-xl font-bold">&larr;</span>
-                <span className="text-xl font-bold">All Projects</span>
+                <span className="text-blue text-subtitle3 font-bold">&larr;</span>
+                <span className="text-subtitle3">All Projects</span>
               </span>
             </Link>
           </button>
         </div>
-        <div className="w-full text-primary font-bold text-5xl">
+        <div className="w-full text-primary text-heading1">
           {data.description1}
         </div>
       </section>
@@ -26,8 +26,8 @@ const ProjectBanner = ({data}:ProjectSectionType) => {
           return (
             <>
               <div key={item.id}>
-                <h2 className="font-bold">{item.title}</h2>
-                <h3>{item.description}</h3>
+                <h2 className="text-heading6">{item.title}</h2>
+                <h3 className="text-subtitle2">{item.description}</h3>
               </div>
             </>
           );
