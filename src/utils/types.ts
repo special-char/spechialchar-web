@@ -1,5 +1,3 @@
-
-
 export type FooterdataType = {
   data: {
     title: string;
@@ -55,7 +53,6 @@ export type BannerType = {
   description: string;
   imageurl: string;
 };
-
 
 export type latestThinkingType = {
   data: {
@@ -134,7 +131,7 @@ export type serviceAccordiandataType = {
 export type CloudAccordiandataType = {
   data: {
     title: string;
-    description:string;
+    description: string;
   };
 };
 
@@ -155,7 +152,7 @@ export type SaasSectionType = {
 
 export type ListSaasSectionType = {
   data: {
-    id:number;
+    id: number;
     title: string;
     description: string;
   };
@@ -352,11 +349,32 @@ export type aboutlinksType = {
   };
 };
 
-
 export type ColllabrateCardType = {
   data: {
     title: string;
     url: string;
+    description: string;
+  };
+};
+
+export type ProjectSectionType = {
+  data: {
+    description1: string;
+    description2: string;
+  };
+};
+
+export type ProjectSectionType2 = {
+
+    url: string;
+  sectiontitle1: string;
+  
+};
+
+export type ProjectSectionmap1Type = {
+  data: {
+    id: number;
+    title: string;
     description: string;
   };
 };
