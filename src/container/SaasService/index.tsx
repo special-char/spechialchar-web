@@ -12,9 +12,9 @@ const SaasService = () => {
         <div className="">
           {listData1.data.map((i) => {
             return (
-              <div key={i?.id} className="list-square text-subtitle2">
-                <li className="font-bold text-button">
-                  <span className="text-black">{i.title}</span>
+              <div key={i?.id} className="list-square text-subtitle1">
+                <li className="font-bold text-blue">
+                  <span className="text-primary">{i.title}</span>
                 </li>
               </div>
             );
@@ -23,9 +23,9 @@ const SaasService = () => {
         <div>
           {listData2.data.map((i) => {
             return (
-              <div key={i?.id} className="list-square text-subtitle2">
-                <li className="font-bold text-button">
-                  <span className="text-black">{i.title}</span>
+              <div key={i?.id} className="list-square text-subtitle1">
+                <li className="font-bold text-blue">
+                  <span className="text-primary">{i.title}</span>
                 </li>
               </div>
             );

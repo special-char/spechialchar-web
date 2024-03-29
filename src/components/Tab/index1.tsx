@@ -17,7 +17,7 @@ const Tab1 = ({ data }: tabdataType) => {
                     <>
                       <div
                         key={item.id}
-                        className="flex flex-col gap-5 justify-between border-b-2  text-xl md:text-2xl  px-5 lg:text-4xl  xl:px-16  md:px-9   font-bold"
+                        className="flex flex-col gap-5 justify-between text-heading3 border-b-2 px-5 xl:px-16  md:px-9"
                       >
                         <Image
                           src={item.image}
@@ -45,7 +45,7 @@ const Tab1 = ({ data }: tabdataType) => {
             return (
               <TabsContent
                 key={item.id}
-                className="text-black lg:text-2xl lg:px-1"
+                className="text-primary text-subtitle3 lg:px-1"
                 value={item.value}
               >
                 {item.content}

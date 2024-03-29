@@ -13,7 +13,7 @@ const Sticky = (props: Props) => {
       >
         <section>
           <span>Get in Touch</span>
-          <span className="text-black group-hover:text-white ">   &rarr;</span>
+          <span className="text-primary group-hover:text-background ">   &rarr;</span>
         </section>
       </Button>
     </main>

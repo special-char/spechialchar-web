@@ -9,17 +9,15 @@ type Props = {};
 const ProjectSec = (props: Props) => {
   return (
     <section>
-      <h1 className="font-bold text-4xl my-10 lg:pl-4 sm:pl-2">
-        Latest Project
-      </h1>
+      <h1 className="text-heading1 my-10 lg:pl-4 sm:pl-2">Latest Project</h1>
 
       <ProjectCard />
 
-      <div className="flex flex-wrap justify-between my-10 sm:pl-4 sm:px-5 gap-y-9 text-xl text-white">
+      <div className="flex flex-wrap justify-between my-10 gap-y-9 text-subtitle1 text-background">
         <div className="flex items-center">
           <Link
             href={"https://thespecialcharacter.graphy.com/"}
-            className="pt-1 flex gap-x-2 items-center text-black font-bold md:justify-start justify-center"
+            className="pt-1 flex gap-x-2 items-center text-primary font-bold md:justify-start justify-center"
           >
             View all cases <Arrow />
           </Link>
@@ -29,7 +27,7 @@ const ProjectSec = (props: Props) => {
             className="flex md:justify-start justify-center"
             href={"https://thespecialcharacter.graphy.com/"}
           >
-            <Button variant="default" size="sm" className=" py-7 text-base ">
+            <Button variant="default" className=" py-7 text-subtitle2">
               Start your innovation journey
             </Button>
           </Link>

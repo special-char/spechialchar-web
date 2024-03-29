@@ -14,9 +14,9 @@ const ImageAccordion = ({ data }: imageAccordianDataType) => {
     return (
         <>
             <section>
-                <div className="py-5  text-2xl md:text-3xl lg:text-4xl font-bold">{data.title1}</div>
-                <div className="md:py-5 lg:pr-72 text-lg md:text-xl lg:text-2xl ">{data.title2}</div>
-                <div className="py-7 text-3xl font-bold">{data.title3}</div>
+                <div className="py-5  text-heading3">{data.title1}</div>
+                <div className="md:py-5 lg:pr-72 text-subtitle3 ">{data.title2}</div>
+                <div className="py-7 text-heading4">{data.title3}</div>
                 <div className="image-accordion">
 
                     {imageAccordianData.data.map((item, index) => {
@@ -30,7 +30,7 @@ const ImageAccordion = ({ data }: imageAccordianDataType) => {
                                 <Image alt="" height={900} width={900} src={item.image} />
                                 <div className="content1">{item.header}</div>
                                 <div className="content">
-                                    <div className=" ">
+                                    <div className="">
 
                                         <p>{item.text}</p>
                                     </div>

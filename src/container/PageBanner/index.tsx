@@ -5,21 +5,30 @@ import React from "react";
 const PageBanner = ({
   data,
   className,
+  text,
 }: {
   data: pageBannerType;
   className?: string;
+  text?: string;
 }) => {
   return (
     <section
-      className={cn("h-screen py-40 flex bg-white flex-wrap items-center", {
+      className={cn("h-[75vh] py-40 flex bg-blue flex-wrap items-center", {
         [`${className}`]: className,
       })}
     >
-      <div className="text-black  pl-8 pt-12">
-        <h1 className="text-5xl md:text-7xl lg:text-9xl w-[75vw] font-extrabold mb-4 md:mb-12 ">
+      <div className="text-background  pl-8 pt-12">
+        <h1 className="text-heading1 w-[75vw] font-extrabold mb-4 md:mb-12 ">
           {data.title1}
         </h1>
-        <div className="text-gray-400 font-bold text-lg md:text-2xl lg:text-4xl">
+        <div
+          className={cn(
+            "text-subtitle3",
+            {
+              [`${text}`]: text,
+            }
+          )}
+        >
           {data?.title2}
         </div>
       </div>

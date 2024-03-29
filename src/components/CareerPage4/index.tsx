@@ -24,7 +24,7 @@ const CareerPage4 = ({ data }: CareerPage4dataType) => {
 
               </h3>
             </div>
-            <div className="pl-4 my-4 border-l-2 border-yellow-200 font-medium flex flex-col gap-y-4 ">
+            <div className="pl-4 my-4 border-l-2 border-yellow font-medium flex flex-col gap-y-4 ">
               <p>{data.desc1}</p>
               <p>{data.desc2}</p>
               <p>{data?.desc3}</p>

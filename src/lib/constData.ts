@@ -120,7 +120,7 @@ export const footerdata = {
   email: "contact@thespecialcharacter.com",
   mobile: "+91 76000 96432 / 33",
   privacy: "Privacy Policy",
-  copyright: "@2024 TheSpecialChar",
+  copyright: "2024 TheSpecialChar Pvt. ltd.",
   data: [
     {
       id: 1,
@@ -144,7 +144,7 @@ export const footerdata = {
     },
     {
       id: 3,
-      icon: "/icons/Linkedin.svg",
+      icon: "/icons/linkedin.svg",
       link: "https://www.linkedin.com/",
     },
     {
@@ -674,7 +674,7 @@ export const testimonial = {
 export const serviceicon2 = {
   data: [
     {
-      url: "/images/accord_1-1.gif",
+      url: "/images/accord_5-5.gif",
       languages: "",
       title: "Enterprise Technology",
       description:
@@ -1005,7 +1005,7 @@ export const webicon = {
   button2: "development services",
   data: [
     {
-      url: "/images/accord_1-1.gif",
+      url: "/images/accord_4-4.gif",
       title: "Complex web apps",
       languages: "",
       description:
@@ -1048,7 +1048,7 @@ export const imageBanner8 = {
 export const webSection = {
   texts:
     "Our mission is to take business like yours to the top. That’s why ITRex is more than just a professional provider of custom web development services. Innovators at heart, we help you turn the latest tech innovations into exceptional business value. We help you outrun the competition.",
-  button1: "Contect Us",
+  button1: "Contact Us",
   button2: "",
   heading: "",
   data: [
@@ -1774,7 +1774,7 @@ export const cloudSocial = [
 export const banner6 = {
   imageurl: "/images/uiBanner.webp",
   title: "End-to-end UI/UX design services",
-  button1: "hire Ui/Ux",
+  button1: "Hire Ui/Ux",
   button2: "designers",
   description:
     "The Special Char offers a whole gamut of UI/UX design services to transform unremarkable mobile apps, websites, dashboards, and cyber-physical systems into tech solutions that delight users and bring tangible business results",
@@ -1901,7 +1901,7 @@ export const edSection = {
   title1: "",
   description: "",
   title: "We craft educational software for every need",
-  text: "We help our clients in K-12, postsecondary, and corporate segments to redefine the way they teach, learn, communicate, and operate. EdTech startups and educational software companies, in turn, use our eLearning software development expertise to win the market with next-gen features that drive online education way forward. K-12",
+  text: "We help our clients in K-12, postsecondary, and corporate segments to redefine the way they teach, learn, communicate, and operate. EdTech startups and educational software companies, in turn, use our eLearning software development expertise to win the market with next-gen features that drive online education way forward. ",
   section: [
     {
       id: 1,
@@ -2187,6 +2187,11 @@ export const edBox = [
 export const pageBanner = {
   title1: "Thinking",
   title2: "Useful. Relevant. Challenging.",
+};
+
+export const pageBanner2 = {
+  title1: "Projects",
+  title2: "the work we do togather!",
 };
 
 export const blogs = [
@@ -2682,7 +2687,7 @@ export const YellowBannerData4 = {
 export const backicon = [
   {
     languages: "",
-    url: "/images/accord_1-1.gif",
+    url: "/images/accord_6-6.gif",
     title: "Enterprise Back-End Solutions",
     description:
       "The ITRex back-end development services for the enterprise segment include the creation of fail-proof, scalable back-office systems and server-side infrastructure for ERP, SCM, CRM, DMS, LMS, MarTech, and FinTech applications",
@@ -3215,62 +3220,62 @@ export const webGridSectiondata = {
     {
       id: 1,
       link: "Enterprise-Grade Solutions (ERP, CRM, PLM, etc.)",
-      ref: "./",
+      ref: "/",
     },
     {
       id: 2,
       link: "Logistics Solutions",
-      ref: "./",
+      ref: "/",
     },
     {
       id: 3,
       link: "Data Analytics",
-      ref: "./",
+      ref: "/",
     },
     {
       id: 4,
       link: "eLearning",
-      ref: "./",
+      ref: "/",
     },
     {
       id: 5,
       link: "SaaS Applications",
-      ref: "./",
+      ref: "/",
     },
     {
       id: 6,
       link: "eHealth",
-      ref: "./",
+      ref: "/",
     },
     {
       id: 7,
       link: "Omnichannel Ecommerce",
-      ref: "./",
+      ref: "/",
     },
     {
       id: 8,
       link: "FinTech Solutions",
-      ref: "./",
+      ref: "/",
     },
     {
       id: 9,
       link: "Marketing Management",
-      ref: "./",
+      ref: "/",
     },
     {
       id: 10,
       link: "Employee Productivity Apps",
-      ref: "./",
+      ref: "/",
     },
     {
       id: 11,
       link: "Digital Sports",
-      ref: "./",
+      ref: "/",
     },
     {
       id: 12,
       link: "Video Streaming",
-      ref: "./",
+      ref: "/",
     },
   ],
 };
@@ -3514,7 +3519,7 @@ export const cloudgrid4 = {
   ],
 };
 export const SwiperServices3 = {
-  title: "Selectback-end development case studies",
+  title: "Select back-end development case studies",
   data: [
     {
       id: 1,
@@ -3659,20 +3664,20 @@ export const latestThinkingData2 = {
       title:
         "Olab education research platform modernization for highly-engaging virtual sceana",
       img: "/images/e-learn1.webp",
-      Link: "./",
+      Link: "/",
     },
     {
       id: 2,
       title: "Innovation data management solution for global analystic leader",
       img: "/images/e-learn2.webp",
-      Link: "./",
+      Link: "/",
     },
     {
       id: 3,
       title:
         "Modernization of on education and collabaration platform for healthcare professional",
       img: "/images/e-learn3.webp",
-      Link: "./",
+      Link: "/",
     },
   ],
 };
@@ -3685,20 +3690,20 @@ export const latestThinkingData3 = {
       title:
         "Olab education research platform modernization for highly-engaging virtual sceana",
       img: "/images/aboutswiper1.webp",
-      Link: "./",
+      Link: "/",
     },
     {
       id: 2,
       title: "Innovation data management solution for global analystic leader",
       img: "/images/aboutswiper2.webp",
-      Link: "./",
+      Link: "/",
     },
     {
       id: 3,
       title:
         "Modernization of on education and collabaration platform for healthcare professional",
       img: "/images/aboutswiper3.webp",
-      Link: "./",
+      Link: "/",
     },
   ],
 };
@@ -3711,20 +3716,20 @@ export const latestThinkingData4 = {
       title:
         "Olab education research platform modernization for highly-engaging virtual sceana",
       img: "/images/aboutswiper4.webp",
-      Link: "./",
+      Link: "/",
     },
     {
       id: 2,
       title: "Innovation data management solution for global analystic leader",
       img: "/images/aboutswiper5.webp",
-      Link: "./",
+      Link: "/",
     },
     {
       id: 3,
       title:
         "Modernization of on education and collabaration platform for healthcare professional",
       img: "/images/aboutswiper6.webp",
-      Link: "./",
+      Link: "/",
     },
   ],
 };
@@ -3841,4 +3846,151 @@ export const imageBanner33 = {
   url: "/images/weare.webp",
   title1: "We are hungrrrrry",
   title2: "for your success",
+};
+
+export const backendData = {
+  description1:
+    "AI-powered self-service BI and big data platform for the world's leading retailer",
+  section1: [
+    {
+      id: 1,
+      title: "Client",
+      description:
+        "One of the largest retailers that operates a chain of hypermarkets, discount department stores, and grocery stores around the globe",
+    },
+    {
+      id: 2,
+      title: "Industry",
+      description: "Retail",
+    },
+    {
+      id: 3,
+      title: "Services",
+      description:
+        "Product Development, Data Architecture, Data Management, Data Analytics, Data Visualization",
+    },
+    {
+      id: 4,
+      title: "Tech",
+      description:
+        "Cosmos DB, MS Azure, Gremlin, JanusGraph, Cassandra, Java, Python, Kafka, React, Redis",
+    },
+  ],
+  description2:
+    "The importance of data, its accuracy and availability when and where needed, cannot be overestimated when it comes to business prosperity and leadership. For a company operating on a large scale, getting as close to data as possible becomes even more critical. That’s what our client came to us for. With a huge number of internal users, disparate systems and isolated islands of data began to take a toll on the entire data analysis process resulting in inaccurate insights, poor business decisions and missed market opportunities. Our team was entrusted with the task of creating an AI-driven big data and self-service business intelligence platform to provide the client’s almost 3 million internal users with hassle-free on-demand data access.",
+
+  dataCase: [
+    {
+      title:
+        " From the outset, our collaboration was grounded in innovation and adaptability.  Integrating first closely with the clients Center of Excellence, we helped them:",
+      description: [
+        {
+          title: "Refine RPA solutions to cater to specific demands",
+        },
+        {
+          title:
+            "  Set up and enhance business processes to optimize data collection",
+        },
+        {
+          title: "Build and improve pre-built models",
+        },
+      ],
+    },
+
+    {
+      title:
+        " From the outset, our collaboration was grounded in innovation and adaptability.  Integrating first closely with the clients Center of Excellence, we helped them:",
+      description: [
+        {
+          title: "Refine RPA solutions to cater to specific demands",
+        },
+        {
+          title:
+            "  Set up and enhance business processes to optimize data collection",
+        },
+        {
+          title: "Build and improve pre-built models",
+        },
+      ],
+    },
+    {
+      title:
+        " From the outset, our collaboration was grounded in innovation and adaptability.  Integrating first closely with the clients Center of Excellence, we helped them:",
+      description: [
+        {
+          title: "Refine RPA solutions to cater to specific demands",
+        },
+        {
+          title:
+            "  Set up and enhance business processes to optimize data collection",
+        },
+        {
+          title: "Build and improve pre-built models",
+        },
+      ],
+    },
+    {
+      title:
+        " From the outset, our collaboration was grounded in innovation and adaptability.  Integrating first closely with the clients Center of Excellence, we helped them:",
+      description: [
+        {
+          title: "Refine RPA solutions to cater to specific demands",
+        },
+        {
+          title:
+            "  Set up and enhance business processes to optimize data collection",
+        },
+        {
+          title: "Build and improve pre-built models",
+        },
+      ],
+    },
+    {
+      title:
+        " From the outset, our collaboration was grounded in innovation and adaptability.  Integrating first closely with the clients Center of Excellence, we helped them:",
+      description: [
+        {
+          title: "Refine RPA solutions to cater to specific demands",
+        },
+        {
+          title:
+            "  Set up and enhance business processes to optimize data collection",
+        },
+        {
+          title: "Build and improve pre-built models",
+        },
+      ],
+    },
+    {
+      title:
+        " From the outset, our collaboration was grounded in innovation and adaptability.  Integrating first closely with the clients Center of Excellence, we helped them:",
+      description: [
+        {
+          title: "Refine RPA solutions to cater to specific demands",
+        },
+        {
+          title:
+            "  Set up and enhance business processes to optimize data collection",
+        },
+        {
+          title: "Build and improve pre-built models",
+        },
+      ],
+    },
+  ],
+  SwiperServices: [
+    {
+      id: 1,
+      src: "/images/yagneshsir.png",
+    },
+    {
+      id: 2,
+      src: "/images/yagneshsir2.png",
+    },
+  ],
+};
+
+export const backendData2 = {
+  url: "/images/projectsection.webp",
+  sectiontitle1: "Our collaboration",
 };

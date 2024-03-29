@@ -38,14 +38,17 @@ const config = {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
         },
-        button: "rgb(var(--color-button) / <alpha-value>)",
-        second: "rgb(var(--color-second) / <alpha-value>)",
-        background1: "rgb(var(--color-background1) / <alpha-value>)",
-        background2: "rgb(var(--color-background2) / <alpha-value>)",
-        background3: "rgb(var(--color-background3) / <alpha-value>)",
-        background4: "rgb(var(--color-background4) / <alpha-value>)",
-        background5: "rgb(var(--color-background5) / <alpha-value>)",
-
+        blue: "rgb(var(--color-blue) / <alpha-value>)",
+        yellow: "rgb(var(--color-yellow) / <alpha-value>)",
+        gray: "rgb(var(--color-gray) / <alpha-value>)",
+        darkblue: "rgb(var(--color-darkblue) / <alpha-value>)",
+        darkblue1: "rgb(var(--color-darkblue1) / <alpha-value>)",
+        darkblue2: "rgb(var(--color-darkblue2) / <alpha-value>)",
+        gray1: "rgb(var(--color-gray1) / <alpha-value>)",
+        lightpink: "rgb(var(--color-lightpink) / <alpha-value>)",
+        lightblue: "rgb(var(--color-lightblue) / <alpha-value>)",
+        textgray: "rgb(var(--color-textgray) / <alpha-value>)",
+        skyblue: "rgb(var(--color-skyblue) / <alpha-value>)",
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
@@ -77,8 +80,8 @@ const config = {
           {
             lineHeight: "1.3",
             letterSpacing: "-0.01em",
-            // fontWeight: "700",
-            fontWeight: "600",
+            fontWeight: "700",
+            // fontWeight: "600",
           },
         ],
         heading2: [
@@ -127,7 +130,7 @@ const config = {
           },
         ],
         subtitle1: [
-          "clamp(1.25rem, 0.625vw + 1rem, 1.5rem)",
+          "clamp(1.25rem, 0.625vw + 1rem, 1rem)",
           {
             lineHeight: "1.8",
             letterSpacing: "-0.01em",
@@ -136,9 +139,17 @@ const config = {
           },
         ],
         subtitle2: [
-          "clamp(1.125rem, 0.625vw + 0.875rem, 1.375rem)",
+          "clamp(1.015rem, 0.625vw + 0.875rem, 1.075rem)",
           {
             lineHeight: "1.8",
+            letterSpacing: "-0.01em",
+            // fontWeight: "600",
+            fontWeight: "500",
+          },
+        ],
+        subtitle3: [
+          "clamp(1.315rem, 0.625vw + 0.875rem, 1.75rem)",
+          {
             letterSpacing: "-0.01em",
             // fontWeight: "600",
             fontWeight: "500",
@@ -206,15 +217,123 @@ const config = {
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
+          transform: {},
         },
         "accordion-up": {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        ring: {
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(360deg)" },
+        },
+        "fade-in-right": {
+          "0%": {
+            opacity: "0",
+            transform: "translateX(10px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateX(0)",
+          },
+        },
+        "fade-in-top": {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(-10px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
+        "fade-out-top": {
+          "0%": {
+            height: "100%",
+          },
+          "99%": {
+            height: "0",
+          },
+          "100%": {
+            visibility: "hidden",
+          },
+        },
+        "accordion-slide-up": {
+          "0%": {
+            height: "var(--radix-accordion-content-height)",
+            opacity: "1",
+          },
+          "100%": {
+            height: "0",
+            opacity: "0",
+          },
+        },
+        "accordion-slide-down": {
+          "0%": {
+            "min-height": "0",
+            "max-height": "0",
+            opacity: "0",
+          },
+          "100%": {
+            "min-height": "var(--radix-accordion-content-height)",
+            "max-height": "none",
+            opacity: "1",
+          },
+        },
+        fadeleft: {
+          "0%": {
+            opacity: "0",
+            transform: "translate3d(-60%,0,0)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateX(0)",
+          },
+        },
+        customanimation: {
+          "0%": {
+            opacity: "0",
+            transform: "scale3d(.5,.5,.5)",
+          },
+          "50%": {
+            opacity: "1",
+          },
+        },
+        fadeinup: {
+          "0%": {
+            opacity: "0",
+            transform: "translate3d(0,60%,0)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translatez(0)",
+          },
+        },
+
+        "slide-in": {
+          "0%": { transform: "translateY(-100%)" },
+          "100%": { transform: "translateY(0)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        ring: "ring 2.2s cubic-bezier(0.5, 0, 0.5, 1) infinite",
+        "fade-in-right":
+          "fade-in-right 0.3s cubic-bezier(0.5, 0, 0.5, 1) forwards",
+        "fade-in-top": "fade-in-top 0.2s cubic-bezier(0.5, 0, 0.5, 1) forwards",
+        "fade-out-top":
+          "fade-out-top 0.2s cubic-bezier(0.5, 0, 0.5, 1) forwards",
+        "accordion-open":
+          "accordion-slide-down 300ms cubic-bezier(0.87, 0, 0.13, 1) forwards",
+        "accordion-close":
+          "accordion-slide-up 300ms cubic-bezier(0.87, 0, 0.13, 1) forwards",
+        enter: "enter 200ms ease-out",
+        "slide-in": "slide-in 1.2s cubic-bezier(.41,.73,.51,1.02)",
+        leave: "leave 150ms ease-in forwards",
+        fadeleft: "fadeleft 2s both .3s",
+        customanimation: "customanimation 2s both ",
+        fadeinup: "fadeinup 3s both .3s",
       },
     },
   },

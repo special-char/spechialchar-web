@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 const ServiceBox = () => {
   return (
     <section>
-      <div className="bg-blue-100 border-r-2  lg:px-24 lg: py-20  max-md:p-4 rounded-lg ">
+      <div className="bg-lightblue border-r-2  lg:px-24 lg: py-20  max-md:p-4 rounded-lg ">
         <ul className="list-square pl-7 grid lg:grid-cols-2 lg:px-1 gap-4 md:grid-cols-2">
           {serviceBox.map((i) => (
             <li key={i.id} className="text-lg mb-2 ">
@@ -18,8 +18,7 @@ const ServiceBox = () => {
       <div className="pt-10 pb-2">
         <Button>
           <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-            Lets Discuss Our <span>parternship</span>
-            <span>&rarr;</span>
+            Lets Discuss Our <span>partnership &rarr;</span>
           </span>
         </Button>
       </div>

@@ -7,8 +7,8 @@ type Props = {};
 
 const CloudGrid3 = () => {
   return (
-    <>
-      <section className="bg-[#fffae3] lg:m-10 md:px-24 lg:  max-sm:py-7 sm:py-20  p-4 rounded-lg flex flex-col gap-y-9">
+    <section>
+      <section className="bg-lightpink  p-10 rounded-lg flex flex-col gap-y-9">
         <div className="text-subtitle1 font-bold">
           Why work with The Special Char?
         </div>
@@ -23,7 +23,7 @@ const CloudGrid3 = () => {
           </ul>
         </div>
       </section>
-      <section className="py-10">
+      <div className="pt-10">
         <Link href={"https://thespecialcharacter.graphy.com/"}>
           <Button size={"lg"}>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
@@ -34,8 +34,8 @@ const CloudGrid3 = () => {
             </span>
           </Button>
         </Link>
-      </section>
-    </>
+      </div>
+    </section>
   );
 };
 

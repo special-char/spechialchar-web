@@ -38,7 +38,7 @@ export default function Index() {
       <div>
       <Link href={"https://thespecialcharacter.graphy.com/"}>
         <Button variant={"secondary"}>
-          <span>Hire mobile app devalopers &rarr;</span>
+          <span>Hire mobile app developers &rarr;</span>
         </Button>
       </Link>
       </div>

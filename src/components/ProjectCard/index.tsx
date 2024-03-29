@@ -31,18 +31,18 @@ export function ProjectCard() {
                       width={700}
                     />
                   </div>
-                  <h1 className="lg:text-2xl md:text-xl sm:text-lg max-sm:text-md group-hover:text-button font-bold mb-2 mt-4 ">
+                  <h1 className="text-heading6 group-hover:text-blue font-bold mb-2 mt-4 ">
                     {item.title}
                   </h1>
-                  <div className="text-gray-400 lg:text-lg md:text-md sm:text-sm max-sm:text-md">
+                  <div className="text-primary text-subtitle2">
                     {item.description}
                   </div>
                 </CarouselItem>
               ))}
             </CarouselContent>
           </div>
-          <CarouselPrevious className="bg-blue-500 h-10 w-10 absolute  left-0 translate-x-[-50%] max-sm:hidden" />
-          <CarouselNext className="bg-blue-500 h-10 w-10 absolute  right-0 max-sm:hidden " />
+          <CarouselPrevious className="bg-blue h-10 w-10 absolute  left-0 translate-x-[-50%] max-sm:hidden" />
+          <CarouselNext className="bg-blue h-10 w-10 absolute  right-0 max-sm:hidden " />
         </Carousel>
       </div>
     </div>

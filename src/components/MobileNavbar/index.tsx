@@ -11,7 +11,7 @@ import NavbarLogo from "../../../public/icons/Logo New Website.svg";
 import { accordionItems1 } from "@/lib/constData";
 import { Cross1Icon } from "@radix-ui/react-icons";
 import { Button } from "../ui/button";
-import SocialIcon from "../Footer/SocialIcon";
+import Image from "next/image";
 
 const MobileNavbar = () => {
   const [click, setClicked] = useState(false);
@@ -22,14 +22,20 @@ const MobileNavbar = () => {
   return (
     <>
       <div onClick={toggleDropdown}>
-        <Humburger className="fill-white mt-3" />
+        <Humburger className="fill-priamry mt-2" />
       </div>
       {click && (
-        <div className="absolute z-50  bg-black text-white h-screen w-full left-0 top-0 p-4 ">
+        <div className="absolute z-50  bg-background text-primary h-screen w-full left-0 top-0 p-4 ">
           <div className="flex justify-between items-center">
             <div>
               <Link href="/">
-                <NavbarLogo className="h-12 w-full" />
+                <Image
+                  src={"/images/TSC-Logo-1.png"}
+                  alt={"Tsc-Logo"}
+                  title="tsc-logo"
+                  height={100}
+                  width={100}
+                />
               </Link>
             </div>
             <div onClick={toggleDropdown}>
@@ -44,7 +50,7 @@ const MobileNavbar = () => {
                     <Link
                       href={item.link.toLowerCase()}
                       onClick={toggleDropdown}
-                      className="text-xl"
+                      className="text-subtitle2"
                     >
                       {item.title}
                     </Link>
@@ -52,10 +58,7 @@ const MobileNavbar = () => {
                   <AccordionContent className="py-4">
                     <ul className="flex flex-col gap-y-4">
                       {item?.content?.map((itemContent, subindex) => (
-                        <li
-                          key={subindex}
-                          className="text-base hover:text-yellow-300  "
-                        >
+                        <li key={subindex} className="text-primary">
                           <Link
                             href={`/${item.title.toLowerCase()}/${item.content[
                               subindex
@@ -75,7 +78,7 @@ const MobileNavbar = () => {
                 <Link
                   href="/ourthinking"
                   onClick={toggleDropdown}
-                  className="text-white font-bold hover:text-second text-subtitle1 md:text-xl py-3"
+                  className="text-subtitle2 py-3"
                 >
                   Our Thinking
                 </Link>
@@ -83,7 +86,7 @@ const MobileNavbar = () => {
                 <Link
                   href="/casestudies"
                   onClick={toggleDropdown}
-                  className="text-white font-bold hover:text-second text-subtitle1 md:text-xl py-3"
+                  className="text-subtitle2 py-3"
                 >
                   Case Studies
                 </Link>
@@ -91,9 +94,9 @@ const MobileNavbar = () => {
               <div className="pt-4">
                 <Link className="pt-1" href={"#Contact"}>
                   <Button
-                    variant={"outline"}
-                    size={"xl"}
-                    className=" py-1 px-4 text-white "
+                    variant={"secondary"}
+                    size={"default"}
+                    className=" py-1 px-4  hover:text-background "
                   >
                     Contact Us
                   </Button>

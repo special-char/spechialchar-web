@@ -5,7 +5,7 @@ import { ColllabrateCardType } from "@/utils/types";
 const CollabrateCard = ({ data }: ColllabrateCardType) => {
   return (
     <div>
-      <div className="md:flex-row flex justify-start flex-col lg:gap-8 m-4 md:gap-3 text-white ">
+      <div className="md:flex-row flex justify-start flex-col lg:gap-8 m-4 md:gap-3 text-background ">
         <div className="md:justify-center flex-1/2 items-center">
           <Image
             src={data.url}
@@ -15,10 +15,8 @@ const CollabrateCard = ({ data }: ColllabrateCardType) => {
           />
         </div>
         <div className="mt-4 md:mt-0 mb-1 flex-1  ">
-          <h3 className="lg:text-3xl md:text-subtitle1 font-extrabold">
-            {data.title}
-          </h3>
-          <div className="mt-1.5 lg:text-base md:text-sm  text-gray-400">
+          <h3 className="text-heading6">{data.title}</h3>
+          <div className="mt-1.5 text-subtitle2  text-background">
             {data.description}
           </div>
         </div>

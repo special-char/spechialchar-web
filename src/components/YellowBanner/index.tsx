@@ -3,10 +3,9 @@ import React from "react";
 
 function YellowBanner({ data }: BgYellowType) {
   return (
-    <section className="bg-second ">
+    <section className="bg-yellow ">
       <div className="w-full py-6">
-
-        <p className="font-normal md:max-w-[840px] w-full leading-5 lg:text-2xl md:leading-6 lg:leading-8 ">
+        <p className="text-subtitle3 md:max-w-[840px] w-full  ">
           {data.description}
         </p>
       </div>

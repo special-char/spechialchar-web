@@ -9,7 +9,7 @@ const EcomSocial = ({ data }: ecomSectionType) => {
   return (
     <>
       <section className="flex flex-col gap-y-10">
-        <div className="lg:text-6xl md:text-5xl text-3xl  font-bold md:pr-24">
+        <div className="text-heading1  font-bold md:pr-24">
           {data.title}
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">

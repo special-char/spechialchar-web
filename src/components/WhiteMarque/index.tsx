@@ -11,7 +11,7 @@ const Marque = ({
   className?: string;
 }) => (
   <div
-    className={cn("h-72 flex items-center bg-black", {
+    className={cn("h-72 flex items-center bg-primary", {
       [`${className}`]: className,
     })}
   >

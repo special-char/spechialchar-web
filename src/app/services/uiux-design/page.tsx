@@ -22,7 +22,7 @@ import React from "react";
 const UxDesign = () => {
   return (
     <>
-      <Banner data={banner6} className="bg-second text-black" />
+      <Banner data={banner6} className="bg-yellow text-primary" />
       <UiGrid data={uiGrid} />
       <ImageBanner data={imageBanner21} />
       <YellowBanner data={YellowBannerData8} />

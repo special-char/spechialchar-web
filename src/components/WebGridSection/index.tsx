@@ -11,21 +11,21 @@ function WebGridSection() {
           <Link
             key={x.id}
             href={x?.ref}
-            className="text-blue-700 hover:text-blue-300 duration-300 text-2xl font-bold border-b-2 py-4 border-b-second"
+            className="text-blue hover:text-blue-300 duration-300 text-2xl font-bold border-b-2 py-4 border-b-second"
           >
             {x.link}
           </Link>
         ))}
       </div>
       <div>
-      <Link className="" href={"https://thespecialcharacter.graphy.com/"}>
-        <Button>
-          <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-            Discuss your web app<span>develpoment project </span>
-            <span>&rarr;</span>
-          </span>
-        </Button>
-      </Link>
+        <Link className="" href={"https://thespecialcharacter.graphy.com/"}>
+          <Button>
+            <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+              Discuss your web app<span>develpment project </span>
+              <span>&rarr;</span>
+            </span>
+          </Button>
+        </Link>
       </div>
     </section>
   );

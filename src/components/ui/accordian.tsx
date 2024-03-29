@@ -2,7 +2,7 @@
 
 import * as React from "react"
 import * as AccordionPrimitive from "@radix-ui/react-accordion"
-import Arrow from "@/public.icons/arrow_downward.svg"
+import Arrow from "@/public.icons/add.svg"
 
 import { cn } from "@/lib/utils"
 
@@ -24,11 +24,11 @@ const AccordionTrigger = React.forwardRef<
   React.ElementRef<typeof AccordionPrimitive.Trigger>,
   React.ComponentPropsWithoutRef<typeof AccordionPrimitive.Trigger>
 >(({ className, children, ...props }, ref) => (
-  <AccordionPrimitive.Header className="flex">
+  <AccordionPrimitive.Header className="flex transition-all duration-1000 ease-in-out">
     <AccordionPrimitive.Trigger
       ref={ref}
       className={cn(
-        " transition-all  [&[data-state=open]>svg]:rotate-180",
+        "    [&[data-state=open]>svg]:rotate-45",
         className
       )}
       {...props}
@@ -46,7 +46,7 @@ const AccordionContent = React.forwardRef<
 >(({ className, children, ...props }, ref) => (
   <AccordionPrimitive.Content
     ref={ref}
-    className=" data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
+    className=" data-[state=closed]:animate-accordion-close data-[state=open]:animate-fade-in-top data-[state=open]:duration-1000"
     {...props}
   >
     <div className={cn("pb-4 pt-0", className)}>{children}</div>

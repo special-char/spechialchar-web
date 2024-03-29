@@ -18,15 +18,15 @@ const CloudAccordian = ({ data }: serviceAccordiandataType) => {
     <>
       <div className="grid md:grid-cols-2 md:gap-16 ">
         <Accordion type="single" collapsible className="">
-          <hr className="border-1 border-gray-300" />
+          <hr className="border-1 border-gray" />
           {cloudAccordiandata.data.map((item) => {
             return (
               <AccordionItem
-                className="border-b py-3 border-gray-300"
+                className="border-b py-3 border-gray"
                 key={item.id}
                 value={`item-${item.id}`}
               >
-                <AccordionTrigger className=" flex flex-1 items-center justify-between text-xl lg:text-3xl font-semibold    ">
+                <AccordionTrigger className=" flex flex-1 items-center justify-between text-heading6 font-semibold    ">
                   <div className="flex gap-10 md:gap-3  items-center">
                     <div className=" md:flex md:gap-40 lg:gap-[30rem] items-center  hidden">
                       <Image alt="" src={item.image} width={40} height={40} />
@@ -35,7 +35,7 @@ const CloudAccordian = ({ data }: serviceAccordiandataType) => {
                     <div>{item.title}</div>
                   </div>
                 </AccordionTrigger>
-                <AccordionContent className="py-5 text-lg text-gray-600 overflow-hidden max-sm:text-lg">
+                <AccordionContent className="py-5  text-primary overflow-hidden text-subtitle2">
                   {item.content}
                 </AccordionContent>
               </AccordionItem>
@@ -43,15 +43,15 @@ const CloudAccordian = ({ data }: serviceAccordiandataType) => {
           })}
         </Accordion>
         <Accordion type="single" collapsible className="">
-          <hr className="border-1 border-gray-300 flex max-sm:hidden" />
+          <hr className="border-1 border-gray flex max-sm:hidden" />
           {cloudAccordiandata1.data.map((item) => {
             return (
               <AccordionItem
-                className="border-b py-3 border-gray-300"
+                className="border-b py-3 border-gray"
                 key={item.id}
                 value={`item-${item.id}`}
               >
-                <AccordionTrigger className=" flex flex-1 items-center justify-between text-xl lg:text-3xl font-semibold    ">
+                <AccordionTrigger className=" flex flex-1 items-center justify-between text-heading6    ">
                   <div className="flex gap-10 md:gap-3  items-center">
                     <div className=" md:flex md:gap-40 lg:gap-[30rem] items-center  hidden">
                       <Image alt="" src={item.image} width={30} height={30} />
@@ -60,7 +60,7 @@ const CloudAccordian = ({ data }: serviceAccordiandataType) => {
                     <div>{item.title}</div>
                   </div>
                 </AccordionTrigger>
-                <AccordionContent className="py-5 text-lg text-gray-600 overflow-hidden max-sm:text-lg">
+                <AccordionContent className="py-5  text-primary overflow-hidden text-subtitle2">
                   {item.content}
                 </AccordionContent>
               </AccordionItem>

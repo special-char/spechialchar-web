@@ -5,8 +5,8 @@ import React from "react";
 
 const UiUxBox = () => {
   return (
-    <>
-      <div className="bg-[#fffae3] m-5 px-container py-10 rounded-lg ">
+    <section>
+      <div className="bg-lightpink  p-10 rounded-lg ">
         <ul className="list-square pl-7 grid lg:grid-cols-2  lg:px-1 gap-x-10 gap-y-8 md:grid-cols-2">
           {uiuxbox.map((i) => (
             <li key={i.id} className="text-lg mb-2 ">
@@ -16,7 +16,7 @@ const UiUxBox = () => {
           ))}
         </ul>
       </div>
-      <div className="px-container pt-7 pb-12">
+      <div className=" pt-10 ">
         <Link href={"https://thespecialcharacter.graphy.com/"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
@@ -26,7 +26,7 @@ const UiUxBox = () => {
           </Button>
         </Link>
       </div>
-    </>
+    </section>
   );
 };
 

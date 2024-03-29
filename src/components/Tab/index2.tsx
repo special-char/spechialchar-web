@@ -9,7 +9,7 @@ const Tab2 = ({ data }: tabdataType) => {
         <section className="">
             <div className="flex max-lg:flex-wrap md:gap-16 lg:gap-60 gap-10">
                 <div className="md:text-5xl text-3xl font-semibold ">{data.title1}</div>
-                <div className="text-gray-400 text-lg md:pr-40">{data.title2}</div>
+                <div className="text-primary text-lg md:pr-40">{data.title2}</div>
             </div>
             <div className=" py-10">
                 <Tabs defaultValue="Agile" className="">
@@ -37,7 +37,7 @@ const Tab2 = ({ data }: tabdataType) => {
 
                     {howWeWorktabdata.data.map((item) => {
                         return (
-                            <TabsContent key={item.id} className="text-black" value={item.value}>
+                            <TabsContent key={item.id} className="text-primary" value={item.value}>
                                 <div className="flex text-left flex-wrap text-md lg:p-0 px-5 gap-10">
                                     <div className=" lg:flex-1 lg:pr-20">{item.content}</div>
                                     <div className="font-bold  flex  gap-3 flex-col lg:flex-1">
@@ -45,7 +45,7 @@ const Tab2 = ({ data }: tabdataType) => {
                                         {item.list.map((item) =>
                                         (
                                             <ul key={item.id} className="list-square">
-                                                <li className="text-gray-400 font-medium pr-16 ">{item.text}</li>
+                                                <li className="text-primary font-medium pr-16 ">{item.text}</li>
                                             </ul>
                                         )
                                         )}

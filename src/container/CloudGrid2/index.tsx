@@ -13,10 +13,10 @@ const CloudGrid2 = () => {
               key={i.id}
               className="flex max-sm:flex-col gap-5 justify-between my-10 pb-10 border-b-2 border-b-gray-200"
             >
-              <div className="font-bold md:text-heading6 flex flex-nowrap text-heading3 max-lg:w-60">
+              <div className="text-heading6 flex flex-nowrap  max-lg:w-60">
                 {i.title}
               </div>
-              <div className="text-gray-400 text-xl lg:w-[40rem] md:w-[30rem]">
+              <div className="text-primary md:text-subtitle1 lg:w-[40rem] md:w-[30rem]">
                 {i.description}
               </div>
             </div>
