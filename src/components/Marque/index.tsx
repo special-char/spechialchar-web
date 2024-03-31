@@ -16,7 +16,7 @@ const Marque = ({ className }: { className?: string }) => (
           <div key={x.id}>
             <Image
               src={x.src}
-              alt="image"
+              alt="clients"
               title="marqueeLinks"
               height={70}
               width={70}

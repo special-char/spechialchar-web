@@ -9,20 +9,30 @@ const ServiceIcon = ({ data }: ServiceItem) => {
         <div className="flex flex-col gap-y-6 gap-2">
           <div className="">
             {data?.url ? (
-              <Image src={data?.url} height={50} width={50} alt="image" />
+              <Image
+                title="service-images"
+                src={data?.url}
+                height={50}
+                width={50}
+                alt="image"
+              />
             ) : (
               <></>
             )}
           </div>
           <div>
-            <h2 className="font-bold text-heading5">{data.title}</h2>
+            <h3 className="font-bold text-heading5">{data.title}</h3>
           </div>
-          <div className="text-subtitle2 text-primary md:pr-6 lg:pr-4">
+          <h4 className="text-subtitle2 text-primary md:pr-6 lg:pr-4">
             {data.description}{" "}
-          </div>
-          <div className="lg:text-xl md:text-sm sm:text-sm font-extrabold md:pr-6 lg:pr-4 gap-3 ">
-            {data.languages}
-          </div>
+          </h4>
+          {data?.languages ? (
+            <h5 className="lg:text-xl md:text-sm sm:text-sm font-extrabold md:pr-6 lg:pr-4 gap-3 ">
+              {data.languages}
+            </h5>
+          ) : (
+            <></>
+          )}
         </div>
       </div>
     </div>

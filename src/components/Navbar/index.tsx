@@ -37,13 +37,14 @@ const Navbar = () => {
       )}
     >
       <div className="flex justify-between items-start">
-        <Link href="/">
+        <Link title="home-link" href="/">
           {/* <NavbarLogo className="lg:my-2 h-12 w-40 max-lg:block hidden" /> */}
           <div className="lg:my-2">
             <Image
               className=" lg:h-14 lg:w-40"
               src={"/images/TSC-Logo-1.png"}
               alt={"Tsc-logo"}
+              title="TSC_Logo"
               height={100}
               width={100}
             />

@@ -39,13 +39,15 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
           {SwiperServices1.data.map((car, index) => (
             <SwiperSlide key={index} className="py-4">
               <Link
-                className=" overflow-hidden overflow-y-hidden  h-56 "
+                title="latest-Project-link"
+                className=" overflow-hidden overflow-y-hidden h-56 "
                 href={"https://thespecialcharacter.graphy.com/"}
               >
                 <div className="relative">
                   <Image
                     src={car.src}
                     alt={car.alt}
+                    title="latest-project"
                     className=" flex flex-col object-cover aspect-square left-0 top-0 -z-10  gap-x-4"
                     height={200}
                     width={800}
@@ -63,7 +65,7 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
         </div>
       </Swiper>
       <div className="sm:pt-10 sm:pb-2">
-        <Link href={"https://thespecialcharacter.graphy.com/"}>
+        <Link title="contect-us" href={"https://thespecialcharacter.graphy.com/"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Contact Us

@@ -8,13 +8,14 @@ import { Button } from "../ui/button";
 const HeaderDesktop = () => {
   return (
     <div className="h-full w-full flex flex-col  justify-between">
-      <div className="flex justify-end gap-x-[3.5rem] items-start py-2 pl-5">
+      <div className="flex justify-end lg:gap-x-[3.3rem] items-start py-2 pl-5">
         {accordionItems.data.map((item, index) => (
           <div key={index} className="flex flex-col pt-3 group">
             <div className="flex text-primary text-subtitle1 gap-x-1">
               <Link
                 href={`${item.link?.toLowerCase()}`}
                 className="cursor-pointer"
+                title="nav-links"
               >
                 {item.title}
               </Link>
@@ -27,6 +28,7 @@ const HeaderDesktop = () => {
                 <div key={subindex} className="">
                   <Link
                     key={subindex}
+                    title="desktop-nav links"
                     href={`/${item.title.toLowerCase()}/${item.content[
                       subindex
                     ].toLocaleLowerCase()}`}
@@ -40,14 +42,14 @@ const HeaderDesktop = () => {
             </ul>
           </div>
         ))}
-        <Link href="/ourthinking" className="text-primary text-subtitle1 py-3">
-          Our Thinking
+        <Link href="/ourthinking" title="nav-link" className="text-primary text-subtitle1 py-3">
+          Thinking
         </Link>
 
-        <Link href="/casestudies" className="text-primary text-subtitle1 py-3">
-          Case Studies
+        <Link href="/casestudies" title="nav-link" className="text-primary text-subtitle1 py-3">
+          Projects
         </Link>
-        <Link className="pt-2" href={"#Contact"}>
+        <Link className="pt-2" title="nav-button" href={"#Contact"}>
           <Button
             variant={"default"}
             size={"xl"}

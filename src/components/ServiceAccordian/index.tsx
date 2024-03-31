@@ -28,7 +28,13 @@ const ServiceAccordian = ({ data }: serviceAccordiandataType) => {
                   <AccordionTrigger className=" flex flex-1 items-center justify-between text-heading5">
                     <div className="flex gap-10 md:gap-3  items-center">
                       <div className=" md:flex md:gap-40 lg:gap-[30rem] items-center  hidden">
-                        <Image alt="" src={item.image} width={30} height={30} />
+                        <Image
+                          title="info-accordion"
+                          alt="service-accordion"
+                          src={item.image}
+                          width={30}
+                          height={30}
+                        />
                       </div>
 
                       <div>{item.title}</div>
@@ -53,7 +59,13 @@ const ServiceAccordian = ({ data }: serviceAccordiandataType) => {
                   <AccordionTrigger className="  flex flex-1 items-center justify-between text-heading5">
                     <div className="flex gap-10 md:gap-3 items-center">
                       <div className=" md:flex md:gap-40 lg:gap-[30rem] items-center  hidden">
-                        <Image alt="" src={item.image} width={30} height={30} />
+                        <Image
+                          title="info-accordiaon1"
+                          alt="service-accordian1"
+                          src={item.image}
+                          width={30}
+                          height={30}
+                        />
                       </div>
 
                       <div>{item.title}</div>
@@ -68,7 +80,10 @@ const ServiceAccordian = ({ data }: serviceAccordiandataType) => {
           </Accordion>
         </div>
         <div className="pt-10">
-          <Link href={"https://thespecialcharacter.graphy.com/"}>
+          <Link
+            title="contact-us"
+            href={"https://thespecialcharacter.graphy.com/"}
+          >
             <Button variant="default" size="sm" className=" py-7 text-base ">
               Contact Us &rarr;
             </Button>

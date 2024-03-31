@@ -9,7 +9,7 @@ const FooterCirti = () => {
     <>
       {footerdata?.data.map((i) => (
         <div key={i.id} className="relative ">
-          <Image src={i.icon} alt={"cirtiicon"} height={70} width={70} />
+          <Image src={i.icon} title="footer-cirti" alt={"cirtiicon"} height={70} width={70} />
         </div>
       ))}
     </>

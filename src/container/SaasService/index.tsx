@@ -8,30 +8,30 @@ type Props = {};
 const SaasService = () => {
   return (
     <section className="flex flex-col ">
-      <ul className="grid md:grid-cols-2 px-4">
+      <div className="grid md:grid-cols-2 px-4">
         <div className="">
           {listData1.data.map((i) => {
             return (
-              <div key={i?.id} className="list-square text-subtitle1">
+              <ul key={i?.id} className="list-square text-subtitle1">
                 <li className="font-bold text-blue">
                   <span className="text-primary">{i.title}</span>
                 </li>
-              </div>
+              </ul>
             );
           })}
         </div>
         <div>
           {listData2.data.map((i) => {
             return (
-              <div key={i?.id} className="list-square text-subtitle1">
+              <ul key={i?.id} className="list-square text-subtitle1">
                 <li className="font-bold text-blue">
                   <span className="text-primary">{i.title}</span>
                 </li>
-              </div>
+              </ul>
             );
           })}
         </div>
-      </ul>
+      </div>
       <div className="pt-10">
         <Link href={"https://thespecialcharacter.graphy.com/"}>
           <Button>

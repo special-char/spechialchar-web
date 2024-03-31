@@ -39,6 +39,7 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
           {SwiperServices2.data.map((car, index) => (
             <SwiperSlide key={index} className="py-4">
               <Link
+                title="case-studies"
                 className=" overflow-hidden overflow-y-hidden  h-56 "
                 href={"https://thespecialcharacter.graphy.com/"}
               >
@@ -46,6 +47,7 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
                   <Image
                     src={car.src}
                     alt={car.alt}
+                    title="case-studies"
                     className=" flex flex-col object-cover aspect-square left-0 top-0 -z-10  gap-x-4"
                     height={200}
                     width={800}
