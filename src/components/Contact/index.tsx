@@ -57,7 +57,7 @@ const Contact = () => {
       style={{ backgroundImage: `url(/images/ContactUsImage.webp)` }}
     >
       <div className="p-3 py-6">
-        <h4 className="text-heading1">Contact Us</h4>
+        <h3 className="text-heading1">Contact Us</h3>
         <Formik
           initialValues={{
             name: "",
@@ -110,8 +110,8 @@ const Contact = () => {
                     <FileAttch className="h-6 w-6" />
                   </div>
                   <div>
-                    <h6 className="text-base md:text-sm">Attach your file</h6>
-                    <h6 className="text-background text-sm">Up to 20MB</h6>
+                    <h4 className="text-base md:text-sm">Attach your file</h4>
+                    <h4 className="text-background text-sm">Up to 20MB</h4>
                   </div>
                 </div>
                 {/* Privacy Policy */}
@@ -121,7 +121,8 @@ const Contact = () => {
                       We will process your personal information in accordance
                       with our{" "}
                       <Link
-                        href="/Privacy"
+                        title="privacy"
+                        href="/"
                         className="text-yellow cursor-pointer"
                       >
                         Privacy Policy

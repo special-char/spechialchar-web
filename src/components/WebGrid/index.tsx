@@ -9,9 +9,9 @@ const ServiceIcon = ({ data }: WebGridType) => {
           <div>
             <h2 className="text-heading5">{data.title}</h2>
           </div>
-          <div className="text-subtitle2 text-primary md:pr-6 lg:pr-4">
+          <h3 className="text-subtitle2 text-primary md:pr-6 lg:pr-4">
             {data.description}{" "}
-          </div>
+          </h3>
         </div>
       </div>
     </div>

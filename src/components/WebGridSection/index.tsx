@@ -11,6 +11,7 @@ function WebGridSection() {
           <Link
             key={x.id}
             href={x?.ref}
+            title="links"
             className="text-blue hover:text-blue-300 duration-300 text-2xl font-bold border-b-2 py-4 border-b-second"
           >
             {x.link}

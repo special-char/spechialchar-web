@@ -9,15 +9,16 @@ type Props = {};
 const ThinkSec = (props: Props) => {
   return (
     <section >
-      <h1 className="text-heading1 my-10 lg:pl-4 sm:pl-2">
+      <h2 className="text-heading1 my-10 lg:pl-4 sm:pl-2">
         Latest Thinking
-      </h1>
+      </h2>
 
       <Card />
 
       <div className="flex flex-wrap justify-between my-10 gap-y-9 text-subtitle1 text-background">
         <div className="flex items-center">
           <Link
+            title="think cases"
             href={"https://thespecialcharacter.graphy.com/"}
             className="pt-1 flex gap-x-2 items-center text-primary font-bold"
           >

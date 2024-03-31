@@ -28,16 +28,17 @@ export function ThinkCard() {
                       src={item.url}
                       className="w-full aspect-video object-cover rounded-md group-hover:transform group-hover:duration-75 group-hover:scale-110"
                       alt="image"
+                      title="think projects"
                       height={550}
                       width={700}
                     />
                   </div>
-                  <h1 className="text-heading6 group-hover:text-blue  font-bold mb-2 mt-4 ">
+                  <h3 className="text-heading6 group-hover:text-blue  font-bold mb-2 mt-4 ">
                     {item.title}
-                  </h1>
-                  <div className="text-primary text-subtitle2">
+                  </h3>
+                  <h4 className="text-primary text-subtitle2">
                     {item.description}
-                  </div>
+                  </h4>
                 </CarouselItem>
               ))}
             </CarouselContent>

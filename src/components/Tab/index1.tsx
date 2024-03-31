@@ -21,7 +21,8 @@ const Tab1 = ({ data }: tabdataType) => {
                       >
                         <Image
                           src={item.image}
-                          alt=""
+                          alt="info-tab"
+                          title="info-svg"
                           height={50}
                           width={50}
                           className="mx-auto"

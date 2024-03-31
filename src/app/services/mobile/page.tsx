@@ -23,6 +23,12 @@ import {
   serviceAccordiandata,
 } from "@/lib/constData";
 import React from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Mobile Development | The Special Character",
+  description: "Learn practically with us and get ahead of the competition with our industry-relevant IT Training. Our expertise - Digital Marketing | Full Stack Development",
+};
 
 const Mobile = () => {
   return (

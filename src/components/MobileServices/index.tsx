@@ -36,7 +36,7 @@ export default function Index() {
         </Tabs>
       </div>
       <div>
-      <Link href={"https://thespecialcharacter.graphy.com/"}>
+      <Link title="hire-mobile-app-developer" href={"https://thespecialcharacter.graphy.com/"}>
         <Button variant={"secondary"}>
           <span>Hire mobile app developers &rarr;</span>
         </Button>

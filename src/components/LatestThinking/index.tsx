@@ -33,6 +33,7 @@ const Banner = ({ data }: latestThinkingType) => {
                 <div className="flex bg-background gap-x-10 max-lg:flex-col-reverse">
                   <div className="md:flex-1 gap-2 pt-10">
                     <Link
+                    title="latest-thinking"
                       href={x.Link}
                       className=" leading-10 max-lg:text-heading2 text-4xl max-sm:text-heading2 font-bold"
                     >
@@ -43,6 +44,7 @@ const Banner = ({ data }: latestThinkingType) => {
                     <Image
                       src={x.img}
                       alt="banner1"
+                      title="thinking-image"
                       fill
                       className="object-cover"
                     />

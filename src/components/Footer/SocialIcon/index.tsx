@@ -1,20 +1,31 @@
-import React from 'react'
-import Link from "next/link"
-import { footerdata } from '@/lib/constData';
-import Image from "next/image"
+import React from "react";
+import Link from "next/link";
+import { footerdata } from "@/lib/constData";
+import Image from "next/image";
 
-type Props = {}
+type Props = {};
 
 const SocialIcon = (props: Props) => {
   return (
     <>
       {footerdata?.social.map((i) => (
-        <Link key={i.id} href={i.link} className="relative ">
-          <Image src={i.icon} alt={"icon"}  title={"icon"} width={20} height={20}/>
+        <Link
+          title="social-links"
+          key={i.id}
+          href={i.link}
+          className="relative "
+        >
+          <Image
+            src={i.icon}
+            alt={"icon"}
+            title={"icon"}
+            width={20}
+            height={20}
+          />
         </Link>
       ))}
     </>
   );
-}
+};
 
-export default SocialIcon
+export default SocialIcon;

@@ -11,7 +11,7 @@ const Tab = ({ data }: tabdataType) => {
       <div className="lg:py-12 py-10">
         <Tabs defaultValue="Turnkey Projects" className="">
           <div className="flex  max-sm:overflow-x-scroll ">
-            <TabsList>
+            <TabsList role="tab" aria-checked="true">
               <div className="flex  ">
                 {tabdata.data.map((item) => {
                   return (
@@ -19,7 +19,8 @@ const Tab = ({ data }: tabdataType) => {
                       <div className="flex flex-col gap-3 border-b-2  justify-between  text-heading4 px-5   lg:px-16 md:px-8   ">
                         <Image
                           src={item.image}
-                          alt=""
+                          alt="tab-items"
+                          title="tabs-svgs"
                           height={40}
                           width={40}
                           className="mx-auto"
@@ -28,6 +29,7 @@ const Tab = ({ data }: tabdataType) => {
                         <TabsTrigger
                           className="pb-3 md:py-10 "
                           value={item.value}
+                          role="button"
                         >
                           {item.trigger}
                         </TabsTrigger>
@@ -43,6 +45,7 @@ const Tab = ({ data }: tabdataType) => {
             return (
               <TabsContent
                 key={item.id}
+                role="tablist"
                 className="text-primary lg:text-subtitle3 lg:px-1"
                 value={item.value}
               >

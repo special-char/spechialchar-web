@@ -15,9 +15,9 @@ import { Button } from "../ui/button";
 const Swiper1 = ({ data }: SwiperServicesData) => {
   return (
     <section className=" py-10 bg-gray1 ">
-      <div className="md:text-heading1 text-heading4 py-5 lg:pb-10  pr-4  lg:pr-44  ">
+      <h2 className="md:text-heading1 text-heading4 py-5 lg:pb-10  pr-4  lg:pr-44  ">
         {data.title}
-      </div>
+      </h2>
       <Swiper
         modules={[Navigation, Pagination, A11y]}
         spaceBetween={10}
@@ -39,6 +39,7 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
           {SwiperServices.data.map((car, index) => (
             <SwiperSlide key={index} className="py-4">
               <Link
+                title="project-cards-links"
                 className=" overflow-hidden overflow-y-hidden aspect-square sm:h-[30rem] "
                 href={"https://thespecialcharacter.graphy.com/"}
               >
@@ -46,13 +47,14 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
                   <Image
                     src={car.src}
                     alt={car.alt}
+                    title="swiper cards"
                     className=" flex flex-col  object-cover aspect-square left-0 top-0 -z-10  gap-x-4"
                     height={200}
                     width={800}
                   />
-                  <div className=" py-3 px-4 md:px-12 absolute left-0 top-0  text-background text-2xl md:text-3xl   font-bold overflow-hidden lg:px-10 lg:pr-20">
+                  <p className=" py-3 px-4 md:px-12 absolute left-0 top-0  text-background text-2xl md:text-3xl   font-bold overflow-hidden lg:px-10 lg:pr-20">
                     {car.alt}&rarr;
-                  </div>
+                  </p>
                 </div>
               </Link>
             </SwiperSlide>
@@ -63,7 +65,7 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
         </div>
       </Swiper>
       <div className="sm:pt-10 sm:pb-2">
-        <Link href={"https://thespecialcharacter.graphy.com/"}>
+        <Link title="software services" href={"https://thespecialcharacter.graphy.com/"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Tab into our software <span>engineering services </span>
