@@ -14,7 +14,7 @@ export default function Index() {
   return (
     <section className="gap-y-10 flex flex-col">
       <div>
-        <Tabs defaultValue="Discovry & R&D" className={style.tabContainer}>
+        <Tabs defaultValue="Development" className={style.tabContainer}>
           <TabsList className={style.container}>
             {mobileServicesdata.data.map((item) => (
               <TabsTrigger

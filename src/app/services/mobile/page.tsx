@@ -6,7 +6,7 @@ import MobileServices from "@/components/MobileServices";
 import MobileSwiper from "@/components/MobileSwiper";
 import ServiceAccordian from "@/components/ServiceAccordian";
 import Swiper from "@/components/Swiper1";
-import Tab1 from "@/components/Tab/index1";
+import Tab from "@/components/Tab/index1";
 import YellowBanner from "@/components/YellowBanner";
 import Banner from "@/container/Banner";
 import {
@@ -43,8 +43,8 @@ const Mobile = () => {
       <ServiceAccordian data={serviceAccordiandata} />
       <ImageBanner data={imageBanner5} />
       <YellowBanner data={YellowBannerData2} />
-      <Tab1 data={mobiletabdata} />
-      <MobileSwiper/>
+      <Tab data={mobiletabdata} />
+      <MobileSwiper />
       <MobilePage />
       <LatestThinking data={latestThinkingData} />
     </>

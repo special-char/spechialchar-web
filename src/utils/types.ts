@@ -365,10 +365,8 @@ export type ProjectSectionType = {
 };
 
 export type ProjectSectionType2 = {
-
-    url: string;
+  url: string;
   sectiontitle1: string;
-  
 };
 
 export type ProjectSectionmap1Type = {
