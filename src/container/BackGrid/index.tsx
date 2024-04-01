@@ -11,7 +11,7 @@ const BackGrid = ({ data }: SaasSectionType) => {
   return (
     <section>
       <div className="flex flex-wrap lg:w-[75%]">
-        <div className="text-heading2">{data?.title}</div>
+        <h2 className="text-heading2">{data?.title}</h2>
         <div className="text-subtitle3 py-10 ">
           {data?.description}
         </div>
