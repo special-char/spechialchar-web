@@ -15,7 +15,7 @@ const ImageAccordion = ({ data }: imageAccordianDataType) => {
     return (
         <>
             <section>
-                <div className="py-5  text-heading3">{data.title1}</div>
+                <h2 className="py-5  text-heading3">{data.title1}</h2>
                 <div className="md:py-5 lg:pr-72 text-subtitle3 ">{data.title2}</div>
                 <div className="py-7 text-heading4">{data.title3}</div>
                 <div className="image-accordion">
@@ -29,13 +29,13 @@ const ImageAccordion = ({ data }: imageAccordianDataType) => {
                                 onClick={() => handleToggle(index)}
                             >
                                 <Image alt="ecommerce-info" title="project-info" height={900} width={900} src={item.image} />
-                                <div className="content1">{item.header}</div>
-                                <div className="content">
-                                    <div className="">
+                                <h3 className="content1">{item.header}</h3>
+                                <h4 className="content">
 
-                                        <p>{item.text}</p>
-                                    </div>
-                                </div>
+
+                                    <p>{item.text}</p>
+
+                                </h4>
                             </div>
                         );
                     })}
