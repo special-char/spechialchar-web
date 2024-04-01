@@ -12,7 +12,7 @@ const Service = ({ data }: ServiceIconType) => {
         <h2 className="text-heading2 p-4">{data.heading}</h2>
       </div>
       <div className="py-2 md:pr-12 lg:pr-64  p-4">
-        <h3 className="text-subtitle1">{data.texts}</h3>
+        <p className="text-subtitle1">{data.texts}</p>
       </div>
       <div className="grid md:grid-cols-4 gap-8 p-4 ">
         {serviceicon.data.map((x) => (
