@@ -11,7 +11,7 @@
 }
 
 .image-accordion-item.active {
-  @apply lg:w-[90rem]  transition-all  animate-fadeleft duration-1000  opacity-100 max-lg:h-10 ;
+  @apply lg:w-[90rem]  transition-all  animate-fadeleft duration-1000  opacity-100 max-lg:h-[75vh] ;
 }
 
 .image-accordion-item .content {
@@ -27,7 +27,7 @@
 }
 
 .image-accordion-item.active .content {
-  @apply opacity-100 lg:visible animate-fadeinup duration-1000 ;
+  @apply opacity-100 visible animate-fadeinup duration-1000 ;
 }
 .image-accordion-item img {
   @apply absolute  object-cover top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  h-[100%] ;

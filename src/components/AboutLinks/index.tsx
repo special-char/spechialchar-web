@@ -9,13 +9,13 @@ type Props = {};
 const AboutLinks = ({ data }: aboutlinksType) => {
   return (
     <section className="">
-      <div className="py-5 flex justify-start w-auto text-4xl md:text-8xl lg:text-9xl font-bold">
+      <h2 className="pb-5 flex justify-start w-auto text-heading1">
         {data.title1}
-      </div>
-      <div className="py-5 ">
+      </h2>
+      <div className=" ">
         {aboutlinks.data.map((item) => (
-          <div
-            className="flex md:py-2 gap-3 text-2xl md:text-5xl lg:text-6xl text-primary  font-bold"
+          <h3
+            className="flex md:py-2 gap-3 text-heading6 text-primary  "
             key={item.id}
           >
             <Link href={item.link} className="hover:text-blue">{item.title}</Link>
@@ -27,7 +27,7 @@ const AboutLinks = ({ data }: aboutlinksType) => {
               width={50}
               title="about-page-link"
             />
-          </div>
+          </h3>
         ))}
       </div>
     </section>

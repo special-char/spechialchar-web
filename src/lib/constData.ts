@@ -116,7 +116,8 @@ export const CollaboratorCard = [
 export const footerdata = {
   title:
     "We are an enterprise software development company that is inspired by the future",
-  address: "B-604/605,Ganesh Glory 11, Jagatpur Road, Ahemdabad, Gujarat, 382460",
+  address:
+    "B-604/605,Ganesh Glory 11, Jagatpur Road, Ahemdabad, Gujarat, 382460",
   email: "contact@thespecialcharacter.com",
   mobile: "+91 76000 96432 / 33",
   privacy: "Privacy Policy",
@@ -2279,21 +2280,21 @@ export const aboutBanner2 = {
       id: 2,
       number: 2,
       url: "/images/book-2.webp",
-      title1: "We deep dive",
+      title1: "We deep dive ",
       title2: "into every project to deliver excellence.",
     },
     {
       id: 3,
       number: 3,
       url: "/images/book-3.webp",
-      title1: "We take",
+      title1: "We take ",
       title2: "ownership of what we do.",
     },
     {
       id: 4,
       number: 4,
       url: "/images/book-4.webp",
-      title1: "We value",
+      title1: "We value ",
       title2:
         "long-term relationships above quick wins and want to bring lasting gains for you.",
     },
@@ -3044,7 +3045,7 @@ export const aboutlinks = {
       id: 4,
       title: "Ecommerce",
       link: "/industry/ecommerce",
-      image: "/icons/bag-icon.svg",
+      image: "/icons/shopping-bag.svg",
     },
   ],
 };

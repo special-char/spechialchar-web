@@ -3,6 +3,7 @@ import { ourThinkingData } from "@/lib/constData";
 import React, { useState } from "react";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 type Props = {};
 
@@ -68,9 +69,9 @@ function OurThinking({ className }: { className?: string }) {
                 <div className="flex gap-1 text-nowrap flex-wrap">
                   {x.categories.map((category, index) => (
                     <React.Fragment key={index}>
-                      <a href="#" className="text-subtitle2">
+                      <Link title="category" href="#" className="text-subtitle2">
                         {category}
-                      </a>
+                      </Link>
                       {index !== x.categories.length - 1 && (
                         <span className="text-subtitle2">/</span>
                       )}
@@ -78,11 +79,11 @@ function OurThinking({ className }: { className?: string }) {
                   ))}
                 </div>
                 <div className="py-4 hover:text-blue">
-                  <a href={x.link}>
+                  <Link title="description" href={x.link}>
                     <span className="text-heading6">
                       {x.title}
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

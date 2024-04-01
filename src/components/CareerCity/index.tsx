@@ -9,11 +9,11 @@ const CareerCity = ({ data }: CareerCityType) => {
     <section>
       <div className="flex flex-col lg:flex-row-reverse gap-9 lg:py-5  ">
         <div className=" lg:p-3 ">
-          <h2 className="lg:text-6xl font-bold md:text-4xl text-3xl ">
+          <h2 className="text-heading1 ">
             {data.title}
           </h2>
         </div>
-        <div className=" lg:text-xl md:text-base text-sm lg:py-12">
+        <div className=" text-subtitle1 lg:py-12">
           {data.description}
         </div>
       </div>
