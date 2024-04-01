@@ -16,7 +16,7 @@ const Tab2 = ({ data }: tabdataType) => {
                     {howWeWorktabdata.data.map((item) => {
                         return (
 
-                            <TabsTrigger className=" flex  gap-5  border-b-2  justify-between  text-heading4 px-5  py-5  lg:px-16 md:px-8   " value={item.value}>
+                            <TabsTrigger key={item.id} className=" flex  gap-5  border-b-2  justify-between  text-heading4 px-5  py-5  lg:px-16 md:px-8   " value={item.value}>
                                 {item.trigger}
                             </TabsTrigger>
                         );
