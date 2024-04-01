@@ -19,7 +19,7 @@ const Banner = ({
   return (
     <div
       className={cn(" w-full bg-primary text-background py-20", {
-        [`${className}`]: className,
+        [`${className}`]: className, 
       })}
     >
       <div className=" grid sm:pl-container max-sm:px-container md:grid-cols-[40%_1fr]  grid-cols-1 items-center lg:gap-x-40  max-sm:gap-y-7  justify-center">
