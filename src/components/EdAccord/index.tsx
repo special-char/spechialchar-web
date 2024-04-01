@@ -29,7 +29,7 @@ const EdAccordian = ({ data }: serviceAccordiandataType) => {
                 <AccordionTrigger className=" flex flex-1 items-center justify-between text-heading6 ">
                   <div className="flex gap-10 md:gap-3  items-center">
                     <div className=" md:flex md:gap-40 lg:gap-[30rem] items-center  hidden">
-                      <Image alt="" src={item.image} width={40} height={40} />
+                      <Image alt="elearing-project-info" title="elerning-projects" src={item.image} width={40} height={40} />
                     </div>
 
                     <div>{item.title}</div>
@@ -54,7 +54,7 @@ const EdAccordian = ({ data }: serviceAccordiandataType) => {
                 <AccordionTrigger className="  flex flex-1 items-center justify-between text-heading6  ">
                   <div className="flex gap-10 md:gap-3 items-center">
                     <div className=" md:flex md:gap-40 lg:gap-[30rem] items-center  hidden">
-                      <Image alt="" src={item.image} width={40} height={40} />
+                      <Image alt="elearing-project-info" title="elerning-projects" src={item.image} width={40} height={40} />
                     </div>
 
                     <div>{item.title}</div>

@@ -19,7 +19,7 @@ const Banner = ({
   return (
     <div
       className={cn(" w-full bg-primary text-background py-20", {
-        [`${className}`]: className,
+        [`${className}`]: className, 
       })}
     >
       <div className=" grid sm:pl-container max-sm:px-container md:grid-cols-[40%_1fr]  grid-cols-1 items-center lg:gap-x-40  max-sm:gap-y-7  justify-center">
@@ -32,10 +32,13 @@ const Banner = ({
             {data.title}
           </h1>
 
-          <div className="text-subtitle1 ">{data.description}</div>
+          <h2 className="text-subtitle1 ">{data.description}</h2>
 
           <div className="max-md:grid max-md:w-full">
-            <Link className="" href={"https://thespecialcharacter.graphy.com/"}>
+            <Link
+              title="Banner-Link"
+              href={"https://thespecialcharacter.graphy.com/"}
+            >
               <Button variant="default" size="lg" className=" py-7 text-base ">
                 <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
                   {data?.button1} <span>{data?.button2}</span>
@@ -49,6 +52,7 @@ const Banner = ({
           <Image
             src={data.imageurl}
             alt="image"
+            title="Banner-image"
             height={500}
             width={500}
             className="h-full w-full object-cover"

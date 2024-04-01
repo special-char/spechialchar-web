@@ -18,7 +18,7 @@ const CloudGrid = () => {
           </ul>
         </div>
         <div className=" max-md:grid pt-10">
-          <Link href={"https://thespecialcharacter.graphy.com/"}>
+          <Link title="cloud-project" href={"https://thespecialcharacter.graphy.com/"}>
             <Button className="py-3">
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
                 Discuss my cloud <span>project</span>

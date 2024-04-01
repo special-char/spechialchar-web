@@ -6,7 +6,7 @@ import MobileServices from "@/components/MobileServices";
 import MobileSwiper from "@/components/MobileSwiper";
 import ServiceAccordian from "@/components/ServiceAccordian";
 import Swiper from "@/components/Swiper1";
-import Tab1 from "@/components/Tab/index1";
+import Tab from "@/components/Tab/index1";
 import YellowBanner from "@/components/YellowBanner";
 import Banner from "@/container/Banner";
 import {
@@ -23,6 +23,12 @@ import {
   serviceAccordiandata,
 } from "@/lib/constData";
 import React from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Mobile Development | The Special Character",
+  description: "Learn practically with us and get ahead of the competition with our industry-relevant IT Training. Our expertise - Digital Marketing | Full Stack Development",
+};
 
 const Mobile = () => {
   return (
@@ -37,8 +43,8 @@ const Mobile = () => {
       <ServiceAccordian data={serviceAccordiandata} />
       <ImageBanner data={imageBanner5} />
       <YellowBanner data={YellowBannerData2} />
-      <Tab1 data={mobiletabdata} />
-      <MobileSwiper/>
+      <Tab data={mobiletabdata} />
+      <MobileSwiper />
       <MobilePage />
       <LatestThinking data={latestThinkingData} />
     </>

@@ -28,7 +28,7 @@ const MobileNavbar = () => {
         <div className="absolute z-50  bg-background text-primary h-screen w-full left-0 top-0 p-4 ">
           <div className="flex justify-between items-center">
             <div>
-              <Link href="/">
+              <Link href="/" title="home-link">
                 <Image
                   src={"/images/TSC-Logo-1.png"}
                   alt={"Tsc-Logo"}
@@ -50,6 +50,7 @@ const MobileNavbar = () => {
                     <Link
                       href={item.link.toLowerCase()}
                       onClick={toggleDropdown}
+                      title="mobile-nav-link"
                       className="text-subtitle2"
                     >
                       {item.title}
@@ -60,6 +61,7 @@ const MobileNavbar = () => {
                       {item?.content?.map((itemContent, subindex) => (
                         <li key={subindex} className="text-primary">
                           <Link
+                            title="mobile-nav-link"
                             href={`/${item.title.toLowerCase()}/${item.content[
                               subindex
                             ].toLocaleLowerCase()}`}
@@ -79,20 +81,26 @@ const MobileNavbar = () => {
                   href="/ourthinking"
                   onClick={toggleDropdown}
                   className="text-subtitle2 py-3"
+                  title="mobile-nav-link"
                 >
-                  Our Thinking
+                  OurThinking
                 </Link>
 
                 <Link
                   href="/casestudies"
                   onClick={toggleDropdown}
+                  title="mobile-nav-link"
                   className="text-subtitle2 py-3"
                 >
-                  Case Studies
+                  CaseStudies
                 </Link>
               </div>
               <div className="pt-4">
-                <Link className="pt-1" href={"#Contact"}>
+                <Link
+                  className="pt-1"
+                  title="mobile-nav-button"
+                  href={"#Contact"}
+                >
                   <Button
                     variant={"secondary"}
                     size={"default"}

@@ -10,18 +10,18 @@ const CloudAccordian = ({ data }: CloudAccordiandataType) => {
   return (
     <section className="flex flex-col gap-y-16">
       <div className="lg:w-[60vw] flex flex-col gap-y-10">
-        <h1 className="text-heading2 font-bold ">
+        <h2 className="text-heading2 font-bold ">
           {data.title}
-        </h1>
-        <h2 className="text-subtitle3">
-          {data.description}
         </h2>
+        <p className="text-subtitle3">
+          {data.description}
+        </p>
       </div>
       <div>
         <CloudAccord data={cloudAccordiandata} />
       </div>
       <div>
-        <Link href={"https://thespecialcharacter.graphy.com/"}>
+        <Link title="cloud-late-talk" href={"https://thespecialcharacter.graphy.com/"}>
           <Button variant="default" size="sm" className=" py-7 text-base ">
             Lets Talk &rarr;
           </Button>

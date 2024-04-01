@@ -7,7 +7,7 @@ import React from "react";
 const AboutBanner2 = ({ data }: aboutBanner2Type) => {
   return (
     <section className="bg-yellow">
-      <div className="sm:text-7xl text-5xl font-bold">{data.heading}</div>
+      <div className="text-heading1">{data.heading}</div>
       {aboutBanner2.section.map((item, i) => {
         return (
           <>
@@ -15,8 +15,8 @@ const AboutBanner2 = ({ data }: aboutBanner2Type) => {
               <div
                 className={cn(
                   item.id % 2 !== 0
-                    ? "flex flex-row-reverse max-sm:flex-wrap max-sm:flex-row"
-                    : "h-screen flex justify-between max-sm:flex-wrap flex-row"
+                    ? "md:h-[75vh] flex flex-row-reverse max-sm:flex-wrap max-sm:flex-row"
+                    : "md:h-[75vh] flex justify-between max-sm:flex-wrap flex-row"
                 )}
               >
                 <div className="h-[70vh] w-full sm:text-[30rem] max-sm:text-[20rem] max-lg:justify-center lg:justify-evenly flex  relative ">
@@ -25,11 +25,12 @@ const AboutBanner2 = ({ data }: aboutBanner2Type) => {
                     src={item.url}
                     alt={"image"}
                     width={600}
+                    title="about-number-banner"
                     height={600}
                     className="absolute lg:top-[36%] max-sm:top-[36%] max-lg:top-[60%] max-lg:left-[10%] lg:left-[10%] "
                   />
                 </div>
-                <div className="md:text-3xl text-2xl flex justify-center items-center w-full  gap-x-[0.12rem]">
+                <div className=" text-subtitle3  flex justify-center items-center w-full  gap-x-[0.12rem]">
                   <div className="">
                     <span className="font-bold">{item.title1}</span>
                     <span>{item.title2}</span>

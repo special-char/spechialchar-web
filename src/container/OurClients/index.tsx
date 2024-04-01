@@ -6,14 +6,10 @@ type Props = {};
 const OurClients = (props: Props) => {
   return (
     <>
-      <section>
-        <div className="">
-          <div>
-            <h2 className="text-5xl  font-bold md:text-8xl">Our Clients</h2>
-          </div>
-        </div>
-      </section>
       <div>
+        <section>
+          <h2 className="text-heading1">Our Clients</h2>
+        </section>
         <WhiteMarque className="bg-background" />
       </div>
     </>

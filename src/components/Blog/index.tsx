@@ -1,5 +1,6 @@
 import { blogs } from "@/lib/constData";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Blog = () => {
@@ -24,9 +25,9 @@ const Blog = () => {
               <div className="flex gap-1 text-nowrap flex-wrap">
                 {blog.categories.map((category, index) => (
                   <React.Fragment key={index}>
-                    <a href="#" className="text-base">
+                    <Link title="category" href="#" className="text-base">
                       {category}
-                    </a>
+                    </Link>
                     {index !== blog.categories.length - 1 && (
                       <span className="text-base">/</span>
                     )}

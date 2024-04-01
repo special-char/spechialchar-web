@@ -30,6 +30,7 @@ const MobileSwiper = () => {
                       <Image
                         src={slide.src}
                         alt="jef"
+                        title="testimonial"
                         className="h-16 md:h-24 md:w-24 rounded-full w-16"
                         height={100}
                         width={100}

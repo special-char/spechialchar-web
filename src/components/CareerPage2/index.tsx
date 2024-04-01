@@ -8,13 +8,13 @@ const CareerPage2 = ({ data }: CareerPage2dataType) => {
     <section className="">
       <div className="md:grid grid-cols-2 gap-6 lg:gap-x-16">
         <div className="">
-          <Image src={data.src} alt="image" height={600} width={600} />
+          <Image src={data.src} alt="image" title="who-we-are" height={600} width={600} />
         </div>
         <div className="mt-8">
-          <h2 className="font-bold text-3xl lg:text-6xl">{data.title}</h2>
-          <div className="mt-8 leading-6 flex flex-col gap-8 lg:text-subtitle1">
-            <p>{data.des1}</p>
-            <p>{data.des2}</p>
+          <h2 className="text-heading1">{data.title}</h2>
+          <div className="mt-8  flex flex-col gap-8 text-subtitle1">
+            <h3>{data.des1}</h3>
+            <h3>{data.des2}</h3>
             <p>{data?.des3}</p>
           </div>
         </div>

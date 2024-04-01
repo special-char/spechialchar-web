@@ -9,13 +9,14 @@ type Props = {};
 const ProjectSec = (props: Props) => {
   return (
     <section>
-      <h1 className="text-heading1 my-10 lg:pl-4 sm:pl-2">Latest Project</h1>
+      <h2 className="text-heading1 my-10 lg:pl-4 sm:pl-2">Latest Project</h2>
 
       <ProjectCard />
 
       <div className="flex flex-wrap justify-between my-10 gap-y-9 text-subtitle1 text-background">
         <div className="flex items-center">
           <Link
+            title="View Projects"
             href={"https://thespecialcharacter.graphy.com/"}
             className="pt-1 flex gap-x-2 items-center text-primary font-bold md:justify-start justify-center"
           >
@@ -24,6 +25,7 @@ const ProjectSec = (props: Props) => {
         </div>
         <div className="grid ">
           <Link
+            title="inovation journey"
             className="flex md:justify-start justify-center"
             href={"https://thespecialcharacter.graphy.com/"}
           >

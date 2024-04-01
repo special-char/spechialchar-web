@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 
 const Marque = ({ className }: { className?: string }) => (
   <div
-    className={cn("py-20 flex items-center bg-darkblue", {
+    className={cn("py-20 flex items-center bg-specialblue", {
       [`${className}`]: className,
     })}
   >
@@ -16,7 +16,7 @@ const Marque = ({ className }: { className?: string }) => (
           <div key={x.id}>
             <Image
               src={x.src}
-              alt="image"
+              alt="clients"
               title="marqueeLinks"
               height={70}
               width={70}

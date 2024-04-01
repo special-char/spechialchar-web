@@ -10,6 +10,7 @@ const CollabrateCard = ({ data }: ColllabrateCardType) => {
           <Image
             src={data.url}
             alt="collaborate Image"
+            title="collabCards"
             height={150}
             width={150}
           />

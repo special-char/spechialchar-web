@@ -16,7 +16,7 @@ const EcomGrid = (props: Props) => {
           ))}
         </div>
         <div className="pt-10">
-          <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
+          <Link title="consutation" href={"https://thespecialcharacter.graphy.com/"}>
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
                 Schedule a free <span> consultation with us </span>

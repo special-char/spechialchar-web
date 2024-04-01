@@ -1,68 +1,59 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { uiuxtabdata } from "@/lib/constData";
+import { tabdata, uiuxtabdata } from "@/lib/constData";
 import { tabdataType } from "@/utils/types";
 import Image from "next/image";
 import { Button } from "../ui/button";
 import Link from "next/link";
-const Tab3 = ({ data }: tabdataType) => {
+
+const Tab = ({ data }: tabdataType) => {
   return (
-    <section className="">
-      <div className=" py-10">
-        <Tabs defaultValue="Discover" className="">
-          <div className="flex md:justify-center max-sm:overflow-x-scroll ">
-            <TabsList>
-              <div className="flex  ">
-                {uiuxtabdata.data.map((item) => {
-                  return (
-                    <>
-                      <div className="flex flex-col gap-5 justify-between border-b-2  text-heading4 px-5    md:px-8   ">
-                        <Image
-                          src={item.image}
-                          alt=""
-                          height={60}
-                          width={60}
-                          className="mx-auto"
-                        />
-
-                        <TabsTrigger
-                          className="max-sm:mx-6 lg:px-3 pb-6"
-                          value={item.value}
-                        >
-                          {item.trigger}
-                        </TabsTrigger>
-                      </div>
-                    </>
-                  );
-                })}
-              </div>
-            </TabsList>
-          </div>
-
+    <section>
+      <Tabs className="" defaultValue="Discover">
+        <TabsList className="flex  max-sm:overflow-x-scroll ">
           {uiuxtabdata.data.map((item) => {
             return (
-              <TabsContent
+              <TabsTrigger
                 key={item.id}
-                className="text-primary text-subtitle3 lg:px-1"
+                className="flex flex-col gap-5  justify-between  text-heading4 px-5  py-5  lg:px-16 md:px-8   "
                 value={item.value}
               >
-                {item.content}
-              </TabsContent>
+                <Image
+                  src={item.image}
+                  alt="tab-items"
+                  title="tabs-svgs"
+                  height={40}
+                  width={40}
+                  className="mx-auto"
+                />
+                {item.trigger}
+              </TabsTrigger>
             );
           })}
-        </Tabs>
-      </div>
-      <div>
-        <Link href={"https://thespecialcharacter.graphy.com/"}>
-          <Button
-            variant="default"
-            size="sm"
-            className="px-8 md:px-20 py-7 text-base "
-          >
-            {data.button} &rarr;
+        </TabsList>
+        {uiuxtabdata.data.map((item) => {
+          return (
+            <TabsContent
+              key={item.id}
+              className="text-primary lg:text-subtitle3 lg:px-1"
+              value={item.value}
+            >
+              {item.content}
+            </TabsContent>
+          );
+        })}
+      </Tabs>
+
+      <div className="pt-10">
+        <Link className="" href={"https://thespecialcharacter.graphy.com/"}>
+          <Button className="">
+            <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+              {data.button} <span>{data.button2} </span>
+              <span>&rarr;</span>
+            </span>
           </Button>
         </Link>
       </div>
     </section>
   );
 };
-export default Tab3;
+export default Tab;

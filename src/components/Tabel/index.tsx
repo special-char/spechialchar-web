@@ -18,7 +18,7 @@ export default function TableDemo() {
   return (
     <section className="h-full w-full flex flex-col gap-y-10">
       <div className="px-4 sm:px-0">
-        <div className="lg:text-4xl font-bold   text-2xl">{TableContent.title}</div>
+        <h2 className="text-heading1">{TableContent.title}</h2>
         <hr />
       </div>
       <div className="">

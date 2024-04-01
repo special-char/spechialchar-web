@@ -64,7 +64,7 @@ export const tabdata = {
       trigger: "Turnkey Projects",
       content:
         "One way to avail of our software engineering services is to explore our turnkey product development model, which is based on the time and materials (T&M) approach. We’ll exercise full control over the development process and deliver working software (or pieces thereof!) at regular intervals, freeing up your time for strategic work. Expert knowledge, extensive reporting, transparent pricing, and customer centricity guaranteed.",
-      value: "Turnkey Projects",
+      value: "TurnkeyProjects",
       image: "/icons/atom-symbol.svg",
     },
     {
@@ -116,7 +116,8 @@ export const CollaboratorCard = [
 export const footerdata = {
   title:
     "We are an enterprise software development company that is inspired by the future",
-  address: "B-604/605, GaneshGlory 11,Jagatpur Road, Ahemdabad ",
+  address:
+    "B-604/605,Ganesh Glory 11, Jagatpur Road, Ahemdabad, Gujarat, 382460",
   email: "contact@thespecialcharacter.com",
   mobile: "+91 76000 96432 / 33",
   privacy: "Privacy Policy",
@@ -739,7 +740,7 @@ export const mobiletabdata = {
       trigger: "Big Data",
       content:
         "Use Big Data to create a user-driven app, get real-time insights, improve the app’s performance, and make your marketing more effective.",
-      value: "Big Data",
+      value: "BigData",
       image: "/icons/atom-symbol.svg",
     },
     {
@@ -815,9 +816,9 @@ export const mobileServicesdata = {
   data: [
     {
       id: 1,
-      title: "Discovery & R&D",
+      title: "Development",
       description:
-        "We translate your app idea into a feature setlist and draw up a detailed development roadmap that leads to the desired outcomes",
+        "Our development strategies focus on creating a future-proof app architecture, selecting the right tech stack and using best development practices.",
     },
     {
       id: 2,
@@ -827,9 +828,9 @@ export const mobileServicesdata = {
     },
     {
       id: 3,
-      title: "Development",
+      title: "Discovery & R&D",
       description:
-        "Our development strategies focus on creating a future-proof app architecture, selecting the right tech stack and using best development practices.",
+        "We translate your app idea into a feature setlist and draw up a detailed development roadmap that leads to the desired outcomes",
     },
     {
       id: 4,
@@ -2279,21 +2280,21 @@ export const aboutBanner2 = {
       id: 2,
       number: 2,
       url: "/images/book-2.webp",
-      title1: "We deep dive",
+      title1: "We deep dive ",
       title2: "into every project to deliver excellence.",
     },
     {
       id: 3,
       number: 3,
       url: "/images/book-3.webp",
-      title1: "We take",
+      title1: "We take ",
       title2: "ownership of what we do.",
     },
     {
       id: 4,
       number: 4,
       url: "/images/book-4.webp",
-      title1: "We value",
+      title1: "We value ",
       title2:
         "long-term relationships above quick wins and want to bring lasting gains for you.",
     },
@@ -3044,7 +3045,7 @@ export const aboutlinks = {
       id: 4,
       title: "Ecommerce",
       link: "/industry/ecommerce",
-      image: "/icons/bag-icon.svg",
+      image: "/icons/shopping-bag.svg",
     },
   ],
 };

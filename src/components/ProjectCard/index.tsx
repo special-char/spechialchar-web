@@ -31,12 +31,12 @@ export function ProjectCard() {
                       width={700}
                     />
                   </div>
-                  <h1 className="text-heading6 group-hover:text-blue font-bold mb-2 mt-4 ">
+                  <h3 className="text-heading6 group-hover:text-blue font-bold mb-2 mt-4 ">
                     {item.title}
-                  </h1>
-                  <div className="text-primary text-subtitle2">
+                  </h3>
+                  <h4 className="text-primary text-subtitle2">
                     {item.description}
-                  </div>
+                  </h4>
                 </CarouselItem>
               ))}
             </CarouselContent>

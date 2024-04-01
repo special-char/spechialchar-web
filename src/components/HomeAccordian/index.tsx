@@ -30,8 +30,8 @@ const HomeAccordian = () => {
               <AccordionTrigger className="bg-yellow flex flex-1 transition-all duration-1000 ease-out  items-center justify-between py-5  text-subtitle1 ">
                 <div className="flex gap-10 md:gap-8 items-center">
                   <div className=" md:flex md:gap-40 lg:gap-[30rem] items-center  hidden">
-                    <Image alt="" src={item.image} width={40} height={40} />
-                    <div className=""> {item.number}</div>
+                    <Image alt="how help" title="accord_gif" src={item.image} width={40} height={40} />
+                    <div className=""> {item.number}</div> 
                   </div>
 
                   <div>{item.title}</div>
@@ -50,7 +50,7 @@ const HomeAccordian = () => {
                     />
                     {item.desc}
                   </div>
-                  <Link href={"/ourthinking"}>
+                  <Link title="next" href={"/ourthinking"}>
                     <Button
                       variant="default"
                       size="icon"
