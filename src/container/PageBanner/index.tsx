@@ -13,21 +13,21 @@ const PageBanner = ({
 }) => {
   return (
     <section
-      className={cn("h-[75vh] py-40 flex bg-darkblue flex-wrap items-center", {
-        [`${className}`]: className,
-      })}
+      className={cn(
+        "h-[75vh] py-40 flex bg-specialblue flex-wrap items-center",
+        {
+          [`${className}`]: className,
+        }
+      )}
     >
       <div className="text-background  pl-8 pt-12">
         <h1 className="text-heading1 w-[75vw] font-extrabold mb-4 md:mb-12 ">
           {data.title1}
         </h1>
         <div
-          className={cn(
-            "text-subtitle3",
-            {
-              [`${text}`]: text,
-            }
-          )}
+          className={cn("text-subtitle3", {
+            [`${text}`]: text,
+          })}
         >
           {data?.title2}
         </div>

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Collabrate = () => {
   return (
-    <section className="bg-darkblue text-background gap-y-10">
+    <section className="bg-specialblue text-background gap-y-10">
       <div className=" py-10  ">
         <h2 className=" font-extrabold text-heading1 max-sm:text-center">
           How we collaborate with you

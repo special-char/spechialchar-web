@@ -15,7 +15,7 @@ type Props = {};
 const CaseStudies = (props: Props) => {
   return (
     <>
-      <PageBanner data={caseBanner} className="bg-darkblue " />
+      <PageBanner data={caseBanner} className="bg-specialblue " />
       <OurThinking />
     </>
   );
