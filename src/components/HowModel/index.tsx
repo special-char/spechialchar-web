@@ -21,13 +21,13 @@ const HowModel = ({ data }: HowModelType) => {
   return (
     <section className="pt-8 flex flex-col ">
       <div className=" mb-8">
-        <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold">
+        <h2 className="text-heading1">
           {data.heading}
-        </h3>
+        </h2>
       </div>
 
       <div className=" mb-8 lg:pr-72 md: pr-12 ">
-        <p className="text-base md:text-lg lg:text-base flex-1 text-primary">
+        <p className="text-subtitle1 flex-1 text-primary">
           {data.par}
         </p>
       </div>
@@ -39,14 +39,14 @@ const HowModel = ({ data }: HowModelType) => {
             <div key={item.id} className="border-b-2 border-gray">
               <div className=" py-8 flex flex-col md:flex-row ">
                 <div className="flex-1">
-                  <h4 className="text-lg md:text-subtitle1 lg:text-3xl font-bold mb-2">
+                  <h3 className=" text-heading5  mb-2">
                     {item.title}
-                  </h4>
+                  </h3>
                 </div>
                 <div className="flex-1 md:flex-grow ">
-                  <p className="text-sm md:text-base lg:text-lg text-primary ">
+                  <h4 className="text-subtitle2 text-primary ">
                     {item.desc}
-                  </p>
+                  </h4>
                   <div className="-pl-2">
                     <Button
                       className="rounded-full my-4"
@@ -60,7 +60,7 @@ const HowModel = ({ data }: HowModelType) => {
                 </div>
               </div>
               {index + 1 === show && (
-                <ul className="grid grid-cols-3 max-sm:grid-cols-1 gap-8 list-square max-lg:px-4">
+                <ul className="grid text-subtitle2 grid-cols-3 max-sm:grid-cols-1 gap-8 list-square max-lg:px-4">
                   {item.list.map((x, index) => (
                     <li key={index}>{x.content} </li>
                   ))}

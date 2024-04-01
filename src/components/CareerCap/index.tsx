@@ -7,7 +7,7 @@ const CareerCap = ({ data }: CareerCapType) => {
   return (
     <section className="">
       <div>
-        <h2 className="lg:text-4xl md:text-2xl text-3xl font-bold lg:pl-2 gap-4">
+        <h2 className="text-heading1 lg:pl-2 gap-4">
           {data.title}
         </h2>
       </div>
@@ -25,7 +25,7 @@ const CareerCap = ({ data }: CareerCapType) => {
                 />
               </div>
               <div className="flex ">
-                <h3 className="text-lg lg:text-2xl font-bold justify-evenly lg:py-2 py-2">
+                <h3 className="text-subtitle3 justify-evenly lg:py-2 py-2">
                   {item.desc}
                 </h3>
               </div>

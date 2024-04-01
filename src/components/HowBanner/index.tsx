@@ -16,14 +16,14 @@ const HowBanner = ({ data }: HowBannerType) => {
         backgroundPosition: "center",
       }}
     >
-      <h1 className="text-gray text-heading2 font-bold lg:pt-36  max-sm:-mb-12  ">
+      <h1 className="text-gray text-heading1 lg:pt-36  max-sm:-mb-12  ">
         {data.title}
       </h1>
       <div className="flex max-sm:flex-col  lg:justify-center text-gray  gap-10  max-md:pb-28 max-sm:py-2 ">
-        <h2 className="sm:border-r-2 sm:pr-4  max-sm:border-b-2 max-sm:pb-7 lg:pr-6 border-h-2 text-sm">
+        <h2 className="sm:border-r-2 sm:pr-4  max-sm:border-b-2 max-sm:pb-7 lg:pr-6 border-h-2 text-subtitle2">
           {data.desc}
         </h2>
-        <div className=" text-sm ">{data.desc1}</div>
+        <div className=" text-subtitle2 ">{data.desc1}</div>
         <Link className="-px-4 max-sm:-py-20 max-sm:-my-1 " href={'https://thespecialcharacter.graphy.com/'}>
           <Button variant="default" size="sm" className="text-base lg:px-16 lg:py-7">
             Get a free consultant

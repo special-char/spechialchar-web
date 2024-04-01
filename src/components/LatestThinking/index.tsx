@@ -16,7 +16,7 @@ const Banner = ({ data }: latestThinkingType) => {
   return (
     <>
       <section className="flex flex-col gap-y-5 py-10">
-        <div className="text-5xl font-bold md:text-8xl">{data.title}</div>
+        <div className="text-heading1">{data.title}</div>
         <div className="bg-background flex gap-x-9 md:items-center md:justify-between pt-6 max-md:pt-6 max-md:py-0">
           <Swiper
             effect={"fade"}
@@ -33,9 +33,9 @@ const Banner = ({ data }: latestThinkingType) => {
                 <div className="flex bg-background gap-x-10 max-lg:flex-col-reverse">
                   <div className="md:flex-1 gap-2 pt-10">
                     <Link
-                    title="latest-thinking"
+                      title="latest-thinking"
                       href={x.Link}
-                      className=" leading-10 max-lg:text-heading2 text-4xl max-sm:text-heading2 font-bold"
+                      className=" leading-10 text-heading6"
                     >
                       {x.title} <span className="text-blue"> &rarr;</span>
                     </Link>
