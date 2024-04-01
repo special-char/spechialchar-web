@@ -1,69 +1,54 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { mobiletabdata, tabdata } from "@/lib/constData";
+import { mobiletabdata } from "@/lib/constData";
 import { tabdataType } from "@/utils/types";
 import Image from "next/image";
 import { Button } from "../ui/button";
 import Link from "next/link";
-const Tab1 = ({ data }: tabdataType) => {
+
+const Tab = ({ data }: tabdataType) => {
   return (
-    <section className="">
-      <div className=" py-10">
-        <Tabs defaultValue="Big Data" className="">
-          <div className="flex md:justify-center max-sm:overflow-x-scroll ">
-            <TabsList>
-              <div className="flex  ">
-                {mobiletabdata.data.map((item) => {
-                  return (
-                    <>
-                      <div
-                        key={item.id}
-                        className="flex flex-col gap-5 justify-between text-heading3 border-b-2 px-5 xl:px-16  md:px-9"
-                      >
-                        <Image
-                          src={item.image}
-                          alt="info-tab"
-                          title="info-svg"
-                          height={50}
-                          width={50}
-                          className="mx-auto"
-                        />
-
-                        <TabsTrigger
-                          className="pb-3 md:py-6"
-                          value={item.value}
-                        >
-                          {item.trigger}
-                        </TabsTrigger>
-                      </div>
-                    </>
-                  );
-                })}
-              </div>
-            </TabsList>
-          </div>
-
+    <section>
+      <Tabs defaultValue="BigData">
+        <TabsList className="flex  max-sm:overflow-x-scroll ">
           {mobiletabdata.data.map((item) => {
             return (
-              <TabsContent
+              <TabsTrigger
                 key={item.id}
-                className="text-primary text-subtitle3 lg:px-1"
+                className="flex flex-col gap-5  justify-between  text-heading4 px-5  py-5  lg:px-16 md:px-8   "
                 value={item.value}
               >
-                {item.content}
-              </TabsContent>
+                <Image
+                  src={item.image}
+                  alt="tab-items"
+                  title="tabs-svgs"
+                  height={40}
+                  width={40}
+                  className="mx-auto"
+                />
+                {item.trigger}
+              </TabsTrigger>
             );
           })}
-        </Tabs>
-      </div>
-      <div>
-        <Link href={"https://thespecialcharacter.graphy.com/"}>
-          <Button
-            variant="default"
-            size="sm"
-            className="px-8 md:px-20 py-7 text-base "
-          >
+        </TabsList>
+        {mobiletabdata.data.map((item) => {
+          return (
+            <TabsContent
+              key={item.id}
+              className="text-primary lg:text-subtitle3 lg:px-1"
+              value={item.value}
+            >
+              {item.content}
+            </TabsContent>
+          );
+        })}
+      </Tabs>
+
+      <div className="pt-10">
+        <Link className="" href={"https://thespecialcharacter.graphy.com/"}>
+          <Button className="">
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-              {data.button} {data?.button2} &rarr;
+              {data.button} <span>{data.button2} </span>
+              <span>&rarr;</span>
             </span>
           </Button>
         </Link>
@@ -71,4 +56,4 @@ const Tab1 = ({ data }: tabdataType) => {
     </section>
   );
 };
-export default Tab1;
+export default Tab;

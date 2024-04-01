@@ -64,7 +64,7 @@ export const tabdata = {
       trigger: "Turnkey Projects",
       content:
         "One way to avail of our software engineering services is to explore our turnkey product development model, which is based on the time and materials (T&M) approach. We’ll exercise full control over the development process and deliver working software (or pieces thereof!) at regular intervals, freeing up your time for strategic work. Expert knowledge, extensive reporting, transparent pricing, and customer centricity guaranteed.",
-      value: "Turnkey Projects",
+      value: "TurnkeyProjects",
       image: "/icons/atom-symbol.svg",
     },
     {
@@ -740,7 +740,7 @@ export const mobiletabdata = {
       trigger: "Big Data",
       content:
         "Use Big Data to create a user-driven app, get real-time insights, improve the app’s performance, and make your marketing more effective.",
-      value: "Big Data",
+      value: "BigData",
       image: "/icons/atom-symbol.svg",
     },
     {
@@ -816,9 +816,9 @@ export const mobileServicesdata = {
   data: [
     {
       id: 1,
-      title: "Discovery & R&D",
+      title: "Development",
       description:
-        "We translate your app idea into a feature setlist and draw up a detailed development roadmap that leads to the desired outcomes",
+        "Our development strategies focus on creating a future-proof app architecture, selecting the right tech stack and using best development practices.",
     },
     {
       id: 2,
@@ -828,9 +828,9 @@ export const mobileServicesdata = {
     },
     {
       id: 3,
-      title: "Development",
+      title: "Discovery & R&D",
       description:
-        "Our development strategies focus on creating a future-proof app architecture, selecting the right tech stack and using best development practices.",
+        "We translate your app idea into a feature setlist and draw up a detailed development roadmap that leads to the desired outcomes",
     },
     {
       id: 4,

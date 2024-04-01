@@ -1,5 +1,5 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { tabdata } from "@/lib/constData";
+import { tabdata, uiuxtabdata } from "@/lib/constData";
 import { tabdataType } from "@/utils/types";
 import Image from "next/image";
 import { Button } from "../ui/button";
@@ -8,59 +8,51 @@ import Link from "next/link";
 const Tab = ({ data }: tabdataType) => {
   return (
     <section>
-      <div >
-        <Tabs defaultValue="Turnkey Projects" className="lg:py-12 py-10">
-          <div className="flex  max-sm:overflow-x-scroll ">
-            <TabsList className="flex">
-                {tabdata.data.map((item) => {
-                  return (
-
-                      <div key={item.id}
-                        className="flex flex-col gap-3 border-b-2  justify-between  text-heading4 px-5   lg:px-16 md:px-8   "
-                      >
-                        <Image
-                          src={item.image}
-                          alt="tab-items"
-                          title="tabs-svgs"
-                          height={40}
-                          width={40}
-                          className="mx-auto"
-                        />
-
-                        <TabsTrigger
-                          className="pb-3 md:py-10 "
-                          value={item.value}
-                        >
-                          {item.trigger}
-                        </TabsTrigger>
-                      </div>
-                  );
-                })}
-            </TabsList>
-          </div>
-
+      <Tabs className="" defaultValue="TurnkeyProjects">
+        <TabsList className="flex  max-sm:overflow-x-scroll ">
           {tabdata.data.map((item) => {
             return (
-              <TabsContent
+              <TabsTrigger
                 key={item.id}
-                className="text-primary lg:text-subtitle3 lg:px-1"
+                className="flex flex-col gap-5  justify-between  text-heading4 px-5  py-5  lg:px-16 md:px-8   "
                 value={item.value}
               >
-                {item.content}
-              </TabsContent>
+                <Image
+                  src={item.image}
+                  alt="tab-items"
+                  title="tabs-svgs"
+                  height={40}
+                  width={40}
+                  className="mx-auto"
+                />
+                {item.trigger}
+              </TabsTrigger>
             );
           })}
-        </Tabs>
-      </div>
+        </TabsList>
+        {tabdata.data.map((item) => {
+          return (
+            <TabsContent
+              key={item.id}
+              className="text-primary lg:text-subtitle3 lg:px-1"
+              value={item.value}
+            >
+              {item.content}
+            </TabsContent>
+          );
+        })}
+      </Tabs>
 
-      <Link className="py-10" href={"https://thespecialcharacter.graphy.com/"}>
-        <Button className="">
-          <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-            {data.button} <span>{data.button2} </span>
-            <span>&rarr;</span>
-          </span>
-        </Button>
-      </Link>
+      <div className="pt-10">
+        <Link className="" href={"https://thespecialcharacter.graphy.com/"}>
+          <Button className="">
+            <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+              {data.button} <span>{data.button2} </span>
+              <span>&rarr;</span>
+            </span>
+          </Button>
+        </Link>
+      </div>
     </section>
   );
 };
