@@ -22,6 +22,7 @@ const Marque = ({
             <Image
               src={x.src}
               alt="image"
+              title="our-cliets-images"
               height={70}
               width={70}
               className="object-cover"

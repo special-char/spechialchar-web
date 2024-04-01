@@ -8,9 +8,7 @@ import { A11y, Navigation, Pagination } from "swiper/modules";
 import Image from "next/image";
 import { SwiperNavButtons } from "@/components/Swiper/SwiperButton";
 import { SwiperServicesData } from "@/utils/types";
-import {
-  SwiperServices4,
-} from "@/lib/constData";
+import { SwiperServices4 } from "@/lib/constData";
 import Link from "next/link";
 import { Button } from "../ui/button";
 
@@ -35,12 +33,12 @@ const Swiper4 = ({ data }: SwiperServicesData) => {
             slidesPerView: 2.9,
           },
         }}
-        className="   "
       >
-        <div className="">
+        <div>
           {SwiperServices4.data.map((car, index) => (
             <SwiperSlide key={index} className="py-4">
               <Link
+                title="featured-projects"
                 className=" overflow-hidden overflow-y-hidden  h-56 "
                 href={"https://thespecialcharacter.graphy.com/"}
               >
@@ -48,6 +46,7 @@ const Swiper4 = ({ data }: SwiperServicesData) => {
                   <Image
                     src={car.src}
                     alt={car.alt}
+                    title="featured-cards"
                     className=" flex flex-col object-cover aspect-square left-0 top-0 -z-10  gap-x-4"
                     height={200}
                     width={800}
@@ -65,7 +64,7 @@ const Swiper4 = ({ data }: SwiperServicesData) => {
         </div>
       </Swiper>
       <div className="sm:pt-10 sm:pb-2">
-        <Link href={"https://thespecialcharacter.graphy.com/"}>
+        <Link title="get-help" href={"https://thespecialcharacter.graphy.com/"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Get Experts UI/UX <span>help </span>

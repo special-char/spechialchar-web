@@ -25,6 +25,7 @@ const AboutBanner2 = ({ data }: aboutBanner2Type) => {
                     src={item.url}
                     alt={"image"}
                     width={600}
+                    title="about-number-banner"
                     height={600}
                     className="absolute lg:top-[36%] max-sm:top-[36%] max-lg:top-[60%] max-lg:left-[10%] lg:left-[10%] "
                   />

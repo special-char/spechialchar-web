@@ -110,8 +110,8 @@ const Contact = () => {
                     <FileAttch className="h-6 w-6" />
                   </div>
                   <div>
-                    <h4 className="text-base md:text-sm">Attach your file</h4>
-                    <h4 className="text-background text-sm">Up to 20MB</h4>
+                    <p className="text-base md:text-sm">Attach your file</p>
+                    <p className="text-background text-sm">Up to 20MB</p>
                   </div>
                 </div>
                 {/* Privacy Policy */}

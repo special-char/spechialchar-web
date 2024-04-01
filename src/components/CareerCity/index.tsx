@@ -28,6 +28,7 @@ const CareerCity = ({ data }: CareerCityType) => {
               src={item.url}
               height={400}
               width={400}
+              title="city-images"
               alt="image"
               className="object-cover aspect-[4/3]"
             />

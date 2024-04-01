@@ -23,7 +23,7 @@ const CloudGrid2 = () => {
           );
         })}
         <div className="py-4">
-          <Link href={"https://thespecialcharacter.graphy.com/"}>
+          <Link title="cloud-experts" href={"https://thespecialcharacter.graphy.com/"}>
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
                 Talk to <span>cloud expert </span>

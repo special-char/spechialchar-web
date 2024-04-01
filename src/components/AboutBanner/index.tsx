@@ -8,6 +8,7 @@ const AboutBanner = ({ data }: aboutBannerType) => {
       <Image
         src={data.url}
         alt="image"
+        title="about-banner"
         height={800}
         width={800}
         className="object-fit absolute right-0 sm:right-12 md:right-24 lg:right-24 -top-0 sm:-top-12 md:-top-24 lg:-top-48 -z-10"

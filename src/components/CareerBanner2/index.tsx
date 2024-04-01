@@ -8,6 +8,7 @@ const CareersBanner2 = ({ data }: careerBannerType) => {
       <Image
         src={data.url}
         alt="image"
+        title="banner-image"
         height={700}
         width={700}
         className="object-fit  w-full"

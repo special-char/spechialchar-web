@@ -8,7 +8,7 @@ const CareerPage2 = ({ data }: CareerPage2dataType) => {
     <section className="">
       <div className="md:grid grid-cols-2 gap-6 lg:gap-x-16">
         <div className="">
-          <Image src={data.src} alt="image" height={600} width={600} />
+          <Image src={data.src} alt="image" title="who-we-are" height={600} width={600} />
         </div>
         <div className="mt-8">
           <h2 className="font-bold text-3xl lg:text-6xl">{data.title}</h2>
