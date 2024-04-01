@@ -10,12 +10,8 @@ const CareerOP = ({ data }: CareerSection1Type) => {
         </h2>
       </div>
       <div className="grid grid-row-2 md:flex-row md:flex-1 gap-10 lg:mt-4">
-        <div className="flex-1 lg:text-xl md:text-base text-sm">
-          {data.desc1}
-        </div>
-        <div className="flex-1 lg:text-xl md:text-base text-sm">
-          {data.desc2}
-        </div>
+        <h3 className="flex-1 lg:text-xl md:text-base text-sm">{data.desc1}</h3>
+        <h4 className="flex-1 lg:text-xl md:text-base text-sm">{data.desc2}</h4>
       </div>
     </section>
   );

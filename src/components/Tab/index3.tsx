@@ -18,7 +18,8 @@ const Tab3 = ({ data }: tabdataType) => {
                       <div className="flex flex-col gap-5 justify-between border-b-2  text-heading4 px-5    md:px-8   ">
                         <Image
                           src={item.image}
-                          alt=""
+                          alt="ui/ux-designer"
+                          title="refresh-svg"
                           height={60}
                           width={60}
                           className="mx-auto"

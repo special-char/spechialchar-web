@@ -5,6 +5,7 @@ import { imageAccordianData } from "@/lib/constData";
 import "./styles.css";
 import Image from "next/image";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 const ImageAccordion = ({ data }: imageAccordianDataType) => {
     const [active, setActive] = useState(0);
@@ -27,7 +28,7 @@ const ImageAccordion = ({ data }: imageAccordianDataType) => {
                                 className={`image-accordion-item ${isActive}`}
                                 onClick={() => handleToggle(index)}
                             >
-                                <Image alt="" height={900} width={900} src={item.image} />
+                                <Image alt="ecommerce-info" title="project-info" height={900} width={900} src={item.image} />
                                 <div className="content1">{item.header}</div>
                                 <div className="content">
                                     <div className="">
@@ -40,6 +41,7 @@ const ImageAccordion = ({ data }: imageAccordianDataType) => {
                     })}
                 </div>
                 <div className="pt-10">
+                    <Link title="projecy-info" href={"/ourthinking"}></Link>
                     <Button>
                         <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
                             {data.button}

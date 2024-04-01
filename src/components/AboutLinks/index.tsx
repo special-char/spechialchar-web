@@ -23,8 +23,9 @@ const AboutLinks = ({ data }: aboutlinksType) => {
               src={item.image}
               className="max-md:h-9 max-md:w-10"
               height={50}
+              alt="about-links"
               width={50}
-              alt=" "
+              title="about-page-link"
             />
           </div>
         ))}
