@@ -83,7 +83,7 @@ const MobileNavbar = () => {
                   className="text-subtitle2 py-3"
                   title="mobile-nav-link"
                 >
-                  Thinking
+                  OurThinking
                 </Link>
 
                 <Link
@@ -92,11 +92,15 @@ const MobileNavbar = () => {
                   title="mobile-nav-link"
                   className="text-subtitle2 py-3"
                 >
-                  Projects
+                  CaseStudies
                 </Link>
               </div>
               <div className="pt-4">
-                <Link className="pt-1" title="mobile-nav-button" href={"#Contact"}>
+                <Link
+                  className="pt-1"
+                  title="mobile-nav-button"
+                  href={"#Contact"}
+                >
                   <Button
                     variant={"secondary"}
                     size={"default"}

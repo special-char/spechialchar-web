@@ -24,7 +24,10 @@ const CloudGrid3 = () => {
         </div>
       </section>
       <div className="pt-10">
-        <Link href={"https://thespecialcharacter.graphy.com/"}>
+        <Link
+          title="cloud-computing"
+          href={"https://thespecialcharacter.graphy.com/"}
+        >
           <Button size={"lg"}>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Get started with{" "}

@@ -34,16 +34,17 @@ const Banner = ({ data }: latestThinkingType) => {
                   <div className="md:flex-1 gap-2 pt-10">
                     <Link
                       href={x.Link}
+                      title="latest-project-info"
                       className=" leading-10 max-lg:text-heading2 text-4xl max-sm:text-heading2 font-bold"
                     >
-                      {x.title}{" "}
-                      <span className="text-blue">&rarr;</span>
+                      {x.title} <span className="text-blue">&rarr;</span>
                     </Link>
                   </div>
                   <div className="relative flex-1 aspect-square overflow-hidden">
                     <Image
                       src={x.img}
                       alt="banner1"
+                      title="latest-project-image"
                       fill
                       className="object-cover"
                     />

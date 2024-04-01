@@ -7,16 +7,17 @@ import Link from "next/link";
 
 const Tab = ({ data }: tabdataType) => {
   return (
-    <section className="">
-      <div className="lg:py-12 py-10">
-        <Tabs defaultValue="Turnkey Projects" className="">
+    <section>
+      <div >
+        <Tabs defaultValue="Turnkey Projects" className="lg:py-12 py-10">
           <div className="flex  max-sm:overflow-x-scroll ">
-            <TabsList role="tab" aria-checked="true">
-              <div className="flex  ">
+            <TabsList className="flex">
                 {tabdata.data.map((item) => {
                   return (
-                    <>
-                      <div className="flex flex-col gap-3 border-b-2  justify-between  text-heading4 px-5   lg:px-16 md:px-8   ">
+
+                      <div key={item.id}
+                        className="flex flex-col gap-3 border-b-2  justify-between  text-heading4 px-5   lg:px-16 md:px-8   "
+                      >
                         <Image
                           src={item.image}
                           alt="tab-items"
@@ -29,15 +30,12 @@ const Tab = ({ data }: tabdataType) => {
                         <TabsTrigger
                           className="pb-3 md:py-10 "
                           value={item.value}
-                          role="button"
                         >
                           {item.trigger}
                         </TabsTrigger>
                       </div>
-                    </>
                   );
                 })}
-              </div>
             </TabsList>
           </div>
 
@@ -45,7 +43,6 @@ const Tab = ({ data }: tabdataType) => {
             return (
               <TabsContent
                 key={item.id}
-                role="tablist"
                 className="text-primary lg:text-subtitle3 lg:px-1"
                 value={item.value}
               >

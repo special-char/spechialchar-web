@@ -58,6 +58,7 @@ function OurThinking({ className }: { className?: string }) {
                 <Image
                   src={x.image}
                   alt="blog"
+                  title="projects-info"
                   width={500}
                   height={500}
                   className="object-cover w-full h-full hover:scale-105 duration-500 "
