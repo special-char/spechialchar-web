@@ -11,10 +11,10 @@ const EcomGrid3 = (props: Props) => {
     <>
       <section className="grid md:grid-cols-2 max-md:grid-cols-1 gap-10 xl:px-container px-3  ">
         {Eco1.section3.map((item) => (
-          <div key={item.id} className="flex gap-2 sm:gap-5 ">
+          <h3 key={item.id} className="flex gap-2 sm:gap-5 ">
             <Image title="ecommerce-svg" src={item.url} alt="ecom-project-svg" height={50} width={50} />
             <div className="text-heading5 pt-2 ">{item.title}</div>
-          </div>
+          </h3>
         ))}
         <div className="pt-5">
           <Link
