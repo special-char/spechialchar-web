@@ -57,7 +57,7 @@ const Contact = () => {
       style={{ backgroundImage: `url(/images/ContactUsImage.webp)` }}
     >
       <div className="p-3 py-6">
-        <h3 className="text-heading1">Contact Us</h3>
+        <h2 className="text-heading1">Contact Us</h2>
         <Formik
           initialValues={{
             name: "",
@@ -84,11 +84,10 @@ const Contact = () => {
                           id={x.id}
                           name={x.name}
                           placeholder={x.placeholder}
-                          className={`bg-transparent w-full hover:border-b-yellow focus:outline-none ${
-                            touched.name && errors.name
+                          className={`bg-transparent w-full hover:border-b-yellow focus:outline-none ${touched.name && errors.name
                               ? "border-red-500 bg-transparent"
                               : "bg-transparent"
-                          }`}
+                            }`}
                         />
                       </label>
 
@@ -135,9 +134,8 @@ const Contact = () => {
                       type="checkbox"
                       name="privacy"
                       id="privacy"
-                      className={`rounded-lg ${
-                        touched.privacy && errors.privacy ? "border-red" : ""
-                      }`}
+                      className={`rounded-lg ${touched.privacy && errors.privacy ? "border-red" : ""
+                        }`}
                     />
                     <label
                       htmlFor="privacy"

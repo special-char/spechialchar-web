@@ -17,7 +17,7 @@ const CollabrateCard = ({ data }: ColllabrateCardType) => {
         </div>
         <div className="mt-4 md:mt-0 mb-1 flex-1  ">
           <h3 className="text-heading6">{data.title}</h3>
-          <div className="mt-1.5 text-subtitle2  text-background">
+          <div className="mt-1.5 text-subtitle2  text-offwhite">
             {data.description}
           </div>
         </div>

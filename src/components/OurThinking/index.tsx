@@ -21,26 +21,28 @@ function OurThinking({ className }: { className?: string }) {
             }
           )}
         >
-          <button type="button" onClick={() => setCurrentCategory("All")}>
-            <div className="flex justify-start mr-4 active:text-blue hover:text-blue hover:underline-offset-8 hover:underline">
+          <button className="group transition-all duration-300 ease-in-out" type="button" onClick={() => setCurrentCategory("All")}>
+            <div className="flex justify-start mr-4 active:text-blue hover:text-blue  bg-left-bottom bg-gradient-to-r from-blue to-blue bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
               All
             </div>
+
           </button>
-          <button type="button" onClick={() => setCurrentCategory("Strategy")}>
-            <div className="flex justify-start mr-4 active:text-blue hover:text-blue hover:underline-offset-8 hover:underline">
+          <button className="group transition-all duration-300 ease-in-out" type="button" onClick={() => setCurrentCategory("Strategy")}>
+            <div className="flex justify-start mr-4 active:text-blue hover:text-blue  bg-left-bottom bg-gradient-to-r from-blue to-blue bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
               Strategy
             </div>
           </button>
-          <button type="button" onClick={() => setCurrentCategory("Trending")}>
-            <div className="flex justify-start mr-4 active:text-blue hover:text-blue  hover:underline-offset-8 hover:underline">
+          <button className="group transition-all duration-300 ease-in-out" type="button" onClick={() => setCurrentCategory("Trending")}>
+            <div className="flex justify-start mr-4 active:text-blue hover:text-blue   bg-left-bottom bg-gradient-to-r from-blue to-blue bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
               Trending
             </div>
           </button>
           <button
+            className="group transition-all duration-300 ease-in-out"
             type="button"
             onClick={() => setCurrentCategory("Development")}
           >
-            <div className="flex justify-start mr-4 active:text-blue hover:text-blue hover:underline-offset-8 hover:underline">
+            <div className="flex justify-start mr-4 active:text-blue hover:text-blue  bg-left-bottom bg-gradient-to-r from-blue to-blue bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
               Development
             </div>
           </button>
