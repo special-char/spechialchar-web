@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Learn practically with us and get ahead of the competition with our industry-relevant IT Training. Our expertise - Digital Marketing | Full Stack Development",
   keywords: ["IT Courses", " Placement Assurance", "Practical Training"],
-  publisher: "Yagnesh Modh",
+  publisher: "Yagnesh Modh", 
 };
 
 export default function RootLayout({
