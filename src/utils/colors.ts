@@ -1,30 +1,24 @@
 type PageData = {
-  page: string;
+  path: string;
   bgColor: string;
   color: string;
-  color1: string;
-  color2: string;
 };
 
 const data: PageData[] = [
   {
-    page: "home",
+    path: "/",
     bgColor: "",
     color: "text-primary",
-    color1: "text-yellow",
-    color2: "text-background",
   },
   {
-    page: "services",
+    path: "/services/web",
     bgColor: "",
-    color: "text-primary",
-    color1: "text-yellow",
-    color2: "text-background",
+    color: "text-yellow",
   },
 ];
 
-const getColors = (pageName: string): PageData | undefined => {
-  return data.find((x) => x.page === pageName);
+const getColors = (pathname: string): PageData | undefined => {
+  return data.find((x) => x.path === pathname);
 };
 
 export default getColors;
