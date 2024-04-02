@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   Accordion,
   AccordionContent,
@@ -7,114 +7,87 @@ import {
 } from "@/components/According1";
 import Link from "next/link";
 import Humburger from "@/public.three-horizontal-lines-icon.svg";
-import NavbarLogo from "../../../public/icons/Logo New Website.svg";
 import { accordionItems1 } from "@/lib/constData";
-import { Cross1Icon } from "@radix-ui/react-icons";
 import { Button } from "../ui/button";
-import Image from "next/image";
+import { Sheet, SheetClose, SheetContent, SheetTrigger } from "../ui/sheet";
 
 const MobileNavbar = () => {
-  const [click, setClicked] = useState(false);
-  const toggleDropdown = () => {
-    setClicked(!click);
-  };
-
   return (
-    <>
-      <div onClick={toggleDropdown}>
-        <Humburger className="fill-priamry mt-2" />
-      </div>
-      {click && (
-        <div className="absolute z-50  bg-background text-primary h-screen w-full left-0 top-0 p-4 ">
-          <div className="flex justify-between items-center">
-            <div>
-              <Link href="/" title="home-link">
-                <Image
-                  src={"/images/TSC-Logo-1.png"}
-                  alt={"Tsc-Logo"}
-                  title="tsc-logo"
-                  height={100}
-                  width={100}
-                />
-              </Link>
-            </div>
-            <div onClick={toggleDropdown}>
-              <Cross1Icon width={24} height={24} />
-            </div>
-          </div>
-          <div className="pt-4 w-full">
-            <Accordion type="single" collapsible>
-              {accordionItems1.data.map((item, i) => (
-                <AccordionItem key={item.value} value={item.value} className="">
-                  <AccordionTrigger className="">
+    <Sheet>
+      <SheetTrigger asChild>
+        <Humburger className="mt-3" />
+      </SheetTrigger>
+      <SheetContent>
+        <div className="pt-10 w-full">
+          <Accordion type="single" collapsible>
+            {accordionItems1.data.map((item, i) => (
+              <AccordionItem key={item.value} value={item.value} className="">
+                <AccordionTrigger className="">
+                  <SheetClose asChild>
                     <Link
                       href={item.link.toLowerCase()}
-                      onClick={toggleDropdown}
                       title="mobile-nav-link"
                       className="text-subtitle2"
                     >
                       {item.title}
                     </Link>
-                  </AccordionTrigger>
-                  <AccordionContent className="py-4">
-                    <ul className="flex flex-col gap-y-4">
-                      {item?.content?.map((itemContent, subindex) => (
-                        <li key={subindex} className="text-primary">
+                  </SheetClose>
+                </AccordionTrigger>
+                <AccordionContent className="py-4">
+                  <ul className="flex flex-col gap-y-4">
+                    {item?.content?.map((itemContent, subindex) => (
+                      <li key={subindex} className="text-primary">
+                        <SheetClose asChild>
                           <Link
                             title="mobile-nav-link"
                             href={`/${item.title.toLowerCase()}/${item.content[
                               subindex
                             ].toLocaleLowerCase()}`}
-                            className=""
-                            onClick={toggleDropdown}
                           >
                             {itemContent}
                           </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </AccordionContent>
-                </AccordionItem>
-              ))}
-              <div className="flex flex-col">
-                <Link
-                  href="/ourthinking"
-                  onClick={toggleDropdown}
-                  className="text-subtitle2 py-3"
-                  title="mobile-nav-link"
+                        </SheetClose>
+                      </li>
+                    ))}
+                  </ul>
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+            <div className="flex flex-col">
+              <Link
+                href="/ourthinking"
+                className="text-subtitle2 py-3"
+                title="mobile-nav-link"
+              >
+                OurThinking
+              </Link>
+              <Link
+                href="/casestudies"
+                title="mobile-nav-link"
+                className="text-subtitle2 py-3"
+              >
+                CaseStudies
+              </Link>
+            </div>
+            <div className="pt-4">
+              <Link
+                className="pt-1"
+                title="mobile-nav-button"
+                href={"#Contact"}
+              >
+                <Button
+                  variant={"secondary"}
+                  size={"default"}
+                  className=" py-1 px-4  hover:text-background "
                 >
-                  OurThinking
-                </Link>
-
-                <Link
-                  href="/casestudies"
-                  onClick={toggleDropdown}
-                  title="mobile-nav-link"
-                  className="text-subtitle2 py-3"
-                >
-                  CaseStudies
-                </Link>
-              </div>
-              <div className="pt-4">
-                <Link
-                  className="pt-1"
-                  title="mobile-nav-button"
-                  href={"#Contact"}
-                >
-                  <Button
-                    variant={"secondary"}
-                    size={"default"}
-                    className=" py-1 px-4  hover:text-background "
-                  >
-                    Contact Us
-                  </Button>
-                </Link>
-              </div>
-            </Accordion>
-          </div>
+                  Contact Us
+                </Button>
+              </Link>
+            </div>
+          </Accordion>
         </div>
-      )}
-    </>
+      </SheetContent>
+    </Sheet>
   );
 };
 

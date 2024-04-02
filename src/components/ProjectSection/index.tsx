@@ -39,9 +39,9 @@ const CaseBanner = ({
       </div>
       <div className="lg:order-1 lg:px-36 md:py-10 max-lg:p-10">
         <div>
-          <h1 className="text-heading1 py-10">
+          <h2 className="text-heading1 py-10">
             Solution
-          </h1>
+          </h2>
         </div>
 
         {backendData.dataCase.map((x, index) => (
