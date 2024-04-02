@@ -69,7 +69,7 @@ function OurThinking({ className }: { className?: string }) {
                 <div className="flex gap-1 text-nowrap flex-wrap">
                   {x.categories.map((category, index) => (
                     <React.Fragment key={index}>
-                      <Link title="category" href="#" className="text-subtitle2">
+                      <Link title="category" href={`/casestudies/${x.id}`} className="text-subtitle2">
                         {category}
                       </Link>
                       {index !== x.categories.length - 1 && (
@@ -79,7 +79,7 @@ function OurThinking({ className }: { className?: string }) {
                   ))}
                 </div>
                 <div className="py-4 hover:text-blue">
-                  <Link title="description" href={x.link}>
+                  <Link title="description" href={`/casestudies/${x.id}`}>
                     <span className="text-heading6">
                       {x.title}
                     </span>
