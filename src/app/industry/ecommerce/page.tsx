@@ -25,7 +25,7 @@ import React from "react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Ecommerce Development | The Special Character",
+  title: "Ecommerce Development",
   description:
     "Learn practically with us and get ahead of the competition with our industry-relevant IT Training. Our expertise - Digital Marketing | Full Stack Development",
 };
