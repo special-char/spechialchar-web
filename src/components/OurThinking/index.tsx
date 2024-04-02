@@ -21,26 +21,28 @@ function OurThinking({ className }: { className?: string }) {
             }
           )}
         >
-          <button type="button" onClick={() => setCurrentCategory("All")}>
-            <div className="flex justify-start mr-4 active:text-blue hover:text-blue hover:underline-offset-8 hover:underline">
+          <button className="group transition-all duration-300 ease-in-out" type="button" onClick={() => setCurrentCategory("All")}>
+            <div className="flex pb-2 max-sm:w-fit justify-start mr-4 active:text-blue hover:text-blue bg-origin-padding bg-left-bottom bg-gradient-to-r from-blue to-blue bg-[length:0%_4px] bg-no-repeat group-hover:bg-[length:100%_4px] transition-all duration-500 ease-out">
               All
             </div>
+
           </button>
-          <button type="button" onClick={() => setCurrentCategory("Strategy")}>
-            <div className="flex justify-start mr-4 active:text-blue hover:text-blue hover:underline-offset-8 hover:underline">
+          <button className="group transition-all duration-300 ease-in-out" type="button" onClick={() => setCurrentCategory("Strategy")}>
+            <div className="flex pb-2 max-sm:w-fit justify-start mr-4 active:text-blue hover:text-blue  bg-left-bottom bg-gradient-to-r from-blue to-blue bg-[length:0%_4px] bg-no-repeat group-hover:bg-[length:100%_4px] transition-all duration-500 ease-out">
               Strategy
             </div>
           </button>
-          <button type="button" onClick={() => setCurrentCategory("Trending")}>
-            <div className="flex justify-start mr-4 active:text-blue hover:text-blue  hover:underline-offset-8 hover:underline">
+          <button className="group transition-all duration-300 ease-in-out" type="button" onClick={() => setCurrentCategory("Trending")}>
+            <div className="flex pb-2 max-sm:w-fit justify-start mr-4 active:text-blue hover:text-blue   bg-left-bottom bg-gradient-to-r from-blue to-blue bg-[length:0%_4px] bg-no-repeat group-hover:bg-[length:100%_4px] transition-all duration-500 ease-out">
               Trending
             </div>
           </button>
           <button
+            className="group transition-all duration-300 ease-in-out"
             type="button"
             onClick={() => setCurrentCategory("Development")}
           >
-            <div className="flex justify-start mr-4 active:text-blue hover:text-blue hover:underline-offset-8 hover:underline">
+            <div className="flex pb-2 max-sm:w-fit justify-start mr-4 active:text-blue hover:text-blue  bg-left-bottom bg-gradient-to-r from-blue to-blue bg-[length:0%_4px] bg-no-repeat group-hover:bg-[length:100%_4px] transition-all duration-500 ease-out">
               Development
             </div>
           </button>
@@ -69,7 +71,7 @@ function OurThinking({ className }: { className?: string }) {
                 <div className="flex gap-1 text-nowrap flex-wrap">
                   {x.categories.map((category, index) => (
                     <React.Fragment key={index}>
-                      <Link title="category" href="#" className="text-subtitle2">
+                      <Link title="category" href={`/casestudies/${x.id}`} className="text-subtitle2">
                         {category}
                       </Link>
                       {index !== x.categories.length - 1 && (
@@ -79,7 +81,7 @@ function OurThinking({ className }: { className?: string }) {
                   ))}
                 </div>
                 <div className="py-4 hover:text-blue">
-                  <Link title="description" href={x.link}>
+                  <Link title="description" href={`/casestudies/${x.id}`}>
                     <span className="text-heading6">
                       {x.title}
                     </span>

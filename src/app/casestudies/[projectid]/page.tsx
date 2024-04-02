@@ -10,7 +10,7 @@ import React from "react";
 const Projects = ({ params }: { params: { projectid: string } }) => {
   return (
     <>
-      <h1>This is Product:{params.projectid}</h1>
+
       <ProjectBanner data={backendData} />
       <ProjectChallanges data={backendData} />
       <ProjectSection
@@ -18,7 +18,7 @@ const Projects = ({ params }: { params: { projectid: string } }) => {
         className="bg-yellow"
         order="lg:order-1"
       />
-      <ProjectSwiper/>
+      <ProjectSwiper />
       <ProjectSection data={backendData2} className="bg-blue text-background" />
       <MobileSwiper />
       <LatestThinking data={latestThinkingData} />

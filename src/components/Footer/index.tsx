@@ -23,7 +23,7 @@ const Footer = ({ data }: FooterdataType) => {
         <div className="flex flex-wrap lg:gap-x-40 max-md:gap-x-24 md:gap-x-24 sm:gap-x-[5.9rem] max-sm:gap-y-8">
           <div className="md:w-64 ">
             <p className="text-subtitle1">Office:</p>
-            <p className="md:w-60 text-background ">{data.address}</p>
+            <p className="md:w-60 text-offwhite">{data.address}</p>
           </div>
           <div className="flex flex-col max-md:justify-between gap-y-8">
             <div className="flex flex-col lg:text-subtitle1">
@@ -54,7 +54,7 @@ const Footer = ({ data }: FooterdataType) => {
                 {data.privacy}
               </Link>
             </p>
-            <p className="text-background">&copy;{data.copyright}</p>
+            <p className="text-offwhite">&copy;{data.copyright}</p>
           </div>
           <div className="flex flex-row overflow-x-auto gap-10">
             <FooterCirti />

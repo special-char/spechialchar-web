@@ -17,9 +17,9 @@ const ProjectBanner = ({ data }: ProjectSectionType) => {
             </Link>
           </button>
         </div>
-        <div className="w-full text-primary text-heading1">
+        <h1 className="w-full text-primary text-heading1">
           {data.description1}
-        </div>
+        </h1>
       </section>
       <section className="h-[50vh] bg-primary text-background grid grid-cols-2 text-xl gap-x-10">
         {backendData.section1.map((item) => {

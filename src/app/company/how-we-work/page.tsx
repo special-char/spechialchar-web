@@ -7,7 +7,7 @@ import React from 'react'
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "How We Work | The Special Character",
+  title: "How We Work",
   description:
     "Learn practically with us and get ahead of the competition with our industry-relevant IT Training. Our expertise - Digital Marketing | Full Stack Development",
 };
