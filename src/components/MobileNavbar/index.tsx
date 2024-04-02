@@ -15,10 +15,10 @@ const MobileNavbar = () => {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Humburger />
+        <Humburger className="mt-3" />
       </SheetTrigger>
       <SheetContent>
-        <div className="pt-4 w-full">
+        <div className="pt-10 w-full">
           <Accordion type="single" collapsible>
             {accordionItems1.data.map((item, i) => (
               <AccordionItem key={item.value} value={item.value} className="">
@@ -36,7 +36,7 @@ const MobileNavbar = () => {
                 <AccordionContent className="py-4">
                   <ul className="flex flex-col gap-y-4">
                     {item?.content?.map((itemContent, subindex) => (
-                      <li key={subindex} className="text-primaxry">
+                      <li key={subindex} className="text-primary">
                         <SheetClose asChild>
                           <Link
                             title="mobile-nav-link"

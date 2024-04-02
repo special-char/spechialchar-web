@@ -22,18 +22,18 @@ function OurThinking({ className }: { className?: string }) {
           )}
         >
           <button className="group transition-all duration-300 ease-in-out" type="button" onClick={() => setCurrentCategory("All")}>
-            <div className="flex justify-start mr-4 active:text-blue hover:text-blue  bg-left-bottom bg-gradient-to-r from-blue to-blue bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+            <div className="flex pb-2 max-sm:w-fit justify-start mr-4 active:text-blue hover:text-blue bg-origin-padding bg-left-bottom bg-gradient-to-r from-blue to-blue bg-[length:0%_4px] bg-no-repeat group-hover:bg-[length:100%_4px] transition-all duration-500 ease-out">
               All
             </div>
 
           </button>
           <button className="group transition-all duration-300 ease-in-out" type="button" onClick={() => setCurrentCategory("Strategy")}>
-            <div className="flex justify-start mr-4 active:text-blue hover:text-blue  bg-left-bottom bg-gradient-to-r from-blue to-blue bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+            <div className="flex pb-2 max-sm:w-fit justify-start mr-4 active:text-blue hover:text-blue  bg-left-bottom bg-gradient-to-r from-blue to-blue bg-[length:0%_4px] bg-no-repeat group-hover:bg-[length:100%_4px] transition-all duration-500 ease-out">
               Strategy
             </div>
           </button>
           <button className="group transition-all duration-300 ease-in-out" type="button" onClick={() => setCurrentCategory("Trending")}>
-            <div className="flex justify-start mr-4 active:text-blue hover:text-blue   bg-left-bottom bg-gradient-to-r from-blue to-blue bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+            <div className="flex pb-2 max-sm:w-fit justify-start mr-4 active:text-blue hover:text-blue   bg-left-bottom bg-gradient-to-r from-blue to-blue bg-[length:0%_4px] bg-no-repeat group-hover:bg-[length:100%_4px] transition-all duration-500 ease-out">
               Trending
             </div>
           </button>
@@ -42,7 +42,7 @@ function OurThinking({ className }: { className?: string }) {
             type="button"
             onClick={() => setCurrentCategory("Development")}
           >
-            <div className="flex justify-start mr-4 active:text-blue hover:text-blue  bg-left-bottom bg-gradient-to-r from-blue to-blue bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+            <div className="flex pb-2 max-sm:w-fit justify-start mr-4 active:text-blue hover:text-blue  bg-left-bottom bg-gradient-to-r from-blue to-blue bg-[length:0%_4px] bg-no-repeat group-hover:bg-[length:100%_4px] transition-all duration-500 ease-out">
               Development
             </div>
           </button>
