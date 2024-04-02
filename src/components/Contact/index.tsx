@@ -96,7 +96,7 @@ const Contact = () => {
                             touched.name && errors.name
                               ? "border-red-500 bg-transparent"
                               : "bg-transparent"
-                          }`}
+                            }`}
                         />
                       </label>
 

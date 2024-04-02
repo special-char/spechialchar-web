@@ -50,6 +50,7 @@ const config = {
         textgray: "rgb(var(--color-textgray) / <alpha-value>)",
         skyblue: "rgb(var(--color-skyblue) / <alpha-value>)",
         specialblue: "rgb(var(--color-specialblue) / <alpha-value>)",
+        offwhite: "hsl(var(--color-offwhite))",
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
