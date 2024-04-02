@@ -51,13 +51,21 @@ const Contact = () => {
   });
 
   return (
-    <section
+    <div
       id="Contact"
-      className="h-full lg:h-screen lg:py-32 w-full bg-primary text-background"
-      style={{ backgroundImage: `url(/images/ContactUsImage.webp)` }}
+      className="lg:h-screen w-full text-primary relative overflow-hidden h-full"
     >
-      <div className="p-3 py-6">
-        <h2 className="text-heading1">Contact Us</h2>
+      <video
+        src="/images/HomeBanner3.mp4"
+        autoPlay
+        loop
+        muted
+        autoCapitalize=""
+        title="homeBanner"
+        className="absolute max-md:h-screen -z-10 xl:w-full max-w-none "
+      ></video>
+      <section className="lg:pt-40">
+        <h3 className="text-heading1">Contact Us</h3>
         <Formik
           initialValues={{
             name: "",
@@ -74,7 +82,7 @@ const Contact = () => {
         >
           {({ isSubmitting, touched, errors }) => (
             <Form>
-              <div className="pt-8">
+              <div className="lg:pt-8">
                 <div className="gap-2 grid pt-4 lg:grid-cols-2 lg:gap-x-8">
                   {Data.map((x) => (
                     <div key={x.id} className="pt-4">
@@ -84,14 +92,15 @@ const Contact = () => {
                           id={x.id}
                           name={x.name}
                           placeholder={x.placeholder}
-                          className={`bg-transparent w-full hover:border-b-yellow focus:outline-none ${touched.name && errors.name
+                          className={`bg-transparent placeholder:text-primary w-full hover:border-b-blue focus:outline-none ${
+                            touched.name && errors.name
                               ? "border-red-500 bg-transparent"
                               : "bg-transparent"
                             }`}
                         />
                       </label>
 
-                      <div className="w-full h-[1px] mt-4 bg-gray"></div>
+                      <div className="w-full h-[1px] mt-4 bg-primary"></div>
                       <ErrorMessage
                         name={x.errname}
                         component="div"
@@ -110,19 +119,19 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-base md:text-sm">Attach your file</p>
-                    <p className="text-background text-sm">Up to 20MB</p>
+                    <p className=" text-sm">Up to 20MB</p>
                   </div>
                 </div>
                 {/* Privacy Policy */}
                 <div className="flex flex-col py-8 md:py-5">
                   <div>
-                    <p className="text-xs text-background w-full">
+                    <p className="text-xs  w-full">
                       We will process your personal information in accordance
                       with our{" "}
                       <Link
                         title="privacy"
                         href="/"
-                        className="text-yellow cursor-pointer"
+                        className="text-blue cursor-pointer"
                       >
                         Privacy Policy
                       </Link>
@@ -134,13 +143,13 @@ const Contact = () => {
                       type="checkbox"
                       name="privacy"
                       id="privacy"
-                      className={`rounded-lg ${touched.privacy && errors.privacy ? "border-red" : ""
-                        }`}
+                      className={`rounded-lg mt-2 ${
+                        touched.privacy && errors.privacy
+                          ? "border-red-500"
+                          : ""
+                      }`}
                     />
-                    <label
-                      htmlFor="privacy"
-                      className="text-xs pt-2 text-background"
-                    >
+                    <label htmlFor="privacy" className="text-xs pt-2 ">
                       I would like to be contacted with news and updates about
                       your events and services
                     </label>
@@ -148,7 +157,7 @@ const Contact = () => {
                   <ErrorMessage
                     name="privacy"
                     component="div"
-                    className="text-red text-xs"
+                    className="text-red-500 text-xs"
                   />
                 </div>
               </div>
@@ -166,8 +175,8 @@ const Contact = () => {
             </Form>
           )}
         </Formik>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 };
 
