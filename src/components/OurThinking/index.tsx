@@ -15,7 +15,7 @@ function OurThinking({ className }: { className?: string }) {
       <section>
         <div
           className={cn(
-            "flex max-md:flex-col text-heading4 py-10   justify-start gap-x-4",
+            "flex max-md:flex-col text-heading4 py-10 md:ml-4 justify-start gap-x-4",
             {
               [`${className}`]: className,
             }
@@ -54,9 +54,10 @@ function OurThinking({ className }: { className?: string }) {
               : (currentCategory as keyof typeof ourThinkingData)
           ].map((x) => (
             <div
-              key={x.id}
-              className="flex flex-col gap-3 m-4 md:gap-5 md:pb-20 pb-10  "
+            key={x.id}
+            className="flex flex-col gap-3 md:m-4 md:gap-5 md:pb-20 pb-10  "
             >
+              <Link target="category" href={`/casestudies/${x.id}`}>
               <div className="overflow-hidden">
                 <Image
                   src={x.image}
@@ -66,7 +67,11 @@ function OurThinking({ className }: { className?: string }) {
                   height={500}
                   className="object-cover w-full h-full hover:scale-105 duration-500 "
                 />
+                
               </div>
+              </Link>
+              
+              
               <div className="">
                 <div className="flex gap-1 text-nowrap flex-wrap">
                   {x.categories.map((category, index) => (
