@@ -18,7 +18,7 @@ const Header = ({ children }: Props) => {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
-      setVisible(prevScrollPos > currentScrollPos || currentScrollPos == 100);
+      setVisible(prevScrollPos > currentScrollPos || currentScrollPos <= 100);
       setPrevScrollPos(currentScrollPos);
     };
 
@@ -38,7 +38,7 @@ const Header = ({ children }: Props) => {
   return (
     <header
       className={cn(
-        `w-full fixed max-w-screen z-20 top-0 py-2 ${colors?.hover} transition-all ease-in-out duration-300 ${colors?.color}`,
+        `w-full fixed max-w-screen z-20 top-0 py-2 bg-primary text-background ${colors?.hover} transition-all ease-in-out duration-300 ${colors?.color}`,
         {
           [`${colors?.bgColor} max-lg:bg-background`]: visible,
           ["-translate-y-full"]: !visible,

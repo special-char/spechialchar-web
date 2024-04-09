@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 const Ecommerce = () => {
   return (
     <>
-      <Banner data={banner8} className="bg-gray1 text-primary" />
+      <Banner data={banner8} />
       <ImageAccordion data={imageAccordianData} />
       <EcomSocial data={ecomSocial} />
       <ImageBanner data={imageBanner28} />
