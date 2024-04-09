@@ -32,9 +32,9 @@ const Swiper1 = () => {
           delay: 3000,
         }}
       >
-        <div className="">
+        <div >
           {backendData.SwiperServices.map((item, index) => (
-            <SwiperSlide key={index} className="">
+            <SwiperSlide key={index} >
               <div className="relative ">
                 <Image
                   src={item.src}
