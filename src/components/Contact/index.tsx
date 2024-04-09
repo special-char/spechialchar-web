@@ -60,8 +60,7 @@ const Contact = () => {
         autoPlay
         loop
         muted
-        autoCapitalize=""
-        title="homeBanner"
+        title="ContactBanner"
         className="absolute max-md:h-screen -z-10 xl:w-full max-w-none "
       ></video>
       <section className="lg:pt-40">
@@ -76,7 +75,7 @@ const Contact = () => {
           }}
           validationSchema={validationSchema}
           onSubmit={(values, { setSubmitting }) => {
-            console.log(values);
+
             setSubmitting(false);
           }}
         >
@@ -92,10 +91,9 @@ const Contact = () => {
                           id={x.id}
                           name={x.name}
                           placeholder={x.placeholder}
-                          className={`bg-transparent placeholder:text-primary w-full hover:border-b-blue focus:outline-none ${
-                            touched.name && errors.name
-                              ? "border-red-500 bg-transparent"
-                              : "bg-transparent"
+                          className={`bg-transparent placeholder:text-primary w-full hover:border-b-blue focus:outline-none ${touched.name && errors.name
+                            ? "border-red-500 bg-transparent"
+                            : "bg-transparent"
                             }`}
                         />
                       </label>
@@ -143,11 +141,10 @@ const Contact = () => {
                       type="checkbox"
                       name="privacy"
                       id="privacy"
-                      className={`rounded-lg mt-2 ${
-                        touched.privacy && errors.privacy
-                          ? "border-red-500"
-                          : ""
-                      }`}
+                      className={`rounded-lg mt-2 ${touched.privacy && errors.privacy
+                        ? "border-red-500"
+                        : ""
+                        }`}
                     />
                     <label htmlFor="privacy" className="text-xs pt-2 ">
                       I would like to be contacted with news and updates about

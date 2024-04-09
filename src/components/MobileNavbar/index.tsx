@@ -44,6 +44,7 @@ const MobileNavbar = () => {
       <SheetTrigger name="hamburger" aria-label="hamburger">
         <Hamburger
           className="mt-3"
+          fill="white"
           style={{
             fill:
               scrollPosition > 100
@@ -89,35 +90,41 @@ const MobileNavbar = () => {
               </AccordionItem>
             ))}
             <div className="flex flex-col">
-              <Link
-                href="/ourthinking"
-                className="text-subtitle2 py-3"
-                title="mobile-nav-link"
-              >
-                OurThinking
-              </Link>
-              <Link
-                href="/casestudies"
-                title="mobile-nav-link"
-                className="text-subtitle2 py-3"
-              >
-                CaseStudies
-              </Link>
+              <SheetClose asChild>
+                <Link
+                  href="/ourthinking"
+                  className="text-subtitle2 py-3"
+                  title="mobile-nav-link"
+                >
+                  OurThinking
+                </Link>
+              </SheetClose>
+              <SheetClose asChild>
+                <Link
+                  href="/casestudies"
+                  title="mobile-nav-link"
+                  className="text-subtitle2 py-3"
+                >
+                  CaseStudies
+                </Link>
+              </SheetClose>
             </div>
             <div className="pt-4">
-              <Link
-                className="pt-1"
-                title="mobile-nav-button"
-                href={"#Contact"}
-              >
-                <Button
-                  variant={"secondary"}
-                  size={"default"}
-                  className=" py-1 px-4  hover:text-background "
+              <SheetClose asChild>
+                <Link
+                  className="pt-1"
+                  title="mobile-nav-button"
+                  href={"#Contact"}
                 >
-                  Contact Us
-                </Button>
-              </Link>
+                  <Button
+                    variant={"secondary"}
+                    size={"default"}
+                    className=" py-1 px-4  hover:text-background "
+                  >
+                    Contact Us
+                  </Button>
+                </Link>
+              </SheetClose>
             </div>
           </Accordion>
         </div>
