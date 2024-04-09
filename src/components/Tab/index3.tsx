@@ -9,7 +9,7 @@ const Tab = ({ data }: tabdataType) => {
   return (
     <section>
       <Tabs className="" defaultValue="Discover">
-        <TabsList className="flex  max-sm:overflow-x-scroll ">
+        <TabsList className="flex  max-lg:overflow-x-scroll ">
           {uiuxtabdata.data.map((item) => {
             return (
               <TabsTrigger
