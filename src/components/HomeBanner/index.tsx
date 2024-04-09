@@ -21,7 +21,6 @@ const HomeBanner = ({ data }: HomeBannerdataType) => {
         autoPlay
         loop
         muted
-        autoCapitalize=""
         title="homeBanner"
         className="absolute max-md:h-screen xl:w-full max-w-none "
         src="/images/TSC-Vedio-3.mp4"

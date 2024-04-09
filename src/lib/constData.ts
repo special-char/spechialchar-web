@@ -633,7 +633,7 @@ export const IconData = {
 };
 
 export const banner2 = {
-  imageurl: "/images/mobile2.jpg",
+  imageurl: "/images/mobile2.webp",
   title: "Mobile app development company",
   button1: "Hire App Developer",
   button2: "",

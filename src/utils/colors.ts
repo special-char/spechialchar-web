@@ -18,7 +18,7 @@ const data: PageData[] = [
   },
   {
     path: "/services/web",
-    bgColor: "",
+    bgColor: "bg-transparent",
     color: "text-background",
     hover: "hover:bg-darkblue",
     fillcolor: "white",
@@ -90,7 +90,7 @@ const data: PageData[] = [
   },
   {
     path: "/company/about",
-    bgColor: "",
+    bgColor: "bg-transparent",
     color: "text-primary",
     hover: "hover:bg-yellow",
     fillcolor: "black",
@@ -98,7 +98,7 @@ const data: PageData[] = [
   },
   {
     path: "/company/career",
-    bgColor: "",
+    bgColor: "bg-transparent",
     color: "text-background",
     hover: "hover:bg-primary",
     fillcolor: "white",
@@ -106,7 +106,7 @@ const data: PageData[] = [
   },
   {
     path: "/company/how-we-work",
-    bgColor: "",
+    bgColor: "bg-transparent",
     color: "text-background",
     hover: "hover:bg-primary",
     fillcolor: "white",
