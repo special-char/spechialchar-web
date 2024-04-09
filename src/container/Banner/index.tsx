@@ -1,36 +1,21 @@
+"use client";
 import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
 import { BannerType } from "@/utils/types";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import getColors from "@/utils/colors";
+import { usePathname } from "next/navigation";
 
-const Banner = ({
-  data,
-  className,
-  font,
-}: {
-  data: BannerType;
-  className?: string;
-  font?: string;
-}) => {
-  console.log(className);
+const Banner = ({ data }: { data: BannerType }) => {
+  const pathname = usePathname();
+  const colors = getColors(pathname);
 
   return (
-    <div
-      className={cn(" w-full bg-primary text-background py-20", {
-        [`${className}`]: className, 
-      })}
-    >
-      <div className=" grid sm:pl-container max-sm:px-container md:grid-cols-[40%_1fr]  grid-cols-1 items-center lg:gap-x-40  max-sm:gap-y-7  justify-center">
+    <div className={` w-full ${colors?.bannerbg} ${colors?.color} py-20`}>
+      <div className=" grid px-container md:grid-cols-[40%_1fr]  grid-cols-1 items-center lg:gap-x-40  max-sm:gap-y-7  justify-center">
         <div className="lg:w-[30rem] sm:gap-y-10 md:gap-y-10 max-sm:gap-y-7 flex justify-evenly flex-col sm:justify-center">
-          <h1
-            className={cn(" text-heading1  font-bold ", {
-              [`${font}`]: font,
-            })}
-          >
-            {data.title}
-          </h1>
+          <h1 className=" text-heading1  font-bold ">{data.title}</h1>
 
           <h2 className="text-subtitle1 ">{data.description}</h2>
 

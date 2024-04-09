@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 const EdTechPage = () => {
   return (
     <>
-      <Banner data={banner7} className="bg-darkblue2" />
+      <Banner data={banner7} />
       <EdTechGrid data={edSection} />
       <ImageBanner data={imageBanner23} />
       <YellowBanner data={YellowBannerData10} />

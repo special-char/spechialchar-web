@@ -15,7 +15,7 @@ const MobileNavbar = () => {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Humburger className="mt-3" />
+        <Humburger />
       </SheetTrigger>
       <SheetContent>
         <div className="pt-10 w-full">
