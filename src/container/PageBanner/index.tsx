@@ -24,13 +24,13 @@ const PageBanner = ({
         <h1 className="text-heading1 w-[75vw] font-extrabold mb-4 md:mb-12 ">
           {data.title1}
         </h1>
-        <div
+        <h2
           className={cn("text-subtitle3", {
             [`${text}`]: text,
           })}
         >
           {data?.title2}
-        </div>
+        </h2>
       </div>
     </section>
   );

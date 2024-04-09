@@ -11,17 +11,30 @@ import Link from "next/link";
 
 const Swiper1 = () => {
   return (
-    <div className=" bg-gray px-container">
+    <div className=" bg-gray">
       <Swiper
         modules={[Navigation, Pagination]}
-        slidesPerView={1}
+        spaceBetween={30}
+        slidesPerView={1.2}
+        breakpoints={{
+          768: {
+            slidesPerView: 1.4,
+          },
+          1024: {
+            slidesPerView: 1.4,
+          },
+          1440: {
+            slidesPerView: 1,
+          },
+        }}
         loop={true}
-        navigation={true}
+        autoplay={{
+          delay: 3000,
+        }}
       >
-        <div className="">
+        <div >
           {backendData.SwiperServices.map((item, index) => (
-            <SwiperSlide key={index} className="">
-
+            <SwiperSlide key={index} >
               <div className="relative ">
                 <Image
                   src={item.src}
@@ -32,7 +45,6 @@ const Swiper1 = () => {
                   width={1000}
                 />
               </div>
-
             </SwiperSlide>
           ))}
         </div>

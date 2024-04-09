@@ -7,16 +7,16 @@ export const SwiperNavButtons = () => {
   const swiper = useSwiper();
 
   return (
-    <div className="flex bg-background px-4 py-5 gap-x-9 w-container items-center justify-center rounded-full">
+    <div className="group flex bg-background w-fit hover:bg-blue px-3 py-5 gap-x-10 justify-between items-center rounded-full transition-all ease-in-out duration-700">
       <button name="arrowleft" aria-label="left">
         <IoIosArrowBack
-          className="h-4 w-4 text-primary text-xl"
+          className="h-5 w-5 text-primary text-xl group-hover:fill-background"
           onClick={() => swiper.slidePrev()}
         />
       </button>
       <button name="arrowright" aria-label="left">
         <IoIosArrowForward
-          className="h-4 w-4 text-primary text-xl"
+          className="h-5 w-5 text-primary text-xl group-hover:fill-background"
           onClick={() => swiper.slideNext()}
         />
       </button>
