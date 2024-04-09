@@ -6,8 +6,21 @@ import ProjectSection from "@/components/ProjectSection";
 import ProjectSwiper from "@/components/ProjectSwiper";
 import { backendData, backendData2, latestThinkingData } from "@/lib/constData";
 import React from "react";
+import { Metadata } from "next";
 
-const Projects = ({ params }: { params: { projectid: string } }) => {
+type Props = {
+  params:{
+    projectid:string;
+  }
+}
+
+export const generateMetadata = ({params}: Props): Metadata =>{
+  return{
+    title:`Projects ${params.projectid}`
+  }
+};
+
+const Projects = () => {
   return (
     <>
 

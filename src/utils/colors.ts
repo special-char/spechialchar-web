@@ -4,15 +4,17 @@ type PageData = {
   color: string;
   hover: string;
   fillcolor: string;
+  bannerbg: string;
 };
 
 const data: PageData[] = [
   {
     path: "/",
-    bgColor: "",
+    bgColor: "bg-transparent",
     color: "text-primary",
     hover: "hover:bg-background",
     fillcolor: "black",
+    bannerbg: "",
   },
   {
     path: "/services/web",
@@ -20,6 +22,7 @@ const data: PageData[] = [
     color: "text-background",
     hover: "hover:bg-darkblue",
     fillcolor: "white",
+    bannerbg: "bg-darkblue",
   },
   {
     path: "/services/software-engineering",
@@ -27,6 +30,7 @@ const data: PageData[] = [
     color: "text-background",
     hover: "hover:bg-primary",
     fillcolor: "white",
+    bannerbg: "bg-primary",
   },
   {
     path: "/services/mobile",
@@ -34,6 +38,7 @@ const data: PageData[] = [
     color: "text-primary",
     hover: "hover:bg-gray",
     fillcolor: "black",
+    bannerbg: "bg-gray",
   },
   {
     path: "/services/saas",
@@ -41,6 +46,7 @@ const data: PageData[] = [
     color: "text-background",
     hover: "hover:bg-primary",
     fillcolor: "white",
+    bannerbg: "bg-primary",
   },
   {
     path: "/services/back-end",
@@ -48,6 +54,7 @@ const data: PageData[] = [
     color: "text-background",
     hover: "hover:bg-darkblue1",
     fillcolor: "white",
+    bannerbg: "bg-darkblue1",
   },
   {
     path: "/services/cloud-devops",
@@ -55,6 +62,7 @@ const data: PageData[] = [
     color: "text-background",
     hover: "hover:bg-primary",
     fillcolor: "white",
+    bannerbg: "bg-primary",
   },
   {
     path: "/services/uiux-design",
@@ -62,6 +70,7 @@ const data: PageData[] = [
     color: "text-primary",
     hover: "hover:bg-yellow",
     fillcolor: "black",
+    bannerbg: "bg-yellow",
   },
   {
     path: "/industry/elearning",
@@ -69,6 +78,7 @@ const data: PageData[] = [
     color: "text-background",
     hover: "hover:bg-darkblue2",
     fillcolor: "white",
+    bannerbg: "bg-darkblue2",
   },
   {
     path: "/industry/ecommerce",
@@ -76,6 +86,7 @@ const data: PageData[] = [
     color: "text-primary",
     hover: "hover:bg-gray1",
     fillcolor: "black",
+    bannerbg: "bg-gray1",
   },
   {
     path: "/company/about",
@@ -83,6 +94,7 @@ const data: PageData[] = [
     color: "text-primary",
     hover: "hover:bg-yellow",
     fillcolor: "black",
+    bannerbg: "",
   },
   {
     path: "/company/career",
@@ -90,6 +102,7 @@ const data: PageData[] = [
     color: "text-background",
     hover: "hover:bg-primary",
     fillcolor: "white",
+    bannerbg: "",
   },
   {
     path: "/company/how-we-work",
@@ -97,6 +110,7 @@ const data: PageData[] = [
     color: "text-background",
     hover: "hover:bg-primary",
     fillcolor: "white",
+    bannerbg: "",
   },
   {
     path: "/ourthinking",
@@ -104,6 +118,7 @@ const data: PageData[] = [
     color: "text-background",
     hover: "hover:bg-specialblue",
     fillcolor: "white",
+    bannerbg: "",
   },
   {
     path: "/casestudies",
@@ -111,6 +126,7 @@ const data: PageData[] = [
     color: "text-background",
     hover: "hover:bg-specialblue",
     fillcolor: "white",
+    bannerbg: "",
   },
 ];
 

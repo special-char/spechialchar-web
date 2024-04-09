@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 const Mobile = () => {
   return (
     <>
-      <Banner data={banner2} className="bg-gray text-primary" />
+      <Banner data={banner2} />
       <MobileIcon data={mobileicon} />
       <Swiper data={SwiperServices1} />
       <ImageBanner data={imageBanner3} />

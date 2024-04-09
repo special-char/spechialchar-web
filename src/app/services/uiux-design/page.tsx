@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const UxDesign = () => {
   return (
     <>
-      <Banner data={banner6} className="bg-yellow text-primary" />
+      <Banner data={banner6} />
       <UiGrid data={uiGrid} />
       <ImageBanner data={imageBanner21} />
       <YellowBanner data={YellowBannerData8} />
