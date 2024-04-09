@@ -7,23 +7,23 @@ import ProjectSwiper from "@/components/ProjectSwiper";
 import { backendData, backendData2, latestThinkingData } from "@/lib/constData";
 import React from "react";
 import { Metadata } from "next";
+import Sticky from "@/components/Sticky";
 
 type Props = {
-  params:{
-    projectid:string;
-  }
-}
+  params: {
+    projectid: string;
+  };
+};
 
-export const generateMetadata = ({params}: Props): Metadata =>{
-  return{
-    title:`Projects ${params.projectid}`
-  }
+export const generateMetadata = ({ params }: Props): Metadata => {
+  return {
+    title: `Projects ${params.projectid}`,
+  };
 };
 
 const Projects = () => {
   return (
     <>
-
       <ProjectBanner data={backendData} />
       <ProjectChallanges data={backendData} />
       <ProjectSection
@@ -35,6 +35,7 @@ const Projects = () => {
       <ProjectSection data={backendData2} className="bg-blue text-background" />
       <MobileSwiper />
       <LatestThinking data={latestThinkingData} />
+      <Sticky />
     </>
   );
 };
