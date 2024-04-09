@@ -26,7 +26,7 @@ const EdAccordian = ({ data }: serviceAccordiandataType) => {
                 key={item.id}
                 value={`item-${item.id}`}
               >
-                <AccordionTrigger className=" flex flex-1 items-center justify-between text-heading6 ">
+                <AccordionTrigger className=" flex flex-1 items-center justify-between hover:text-blue text-heading6 ">
                   <div className="flex gap-10 md:gap-3  items-center">
                     <div className=" md:flex md:gap-40 lg:gap-[30rem] items-center  hidden">
                       <Image alt="elearing-project-info" title="elerning-projects" src={item.image} width={40} height={40} />
@@ -51,7 +51,7 @@ const EdAccordian = ({ data }: serviceAccordiandataType) => {
                 key={item.id}
                 value={`item-${item.id}`}
               >
-                <AccordionTrigger className="  flex flex-1 items-center justify-between text-heading6  ">
+                <AccordionTrigger className="  flex flex-1 items-center justify-between hover:text-blue text-heading6  ">
                   <div className="flex gap-10 md:gap-3 items-center">
                     <div className=" md:flex md:gap-40 lg:gap-[30rem] items-center  hidden">
                       <Image alt="elearing-project-info" title="elerning-projects" src={item.image} width={40} height={40} />
