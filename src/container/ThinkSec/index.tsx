@@ -9,7 +9,7 @@ type Props = {};
 const ThinkSec = (props: Props) => {
   return (
     <section >
-      <h2 className="text-heading1 my-10 lg:pl-4 sm:pl-2">
+      <h2 className="text-heading1 my-10">
         Latest Thinking
       </h2>
 

@@ -57,7 +57,7 @@ function OurThinking({ className }: { className?: string }) {
             key={x.id}
             className="flex flex-col gap-3 md:m-4 md:gap-5 md:pb-20 pb-10  "
             >
-              <Link target="category" href={`/casestudies/${x.id}`}>
+              <Link title="category" href={`/casestudies/${x.id}`}>
               <div className="overflow-hidden">
                 <Image
                   src={x.image}
@@ -67,11 +67,7 @@ function OurThinking({ className }: { className?: string }) {
                   height={500}
                   className="object-cover w-full h-full hover:scale-105 duration-500 "
                 />
-                
               </div>
-              </Link>
-              
-              
               <div className="">
                 <div className="flex gap-1 text-nowrap flex-wrap">
                   {x.categories.map((category, index) => (
@@ -93,6 +89,7 @@ function OurThinking({ className }: { className?: string }) {
                   </Link>
                 </div>
               </div>
+              </Link>
             </div>
           ))}
         </div>
