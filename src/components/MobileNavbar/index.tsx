@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 import {
   Accordion,
   AccordionContent,
@@ -10,12 +11,41 @@ import Humburger from "@/public.three-horizontal-lines-icon.svg";
 import { accordionItems1 } from "@/lib/constData";
 import { Button } from "../ui/button";
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from "../ui/sheet";
-
+import getColors from "@/utils/colors";
+import { usePathname } from "next/navigation";
 const MobileNavbar = () => {
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const pathname = usePathname();
+  const colors = getColors(pathname);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      setVisible(prevScrollPos > currentScrollPos || currentScrollPos == 100);
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    const handleScrollPosition = () => {
+      setScrollPosition(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScrollPosition);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("scroll", handleScrollPosition);
+    };
+  }, [prevScrollPos]);
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Humburger className="mt-3" />
+        <Humburger className="mt-3" style={{
+          fill:
+            scrollPosition > 100 ? "rgba(255, 255, 255, 1)" : `${colors?.fillcolor}`,
+        }} />
       </SheetTrigger>
       <SheetContent>
         <div className="pt-10 w-full">

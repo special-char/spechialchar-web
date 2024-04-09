@@ -26,7 +26,7 @@ const CloudAccordian = ({ data }: serviceAccordiandataType) => {
                 key={item.id}
                 value={`item-${item.id}`}
               >
-                <AccordionTrigger className=" flex flex-1 items-center justify-between text-heading6 font-semibold    ">
+                <AccordionTrigger className=" flex flex-1 items-center justify-between text-heading6 hover:text-blue font-semibold    ">
                   <div className="flex gap-10 md:gap-3  items-center">
                     <div className=" md:flex md:gap-40 lg:gap-[30rem] items-center  hidden">
                       <Image title="cloud-gif" alt="cloud-accordion" src={item.image} width={40} height={40} />
@@ -51,7 +51,7 @@ const CloudAccordian = ({ data }: serviceAccordiandataType) => {
                 key={item.id}
                 value={`item-${item.id}`}
               >
-                <AccordionTrigger className=" flex flex-1 items-center justify-between text-heading6    ">
+                <AccordionTrigger className=" flex flex-1 items-center justify-between text-heading6  hover:text-blue  ">
                   <div className="flex gap-10 md:gap-3  items-center">
                     <div className=" md:flex md:gap-40 lg:gap-[30rem] items-center  hidden">
                       <Image title="cloud-gif" alt="cloud-accordion" src={item.image} width={30} height={30} />
