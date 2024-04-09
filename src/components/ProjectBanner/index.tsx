@@ -6,7 +6,7 @@ import React from "react";
 const ProjectBanner = ({ data }: ProjectSectionType) => {
   return (
     <div>
-      <section className="h-[50vh] bg-yellow flex flex-col justify-center gap-y-10">
+      <section className="h-screen md:h-[50vh] lg:h-[55vh] bg-yellow flex flex-col justify-center gap-y-10">
         <div>
           <button>
             <Link href={"/casestudies"}>
@@ -21,7 +21,7 @@ const ProjectBanner = ({ data }: ProjectSectionType) => {
           {data.description1}
         </h1>
       </section>
-      <section className="h-[50vh] bg-primary text-background grid grid-cols-2 text-xl gap-x-10">
+      <section className="h-screen md:h-[50vh] bg-primary text-background grid grid-cols-2 text-xl gap-x-10">
         {backendData.section1.map((item) => {
           return (
             <>
