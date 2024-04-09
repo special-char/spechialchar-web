@@ -14,6 +14,7 @@ const CaseBanner = ({
   className?: string;
   order?: string;
 }) => {
+  
   return (
     <div
       className={cn(
@@ -32,23 +33,25 @@ const CaseBanner = ({
           src={Rpa}
           alt="Rpa"
           title="Rpa"
-          height={600}
-          width={600}
-          className="md:h-screen  w-full sticky top-0 md:object-fit "
+          height={1000}
+          width={1000}
+          className=" sticky top-0 "
+          sizes=""
         />
       </div>
       <div className="lg:order-1 lg:px-36 md:py-10 max-lg:p-10">
         <div>
-          <h2 className="text-heading1 py-10">
-            Solution
-          </h2>
+          <h2 className="text-heading1 py-10">Solution</h2>
         </div>
 
         {backendData.dataCase.map((x, index) => (
           <div key={index}>
             <div>
               {x.description.map((y, subindex) => (
-                <ul key={subindex} className="list-disc text-subtitle3 leading-10">
+                <ul
+                  key={subindex}
+                  className="list-disc text-subtitle3 leading-10"
+                >
                   <li>{y.title}</li>
                 </ul>
               ))}

@@ -11,7 +11,9 @@ const ProjectBanner = ({ data }: ProjectSectionType) => {
           <button>
             <Link href={"/casestudies"}>
               <span className="flex gap-x-[0.22rem]">
-                <span className="text-blue text-subtitle3 font-bold">&larr;</span>
+                <span className="text-blue text-subtitle3 font-bold">
+                  &larr;
+                </span>
                 <span className="text-subtitle3">All Projects</span>
               </span>
             </Link>
@@ -21,7 +23,7 @@ const ProjectBanner = ({ data }: ProjectSectionType) => {
           {data.description1}
         </h1>
       </section>
-      <section className="h-screen md:h-[50vh] bg-primary text-background grid grid-cols-2 text-xl gap-x-10">
+      <section className="h-screen md:h-[50vh] bg-primary text-background grid grid-cols-1 md:grid-cols-2 text-xl gap-x-10">
         {backendData.section1.map((item) => {
           return (
             <>

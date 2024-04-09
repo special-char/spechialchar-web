@@ -7,7 +7,7 @@ import {
   AccordionTrigger,
 } from "@/components/According1";
 import Link from "next/link";
-import Humburger from "@/public.three-horizontal-lines-icon.svg";
+import Hamburger from "@/public.three-horizontal-lines-icon.svg";
 import { accordionItems1 } from "@/lib/constData";
 import { Button } from "../ui/button";
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from "../ui/sheet";
@@ -41,11 +41,16 @@ const MobileNavbar = () => {
   }, [prevScrollPos]);
   return (
     <Sheet>
-      <SheetTrigger asChild>
-        <Humburger className="mt-3" style={{
-          fill:
-            scrollPosition > 100 ? "rgba(255, 255, 255, 1)" : `${colors?.fillcolor}`,
-        }} />
+      <SheetTrigger name="hamburger" aria-label="hamburger">
+        <Hamburger
+          className="mt-3"
+          style={{
+            fill:
+              scrollPosition > 100
+                ? "rgba(255, 255, 255, 1)"
+                : `${colors?.fillcolor}`,
+          }}
+        />
       </SheetTrigger>
       <SheetContent>
         <div className="pt-10 w-full">

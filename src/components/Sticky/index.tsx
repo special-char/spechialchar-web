@@ -9,11 +9,14 @@ const Sticky = (props: Props) => {
       <Button
         variant={"secondary"}
         size={"xxl"}
-        className="justify-start font-extrabold text-3xl"
+        className="justify-start font-extrabold text-3xl py-10"
       >
         <section>
           <span>Get in Touch</span>
-          <span className="text-primary group-hover:text-background ">   &rarr;</span>
+          <span className="text-primary group-hover:text-background ">
+            {" "}
+            &rarr;
+          </span>
         </section>
       </Button>
     </main>
