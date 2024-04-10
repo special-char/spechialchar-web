@@ -35,12 +35,11 @@ const EdGrid5 = (props: Props) => {
             </div>
           ))}
         </div>
-        <div className="pt-10">
+        <div className="pt-10 max-md:flex max-md:justify-center">
           <Link href={"https://thespecialcharacter.graphy.com/"}>
             <Button className="max-md:grid max-md:h-full">
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-                Get your custom <span>eLearning solution</span>
-                <span>&rarr;</span>
+                Get your custom <span>eLearning solution &rarr;</span>
               </span>
             </Button>
           </Link>

@@ -13,7 +13,7 @@ const Banner = ({ data }: { data: BannerType }) => {
 
   return (
     <div
-      className={`h-screen w-full flex justify-start items-center ${colors?.bannerbg} ${colors?.color} py-20`}
+      className={`lg:h-screen w-full flex justify-start items-center ${colors?.bannerbg} ${colors?.color} py-20`}
     >
       <div className=" grid px-container md:grid-cols-[40%_1fr]  grid-cols-1 items-center lg:gap-x-60  max-sm:gap-y-7  justify-center">
         <div className="lg:w-[30rem] sm:gap-y-10 md:gap-y-10 max-sm:gap-y-7 flex justify-evenly flex-col sm:justify-center">
