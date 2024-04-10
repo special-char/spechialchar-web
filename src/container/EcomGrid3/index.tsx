@@ -24,7 +24,7 @@ const EcomGrid3 = (props: Props) => {
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
                 Discuss your Ecommerce <span> development project </span>
-                <span>&rarr;</span>
+
               </span>
             </Button>
           </Link>

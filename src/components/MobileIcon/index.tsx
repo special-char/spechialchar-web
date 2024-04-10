@@ -29,7 +29,7 @@ const MobileIcon = ({ data }: ServiceIconType) => {
           <Button className="">
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               {data.button1} <span>{data.button2} </span>
-              <span>&rarr;</span>
+
             </span>
           </Button>
         </Link>

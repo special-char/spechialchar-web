@@ -26,7 +26,7 @@ const BackGrid = ({ data }: SaasSectionType) => {
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Tell us your saas software <span>development needs</span>
-              <span>&rarr;</span>
+
             </span>
           </Button>
         </Link>

@@ -29,7 +29,7 @@ const SaasBox = () => {
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
                 Lets Discuss Our{" "}
                 <span>
-                  partnership <span>&rarr;</span>
+                  partnership
                 </span>
               </span>
             </Button>

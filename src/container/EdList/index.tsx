@@ -25,7 +25,7 @@ const EdList = () => {
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Get your custom <span>elearning solution</span>
-              <span>&rarr;</span>
+
             </span>
           </Button>
         </Link>

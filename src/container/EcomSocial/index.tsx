@@ -37,7 +37,7 @@ const EcomSocial = ({ data }: ecomSectionType) => {
           >
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-                Lets discuss your optimal fit &rarr;
+                Lets discuss your optimal fit
               </span>
             </Button>
           </Link>

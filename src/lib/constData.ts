@@ -880,7 +880,7 @@ export const serviceAccordiandata = {
     {
       id: 4,
       image: "/icons/television-icon.svg",
-      title: "Real-Time Communication",
+      title: "Communication",
       content:
         "Building apps for real-time video and voice communication, instant messaging, multi-party conferencing and file sharing that let consumers stay connected and give businesses access to remote live collaboration or data sharing.",
     },
@@ -954,7 +954,7 @@ export const serviceAccordiandata1 = {
     {
       id: 5,
       image: "/icons/logistic-truck-icon.svg",
-      title: "Logistics & Transportation",
+      title: "Logistics",
       content:
         "Helping businesses reduce paperwork, minimize delivery time and costs, track shipments in real time, and optimize fleet and warehouse management with scalable custom mobile applications",
     },

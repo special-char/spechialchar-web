@@ -22,7 +22,7 @@ const EdTechGrid2 = (props: Props) => {
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
                 Schedule a free <span>discussion </span>
-                <span>&rarr;</span>
+
               </span>
             </Button>
           </Link>

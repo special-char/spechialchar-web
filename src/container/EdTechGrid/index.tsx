@@ -29,7 +29,7 @@ const EdTechGrid = ({ data }: uiSectionType) => {
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
                 Otp for custom eLearning <span>development </span>
-                <span>&rarr;</span>
+
               </span>
             </Button>
           </Link>
