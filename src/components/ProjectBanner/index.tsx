@@ -29,7 +29,7 @@ const ProjectBanner = ({ data }: ProjectSectionType) => {
             <>
               <div key={item.id}>
                 <h2 className="text-heading6">{item.title}</h2>
-                <h3 className="text-subtitle2">{item.description}</h3>
+                <p className="text-subtitle2">{item.description}</p>
               </div>
             </>
           );

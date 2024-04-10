@@ -23,13 +23,13 @@ const ServiceIcon = ({ data }: ServiceItem) => {
           <div>
             <h3 className="font-bold text-heading5">{data.title}</h3>
           </div>
-          <h4 className="text-subtitle2 text-primary md:pr-6 lg:pr-4">
+          <p className="text-subtitle2 text-primary md:pr-6 lg:pr-4">
             {data.description}{" "}
-          </h4>
+          </p>
           {data?.languages ? (
-            <h5 className="lg:text-xl md:text-sm sm:text-sm font-extrabold md:pr-6 lg:pr-4 gap-3 ">
+            <p className="lg:text-xl md:text-sm sm:text-sm font-extrabold md:pr-6 lg:pr-4 gap-3 ">
               {data.languages}
-            </h5>
+            </p>
           ) : (
             <></>
           )}

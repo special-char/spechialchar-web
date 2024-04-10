@@ -25,9 +25,9 @@ const CareerCap = ({ data }: CareerCapType) => {
                 />
               </div>
               <div className="flex ">
-                <h3 className="text-subtitle3 justify-evenly lg:py-2 py-2">
+                <p className="text-subtitle3 justify-evenly lg:py-2 py-2">
                   {item.desc}
-                </h3>
+                </p>
               </div>
             </div>
           ))}

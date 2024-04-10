@@ -12,15 +12,15 @@ const CareerMany = ({ data }: CareerManyType) => {
         </h2>
       </div>
       <div className="lg:py-10 p-4">
-        <h3 className=" text-subtitle1 text-center">
+        <p className=" text-subtitle1 text-center">
           {data.desc}
-        </h3>
-        <h3 className="text-subtitle1 text-center">
+        </p>
+        <p className="text-subtitle1 text-center">
           {data.desc1}
-        </h3>
-        <h3 className=" text-subtitle1 text-center">
+        </p>
+        <p className=" text-subtitle1 text-center">
           {data.desc2}
-        </h3>
+        </p>
       </div>
     </section>
   );
