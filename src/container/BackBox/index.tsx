@@ -6,7 +6,7 @@ import React from "react";
 const BackBox = () => {
   return (
     <section>
-      <div className="bg-lightblue p-10 rounded-lg ">
+      <section className="bg-lightblue md:p-10 rounded-lg ">
         <ul className="list-square pl-7 grid lg:grid-cols-2  lg:px-1 gap-x-10 gap-y-8 md:grid-cols-2">
           {backbox.map((i) => (
             <li key={i.id} className="text-lg mb-2 text-blue">
@@ -15,7 +15,7 @@ const BackBox = () => {
             </li>
           ))}
         </ul>
-      </div>
+      </section>
       <div className="pt-10">
         <Link href={"https://thespecialcharacter.graphy.com/"}>
           <Button>

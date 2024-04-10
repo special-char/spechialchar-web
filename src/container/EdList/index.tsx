@@ -8,7 +8,7 @@ type Props = {};
 const EdList = () => {
   return (
     <section>
-      <section className="bg-lightpink  p-10 rounded-lg flex flex-col gap-y-9">
+      <section className="bg-lightpink  md:p-10 rounded-lg flex flex-col gap-y-9">
         <div>
           <ul className="list-square pl-7 grid lg:grid-cols-2 lg:px-1 gap-x-10 gap-y-8 md:grid-cols-2">
             {edBox2.map((i) => (

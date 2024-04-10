@@ -133,31 +133,31 @@ export const footerdata = {
     },
   ],
   social: [
+    // {
+    //   id: 1,
+    //   icon: "/icons/facebook.svg",
+    //   link: "https://www.facebook.com/",
+    // },
     {
       id: 1,
-      icon: "/icons/facebook.svg",
-      link: "https://www.facebook.com/",
+      icon: "/icons/instagram.svg",
+      link: "https://www.instagram.com/thespecialchar?igsh=cTlyM2VobDE5d2p5",
     },
     {
       id: 2,
-      icon: "/icons/instagram.svg",
-      link: "https://www.instagram.com/",
+      icon: "/icons/linkedin.svg",
+      link: "https://www.linkedin.com/company/28764000/admin/feed/posts/",
     },
     {
       id: 3,
-      icon: "/icons/linkedin.svg",
-      link: "https://www.linkedin.com/",
-    },
-    {
-      id: 4,
       icon: "/icons/youtube.svg",
-      link: "https://www.youtube.com/",
+      link: "https://youtube.com/@thespecialcharacter?si=R3Ybw4TsE-dbSECS",
     },
-    {
-      id: 5,
-      icon: "/icons/twitter.svg",
-      link: "https://twitter.com/i/flow/login?redirect_after_login=%2Fhome",
-    },
+    // {
+    //   id: 5,
+    //   icon: "/icons/twitter.svg",
+    //   link: "https://twitter.com/i/flow/login?redirect_after_login=%2Fhome",
+    // },
   ],
 };
 
@@ -2799,14 +2799,14 @@ export const cloudAccordiandata = {
     {
       id: 1,
       image: "/icons/cloud-download-icon.svg",
-      title: "Cloud Adoption and Migration",
+      title: "Adoption and Migration",
       content:
         "Our vetted cloud solutions consultants dive in your tech infrastructure and study your needs to help you adopt the best-fit cloud migration strategy. We re-platform and modernize your apps and put APIs in place to integrate the newly migrated applications with enterprise software at minimal risks",
     },
     {
       id: 2,
       image: "/icons/logistic-truck-icon.svg",
-      title: "Cloud Infrastructure Management",
+      title: "Infrastructure Management",
       content:
         "We configure, monitor, and optimize the components of your cloud infrastructure, setting up DevOps, DevSecOps, and Infrastructure as Code practices to ensure optimal usage of cloud resources and high software performance with no downtime",
     },
@@ -2818,14 +2818,14 @@ export const cloudAccordiandata1 = {
     {
       id: 1,
       image: "/icons/cooling-icon.svg",
-      title: "Cloud Optimization and Consulting",
+      title: "Optimization and Consulting",
       content:
         "We analyze your cloud infrastructure, detect under- and over-provisioned instances and idle resources, and identify security gaps to remove performance bottlenecks, achieve 99.9% uptime, and lower your cloud computing costs",
     },
     {
       id: 2,
       image: "/icons/cluster-data-icon.svg",
-      title: "Cloud Application Development",
+      title: "Application Development",
       content:
         "We are well-versed in working with AWS, Microsoft Azure, Google Cloud, and other cloud platforms and are ready to use our knowledge to implement a resilient and high-performing cloud app of any kind — from a mobile app back end to a complex AI-powered system",
     },

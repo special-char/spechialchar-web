@@ -17,8 +17,8 @@ const SocialIcon = (props: Props) => {
         >
           <Image
             src={i.icon}
-            alt={"icon"}
-            title={"icon"}
+            alt={"icons"}
+            title={"icons"}
             width={20}
             height={20}
           />
