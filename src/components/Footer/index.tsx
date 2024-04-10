@@ -15,22 +15,22 @@ const Footer = ({ data }: FooterdataType) => {
             <FooterLogo className="lg:-ml-4 lg:w-64 max-lg:w-48 " />
           </Link>
         </div>
-        <div className="flex font-bold  md:text-heading2  max-md:text-heading5 ">
+        <div className="flex font-bold  md:text-heading4  max-md:text-heading5 ">
           <div className=" flex flex-wrap">{data.title}</div>
         </div>
         <div className="">
           <p className="text-subtitle1">Office:</p>
-          <p className="text-offwhite">{data.address}</p>
+          <Link className="text-offwhite" href={"https://g.co/kgs/CDMwEXk"} title="address">{data.address}</Link>
         </div>
         <div className="flex flex-col max-md:justify-between gap-y-8">
           <div className="flex flex-col lg:text-subtitle1">
             <div>
-              <Link title="email" href={"#"}>
+              <Link title="email" href="mailto:contact@thespecialcharacter.com">
                 {data.email}
               </Link>
             </div>
             <div>
-              <Link title="mobile" href={"#"}>
+              <Link title="mobile" href={"tel:7600096432"}>
                 {data.mobile}
               </Link>
             </div>

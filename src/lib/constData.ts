@@ -126,10 +126,12 @@ export const footerdata = {
     {
       id: 1,
       icon: "/icons/iso.svg",
+      title:"Iso mark"
     },
     {
       id: 2,
       icon: "/icons/upwork.svg",
+      title:"Upwork mark"
     },
   ],
   social: [
@@ -141,16 +143,19 @@ export const footerdata = {
     {
       id: 1,
       icon: "/icons/instagram.svg",
+      title:"Instagram",
       link: "https://www.instagram.com/thespecialchar?igsh=cTlyM2VobDE5d2p5",
     },
     {
       id: 2,
       icon: "/icons/linkedin.svg",
+      title:"Linkedin",
       link: "https://www.linkedin.com/company/28764000/admin/feed/posts/",
     },
     {
       id: 3,
       icon: "/icons/youtube.svg",
+      title:"Youtube",
       link: "https://youtube.com/@thespecialcharacter?si=R3Ybw4TsE-dbSECS",
     },
     // {
