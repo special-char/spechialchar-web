@@ -27,7 +27,7 @@ const CloudGrid2 = () => {
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
                 Talk to <span>cloud expert </span>
-                <span>&rarr;</span>
+
               </span>
             </Button>
           </Link>

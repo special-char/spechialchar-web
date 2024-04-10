@@ -17,7 +17,7 @@ const WebGrid3 = () => {
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Discuss your web <span>app development project </span>
-              <span>&rarr;</span>
+
             </span>
           </Button>
         </Link>

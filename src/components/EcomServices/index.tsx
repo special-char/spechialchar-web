@@ -38,7 +38,7 @@ export default function Index() {
       <div className="py-10">
         <Link title="contect-us" href={"https://thespecialcharacter.graphy.com/"}>
           <Button variant={"secondary"}>
-            <span>Contact us &rarr;</span>
+            Contact us
           </Button>
         </Link>
       </div>

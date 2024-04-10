@@ -48,7 +48,7 @@ const Tab = ({ data }: tabdataType) => {
           <Button className="">
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               {data.button} <span>{data.button2} </span>
-              <span>&rarr;</span>
+
             </span>
           </Button>
         </Link>

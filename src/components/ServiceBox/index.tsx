@@ -18,7 +18,7 @@ const ServiceBox = () => {
       <div className="pt-10 pb-2">
         <Button>
           <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-            Lets Discuss Our <span>partnership &rarr;</span>
+            Lets Discuss Our <span>partnership</span>
           </span>
         </Button>
       </div>

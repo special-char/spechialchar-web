@@ -53,7 +53,7 @@ const HowModel = ({ data }: HowModelType) => {
                       onClick={(e) => Show(index + 1)}
                     >
                       show more
-                      <Arrow />
+
                     </Button>
                     <div></div>
                   </div>

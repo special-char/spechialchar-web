@@ -19,7 +19,7 @@ const SaasGrid = (props: Props) => {
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Talk to our <span>Saas experts</span>
-              <span>&rarr;</span>
+
             </span>
           </Button>
         </Link>

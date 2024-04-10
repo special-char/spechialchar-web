@@ -20,7 +20,7 @@ const EdGrid3 = (props: Props) => {
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
                 Get your <span>educational app </span>
-                <span>&rarr;</span>
+
               </span>
             </Button>
           </Link>
