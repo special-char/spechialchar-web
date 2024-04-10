@@ -22,7 +22,7 @@ const CloudGrid = () => {
             <Button className="py-3">
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
                 Discuss my cloud <span>project</span>
-                <span>&rarr;</span>
+
               </span>
             </Button>
           </Link>

@@ -31,7 +31,7 @@ const UiGrid = ({ data }: uiSectionType) => {
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
                 Explore our UI/UX
                 <span>
-                  design <span>&rarr;</span>
+                  design
                 </span>
               </span>
             </Button>

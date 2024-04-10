@@ -21,7 +21,7 @@ const UiUxBox = () => {
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Work with our UI/UX<span>design company</span>
-              <span>&rarr;</span>
+
             </span>
           </Button>
         </Link>

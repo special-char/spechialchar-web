@@ -32,7 +32,7 @@ const CloudGrid3 = () => {
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Get started with{" "}
               <span>
-                cloud computing<span>&rarr;</span>
+                cloud computing
               </span>
             </span>
           </Button>

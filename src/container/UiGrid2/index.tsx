@@ -19,7 +19,7 @@ const UiGrid = (props: Props) => {
           <Link href={"https://thespecialcharacter.graphy.com/"}>
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-                Discuss your Ui/Ux <span>design needs  <span>&rarr;</span></span>
+                Discuss your Ui/Ux <span>design needs </span>
               </span>
             </Button>
           </Link>

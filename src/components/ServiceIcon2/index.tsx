@@ -17,7 +17,7 @@ const ServiceIcon2 = (props: Props) => {
           <Button variant="default" size="lg" className=" py-7 text-base ">
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Get return on tech <span>investments</span>
-              <span>&rarr;</span>
+
             </span>
           </Button>
         </Link>

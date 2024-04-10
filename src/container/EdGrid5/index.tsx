@@ -39,7 +39,7 @@ const EdGrid5 = (props: Props) => {
           <Link href={"https://thespecialcharacter.graphy.com/"}>
             <Button className="max-md:grid max-md:h-full">
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-                Get your custom <span>eLearning solution &rarr;</span>
+                Get your custom <span>eLearning solution </span>
               </span>
             </Button>
           </Link>

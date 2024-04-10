@@ -23,7 +23,7 @@ const CloudAccordian = ({ data }: CloudAccordiandataType) => {
       <div>
         <Link title="cloud-late-talk" href={"https://thespecialcharacter.graphy.com/"}>
           <Button variant="default" size="sm" className=" py-7 text-base ">
-            Lets Talk &rarr;
+            Lets Talk
           </Button>
         </Link>
       </div>

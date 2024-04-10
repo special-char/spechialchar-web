@@ -68,7 +68,7 @@ const Swiper4 = ({ data }: SwiperServicesData) => {
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Get Experts UI/UX <span>help </span>
-              <span>&rarr;</span>
+
             </span>
           </Button>
         </Link>

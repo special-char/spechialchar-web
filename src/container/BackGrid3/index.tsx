@@ -17,7 +17,7 @@ const BackGrid3 = () => {
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Build Custom back-end<span>Solution </span>
-              <span>&rarr;</span>
+
             </span>
           </Button>
         </Link>
