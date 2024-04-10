@@ -6,7 +6,7 @@ import React from "react";
 const UiUxBox = () => {
   return (
     <section>
-      <div className="bg-lightpink  p-10 rounded-lg ">
+      <section className="bg-lightpink md:p-10 rounded-lg ">
         <ul className="list-square pl-7 grid lg:grid-cols-2  lg:px-1 gap-x-10 gap-y-8 md:grid-cols-2">
           {uiuxbox.map((i) => (
             <li key={i.id} className="text-lg mb-2 ">
@@ -15,7 +15,7 @@ const UiUxBox = () => {
             </li>
           ))}
         </ul>
-      </div>
+      </section>
       <div className=" pt-10 ">
         <Link href={"https://thespecialcharacter.graphy.com/"}>
           <Button>

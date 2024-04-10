@@ -7,7 +7,7 @@ const SaasBox = () => {
   return (
     <>
       <section>
-        <div className="bg-lightblue lg:rounded-lg p-10">
+        <section className="bg-lightblue lg:rounded-lg md:p-10">
           <div>
             <ul className="list-square pl-4 grid lg:grid-cols-2  gap-x-8 gap-y-8 md:grid-cols-2">
               {serviceBox1.map((i) => (
@@ -22,7 +22,7 @@ const SaasBox = () => {
               ))}
             </ul>
           </div>
-        </div>
+        </section>
         <div className="pt-10">
           <Link href={"https://thespecialcharacter.graphy.com/"}>
             <Button>
