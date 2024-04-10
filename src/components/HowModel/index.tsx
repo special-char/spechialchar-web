@@ -44,9 +44,9 @@ const HowModel = ({ data }: HowModelType) => {
                   </h3>
                 </div>
                 <div className="flex-1 md:flex-grow ">
-                  <h4 className="text-subtitle2 text-primary ">
+                  <p className="text-subtitle2 text-primary ">
                     {item.desc}
-                  </h4>
+                  </p>
                   <div className="-pl-2">
                     <Button
                       className="rounded-full my-4"

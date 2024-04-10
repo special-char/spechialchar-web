@@ -34,9 +34,9 @@ export function ProjectCard() {
                   <h3 className="text-heading6 group-hover:text-blue font-bold mb-2 mt-4 ">
                     {item.title}
                   </h3>
-                  <h4 className="text-primary text-subtitle2">
+                  <p className="text-primary text-subtitle2">
                     {item.description}
-                  </h4>
+                  </p>
                 </CarouselItem>
               ))}
             </CarouselContent>

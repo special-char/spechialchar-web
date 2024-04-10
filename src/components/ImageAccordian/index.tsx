@@ -30,12 +30,12 @@ const ImageAccordion = ({ data }: imageAccordianDataType) => {
                             >
                                 <Image alt="ecommerce-info" title="project-info" height={900} width={900} src={item.image} />
                                 <h3 className="content1">{item.header}</h3>
-                                <h4 className="content">
+                                <p className="content">
 
 
-                                    <p>{item.text}</p>
+                                    {item.text}
 
-                                </h4>
+                                </p>
                             </div>
                         );
                     })}
