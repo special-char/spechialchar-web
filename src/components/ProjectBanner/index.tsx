@@ -3,7 +3,7 @@ import { ProjectSectionType } from "@/utils/types";
 import Link from "next/link";
 import React from "react";
 
-const ProjectBanner = ({ data }: ProjectSectionType) => {
+const ProjectBanner = ({ data }:ProjectSectionType) => {
   return (
     <div>
       <section className="h-screen md:h-[50vh] lg:h-[55vh] bg-yellow flex flex-col justify-center gap-y-10">
