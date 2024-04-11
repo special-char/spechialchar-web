@@ -8,7 +8,7 @@ const Tab2 = ({ data }: tabdataType) => {
 
         <section className="">
             <div className="flex max-lg:flex-wrap md:gap-16 lg:gap-60 gap-10">
-                <h2 className="text-heading1">{data.title1}</h2> 
+                <h2 className="text-heading1">{data.title1}</h2>
                 <p className="text-primary text-subtitle1 md:pr-40">{data.title2}</p>
             </div>
             <Tabs defaultValue="Agile" className="flex flex-col pt-10">
@@ -44,7 +44,7 @@ const Tab2 = ({ data }: tabdataType) => {
                 })}
 
             </Tabs>
-            <div className="pt-10"><Link href={"https://thespecialcharacter.graphy.com/"}><Button variant="default" size="sm" className='px-8 md:px-20 py-7 text-base '>
+            <div className="pt-10"><Link title="Get a free consultation!" href={"#Contact"}><Button variant="default" size="sm" className='px-8 md:px-20 py-7 text-base '>
                 {data.button}
             </Button>
             </Link>

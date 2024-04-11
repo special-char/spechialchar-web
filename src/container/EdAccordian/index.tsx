@@ -14,7 +14,7 @@ const EdAccordian = (props: Props) => {
           <EdAccord data={edAccordiandata} />
         </div>
         <div className="pt-10">
-          <Link title="elearing-development" href={"https://thespecialcharacter.graphy.com/"}>
+          <Link title="Start your elearning software development project " href={"#Contact"}>
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
                 Start your elearning software<span> development project </span>

@@ -24,7 +24,7 @@ const HowBanner = ({ data }: HowBannerType) => {
           {data.desc}
         </p>
         <div className=" text-subtitle2 ">{data.desc1}</div>
-        <Link className="-px-4 max-sm:-py-20 max-sm:-my-1 " href={'https://thespecialcharacter.graphy.com/'}>
+        <Link className="-px-4 max-sm:-py-20 max-sm:-my-1 " title='Get a free consultant' href={'#Contact'}>
           <Button variant="default" size="sm" className="text-base lg:px-16 lg:py-7">
             Get a free consultant
           </Button>
