@@ -23,8 +23,8 @@ const Banner = ({ data }: { data: BannerType }) => {
 
           <div className="max-md:grid max-md:w-full">
             <Link
-              title="Banner-Link"
-              href={"https://thespecialcharacter.graphy.com/"}
+              title="Contact-Us"
+              href={"#Contact"}
             >
               <Button variant="default" size="lg" className=" py-7 text-base ">
                 <span className="flex flex-wrap justify-center gap-x-[0.22rem]">

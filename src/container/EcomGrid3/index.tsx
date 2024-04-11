@@ -19,7 +19,8 @@ const EcomGrid3 = (props: Props) => {
         <div className="pt-5">
           <Link
             className="pt-10"
-            href={"https://thespecialcharacter.graphy.com/"}
+            title="Discuss your Ecommerce development project"
+            href={"#Contact"}
           >
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">

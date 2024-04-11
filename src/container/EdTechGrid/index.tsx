@@ -24,7 +24,8 @@ const EdTechGrid = ({ data }: uiSectionType) => {
         </div>
         <div className="pt-10">
           <Link
-            href={"https://thespecialcharacter.graphy.com/"}
+            title="Otp for custom eLearning development"
+            href={"#Contact"}
           >
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
