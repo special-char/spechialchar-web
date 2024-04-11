@@ -8,6 +8,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import Link from "next/link";
 
 export function ProjectCard() {
   return (
@@ -26,17 +27,19 @@ export function ProjectCard() {
                       src={item.url}
                       className="w-full aspect-video object-cover rounded-md group-hover:transform group-hover:duration-75 group-hover:scale-110"
                       alt="image"
-                      title="ProjectCards"
+                      title={item.title1}
                       height={550}
                       width={700}
                     />
                   </div>
+                  <Link href={`/casestudies/${item.id}`} title={item.title1}>
                   <h3 className="text-heading6 group-hover:text-blue font-bold mb-2 mt-4 ">
                     {item.title}
                   </h3>
                   <p className="text-primary text-subtitle2">
                     {item.description}
                   </p>
+                  </Link>
                 </CarouselItem>
               ))}
             </CarouselContent>

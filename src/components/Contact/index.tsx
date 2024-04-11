@@ -32,21 +32,21 @@ const Data = [
     errname: "phone",
   },
   {
-    htmlfor: "project",
+    htmlfor: "message",
     type: "text",
-    id: "project",
-    name: "project",
-    placeholder: "Project Info",
-    errname: "project",
+    id: "message",
+    name: "message",
+    placeholder: "Short message",
+    errname: "message",
   },
 ];
 
 const Contact = () => {
   const validationSchema = Yup.object().shape({
     name: Yup.string().required("Name is required"),
-    email: Yup.string().email("Invalid email").required("Email is required"),
+    email: Yup.string().email("Invalid email"),
     phone: Yup.string().required("Phone is required"),
-    project: Yup.string().required("Project info is required"),
+    // project: Yup.string().required("Project info is required"),
     privacy: Yup.boolean().oneOf([true], "Please accept privacy policy"),
   });
 
@@ -70,7 +70,7 @@ const Contact = () => {
             name: "",
             email: "",
             phone: "",
-            project: "",
+            massage: "",
             privacy: false,
           }}
           validationSchema={validationSchema}
