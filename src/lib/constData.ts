@@ -173,7 +173,8 @@ export const Cards = {
       url: "/images/project1.webp",
       title: "AI-based enterprise software for No.1 retailer",
       description:
-        "Self-service analytics enabled by AI algorithms empowers 3 million users with instant actionable insights",
+      "Self-service analytics enabled by AI algorithms empowers 3 million users with instant actionable insights",
+      title1:"Enterprise"
     },
     {
       id: 2,
@@ -181,6 +182,7 @@ export const Cards = {
       title: "Organ-on-a-chip platform for drug development",
       description:
         "Next-gen biotech platform relying on organ-chips enables faster, safer, and cheaper drug development for human use",
+        title1:"Organ-on-a-chip"
     },
     {
       id: 3,
@@ -188,6 +190,7 @@ export const Cards = {
       title: "Predictive analytics for cancer clinicians",
       description:
         "ML-based analytics improves cancer prognostic accuracy and treatment recommendations. ",
+        title1:"Analytics"
     },
     {
       id: 4,
@@ -195,6 +198,7 @@ export const Cards = {
       title: "Cloud infrastructure for social media giant",
       description:
         "Advanced cloud infrastructure connects data centers and on-premises systems to the cloud, driving agility in software development.",
+      title1:"Cloud"
     },
     {
       id: 5,
@@ -202,6 +206,7 @@ export const Cards = {
       title: "Mobile app for Dollar Shave Club",
       description:
         "An Android app with no-fuss shopping features and flawless navigation helps the Dollar Shave Club skyrocket sales",
+      title1:"Advanced cloud"
     },
     {
       id: 6,
@@ -209,6 +214,7 @@ export const Cards = {
       title: "Next-level cybersecurity for enterprise risk management ",
       description:
         "A biometrics-based system provides bulletproof protection, eliminating credential deception and the need for passwords or PINs.",
+      title1:"Cybersecurity"
     },
     {
       id: 7,
@@ -216,6 +222,7 @@ export const Cards = {
       title: "AI-driven logistics platform",
       description:
         "An IoT platform offers extended shipment management options to 25,000 active users.",
+      title1:"Logistics"
     },
     {
       id: 8,
@@ -223,6 +230,7 @@ export const Cards = {
       title: "Ecommerce solution for developer of virtual instruments ",
       description:
         "A tailored ecommerce platform has enabled a developer of software musical instruments to reach out to wider audiences.",
+        title1:"Ecommerce"
     },
     {
       id: 9,
@@ -230,6 +238,7 @@ export const Cards = {
       title: "AI-powered autonomous checkout",
       description:
         " An ML-driven solution allows retailers to make their stores checkout-free without the need to redesign them.",
+        title1:"Autonomous"
     },
     {
       id: 10,
@@ -237,6 +246,7 @@ export const Cards = {
       title: "Cloud solution for US third-party benefits administrators",
       description:
         " Migration of a legacy system to microservices enables clients to easily configure and manage employee benefits.",
+        title1:"Third-party"
     },
   ],
 };
@@ -252,6 +262,7 @@ export const Card1 = {
         "Looking to make generative AI part of your company’s tech stack? Discover these promising generative AI applications in business to get inspired!",
       height: 150,
       width: 150,
+      title1:"Generative AI"
     },
     {
       id: 2,
@@ -262,6 +273,7 @@ export const Card1 = {
         "How to implement AI in your business and achieve a substantial return on your artificial intelligence  investments? Our AI eBook will help you with that!",
       height: 200,
       width: 300,
+      title1:"How to implement AI"
     },
     {
       id: 3,
@@ -272,6 +284,7 @@ export const Card1 = {
         "Could you tell the difference between BPA, RPA, and IPA without running a few Google searches? If not, don’t bother surfing — we’ve done the job for you!",
       height: 200,
       width: 300,
+      title1:"IPA vs. RPA vs. BPA"
     },
     {
       id: 4,
@@ -281,15 +294,17 @@ export const Card1 = {
         "From immersive gaming environments to full-blown digital auctions where NFTs are traded, metaverse can be a multitude of things. And the reasons to start using metaverse for business are as diverse as the technology’s definition.",
       height: 200,
       width: 300,
+      title1:"Metaverse"
     },
     {
       id: 5,
       url: "/images/thinking5.webp",
-      title: "ITRex launches two more initiatives to help Ukrainians",
+      title: "The Special Character launches two more initiatives",
       description:
         "Learn how ITRex continues to provide much-needed assistance to Ukranians living in crisis since Russia began its invasion.",
       height: 200,
       width: 300,
+      title1:"Initiatives"
     },
     {
       id: 6,
@@ -299,6 +314,7 @@ export const Card1 = {
         "Discover the exciting applications of IoT in the sports sector and learn how to implement such solutions. Also, check out a project from our portfolio to see how IoT and AI can revolutionize our at-home training",
       height: 200,
       width: 300,
+      title1:"IoT in sports"
     },
 
     {
@@ -309,6 +325,7 @@ export const Card1 = {
         "Learn about the key factors influencing AI development costs and how you can spend less and see ROI faster.",
       height: 200,
       width: 300,
+      title1:"AI cost"
     },
     {
       id: 8,
@@ -319,6 +336,7 @@ export const Card1 = {
         "Discover blockchain use cases and top benefits, and check out our tips on how to proceed with blockchain implementation.",
       height: 200,
       width: 300,
+      title1:"Blockchain uses"
     },
     {
       id: 9,
@@ -328,6 +346,7 @@ export const Card1 = {
         "Explore the ways AI transforms the global supply chain and learn how to implement the digital supply chain with no fuss.",
       height: 200,
       width: 300,
+      title1:"Supply Chain"
     },
     {
       id: 10,
@@ -337,6 +356,7 @@ export const Card1 = {
         " Check out our new article to discover what ready-made and custom enterprise workflow automation tools have in store and which option is best for you.",
       height: 200,
       width: 300,
+      title1:"Enterprise"
     },
   ],
 };

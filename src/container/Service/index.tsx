@@ -20,7 +20,7 @@ const Service = ({ data }: ServiceIconType) => {
         ))}
       </div>
       <div className="max-md:grid max-md:w-full pb-10 pt-4">
-        <Link href={"https://thespecialcharacter.graphy.com/"}>
+        <Link href={"#Contact"}>
           <Button variant="default" size="lg" className=" py-7 text-base ">
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Discuss your software <span>engineering needs</span>

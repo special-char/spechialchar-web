@@ -19,7 +19,7 @@ const ThinkSec = (props: Props) => {
         <div className="flex items-center">
           <Link
             title="think cases"
-            href={"https://thespecialcharacter.graphy.com/"}
+            href={"/ourthinking"}
             className="pt-1 flex gap-x-2 items-center text-primary font-bold"
           >
             View all cases <Arrow />

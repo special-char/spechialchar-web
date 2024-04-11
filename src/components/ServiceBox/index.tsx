@@ -1,6 +1,7 @@
 import { serviceBox } from "@/lib/constData";
 import React from "react";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 const ServiceBox = () => {
   return (
@@ -16,11 +17,13 @@ const ServiceBox = () => {
         </ul>
       </div>
       <div className="pt-10 pb-2">
+        <Link href={"#Contact"}>
         <Button>
           <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
             Lets Discuss Our <span>partnership</span>
           </span>
         </Button>
+        </Link>
       </div>
     </section>
   );

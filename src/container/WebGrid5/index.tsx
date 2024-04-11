@@ -14,7 +14,7 @@ const WebGrid2 = ({ data }: ServiceIconType) => {
         ))}
       </div>
       <div className="pt-10 pb-2">
-        <Link title="links" href={"https://thespecialcharacter.graphy.com/"}>
+        <Link title="links" href={"#Contact"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               {data.button1} <span>{data?.button2}</span>

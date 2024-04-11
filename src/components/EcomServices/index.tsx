@@ -36,7 +36,7 @@ export default function Index() {
         </Tabs>
       </div>
       <div className="py-10">
-        <Link title="Contact-Us" href={"#Contact"}>
+        <Link title="contect-us" href={"#Contact"}>
           <Button variant={"secondary"}>
             Contact us
           </Button>

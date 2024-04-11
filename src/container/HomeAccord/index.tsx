@@ -14,7 +14,7 @@ const AccCards = () => {
         <div>
           <Link
             title="discuss my projects"
-            href={"https://thespecialcharacter.graphy.com/"}
+            href={"#Contact"}
           >
             <Button variant="default" className="px-16 md:px-20 py-7  ">
               Discuss my Project
