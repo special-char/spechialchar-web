@@ -21,7 +21,7 @@ const EdList = () => {
         </div>
       </section>
       <div className=" pt-10 ">
-        <Link href={"https://thespecialcharacter.graphy.com/"}>
+        <Link title="Get your custom elearning solution" href={"#Contact"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Get your custom <span>elearning solution</span>

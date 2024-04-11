@@ -41,13 +41,14 @@ const ImageAccordion = ({ data }: imageAccordianDataType) => {
                     })}
                 </div>
                 <div className="pt-10">
-                    <Link title="projecy-info" href={"/ourthinking"}></Link>
-                    <Button>
-                        <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-                            {data.button}
+                    <Link title="Tell us about your project" href={"#Contact"}>
+                        <Button>
+                            <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+                                {data.button}
 
-                        </span>
-                    </Button>
+                            </span>
+                        </Button>
+                    </Link>
                 </div>
             </section>
         </>

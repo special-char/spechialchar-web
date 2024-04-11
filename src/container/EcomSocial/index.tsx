@@ -32,8 +32,8 @@ const EcomSocial = ({ data }: ecomSectionType) => {
         </div>
         <div className="pt-10">
           <Link
-            title="optimal-fit"
-            href={"https://thespecialcharacter.graphy.com/"}
+            title="Lets discuss your optimal fit"
+            href={"#Contact"}
           >
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">

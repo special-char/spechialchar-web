@@ -16,7 +16,7 @@ const EdGrid3 = (props: Props) => {
           ))}
         </div>
         <div className="pt-10">
-          <Link href={"https://thespecialcharacter.graphy.com/"}>
+          <Link title="Get your eductional app" href={"#Contact"}>
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
                 Get your <span>educational app </span>

@@ -43,7 +43,7 @@ export default function TableDemo() {
         </Table>
       </div>
       <div>
-        <Link href={"https://thespecialcharacter.graphy.com/"}>
+        <Link title="Get a Free consultation" href={"#Contact"}>
           <Button className="">Get a Free consultation</Button>
         </Link>
       </div>

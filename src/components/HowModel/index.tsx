@@ -71,7 +71,7 @@ const HowModel = ({ data }: HowModelType) => {
         })}
       </div>
       <div className="pt-10">
-        <Link href={"https://thespecialcharacter.graphy.com/"}>
+        <Link title="Contact Us" href={"#Contact"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Contact Us
