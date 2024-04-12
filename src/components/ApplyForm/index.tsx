@@ -79,7 +79,7 @@ const ApplyForm = ({ data }: JobDataType) => {
                                                 <FormMessage />
                                             </FormItem>
                                         </div>
-                                        <div className="text-blue text-subtitle2 py-3">CANDIDATE'S PERSONAL DETAILS</div>
+                                        <div className="text-blue text-subtitle2 py-3">CANDIDATES PERSONAL DETAILS</div>
                                         <div className="flex max-lg:flex-wrap lg:gap-24  w-full">
 
                                             <FormItem className="w-full">
