@@ -126,12 +126,12 @@ export const footerdata = {
     {
       id: 1,
       icon: "/icons/iso.svg",
-      title:"Iso mark"
+      title: "Iso mark",
     },
     {
       id: 2,
       icon: "/icons/upwork.svg",
-      title:"Upwork mark"
+      title: "Upwork mark",
     },
   ],
   social: [
@@ -143,19 +143,19 @@ export const footerdata = {
     {
       id: 1,
       icon: "/icons/instagram.svg",
-      title:"Instagram",
+      title: "Instagram",
       link: "https://www.instagram.com/thespecialchar?igsh=cTlyM2VobDE5d2p5",
     },
     {
       id: 2,
       icon: "/icons/linkedin.svg",
-      title:"Linkedin",
+      title: "Linkedin",
       link: "https://www.linkedin.com/company/28764000/admin/feed/posts/",
     },
     {
       id: 3,
       icon: "/icons/youtube.svg",
-      title:"Youtube",
+      title: "Youtube",
       link: "https://youtube.com/@thespecialcharacter?si=R3Ybw4TsE-dbSECS",
     },
     // {
@@ -173,8 +173,8 @@ export const Cards = {
       url: "/images/project1.webp",
       title: "AI-based enterprise software for No.1 retailer",
       description:
-      "Self-service analytics enabled by AI algorithms empowers 3 million users with instant actionable insights",
-      title1:"Enterprise"
+        "Self-service analytics enabled by AI algorithms empowers 3 million users with instant actionable insights",
+      title1: "Enterprise",
     },
     {
       id: 2,
@@ -182,7 +182,7 @@ export const Cards = {
       title: "Organ-on-a-chip platform for drug development",
       description:
         "Next-gen biotech platform relying on organ-chips enables faster, safer, and cheaper drug development for human use",
-        title1:"Organ-on-a-chip"
+      title1: "Organ-on-a-chip",
     },
     {
       id: 3,
@@ -190,7 +190,7 @@ export const Cards = {
       title: "Predictive analytics for cancer clinicians",
       description:
         "ML-based analytics improves cancer prognostic accuracy and treatment recommendations. ",
-        title1:"Analytics"
+      title1: "Analytics",
     },
     {
       id: 4,
@@ -198,7 +198,7 @@ export const Cards = {
       title: "Cloud infrastructure for social media giant",
       description:
         "Advanced cloud infrastructure connects data centers and on-premises systems to the cloud, driving agility in software development.",
-      title1:"Cloud"
+      title1: "Cloud",
     },
     {
       id: 5,
@@ -206,7 +206,7 @@ export const Cards = {
       title: "Mobile app for Dollar Shave Club",
       description:
         "An Android app with no-fuss shopping features and flawless navigation helps the Dollar Shave Club skyrocket sales",
-      title1:"Advanced cloud"
+      title1: "Advanced cloud",
     },
     {
       id: 6,
@@ -214,7 +214,7 @@ export const Cards = {
       title: "Next-level cybersecurity for enterprise risk management ",
       description:
         "A biometrics-based system provides bulletproof protection, eliminating credential deception and the need for passwords or PINs.",
-      title1:"Cybersecurity"
+      title1: "Cybersecurity",
     },
     {
       id: 7,
@@ -222,7 +222,7 @@ export const Cards = {
       title: "AI-driven logistics platform",
       description:
         "An IoT platform offers extended shipment management options to 25,000 active users.",
-      title1:"Logistics"
+      title1: "Logistics",
     },
     {
       id: 8,
@@ -230,7 +230,7 @@ export const Cards = {
       title: "Ecommerce solution for developer of virtual instruments ",
       description:
         "A tailored ecommerce platform has enabled a developer of software musical instruments to reach out to wider audiences.",
-        title1:"Ecommerce"
+      title1: "Ecommerce",
     },
     {
       id: 9,
@@ -238,7 +238,7 @@ export const Cards = {
       title: "AI-powered autonomous checkout",
       description:
         " An ML-driven solution allows retailers to make their stores checkout-free without the need to redesign them.",
-        title1:"Autonomous"
+      title1: "Autonomous",
     },
     {
       id: 10,
@@ -246,7 +246,7 @@ export const Cards = {
       title: "Cloud solution for US third-party benefits administrators",
       description:
         " Migration of a legacy system to microservices enables clients to easily configure and manage employee benefits.",
-        title1:"Third-party"
+      title1: "Third-party",
     },
   ],
 };
@@ -262,7 +262,7 @@ export const Card1 = {
         "Looking to make generative AI part of your company’s tech stack? Discover these promising generative AI applications in business to get inspired!",
       height: 150,
       width: 150,
-      title1:"Generative AI"
+      title1: "Generative AI",
     },
     {
       id: 2,
@@ -273,7 +273,7 @@ export const Card1 = {
         "How to implement AI in your business and achieve a substantial return on your artificial intelligence  investments? Our AI eBook will help you with that!",
       height: 200,
       width: 300,
-      title1:"How to implement AI"
+      title1: "How to implement AI",
     },
     {
       id: 3,
@@ -284,7 +284,7 @@ export const Card1 = {
         "Could you tell the difference between BPA, RPA, and IPA without running a few Google searches? If not, don’t bother surfing — we’ve done the job for you!",
       height: 200,
       width: 300,
-      title1:"IPA vs. RPA vs. BPA"
+      title1: "IPA vs. RPA vs. BPA",
     },
     {
       id: 4,
@@ -294,7 +294,7 @@ export const Card1 = {
         "From immersive gaming environments to full-blown digital auctions where NFTs are traded, metaverse can be a multitude of things. And the reasons to start using metaverse for business are as diverse as the technology’s definition.",
       height: 200,
       width: 300,
-      title1:"Metaverse"
+      title1: "Metaverse",
     },
     {
       id: 5,
@@ -304,7 +304,7 @@ export const Card1 = {
         "Learn how ITRex continues to provide much-needed assistance to Ukranians living in crisis since Russia began its invasion.",
       height: 200,
       width: 300,
-      title1:"Initiatives"
+      title1: "Initiatives",
     },
     {
       id: 6,
@@ -314,7 +314,7 @@ export const Card1 = {
         "Discover the exciting applications of IoT in the sports sector and learn how to implement such solutions. Also, check out a project from our portfolio to see how IoT and AI can revolutionize our at-home training",
       height: 200,
       width: 300,
-      title1:"IoT in sports"
+      title1: "IoT in sports",
     },
 
     {
@@ -325,7 +325,7 @@ export const Card1 = {
         "Learn about the key factors influencing AI development costs and how you can spend less and see ROI faster.",
       height: 200,
       width: 300,
-      title1:"AI cost"
+      title1: "AI cost",
     },
     {
       id: 8,
@@ -336,7 +336,7 @@ export const Card1 = {
         "Discover blockchain use cases and top benefits, and check out our tips on how to proceed with blockchain implementation.",
       height: 200,
       width: 300,
-      title1:"Blockchain uses"
+      title1: "Blockchain uses",
     },
     {
       id: 9,
@@ -346,7 +346,7 @@ export const Card1 = {
         "Explore the ways AI transforms the global supply chain and learn how to implement the digital supply chain with no fuss.",
       height: 200,
       width: 300,
-      title1:"Supply Chain"
+      title1: "Supply Chain",
     },
     {
       id: 10,
@@ -356,7 +356,7 @@ export const Card1 = {
         " Check out our new article to discover what ready-made and custom enterprise workflow automation tools have in store and which option is best for you.",
       height: 200,
       width: 300,
-      title1:"Enterprise"
+      title1: "Enterprise",
     },
   ],
 };
@@ -3617,67 +3617,63 @@ export const SwiperServices4 = {
 };
 
 export const TableContent = {
-  title: "Comparison of engagement models",
+  title: "Current Openings",
   header: [
     {
       id: 1,
-      title: "Features",
+      title: "Req Title",
     },
     {
       id: 2,
-      title: "Fixed Price",
+      title: "Location",
     },
     {
       id: 3,
-      title: "Time & Material",
-    },
-    {
-      id: 4,
-      title: "Dedicated Team",
+      title: "Designation",
     },
   ],
   invoices: [
     {
-      invoice: "Project Size",
-      paymentStatus: "any",
-      totalAmount: "any",
-      paymentMethod: "any",
+      id: 1,
+      invoice: "Asset Compliance Reviewer",
+      paymentStatus: "Ahmedabad",
+      totalAmount: "DW - Executive (3+ Years)",
     },
     {
-      invoice: "Requirement",
-      paymentStatus: "fixed",
-      totalAmount: "evolving",
-      paymentMethod: "evolving",
+      id: 2,
+      invoice: "Full Stack Developer(Java, React, Postgresql)",
+      paymentStatus: "Ahmedabad",
+      totalAmount: "Full Stack Developer(Java, React, Postgresql) (2+ Years)",
     },
     {
-      invoice: "Scope Flexibility",
-      paymentStatus: "limited flexibility",
-      totalAmount: "flexible",
-      paymentMethod: "flexible",
+      id: 3,
+      invoice: "Tech Project Manager",
+      paymentStatus: "Ahmedabad",
+      totalAmount: "Tech Project Manager (3+ Years)",
     },
     {
-      invoice: "Budget Predictability",
-      paymentStatus: "highest",
-      totalAmount: "pay as you go",
-      paymentMethod: "fixed team cost",
+      id: 4,
+      invoice: "Experience Cloud Tech Lead",
+      paymentStatus: "Ahmedabad",
+      totalAmount: "DP - Tech Lead (2+ Years)",
     },
     {
-      invoice: "Timelines",
-      paymentStatus: "fixed",
-      totalAmount: "flexible",
-      paymentMethod: "flexible",
+      id: 5,
+      invoice: "Tech lead - Sales Cloud",
+      paymentStatus: "Ahmedabad",
+      totalAmount: "DP - Tech Lead (3+ Years)",
     },
     {
-      invoice: "Client’s Involvement",
-      paymentStatus: "minimal",
-      totalAmount: "regular",
-      paymentMethod: "constant",
+      id: 6,
+      invoice: "QA Playwright Automation Engineer",
+      paymentStatus: "Ahmedabad",
+      totalAmount: "DE - QA Engineer (2+ Years)",
     },
     {
-      invoice: "Quick Start",
-      paymentStatus: "no",
-      totalAmount: "yes",
-      paymentMethod: "yes",
+      id: 7,
+      invoice: "Salesforce Senior Developer",
+      paymentStatus: "Ahmedabad",
+      totalAmount: "DP - Senior Software Engineer (3+ Years)",
     },
   ],
 };
@@ -3832,6 +3828,8 @@ export const edBox2 = [
 import Icons from "@/public.icons/21stCenturyFox.svg";
 import Icons1 from "@/public.icons/21stCenturyFox.svg";
 import Icons2 from "@/public.icons/21stCenturyFox.svg";
+import { Description } from "@radix-ui/react-dialog";
+import { title } from "process";
 
 export const MarqueData2 = [
   {
@@ -4019,4 +4017,152 @@ export const backendData = {
 export const backendData2 = {
   url: "/images/projectsection.webp",
   sectiontitle1: "Our collaboration",
+};
+
+export const JobData = {
+  id: 1,
+  title: "Full Stack Developer(Java, React, Postgresql)",
+  subtitle: "ID: 616 | 4-8 yrs | Ahmedabad | careers",
+  Overview:
+    "As a Full Stack Java Developer at V2Solutions, you will be instrumental in designing, developing, and implementing complex software  solutions and reusable components. Leveraging your expertise in Java, React, and Postgresql, you will play a key role in driving positive outcomes for our business and clients. If you have a passion for technology, excellent communication skills, and thrive in collaborative environments, we invite you to join our dynamic team.",
+  About: "About The Special Character:",
+  Overview1:
+    "The Special Character is a leading IT Services and Engineering company dedicated to delivering comprehensive Digital Transformation solutions to over 400 organizations globally. Our services encompass Digitization & Transformation, Cognitive Technology, Engineering Products & Apps, Cloud& Data Processing, IoT, and Salesforce CRM Solutions. Established in 2003 and headquartered in Santa Clara, California, we pride ourselves on being an ISO 9001-2015 certified and Great Place to Work certified company. With a team of over 900 Talented & Happy Vibrants spread across the US and global delivery centers in Mumbai, Bangalore, Baroda, and Udaipur, we collaborate closely with clients ranging from startups to large enterprises, assisting them in building next-gen digital processes and solutions to achieve sustained business vitality and deliver exceptional customer experiences.",
+  Jobdata: [
+    {
+      id: 1,
+      title: "Design",
+      description:
+        "develop, and implement complex software solutions and reusable components, playing a full-stack developer role. Develop UI, API, and integrate various components.",
+    },
+    {
+      id: 2,
+      title: "Help",
+      description:
+        " teams adopt and contribute to common tooling, frameworks, and seed repositories.",
+    },
+    {
+      id: 3,
+      title: "Gather",
+      description:
+        " input, ideas, and perspectives from developers, designers, and product managers across the organization to identify opportunities for improvement, collaboration, and impact.",
+    },
+    {
+      id: 4,
+      title: "Establish",
+      description:
+        "  processes and techniques for effectively sharing and versioning libraries and components across teams and products.",
+    },
+    {
+      id: 5,
+      title: "Utilize",
+      description:
+        " technology to solve business problems and drive positive outcomes, building a scalable technology platform to support a growing business.",
+    },
+    {
+      id: 6,
+      title: "Deliver",
+      description:
+        "   high-quality code to production consistently, ensuring adherence to coding standards.",
+    },
+    {
+      id: 7,
+      title: "Build",
+      description:
+        " micro-services using Java, Spring Boot, Spring Data, and JPA.      ",
+    },
+    {
+      id: 8,
+      title: "Write",
+      description:
+        "crisp, concise, clear, and structured Java code with best practices.",
+    },
+    {
+      id: 9,
+      title: "Integrate",
+      description:
+        " with various third-party systems, ensuring seamless interoperability and data flow.",
+    },
+    {
+      id: 10,
+      title: "Lead",
+      description:
+        "a team in the development of front-end/back-end applications, fostering collaboration and excellence.",
+    },
+    {
+      id: 11,
+      title: "Work",
+      description:
+        "  effectively with global teams, ensuring smooth communication and coordination.",
+    },
+    {
+      id: 12,
+      title: "Work",
+      description:
+        " proficiently with Java, Spring Boot, Spring Data, JPA, RDBMS (Postgresql), ReactJS, HTML, CSS, and JS.",
+    },
+    {
+      id: 13,
+      title: "Participate",
+      description:
+        "  in code reviews to maintain code quality and ensure adherence to coding standards.",
+    },
+    {
+      id: 14,
+      title: "Investigate",
+      description:
+        "and resolve complex technical issues, collaborating with cross-functional teams as needed.",
+    },
+    {
+      id: 15,
+      title: "Create",
+      description:
+        "   and maintain comprehensive technical documentation, including architecture diagrams, design specifications, and code documentation.",
+    },
+    {
+      id: 16,
+      title: "Identify",
+      description:
+        "  and address performance bottlenecks in software applications, optimizing code and infrastructure as necessary.",
+    },
+    {
+      id: 17,
+      title: "Stay",
+      description:
+        "  current with industry trends, emerging technologies, and best practices to continually enhance our software solutions.",
+    },
+  ],
+
+  Jobdata1: [
+    {
+      id: 1,
+      title: "Bachelor's",
+      description: "degree in Computer Science or related field.",
+    },
+    {
+      id: 2,
+      title: "Minimum",
+      description: "  4 years of experience in software development.",
+    },
+    {
+      id: 3,
+      title: "Proficiency",
+      description: " in Java, React, and Postgresql.",
+    },
+    {
+      id: 4,
+      title: "Excellent",
+      description: "written and verbal communication skills.      ",
+    },
+    {
+      id: 5,
+      title: "Experience",
+      description: "working in collaborative environments.",
+    },
+    {
+      id: 6,
+      title: "Strong",
+      description: "problem-solving skills and attention to detail.",
+    },
+  ],
 };
