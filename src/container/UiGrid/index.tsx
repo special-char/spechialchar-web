@@ -25,7 +25,7 @@ const UiGrid = ({ data }: uiSectionType) => {
         <div className="pt-10">
           <Link
             className="py-10"
-            href={"https://thespecialcharacter.graphy.com/"}
+            href={"#Contact"}
           >
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">

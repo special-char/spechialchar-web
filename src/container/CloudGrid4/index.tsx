@@ -16,7 +16,7 @@ const CloudGrid4 = () => {
           ))}
         </div>
         <div className="pt-10">
-          <Link title="cloud-strategy" href={"https://thespecialcharacter.graphy.com/"}>
+          <Link title="cloud-strategy" href={"#Contact"}>
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
                 Discuss my cloud<span>strategy</span>

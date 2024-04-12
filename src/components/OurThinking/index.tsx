@@ -59,7 +59,7 @@ function OurThinking({ className }: { className?: string }) {
             >
 
               <div className="overflow-hidden">
-                <Link title="Projects" href={`/casestudies/${x.id}`}>
+                <Link title="Projects" target="_blank" href={`/casestudies/${x.id}`}>
                   <Image
                     src={x.image}
                     alt="blog"
@@ -74,7 +74,7 @@ function OurThinking({ className }: { className?: string }) {
                 <div className="flex gap-1 text-nowrap flex-wrap">
                   {x.categories.map((category, index) => (
                     <React.Fragment key={index}>
-                      <Link title={`Projects-Category-${x.id}`} href={`/casestudies/${x.id}`} className="text-subtitle2">
+                      <Link title={`Projects-Category-${x.id}`} target="_blank" href={`/casestudies/${x.id}`} className="text-subtitle2">
                         {category}
                       </Link>
                       {index !== x.categories.length - 1 && (
@@ -84,7 +84,7 @@ function OurThinking({ className }: { className?: string }) {
                   ))}
                 </div>
                 <div className="py-4 hover:text-blue">
-                  <Link title={`Projects-Description-${x.id}`} href={`/casestudies/${x.id}`}>
+                  <Link title={`Projects-Description-${x.id}`} target="_blank" href={`/casestudies/${x.id}`}>
                     <span className="text-heading6">
                       {x.title}
                     </span>
