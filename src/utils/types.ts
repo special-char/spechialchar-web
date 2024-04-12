@@ -376,3 +376,14 @@ export type ProjectSectionmap1Type = {
     description: string;
   };
 };
+
+export type JobDataType = {
+  data: {
+    id: number;
+    title: string;
+    subtitle: string;
+    Overview: string;
+    About: string;
+    Overview1: string;
+  };
+};
