@@ -27,6 +27,7 @@ import {
 } from "@/lib/constData";
 import React from "react";
 import { Metadata } from "next";
+import TableDemo from "@/components/Tabel";
 
 export const metadata: Metadata = {
   title: "Career Oppertunity",
@@ -51,6 +52,7 @@ const AboutPage = (props: Props) => {
       <CareerSection2 data={career2} />
       <CareerCity data={careercity} />
       <CareerMany data={careermany} />
+      <TableDemo />
       <CareerCV data={careercv} />
     </>
   );

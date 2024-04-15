@@ -20,7 +20,7 @@ const HowWeWork = (props: Props) => {
       <HowBanner data={howbanner} />
       <Tab2 data={howWeWorktabdata} />
       <HowModel data={howmodel} />
-      <TableDemo />
+      {/* <TableDemo /> */}
 
     </>
   )
