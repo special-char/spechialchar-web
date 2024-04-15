@@ -35,13 +35,13 @@ export default function TableDemo() {
 
             {TableContent.invoices.map((invoice) => (
 
-              <TableRow key={invoice.invoice} className="hover:bg-gray1 ">
+              <TableRow key={invoice.invoice} className="hover:bg-gray1 group">
 
 
 
-                <TableCell className="font-bold underline underline-offset-4"> <Link href={`/company/how-we-work/${invoice.id}`} >{invoice.invoice}</Link></TableCell>
-                <TableCell> <Link href={`/company/how-we-work/${invoice.id}`} >{invoice.paymentStatus}</Link></TableCell>
-                <TableCell> <Link href={`/company/how-we-work/${invoice.id}`} >{invoice.totalAmount}</Link></TableCell>
+                <TableCell className="font-bold group-hover:text-blue underline underline-offset-4"> <Link href={`/company/how-we-work/${invoice.id}`} >{invoice.invoice}</Link></TableCell>
+                <TableCell className="group-hover:text-blue"> <Link href={`/company/how-we-work/${invoice.id}`} >{invoice.paymentStatus}</Link></TableCell>
+                <TableCell className="group-hover:text-blue"> <Link href={`/company/how-we-work/${invoice.id}`} >{invoice.totalAmount}</Link></TableCell>
 
               </TableRow>
 
