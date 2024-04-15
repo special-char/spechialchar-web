@@ -7,7 +7,7 @@ import Link from "next/link";
 
 type Props = {};
 
-function OurThinking({ className }: { className?: string }) {
+function OurThinking({ className, image, title, id, cost }: { className?: string, image: string, title: string, id: number, cost: string }) {
   const [currentCategory, setCurrentCategory] = useState("All");
 
   return (
@@ -25,7 +25,6 @@ function OurThinking({ className }: { className?: string }) {
             <div className="flex pb-2 max-sm:w-fit justify-start mr-4 active:text-blue hover:text-blue bg-origin-padding bg-left-bottom bg-gradient-to-r from-blue to-blue bg-[length:0%_4px] bg-no-repeat group-hover:bg-[length:100%_4px] transition-all duration-500 ease-out">
               All
             </div>
-
           </button>
           <button className="group transition-all duration-300 ease-in-out" type="button" onClick={() => setCurrentCategory("Strategy")}>
             <div className="flex pb-2 max-sm:w-fit justify-start mr-4 active:text-blue hover:text-blue  bg-left-bottom bg-gradient-to-r from-blue to-blue bg-[length:0%_4px] bg-no-repeat group-hover:bg-[length:100%_4px] transition-all duration-500 ease-out">
@@ -54,14 +53,13 @@ function OurThinking({ className }: { className?: string }) {
               : (currentCategory as keyof typeof ourThinkingData)
           ].map((x) => (
             <div
-              key={x.id}
+              key={id}
               className="flex flex-col gap-3 md:m-4 md:gap-5 md:pb-20 pb-10  "
             >
-
               <div className="overflow-hidden">
                 <Link title="Projects" target="_blank" href={`/casestudies/${x.id}`}>
-                  <Image
-                    src={x.image}
+                  <img
+                    src={image}
                     alt="blog"
                     title={`Projects-Image-${x.id}`}
                     width={500}
@@ -72,7 +70,7 @@ function OurThinking({ className }: { className?: string }) {
               </div>
               <div className="">
                 <div className="flex gap-1 text-nowrap flex-wrap">
-                  {x.categories.map((category, index) => (
+                  {/* {x.categories.map((category, index) => (
                     <React.Fragment key={index}>
                       <Link title={`Projects-Category-${x.id}`} target="_blank" href={`/casestudies/${x.id}`} className="text-subtitle2">
                         {category}
@@ -81,17 +79,17 @@ function OurThinking({ className }: { className?: string }) {
                         <span className="text-subtitle2">/</span>
                       )}
                     </React.Fragment>
-                  ))}
+                  ))} */}
+                  {cost}
                 </div>
                 <div className="py-4 hover:text-blue">
                   <Link title={`Projects-Description-${x.id}`} target="_blank" href={`/casestudies/${x.id}`}>
                     <span className="text-heading6">
-                      {x.title}
+                      {title}
                     </span>
                   </Link>
                 </div>
               </div>
-
             </div>
           ))}
         </div>
