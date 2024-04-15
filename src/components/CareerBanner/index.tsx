@@ -26,7 +26,7 @@ const CareerBanner = ({ data }: CareerBannerdataType) => {
             {data.title4}
           </h2>
           <div>
-            <Link title="Open Positions" href={"/company/how-we-work#TableDemo"}>
+            <Link title="Open Positions" href={"/company/career#TableDemo"}>
               <Button className="">Open Positions  &rarr;</Button>
             </Link>
           </div>
