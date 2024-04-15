@@ -20,11 +20,11 @@ const HowBanner = ({ data }: HowBannerType) => {
         {data.title}
       </h1>
       <div className="flex max-sm:flex-col  lg:justify-center text-gray  gap-10  max-md:pb-28 max-sm:py-2 ">
-        <h2 className="sm:border-r-2 sm:pr-4  max-sm:border-b-2 max-sm:pb-7 lg:pr-6 border-h-2 text-subtitle2">
+        <p className="sm:border-r-2 sm:pr-4  max-sm:border-b-2 max-sm:pb-7 lg:pr-6 border-h-2 text-subtitle2">
           {data.desc}
-        </h2>
+        </p>
         <div className=" text-subtitle2 ">{data.desc1}</div>
-        <Link className="-px-4 max-sm:-py-20 max-sm:-my-1 " href={'https://thespecialcharacter.graphy.com/'}>
+        <Link className="-px-4 max-sm:-py-20 max-sm:-my-1 " title='Get a free consultant' href={'#Contact'}>
           <Button variant="default" size="sm" className="text-base lg:px-16 lg:py-7">
             Get a free consultant
           </Button>

@@ -21,7 +21,7 @@ const Collabrate = () => {
         <Link
           title="Collabe"
           className=" max-sm:grid overflow-hidden "
-          href={"https://thespecialcharacter.graphy.com/"}
+          href={"#Contact"}
         >
           <Button variant={"default"}>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">

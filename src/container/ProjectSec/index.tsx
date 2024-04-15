@@ -17,7 +17,7 @@ const ProjectSec = (props: Props) => {
         <div className="flex items-center">
           <Link
             title="View Projects"
-            href={"https://thespecialcharacter.graphy.com/"}
+            href={"/casestudies"}
             className="pt-1 flex gap-x-2 items-center text-primary font-bold md:justify-start justify-center"
           >
             View all cases <Arrow />
@@ -27,7 +27,7 @@ const ProjectSec = (props: Props) => {
           <Link
             title="inovation journey"
             className="flex md:justify-start justify-center"
-            href={"https://thespecialcharacter.graphy.com/"}
+            href={"#Contact"}
           >
             <Button variant="default" className=" py-7 text-subtitle2">
               Start your innovation journey

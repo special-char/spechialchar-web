@@ -40,18 +40,21 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
             <SwiperSlide key={index} className="py-4">
               <Link
                 title="case-studies"
+                target="_blank"
                 className=" overflow-hidden overflow-y-hidden  h-56 "
-                href={"https://thespecialcharacter.graphy.com/"}
+                href={`/casestudies/${index+1}`}
               >
                 <div className="relative">
+                  <div className="">
                   <Image
                     src={car.src}
                     alt={car.alt}
                     title="case-studies"
-                    className=" flex flex-col object-cover aspect-square left-0 top-0 -z-10  gap-x-4"
+                    className=" flex flex-col object-cover aspect-square left-0 brightness-50 top-0 -z-10 gap-x-4"
                     height={200}
                     width={800}
                   />
+                  </div>
                   <div className=" py-3 px-4 md:px-12 absolute left-0 top-0  text-background  text-2xl md:text-3xl   font-bold overflow-hidden lg:px-10 lg:pr-20">
                     {car.alt}&rarr;
                   </div>
@@ -65,12 +68,12 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
         </div>
       </Swiper>
       <div className="sm:pt-10 sm:pb-2">
-        <Link href={"https://thespecialcharacter.graphy.com/"}>
+        <Link href={"#Contact"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Talk to web{" "}
               <span>
-                development experts <span>&rarr;</span>
+                development experts
               </span>
             </span>
           </Button>

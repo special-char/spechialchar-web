@@ -24,12 +24,12 @@ const MobileIcon = ({ data }: ServiceIconType) => {
         </div>
         <Link
           className="py-10"
-          href={"https://thespecialcharacter.graphy.com/"}
+          href={"#Contact"}
         >
           <Button className="">
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               {data.button1} <span>{data.button2} </span>
-              <span>&rarr;</span>
+
             </span>
           </Button>
         </Link>

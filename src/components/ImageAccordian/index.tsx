@@ -30,24 +30,25 @@ const ImageAccordion = ({ data }: imageAccordianDataType) => {
                             >
                                 <Image alt="ecommerce-info" title="project-info" height={900} width={900} src={item.image} />
                                 <h3 className="content1">{item.header}</h3>
-                                <h4 className="content">
+                                <p className="content">
 
 
-                                    <p>{item.text}</p>
+                                    {item.text}
 
-                                </h4>
+                                </p>
                             </div>
                         );
                     })}
                 </div>
                 <div className="pt-10">
-                    <Link title="projecy-info" href={"/ourthinking"}></Link>
-                    <Button>
-                        <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-                            {data.button}
-                            <span>&rarr;</span>
-                        </span>
-                    </Button>
+                    <Link title="Tell us about your project" href={"#Contact"}>
+                        <Button>
+                            <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
+                                {data.button}
+
+                            </span>
+                        </Button>
+                    </Link>
                 </div>
             </section>
         </>

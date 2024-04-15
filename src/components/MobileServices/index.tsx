@@ -42,10 +42,10 @@ export default function Index() {
       <div>
         <Link
           title="hire-mobile-app-developer"
-          href={"https://thespecialcharacter.graphy.com/"}
+          href={"#Contact"}
         >
           <Button variant={"secondary"}>
-            <span>Hire mobile app developers &rarr;</span>
+            <span>Hire mobile app developers </span>
           </Button>
         </Link>
       </div>

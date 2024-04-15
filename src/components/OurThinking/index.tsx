@@ -54,25 +54,27 @@ function OurThinking({ className }: { className?: string }) {
               : (currentCategory as keyof typeof ourThinkingData)
           ].map((x) => (
             <div
-            key={x.id}
-            className="flex flex-col gap-3 md:m-4 md:gap-5 md:pb-20 pb-10  "
+              key={x.id}
+              className="flex flex-col gap-3 md:m-4 md:gap-5 md:pb-20 pb-10  "
             >
-              <Link title="category" href={`/casestudies/${x.id}`}>
+
               <div className="overflow-hidden">
-                <Image
-                  src={x.image}
-                  alt="blog"
-                  title="projects-info"
-                  width={500}
-                  height={500}
-                  className="object-cover w-full h-full hover:scale-105 duration-500 "
-                />
+                <Link title="Projects" target="_blank" href={`/casestudies/${x.id}`}>
+                  <Image
+                    src={x.image}
+                    alt="blog"
+                    title={`Projects-Image-${x.id}`}
+                    width={500}
+                    height={500}
+                    className="object-cover w-full h-full hover:scale-105 duration-500 "
+                  />
+                </Link>
               </div>
               <div className="">
                 <div className="flex gap-1 text-nowrap flex-wrap">
                   {x.categories.map((category, index) => (
                     <React.Fragment key={index}>
-                      <Link title="category" href={`/casestudies/${x.id}`} className="text-subtitle2">
+                      <Link title={`Projects-Category-${x.id}`} target="_blank" href={`/casestudies/${x.id}`} className="text-subtitle2">
                         {category}
                       </Link>
                       {index !== x.categories.length - 1 && (
@@ -82,14 +84,14 @@ function OurThinking({ className }: { className?: string }) {
                   ))}
                 </div>
                 <div className="py-4 hover:text-blue">
-                  <Link title="description" href={`/casestudies/${x.id}`}>
+                  <Link title={`Projects-Description-${x.id}`} target="_blank" href={`/casestudies/${x.id}`}>
                     <span className="text-heading6">
                       {x.title}
                     </span>
                   </Link>
                 </div>
               </div>
-              </Link>
+
             </div>
           ))}
         </div>

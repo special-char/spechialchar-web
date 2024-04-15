@@ -8,9 +8,9 @@ const CareerSection = ({ data }: CareerSectionType) => {
         <h2 className="text-heading1">
           {data.title1}
         </h2>
-        <h3 className="text-subtitle1 lg:pt-24 py-4">
+        <p className="text-subtitle1 lg:pt-24 py-4">
           {data.title2}
-        </h3>
+        </p>
       </div>
       <div className="grid grid-cols-2 lg:flex-row lg:flex-1 gap-10 lg:mt-4">
         <div className="flex-1 text-subtitle1">

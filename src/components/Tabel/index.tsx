@@ -16,9 +16,9 @@ export default function TableDemo() {
 
 
   return (
-    <section className="h-full w-full flex flex-col gap-y-10">
+    <section id="TableDemo" className="h-full w-full flex flex-col gap-y-10">
       <div className="px-4 sm:px-0">
-        <h2 className="text-heading1">{TableContent.title}</h2>
+        <h2 className="text-heading4">{TableContent.title}</h2>
         <hr />
       </div>
       <div className="">
@@ -26,24 +26,33 @@ export default function TableDemo() {
           <TableHeader>
             <TableRow>
               {TableContent.header.map((item, index) => (
-                <TableHead key={index}>{item.title}</TableHead>
+                <TableHead className="bg-gray1 " key={index}>{item.title}</TableHead>
               ))}
             </TableRow>
           </TableHeader>
+
           <TableBody>
+
             {TableContent.invoices.map((invoice) => (
-              <TableRow key={invoice.invoice}>
-                <TableCell className="font-bold">{invoice.invoice}</TableCell>
-                <TableCell>{invoice.paymentStatus}</TableCell>
-                <TableCell>{invoice.paymentMethod}</TableCell>
-                <TableCell>{invoice.totalAmount}</TableCell>
+
+              <TableRow key={invoice.invoice} className="hover:bg-gray1 ">
+
+
+
+                <TableCell className="font-bold underline underline-offset-4"> <Link href={`/company/how-we-work/${invoice.id}`} >{invoice.invoice}</Link></TableCell>
+                <TableCell> <Link href={`/company/how-we-work/${invoice.id}`} >{invoice.paymentStatus}</Link></TableCell>
+                <TableCell> <Link href={`/company/how-we-work/${invoice.id}`} >{invoice.totalAmount}</Link></TableCell>
+
               </TableRow>
+
             ))}
+
           </TableBody>
+
         </Table>
       </div>
       <div>
-        <Link href={"https://thespecialcharacter.graphy.com/"}>
+        <Link title="Get a Free consultation" href={"#Contact"}>
           <Button className="">Get a Free consultation</Button>
         </Link>
       </div>

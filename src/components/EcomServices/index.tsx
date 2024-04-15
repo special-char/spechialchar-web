@@ -36,9 +36,9 @@ export default function Index() {
         </Tabs>
       </div>
       <div className="py-10">
-        <Link title="contect-us" href={"https://thespecialcharacter.graphy.com/"}>
+        <Link title="contect-us" href={"#Contact"}>
           <Button variant={"secondary"}>
-            <span>Contact us &rarr;</span>
+            Contact us
           </Button>
         </Link>
       </div>

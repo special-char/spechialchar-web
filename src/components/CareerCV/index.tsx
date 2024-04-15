@@ -10,7 +10,7 @@ const CareerCV = ({ data }: CareerCVType) => {
       <div className='lg:py-10 py-3'>
         <h2 className=' text-heading1 text-center'>{data.title}</h2>
       </div>
-      <Link title='send-CV' className="grid pt-10 " href={"#Contact"}>
+      <Link title='Send a CV anyway' className="grid pt-10 " href={"#Contact"}>
         <Button
           variant="default"
           type="submit"

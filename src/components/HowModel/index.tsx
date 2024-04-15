@@ -44,16 +44,16 @@ const HowModel = ({ data }: HowModelType) => {
                   </h3>
                 </div>
                 <div className="flex-1 md:flex-grow ">
-                  <h4 className="text-subtitle2 text-primary ">
+                  <p className="text-subtitle2 text-primary ">
                     {item.desc}
-                  </h4>
+                  </p>
                   <div className="-pl-2">
                     <Button
                       className="rounded-full my-4"
                       onClick={(e) => Show(index + 1)}
                     >
                       show more
-                      <Arrow />
+
                     </Button>
                     <div></div>
                   </div>
@@ -71,7 +71,7 @@ const HowModel = ({ data }: HowModelType) => {
         })}
       </div>
       <div className="pt-10">
-        <Link href={"https://thespecialcharacter.graphy.com/"}>
+        <Link title="Contact Us" href={"#Contact"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Contact Us

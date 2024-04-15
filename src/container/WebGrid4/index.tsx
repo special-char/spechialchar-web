@@ -14,11 +14,11 @@ const WebGrid4 = ({ data }: ServiceIconType) => {
         ))}
       </div>
       <div className="pt-5">
-        <Link href={"https://thespecialcharacter.graphy.com/"}>
+        <Link href={"#Contact"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               {data.button1} <span>{data?.button2}</span>
-              <span>&rarr;</span>
+
             </span>
           </Button>
         </Link>

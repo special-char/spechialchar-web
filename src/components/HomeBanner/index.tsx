@@ -39,7 +39,7 @@ const HomeBanner = ({ data }: HomeBannerdataType) => {
           </h3>
           <div className="pt-7">
             <Link
-              href={"https://thespecialcharacter.graphy.com/"}
+              href={"#Contact"}
               title="Late's talk"
             >
               <Button

@@ -17,12 +17,13 @@ const EdTechGrid2 = (props: Props) => {
         </div>
         <div className="pt-10">
           <Link
-            href={"https://thespecialcharacter.graphy.com/"}
+            title="Schedule a free discussion"
+            href={"#Contact"}
           >
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
                 Schedule a free <span>discussion </span>
-                <span>&rarr;</span>
+
               </span>
             </Button>
           </Link>

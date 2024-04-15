@@ -1,5 +1,7 @@
 import { CareerBannerdataType } from "@/utils/types";
+import Link from "next/link";
 import React from "react";
+import { Button } from "../ui/button";
 
 const CareerBanner = ({ data }: CareerBannerdataType) => {
   return (
@@ -23,7 +25,13 @@ const CareerBanner = ({ data }: CareerBannerdataType) => {
             <br />
             {data.title4}
           </h2>
+          <div>
+            <Link title="Open Positions" href={"/company/how-we-work#TableDemo"}>
+              <Button className="">Open Positions  &rarr;</Button>
+            </Link>
+          </div>
         </div>
+
       </div>
     </section>
   );

@@ -17,11 +17,11 @@ const UiUxBox = () => {
         </ul>
       </section>
       <div className=" pt-10 ">
-        <Link href={"https://thespecialcharacter.graphy.com/"}>
+        <Link href={"#Contact"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
               Work with our UI/UX<span>design company</span>
-              <span>&rarr;</span>
+
             </span>
           </Button>
         </Link>
