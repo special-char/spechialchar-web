@@ -1,43 +1,33 @@
-import LatestThinking from "@/components/LatestThinking";
-import MobileSwiper from "@/components/MobileSwiper";
-import ProjectBanner from "@/components/ProjectBanner";
-import ProjectChallanges from "@/components/ProjectChallanges";
-import ProjectSection from "@/components/ProjectSection";
-import ProjectSwiper from "@/components/ProjectSwiper";
-import { backendData, backendData2, latestThinkingData } from "@/lib/constData";
-import React from "react";
-import { Metadata } from "next";
-import Sticky from "@/components/Sticky";
+import { builder } from "@builder.io/sdk";
+import { RenderBuilderContent } from "@/components/builder";
 
-type Props = {
-    params: {
-        projectid: string;
-    };
-};
+// Builder Public API Key set in .env file
+builder.init(process.env.NEXT_PUBLIC_BUILDER_API_KEY!);
 
-export const generateMetadata = ({ params }: Props): Metadata => {
-    return {
-        title: `Projects ${params.projectid}`,
-    };
-};
+interface PageProps {
+  params: {
+    page: string[];
+  };
+}
 
-const Projects = () => {
-    return (
-        <>
-            <ProjectBanner data={backendData} />
-            <ProjectChallanges data={backendData} />
-            <ProjectSection
-                data={backendData2}
-                className="bg-yellow"
-                order="lg:order-1"
-            />
-            <ProjectSwiper />
-            <ProjectSection data={backendData2} className="bg-blue text-background" />
-            <MobileSwiper />
-            <LatestThinking data={latestThinkingData} />
-            <Sticky />
-        </>
-    );
-};
+export default async function Page(props: PageProps) {
+  const builderModelName = "page";
 
-export default Projects;
+  const content = await builder
+    // Get the page content from Builder with the specified options
+    .get(builderModelName, {
+      userAttributes: {
+        // Use the page path specified in the URL to fetch the content
+        urlPath: `/casestudies/_` + (props?.params?.page?.join("/") || ""),
+      },
+    })
+    // Convert the result to a promise
+    .toPromise();
+
+  return (
+    <>
+      {/* Render the Builder page */}
+      <RenderBuilderContent content={content} model={builderModelName} />
+    </>
+  );
+}
