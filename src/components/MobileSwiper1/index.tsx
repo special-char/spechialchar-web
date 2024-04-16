@@ -11,12 +11,15 @@ import { SwiperServicesData } from "@/utils/types";
 import { SwiperServices1 } from "@/lib/constData";
 import Link from "next/link";
 import { Button } from "../ui/button";
-
-const Swiper1 = ({ data }: SwiperServicesData) => {
+type Props = {
+  button:string,
+  title:string
+}
+const Swiper2 = (props: Props) => {
   return (
     <section className=" py-10 bg-gray1 ">
       <div className="md:text-heading1 text-heading4 py-5 lg:pb-10 pr-4 lg:pr-44  ">
-        {data.title}
+        {props.title}
       </div>
       <Swiper
         modules={[Navigation, Pagination, A11y]}
@@ -69,7 +72,7 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
         <Link title="contect-us" href={"#Contact"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-              Contact Us
+              {props.button}
             </span>
           </Button>
         </Link>
@@ -78,4 +81,4 @@ const Swiper1 = ({ data }: SwiperServicesData) => {
   );
 };
 
-export default Swiper1;
+export default Swiper2;

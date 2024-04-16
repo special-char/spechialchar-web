@@ -1,4 +1,10 @@
 
+export const homeBannerdata = {
+  title: "Next-gen enterprise",
+  title2: "software development company",
+  subtitle: "We think",
+  button: "Let's Talk",
+};
 
 export const homeAccordiandata = {
   data: [

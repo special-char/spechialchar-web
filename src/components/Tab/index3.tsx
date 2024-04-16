@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Button } from "../ui/button";
 import Link from "next/link";
 
-const Tab = ({ data }: tabdataType) => {
+const Tab3 = ({ data }: tabdataType) => {
   return (
     <section>
       <Tabs className="" defaultValue="Discover">
@@ -56,4 +56,4 @@ const Tab = ({ data }: tabdataType) => {
     </section>
   );
 };
-export default Tab;
+export default Tab3;

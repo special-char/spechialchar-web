@@ -4,8 +4,10 @@ import { ServiceIconType } from "@/utils/types";
 import Link from "next/link";
 import React from "react";
 import WebGrid from "@/components/WebGrid";
-
-const WebGrid2 = ({ data }: ServiceIconType) => {
+type Props={
+  button:string
+}
+const WebGrid5 = (props:Props) => {
   return (
     <section className="flex flex-col ">
       <div className="grid md:grid-cols-3 gap-8  ">
@@ -17,8 +19,7 @@ const WebGrid2 = ({ data }: ServiceIconType) => {
         <Link title="links" href={"#Contact"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-              {data.button1} <span>{data?.button2}</span>
-
+             {props.button}
             </span>
           </Button>
         </Link>
@@ -27,4 +28,4 @@ const WebGrid2 = ({ data }: ServiceIconType) => {
   );
 };
 
-export default WebGrid2;
+export default WebGrid5;

@@ -2,8 +2,11 @@ import { serviceBox } from "@/lib/constData";
 import React from "react";
 import { Button } from "../ui/button";
 import Link from "next/link";
+type Props = {
+  button:string
+}
 
-const ServiceBox = () => {
+const ServiceBox = (props: Props) => {
   return (
     <section>
       <div className="bg-lightblue border-r-2  lg:px-24 lg: py-20  max-md:p-4 rounded-lg ">
@@ -20,7 +23,7 @@ const ServiceBox = () => {
         <Link href={"#Contact"}>
         <Button>
           <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-            Lets Discuss Our <span>partnership</span>
+            {props.button}
           </span>
         </Button>
         </Link>
