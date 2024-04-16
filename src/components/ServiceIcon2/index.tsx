@@ -4,7 +4,10 @@ import ServiceIcon from "../ServiceIcon";
 import { Button } from "../ui/button";
 import Link from "next/link";
 
-type Props = {};
+type Props = {
+  
+  texts:string
+};
 
 const ServiceIcon2 = (props: Props) => {
   return (
@@ -16,7 +19,7 @@ const ServiceIcon2 = (props: Props) => {
         <Link href={"#Contact"}>
           <Button variant="default" size="lg" className=" py-7 text-base ">
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-              Get return on tech <span>investments</span>
+           {props.texts}
 
             </span>
           </Button>
