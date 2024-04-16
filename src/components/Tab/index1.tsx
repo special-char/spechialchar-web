@@ -4,8 +4,12 @@ import { tabdataType } from "@/utils/types";
 import Image from "next/image";
 import { Button } from "../ui/button";
 import Link from "next/link";
-
-const Tab = ({ data }: tabdataType) => {
+type Props = {
+  
+  button: string;
+  
+}
+const Tab1 = (props:Props) => {
   return (
     <section>
       <Tabs defaultValue="BigData">
@@ -17,7 +21,7 @@ const Tab = ({ data }: tabdataType) => {
                 className="flex flex-col gap-5  justify-between  text-heading4 px-5  py-5  lg:px-16 md:px-8   "
                 value={item.value}
               >
-                <Image
+                <img
                   src={item.image}
                   alt="tab-items"
                   title="tabs-svgs"
@@ -47,7 +51,7 @@ const Tab = ({ data }: tabdataType) => {
         <Link className="" href={"#Contact"}>
           <Button className="">
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-              {data.button} <span>{data.button2} </span>
+             {props.button}
 
             </span>
           </Button>
@@ -56,4 +60,4 @@ const Tab = ({ data }: tabdataType) => {
     </section>
   );
 };
-export default Tab;
+export default Tab1;
