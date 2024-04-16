@@ -382,7 +382,6 @@ Builder.registerComponent(WebGrid2, {
       type: "string",
       required: true,
     },
-    
     {
       name: "texts",
       type: "string",
