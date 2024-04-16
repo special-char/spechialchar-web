@@ -7,7 +7,7 @@ type Props = {}
 const SectionBox = (props: Props) => {
   return (
     <section>
-      <ServiceBox />
+     
       <div className=' grid justify-start lg:px-4'>
         <Button variant="default" size="lg" className="">
           <span>Lets Discuss Our Partnership</span><span>&rarr;</span>

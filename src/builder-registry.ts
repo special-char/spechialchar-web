@@ -7,9 +7,13 @@ import OurThinking from "./components/OurThinking";
 import PageBanner from "./container/PageBanner";
 import ProjectBanner from "./components/ProjectBanner";
 import Service from "./container/Service";
+import ServiceBox from "./components/ServiceBox";
 import ServiceIcon from "./components/ServiceIcon";
 import ServiceIcon2 from "./components/ServiceIcon2";
+
+import Tab from "./components/Tab";
 import YellowBanner from "./components/YellowBanner";
+import Swiper1 from "./components/Swiper";
 
 builder.init(process.env.NEXT_PUBLIC_BUILDER_API_KEY!);
 
@@ -189,3 +193,42 @@ Builder.registerComponent(ServiceIcon2, {
     },
   ],
 });
+
+Builder.registerComponent(Tab, {
+  name: "Tab",
+  inputs: [
+    {
+      name: "button",
+      type: "string",
+      required: true,
+    },
+  ],
+});
+
+Builder.registerComponent(ServiceBox, {
+  name: "ServiceBox",
+  inputs: [
+    {
+      name: "button",
+      type: "string",
+      required: true,
+    },
+  ],
+});
+
+Builder.registerComponent(Swiper1, {
+  name: "Swiper1",
+  inputs: [
+    {
+      name: "button",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "title",
+      type: "string",
+      required: true,
+    },
+  ],
+});
+
