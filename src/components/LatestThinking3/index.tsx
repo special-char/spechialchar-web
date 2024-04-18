@@ -11,9 +11,11 @@ import Image from "next/image";
 import { latestThinkingType } from "@/utils/types";
 import { latestThinkingData3 } from "@/lib/constData";
 import Link from "next/link";
+
 type Props = {
   title: string
 }
+
 const LatestThinking3 = (props: Props) => {
   return (
     <>

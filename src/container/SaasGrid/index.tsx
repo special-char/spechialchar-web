@@ -5,13 +5,18 @@ import Link from "next/link";
 import React from "react";
 import WebGrid from "@/components/WebGrid";
 
-const SaasGrid = ({ data }: SaasSectionType) => {
+type Props = {
+  title: string;
+    description: string;
+}
+
+const SaasGrid = (props : Props) => {
   return (
     <section>
       <div className="flex flex-wrap lg:w-[75%]">
-        <h2 className="text-heading3">{data?.title}</h2>
+        <h2 className="text-heading3">{props.title}</h2>
         <div className="text-subtitle3 py-10 font-normal">
-          {data?.description}
+          {props.description}
         </div>
       </div>
       <div className="grid lg:grid-cols-3 max-md:grid-cols-1 gap-10">

@@ -3,7 +3,12 @@ import { cloudBox } from "@/lib/constData";
 import Link from "next/link";
 import React from "react";
 
-const CloudGrid = () => {
+type Props = {
+  button1:string,
+  button2:string
+}
+
+const CloudGrid = (props: Props) => {
   return (
     <section>
       <div className="">
@@ -21,8 +26,7 @@ const CloudGrid = () => {
           <Link title="cloud-project" href={"#Contact"}>
             <Button className="py-3">
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-                Discuss my cloud <span>project</span>
-
+                {props.button1}<span>{props.button2}</span>
               </span>
             </Button>
           </Link>

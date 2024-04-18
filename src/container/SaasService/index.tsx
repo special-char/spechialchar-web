@@ -3,9 +3,12 @@ import { listData1, listData2 } from "@/lib/constData";
 import Link from "next/link";
 import React from "react";
 
-type Props = {};
+type Props = {
+  button1:string,
+  button2:string
+};
 
-const SaasService = () => {
+const SaasService = (props : Props) => {
   return (
     <section className="flex flex-col ">
       <div className="grid md:grid-cols-2 px-4">
@@ -36,7 +39,7 @@ const SaasService = () => {
         <Link href={"#Contact"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-              Request our saas development<span>services </span>
+              {props.button1}<span>{props.button2}</span>
             </span>
           </Button>
         </Link>

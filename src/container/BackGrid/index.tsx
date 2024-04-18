@@ -5,15 +5,20 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import WebGrid from "@/components/WebGrid";
 
-type Props = {};
+type Props = {
+  title:string,
+  description:string,
+  button1:string
+  button2:string
+};
 
-const BackGrid = ({ data }: SaasSectionType) => {
+const BackGrid = (props: Props) => {
   return (
     <section>
       <div className="flex flex-wrap lg:w-[75%]">
-        <h2 className="text-heading2">{data?.title}</h2>
+        <h2 className="text-heading2">{props.title}</h2>
         <div className="text-subtitle3 py-10 ">
-          {data?.description}
+          {props.description}
         </div>
       </div>
       <div className="grid lg:grid-cols-3 max-md:grid-cols-1 gap-10">
@@ -25,8 +30,7 @@ const BackGrid = ({ data }: SaasSectionType) => {
         <Link href={"#Contact"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-              Tell us your saas software <span>development needs</span>
-
+            {props.button1}<span>{props.button2}</span>
             </span>
           </Button>
         </Link>
