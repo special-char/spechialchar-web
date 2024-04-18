@@ -21,7 +21,7 @@ const Tab1 = (props:Props) => {
                 className="flex flex-col gap-5  justify-between  text-heading4 px-5  py-5  lg:px-16 md:px-8   "
                 value={item.value}
               >
-                <img
+                <Image
                   src={item.image}
                   alt="tab-items"
                   title="tabs-svgs"
