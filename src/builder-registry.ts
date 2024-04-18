@@ -348,17 +348,6 @@ Builder.registerComponent(ServiceAccordian, {
 
 Builder.registerComponent(Tab, {
   name: "Tab",
-  inputs: [
-    {
-      name: "data",
-      type: "object",
-      hideFromUI: true,
-      meta: {
-        ts: "{ button2: string; button: string; title1: string; title2: string; }",
-      },
-      required: true,
-    },
-  ],
 });
 
 Builder.registerComponent(Tab1, {
@@ -538,17 +527,6 @@ Builder.registerComponent(Index1, {
   inputs: [
     {
       name: "button",
-      type: "string",
-      required: true,
-    },
-  ],
-});
-
-Builder.registerComponent(OurClients, {
-  name: "OurClients",
-  inputs: [
-    {
-      name: "title",
       type: "string",
       required: true,
     },
@@ -841,6 +819,13 @@ Builder.registerComponent(CloudSocial, {
 
 Builder.registerComponent(OurClients, {
   name: "OurClients",
+  inputs: [
+    {
+      name: "title",
+      type: "string",
+      required: true,
+    },
+  ],
 });
 
 Builder.registerComponent(UiGrid, {
