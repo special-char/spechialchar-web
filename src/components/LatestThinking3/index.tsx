@@ -11,12 +11,14 @@ import Image from "next/image";
 import { latestThinkingType } from "@/utils/types";
 import { latestThinkingData3 } from "@/lib/constData";
 import Link from "next/link";
-
-const Banner = ({ data }: latestThinkingType) => {
+type Props = {
+  title: string
+}
+const LatestThinking3 = (props: Props) => {
   return (
     <>
       <section className="flex flex-col gap-y-5 py-10">
-        <div className="text-heading1">{data.title}</div>
+        <div className="text-heading1">{props.title}</div>
         <div className="bg-background flex gap-x-9 md:items-center md:justify-between pt-6 max-md:pt-6 max-md:py-0">
           <Swiper
             effect={"fade"}
@@ -59,4 +61,4 @@ const Banner = ({ data }: latestThinkingType) => {
     </>
   );
 };
-export default Banner;
+export default LatestThinking3;

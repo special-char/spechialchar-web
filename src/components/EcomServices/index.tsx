@@ -10,8 +10,10 @@ import { ecommercesdata } from "@/lib/constData";
 import style from "./styles.module.css";
 import { Button } from "../ui/button";
 import Link from "next/link";
-
-export default function Index() {
+type Props = {
+  button: string
+}
+export default function Index1(props: Props) {
   return (
     <section className="gap-y-10 flex flex-col">
       <div>
@@ -38,7 +40,7 @@ export default function Index() {
       <div className="py-10">
         <Link title="contect-us" href={"#Contact"}>
           <Button variant={"secondary"}>
-            Contact us
+            {props.button}
           </Button>
         </Link>
       </div>

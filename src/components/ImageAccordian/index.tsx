@@ -6,8 +6,13 @@ import "./styles.css";
 import Image from "next/image";
 import { Button } from "../ui/button";
 import Link from "next/link";
-
-const ImageAccordion = ({ data }: imageAccordianDataType) => {
+type Props = {
+    title1: string
+    title2: string
+    title3: string
+    button: string
+}
+const ImageAccordion = (props: Props) => {
     const [active, setActive] = useState(0);
 
     const handleToggle = (index: SetStateAction<number>) => setActive(index);
@@ -15,9 +20,9 @@ const ImageAccordion = ({ data }: imageAccordianDataType) => {
     return (
         <>
             <section>
-                <h2 className="py-5  text-heading3">{data.title1}</h2>
-                <div className="md:py-5 lg:pr-72 text-subtitle3 ">{data.title2}</div>
-                <div className="py-7 text-heading4">{data.title3}</div>
+                <h2 className="py-5  text-heading3">{props.title1}</h2>
+                <div className="md:py-5 lg:pr-72 text-subtitle3 ">{props.title2}</div>
+                <div className="py-7 text-heading4">{props.title3}</div>
                 <div className="image-accordion">
 
                     {imageAccordianData.data.map((item, index) => {
@@ -44,7 +49,7 @@ const ImageAccordion = ({ data }: imageAccordianDataType) => {
                     <Link title="Tell us about your project" href={"#Contact"}>
                         <Button>
                             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-                                {data.button}
+                                {props.button}
 
                             </span>
                         </Button>

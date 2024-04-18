@@ -4,7 +4,9 @@ import { edSection1 } from "@/lib/constData";
 import Link from "next/link";
 import React from "react";
 
-type Props = {};
+type Props = {
+  button: string
+};
 
 const EdTechGrid2 = (props: Props) => {
   return (
@@ -22,7 +24,7 @@ const EdTechGrid2 = (props: Props) => {
           >
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-                Schedule a free <span>discussion </span>
+                {props.button}
 
               </span>
             </Button>

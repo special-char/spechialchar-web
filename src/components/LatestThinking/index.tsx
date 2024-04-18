@@ -12,11 +12,11 @@ import { latestThinkingType } from "@/utils/types";
 import { latestThinkingData } from "@/lib/constData";
 import Link from "next/link";
 type Props = {
-  
+
   title: string;
-  
+
 }
-const LatestThinking = (props:Props) => {
+const LatestThinking = (props: Props) => {
   return (
     <>
       <section className="flex flex-col gap-y-5 py-10">
@@ -45,11 +45,12 @@ const LatestThinking = (props:Props) => {
                     </Link>
                   </div>
                   <div className="relative flex-1 aspect-square overflow-hidden">
-                    <img
+                    <Image
                       src={x.img}
                       alt="banner1"
                       title="thinking-image"
-                      className="object-cover h-[35rem] w-[35rem]"
+                      fill
+                      className="object-cover "
                     />
                   </div>
                 </div>

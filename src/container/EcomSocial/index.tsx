@@ -4,12 +4,15 @@ import { ecomSectionType } from "@/utils/types";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-
-const EcomSocial = ({ data }: ecomSectionType) => {
+type Props = {
+  title: string
+  button: string
+}
+const EcomSocial = (props: Props) => {
   return (
     <>
       <section className="flex flex-col gap-y-10">
-        <div className="text-heading1  font-bold md:pr-24">{data.title}</div>
+        <div className="text-heading1  font-bold md:pr-24">{props.title}</div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {ecomSocial.section.map((i) => {
             return (
@@ -37,7 +40,7 @@ const EcomSocial = ({ data }: ecomSectionType) => {
           >
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-                Lets discuss your optimal fit
+                {props.button}
               </span>
             </Button>
           </Link>
