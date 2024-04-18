@@ -3,7 +3,11 @@ import { cloudgrid } from "@/lib/constData";
 import Link from "next/link";
 import React from "react";
 
-const CloudGrid2 = () => {
+type Props = {
+  button:string
+}
+
+const CloudGrid2 = (props : Props) => {
   return (
     <>
       <section>
@@ -26,8 +30,8 @@ const CloudGrid2 = () => {
           <Link title="cloud-experts" href={"#Contact"}>
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-                Talk to <span>cloud expert </span>
-
+                
+                {props.button}
               </span>
             </Button>
           </Link>

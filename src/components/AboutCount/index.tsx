@@ -1,7 +1,10 @@
 import { AboutData } from '@/lib/constData'
 import React from 'react'
 
-type Props = {}
+type Props = {
+  title1:string,
+  title2:string
+}
 
 const AboutCount = (props: Props) => {
   return (
@@ -10,7 +13,7 @@ const AboutCount = (props: Props) => {
         <div className="bg-primary grid gap-10  ">
           <div className="">
             <h2 className="text-heading1 text-yellow ">
-              Key facts <span className='text-background'>about us </span>
+              {props.title1}<span className='text-background'>{props.title2}</span>
             </h2>
           </div>
           <div className="grid md:grid-cols-2 gap-10">

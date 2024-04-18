@@ -3,7 +3,10 @@ import { cloudBox2 } from "@/lib/constData";
 import Link from "next/link";
 import React from "react";
 
-type Props = {};
+type Props = {
+  button1:string,
+  button2:string
+};
 
 const CloudGrid3 = () => {
   return (
