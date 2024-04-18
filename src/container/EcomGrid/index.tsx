@@ -4,7 +4,9 @@ import { ecomSection, edSection, edSection3 } from "@/lib/constData";
 import Link from "next/link";
 import React from "react";
 
-type Props = {};
+type Props = {
+  button: string
+};
 
 const EcomGrid = (props: Props) => {
   return (
@@ -19,7 +21,7 @@ const EcomGrid = (props: Props) => {
           <Link title="Schedule a free consultation with us" href={"#Contact"}>
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-                Schedule a free <span> consultation with us </span>
+                {props.button}
 
               </span>
             </Button>
