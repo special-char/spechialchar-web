@@ -5,9 +5,7 @@ import Image from "next/image";
 import { Button } from "../ui/button";
 import Link from "next/link";
 type Props = {
-  
     button: string;
-    
 }
 const Tab = (props:Props) => {
   return (
