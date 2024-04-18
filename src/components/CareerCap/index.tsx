@@ -2,13 +2,15 @@ import { careercap } from "@/lib/constData";
 import { CareerCapType } from "@/utils/types";
 import React from "react";
 import Image from "next/image";
-
-const CareerCap = ({ data }: CareerCapType) => {
+type Props = {
+  title: string
+}
+const CareerCap = (props: Props) => {
   return (
     <section className="">
       <div>
         <h2 className="text-heading1 lg:pl-2 gap-4">
-          {data.title}
+          {props.title}
         </h2>
       </div>
       <div>

@@ -1,12 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import { careerBannerType } from "@/utils/types";
-
-const CareersBanner2 = ({ data }: careerBannerType) => {
+type Props = {
+  url: string
+}
+const CareersBanner2 = (props: Props) => {
   return (
     <div className=" md:mb-14 mb-5 ">
       <Image
-        src={data.url}
+        src={props.url}
         alt="image"
         title="banner-image"
         height={700}

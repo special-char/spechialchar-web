@@ -10,6 +10,16 @@ import BackGrid from "./container/BackGrid";
 import BackGrid2 from "./container/BackGrid2";
 import BackGrid3 from "./container/BackGrid3";
 import Banner from "./container/Banner";
+import CareerBanner from "./components/CareerBanner";
+import CareerCap from "./components/CareerCap";
+import CareerCity from "./components/CareerCity";
+import CareerMany from "./components/CareerMany";
+import CareerOP from "./components/CareerSection2";
+import CareerPage2 from "./components/CareerPage2";
+import CareerPage4 from "./components/CareerPage4";
+import CareerPage5 from "./components/CareerPage5";
+import CareersBanner2 from "./components/CareerBanner2";
+import CareerSection from "./components/CareerSection";
 import CloudAccordian from "./container/CloudAccordian";
 import CloudGrid from "./container/CloudGrid";
 import CloudGrid2 from "./container/CloudGrid2";
@@ -17,8 +27,6 @@ import CloudGrid3 from "./container/CloudGrid3";
 import CloudGrid4 from "./container/CloudGrid4";
 import CloudSocial from "./container/CloudSocial";
 import Counter from "./components/Counter/Counter";
-import HowBanner from "./components/HowBanner";
-import HowModel from "./components/HowModel";
 import EcomGrid from "./container/EcomGrid";
 import EcomGrid3 from "./container/EcomGrid3";
 import EcomSocial from "./container/EcomSocial";
@@ -28,6 +36,8 @@ import EdGrid5 from "./container/EdGrid5";
 import EdList from "./container/EdList";
 import EdTechGrid from "./container/EdTechGrid";
 import EdTechGrid2 from "./container/EdTechGrid2";
+import HowBanner from "./components/HowBanner";
+import HowModel from "./components/HowModel";
 import ImageAccordion from "./components/ImageAccordian";
 import ImageBanner from "./components/ImageBanner";
 import Index from "./components/MobileServices";
@@ -61,6 +71,7 @@ import Tab from "./components/Tab";
 import Tab1 from "./components/Tab/index1";
 import Tab2 from "./components/Tab/index2";
 import Tab3 from "./components/Tab/index3";
+import TableDemo from "./components/Tabel";
 import UiGrid from "./container/UiGrid";
 import UiGrid2 from "./container/UiGrid2";
 import UiUxBox from "./container/UiUxBox";
@@ -1095,4 +1106,258 @@ Builder.registerComponent(HowModel, {
       required: true,
     },
   ],
+});
+
+Builder.registerComponent(CareerBanner, {
+  name: "CareerBanner",
+  inputs: [
+    {
+      name: "button",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "title1",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "title2",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "title3",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "title4",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "url",
+      type: "string",
+      required: true,
+    },
+  ],
+});
+
+Builder.registerComponent(CareerPage2, {
+  name: "CareerPage2",
+  inputs: [
+    {
+      name: "des1",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "des2",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "des3",
+      type: "string",
+      required: false,
+    },
+    {
+      name: "src",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "title",
+      type: "string",
+      required: true,
+    },
+  ],
+});
+
+Builder.registerComponent(CareerCap, {
+  name: "CareerCap",
+  inputs: [
+    {
+      name: "title",
+      type: "string",
+      required: true,
+    },
+  ],
+});
+
+Builder.registerComponent(CareerPage4, {
+  name: "CareerPage4",
+  inputs: [
+    {
+      name: "desc1",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "desc2",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "desc3",
+      type: "string",
+      required: false,
+    },
+    {
+      name: "src",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "title",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "title1",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "title2",
+      type: "string",
+      required: false,
+    },
+    {
+      name: "title3",
+      type: "string",
+      required: false,
+    },
+  ],
+});
+
+Builder.registerComponent(CareerPage5, {
+  name: "CareerPage5",
+  inputs: [
+    {
+      name: "desc1",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "desc2",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "desc3",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "title",
+      type: "string",
+      required: true,
+    },
+  ],
+});
+
+Builder.registerComponent(CareerSection, {
+  name: "CareerSection",
+  inputs: [
+    {
+      name: "desc1",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "desc2",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "title1",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "title2",
+      type: "string",
+      required: true,
+    },
+  ],
+});
+
+Builder.registerComponent(CareersBanner2, {
+  name: "CareersBanner2",
+  inputs: [
+    {
+      name: "url",
+      type: "string",
+      required: true,
+    },
+  ],
+});
+
+Builder.registerComponent(CareerOP, {
+  name: "CareerOP",
+  inputs: [
+    {
+      name: "desc1",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "desc2",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "title1",
+      type: "string",
+      required: true,
+    },
+  ],
+});
+
+Builder.registerComponent(CareerCity, {
+  name: "CareerCity",
+  inputs: [
+    {
+      name: "description",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "title",
+      type: "string",
+      required: true,
+    },
+  ],
+});
+
+Builder.registerComponent(CareerMany, {
+  name: "CareerMany",
+  inputs: [
+    {
+      name: "desc",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "desc1",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "desc2",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "title",
+      type: "string",
+      required: true,
+    },
+  ],
+});
+
+Builder.registerComponent(TableDemo, {
+  name: "TableDemo",
 });

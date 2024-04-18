@@ -1,25 +1,30 @@
 import { CareerManyType } from "@/utils/types";
 import React from "react";
 
-type Props = {};
+type Props = {
+  title: string;
+  desc1: string;
+  desc2: string;
+  desc: string;
+};
 
-const CareerMany = ({ data }: CareerManyType) => {
+const CareerMany = (props: Props) => {
   return (
     <section>
       <div className="text-center">
         <h2 className="text-heading1">
-          {data.title}
+          {props.title}
         </h2>
       </div>
       <div className="lg:py-10 p-4">
         <p className=" text-subtitle1 text-center">
-          {data.desc}
+          {props.desc}
         </p>
         <p className="text-subtitle1 text-center">
-          {data.desc1}
+          {props.desc1}
         </p>
         <p className=" text-subtitle1 text-center">
-          {data.desc2}
+          {props.desc2}
         </p>
       </div>
     </section>
