@@ -17,6 +17,8 @@ import CloudGrid3 from "./container/CloudGrid3";
 import CloudGrid4 from "./container/CloudGrid4";
 import CloudSocial from "./container/CloudSocial";
 import Counter from "./components/Counter/Counter";
+import HowBanner from "./components/HowBanner";
+import HowModel from "./components/HowModel";
 import EcomGrid from "./container/EcomGrid";
 import EcomGrid3 from "./container/EcomGrid3";
 import EcomSocial from "./container/EcomSocial";
@@ -57,6 +59,7 @@ import Swiper4 from "./components/Swiper4";
 import Swiper7 from "./components/Swiper2";
 import Tab from "./components/Tab";
 import Tab1 from "./components/Tab/index1";
+import Tab2 from "./components/Tab/index2";
 import Tab3 from "./components/Tab/index3";
 import UiGrid from "./container/UiGrid";
 import UiGrid2 from "./container/UiGrid2";
@@ -1015,6 +1018,79 @@ Builder.registerComponent(LatestThinking4, {
   inputs: [
     {
       name: "title",
+      type: "string",
+      required: true,
+    },
+  ],
+});
+
+Builder.registerComponent(HowBanner, {
+  name: "HowBanner",
+  inputs: [
+    {
+      name: "button",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "desc",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "desc1",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "title",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "url",
+      type: "string",
+      required: true,
+    },
+  ],
+});
+
+Builder.registerComponent(Tab2, {
+  name: "Tab2",
+  inputs: [
+    {
+      name: "button",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "title1",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "title2",
+      type: "string",
+      required: true,
+    },
+  ],
+});
+
+Builder.registerComponent(HowModel, {
+  name: "HowModel",
+  inputs: [
+    {
+      name: "button",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "heading",
+      type: "string",
+      required: true,
+    },
+    {
+      name: "par",
       type: "string",
       required: true,
     },

@@ -3,13 +3,20 @@ import { howWeWorktabdata } from "@/lib/constData";
 import { tabdataType } from "@/utils/types";
 import { Button } from "../ui/button";
 import Link from "next/link";
-const Tab2 = ({ data }: tabdataType) => {
+
+type Props = {
+    title1:string,
+    title2:string,
+    button:string
+}
+
+const Tab2 = (props :Props) => {
     return (
 
         <section className="">
             <div className="flex max-lg:flex-wrap md:gap-16 lg:gap-60 gap-10">
-                <h2 className="text-heading1">{data.title1}</h2>
-                <p className="text-primary text-subtitle1 md:pr-40">{data.title2}</p>
+                <h2 className="text-heading1">{props.title1}</h2>
+                <p className="text-primary text-subtitle1 md:pr-40">{props.title2}</p>
             </div>
             <Tabs defaultValue="Agile" className="flex flex-col pt-10">
                 <TabsList className="flex justify-center">
@@ -45,7 +52,7 @@ const Tab2 = ({ data }: tabdataType) => {
 
             </Tabs>
             <div className="pt-10"><Link title="Get a free consultation!" href={"#Contact"}><Button variant="default" size="sm" className='px-8 md:px-20 py-7 text-base '>
-                {data.button}
+                {props.button}
             </Button>
             </Link>
             </div>
