@@ -58,7 +58,7 @@ function OurThinking({ className, image, title, id, cost }: { className?: string
             >
               <div className="overflow-hidden">
                 <Link title="Projects" target="_blank" href={`/casestudies/${x.id}`}>
-                  <Image
+                  <img
                     src={image}
                     alt="blog"
                     title={`Projects-Image-${x.id}`}
