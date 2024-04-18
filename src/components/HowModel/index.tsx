@@ -6,7 +6,13 @@ import { Button } from "../ui/button";
 import Arrow from "@/public.icons/arrow_forward.svg";
 import Link from "next/link";
 
-const HowModel = ({ data }: HowModelType) => {
+type Props = {
+  heading:string,
+  par:string,
+  button:string
+}
+
+const HowModel = (props : Props) => {
   const [show, setShow] = useState(0);
 
   const Show = (i: React.SetStateAction<number>) => {
@@ -22,13 +28,13 @@ const HowModel = ({ data }: HowModelType) => {
     <section className="pt-8 flex flex-col ">
       <div className=" mb-8">
         <h2 className="text-heading1">
-          {data.heading}
+          {props.heading}
         </h2>
       </div>
 
       <div className=" mb-8 lg:pr-72 md: pr-12 ">
         <p className="text-subtitle1 flex-1 text-primary">
-          {data.par}
+          {props.par}
         </p>
       </div>
       <hr className="border-gray " />
@@ -53,7 +59,6 @@ const HowModel = ({ data }: HowModelType) => {
                       onClick={(e) => Show(index + 1)}
                     >
                       show more
-
                     </Button>
                     <div></div>
                   </div>
@@ -74,7 +79,7 @@ const HowModel = ({ data }: HowModelType) => {
         <Link title="Contact Us" href={"#Contact"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-              Contact Us
+              {props.button}
             </span>
           </Button>
         </Link>
