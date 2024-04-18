@@ -13,10 +13,10 @@ import { latestThinkingData3 } from "@/lib/constData";
 import Link from "next/link";
 
 type Props = {
-  title:string
+  title: string
 }
 
-const LatestThinking3 = (props : Props) => {
+const LatestThinking3 = (props: Props) => {
   return (
     <>
       <section className="flex flex-col gap-y-5 py-10">

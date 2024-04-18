@@ -4,7 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-type Props = {};
+type Props = {
+  button: string
+};
 
 const EcomGrid3 = (props: Props) => {
   return (
@@ -24,7 +26,7 @@ const EcomGrid3 = (props: Props) => {
           >
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-                Discuss your Ecommerce <span> development project </span>
+                {props.button}
 
               </span>
             </Button>
