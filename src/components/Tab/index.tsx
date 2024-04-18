@@ -5,9 +5,7 @@ import Image from "next/image";
 import { Button } from "../ui/button";
 import Link from "next/link";
 type Props = {
-  
     button: string;
-    
 }
 const Tab = (props:Props) => {
   return (
@@ -21,7 +19,7 @@ const Tab = (props:Props) => {
                 className="flex flex-col gap-5  justify-between  text-heading4 px-5  py-5  lg:px-16 md:px-8   "
                 value={item.value}
               >
-                <img
+                <Image
                   src={item.image}
                   alt="tab-items"
                   title="tabs-svgs"

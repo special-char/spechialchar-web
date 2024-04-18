@@ -44,7 +44,7 @@ const Banner = (props:Props) => {
           </div>
         </div>
         <div className="lg:relative flex justify-center items-center ">
-          <img
+          <Image
             src={props.image}
             alt="image"
             title="Banner-image"
