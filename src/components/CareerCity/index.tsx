@@ -3,18 +3,21 @@ import { careercity } from "@/lib/constData";
 import { CareerCityType } from "@/utils/types";
 import React from "react";
 import Image from "next/image";
-
-const CareerCity = ({ data }: CareerCityType) => {
+type Props = {
+  title: string;
+  description: string;
+}
+const CareerCity = (props: Props) => {
   return (
     <section>
       <div className="flex flex-col lg:flex-row-reverse gap-9 lg:py-5  ">
         <div className=" lg:p-3 ">
           <h2 className="text-heading1 ">
-            {data.title}
+            {props.title}
           </h2>
         </div>
         <div className=" text-subtitle1 lg:py-12">
-          {data.description}
+          {props.description}
         </div>
       </div>
 
