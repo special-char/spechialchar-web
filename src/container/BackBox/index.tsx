@@ -3,7 +3,13 @@ import { backbox } from "@/lib/constData";
 import Link from "next/link";
 import React from "react";
 
-const BackBox = () => {
+
+type Props = {
+  button1:string,
+  button2:string
+}
+
+const BackBox = (props : Props) => {
   return (
     <section>
       <section className="bg-lightblue md:p-10 rounded-lg ">
@@ -20,7 +26,7 @@ const BackBox = () => {
         <Link href={"#Contact"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-              Talk to back-end <span>development experts</span>
+              {props.button1}<span>{props.button2}</span>
             </span>
           </Button>
         </Link>

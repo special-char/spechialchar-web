@@ -4,7 +4,12 @@ import { backicon2 } from "@/lib/constData";
 import Link from "next/link";
 import React from "react";
 
-const BackGrid3 = () => {
+type Props = {
+  button1:string,
+  button2:string
+}
+
+const BackGrid3 = (props : Props) => {
   return (
     <section>
       <div className="grid md:grid-cols-4 gap-8 ">
@@ -16,7 +21,7 @@ const BackGrid3 = () => {
         <Link href={"#Contact"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-              Build Custom back-end<span>Solution </span>
+              {props.button1}<span>{props.button2}</span>
             </span>
           </Button>
         </Link>

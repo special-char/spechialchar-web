@@ -4,13 +4,15 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 
-type Props = {};
+type Props = {
+  title1:string
+};
 
-const AboutLinks = ({ data }: aboutlinksType) => {
+const AboutLinks = (props : Props) => {
   return (
     <section className="">
       <h2 className="pb-5 flex justify-start w-auto text-heading1">
-        {data.title1}
+        {props.title1}
       </h2>
       <div className=" ">
         {aboutlinks.data.map((item) => (

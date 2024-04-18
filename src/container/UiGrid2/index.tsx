@@ -4,9 +4,12 @@ import { uiGrid2 } from "@/lib/constData";
 import Link from "next/link";
 import React from "react";
 
-type Props = {};
+type Props = {
+  button1:string,
+  button2:string
+};
 
-const UiGrid = (props: Props) => {
+const UiGrid2 = (props: Props) => {
   return (
     <>
       <section>
@@ -19,7 +22,7 @@ const UiGrid = (props: Props) => {
           <Link href={"#Contact"}>
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-                Discuss your Ui/Ux <span>design needs </span>
+                {props.button1}<span>{props.button2}</span>
               </span>
             </Button>
           </Link>
@@ -30,4 +33,4 @@ const UiGrid = (props: Props) => {
   );
 };
 
-export default UiGrid;
+export default UiGrid2;

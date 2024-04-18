@@ -3,7 +3,11 @@ import { serviceBox1 } from "@/lib/constData";
 import Link from "next/link";
 import React from "react";
 
-const SaasBox = () => {
+type Props = {
+  button:string
+}
+
+const SaasBox = (props : Props) => {
   return (
     <>
       <section>
@@ -27,10 +31,7 @@ const SaasBox = () => {
           <Link href={"#Contact"}>
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-                Lets Discuss Our{" "}
-                <span>
-                  partnership
-                </span>
+                {props.button}
               </span>
             </Button>
           </Link>

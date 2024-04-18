@@ -4,9 +4,12 @@ import { cloudgrid4 } from "@/lib/constData";
 import Link from "next/link";
 import React from "react";
 
-type Props = {};
+type Props = {
+  button1:string
+  button2:string
+};
 
-const CloudGrid4 = () => {
+const CloudGrid4 = (props : Props) => {
   return (
     <>
       <section>
@@ -19,8 +22,7 @@ const CloudGrid4 = () => {
           <Link title="cloud-strategy" href={"#Contact"}>
             <Button>
               <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-                Discuss my cloud<span>strategy</span>
-
+                {props.button1}<span>{props.button2}</span>
               </span>
             </Button>
           </Link>

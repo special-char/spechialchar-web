@@ -4,10 +4,13 @@ import { aboutBanner2Type } from "@/utils/types";
 import Image from "next/image";
 import React from "react";
 
-const AboutBanner2 = ({ data }: aboutBanner2Type) => {
+type Props ={
+  heading:string
+}
+const AboutBanner2 = (props : Props) => {
   return (
     <section className="bg-yellow">
-      <div className="text-heading1">{data.heading}</div>
+      <div className="text-heading1">{props.heading}</div>
       {aboutBanner2.section.map((item, i) => {
         return (
           <>

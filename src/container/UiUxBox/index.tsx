@@ -3,7 +3,12 @@ import { uiuxbox } from "@/lib/constData";
 import Link from "next/link";
 import React from "react";
 
-const UiUxBox = () => {
+type Props ={
+  button1:string,
+  button2:string
+}
+
+const UiUxBox = (props : Props) => {
   return (
     <section>
       <section className="bg-lightpink md:p-10 rounded-lg ">
@@ -20,8 +25,7 @@ const UiUxBox = () => {
         <Link href={"#Contact"}>
           <Button>
             <span className="flex flex-wrap justify-center gap-x-[0.22rem]">
-              Work with our UI/UX<span>design company</span>
-
+              {props.button1}<span>{props.button2}</span>
             </span>
           </Button>
         </Link>
