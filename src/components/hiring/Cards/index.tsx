@@ -10,10 +10,10 @@ const Cards = ({ data, side }: Props) => {
   return (
     <div
       className={cn(
-        "aspect-square w-full   shadow-xl shadow-black/20 rounded-md bg-white p-4  font-extrabold flex flex-col flex-1 justify-between",
+        "aspect-square w-full   shadow-xl shadow-black/20 rounded-md bg-white p-2 md:p-4  font-extrabold flex flex-col flex-1 justify-between",
         {
-          ["w-[50%] max-w-[150px] max-sm:max-w-[100px]"]: side == "left",
-          ["max-w-[33%]"]: side == "bottom",
+          ["w-[50%] max-w-[150px] max-sm:max-w-[90px]"]: side == "left",
+          ["max-w-[33%] max-sm:max-w-[90px]"]: side == "bottom",
         }
       )}
     >

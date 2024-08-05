@@ -14,7 +14,7 @@ const Titlecards = ({ titledata, className }: Props) => {
   return (
     <div
       className={cn(
-        "flex flex-col gap-1  h-full border rounded-lg p-5  w-full bg-white  max-w-[380px] line-clamp-3 max-h-[200px]",
+        "flex flex-col gap-1  h-full border rounded-lg p-5  w-full bg-white  max-w-[390px] line-clamp-3 max-h-[200px]",
         className!
       )}
     >

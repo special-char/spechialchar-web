@@ -8,11 +8,14 @@ const HiringFeatureSection = (props: Props) => {
   return (
     <div className="w-full h-full px-container flex flex-col gap-10 py-4 md:py-10">
       {HiringSectionServices.map((item, index) => (
-        <div className="flex flex-col gap-5 *:h-full" key={index}>
+        <div
+          className="flex flex-col gap-5 *:h-full max-lg:items-center"
+          key={index}
+        >
           <HiringSectionHeading title={item.title} decription={item.dec} />
           <div
             className="columns-3 flex overflow-hidden gap-5
-         max-sm:flex-col flex-wrap h-full"
+         max-sm:flex-col flex-wrap h-full items-center justify-center"
           >
             {item.cardsdata &&
               item?.cardsdata.map((item, index) => (

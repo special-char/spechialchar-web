@@ -12,17 +12,27 @@ const WorkWithUs = (props: Props) => {
         <p className="text-caption1 font-normal">{data.dec}</p>
       </div>
       <div className="flex flex-col md:gap-32 gap-8 py-10 relative">
-        <div className="absolute left-1/2 top-12 translate-x-[-50%] w-[2px] *: bg-zinc-300 h-full max-sm:left-1"></div>
+        <div className="absolute left-1/2 top-12 translate-x-[-50%] w-[1px] *: bg-zinc-200 h-full max-sm:left-1"></div>
         {data.Imagesection.map((item, i) => (
           <>
             <div
               className={cn(
-                "flex gap-20 justify-center w-full  max-md:py-2  relative max-sm:flex-col max-sm:items-center max-sm:left-1",
+                "flex gap-20 justify-center w-full   relative max-sm:flex-col max-sm:items-center max-sm:left-1",
                 {
-                  ["flex-row-reverse "]: i % 2 != 0,
+                  ["flex-row-reverse "]: i % 2 == 0,
                 }
               )}
             >
+              <div className="flex flex-col items-center w-full  md:max-w-[50%] max-md:px-5">
+                <div>
+                  <h4 className="font-normal text-subtitle1">{item.title}</h4>
+                  <p className="font-light text-caption1 ">{item.dec}</p>
+                </div>
+              </div>
+
+              <div className="rounded-full border absolute left-1/2 top-0  translate-x-[-50%]  max-sm:translate-x-[-35%]  flex justify-center items-center w-7 aspect-square  z-10 bg-background max-sm:-left-1">
+                {i + 1}
+              </div>
               <div className="w-full md:max-w-[50%] h-full flex  justify-center md:pt-8">
                 <ImageWithCards
                   imageurl={item.imagecarddata.imageurl}
@@ -32,16 +42,6 @@ const WorkWithUs = (props: Props) => {
                     i % 2 != 0 && `pl-10`
                   }`}
                 />
-              </div>
-
-              <div className="flex flex-col items-center w-full  md:max-w-[50%] max-md:px-5">
-                <div>
-                  <h4 className="font-normal text-subtitle1">{item.title}</h4>
-                  <p className="font-light text-caption1 ">{item.dec}</p>
-                </div>
-              </div>
-              <div className="rounded-full border absolute left-1/2 top-0  translate-x-[-50%]  max-sm:translate-x-[-35%]  flex justify-center items-center w-7 aspect-square  z-10 bg-background max-sm:-left-1">
-                {i + 1}
               </div>
             </div>
           </>

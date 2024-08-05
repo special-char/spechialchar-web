@@ -11,7 +11,7 @@ type Props = {};
 
 const HiringKnow = (props: Props) => {
   return (
-    <div className="w-full h-full min-h-dvh px-container bg-blue py-4 md:py-10 flex flex-col gap-10">
+    <div className="w-full h-full min-h-dvh px-container bg-blue py-10 flex flex-col gap-10">
       <div className="w-full h-full flex gap-20 max-md:flex-col items-center justify-between ">
         {" "}
         <div className="flex flex-col gap-10 max-md:*:text-center lg:max-w-[40%] md:self-start md:py-10 *:text-white">
@@ -32,11 +32,11 @@ const HiringKnow = (props: Props) => {
           className={data.className}
         />
       </div>
-      <div className="flex justify-center max-sm:flex-col max-sm:items-center gap-4 ">
+      <div className="flex justify-center max-sm:flex-col max-sm:items-center gap-10 ">
         {data.subdiv.map((item, index) => (
           <div
             className={
-              "flex flex-col  gap-6  h-full  p-5  w-full   max-w-[350px] line-clamp-3 text-white"
+              "flex flex-col  gap-6  h-full    w-full   max-w-[350px] line-clamp-3 text-white"
             }
             key={index}
           >
