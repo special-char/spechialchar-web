@@ -11,7 +11,7 @@ type Props = {};
 
 const HiringFrequrntlyAskedQuestions = (props: Props) => {
   return (
-    <div className="px-container w-full min-h-dvh h-full flex items-center flex-col gap-5 py-10">
+    <div className="px-container w-full min-h-dvh h-full flex items-center flex-col gap-5 py-4 md:py-10">
       <div className="flex flex-col gap-4 items-center py-5">
         <h2 className="text-heading1">{data.title}</h2>
         <h3 className="text-body2">{data.dec}</h3>

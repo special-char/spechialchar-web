@@ -8,7 +8,7 @@ type Props = {};
 
 const JobMatch = (props: Props) => {
   return (
-    <div className="w-full h-full flex flex-col gap-10 px-container ">
+    <div className="w-full h-full flex flex-col gap-10 px-container  py-4 md:py-10">
       {data.map((item, index) => (
         <div
           className={cn(

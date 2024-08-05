@@ -6,7 +6,7 @@ type Props = {};
 
 const WorkWithUs = (props: Props) => {
   return (
-    <div className="w-full h-full px-container py-10">
+    <div className="w-full h-full px-container py-4 md:py-20">
       <div className="flex flex-col gap-4 items-center">
         <h3 className="text-heading3 font-normal">{data.title}</h3>
         <p className="text-caption1 font-normal">{data.dec}</p>
