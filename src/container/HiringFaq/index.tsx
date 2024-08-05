@@ -25,6 +25,7 @@ const HiringFrequrntlyAskedQuestions = (props: Props) => {
             <AccordionItem
               value={item.title}
               className="w-full rounded-2xl border-2 px-4 md:px-8 py-2 flex flex-col gap-4 "
+              key={index}
             >
               <AccordionTrigger className="flex justify-between w-full text-body1 items-center font-medium">
                 {item.title}
