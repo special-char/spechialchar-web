@@ -4166,3 +4166,281 @@ export const JobData = {
     },
   ],
 };
+
+// export const HiringSectionTitledata = {
+//   title: "Overseas teams that feel like in-house teams",
+//   decription:
+//     "Hire top remote LATAM talent for your company at up to 60% less cost than typical US-based employees.",
+// };
+export const HiringSectionBanner = {
+  title: "Overseas teams that feel like in-house teams",
+  decription:
+    "Hire top remote LATAM talent for your company at up to 60% less cost than typical US-based employees.",
+  btntext: "Start Hiring for free",
+  imageurl: "@/public.images/AboutBanner2.webp",
+  className: "",
+  cardata: [
+    {
+      title: "Excepted Cost Savings",
+      subdec: "50-70%",
+    },
+    {
+      title: "Excepted Cost Savings",
+      subdec: "50-70%",
+    },
+    {
+      title: "Excepted Cost Savings",
+      subdec: "50-70%",
+    },
+  ],
+};
+
+export const HiringSectionServices = [
+  {
+    title: "Employee-as-a-Service",
+    dec: "We not only identify the ideal candidates, but also handle all formalities, from hiring to managing their payment. In this way, we become your strategic ally, simplifying your business growth.",
+    cardsdata: [
+      {
+        title: "For Startups",
+        dec: "We provide top-notch talent to help startups scale quickly and efficiently.",
+      },
+      {
+        title: "For SMBs",
+        dec: "Traditional businesses can leverage our services to find the right talent at a fraction of the cost.",
+      },
+      {
+        title: "For Firms",
+        dec: "We offer specialized staffing solutions for small accounting, legal, and other professional firms.",
+      },
+    ],
+  },
+  {
+    title: "Risk-Free Hiring",
+    dec: "At Vintti, 'Risk-Free' means you can interview candidates for free, and if you don't hire, you don't pay.",
+    // cardsdata: [
+    //   {
+    //     title: "For Startups",
+    //     dec: "We provide top-notch talent to help startups scale quickly and efficiently.",
+    //   },
+    //   {
+    //     title: "For SMBs",
+    //     dec: "Traditional businesses can leverage our services to find the right talent at a fraction of the cost.",
+    //   },
+    //   {
+    //     title: "For Firms",
+    //     dec: "We offer specialized staffing solutions for small accounting, legal, and other professional firms.",
+    //   },
+    // ],
+  },
+  {
+    title: "360 Solution for Your Business",
+    dec: "Our comprehensive solution includes candidate search and vetting, payroll management, logistics handling, compliance management, and partnership in employee benefits such as gifts and bonuses.",
+    cardsdata: [
+      {
+        title: "Candidate Search and Vetting",
+        dec: "We find and vet the best candidates to fit your business needs.",
+      },
+      {
+        title: "Payroll Management",
+        dec: "We handle payroll, ensuring your employees are paid accurately and on time.",
+      },
+      {
+        title: "Logistics Management",
+        dec: "We handle all logistics, including equipment delivery, to ensure smooth operations.",
+      },
+      {
+        title: "Compliance Management",
+        dec: "We ensure your business is always in compliance with all regulations.",
+      },
+      {
+        title: "Employee Benefits Management",
+        dec: "As your partner, we assist in managing gifts, bonuses, and other employee benefits.",
+      },
+    ],
+  },
+];
+export const JobMatch = [
+  {
+    title: "...but finding the perfect match can be tough.",
+    decription: `"I've always had difficulty finding reliable professionals abroad, but they connected me with an exceptional one!"`,
+    // btntext: "Start Hiring for free",
+    btntext: {
+      asbtn: false,
+      text: "Jeff, Business Owner",
+    },
+    imageurl: "@/public.images/AboutBanner2.webp",
+    className: "",
+    side: "left",
+    cardata: [
+      {
+        title: "Time to Hire",
+        subdec: "+80% faster",
+      },
+      {
+        title: "Excepted Cost Savings",
+        subdec: "-93% stress",
+      },
+    ],
+  },
+  {
+    title: "That's where we come in.",
+    decheading: "Let us find your next favorite employee.",
+    decription: [
+      "Utilize our experience hiring in South America for our own businesses.",
+      "Headhunter team based in the South America",
+      "Robust database of vetted candidates",
+    ],
+    // btntext: "Start Hiring for free",
+    btntext: {
+      asbtn: true,
+      text: "Start Hiring for free",
+    },
+
+    imageurl: "@/public.images/AboutBanner2.webp",
+    className: "",
+    side: "bottom",
+    cardata: [
+      {
+        title: "Time to Hire",
+        subdec: "+80% faster",
+      },
+      {
+        title: "Excepted Cost Savings",
+        subdec: "-93% stress",
+      },
+    ],
+  },
+];
+
+export const doyouknowsection = {
+  title: "Did You Know?",
+  dec: "You can secure high-quality south american talent in just 14 days and for around $9,000 USD per year.",
+  btntext: "Get Staffed Now",
+
+  imageurl: "@/public.images/AboutBanner2.webp",
+  className: "max-w-[400px]",
+  side: "left",
+  cardata: [
+    {
+      title: "Time to Hire",
+      subdec: "+80% faster",
+    },
+  ],
+  subdiv: [
+    {
+      title: "TIME-ZONE ALIGNED MEMBER",
+      dec: "Recognizing the importance of synchrony in business operations, we maintain a rich talent 100% aligned with your time zone.",
+    },
+    {
+      title: "CULTURAL-FIT TEAM MEMBER",
+      dec: "Find the perfect fit for your business with professionals who effortlessly blend into the US business culture.",
+    },
+    {
+      title: "RICH TALENT POOL",
+      dec: "Access a vast pool of skilled professionals in South America, offering high-quality work at competitive rates.",
+    },
+  ],
+};
+export const frequentlyaskdata = {
+  title: "Frequently Asked Questions",
+  dec: "Here are some common questions about our staffing services for startups across various industries.",
+
+  accordiondata: [
+    {
+      title: "What is Vintti?",
+      dec: "Vintti is a staffing agency that helps startups hire top-notch professionals from South America across various roles and industries.",
+    },
+    {
+      title: "What are the benefits of hiring talent through Vintti?",
+      dec: "Hiring talent through Vintti can save you time, reduce costs, and provide access to expert resources. Plus, you can trust in our 99% satisfaction rate and experience in the industry.",
+    },
+    {
+      title: "What roles can I hire for through Vintti?",
+      dec: "We offer a variety of roles across different industries. You can explore these roles on our website to learn more about the responsibilities and qualifications.",
+    },
+    {
+      title: "What can I expect when hiring talent through Vintti?",
+      dec: "When you hire through us, you can expect a dedicated team of professionals committed to boosting your startup with top South American talent. We are trusted by over 50 clients and have a proven track record of success.",
+    },
+    {
+      title: "How does Vintti ensure the quality of talent?",
+      dec: "We have a rigorous selection process to ensure we only provide highly skilled and experienced professionals.",
+    },
+    {
+      title: "Can I hire talent for short-term projects?",
+      dec: "While it's possible to hire talent for short-term projects, it can be more challenging to find professionals interested in short-term engagements. We generally recommend longer-term commitments for the best results. If you do need short-term talent, we suggest not making it an exclusive job role.",
+    },
+
+    {
+      title: "What is the process of hiring talent through Vintti?",
+      dec: "Our process is simple and transparent. We understand your needs, shortlist candidates, arrange interviews, and handle all administrative tasks. We aim to make hiring as easy as possible for you.",
+    },
+  ],
+};
+
+export const Workwithus = {
+  title: "What to expect when you work with us",
+  dec: "Interviewing candidates is completely free of charge.",
+  Imagesection: [
+    {
+      title: "First call",
+      dec: "In this initial step, we will evacuate all doubts and set the foundation for a successful collaboration.",
+      imagecarddata: {
+        imageurl: "@/public.images/AboutBanner2.webp",
+        className: "",
+        side: "left",
+        cardata: [
+          {
+            title: "Excepted Cost Savings",
+            subdec: "50-70%",
+          },
+        ],
+      },
+    },
+    {
+      title: "First call",
+      dec: "In this initial step, we will evacuate all doubts and set the foundation for a successful collaboration.",
+      imagecarddata: {
+        imageurl: "@/public.images/AboutBanner2.webp",
+        className: "",
+        side: "left",
+        cardata: [
+          {
+            title: "Excepted Cost Savings",
+            subdec: "50-70%",
+          },
+        ],
+      },
+    },
+    {
+      title: "First call",
+      dec: "In this initial step, we will evacuate all doubts and set the foundation for a successful collaboration.",
+      imagecarddata: {
+        imageurl: "@/public.images/AboutBanner2.webp",
+        className: "",
+        side: "left",
+        cardata: [
+          {
+            title: "Excepted Cost Savings",
+            subdec: "50-70%",
+          },
+        ],
+      },
+    },
+    {
+      title: "First call",
+      dec: "In this initial step, we will evacuate all doubts and set the foundation for a successful collaboration.",
+      imagecarddata: {
+        imageurl: "@/public.images/AboutBanner2.webp",
+        className: "",
+        side: "left",
+        cardata: [
+          {
+            title: "Excepted Cost Savings",
+            subdec: "50-70%",
+          },
+        ],
+      },
+    },
+  ],
+};
