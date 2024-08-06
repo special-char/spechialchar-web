@@ -9,7 +9,7 @@ const HiringSectionHeading = ({ title, decription }: Props) => {
   return (
     <div className="flex flex-col max-xl:text-center">
       <h2 className="text-blue text-heading2">{title}</h2>
-      <h3 className="font-light text-neutral-600 lg:max-w-[60%] w-full text-subtitle1 leading-7">
+      <h3 className="font-light text-neutral-600   xl:max-w-[60%] w-full text-subtitle1 leading-7">
         {decription}
       </h3>
     </div>

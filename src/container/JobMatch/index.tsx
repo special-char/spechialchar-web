@@ -19,11 +19,13 @@ const JobMatch = (props: Props) => {
           )}
           key={index}
         >
-          <ImageWithCards
-            carddata={item.cardata}
-            side={item?.side as "left" | "bottom"}
-            imageurl={item.imageurl}
-          />
+          <div className="h-full w-full flex items-center justify-center">
+            <ImageWithCards
+              carddata={item.cardata}
+              side={item?.side as "left" | "bottom"}
+              imageurl={item.imageurl}
+            />
+          </div>
           {/* heading section */}
           <div className="flex flex-col gap-10 max-md:*:text-center lg:max-w-[40%]">
             <h3 className="text-heading1 ">{item.title}</h3>
@@ -46,7 +48,7 @@ const JobMatch = (props: Props) => {
             {!item.btntext.asbtn ? (
               <p className="font-semibold">{item.btntext.text}</p>
             ) : (
-              <Button className="bg-blue rounded-lg lg:max-w-[40%] w-full">
+              <Button className="bg-blue rounded-lg xl:max-w-[40%] w-full">
                 <span className="font-light capitalize ">
                   {item.btntext.text}
                 </span>
