@@ -61,7 +61,7 @@ const ImageWithCards = ({
         className={cn({
           ["absolute  -left-2 md:-left-10 bottom-0 translate-y-[30%] flex gap-2 w-full"]:
             side == "bottom",
-          [`absolute left-0 md:-left-10 top-[${pov}%] translate-x-[-5%] md:-translate-x-[10%]  flex flex-col gap-2 w-full`]:
+          [`absolute left-0 md:-left-2 lg:-left-5  xl:-left-10 top-[${pov}%] translate-x-[-5%] xl:-translate-x-[10%]  flex flex-col gap-2 w-full`]:
             side == "left",
         })}
         style={{

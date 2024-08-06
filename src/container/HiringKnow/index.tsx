@@ -11,7 +11,7 @@ type Props = {};
 
 const HiringKnow = (props: Props) => {
   return (
-    <div className="w-full h-full min-h-dvh px-container bg-blue py-10 flex flex-col gap-10">
+    <div className="w-full h-full min-h-dvh px-container bg-blue py-10 flex flex-col gap-10 hiring-section">
       <div className="w-full h-full flex gap-20 max-md:flex-col items-center justify-between ">
         {" "}
         <div className="flex flex-col gap-10 max-md:*:text-center lg:max-w-[40%] md:self-start md:py-10 *:text-white">
@@ -19,7 +19,7 @@ const HiringKnow = (props: Props) => {
 
           <p>{data.dec}</p>
 
-          <Button className="rounded-lg md:max-w-[40%] w-full bg-white hover:translate-y-[-10%] hover:bg-white transition-transform duration-300">
+          <Button className=" md:max-w-[40%] w-full bg-white hover:translate-y-[-10%] hover:bg-white transition-transform duration-300">
             <span className="font-medium capitalize text-black ">
               {data.btntext}
             </span>
