@@ -8,22 +8,24 @@ type Props = {};
 
 const JobMatch = (props: Props) => {
   return (
-    <div className="w-full h-full flex flex-col gap-10 px-container  py-4 md:py-10">
+    <div className="w-full h-full flex flex-col gap-10 px-container  py-4 md:py-10 ">
       {data.map((item, index) => (
         <div
           className={cn(
-            "flex justify-center items-center  gap-20 w-full max-md:flex-col-reverse",
+            "flex justify-center items-center  gap-20 w-full max-md:flex-col-reverse hiring-section",
             {
               [" md:flex-row-reverse  gap-32 items-center"]: index % 2 != 0,
             }
           )}
           key={index}
         >
-          <ImageWithCards
-            carddata={item.cardata}
-            side={item?.side as "left" | "bottom"}
-            imageurl={item.imageurl}
-          />
+          <div className="h-full w-full flex items-center justify-center">
+            <ImageWithCards
+              carddata={item.cardata}
+              side={item?.side as "left" | "bottom"}
+              imageurl={item.imageurl}
+            />
+          </div>
           {/* heading section */}
           <div className="flex flex-col gap-10 max-md:*:text-center lg:max-w-[40%]">
             <h3 className="text-heading1 ">{item.title}</h3>
@@ -46,7 +48,7 @@ const JobMatch = (props: Props) => {
             {!item.btntext.asbtn ? (
               <p className="font-semibold">{item.btntext.text}</p>
             ) : (
-              <Button className="bg-blue rounded-lg lg:max-w-[40%] w-full">
+              <Button className="bg-blue px-10 xl:max-w-[50%] w-full">
                 <span className="font-light capitalize ">
                   {item.btntext.text}
                 </span>
