@@ -26,8 +26,8 @@ const ImageTextBanner = ({
       <div className="flex flex-col gap-10 justify-center lg:max-w-[50%]">
         <h1 className="text-heading1 lg:leading-[4.5rem]">{title}</h1>
         <p>{decription}</p>
-        <Button className="bg-blue rounded-lg lg:max-w-[40%] w-full">
-          <span className="font-light capitalize ">{btntext}</span>
+        <Button className="bg-blue  lg:max-w-[50%] w-full ">
+          <span className="font-semibold capitalize ">{btntext}</span>
         </Button>
       </div>
       <ImageWithCards carddata={cardata} imageurl={imageurl} side="bottom" />

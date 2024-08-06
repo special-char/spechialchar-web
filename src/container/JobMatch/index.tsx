@@ -48,7 +48,7 @@ const JobMatch = (props: Props) => {
             {!item.btntext.asbtn ? (
               <p className="font-semibold">{item.btntext.text}</p>
             ) : (
-              <Button className="bg-blue rounded-lg xl:max-w-[40%] w-full">
+              <Button className="bg-blue px-10 xl:max-w-[50%] w-full">
                 <span className="font-light capitalize ">
                   {item.btntext.text}
                 </span>

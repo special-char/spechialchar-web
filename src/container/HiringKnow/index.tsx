@@ -19,7 +19,7 @@ const HiringKnow = (props: Props) => {
 
           <p>{data.dec}</p>
 
-          <Button className="rounded-lg md:max-w-[40%] w-full bg-white hover:translate-y-[-10%] hover:bg-white transition-transform duration-300">
+          <Button className=" md:max-w-[40%] w-full bg-white hover:translate-y-[-10%] hover:bg-white transition-transform duration-300">
             <span className="font-medium capitalize text-black ">
               {data.btntext}
             </span>
