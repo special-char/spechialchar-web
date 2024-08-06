@@ -16,8 +16,8 @@ export default function MyApp() {
       });
     })();
   }, []);
-  const ls = process.env.CAL;
-  console.log(ls, "::::::::::;");
+  // const ls = process.env.CAL;
+  // console.log(calLink, "::::::::::;");
 
   return (
     <>
