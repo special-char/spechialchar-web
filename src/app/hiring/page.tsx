@@ -7,6 +7,7 @@ import HiringKnow from "@/container/HiringKnow";
 import HiringSectionBanner from "@/container/HiringSectionBanner";
 import WorkWithUs from "@/container/HiringWorkWithUs";
 import JobMatch from "@/container/JobMatch";
+import MeetingHiring from "@/container/Meeting-Hiring";
 import { title } from "process";
 import React from "react";
 
@@ -85,6 +86,7 @@ const page = (props: Props) => {
       <HiringKnow />
       <JobMatch />
       <WorkWithUs />
+      <MeetingHiring />
       <HiringFrequrntlyAskedQuestions />
     </div>
   );

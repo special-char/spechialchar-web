@@ -6,18 +6,18 @@ type Props = {};
 
 const WorkWithUs = (props: Props) => {
   return (
-    <div className="w-full h-full px-container py-4 md:py-20">
+    <div className="w-full h-full px-container py-4 md:py-20 ">
       <div className="flex flex-col gap-4 items-center">
         <h3 className="text-heading3 font-normal">{data.title}</h3>
         <p className="text-caption1 font-normal">{data.dec}</p>
       </div>
-      <div className="flex flex-col md:gap-32 gap-8 py-10 relative">
-        <div className="absolute left-1/2 top-12 translate-x-[-50%] w-[1px] *: bg-zinc-200 h-full max-sm:left-1"></div>
+      <div className="flex flex-col md:gap-32 gap-8 py-10 relative translate-y-[50px]">
+        <div className="absolute left-1/2 top-12 translate-x-[-50%] w-[1px]  *: bg-zinc-200 h-full max-sm:left-1 translate-y-[-50px]"></div>
         {data.Imagesection.map((item, i) => (
           <>
             <div
               className={cn(
-                "flex gap-20 justify-center w-full   relative max-sm:flex-col max-sm:items-center max-sm:left-1",
+                "flex gap-20 justify-center w-full   relative max-sm:flex-col max-sm:items-center max-sm:left-1 hiring-section",
                 {
                   ["flex-row-reverse "]: i % 2 == 0,
                 }

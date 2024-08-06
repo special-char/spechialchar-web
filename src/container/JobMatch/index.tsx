@@ -8,11 +8,11 @@ type Props = {};
 
 const JobMatch = (props: Props) => {
   return (
-    <div className="w-full h-full flex flex-col gap-10 px-container  py-4 md:py-10">
+    <div className="w-full h-full flex flex-col gap-10 px-container  py-4 md:py-10 ">
       {data.map((item, index) => (
         <div
           className={cn(
-            "flex justify-center items-center  gap-20 w-full max-md:flex-col-reverse",
+            "flex justify-center items-center  gap-20 w-full max-md:flex-col-reverse hiring-section",
             {
               [" md:flex-row-reverse  gap-32 items-center"]: index % 2 != 0,
             }

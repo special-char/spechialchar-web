@@ -6,7 +6,7 @@ type Props = {};
 
 const HiringFeatureSection = (props: Props) => {
   return (
-    <div className="w-full h-full px-container flex flex-col gap-10 py-4 md:py-10">
+    <div className="w-full h-full px-container flex flex-col gap-10 py-4 md:py-10 hiring-section">
       {HiringSectionServices.map((item, index) => (
         <div
           className="flex flex-col gap-5 *:h-full max-lg:items-center"
