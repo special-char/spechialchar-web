@@ -11,43 +11,43 @@ export const homeAccordiandata = {
       id: 1,
       image: "/images/accord_1-1.gif",
       number: "01",
-      title: "Innovation Consulting",
-      desc: "Make your digital transformation journey super simple, safe, and aligned with your specific business needs. We're good at strategy planning for both enterprises and SMBs, IT audit, business process analysis, and more.",
+      title: "UI/UX Design",
+      desc: "We design user interfaces that are intuitive and easy to understand. Our goal is to ensure that your customers can navigate your website or app effortlessly. We focus on making every interaction, from clicks to swipes, feel natural and enjoyable, enhancing the overall user experience.",
     },
     {
       id: 2,
       image: "/images/accord_2-2.gif",
       number: "02",
-      title: "Digital Transformation",
-      desc: "Achieve lower costs, utmost scalability and maximum velocity with our legacy software modernization, cloud, and DevOps services. Our enterprise software development company is here to help you remove the roadblocks to innovation. ",
+      title: "Web Development",
+      desc: " Our team builds responsive, user-friendly websites that engage visitors and enhance your online presence. From concept to launch, we design and develop digital experiences that resonate with users.",
     },
     {
       id: 3,
       image: "/images/accord_3-3.gif",
       number: "03",
-      title: "Software Engineering",
-      desc: "Build enterprise software solutions that perform. We can cover you along the whole way or fill in specific skill gaps in business analysis, UX/UI, testing, development, or support across web, mobile, desktop, cloud, and embedded platforms.",
+      title: "Mobile App Development",
+      desc: "We develop custom mobile apps tailored to your specific needs, ensuring they work smoothly across all devices. Our apps are designed to be fast, reliable, and user-friendly, providing high-performance and seamless experiences across platforms.",
     },
     {
       id: 4,
       image: "/images/accord_4-4.gif",
       number: "04",
-      title: "Big Data & Analytics",
-      desc: "Use your torrents of data to drive decision-making across the company. From Data Governance & Data Management to Data Analytics and Data Science, we make business, not IT, own your data      ",
+      title: "SAAS Development",
+      desc: "Transform your business with our scalable SaaS solutions, designed to enhance efficiency and drive growth. We deliver robust, cloud-based applications tailored to meet your unique needs.",
     },
     {
       id: 5,
       image: "/images/accord_5-5.gif",
       number: "05",
-      title: "Artificial Intelligence",
-      desc: "ITRex AI consulting and development experts will address your business challenges using readily available and custom-trained models. Our AI app development know-how spans from ML and DL to NLP, Computer Vision, Generative AI, and IPA.      ",
+      title: "E-Commerce Solution",
+      desc: "We design e-commerce websites that are easy to manage and scalable as your business grows. Our custom solutions enhance online shopping with a seamless browsing and checkout experience, boosting sales and ensuring customer satisfaction.",
     },
     {
       id: 6,
       image: "/images/accord_6-6.gif",
       number: "06",
-      title: "Extended Reality",
-      desc: "Deliver immersive experiences through AR, VR, or MR to create new products, boost productivity, or launch into the metaverse. XR solutions help you bypass distance challenges and be innovative for real.",
+      title: "Corporate Training",
+      desc: "Our skilled developers provide corporate training designed to enhance your employees' skills and knowledge. We offer adaptable programs that can be customized to focus on the specific areas where your team needs to grow.",
     },
   ],
 };
@@ -71,7 +71,7 @@ export const tabdata = {
       id: 2,
       trigger: "Dedicated Teams",
       content:
-        "ITRex Group also provides end-to-end software product engineering services. We’ll dive into your project requirements, come up with a technology vision and estimates, assemble a winning team that will dedicate 100% of their time to your project, and deliver a software solution while keeping you informed and fully in charge of the development process.",
+        "TSC Group also provides end-to-end software product engineering services. We’ll dive into your project requirements, come up with a technology vision and estimates, assemble a winning team that will dedicate 100% of their time to your project, and deliver a software solution while keeping you informed and fully in charge of the development process.",
       value: "Dedicated Teams",
       image: "/icons/cooling-icon.svg",
     },
@@ -301,7 +301,7 @@ export const Card1 = {
       url: "/images/thinking5.webp",
       title: "The Special Character launches two more initiatives",
       description:
-        "Learn how ITRex continues to provide much-needed assistance to Ukranians living in crisis since Russia began its invasion.",
+        "Learn how TSC continues to provide much-needed assistance to Ukranians living in crisis since Russia began its invasion.",
       height: 200,
       width: 300,
       title1: "Initiatives",
@@ -481,7 +481,7 @@ export const serviceicon = {
       title: "Deployment & Maintenance",
       languages: "",
       description:
-        "The ITRex software engineering service team will follow DevOps best practices to set up a complete cloud infrastructure for your software solution, ensure faster updates, and monitor application performance. We offer three tiers of support, too.",
+        "The TSC software engineering service team will follow DevOps best practices to set up a complete cloud infrastructure for your software solution, ensure faster updates, and monitor application performance. We offer three tiers of support, too.",
     },
     {
       url: "/images/pencil-ruler-line.png",
@@ -513,7 +513,7 @@ export const banner = {
   button1: "Discuss your Software",
   button2: "engineering needs",
   description:
-    "Overhaul business processes, modernize existing technology systems, and bring innovative technology product to market with ITRex — a software engineering company that cares",
+    "Overhaul business processes, modernize existing technology systems, and bring innovative technology product to market with TSC — a software engineering company that cares",
 };
 
 export const SwiperServices = {
@@ -555,7 +555,7 @@ export const imageBanner = {
 
 export const Bgbanner1 = {
   description:
-    "As an IT firm that went all the way from a software engineering outsourcing company to a technology vendor with niche expertise, ITRex offers flexible engagement models to meet your requirements:",
+    "As an IT firm that went all the way from a software engineering outsourcing company to a technology vendor with niche expertise, TSC offers flexible engagement models to meet your requirements:",
 };
 
 export const imageBanner1 = {
@@ -663,7 +663,7 @@ export const banner2 = {
   button1: "Hire App Developer",
   button2: "",
   description:
-    "We create custom mobile Apps that beat business challenges, generate revenue and hit millions of downloads",
+    "We craft custom mobile apps that solve business problems, drive revenue, and achieve millions of downloads.",
 };
 export const testimonial = {
   data: [
@@ -683,7 +683,7 @@ export const testimonial = {
       title2: "Director of Product Management  ",
       title3: "Dollar Shave Club",
       description:
-        "Itrex is an outstanding partner. They don't even feel like a contractor, but more like a fully integrated team.",
+        "TSC is an outstanding partner. They don't even feel like a contractor, but more like a fully integrated team.",
     },
     {
       id: 3,
@@ -692,7 +692,7 @@ export const testimonial = {
       title2: "VP of Process and Technology   ",
       title3: " PotentiaMetrics, Inc.",
       description:
-        "Itrex’s team are experts in their trade. The&nbsp;software development they provided was critical to advancing the project to the next level.",
+        "TSC’s team are experts in their trade. The&nbsp;software development they provided was critical to advancing the project to the next level.",
     },
   ],
 };
@@ -704,14 +704,14 @@ export const serviceicon2 = {
       languages: "",
       title: "Enterprise Technology",
       description:
-        "The ITRex software product engineering firm is well-versed in enterprise IT technologies. ERP systems, CRM and help desk solutions, document and learning management systems, HRM and project management software, accounting and eProcurement tools — you can find it all in our portfolio.",
+        "The TSC software product engineering firm is well-versed in enterprise IT technologies. ERP systems, CRM and help desk solutions, document and learning management systems, HRM and project management software, accounting and eProcurement tools — you can find it all in our portfolio.",
     },
     {
       url: "/images/accord_2-2.gif",
       languages: "",
       title: "Artificial Intelligence",
       description:
-        "We take pride in our AI expertise and offer a wide range of innovative software engineering services to supercharge your technology systems. Partner with ITRex to develop apps with computer vision capabilities, train highly accurate machine learning models, and reduce bias in custom AI deployments. ",
+        "We take pride in our AI expertise and offer a wide range of innovative software engineering services to supercharge your technology systems. Partner with TSC to develop apps with computer vision capabilities, train highly accurate machine learning models, and reduce bias in custom AI deployments. ",
     },
     {
       url: "/images/accord_3-3.gif",
@@ -725,7 +725,7 @@ export const serviceicon2 = {
       languages: "",
       title: "Big Data & Analytics",
       description:
-        "ITRex Group is a software engineering company with a strong background in data science. Do you need help customizing SaaS business intelligence (BI) products to best suit your analytics? Are you struggling to interpret unstructured data or ensure an uninterrupted flow of information across your IT infrastructure? Whatever your objectives are, we’ve got you covered!    ",
+        "TSC Group is a software engineering company with a strong background in data science. Do you need help customizing SaaS business intelligence (BI) products to best suit your analytics? Are you struggling to interpret unstructured data or ensure an uninterrupted flow of information across your IT infrastructure? Whatever your objectives are, we’ve got you covered!    ",
     },
     {
       url: "/images/accord_5-5.gif",
@@ -806,7 +806,7 @@ export const mobiletabdata = {
 export const mobileicon = {
   heading: "Custom app solutions for any mobile platform",
   texts:
-    "We develop consumer and enterprise apps of any complexity that can handle a rapidly growing user base. Many of our clients’ products have expanded from an MVP to a full-featured app with millions of users.",
+    "Our team develops both consumer and enterprise apps of any complexity, designed to scale with a growing user base. We have helped many clients evolve from a basic MVP to fully-featured apps with millions of users.",
   button1: "Let's build an app",
   button2: "",
   data: [
@@ -814,7 +814,7 @@ export const mobileicon = {
       url: "/icons/aindroid.svg",
       title: "Andorid",
       description:
-        "Using innovative concepts and data-driven insights, we craft high-performance apps that rank high on Google Play and transform business.",
+        "Our approach combines cutting-edge concepts with data-driven insights to build high-performance apps that rank prominently on Google Play and revolutionize your business.",
 
       languages: "Java | Kotlin",
     },
@@ -822,7 +822,7 @@ export const mobileicon = {
       url: "/icons/ios-1.svg",
       title: "Ios",
       description:
-        "We boast a legacy of great iOS apps for a range of business niches, which never leave the iPhones and iPads home screens of the delighted users.",
+        "We design iOS apps for various business niches, delivering valuable experiences that engage users and support your goals. Our apps enhance interaction and ensure reliable performance.",
 
       languages: "Swift | Objective-C",
     },
@@ -830,7 +830,7 @@ export const mobileicon = {
       url: "/icons/cross_platforms.svg",
       title: "Cross Platform",
       description:
-        "Whatever the complexity, we bring the full benefit of cross-platform tech to the table, including lower costs, faster time to market and maximum reach.",
+        "No matter how complex your needs, we assist with cross-platform technology, offering benefits like lower costs, faster time to market, and maximum reach.",
 
       languages: "React Native | Flutter",
     },
@@ -843,7 +843,7 @@ export const mobileServicesdata = {
       id: 1,
       title: "Development",
       description:
-        "Our development strategies focus on creating a future-proof app architecture, selecting the right tech stack and using best development practices.",
+        "We focus on developing a robust app architecture, selecting the right technology stack, and using proven development practices to ensure long-term success.",
     },
     {
       id: 2,
@@ -999,7 +999,7 @@ export const imageBanner4 = {
 
 export const YellowBannerData1 = {
   description:
-    "With a deep understanding of industry-specific challenges and requirements, the ITRex app development company delivers products tailored to your needs. Whether you are a startup aiming to disrupt the market or an enterprise looking to improve employee productivity, obtain valuable data insights or build a loyal customer base, we are ready to take on the challenge.",
+    "With a deep understanding of industry-specific challenges and requirements, the TSC app development company delivers products tailored to your needs. Whether you are a startup aiming to disrupt the market or an enterprise looking to improve employee productivity, obtain valuable data insights or build a loyal customer base, we are ready to take on the challenge.",
 };
 
 export const imageBanner5 = {
@@ -1018,15 +1018,15 @@ export const banner3 = {
   title: "Custom web development services",
   button1: "Get in touch",
   description:
-    "Make a unique impact online now to grow business with end-to-end custom web development services from TheSpecialChar",
+    "Our tailored solutions help your business stand out with a distinctive brand identity, optimized user experience, and responsive design. Elevate your online presence and drive business growth with The Special Character.",
   button2: "",
 };
 
 export const webicon = {
   heading:
-    "Our custom web development services help you break away from the ordinary",
+    "Our custom web development services empower you to rise above the ordinary",
   texts:
-    "Building successful web solutions since 2009, we have the expertise to build something great for you, too. Whatever your challenge is, there would be few things in the web development world that we haven’t worked with. Tap our custom web development services to create seamless web experiences that captivate. Our ITRex team delivers:",
+    "With over a decade of experience in building successful web solutions, we have the expertise to create something great for you. We have encountered a wide range of challenges in web development and are equipped to handle yours. Tap into our custom web development services to design seamless, captivating web experiences. Our team delivers:",
   button1: "Request our custom web",
   button2: "development services",
   data: [
@@ -1035,28 +1035,28 @@ export const webicon = {
       title: "Complex web apps",
       languages: "",
       description:
-        "Tailored to your precise business needs, be it redefining internal workflows or shipping a mind-blowing product to the market. Optimized for speed and security at scale. Designed for flexibility and growth",
+        "Customized to fit your needs, whether it’s improving internal processes or launching an innovative product. Our solutions are fast, secure, and scalable, ensuring your web development aligns perfectly with your goals.",
     },
     {
       url: "/images/accord_2-2.gif",
       title: "Feature-rich web portals",
       languages: "",
       description:
-        "From B2C/B2B portals for ecommerce and banking to web portals for patients, students, employees, and public services, incorporating user-centric design, customized user journeys, and smooth integrations",
+        "From B2C/B2B e-commerce to web portals for patients, students, employees, and public services, we deliver user-focused design, customized user journeys, and smooth integrations.",
     },
     {
       url: "/images/accord_3-3.gif",
       title: "Truly unique websites",
       languages: "",
       description:
-        "Running seamlessly and allowing dynamic content management — websites designed with the right aesthetics and functionality for any industry and using the best-fit platform (WordPress, Webflow, Joomla, or Squarespace)",
+        "Delivering seamless performance and dynamic content management, our websites are crafted with precise aesthetics and functionality for any sector. ",
     },
   ],
 };
 
 export const Bgbanner2 = {
   description:
-    "Providing full-stack custom web development services, we create everything from the UI of your web solution to algorithms and databases behind it. And we bring more as your trusted software development partner, ready to resolve any of your tech challenges.",
+    "We deliver end-to-end custom web development services, managing everything from the user interface to the algorithms and databases. As your reliable software development partner, we are ready to tackle any tech challenges.",
 };
 
 export const imageBanner7 = {
@@ -1067,13 +1067,13 @@ export const imageBanner7 = {
 
 export const imageBanner8 = {
   url: "/images/soft7.webp",
-  title1: "Tap into new trends",
+  title1: "Embrace New Trends",
   title2: "with our custom web development services",
 };
 
 export const webSection = {
   texts:
-    "Our mission is to take business like yours to the top. That’s why ITRex is more than just a professional provider of custom web development services. Innovators at heart, we help you turn the latest tech innovations into exceptional business value. We help you outrun the competition.",
+    "We are committed to driving your business to the forefront of your industry. TSC is not just a provider of custom web development services; we are innovators dedicated to converting the latest tech trends into tangible business advantages, We help you outrun the competition.",
   button1: "Contact Us",
   button2: "",
   heading: "",
@@ -1127,21 +1127,21 @@ export const webgrid = [
     title: "A-class team",
     languages: "",
     description:
-      "Delivering web solutions across industry verticals since 2009, our team of senior web developers and designers know how to build your project right the first time. With us, you get a deep understanding of your business challenges and unparalleled tech expertise to beat them",
+      "Our expert team of developers and designers consistently delivers outstanding web solutions across industries. With a deep understanding of your business challenges and unmatched technical skill, we ensure your project is executed flawlessly from the start.",
   },
   {
     url: "/images/websec2.webp",
     title: "Fast time-to-value",
     languages: "",
     description:
-      "Using an agile approach and DevOps best practices, we ship new functionality faster while keeping quality high. Along the way, you stay in the loop as we show results early to adapt to your current vision",
+      "Adopting agile methods and DevOps best practices, we deliver new functionality more quickly without compromising on quality. We keep you updated with early insights, allowing you to tweak the project to match your current vision.",
   },
   {
     url: "/images/websec3.webp",
     title: "Deeply customized solutions",
     languages: "",
     description:
-      "Each and every step of our process in custom web development services is focused on your unique business needs. We get a buzz out of unlocking tech complexities and tailoring a solution that serves your mission best. This is because we are fully engaged in your success",
+      "Every aspect of our custom web development process is designed around your unique business needs. We excel at overcoming technical challenges and creating solutions that align with your mission. This is because we are fully engaged in your success.",
   },
 ];
 
@@ -1151,7 +1151,7 @@ export const saasBanner = {
   button1: "Get in touch",
   button2: "",
   description:
-    "As a top provider of SaaS development services, we are focused on building SaaS applications that surpass your and your customers’ expectations",
+    "As a leading provider of SaaS development services, we are dedicated to creating applications that exceed both your and your customers' expectations.",
 };
 
 export const saasSection = {
@@ -1296,7 +1296,7 @@ export const careermany = {
   title: "Many say they want this",
   desc: "Some even mean it.",
   desc1:
-    "If you feel like you’d thrive at ITRex, we’d love to hear from you. Please browse through our vacancies",
+    "If you feel like you’d thrive at TSC, we’d love to hear from you. Please browse through our vacancies",
   desc2: "and see if anything suits you.",
 };
 
@@ -1463,7 +1463,7 @@ export const saasSection2 = [
 
 export const Bgbanner4 = {
   description:
-    "For more than a decade, ITRex SaaS development company has been empowering enterprises and startups across industries by delivering secure and scalable SaaS solutions. Tell us the type of SaaS you want to create and we will help you too.",
+    "For more than a decade, TSC SaaS development company has been empowering enterprises and startups across industries by delivering secure and scalable SaaS solutions. Tell us the type of SaaS you want to create and we will help you too.",
 };
 
 export const imageBanner12 = {
@@ -1484,7 +1484,7 @@ export const MobileSwiperData = {
       title: "VP of Process and Technology",
       company: "PotentiaMetrics, Inc.",
       quote:
-        "Itrex’s team are experts in their trade. The software development they provided was critical to advancing the project to the next level.",
+        "TSC’s team are experts in their trade. The software development they provided was critical to advancing the project to the next level.",
     },
     {
       src: "/images/Daniel-Schuler-150x150.jpg",
@@ -1500,7 +1500,7 @@ export const MobileSwiperData = {
       title: "Director of Product Management",
       company: "Dollar Shave Club",
       quote:
-        "Itrex is an outstanding partner. They don't even feel like a contractor, but more like a fully integrated team.",
+        "TSC is an outstanding partner. They don't even feel like a contractor, but more like a fully integrated team.",
     },
   ],
 };
@@ -1571,7 +1571,7 @@ export const careerbannerdata = {
 export const careerpage2data = {
   src: "/images/Career-who-we-are.webp",
   title: "Who we are",
-  des1: "ITRex is more than 300 technology professionals based in Poland,Georgia, Ukraine, Armenia, and the USA. We write software, craft strategies, and give expert advice.",
+  des1: "TSC is more than 300 technology professionals based in Poland,Georgia, Ukraine, Armenia, and the USA. We write software, craft strategies, and give expert advice.",
   des2: "We solve problems and drive growth for our clients. They’ve included big names like Walmart, Take a Swing at Cancer, Procter & Gamble, Dun & Bradstreet, Warner Bros., 21st Century Fox, and the Dollar Shave Club.",
   des3: "",
 };
@@ -1835,7 +1835,7 @@ export const uiGrid = {
       id: 4,
       title1: "UI design",
       description:
-        "ITRex provides a whole range of UI design services. Typography, color schemes, layouts, UI elements, and custom imagery — there’s nothing we can’t do. We also guarantee close cooperation between the UI/UX specialists and software engineers to develop software solutions up to spec and on budget and improve your time to market",
+        "TSC provides a whole range of UI design services. Typography, color schemes, layouts, UI elements, and custom imagery — there’s nothing we can’t do. We also guarantee close cooperation between the UI/UX specialists and software engineers to develop software solutions up to spec and on budget and improve your time to market",
     },
     {
       id: 5,
@@ -1886,7 +1886,7 @@ export const uiGrid2 = [
     id: 4,
     title1: "Dashboards",
     description:
-      "A UI/UX company with solid data visualization expertise, ITRex designs sleek cloud dashboards and interfaces for self-service BI and data analytics tools like no other. We’ll implement custom logic, filters, charts, and collaboration tools to help you interpret business data and make better decisions",
+      "A UI/UX company with solid data visualization expertise, TSC designs sleek cloud dashboards and interfaces for self-service BI and data analytics tools like no other. We’ll implement custom logic, filters, charts, and collaboration tools to help you interpret business data and make better decisions",
   },
   {
     id: 5,
@@ -1898,7 +1898,7 @@ export const uiGrid2 = [
     id: 6,
     title1: "Embedded interfaces",
     description:
-      "We augment our IoT and AI development efforts with professional UI/UX services. To that end, we create robust embedded solutions, including human-machine interfaces (HMIs), voice user interfaces (VUIs), and software supporting cross-device interactions. Whatever touchpoints your user journey maps incorporate, the ITRex team knows how to take the friction out of user experience",
+      "We augment our IoT and AI development efforts with professional UI/UX services. To that end, we create robust embedded solutions, including human-machine interfaces (HMIs), voice user interfaces (VUIs), and software supporting cross-device interactions. Whatever touchpoints your user journey maps incorporate, the TSC team knows how to take the friction out of user experience",
   },
 ];
 
@@ -2287,7 +2287,7 @@ export const caseBanner = {
 export const howbanner = {
   url: "/images/CareersBanner.webp",
   title: "How we can work with you",
-  desc: "Team up with ITRex at any stage of your project, choosing the engagement model that fits best your project scope and business priorities.",
+  desc: "Team up with TSC at any stage of your project, choosing the engagement model that fits best your project scope and business priorities.",
   desc1:
     "We can build your product on the Time & Materials, Fixed Price, or Dedicated Team basis using agile or waterfall depending on your project specifics.",
 };
@@ -2337,7 +2337,7 @@ export const aboutBanner2 = {
       url: "/images/book-6.webp",
       title1: "We say “we” ",
       title2:
-        " since we are a big ITRex family united together around one goal - to help you innovate for growth.",
+        " since we are a big TSC family united together around one goal - to help you innovate for growth.",
     },
   ],
 };
@@ -2540,7 +2540,7 @@ export const careerpage7data = {
   desc1:
     "You’re allowed to get things wrong – even horribly wrong – sometimes too. If you’re honest enough to own your mistakes, you will be safe.",
   desc2:
-    " Working at ITRex, you’ll watch us admit mistakes all the time. That’s what initiative and transparency looks like.",
+    " Working at TSC, you’ll watch us admit mistakes all the time. That’s what initiative and transparency looks like.",
   desc3:
     "  We are all committed to each other’s success. All we ask in return is the same commitment back.",
   src: "/images/Career-play-to-win-1.webp",
@@ -2674,7 +2674,7 @@ export const backSection = {
     {
       title: "Back-end web development",
       description:
-        "As part of our back-end web development services, we build applications from the ground up or assist our clients’ front-end teams on a dedicated team or pay-as-you-go basis. Hire back-end developers at ITRex if you need a customer-facing portal, sleek e-commerce website, or enterprise-grade web application!",
+        "As part of our back-end web development services, we build applications from the ground up or assist our clients’ front-end teams on a dedicated team or pay-as-you-go basis. Hire back-end developers at TSC if you need a customer-facing portal, sleek e-commerce website, or enterprise-grade web application!",
     },
     {
       title: "Back-end integration via APIs",
@@ -2716,14 +2716,14 @@ export const backicon = [
     url: "/images/accord_6-6.gif",
     title: "Enterprise Back-End Solutions",
     description:
-      "The ITRex back-end development services for the enterprise segment include the creation of fail-proof, scalable back-office systems and server-side infrastructure for ERP, SCM, CRM, DMS, LMS, MarTech, and FinTech applications",
+      "The TSC back-end development services for the enterprise segment include the creation of fail-proof, scalable back-office systems and server-side infrastructure for ERP, SCM, CRM, DMS, LMS, MarTech, and FinTech applications",
   },
   {
     languages: "",
     url: "/images/accord_2-2.gif",
     title: "Data Storage & Analytics",
     description:
-      "If you hire back-end developers at ITRex, you’ll get a team of experts in data warehouse, data lake, and data lakehouse solutions. We’re also no strangers to business intelligence (BI) and can set up a complete data ecosystem driven by AI algorithms, too",
+      "If you hire back-end developers at TSC, you’ll get a team of experts in data warehouse, data lake, and data lakehouse solutions. We’re also no strangers to business intelligence (BI) and can set up a complete data ecosystem driven by AI algorithms, too",
   },
   {
     languages: "",
@@ -3086,7 +3086,7 @@ export const uiuxbox = [
     id: 1,
     title: "Mature UI/UX design specialists.",
     discription:
-      "When you hire UI/UX designers at ITRex, you get a team with the right soft and hard skills, recognized certifications, a powerful toolset, and unleashed imagination.",
+      "When you hire UI/UX designers at TSC, you get a team with the right soft and hard skills, recognized certifications, a powerful toolset, and unleashed imagination.",
   },
   {
     id: 2,
@@ -3109,7 +3109,7 @@ export const uiuxbox = [
 ];
 export const Bgbanner8 = {
   description:
-    "As a top-tier provider of custom web application development services to enterprises, ITRex can fulfill any of your digital needs, whatever your industry is. Create your innovative and high-performing web application using the right front and back-end technology to get results quickly. Our web apps deliver the utmost usability, scalability, and cross-browser compatibility, along with a competitive edge to drive your growth.",
+    "As a leading provider of custom web application development for enterprises, TSC can meet all your digital needs, regardless of your industry. Develop your innovative and high-performing web application with the right front-end and back-end technologies to achieve fast results. Our web apps offer exceptional usability, scalability, and cross-browser compatibility, giving you a competitive edge to drive growth.",
 };
 
 export const imageBanner31 = {
@@ -3160,21 +3160,21 @@ export const webSection3 = {
       languages: "",
       url: "",
       description:
-        "We leverage best practices of user-centric design to translate vision into the responsiveness, interactivity, ease of use, and grace of your web solution",
+        "We apply best UI methods to turn your vision into a functional web solution that is responsive, interactive, user-friendly, and attractive." ,
     },
     {
       title: "Front-end Development",
       languages: "",
       url: "",
       description:
-        "Highly proficient in modern frameworks like Angular, React, or Vue we create user experiences that captivate and engage users",
+        "With expertise in modern frameworks like Angular, React, and Vue, we craft user experiences that captivate and engage.",
     },
     {
       title: "Back-end Development",
       languages: "",
       url: "",
       description:
-        "Our back-end developers build the best-customized functionality while making sure your web solution works flawlessly behind the scenes",
+        "Our back-end team builds customized functionality to ensure your web solution runs smoothly and efficiently behind the scenes",
     },
     {
       title: "API Integration",
@@ -3188,14 +3188,14 @@ export const webSection3 = {
       languages: "",
       url: "",
       description:
-        "With our seasoned consultants who can guide you through every step of your web development journey, you navigate tech complexities safely",
+        "With our experienced consultants guiding you at every stage of your web development journey, you can navigate technical complexities with confidence.",
     },
     {
       title: "Support & Maintenance",
       languages: "",
       url: "",
       description:
-        "As part of our custom web development services, we provide 24/7 infrastructure monitoring, problem resolution, updates, custom redesign, and more",
+        "We provide comprehensive support with our custom web development services, including 24/7 infrastructure monitoring, efficient problem resolution, ongoing updates, personalized redesigns, and more",
     },
   ],
 };
