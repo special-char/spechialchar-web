@@ -5,28 +5,34 @@ import { accordionItems } from "@/lib/constData";
 import Link from "next/link";
 import { Button } from "../ui/button";
 
-
-
 const HeaderDesktop = () => {
-
   return (
-    <div className="h-full w-full flex justify-between" >
+    <div className="h-full w-full flex justify-between">
       <div className="flex justify-evenly w-full items-start py-2 pl-5">
         {accordionItems.data.map((item, index) => (
           <div key={index} className="flex flex-col pt-3 group">
             <div className="flex  text-subtitle1 gap-x-1">
-              <Link
+              {/* <Link
                 href={`${item.link?.toLowerCase()}`}
                 className="cursor-pointer"
                 title="nav-links"
               >
                 {item.title}
-              </Link>
+              </Link> */}
+              <LinkButton
+                asbtn={item?.asbtn || false}
+                link={item.link?.toLowerCase()}
+                title={item.title}
+              />
               {item?.content && (
                 <ChevronDownIcon className="mt-3 transition-transform duration-300 transform group-hover:rotate-180 " />
               )}
             </div>
-            <ul className=" text-subtitle2  top-full left-0 mt-1 group-hover:mb-3 max-h-0 overflow-hidden transition-all duration-300 group-hover:max-h-screen flex flex-col gap-y-4 pt-2">
+            <ul
+              className={` text-subtitle2  top-full left-0 mt-1 group-hover:${
+                item.content ? "mb-3" : "mb-0"
+              } max-h-0 overflow-hidden transition-all duration-300 group-hover:max-h-screen flex flex-col gap-y-4 pt-2`}
+            >
               {item?.content?.map((itemContent, subindex) => (
                 <li key={subindex} className="">
                   <Link
@@ -45,7 +51,7 @@ const HeaderDesktop = () => {
             </ul>
           </div>
         ))}
-        <Link
+        {/* <Link
           href="/ourthinking"
           title="nav-link"
           className=" text-subtitle1 py-3"
@@ -59,20 +65,48 @@ const HeaderDesktop = () => {
           className=" text-subtitle1 py-3"
         >
           Projects
-        </Link>
-        <div className="flex justify-center items-center pt-2">
-          <Link title="nav-button" href={"#Contact"}>
+        </Link> */}
+        {/* <div className="flex justify-center items-center pt-2">
+          <Link title="nav-button" href={"/hiring"}>
             <Button
               variant={"default"}
               size={"xl"}
               className=" py-1 px-4 text-background"
             >
-              Contact Us
+              Hiring Us
             </Button>
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
+  );
+};
+
+const LinkButton = ({
+  link,
+  title,
+  asbtn = false,
+}: {
+  link: string;
+  title: string;
+  asbtn: boolean;
+}) => {
+  return (
+    <>
+      <Link title={title} href={link}>
+        {asbtn ? (
+          <Button
+            variant={"default"}
+            size={"xl"}
+            className=" py-1 px-4 text-background"
+          >
+            {title}
+          </Button>
+        ) : (
+          <span>{title}</span>
+        )}
+      </Link>
+    </>
   );
 };
 
