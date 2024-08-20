@@ -8,7 +8,7 @@ type Props = {};
 
 const HiringSectionBanner = (props: Props) => {
   return (
-    <section className="flex items-center flex-1 justify-center  max-sm:grid-cols-1 gap-20 h-full w-full    min-w-dvw min-h-dvh  py-32 ">
+    <section className="flex items-center flex-1 justify-center  max-sm:grid-cols-1 gap-20 h-full w-full  py-32 ">
       <ImageTextBanner
         cardata={data.cardata}
         decription={data.decription}

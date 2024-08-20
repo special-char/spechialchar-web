@@ -25,8 +25,8 @@ const ImageTextBanner = ({
       {" "}
       <div className="flex flex-col gap-10 justify-center lg:max-w-[50%]">
         <h1 className="text-heading1 lg:leading-[4.5rem]">{title}</h1>
-        <p>{decription}</p>
-        <Button className="bg-blue  lg:max-w-[50%] w-full ">
+        <p className="text-subtitle1">{decription}</p>
+        <Button className="bg-blue  md:max-w-[50%] w-full ">
           <span className="font-semibold capitalize ">{btntext}</span>
         </Button>
       </div>

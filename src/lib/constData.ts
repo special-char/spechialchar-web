@@ -611,6 +611,25 @@ export const accordionItems = {
       link: "/company/about",
       content: ["About", "Career", "How-We-Work"],
     },
+    {
+      value: "item-3",
+      title: "Thinking",
+      link: "/ourthinking",
+      // content: ["About", "Career", "How-We-Work"],
+    },
+    {
+      value: "item-3",
+      title: "Projects",
+      link: "/casestudies",
+      // content: ["About", "Career", "How-We-Work"],
+    },
+    {
+      value: "item-3",
+      title: "Hiring Us",
+      link: "/hiring",
+      asbtn: true,
+      // content: ["About", "Career", "How-We-Work"],
+    },
   ],
 };
 
@@ -4381,6 +4400,7 @@ export const frequentlyaskdata = {
 export const Workwithus = {
   title: "What to expect when you work with us",
   dec: "Interviewing candidates is completely free of charge.",
+  btntitle: "Start Hiring",
   Imagesection: [
     {
       title: "First call",
@@ -4443,4 +4463,9 @@ export const Workwithus = {
       },
     },
   ],
+};
+
+export const MeetingHiring = {
+  title: "Start Hiring Remote",
+  btntitle: "Start Hiring",
 };

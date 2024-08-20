@@ -1,7 +1,9 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import Cal, { getCalApi } from "@calcom/embed-react";
 import { useEffect } from "react";
+import { MeetingHiring as data } from "@/lib/constData";
 export default function MyApp() {
   const calLink = process.env.NEXT_PUBLIC_CAL_LINK;
 
@@ -20,7 +22,7 @@ export default function MyApp() {
   // console.log(calLink, "::::::::::;");
 
   return (
-    <>
+    <div className=" py-4 md:py-10 hiring-section">
       {/* <div className="hidden max-sm:block ">
         <button
           data-cal-namespace="15min"
@@ -30,7 +32,11 @@ export default function MyApp() {
           Click me
         </button>
       </div> */}
-      <div className="hiring-section">
+
+      <h3 className="flex justify-center text-heading2 pb-4 md:pb-10">
+        {data.title}
+      </h3>
+      <div className="flex justify-center">
         <Cal
           namespace="15min"
           calLink={calLink!}
@@ -38,6 +44,6 @@ export default function MyApp() {
           config={{ layout: "month_view", theme: "light" }}
         />
       </div>
-    </>
+    </div>
   );
 }
