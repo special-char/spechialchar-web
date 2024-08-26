@@ -5,9 +5,13 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { footerdata } from "@/lib/constData";
 import Contact from "@/components/Contact";
+import { builder } from "@builder.io/sdk";
+import { RenderBuilderContent } from "@/components/builder";
 
 const inter = Inter({ subsets: ["latin"] });
-
+type SetionProps = {
+  urlPath: string;
+};
 export const metadata: Metadata = {
   title: {
     default: "Home Page | The Special Character",
@@ -47,18 +51,38 @@ export const metadata: Metadata = {
   },
 };
 
+const FooterSection = async ({ urlPath }: SetionProps) => {
+  const builderModelName = "footer-section";
+
+  const content = await builder
+    .get(builderModelName, {
+      userAttributes: {
+        urlPath,
+      },
+    })
+    .toPromise();
+
+  if (!content) {
+    return <Footer data={footerdata} />;
+  }
+
+  return <RenderBuilderContent content={content} model={builderModelName} />;
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const urlPath = "/";
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
+        {/* <Navbar /> */}
         {children}
-        <Contact />
-        <Footer data={footerdata} />
+        {/* <Contact /> */}
+        {/* <Footer data={footerdata} /> */}
+        <FooterSection urlPath={urlPath} />
       </body>
     </html>
   );

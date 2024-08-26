@@ -34,6 +34,23 @@ const nextConfig = BuilderDevTools()({
     fileLoaderRule.exclude = /\.svg$/i;
     return config;
   },
+  images: {
+    // domains: ["cdn.builder.io"],
+    remotePatterns: [
+      {
+        protocol: "http",
+        hostname: "localhost",
+      },
+      {
+        protocol: "https",
+        hostname: "minio.thespecialcharacter.com",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn.builder.io",
+      },
+    ],
+  },
 });
 
 export default nextConfig;
