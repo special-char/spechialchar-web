@@ -18,8 +18,9 @@ Builder.registerComponent(Counter, {
   ],
 });
 
+//Section
 Builder.registerComponent(
-  dynamic(() => import("./components/BiSection")),
+  dynamic(() => import("./components/builder-io/Section")),
   {
     name: "Section",
     // Adding defaults is important for easy usability
@@ -51,6 +52,41 @@ Builder.registerComponent(Footer, {
     },
   ],
 });
+
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BiProjectCard")),
+  {
+    name: "BiProjectCard",
+    inputs: [
+      {
+        name: "projects",
+        type: "list",
+        subFields: [
+          {
+            name: "id",
+            type: "number",
+            required: true,
+          },
+          {
+            name: "image",
+            type: "file",
+            allowedFileTypes: IMAGE_FILE_TYPES,
+          },
+          {
+            name: "title",
+            type: "string",
+          },
+          {
+            name: "description",
+            type: "string",
+          },
+        ],
+      },
+    ],
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
+  }
+);
 
 Builder.registerComponent(
   dynamic(() => import("./components/BiHomeAccordian")),
@@ -93,6 +129,113 @@ Builder.registerComponent(
       {
         name: "link",
         type: "string",
+      },
+    ],
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
+  }
+);
+
+//BiClientCarousel
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BiClientCarousel")),
+  {
+    name: "BiClientCarousel",
+    inputs: [
+      {
+        name: "clients",
+        type: "list",
+        subFields: [
+          {
+            name: "title",
+            type: "string",
+          },
+          {
+            name: "image",
+            type: "file",
+            allowedFileTypes: IMAGE_FILE_TYPES,
+          },
+        ],
+      },
+      {
+        name: "classname",
+        type: "string",
+      },
+    ],
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
+  }
+);
+
+//BiBanner
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BiBanner")),
+  {
+    name: "BiBanner",
+    inputs: [
+      {
+        name: "background",
+        type: "color",
+      },
+      {
+        name: "textColor",
+        type: "color",
+        defaultValue: "#000000",
+      },
+      {
+        name: "headingLine1",
+        type: "object",
+        subFields: [
+          {
+            name: "heading",
+            type: "string",
+          },
+          {
+            name: "textColor",
+            type: "color",
+            defaultValue: "#000000",
+          },
+        ],
+      },
+      {
+        name: "headingLine2",
+        type: "string",
+      },
+      {
+        name: "description",
+        type: "text",
+      },
+      {
+        name: "subTitle",
+        type: "string",
+      },
+      {
+        name: "animatedWords",
+        type: "list",
+        subFields: [
+          {
+            name: "word",
+            type: "string",
+          },
+        ],
+      },
+      {
+        name: "button",
+        type: "boolean",
+      },
+      {
+        name: "btnText",
+        type: "string",
+        showIf: (options) => options.get("button"),
+      },
+      {
+        name: "btnUrl",
+        type: "string",
+        showIf: (options) => options.get("button"),
+      },
+      {
+        name: "media",
+        type: "file",
       },
     ],
     image:

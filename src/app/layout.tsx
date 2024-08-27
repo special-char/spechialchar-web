@@ -5,13 +5,17 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { footerdata } from "@/lib/constData";
 import Contact from "@/components/Contact";
-import { builder } from "@builder.io/sdk";
 import { RenderBuilderContent } from "@/components/builder";
+import { builder } from "@builder.io/sdk";
 
 const inter = Inter({ subsets: ["latin"] });
+
 type SetionProps = {
   urlPath: string;
 };
+
+builder.init(process.env.NEXT_PUBLIC_BUILDER_API_KEY!);
+
 export const metadata: Metadata = {
   title: {
     default: "Home Page | The Special Character",
@@ -62,10 +66,6 @@ const FooterSection = async ({ urlPath }: SetionProps) => {
     })
     .toPromise();
 
-  if (!content) {
-    return <Footer data={footerdata} />;
-  }
-
   return <RenderBuilderContent content={content} model={builderModelName} />;
 };
 
@@ -80,9 +80,9 @@ export default function RootLayout({
       <body className={inter.className}>
         {/* <Navbar /> */}
         {children}
-        {/* <Contact /> */}
-        {/* <Footer data={footerdata} /> */}
         <FooterSection urlPath={urlPath} />
+        {/* <Contact />
+        <Footer data={footerdata} /> */}
       </body>
     </html>
   );
