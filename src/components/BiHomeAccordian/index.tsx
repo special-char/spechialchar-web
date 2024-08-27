@@ -52,12 +52,14 @@ const BiHomeAccordian = ({ accordian, button, ButtonTitle, link }: Props) => {
                         width={40}
                         height={40}
                       />
-                      <div className=""> {item.id}</div>
+                      <div>{item.id < 10 ? `0${item.id}` : item.id}</div>
                     </div>
-                    <div>{item.title}</div>
+                    <div className="font-semibold text-heading6">
+                      {item.title}
+                    </div>
                   </div>
                 </AccordionTrigger>
-                <AccordionContent className="overflow-hidden text-subtitle2 transition-all duration-1000 ease-out  ">
+                <AccordionContent className="overflow-hidden text-subtitle1 transition-all duration-1000 ease-out  ">
                   <div className=" md:pl-64 lg:pl-[36.5rem] md:pr-40">
                     <div className="flex flex-1 flex-col gap-5 pb-4  ">
                       <Image
