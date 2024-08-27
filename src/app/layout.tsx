@@ -14,6 +14,8 @@ type SetionProps = {
   urlPath: string;
 };
 
+builder.init(process.env.NEXT_PUBLIC_BUILDER_API_KEY!);
+
 export const metadata: Metadata = {
   title: {
     default: "Home Page | The Special Character",
@@ -63,7 +65,6 @@ const FooterSection = async ({ urlPath }: SetionProps) => {
       },
     })
     .toPromise();
-  console.log({ content });
 
   return <RenderBuilderContent content={content} model={builderModelName} />;
 };

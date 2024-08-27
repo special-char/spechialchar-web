@@ -33,12 +33,12 @@ export function ProjectCard() {
                     />
                   </div>
                   <Link href={`/casestudies/${item.id}`} title={item.title1}>
-                  <h3 className="text-heading6 group-hover:text-blue font-bold mb-2 mt-4 ">
-                    {item.title}
-                  </h3>
-                  <p className="text-primary text-subtitle2">
-                    {item.description}
-                  </p>
+                    <h3 className="text-heading6 group-hover:text-blue font-bold mb-2 mt-4 ">
+                      {item.title}
+                    </h3>
+                    <p className="text-primary text-subtitle2">
+                      {item.description}
+                    </p>
                   </Link>
                 </CarouselItem>
               ))}
