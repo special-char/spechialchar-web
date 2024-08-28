@@ -68,7 +68,6 @@ const BiBanner = ({
   return (
     <div className="relative overflow-hidden h-screen">
       {/* <Image src={media} alt={headingLine1} width={100} height={100} /> */}
-
       {/* <video
         autoPlay
         loop
