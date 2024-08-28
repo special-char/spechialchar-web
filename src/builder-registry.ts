@@ -242,3 +242,50 @@ Builder.registerComponent(
       "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
   }
 );
+
+//BiImageBanner
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BiImageBanner")),
+  {
+    name: "BiImageBanner",
+    inputs: [
+      {
+        name: "image",
+        type: "file",
+        allowedFileTypes: IMAGE_FILE_TYPES,
+      },
+      {
+        name: "title1",
+        type: "object",
+        subFields: [
+          {
+            name: "title",
+            type: "string",
+          },
+          {
+            name: "titleColor",
+            type: "color",
+            defaultValue: "#ffffff",
+          },
+        ],
+      },
+      {
+        name: "title2",
+        type: "object",
+        subFields: [
+          {
+            name: "subtitle",
+            type: "string",
+          },
+          {
+            name: "subtitleColor",
+            type: "color",
+            defaultValue: "#ffdb3b",
+          },
+        ],
+      },
+    ],
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
+  }
+);
