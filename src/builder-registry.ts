@@ -95,6 +95,10 @@ Builder.registerComponent(
     name: "BiHomeAccordian",
     inputs: [
       {
+        name: "backgroundColor",
+        type: "color",
+      },
+      {
         name: "accordian",
         type: "list",
         subFields: [
@@ -103,6 +107,7 @@ Builder.registerComponent(
             type: "number",
             required: true,
           },
+
           {
             name: "image",
             type: "file",

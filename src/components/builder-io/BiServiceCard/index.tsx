@@ -14,9 +14,12 @@ type Props = {
 const BiServiceCard = ({ serviceCard }: Props) => {
   return (
     <div className="grid md:grid-cols-3 gap-8 py-10">
-      {serviceCard?.map((item) => {
+      {serviceCard?.map((item, index) => {
         return (
-          <div className="flex flex-col gap-y-6 gap-2 h-full justify-between">
+          <div
+            className="flex flex-col gap-y-6 gap-2 h-full justify-between"
+            key={index}
+          >
             <div className="">
               {item?.image ? (
                 <Image

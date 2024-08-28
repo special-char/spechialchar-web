@@ -12,13 +12,14 @@ import Link from "next/link";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 type AccordianProps = {
-  id?: number;
+  id: number;
   image: string | StaticImport;
   title: string;
   description: string;
 };
 
 type Props = {
+  backgroundColor?: string;
   accordian: AccordianProps[];
   button?: boolean;
   buttonTitle: string;
@@ -26,6 +27,7 @@ type Props = {
 };
 
 const BiHomeAccordian = ({
+  backgroundColor,
   accordian,
   button,
   buttonTitle,
@@ -36,7 +38,8 @@ const BiHomeAccordian = ({
       <Accordion
         type="single"
         collapsible
-        className="w-full bg-yellow py-12 md:py-20"
+        className="w-full  py-12 md:py-20"
+        style={{ backgroundColor: backgroundColor && backgroundColor }}
       >
         <hr className="border-1 border-black" />
         {accordian &&
@@ -47,7 +50,12 @@ const BiHomeAccordian = ({
                 key={item.id}
                 value={`item-${item.id}`}
               >
-                <AccordionTrigger className="bg-yellow flex flex-1 transition-all duration-1000 ease-out  items-center justify-between py-5  text-subtitle1 ">
+                <AccordionTrigger
+                  className="flex flex-1 transition-all duration-1000 ease-out  items-center justify-between py-5  text-subtitle1 "
+                  style={{
+                    backgroundColor: backgroundColor && backgroundColor,
+                  }}
+                >
                   <div className="flex gap-10 md:gap-8 items-center">
                     <div className="md:flex md:gap-40 lg:gap-[30rem] items-center  hidden">
                       <Image
@@ -68,7 +76,7 @@ const BiHomeAccordian = ({
                 </AccordionTrigger>
                 <AccordionContent className="overflow-hidden text-subtitle1 transition-all duration-1000 ease-out  ">
                   <div className="md:pl-64 lg:pl-[36.5rem] md:pr-40">
-                    <div className="flex flex-1 flex-col gap-5 pb-4  ">
+                    <div className="flex flex-1 flex-col gap-5 pb-4">
                       <Image
                         src={item.image}
                         alt="homeAccorde"
