@@ -799,7 +799,7 @@ export const mobiletabdata = {
       id: 3,
       trigger: "AR/VR",
       content:
-        "Leverage the potential of VR and AR apps to pull off interactive and immersive user experience and unlock new possibilities for remote assistance, workplace simulation, training, advertising, entertainment, and much more.",
+        "Leverage the potential of VR and AR apps to pull off interactive and immersive user experience and unlock new possibilities for remote assistance, workplace simulation, training, advertising, entertainment, and much more.  ",
       value: "AR/VR",
       image: "/icons/cooling-icon.svg",
     },
