@@ -12,7 +12,7 @@ import Link from "next/link";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 type AccordianProps = {
-  id: number;
+  id?: number;
   image: string | StaticImport;
   title: string;
   description: string;
@@ -20,12 +20,17 @@ type AccordianProps = {
 
 type Props = {
   accordian: AccordianProps[];
-  button: boolean;
-  ButtonTitle: string;
-  link: string;
+  button?: boolean;
+  buttonTitle: string;
+  buttonLink: string;
 };
 
-const BiHomeAccordian = ({ accordian, button, ButtonTitle, link }: Props) => {
+const BiHomeAccordian = ({
+  accordian,
+  button,
+  buttonTitle,
+  buttonLink,
+}: Props) => {
   return (
     <>
       <Accordion
@@ -44,15 +49,17 @@ const BiHomeAccordian = ({ accordian, button, ButtonTitle, link }: Props) => {
               >
                 <AccordionTrigger className="bg-yellow flex flex-1 transition-all duration-1000 ease-out  items-center justify-between py-5  text-subtitle1 ">
                   <div className="flex gap-10 md:gap-8 items-center">
-                    <div className=" md:flex md:gap-40 lg:gap-[30rem] items-center  hidden">
+                    <div className="md:flex md:gap-40 lg:gap-[30rem] items-center  hidden">
                       <Image
-                        alt="how help"
-                        title="accord_gif"
+                        alt={item.title}
+                        title={item.title}
                         src={item.image}
                         width={40}
                         height={40}
                       />
-                      <div>{item.id < 10 ? `0${item.id}` : item.id}</div>
+                      {item?.id && (
+                        <div>{item?.id < 10 ? `0${item?.id}` : item?.id}</div>
+                      )}
                     </div>
                     <div className="font-semibold text-heading6">
                       {item.title}
@@ -60,7 +67,7 @@ const BiHomeAccordian = ({ accordian, button, ButtonTitle, link }: Props) => {
                   </div>
                 </AccordionTrigger>
                 <AccordionContent className="overflow-hidden text-subtitle1 transition-all duration-1000 ease-out  ">
-                  <div className=" md:pl-64 lg:pl-[36.5rem] md:pr-40">
+                  <div className="md:pl-64 lg:pl-[36.5rem] md:pr-40">
                     <div className="flex flex-1 flex-col gap-5 pb-4  ">
                       <Image
                         src={item.image}
@@ -89,9 +96,9 @@ const BiHomeAccordian = ({ accordian, button, ButtonTitle, link }: Props) => {
       </Accordion>
       {button && (
         <div>
-          <Link title="discuss my projects" href={`#${link}`}>
+          <Link title="discuss my projects" href={`#${buttonLink}`}>
             <Button variant="default" className="px-16 md:px-20 py-7  ">
-              {ButtonTitle}
+              {buttonTitle}
             </Button>
           </Link>
         </div>

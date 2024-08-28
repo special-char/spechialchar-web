@@ -88,6 +88,7 @@ Builder.registerComponent(
   }
 );
 
+//BiHomeAccordian
 Builder.registerComponent(
   dynamic(() => import("./components/BiHomeAccordian")),
   {
@@ -120,14 +121,13 @@ Builder.registerComponent(
       {
         name: "button",
         type: "boolean",
-        defaultValue: true,
       },
       {
-        name: "ButtonTitle",
+        name: "buttonTitle",
         type: "string",
       },
       {
-        name: "link",
+        name: "buttonLink",
         type: "string",
       },
     ],
@@ -281,6 +281,74 @@ Builder.registerComponent(
             name: "subtitleColor",
             type: "color",
             defaultValue: "#ffdb3b",
+          },
+        ],
+      },
+    ],
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
+  }
+);
+
+//BiServiceCard
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BiServiceCard")),
+  {
+    name: "BiServiceCard",
+    inputs: [
+      {
+        name: "serviceCard",
+        type: "list",
+        subFields: [
+          {
+            name: "image",
+            type: "file",
+            allowedFileTypes: IMAGE_FILE_TYPES,
+          },
+          {
+            name: "titleLine",
+            type: "object",
+            subFields: [
+              {
+                name: "title",
+                type: "string",
+              },
+              {
+                name: "titleColor",
+                type: "color",
+                defaultValue: "#000000",
+              },
+            ],
+          },
+          {
+            name: "description",
+            type: "object",
+            subFields: [
+              {
+                name: "descriptionText",
+                type: "string",
+              },
+              {
+                name: "descriptionColor",
+                type: "color",
+                defaultValue: "#000000",
+              },
+            ],
+          },
+          {
+            name: "subText",
+            type: "object",
+            subFields: [
+              {
+                name: "text",
+                type: "string",
+              },
+              {
+                name: "textColor",
+                type: "color",
+                defaultValue: "#000000",
+              },
+            ],
           },
         ],
       },
