@@ -26,14 +26,14 @@ export function BiProjectCard({ projects }: Props) {
   return (
     <div>
       <div className="">
-        <Carousel opts={{ align: "start" }} className="relative">
+        <Carousel opts={{ align: "center" }} className="relative">
           <div className=" flex z-20 gap-x-10">
             <CarouselContent className="w-full">
               {projects &&
                 projects.map((item) => (
                   <CarouselItem
                     key={item.id}
-                    className="group md:basis-1/2 lg:basis-1/3"
+                    className="group sm:basis-2/5 md:basis-2/5"
                   >
                     <div className=" border-2 z-10 overflow-hidden border-none">
                       <Image
@@ -57,8 +57,8 @@ export function BiProjectCard({ projects }: Props) {
                 ))}
             </CarouselContent>
           </div>
-          <CarouselPrevious className="bg-blue h-12 w-12 absolute left-0 translate-x-[-50%] max-sm:hidden" />
-          <CarouselNext className="bg-blue h-12 w-12 absolute right-0 max-sm:hidden " />
+          <CarouselPrevious className="bg-blue h-12 w-12 absolute left-0 translate-x-[50%] max-sm:hidden" />
+          <CarouselNext className="bg-blue h-12 w-12 absolute right-0 max-sm:hidden translate-x-[-50%]" />
         </Carousel>
       </div>
     </div>
