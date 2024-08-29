@@ -6,7 +6,7 @@ import dynamic from "next/dynamic";
 
 builder.init(process.env.NEXT_PUBLIC_BUILDER_API_KEY!);
 
-const IMAGE_FILE_TYPES = ["jpeg", "jpg", "png", "gif", "avif", "webp", "svg"];
+const IMAGE_FILE_TYPES = ["jpeg", "jpg", "png", "gif", "avif", "webp"];
 
 Builder.registerComponent(Counter, {
   name: "Counter",
