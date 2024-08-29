@@ -6,7 +6,7 @@ import dynamic from "next/dynamic";
 
 builder.init(process.env.NEXT_PUBLIC_BUILDER_API_KEY!);
 
-const IMAGE_FILE_TYPES = ["jpeg", "jpg", "png", "gif", "avif", "webp", "svg"];
+const IMAGE_FILE_TYPES = ["jpeg", "jpg", "png", "gif", "avif", "webp"];
 
 Builder.registerComponent(Counter, {
   name: "Counter",
@@ -53,6 +53,7 @@ Builder.registerComponent(Footer, {
   ],
 });
 
+//BiProjectCard
 Builder.registerComponent(
   dynamic(() => import("./components/builder-io/BiProjectCard")),
   {
@@ -163,9 +164,14 @@ Builder.registerComponent(
         ],
       },
       {
-        name: "classname",
-        type: "string",
+        name: "background",
+        type: "color",
+        defaultValue: "#1e3d60",
       },
+      // {
+      //   name: "classname",
+      //   type: "string",
+      // },
     ],
     image:
       "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
@@ -295,6 +301,70 @@ Builder.registerComponent(
   }
 );
 
+//BiTabs
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BiTab")),
+  {
+    name: "BiTab",
+    inputs: [
+      {
+        name: "verticalTab",
+        type: "boolean",
+        defaultValue: false,
+      },
+      {
+        name: "tab",
+        type: "list",
+        subFields: [
+          {
+            name: "image",
+            type: "file",
+          },
+          {
+            name: "title",
+            type: "string",
+          },
+          {
+            name: "content",
+            type: "string",
+          },
+        ],
+      },
+    ],
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
+  }
+);
+
+//BiAnimatedImageWord
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BiAnimatedImageWord")),
+  {
+    name: "BiAnimatedImageWord",
+    inputs: [
+      {
+        name: "data",
+        type: "list",
+        subFields: [
+          {
+            name: "title",
+            type: "string",
+          },
+          {
+            name: "image",
+            type: "file",
+          },
+          {
+            name: "url",
+            type: "string",
+          },
+        ],
+      },
+    ],
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
+  }
+);
 //BiServiceCard
 Builder.registerComponent(
   dynamic(() => import("./components/builder-io/BiServiceCard")),
