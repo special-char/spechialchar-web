@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Cards } from "@/lib/constData";
 import Image from "next/image";
 import {
   Carousel,

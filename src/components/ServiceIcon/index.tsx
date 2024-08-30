@@ -5,7 +5,7 @@ import { ServiceItem } from "@/utils/types";
 const ServiceIcon = ({ data }: ServiceItem) => {
   return (
     <div className="">
-      <div className=" lg:gap-5 ">
+      <div className="lg:gap-5 ">
         <div className="flex flex-col gap-y-6 gap-2">
           <div className="">
             {data?.url ? (

@@ -89,11 +89,21 @@ Builder.registerComponent(
   }
 );
 
+//BiHomeAccordian
 Builder.registerComponent(
   dynamic(() => import("./components/BiHomeAccordian")),
   {
     name: "BiHomeAccordian",
     inputs: [
+      {
+        name: "homeBanner",
+        type: "boolean",
+      },
+      {
+        name: "backgroundColor",
+        type: "color",
+      },
+      { name: "borderColor", type: "color" },
       {
         name: "accordian",
         type: "list",
@@ -103,6 +113,7 @@ Builder.registerComponent(
             type: "number",
             required: true,
           },
+
           {
             name: "image",
             type: "file",
@@ -110,26 +121,39 @@ Builder.registerComponent(
           },
           {
             name: "title",
-            type: "string",
+            type: "object",
+            subFields: [
+              {
+                name: "titleText",
+                type: "string",
+              },
+              {
+                name: "titleColor",
+                type: "color",
+                defaultValue: "#000000",
+              },
+            ],
           },
           {
             name: "description",
+            type: "object",
+            subFields: [
+              {
+                name: "descriptionText",
+                type: "string",
+              },
+              {
+                name: "descriptionColor",
+                type: "color",
+                defaultValue: "#000000",
+              },
+            ],
+          },
+          {
+            name: "arrowButtonLink",
             type: "string",
           },
         ],
-      },
-      {
-        name: "button",
-        type: "boolean",
-        defaultValue: true,
-      },
-      {
-        name: "ButtonTitle",
-        type: "string",
-      },
-      {
-        name: "link",
-        type: "string",
       },
     ],
     image:
@@ -249,6 +273,53 @@ Builder.registerComponent(
   }
 );
 
+//BiImageBanner
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BiImageBanner")),
+  {
+    name: "BiImageBanner",
+    inputs: [
+      {
+        name: "image",
+        type: "file",
+        allowedFileTypes: IMAGE_FILE_TYPES,
+      },
+      {
+        name: "title1",
+        type: "object",
+        subFields: [
+          {
+            name: "title",
+            type: "string",
+          },
+          {
+            name: "titleColor",
+            type: "color",
+            defaultValue: "#ffffff",
+          },
+        ],
+      },
+      {
+        name: "title2",
+        type: "object",
+        subFields: [
+          {
+            name: "subtitle",
+            type: "string",
+          },
+          {
+            name: "subtitleColor",
+            type: "color",
+            defaultValue: "#ffdb3b",
+          },
+        ],
+      },
+    ],
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
+  }
+);
+
 //BiTabs
 Builder.registerComponent(
   dynamic(() => import("./components/builder-io/BiTab")),
@@ -304,6 +375,156 @@ Builder.registerComponent(
           },
           {
             name: "url",
+            type: "string",
+          },
+        ],
+      },
+    ],
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
+  }
+);
+//BiServiceCard
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BiServiceCard")),
+  {
+    name: "BiServiceCard",
+    inputs: [
+      {
+        name: "serviceCard",
+        type: "list",
+        subFields: [
+          {
+            name: "image",
+            type: "file",
+            allowedFileTypes: IMAGE_FILE_TYPES,
+          },
+          {
+            name: "titleLine",
+            type: "object",
+            subFields: [
+              {
+                name: "title",
+                type: "string",
+              },
+              {
+                name: "titleColor",
+                type: "color",
+                defaultValue: "#000000",
+              },
+            ],
+          },
+          {
+            name: "description",
+            type: "object",
+            subFields: [
+              {
+                name: "descriptionText",
+                type: "string",
+              },
+              {
+                name: "descriptionColor",
+                type: "color",
+                defaultValue: "#000000",
+              },
+            ],
+          },
+          {
+            name: "subText",
+            type: "object",
+            subFields: [
+              {
+                name: "text",
+                type: "string",
+              },
+              {
+                name: "textColor",
+                type: "color",
+                defaultValue: "#000000",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
+  }
+);
+
+//BiGrid
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BiGrid")),
+  {
+    name: "CustomGrid",
+    inputs: [
+      {
+        name: "desktopGrid",
+        type: "string",
+        defaultValue: "4",
+        enum: ["2", "3", "4", "6"],
+      },
+      {
+        name: "tabletGrid",
+        type: "string",
+        defaultValue: "2",
+        enum: ["2", "3", "4"],
+      },
+      {
+        name: "mobileGrid",
+        type: "string",
+        defaultValue: "1",
+        enum: ["1", "2", "3"],
+      },
+      {
+        name: "gridSection",
+        type: "boolean",
+        defaultValue: false,
+      },
+      {
+        name: "gap",
+        type: "string",
+        defaultValue: "4",
+      },
+    ],
+    defaultChildren: [
+      {
+        "@type": "@builder.io/sdk:Element",
+        component: {
+          name: "string",
+          options: { text: "I am child text block!" },
+        },
+      },
+    ],
+  }
+);
+
+//BiSwiper
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BiSwiperCard")),
+  {
+    name: "BiSwiperCard",
+    inputs: [
+      {
+        name: "projects",
+        type: "list",
+        subFields: [
+          {
+            name: "id",
+            type: "number",
+            required: true,
+          },
+          {
+            name: "image",
+            type: "file",
+            allowedFileTypes: IMAGE_FILE_TYPES,
+          },
+          {
+            name: "title",
+            type: "string",
+          },
+          {
+            name: "description",
             type: "string",
           },
         ],
