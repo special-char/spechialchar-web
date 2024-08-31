@@ -36,6 +36,7 @@ const BiBanner = ({
   animatedWords,
   button,
   btnText,
+  btnUrl,
   media,
 }: Props) => {
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
@@ -79,26 +80,30 @@ const BiBanner = ({
         Your browser does not support the video tag.
       </video> */}
       <div
-        className="px-container relative z-0 h-full flex flex-wrap flex-col justify-center text-heading1"
+        className="px-container relative z-0 h-full flex flex-wrap flex-col justify-center"
         style={{ backgroundColor: background }}
       >
-        <h1 className="items-center" style={{ color: headingLine1?.textColor }}>
-          {headingLine1 && headingLine1?.heading}
+        <h1
+          className="flex flex-col text-heading1"
+          style={{ color: headingLine1?.textColor }}
+        >
+          {headingLine1 && <span>{headingLine1?.heading}</span>}
+          {headingLine2 && (
+            <span
+              className="text-heading1 items-center lg:w-[40rem]"
+              style={{
+                color: textColor,
+              }}
+            >
+              {headingLine2}
+            </span>
+          )}
         </h1>
-        {headingLine2 && (
-          <h2
-            className="text-heading1 items-center lg:w-[40rem]"
-            style={{
-              color: textColor,
-            }}
-          >
-            {headingLine2}
-          </h2>
-        )}
-        <div className="mt-20 text-3xl text-primary">
+
+        <div className="mt-20 text-3xl">
           {description && (
             <p
-              className="text-subtitle1"
+              className="text-subtitle1 sm:w-[40dvw]"
               style={{
                 color: textColor,
               }}
@@ -123,11 +128,11 @@ const BiBanner = ({
           )}
           {button && (
             <div className="pt-7">
-              <Link href={"#Contact"} title="Late's talk">
+              <Link href={btnUrl ? btnUrl : ""} title={btnText}>
                 <Button
                   variant="default"
                   size="sm"
-                  className="px-24 md:px-32 py-6 text-base"
+                  className="px-4 md:px-32 py-6 text-base max-[400px]:w-full"
                 >
                   {btnText}
                 </Button>
