@@ -459,7 +459,7 @@ Builder.registerComponent(
         name: "tabletGrid",
         type: "string",
         defaultValue: "2",
-        enum: ["2", "3", "4"],
+        enum: ["1", "2", "3", "4"],
       },
       {
         name: "mobileGrid",
@@ -497,6 +497,10 @@ Builder.registerComponent(
     name: "BiSwiperCard",
     inputs: [
       {
+        name: "toggleButton",
+        type: "boolean",
+      },
+      {
         name: "projects",
         type: "list",
         subFields: [
@@ -509,6 +513,14 @@ Builder.registerComponent(
             name: "image",
             type: "file",
             allowedFileTypes: IMAGE_FILE_TYPES,
+          },
+          {
+            name: "imageTitle",
+            type: "object",
+            subFields: [
+              { name: "imageText", type: "string" },
+              { name: "imageTextColor", type: "color" },
+            ],
           },
           {
             name: "title",

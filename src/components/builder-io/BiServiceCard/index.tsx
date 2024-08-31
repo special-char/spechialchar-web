@@ -21,7 +21,7 @@ const BiServiceCard = ({ serviceCard }: Props) => {
             key={index}
           >
             <div className="">
-              {item?.image ? (
+              {item?.image && (
                 <Image
                   title="service-images"
                   src={item?.image}
@@ -29,8 +29,6 @@ const BiServiceCard = ({ serviceCard }: Props) => {
                   width={50}
                   alt="image"
                 />
-              ) : (
-                <></>
               )}
             </div>
             {item?.titleLine?.title && (
