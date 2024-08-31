@@ -23,7 +23,7 @@ const BIGrid: React.FC<Props> = ({
 
   useEffect(() => {
     const updateColumns = () => {
-      if (window.innerWidth >= 768) {
+      if (window.innerWidth > 768) {
         setColumns(desktopGrid);
       } else if (window.innerWidth >= 640) {
         setColumns(tabletGrid);
