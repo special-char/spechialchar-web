@@ -35,61 +35,61 @@ const titledata = [
   // },
 ];
 const page = (props: Props) => {
-  return (
-    // <div className="px-container">
-    //   {/* <div className="h-dvh w-dvw flex justify-center items-center gap-10">
-    //     <ImageWithCards />
-    //   </div> */}
+  return null;
+  // <div className="px-container">
+  //   {/* <div className="h-dvh w-dvw flex justify-center items-center gap-10">
+  //     <ImageWithCards />
+  //   </div> */}
 
-    //   <div className="flex flex-col gap-4">
-    //     <HiringSectionHeading
-    //       title="Employee-as-a-Service"
-    //       decription="We not only identify the ideal candidates, but also handle all formalities, from hiring to managing their payment. In this way, we become your strategic ally, simplifying your business growth."
-    //     />
-    //     <div
-    //       className="columns-3  overflow-hidden gap-5
-    //      max-sm:flex-col"
-    //     >
-    //       {titledata.map((item, index) => (
-    //         <div
-    //           className="border rounded-lg p-5  w-full bg-white h-full max-w-[380px] line-clamp-3"
-    //           key={index}
-    //         >
-    //           <Titlecards titledata={item} />
-    //         </div>
-    //       ))}
-    //     </div>
-    //   </div>
-    //   <div className="flex flex-col gap-4">
-    //     <HiringSectionHeading
-    //       title="360 Solution for Your Business"
-    //       decription="Our comprehensive solution includes candidate search and vetting, payroll management, logistics handling, compliance management, and partnership in employee benefits such as gifts and bonuses."
-    //     />
-    //     <div
-    //       className="columns-3  overflow-hidden gap-5
-    //      max-sm:flex-col"
-    //     >
-    //       {titledata.map((item, index) => (
-    //         <div
-    //           className="border rounded-lg p-5  w-full bg-white h-full max-w-[380px] line-clamp-3"
-    //           key={index}
-    //         >
-    //           <Titlecards titledata={item} />
-    //         </div>
-    //       ))}
-    //     </div>
-    //   </div>
-    // </div>
-    <div className="flex flex-col gap-10 max-sm:gap-4">
-      <HiringSectionBanner />
-      <HiringFeatureSection />
-      <HiringKnow />
-      <JobMatch />
-      <WorkWithUs />
-      <MeetingHiring />
-      <HiringFrequrntlyAskedQuestions />
-    </div>
-  );
+  //   <div className="flex flex-col gap-4">
+  //     <HiringSectionHeading
+  //       title="Employee-as-a-Service"
+  //       decription="We not only identify the ideal candidates, but also handle all formalities, from hiring to managing their payment. In this way, we become your strategic ally, simplifying your business growth."
+  //     />
+  //     <div
+  //       className="columns-3  overflow-hidden gap-5
+  //      max-sm:flex-col"
+  //     >
+  //       {titledata.map((item, index) => (
+  //         <div
+  //           className="border rounded-lg p-5  w-full bg-white h-full max-w-[380px] line-clamp-3"
+  //           key={index}
+  //         >
+  //           <Titlecards titledata={item} />
+  //         </div>
+  //       ))}
+  //     </div>
+  //   </div>
+  //   <div className="flex flex-col gap-4">
+  //     <HiringSectionHeading
+  //       title="360 Solution for Your Business"
+  //       decription="Our comprehensive solution includes candidate search and vetting, payroll management, logistics handling, compliance management, and partnership in employee benefits such as gifts and bonuses."
+  //     />
+  //     <div
+  //       className="columns-3  overflow-hidden gap-5
+  //      max-sm:flex-col"
+  //     >
+  //       {titledata.map((item, index) => (
+  //         <div
+  //           className="border rounded-lg p-5  w-full bg-white h-full max-w-[380px] line-clamp-3"
+  //           key={index}
+  //         >
+  //           <Titlecards titledata={item} />
+  //         </div>
+  //       ))}
+  //     </div>
+  //   </div>
+  // </div>
+
+  // <div className="flex flex-col gap-10 max-sm:gap-4">
+  //   <HiringSectionBanner />
+  //   <HiringFeatureSection />
+  //   <HiringKnow />
+  //   <JobMatch />
+  //   <WorkWithUs />
+  //   <MeetingHiring />
+  //   <HiringFrequrntlyAskedQuestions />
+  // </div>
 };
 
 export default page;

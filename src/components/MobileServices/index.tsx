@@ -40,10 +40,7 @@ export default function Index() {
         </Tabs>
       </div>
       <div>
-        <Link
-          title="hire-mobile-app-developer"
-          href={"#Contact"}
-        >
+        <Link title="hire-mobile-app-developer" href={"#Contact"}>
           <Button variant={"secondary"}>
             <span>Hire mobile app developers </span>
           </Button>

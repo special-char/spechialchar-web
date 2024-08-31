@@ -5,8 +5,16 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { footerdata } from "@/lib/constData";
 import Contact from "@/components/Contact";
+import { RenderBuilderContent } from "@/components/builder";
+import { builder } from "@builder.io/sdk";
 
 const inter = Inter({ subsets: ["latin"] });
+
+type SetionProps = {
+  urlPath: string;
+};
+
+builder.init(process.env.NEXT_PUBLIC_BUILDER_API_KEY!);
 
 export const metadata: Metadata = {
   title: {
@@ -47,18 +55,34 @@ export const metadata: Metadata = {
   },
 };
 
+const FooterSection = async ({ urlPath }: SetionProps) => {
+  const builderModelName = "footer-section";
+
+  const content = await builder
+    .get(builderModelName, {
+      userAttributes: {
+        urlPath,
+      },
+    })
+    .toPromise();
+
+  return <RenderBuilderContent content={content} model={builderModelName} />;
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const urlPath = "/";
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
+        {/* <Navbar /> */}
         {children}
-        <Contact />
-        <Footer data={footerdata} />
+        <FooterSection urlPath={urlPath} />
+        {/* <Contact />
+        <Footer data={footerdata} /> */}
       </body>
     </html>
   );

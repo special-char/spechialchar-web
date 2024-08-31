@@ -39,7 +39,6 @@ const HomeAccordian = () => {
                     />
                     <div className=""> {item.number}</div>
                   </div>
-
                   <div>{item.title}</div>
                 </div>
               </AccordionTrigger>
