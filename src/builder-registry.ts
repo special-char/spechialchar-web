@@ -8,16 +8,6 @@ builder.init(process.env.NEXT_PUBLIC_BUILDER_API_KEY!);
 
 const IMAGE_FILE_TYPES = ["jpeg", "jpg", "png", "gif", "avif", "webp"];
 
-Builder.registerComponent(Counter, {
-  name: "Counter",
-  inputs: [
-    {
-      name: "initialCount",
-      type: "number",
-    },
-  ],
-});
-
 //Section
 Builder.registerComponent(
   dynamic(() => import("./components/builder-io/Section")),
@@ -384,6 +374,7 @@ Builder.registerComponent(
       "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
   }
 );
+
 //BiServiceCard
 Builder.registerComponent(
   dynamic(() => import("./components/builder-io/BiServiceCard")),
@@ -528,6 +519,53 @@ Builder.registerComponent(
             type: "string",
           },
         ],
+      },
+    ],
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
+  }
+);
+
+//BiTestimonialSwiper
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BiTestimonialSwiper")),
+  {
+    name: "BiTestimonialSwiper",
+    inputs: [
+      {
+        name: "testimonials",
+        type: "list",
+        subFields: [
+          {
+            name: "image",
+            type: "file",
+            allowedFileTypes: IMAGE_FILE_TYPES,
+          },
+          {
+            name: "name",
+            type: "string",
+          },
+          {
+            name: "title",
+            type: "string",
+          },
+          {
+            name: "company",
+            type: "string",
+          },
+          {
+            name: "testimonial",
+            type: "text",
+          },
+        ],
+      },
+      {
+        name: "textColor",
+        type: "color",
+      },
+      {
+        name: "testimonialTextColor",
+        type: "color",
       },
     ],
     image:
