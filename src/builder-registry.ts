@@ -382,58 +382,64 @@ Builder.registerComponent(
     name: "BiServiceCard",
     inputs: [
       {
-        name: "serviceCard",
-        type: "list",
+        name: "image",
+        type: "file",
+        allowedFileTypes: IMAGE_FILE_TYPES,
+      },
+      {
+        name: "titleLine",
+        type: "object",
         subFields: [
           {
-            name: "image",
-            type: "file",
-            allowedFileTypes: IMAGE_FILE_TYPES,
+            name: "title",
+            type: "string",
           },
           {
-            name: "titleLine",
-            type: "object",
-            subFields: [
-              {
-                name: "title",
-                type: "string",
-              },
-              {
-                name: "titleColor",
-                type: "color",
-                defaultValue: "#000000",
-              },
-            ],
+            name: "font-weight",
+            type: "string",
+            defaultValue: "600",
+            enum: ["100", "200", "300", "400", "500", "600", "700", "800"],
           },
           {
-            name: "description",
-            type: "object",
-            subFields: [
-              {
-                name: "descriptionText",
-                type: "string",
-              },
-              {
-                name: "descriptionColor",
-                type: "color",
-                defaultValue: "#000000",
-              },
-            ],
+            name: "titleColor",
+            type: "color",
+            defaultValue: "#000000",
+          },
+        ],
+      },
+      {
+        name: "description",
+        type: "object",
+        subFields: [
+          {
+            name: "descriptionText",
+            type: "string",
           },
           {
-            name: "subText",
-            type: "object",
-            subFields: [
-              {
-                name: "text",
-                type: "string",
-              },
-              {
-                name: "textColor",
-                type: "color",
-                defaultValue: "#000000",
-              },
-            ],
+            name: "font-weight",
+            type: "string",
+            defaultValue: "600",
+            enum: ["100", "200", "300", "400", "500", "600", "700", "800"],
+          },
+          {
+            name: "descriptionColor",
+            type: "color",
+            defaultValue: "#000000",
+          },
+        ],
+      },
+      {
+        name: "language",
+        type: "object",
+        subFields: [
+          {
+            name: "languageText",
+            type: "string",
+          },
+          {
+            name: "languageColor",
+            type: "color",
+            defaultValue: "#000000",
           },
         ],
       },
@@ -582,5 +588,82 @@ Builder.registerComponent(
     ],
     image:
       "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
+  }
+);
+
+// Heading
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BiHeading")),
+  {
+    name: "Heading",
+    inputs: [
+      {
+        name: "level",
+        type: "string",
+        enum: ["h1", "h2", "h3", "h4", "h5", "h6"],
+        defaultValue: "h1",
+      },
+      {
+        name: "content",
+        type: "longText",
+        defaultValue: "Hello World",
+      },
+    ],
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
+    defaultChildren: [
+      {
+        "@type": "@builder.io/sdk:Element",
+        component: {
+          name: "string",
+          options: { text: "I am child text block!" },
+        },
+      },
+    ],
+  }
+);
+
+// BiText
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BIText")),
+  {
+    name: "BIText",
+    noWrap: true,
+    defaultChildren: [
+      {
+        "@type": "@builder.io/sdk:Element",
+        component: {
+          name: "Text",
+          options: { text: "I am child text block!" },
+        },
+      },
+    ],
+    childRequirements: {
+      message: "You can only put Headings in a Text",
+      query: {
+        "component.name": { $in: ["Heading", "Text", "BIText", "string"] },
+      },
+    },
+
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
+  }
+);
+
+//MarkDown
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BiMarkDown")),
+  {
+    name: "MarkDown",
+    noWrap: true,
+    defaultChildren: [
+      {
+        "@type": "@builder.io/sdk:Element",
+        component: {
+          name: "Text",
+          options: { text: "I am child text block!" },
+        },
+      },
+    ],
   }
 );
