@@ -13,6 +13,7 @@ Builder.registerComponent(
   dynamic(() => import("./components/builder-io/Section")),
   {
     name: "Section",
+    noWrap: true,
     // Adding defaults is important for easy usability
     defaultChildren: [
       {
