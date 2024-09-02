@@ -100,6 +100,50 @@
   section {
     @apply py-10;
   }
+
+  h1 {
+    @apply text-heading1;
+  }
+  h2 {
+    @apply text-heading2;
+  }
+  h3 {
+    @apply text-heading3;
+  }
+  h4 {
+    @apply text-heading4;
+  }
+  h5 {
+    @apply text-heading5;
+  }
+  h6 {
+    @apply text-heading6;
+  }
+  p.subtitle1 {
+    @apply text-subtitle1;
+  }
+  p.subtitle2 {
+    @apply text-subtitle2;
+  }
+  p {
+    @apply text-body2;
+  }
+  p.small,
+  p.caption {
+    @apply text-caption1;
+  }
+  p.sm {
+    @apply text-caption2;
+  }
+  p.large,
+  p.body1 {
+    @apply text-body1;
+  }
+
+  button,
+  a {
+    @apply text-btn;
+  }
 }
 @layer components {
   .prose {
