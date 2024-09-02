@@ -8,12 +8,10 @@ type Props = {
   className?: string;
 } & PropsWithChildren;
 
-const BIHeading = ({ level = "h1", content, className, children }: Props) => {
+const BIHeading = ({ level = "h1", content, className }: Props) => {
   const Comp = level;
   return (
-    <Comp className={cn("", { [`${className}`]: !!className })}>
-      {children || content}
-    </Comp>
+    <Comp className={cn("", { [`${className}`]: !!className })}>{content}</Comp>
   );
 };
 
