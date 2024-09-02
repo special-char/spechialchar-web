@@ -602,6 +602,7 @@ Builder.registerComponent(
   dynamic(() => import("./components/builder-io/BiHeading")),
   {
     name: "Heading",
+    noWrap: true,
     inputs: [
       {
         name: "level",
@@ -615,17 +616,24 @@ Builder.registerComponent(
         defaultValue: "Hello World",
       },
     ],
+
+    // defaultChildren: [
+    //   {
+    //     "@type": "@builder.io/sdk:Element",
+    //     component: {
+    //       name: "string",
+    //       options: { text: "I am child text block!" },
+    //     },
+    //   },
+    // ],
+    // childRequirements: {
+    //   message: "You can only put Headings in a Text",
+    //   query: {
+    //     "component.name": { $in: ["Heading", "Text", "BIText", "string"] },
+    //   },
+    // },
     image:
       "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
-    defaultChildren: [
-      {
-        "@type": "@builder.io/sdk:Element",
-        component: {
-          name: "string",
-          options: { text: "I am child text block!" },
-        },
-      },
-    ],
   }
 );
 
