@@ -602,7 +602,7 @@ Builder.registerComponent(
   dynamic(() => import("./components/builder-io/BiHeading")),
   {
     name: "Heading",
-    noWrap: true,
+    // noWrap: true,
     inputs: [
       {
         name: "level",
