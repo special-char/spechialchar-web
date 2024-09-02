@@ -615,6 +615,10 @@ Builder.registerComponent(
         type: "longText",
         defaultValue: "Hello World",
       },
+      {
+        name: "className",
+        type: "string",
+      },
     ],
 
     // defaultChildren: [
