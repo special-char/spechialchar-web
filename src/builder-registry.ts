@@ -13,6 +13,7 @@ Builder.registerComponent(
   dynamic(() => import("./components/builder-io/Section")),
   {
     name: "Section",
+    noWrap: true,
     // Adding defaults is important for easy usability
     defaultChildren: [
       {
@@ -28,20 +29,25 @@ Builder.registerComponent(
   }
 );
 
-Builder.registerComponent(Footer, {
-  name: "Footer",
-  inputs: [
-    {
-      name: "data",
-      type: "object",
-      hideFromUI: true,
-      meta: {
-        ts: "{ title: string; address: string; email: string; mobile: string; privacy: string; copyright: string; }",
+//BICustomBanner
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BiCustomBanner")),
+  {
+    name: "BICustomBanner",
+    // Adding defaults is important for easy usability
+    defaultChildren: [
+      {
+        "@type": "@builder.io/sdk:Element",
+        component: {
+          name: "string",
+          options: { text: "I am child text block!" },
+        },
       },
-      required: true,
-    },
-  ],
-});
+    ],
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
+  }
+);
 
 //BiProjectCard
 Builder.registerComponent(
@@ -596,6 +602,7 @@ Builder.registerComponent(
   dynamic(() => import("./components/builder-io/BiHeading")),
   {
     name: "Heading",
+    noWrap: true,
     inputs: [
       {
         name: "level",
@@ -609,17 +616,24 @@ Builder.registerComponent(
         defaultValue: "Hello World",
       },
     ],
+
+    // defaultChildren: [
+    //   {
+    //     "@type": "@builder.io/sdk:Element",
+    //     component: {
+    //       name: "string",
+    //       options: { text: "I am child text block!" },
+    //     },
+    //   },
+    // ],
+    // childRequirements: {
+    //   message: "You can only put Headings in a Text",
+    //   query: {
+    //     "component.name": { $in: ["Heading", "Text", "BIText", "string"] },
+    //   },
+    // },
     image:
       "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
-    defaultChildren: [
-      {
-        "@type": "@builder.io/sdk:Element",
-        component: {
-          name: "string",
-          options: { text: "I am child text block!" },
-        },
-      },
-    ],
   }
 );
 
