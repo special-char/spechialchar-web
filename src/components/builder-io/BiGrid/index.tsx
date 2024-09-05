@@ -3,6 +3,7 @@ import { withChildren } from "@builder.io/react";
 import { cn } from "@/lib/utils";
 
 type Props = {
+  largdesktopGrid: string;
   desktopGrid: string;
   tabletGrid: string;
   mobileGrid: string;
@@ -12,6 +13,7 @@ type Props = {
 };
 
 const BIGrid: React.FC<Props> = ({
+  largdesktopGrid,
   desktopGrid,
   tabletGrid,
   mobileGrid,
@@ -23,7 +25,9 @@ const BIGrid: React.FC<Props> = ({
 
   useEffect(() => {
     const updateColumns = () => {
-      if (window.innerWidth > 768) {
+      if (window.innerWidth >= 1024) {
+        setColumns(largdesktopGrid);
+      } else if (window.innerWidth >= 768) {
         setColumns(desktopGrid);
       } else if (window.innerWidth >= 640) {
         setColumns(tabletGrid);
@@ -35,7 +39,7 @@ const BIGrid: React.FC<Props> = ({
     updateColumns();
     window.addEventListener("resize", updateColumns);
     return () => window.removeEventListener("resize", updateColumns);
-  }, [desktopGrid, tabletGrid, mobileGrid]);
+  }, [largdesktopGrid, desktopGrid, tabletGrid, mobileGrid]);
 
   return (
     <div
