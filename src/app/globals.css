@@ -125,6 +125,9 @@
   p.subtitle2 {
     @apply text-subtitle2;
   }
+  p.subtitle3 {
+    @apply text-subtitle3;
+  }
   p {
     @apply text-body2;
   }
