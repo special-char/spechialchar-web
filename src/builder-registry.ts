@@ -624,7 +624,15 @@ Builder.registerComponent(
       {
         name: "variantOfPTag",
         type: "string",
-        enum: ["default", "subtitle1", "subtitle2", "small", "sm", "large"],
+        enum: [
+          "default",
+          "subtitle1",
+          "subtitle2",
+          "subtitle3",
+          "small",
+          "sm",
+          "large",
+        ],
         defaultValue: "default",
       },
       {
@@ -680,6 +688,14 @@ Builder.registerComponent(
   {
     name: "BIText",
     noWrap: true,
+    inputs: [
+      {
+        name: "levels",
+        type: "string",
+        enum: ["h1", "h2", "h3", "h4", "h5", "h6", "p"],
+        defaultValue: "p",
+      },
+    ],
     defaultChildren: [
       {
         "@type": "@builder.io/sdk:Element",
