@@ -6,7 +6,13 @@ type Props = {
   content?: string;
   className?: string;
   attributes?: any;
-  variantOfPTag?: "subtitle1" | "subtitle2" | "small" | "sm" | "large";
+  variantOfPTag?:
+    | "subtitle1"
+    | "subtitle2"
+    | "subtitle3"
+    | "small"
+    | "sm"
+    | "large";
   variantOfHeadingTag?:
     | "text-heading1"
     | "text-heading2"
