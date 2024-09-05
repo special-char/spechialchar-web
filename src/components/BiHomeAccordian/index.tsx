@@ -92,7 +92,7 @@ const BiHomeAccordian = ({
                       )}
                     </div>
                     <div
-                      className=""
+                      className="text-left"
                       style={{
                         color:
                           item?.title?.titleColor && item?.title?.titleColor,
