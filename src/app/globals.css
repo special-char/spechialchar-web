@@ -147,6 +147,14 @@
   a {
     @apply text-btn;
   }
+
+  & ol {
+    @apply list-outside;
+  }
+
+  & ul {
+    @apply list-outside marker:text-blue;
+  }
 }
 @layer components {
   .prose {
