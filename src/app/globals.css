@@ -100,6 +100,115 @@
   section {
     @apply py-10;
   }
+
+  h1 {
+    @apply text-heading1;
+  }
+  h2 {
+    @apply text-heading2;
+  }
+  h3 {
+    @apply text-heading3;
+  }
+  h4 {
+    @apply text-heading4;
+  }
+  h5 {
+    @apply text-heading5;
+  }
+  h6 {
+    @apply text-heading6;
+  }
+  p.subtitle1 {
+    @apply text-subtitle1;
+  }
+  p.subtitle2 {
+    @apply text-subtitle2;
+  }
+  p.subtitle3 {
+    @apply text-subtitle3;
+  }
+  p {
+    @apply text-body2;
+  }
+  p.small,
+  p.caption {
+    @apply text-caption1;
+  }
+  p.sm {
+    @apply text-caption2;
+  }
+  p.large,
+  p.body1 {
+    @apply text-body1;
+  }
+
+  button,
+  a {
+    @apply text-btn;
+  }
+
+  & ol {
+    @apply list-outside;
+  }
+
+  & ul {
+    @apply list-outside marker:text-blue;
+  }
+}
+@layer components {
+  .prose {
+    & ol {
+      @apply list-decimal list-inside;
+    }
+    & ul {
+      @apply list-square list-inside;
+    }
+    /* & li {
+      @apply mb-4;
+    } */
+    & ul li {
+      text-indent: -1.4em;
+      padding-left: 1.8em;
+    }
+    & ol li {
+      text-indent: -1em;
+      padding-left: 1.4em;
+    }
+    & h2 {
+      @apply text-3xl  mb-4;
+    }
+    & h3 {
+      @apply text-2xl mb-4;
+    }
+    & h4 {
+      @apply text-xl mb-4;
+    }
+    & p {
+      @apply text-lg mb-4;
+    }
+    table,
+    tr,
+    td,
+    th {
+      border: 1px solid #000;
+    }
+    table {
+      @apply w-full;
+    }
+    th {
+      @apply p-3 text-center;
+    }
+    td {
+      @apply p-3 text-center;
+    }
+    summary::after {
+      content: "Ver mais";
+    }
+    details[open] summary::after {
+      content: "Ver menos";
+    }
+  }
 }
 .hiring-section {
   opacity: 0;
