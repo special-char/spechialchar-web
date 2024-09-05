@@ -9,9 +9,9 @@ const BIText = ({ children, attributes }: Props) => {
   console.log({ attributes, type: typeof attributes });
 
   return (
-    <p className="text-4xl" {...attributes}>
+    <div className="text-4xl" {...attributes}>
       {children}
-    </p>
+    </div>
   );
 };
 

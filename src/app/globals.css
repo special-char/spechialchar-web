@@ -149,10 +149,6 @@
     @apply list-outside;
   }
 
-  & ol li,
-  ul li {
-    @apply mb-4;
-  }
   & ul {
     @apply list-outside marker:text-blue;
   }
