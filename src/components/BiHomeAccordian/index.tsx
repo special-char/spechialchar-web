@@ -14,7 +14,7 @@ import clsx from "clsx";
 
 type AccordianProps = {
   id: number;
-  image: string | StaticImport;
+  image?: string | StaticImport;
   title: { titleText: string; titleColor?: string };
   description: { descriptionText: string; descriptionColor?: string };
   arrowButtonLink?: string;
@@ -69,7 +69,7 @@ const BiHomeAccordian = ({
                   <div
                     className={clsx({
                       ["flex gap-10 md:gap-8 items-center"]: homeBanner,
-                      ["flex gap-4 items-center"]: !homeBanner,
+                      ["flex items-center"]: !homeBanner,
                     })}
                   >
                     <div
@@ -78,13 +78,15 @@ const BiHomeAccordian = ({
                         { ["hidden"]: homeBanner }
                       )}
                     >
-                      <Image
-                        alt={item?.title?.titleText}
-                        title={item?.title?.titleText}
-                        src={item.image}
-                        width={40}
-                        height={40}
-                      />
+                      {item.image && (
+                        <Image
+                          alt={item?.title?.titleText}
+                          title={item?.title?.titleText}
+                          src={item.image}
+                          width={40}
+                          height={40}
+                        />
+                      )}
                       {homeBanner && item?.id && (
                         <div>{item?.id < 10 ? `0${item?.id}` : item?.id}</div>
                       )}
@@ -117,10 +119,10 @@ const BiHomeAccordian = ({
                     >
                       {homeBanner && (
                         <Image
-                          src={item.image}
-                          alt="homeAccorde"
+                          src={item.image ? item.image : ""}
+                          alt="homeAccordian"
                           width={80}
-                          title="homeAccorde"
+                          title="homeAccordian"
                           height={80}
                           className="md:hidden"
                         />
