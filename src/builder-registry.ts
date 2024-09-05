@@ -462,9 +462,15 @@ Builder.registerComponent(
     name: "CustomGrid",
     inputs: [
       {
-        name: "desktopGrid",
+        name: "largdesktopGrid",
         type: "string",
         defaultValue: "4",
+        enum: ["2", "3", "4", "6"],
+      },
+      {
+        name: "desktopGrid",
+        type: "string",
+        defaultValue: "3",
         enum: ["2", "3", "4", "6"],
       },
       {
