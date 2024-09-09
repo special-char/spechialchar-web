@@ -73,11 +73,10 @@ const BiHomeAccordian = ({
                     })}
                   >
                     <div
-                      className={clsx({
-                        ["hidden"]: homeBanner,
-                        "md:flex md:gap-40 lg:gap-[30rem] items-center":
-                          !homeBanner,
-                      })}
+                      className={clsx(
+                        "md:flex md:gap-40 lg:gap-[30rem] items-center",
+                        { ["hidden"]: homeBanner }
+                      )}
                     >
                       {item.image && (
                         <Image
