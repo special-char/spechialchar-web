@@ -471,7 +471,7 @@ Builder.registerComponent(
         name: "desktopGrid",
         type: "string",
         defaultValue: "3",
-        enum: ["2", "3", "4", "6"],
+        enum: ["1", "2", "3", "4", "6"],
       },
       {
         name: "tabletGrid",
@@ -485,11 +485,11 @@ Builder.registerComponent(
         defaultValue: "1",
         enum: ["1", "2", "3"],
       },
-      {
-        name: "gridSection",
-        type: "boolean",
-        defaultValue: false,
-      },
+      // {
+      //   name: "gridSection",
+      //   type: "boolean",
+      //   defaultValue: false,
+      // },
       {
         name: "gap",
         type: "string",
@@ -629,9 +629,13 @@ Builder.registerComponent(
           "subtitle1",
           "subtitle2",
           "subtitle3",
+          "text-body1",
+          "text-body2",
+          "text-caption1",
+          "text-caption2",
+          "large",
           "small",
           "sm",
-          "large",
         ],
         defaultValue: "default",
       },
@@ -732,5 +736,37 @@ Builder.registerComponent(
         },
       },
     ],
+  }
+);
+
+//BiImageSwiper
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BiImageSwiper")),
+  {
+    name: "BiImageSwiper",
+    // noWrap: true,
+    inputs: [
+      {
+        name: "data",
+        type: "list",
+        subFields: [
+          { name: "title", type: "string" },
+          { name: "description", type: "string" },
+          { name: "image", type: "file" },
+        ],
+      },
+    ],
+    // defaultChildren: [
+    //   {
+    //     "@type": "@builder.io/sdk:Element",
+    //     component: {
+    //       name: "Text",
+    //       options: { text: "I am child text block!" },
+    //     },
+    //   },
+    // ],
+
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
   }
 );
