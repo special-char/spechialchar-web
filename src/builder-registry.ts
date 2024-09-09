@@ -845,6 +845,7 @@ Builder.registerComponent(
     ],
   }
 );
+
 //BiImageSwiper
 Builder.registerComponent(
   dynamic(() => import("./components/builder-io/BiImageSwiper")),
@@ -871,6 +872,29 @@ Builder.registerComponent(
     //     },
     //   },
     // ],
+
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
+  }
+);
+
+//BiAnimatedWords
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BiAnimatedWords")),
+  {
+    name: "BiAnimatedWords",
+    inputs: [
+      {
+        name: "animatedWords",
+        type: "list",
+        subFields: [{ name: "word", type: "string" }],
+      },
+      {
+        name: "textColor",
+        type: "color",
+        // defaultValue: "#B7466B",
+      },
+    ],
 
     image:
       "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
