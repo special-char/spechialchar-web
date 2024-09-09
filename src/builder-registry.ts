@@ -739,6 +739,112 @@ Builder.registerComponent(
   }
 );
 
+// BiTable
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BiTable")),
+  {
+    name: "BiTable",
+    inputs: [
+      { name: "headerBackgroundColor", type: "color" },
+
+      {
+        name: "columns",
+        type: "list",
+        subFields: [
+          {
+            name: "column",
+            type: "object",
+            subFields: [
+              {
+                name: "columnHeader",
+                type: "string",
+              },
+
+              {
+                name: "fontSize",
+                type: "string",
+                enum: [
+                  "default",
+                  "text-heading1",
+                  "text-heading2",
+                  "text-heading3",
+                  "text-heading4",
+                  "text-heading5",
+                  "text-heading6",
+                  "text-subtitle1",
+                  "text-subtitle2",
+                  "text-subtitle3",
+                  "text-body1",
+                  "text-body2",
+                  "text-caption1",
+                  "text-caption2",
+                ],
+                defaultValue: "default",
+              },
+              {
+                name: "titleColor",
+                type: "color",
+                defaultValue: "#000000",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: "rows",
+        type: "list",
+        subFields: [
+          {
+            name: "cells",
+            type: "list",
+            subFields: [
+              {
+                name: "cell",
+                type: "object",
+                subFields: [
+                  {
+                    name: "content",
+                    type: "string",
+                  },
+                  {
+                    name: "fontSize",
+                    type: "string",
+                    enum: [
+                      "default",
+                      "text-heading1",
+                      "text-heading2",
+                      "text-heading3",
+                      "text-heading4",
+                      "text-heading5",
+                      "text-heading6",
+                      "text-subtitle1",
+                      "text-subtitle2",
+                      "text-subtitle3",
+                      "text-body1",
+                      "text-body2",
+                      "text-caption1",
+                      "text-caption2",
+                    ],
+                    defaultValue: "default",
+                  },
+                  {
+                    name: "contentColor",
+                    type: "color",
+                    defaultValue: "#000000",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            name: "link",
+            type: "string",
+          },
+        ],
+      },
+    ],
+  }
+);
 //BiImageSwiper
 Builder.registerComponent(
   dynamic(() => import("./components/builder-io/BiImageSwiper")),
