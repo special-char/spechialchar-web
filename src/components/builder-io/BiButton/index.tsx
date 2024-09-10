@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, Variants } from "framer-motion";
 
 interface AnimationProps {
   type: string;
@@ -25,7 +25,7 @@ interface BiCustomButtonProps {
 const getAnimationVariants = (
   animation: AnimationProps,
   isHovered: boolean
-) => {
+): Variants => {
   switch (animation.type) {
     case "bounce":
       return {
@@ -39,7 +39,7 @@ const getAnimationVariants = (
                 repeat: 1,
               },
             }
-          : {},
+          : { y: 0 },
       };
     case "pulse":
       return {
@@ -53,7 +53,7 @@ const getAnimationVariants = (
                 repeat: 1,
               },
             }
-          : {},
+          : { scale: 1 },
       };
     case "slideShake":
       return {
@@ -68,10 +68,13 @@ const getAnimationVariants = (
                 ease: "easeInOut",
               },
             }
-          : {},
+          : { x: 0 },
       };
     default:
-      return {};
+      return {
+        initial: {},
+        animate: {},
+      };
   }
 };
 
@@ -82,7 +85,9 @@ const AnimatedIcon: React.FC<{
   animation?: AnimationProps;
   isHovered: boolean;
 }> = ({ icon, width, height, animation, isHovered }) => {
-  const variants = animation ? getAnimationVariants(animation, isHovered) : {};
+  const variants = animation
+    ? getAnimationVariants(animation, isHovered)
+    : undefined;
 
   return (
     <AnimatePresence>
