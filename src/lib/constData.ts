@@ -603,7 +603,8 @@ export const accordionItems = {
       value: "item-2",
       title: "Industry",
       link: "/industry/elearning",
-      content: ["eLearning", "Ecommerce"],
+      content: ["Ecommerce"],
+      // content: ["eLearning", "Ecommerce"],
     },
     {
       value: "item-3",
@@ -611,24 +612,21 @@ export const accordionItems = {
       link: "/company/about",
       content: ["About", "Career", "How-We-Work"],
     },
-    {
-      value: "item-3",
-      title: "Thinking",
-      link: "/ourthinking",
-      // content: ["About", "Career", "How-We-Work"],
-    },
+    // {
+    //   value: "item-3",
+    //   title: "Thinking",
+    //   link: "/ourthinking",
+    // },
     {
       value: "item-3",
       title: "Projects",
       link: "/casestudies",
-      // content: ["About", "Career", "How-We-Work"],
     },
     {
       value: "item-3",
       title: "Hiring Us",
       link: "/hiring",
       asbtn: true,
-      // content: ["About", "Career", "How-We-Work"],
     },
   ],
 };

@@ -6,8 +6,9 @@ type Props = PropsWithChildren & {
   levels: "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "p";
 };
 
-const BIText = ({ children, attributes, levels = "p" }: Props) => {
+const BIText = ({ children, attributes, levels = "p", ...props }: Props) => {
   console.log({ attributes, type: typeof attributes });
+
   const Comp = levels;
   return (
     <Comp className="" {...attributes}>
