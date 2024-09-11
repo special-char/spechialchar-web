@@ -3,17 +3,6 @@ const nodemailer = require("nodemailer");
 
 export async function POST(req: NextRequest) {
   try {
-    // const { name, email } = await req.json();
-
-    console.log({
-      host: process.env.SMTP_HOST,
-      port: process.env.SMTP_PORT,
-      secure: process.env.SMTP_SECURE,
-      user: process.env.AUTH_USER,
-      pass: process.env.AUTH_PASS,
-      our_email: process.env.DEFAULT_FROM,
-    });
-
     const formData = await req.formData();
     const name = formData.get("name") as string;
     const email = formData.get("email") as string;
@@ -88,7 +77,7 @@ export async function POST(req: NextRequest) {
     await transporter.sendMail({
       from: process.env.DEFAULT_FROM,
       to: email,
-      bcc: `${process.env.BCC_EMAIL} || "aaryan.patel@thespecialcharacter.com"`,
+      bcc: "aaryan.patel@thespecialcharacter.com",
       subject: "Thank you for your inquiry - TSC IT-services",
       html: emailContent,
       attachments,
