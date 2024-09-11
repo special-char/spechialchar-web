@@ -6,7 +6,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordian";
 import Image from "next/image";
-import { Button } from "../ui/button";
+import { Button } from "../../ui/button";
 import Arrow from "@/public.icons/arrow_forward.svg";
 import Link from "next/link";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
@@ -69,20 +69,20 @@ const BiHomeAccordian = ({
                   <div
                     className={clsx({
                       ["flex gap-10 md:gap-8 items-center"]: homeBanner,
-                      ["flex items-center"]: !homeBanner,
+                      ["flex items-center gap-4"]: !homeBanner,
                     })}
                   >
                     <div
-                      className={clsx(
-                        "md:flex md:gap-40 lg:gap-[30rem] items-center",
-                        { ["hidden"]: homeBanner }
-                      )}
+                      className={clsx("", {
+                        ["md:flex md:gap-40 lg:gap-[30rem] items-center hidden"]:
+                          homeBanner,
+                      })}
                     >
-                      {item.image && (
+                      {item?.image && (
                         <Image
                           alt={item?.title?.titleText}
                           title={item?.title?.titleText}
-                          src={item.image}
+                          src={item?.image}
                           width={40}
                           height={40}
                         />
@@ -113,34 +113,35 @@ const BiHomeAccordian = ({
                       ["md:pl-64 lg:pl-[36.5rem] md:pr-40"]: homeBanner,
                     })}
                   >
-                    <div
-                      className="flex flex-1 flex-col gap-5 pb-4"
-                      style={{ color: item?.description?.descriptionColor }}
-                    >
-                      {homeBanner && (
-                        <Image
-                          src={item.image ? item.image : ""}
-                          alt="homeAccordian"
-                          width={80}
-                          title="homeAccordian"
-                          height={80}
-                          className="md:hidden"
-                        />
+                    <div className="flex flex-col gap-4">
+                      <div
+                        className="flex flex-1 flex-col gap-5"
+                        style={{ color: item?.description?.descriptionColor }}
+                      >
+                        {homeBanner && (
+                          <Image
+                            src={item.image ? item.image : ""}
+                            alt="accordian"
+                            width={80}
+                            title="accordian"
+                            height={80}
+                            className="md:hidden"
+                          />
+                        )}
+                        {item?.description?.descriptionText}
+                      </div>
+                      {!!item?.arrowButtonLink && (
+                        <Link title="next" href={`/${item.arrowButtonLink}`}>
+                          <Button
+                            variant="default"
+                            size="icon"
+                            className="rounded-full"
+                          >
+                            <Arrow />
+                          </Button>
+                        </Link>
                       )}
-
-                      {item?.description?.descriptionText}
                     </div>
-                    {!!item?.arrowButtonLink && (
-                      <Link title="next" href={`/${item.arrowButtonLink}`}>
-                        <Button
-                          variant="default"
-                          size="icon"
-                          className="rounded-full"
-                        >
-                          <Arrow />
-                        </Button>
-                      </Link>
-                    )}
                   </div>
                 </AccordionContent>
               </AccordionItem>
