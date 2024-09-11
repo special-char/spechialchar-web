@@ -69,6 +69,20 @@ const FooterSection = async ({ urlPath }: SetionProps) => {
   return <RenderBuilderContent content={content} model={builderModelName} />;
 };
 
+const ContactFormSection = async ({ urlPath }: SetionProps) => {
+  const builderModelName = "contact-form";
+
+  const content = await builder
+    .get(builderModelName, {
+      userAttributes: {
+        urlPath,
+      },
+    })
+    .toPromise();
+
+  return <RenderBuilderContent content={content} model={builderModelName} />;
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -80,6 +94,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar />
         {children}
+        <ContactFormSection urlPath={urlPath} />
         <FooterSection urlPath={urlPath} />
         {/* <Contact />
         <Footer data={footerdata} /> */}
