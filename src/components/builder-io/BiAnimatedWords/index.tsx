@@ -27,13 +27,14 @@ const BiAnimatedWords = ({ textColor = "#000", animatedWords }: Props) => {
   return (
     <div className="relative overflow-hidden z-10">
       {animatedWords && (
-        <h3
+        <h2
           style={{
             color: textColor,
           }}
+          className="text-heading3 max-sm:text-heading6"
         >
           {animatedWords && animatedWords[currentWordIndex].word}
-        </h3>
+        </h2>
       )}
     </div>
   );

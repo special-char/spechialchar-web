@@ -11,14 +11,11 @@ interface AnimationProps {
 interface BiCustomButtonProps {
   content?: string;
   link?: string;
-  prefixIcon?: string;
-  suffixIcon?: string;
-  prefixIconWidth?: number;
-  prefixIconHeight?: number;
-  suffixIconWidth?: number;
-  suffixIconHeight?: number;
-  prefixIconAnimation?: AnimationProps;
-  suffixIconAnimation?: AnimationProps;
+  showPrefixIcon?: boolean;
+  icon?: string;
+  iconWidth?: number;
+  iconHeight?: number;
+  iconAnimation?: AnimationProps;
   attributes?: any;
 }
 
@@ -106,14 +103,11 @@ const AnimatedIcon: React.FC<{
 const BiButton: React.FC<BiCustomButtonProps> = ({
   content,
   link,
-  prefixIcon,
-  suffixIcon,
-  prefixIconWidth = 20,
-  prefixIconHeight = 20,
-  suffixIconWidth = 20,
-  suffixIconHeight = 20,
-  prefixIconAnimation,
-  suffixIconAnimation,
+  showPrefixIcon = true,
+  icon,
+  iconWidth = 20,
+  iconHeight = 20,
+  iconAnimation,
   attributes,
 }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -132,25 +126,25 @@ const BiButton: React.FC<BiCustomButtonProps> = ({
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        {prefixIcon && (
+        {showPrefixIcon && icon && (
           <span className="prefix-icon flex items-center">
             <AnimatedIcon
-              icon={prefixIcon}
-              width={prefixIconWidth}
-              height={prefixIconHeight}
-              animation={prefixIconAnimation}
+              icon={icon}
+              width={iconWidth}
+              height={iconHeight}
+              animation={iconAnimation}
               isHovered={isHovered}
             />
           </span>
         )}
         <span>{content}</span>
-        {suffixIcon && (
+        {!showPrefixIcon && icon && (
           <span className="suffix-icon flex items-center">
             <AnimatedIcon
-              icon={suffixIcon}
-              width={suffixIconWidth}
-              height={suffixIconHeight}
-              animation={suffixIconAnimation}
+              icon={icon}
+              width={iconWidth}
+              height={iconHeight}
+              animation={iconAnimation}
               isHovered={isHovered}
             />
           </span>
