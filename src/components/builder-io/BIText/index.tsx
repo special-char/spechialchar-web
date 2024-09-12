@@ -6,8 +6,6 @@ type Props = PropsWithChildren & {
 };
 
 const BIText = ({ children, attributes, ...props }: Props) => {
-  console.log({ attributes, type: typeof attributes });
-
   return (
     <div className="" {...attributes}>
       {children}
