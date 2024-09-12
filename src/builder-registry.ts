@@ -880,6 +880,29 @@ Builder.registerComponent(
   }
 );
 
+//BiAnimatedWords
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BiAnimatedWords")),
+  {
+    name: "BiAnimatedWords",
+    inputs: [
+      {
+        name: "animatedWords",
+        type: "list",
+        subFields: [{ name: "word", type: "string" }],
+      },
+      {
+        name: "textColor",
+        type: "color",
+        // defaultValue: "#B7466B",
+      },
+    ],
+
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
+  }
+);
+
 // BiCustomButton
 Builder.registerComponent(
   dynamic(() => import("./components/builder-io/BiButton")),
@@ -914,63 +937,28 @@ Builder.registerComponent(
         type: "string",
       },
       {
-        name: "prefixIcon",
+        name: "showPrefixIcon",
+        type: "boolean",
+        defaultValue: true,
+      },
+      {
+        name: "icon",
         type: "file",
         allowedFileTypes: ["jpeg", "jpg", "png", "svg"],
         defaultValue: "",
       },
       {
-        name: "prefixIconWidth",
+        name: "iconWidth",
         type: "number",
         defaultValue: 20,
       },
       {
-        name: "prefixIconHeight",
+        name: "iconHeight",
         type: "number",
         defaultValue: 20,
       },
       {
-        name: "prefixIconAnimation",
-        type: "object",
-        subFields: [
-          {
-            name: "type",
-            type: "string",
-            enum: ["none", "bounce", "pulse", "slideShake"],
-            defaultValue: "none",
-          },
-          {
-            name: "duration",
-            type: "number",
-            defaultValue: 1,
-            helperText: "Animation duration in seconds",
-          },
-          {
-            name: "delay",
-            type: "number",
-            defaultValue: 0,
-            helperText: "Delay before animation starts, in seconds",
-          },
-        ],
-      },
-      {
-        name: "suffixIcon",
-        type: "file",
-        allowedFileTypes: ["jpeg", "jpg", "png", "svg"],
-        defaultValue: "",
-      },
-      {
-        name: "suffixIconWidth",
-        type: "number",
-        defaultValue: 20,
-      },
-      {
-        name: "suffixIconHeight",
-        type: "number",
-        defaultValue: 20,
-      },
-      {
-        name: "suffixIconAnimation",
+        name: "iconAnimation",
         type: "object",
         subFields: [
           {
@@ -1023,126 +1011,5 @@ Builder.registerComponent(
         defaultValue: 5,
       },
     ],
-  }
-);
-
-// BiCustomButton
-Builder.registerComponent(
-  dynamic(() => import("./components/builder-io/BiButton")),
-  {
-    name: "BiCustomButton",
-    defaultStyles: {
-      // TODO: make min width more intuitive and set one
-      appearance: "none",
-      paddingTop: "15px",
-      paddingBottom: "15px",
-      paddingLeft: "25px",
-      paddingRight: "25px",
-      backgroundColor: "#000000",
-      color: "white",
-      borderRadius: "4px",
-      textAlign: "center",
-      cursor: "pointer",
-      display: "inline-flex",
-      flexDirection: "row",
-      alignItems: "center",
-      justifyContent: "center",
-      gap: "8px",
-    },
-    inputs: [
-      {
-        name: "content",
-        type: "string",
-        defaultValue: "Click me",
-      },
-      {
-        name: "link",
-        type: "string",
-      },
-      {
-        name: "prefixIcon",
-        type: "file",
-        allowedFileTypes: ["jpeg", "jpg", "png", "svg"],
-        defaultValue: "",
-      },
-      {
-        name: "prefixIconWidth",
-        type: "number",
-        defaultValue: 20,
-      },
-      {
-        name: "prefixIconHeight",
-        type: "number",
-        defaultValue: 20,
-      },
-      {
-        name: "prefixIconAnimation",
-        type: "object",
-        subFields: [
-          {
-            name: "type",
-            type: "string",
-            enum: ["none", "bounce", "pulse", "slideShake"],
-            defaultValue: "none",
-          },
-          {
-            name: "duration",
-            type: "number",
-            defaultValue: 1,
-            helperText: "Animation duration in seconds",
-          },
-          {
-            name: "delay",
-            type: "number",
-            defaultValue: 0,
-            helperText: "Delay before animation starts, in seconds",
-          },
-        ],
-      },
-      {
-        name: "suffixIcon",
-        type: "file",
-        allowedFileTypes: ["jpeg", "jpg", "png", "svg"],
-        defaultValue: "",
-      },
-      {
-        name: "suffixIconWidth",
-        type: "number",
-        defaultValue: 20,
-      },
-      {
-        name: "suffixIconHeight",
-        type: "number",
-        defaultValue: 20,
-      },
-      {
-        name: "suffixIconAnimation",
-        type: "object",
-        subFields: [
-          {
-            name: "type",
-            type: "string",
-            enum: ["none", "bounce", "pulse", "slideShake"],
-            defaultValue: "none",
-          },
-          {
-            name: "duration",
-            type: "number",
-            defaultValue: 1,
-            helperText: "Animation duration in seconds",
-          },
-          {
-            name: "delay",
-            type: "number",
-            defaultValue: 0,
-            helperText: "Delay before animation starts, in seconds",
-          },
-        ],
-      },
-    ],
-    static: true,
-    noWrap: true,
-    image:
-      "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
   }
 );
