@@ -5,7 +5,7 @@ type Props = PropsWithChildren & {
   attributes: any;
 };
 
-const BIText = ({ children, attributes, ...props }: Props) => {
+const BIText = ({ children, attributes }: Props) => {
   return (
     <div className="" {...attributes}>
       {children}
