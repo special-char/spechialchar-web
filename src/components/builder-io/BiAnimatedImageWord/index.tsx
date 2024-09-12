@@ -53,6 +53,7 @@ const BiAnimatedImageWord = ({ data }: Props) => {
                       alt="banner1"
                       title="thinking-image"
                       fill
+                      sizes="aspect-square"
                       className="object-cover"
                     />
                   )}
