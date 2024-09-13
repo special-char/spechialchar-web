@@ -27,11 +27,11 @@ const BiClientCarousel = ({ className, clients, background }: Props) => {
       <Marquee speed={100}>
         <div className="flex gap-x-[7.5rem] items-center">
           {clients &&
-            clients.map((x) => (
-              <div key={x.title}>
+            clients.map((x, index) => (
+              <div key={index}>
                 <Image
                   src={x.image}
-                  alt="clients"
+                  alt={x.title}
                   title={x.title}
                   height={70}
                   width={70}
