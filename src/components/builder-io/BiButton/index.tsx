@@ -105,12 +105,16 @@ const BiButton: React.FC<BiCustomButtonProps> = ({
   link,
   showPrefixIcon = true,
   icon,
-  iconWidth = 20,
-  iconHeight = 20,
+  iconWidth,
+  iconHeight,
   iconAnimation,
   attributes,
 }) => {
   const [isHovered, setIsHovered] = useState(false);
+
+  // Default values for iconWidth and iconHeight
+  const defaultIconWidth = 20;
+  const defaultIconHeight = 20;
 
   return (
     <a href={link}>
@@ -130,8 +134,8 @@ const BiButton: React.FC<BiCustomButtonProps> = ({
           <span className="prefix-icon flex items-center">
             <AnimatedIcon
               icon={icon}
-              width={iconWidth}
-              height={iconHeight}
+              width={iconWidth || defaultIconWidth}
+              height={iconHeight || defaultIconHeight}
               animation={iconAnimation}
               isHovered={isHovered}
             />
@@ -142,8 +146,8 @@ const BiButton: React.FC<BiCustomButtonProps> = ({
           <span className="suffix-icon flex items-center">
             <AnimatedIcon
               icon={icon}
-              width={iconWidth}
-              height={iconHeight}
+              width={iconWidth || defaultIconWidth}
+              height={iconHeight || defaultIconHeight}
               animation={iconAnimation}
               isHovered={isHovered}
             />
