@@ -32,26 +32,6 @@ Builder.registerComponent(
   }
 );
 
-//BICustomBanner
-Builder.registerComponent(
-  dynamic(() => import("./components/builder-io/BiCustomBanner")),
-  {
-    name: "BICustomBanner",
-    // Adding defaults is important for easy usability
-    defaultChildren: [
-      {
-        "@type": "@builder.io/sdk:Element",
-        component: {
-          name: "string",
-          options: { text: "I am child text block!" },
-        },
-      },
-    ],
-    image:
-      "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
-  }
-);
-
 //BiProjectCard
 Builder.registerComponent(
   dynamic(() => import("./components/builder-io/BiProjectCard")),
@@ -196,81 +176,81 @@ Builder.registerComponent(
   }
 );
 
-//BiBanner
-Builder.registerComponent(
-  dynamic(() => import("./components/builder-io/BiBanner")),
-  {
-    name: "BiBanner",
-    inputs: [
-      {
-        name: "background",
-        type: "color",
-      },
-      {
-        name: "textColor",
-        type: "color",
-        defaultValue: "#000000",
-      },
-      {
-        name: "headingLine1",
-        type: "object",
-        subFields: [
-          {
-            name: "heading",
-            type: "string",
-          },
-          {
-            name: "textColor",
-            type: "color",
-            defaultValue: "#000000",
-          },
-        ],
-      },
-      {
-        name: "headingLine2",
-        type: "string",
-      },
-      {
-        name: "description",
-        type: "text",
-      },
-      {
-        name: "subTitle",
-        type: "string",
-      },
-      {
-        name: "animatedWords",
-        type: "list",
-        subFields: [
-          {
-            name: "word",
-            type: "string",
-          },
-        ],
-      },
-      {
-        name: "button",
-        type: "boolean",
-      },
-      {
-        name: "btnText",
-        type: "string",
-        showIf: (options) => options.get("button"),
-      },
-      {
-        name: "btnUrl",
-        type: "string",
-        showIf: (options) => options.get("button"),
-      },
-      {
-        name: "media",
-        type: "file",
-      },
-    ],
-    image:
-      "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
-  }
-);
+// //BiBanner
+// Builder.registerComponent(
+//   dynamic(() => import("./components/builder-io/BiBanner")),
+//   {
+//     name: "BiBanner",
+//     inputs: [
+//       {
+//         name: "background",
+//         type: "color",
+//       },
+//       {
+//         name: "textColor",
+//         type: "color",
+//         defaultValue: "#000000",
+//       },
+//       {
+//         name: "headingLine1",
+//         type: "object",
+//         subFields: [
+//           {
+//             name: "heading",
+//             type: "string",
+//           },
+//           {
+//             name: "textColor",
+//             type: "color",
+//             defaultValue: "#000000",
+//           },
+//         ],
+//       },
+//       {
+//         name: "headingLine2",
+//         type: "string",
+//       },
+//       {
+//         name: "description",
+//         type: "text",
+//       },
+//       {
+//         name: "subTitle",
+//         type: "string",
+//       },
+//       {
+//         name: "animatedWords",
+//         type: "list",
+//         subFields: [
+//           {
+//             name: "word",
+//             type: "string",
+//           },
+//         ],
+//       },
+//       {
+//         name: "button",
+//         type: "boolean",
+//       },
+//       {
+//         name: "btnText",
+//         type: "string",
+//         showIf: (options) => options.get("button"),
+//       },
+//       {
+//         name: "btnUrl",
+//         type: "string",
+//         showIf: (options) => options.get("button"),
+//       },
+//       {
+//         name: "media",
+//         type: "file",
+//       },
+//     ],
+//     image:
+//       "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
+//   }
+// );
 
 //BiImageBanner
 Builder.registerComponent(
