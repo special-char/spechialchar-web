@@ -56,7 +56,7 @@ const BiHomeAccordian = ({
               >
                 <AccordionTrigger
                   className={clsx(
-                    "flex flex-1 transition-all duration-1000 ease-out  items-center justify-between py-5 text-heading5 font-semibold",
+                    "flex flex-1 transition-all duration-1000 ease-out  items-center justify-between py-5 text-heading6 font-semibold",
                     {
                       ["hover:text-blue data-[state=open]:text-blue"]:
                         !homeBanner,
@@ -69,7 +69,8 @@ const BiHomeAccordian = ({
                   <div
                     className={clsx({
                       ["flex gap-10 md:gap-8 items-center"]: homeBanner,
-                      ["flex items-center gap-4"]: !homeBanner,
+                      ["flex items-center"]: !homeBanner,
+                      ["flex items-center gap-4"]: !homeBanner && item.image,
                     })}
                   >
                     <div

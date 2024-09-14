@@ -993,3 +993,101 @@ Builder.registerComponent(
     ],
   }
 );
+
+//BIImageWithCards
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BiImageWithCards")),
+  {
+    name: "BiImageWithCards",
+    inputs: [
+      {
+        name: "image",
+        type: "file",
+      },
+      {
+        name: "imageTitle",
+        type: "string",
+      },
+      {
+        name: "cardData",
+        type: "list",
+        subFields: [
+          {
+            name: "title",
+            type: "string",
+          },
+          {
+            name: "subdec",
+            type: "string",
+          },
+        ],
+      },
+      {
+        name: "side",
+        type: "string",
+        enum: ["bottom", "left"],
+        defaultValue: "bottom",
+      },
+    ],
+  }
+);
+
+//BIOddEvenImagetext
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BiOddEvenImageText")),
+  {
+    name: "BiOddEvenImageText",
+    inputs: [
+      {
+        name: "data",
+        type: "list",
+        subFields: [
+          {
+            name: "title",
+            type: "string",
+          },
+          {
+            name: "description",
+            type: "text",
+          },
+          {
+            name: "image",
+            type: "file",
+          },
+          {
+            name: "cardData",
+            type: "list",
+            subFields: [
+              {
+                name: "title",
+                type: "string",
+              },
+              {
+                name: "subdec",
+                type: "string",
+              },
+            ],
+          },
+          {
+            name: "side",
+            type: "string",
+            enum: ["bottom", "left"],
+            defaultValue: "bottom",
+            showIf: (options) => options.get("cardData"),
+          },
+        ],
+      },
+    ],
+  }
+);
+
+// BiMeetCalendar
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BiMeetCalendar")),
+  {
+    name: "BiMeetCalendar",
+    inputs: [],
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
+  }
+);

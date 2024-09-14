@@ -91,7 +91,7 @@ export async function POST(req: NextRequest) {
     await transporter.sendMail({
       from: process.env.DEFAULT_FROM,
       to: email,
-      bcc: "aaryan.patel@thespecialcharacter.com",
+      bcc: process.env.BCC_EMAIL,
       subject: "Thank you for your inquiry - TSC IT-services",
       html: emailContent,
       attachments,
