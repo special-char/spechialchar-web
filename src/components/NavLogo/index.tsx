@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from "react";
 import getColors from "@/utils/colors";
 import { usePathname } from "next/navigation";
 import NavbarLogo from "../../../public/icons/TSC-logo.svg";
@@ -30,12 +30,14 @@ const NavLogo = () => {
     };
   }, [prevScrollPos]);
   return (
-
-    <NavbarLogo className="lg:mt-3 h-12 w-40  " fill="white" style={{
-
-      fill: scrollPosition > 100 ? `white` : `${colors?.fillcolor}`,
-    }} />
-  )
-}
+    <NavbarLogo
+      className="h-16"
+      fill="white"
+      style={{
+        fill: scrollPosition > 100 ? `white` : `${colors?.fillcolor}`,
+      }}
+    />
+  );
+};
 
 export default NavLogo;

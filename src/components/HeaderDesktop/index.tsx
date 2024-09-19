@@ -8,10 +8,10 @@ import { Button } from "../ui/button";
 const HeaderDesktop = () => {
   return (
     <div className="h-full w-full flex justify-between ">
-      <div className="flex justify-evenly w-full items-start py-2 pl-5">
+      <div className="flex justify-between w-full items-start py-2 pl-5">
         {accordionItems.data.map((item, index) => (
           <div key={index} className="flex flex-col pt-3 group">
-            <div className="flex  text-subtitle1 gap-x-1">
+            <div className="flex items-center text-subtitle1 gap-x-1">
               {/* <Link
                 href={`${item.link?.toLowerCase()}`}
                 className="cursor-pointer"
@@ -25,7 +25,7 @@ const HeaderDesktop = () => {
                 title={item.title}
               />
               {item?.content && (
-                <ChevronDownIcon className="mt-3 transition-transform duration-300 transform group-hover:rotate-180 " />
+                <ChevronDownIcon className="transition-transform duration-300 transform group-hover:rotate-180 " />
               )}
             </div>
             <ul
