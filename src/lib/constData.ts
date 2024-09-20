@@ -637,7 +637,7 @@ export const accordionItems1 = {
     {
       value: "item-1",
       title: "Services",
-      link: "/services/software-engineering",
+      // link: "/services/software-engineering",
       content: [
         "Mobile",
         "Web",
@@ -650,13 +650,13 @@ export const accordionItems1 = {
     {
       value: "item-2",
       title: "Industry",
-      link: "/industry/elearning",
-      content: ["eLearning", "Ecommerce"],
+      // link: "/industry/elearning",
+      content: ["Ecommerce"],
     },
     {
       value: "item-3",
       title: "Company",
-      link: "/company/about",
+      // link: "/company/about",
       content: ["About", "Career", "How-We-Work"],
     },
   ],

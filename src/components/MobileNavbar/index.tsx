@@ -59,15 +59,9 @@ const MobileNavbar = () => {
             {accordionItems1.data.map((item, i) => (
               <AccordionItem key={item.value} value={item.value} className="">
                 <AccordionTrigger className="">
-                  <SheetClose asChild>
-                    <Link
-                      href={item.link.toLowerCase()}
-                      title="mobile-nav-link"
-                      className="text-subtitle2"
-                    >
-                      {item.title}
-                    </Link>
-                  </SheetClose>
+                  <p title="mobile-nav-link" className="text-subtitle2">
+                    {item.title}
+                  </p>
                 </AccordionTrigger>
                 <AccordionContent className="py-4">
                   <ul className="flex flex-col gap-y-4">
@@ -89,7 +83,7 @@ const MobileNavbar = () => {
                 </AccordionContent>
               </AccordionItem>
             ))}
-            <div className="flex flex-col">
+            {/* <div className="flex flex-col">
               <SheetClose asChild>
                 <Link
                   href="/ourthinking"
@@ -108,20 +102,31 @@ const MobileNavbar = () => {
                   CaseStudies
                 </Link>
               </SheetClose>
+            </div> */}
+            <div className="pt-4">
+              <SheetClose asChild>
+                <Link
+                  href="/casestudies"
+                  title="mobile-nav-link"
+                  className="text-subtitle2 py-3"
+                >
+                  Projects
+                </Link>
+              </SheetClose>
             </div>
             <div className="pt-4">
               <SheetClose asChild>
                 <Link
                   className="pt-1"
                   title="mobile-nav-button"
-                  href={"#Contact"}
+                  href={"/hiring"}
                 >
                   <Button
                     variant={"secondary"}
                     size={"default"}
-                    className=" py-1 px-4  hover:text-background "
+                    className="px-4  hover:text-background "
                   >
-                    Contact Us
+                    Hiring Us
                   </Button>
                 </Link>
               </SheetClose>

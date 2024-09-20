@@ -56,8 +56,8 @@ export function BiProjectCard({ projects }: Props) {
                 ))}
             </CarouselContent>
           </div>
-          <CarouselPrevious className="bg-blue h-12 w-12 absolute left-0 translate-x-[50%] max-sm:hidden" />
-          <CarouselNext className="bg-blue h-12 w-12 absolute right-0 max-sm:hidden translate-x-[-50%]" />
+          <CarouselPrevious className="bg-blue h-8 sm:h-12 w-8 sm:w-12 max-sm:translate-y-48 left-0 sm:translate-x-[50%]" />
+          <CarouselNext className="bg-blue h-8 sm:h-12 w-8 sm:w-12 max-sm:translate-y-48 max-sm:left-10 sm:right-0 sm:translate-x-[-50%]" />
         </Carousel>
       </div>
     </div>
