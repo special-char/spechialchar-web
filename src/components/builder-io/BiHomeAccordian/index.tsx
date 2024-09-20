@@ -132,7 +132,7 @@ const BiHomeAccordian = ({
                         {item?.description?.descriptionText}
                       </div>
                       {!!item?.arrowButtonLink && (
-                        <Link title="next" href={`/${item.arrowButtonLink}`}>
+                        <Link title="next" href={`${item.arrowButtonLink}`}>
                           <Button
                             variant="default"
                             size="icon"
