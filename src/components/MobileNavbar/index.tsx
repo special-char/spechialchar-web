@@ -66,18 +66,16 @@ const MobileNavbar = () => {
                 <AccordionContent className="py-4">
                   <ul className="flex flex-col gap-y-4">
                     {item?.content?.map((itemContent, subindex) => (
-                      <li key={subindex} className="text-primary">
-                        <SheetClose asChild>
-                          <Link
-                            title="mobile-nav-link"
-                            href={`/${item.title.toLowerCase()}/${item.content[
-                              subindex
-                            ].toLocaleLowerCase()}`}
-                          >
-                            {itemContent}
-                          </Link>
-                        </SheetClose>
-                      </li>
+                      <SheetClose asChild key={subindex}>
+                        <Link
+                          title="mobile-nav-link"
+                          href={`/${item.title.toLowerCase()}/${item.content[
+                            subindex
+                          ].toLocaleLowerCase()}`}
+                        >
+                          <li className="text-primary">{itemContent}</li>
+                        </Link>
+                      </SheetClose>
                     ))}
                   </ul>
                 </AccordionContent>

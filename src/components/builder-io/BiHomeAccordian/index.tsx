@@ -138,7 +138,7 @@ const BiHomeAccordian = ({
                             size="icon"
                             className="rounded-full"
                           >
-                            <Arrow />
+                            <Arrow className="w-4" />
                           </Button>
                         </Link>
                       )}

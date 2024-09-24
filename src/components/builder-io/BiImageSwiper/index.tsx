@@ -5,8 +5,14 @@ import Image from "next/image";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 type imageSwiperProps = {
-  title?: string;
-  description?: string;
+  imageTitle?: {
+    title?: string;
+    titleColor?: string;
+  };
+  description?: {
+    content?: string;
+    descriptionColor?: string;
+  };
   image?: string | StaticImport;
 };
 
@@ -27,7 +33,7 @@ const ImageAccordion = ({ data }: Props) => {
             const isActive = active === index;
             return (
               <div
-                key={item.title}
+                key={item?.imageTitle?.title}
                 className={`${styles.imageAccordionItem} ${
                   isActive ? styles.imageAccordionItemActive : ""
                 }`}
@@ -36,7 +42,7 @@ const ImageAccordion = ({ data }: Props) => {
                 {item.image && (
                   <Image
                     alt="ecommerce-info"
-                    title="project-info"
+                    title={item?.imageTitle?.title}
                     height={900}
                     width={900}
                     src={item.image ? item.image : ""}
@@ -47,15 +53,17 @@ const ImageAccordion = ({ data }: Props) => {
                   className={`${styles.content1} ${
                     isActive ? styles.content1Active : "text-heading3"
                   }`}
+                  style={{ color: item?.imageTitle?.titleColor }}
                 >
-                  {item.title}
+                  {item?.imageTitle?.title}
                 </p>
                 <p
                   className={`${styles.content} ${
                     isActive ? styles.contentActive : ""
                   }`}
+                  style={{ color: item?.description?.descriptionColor }}
                 >
-                  {item.description}
+                  {item?.description?.content}
                 </p>
               </div>
             );
