@@ -31,7 +31,7 @@ const NavLogo = () => {
   }, [prevScrollPos]);
   return (
     <NavbarLogo
-      className="h-16"
+      className="h-14 sm:h-16"
       fill="white"
       style={{
         fill: scrollPosition > 100 ? `white` : `${colors?.fillcolor}`,

@@ -8,7 +8,7 @@ import NavLogo from "../NavLogo";
 const Navbar = () => {
   return (
     <Header>
-      <div className="flex justify-between items-start">
+      <div className="flex justify-between items-start gap-4">
         <Link title="home-link" href="/">
           <NavLogo />
         </Link>

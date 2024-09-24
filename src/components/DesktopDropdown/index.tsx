@@ -25,7 +25,7 @@ const DesktopDropdown = () => {
           {accordionItems.data.map((dropdown, index) => (
             <div key={index} className="dropdown inline-block z-50 ">
               <Link
-                href={`/${dropdown.link.toLowerCase()}`}
+                href={`/${dropdown?.link?.toLowerCase()}`}
                 className="  text-background cursor-pointer hover:text-yellow flex gap-x-2 text-lg "
               >
                 {dropdown.title}
@@ -41,9 +41,7 @@ const DesktopDropdown = () => {
                         : "rgba(0, 0, 0, 0)",
                   }}
                 >
-                  <div >
-
-                  </div>
+                  <div></div>
                 </li>
               </div>
             </div>

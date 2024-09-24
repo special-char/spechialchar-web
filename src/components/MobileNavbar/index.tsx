@@ -58,22 +58,28 @@ const MobileNavbar = () => {
           <Accordion type="single" collapsible>
             {accordionItems1.data.map((item, i) => (
               <AccordionItem key={item.value} value={item.value} className="">
-                <AccordionTrigger className="">
-                  <p title="mobile-nav-link" className="text-subtitle2">
+                <AccordionTrigger>
+                  <p
+                    title="mobile-nav-link"
+                    className="text-subtitle2 font-bold"
+                  >
                     {item.title}
                   </p>
                 </AccordionTrigger>
-                <AccordionContent className="py-4">
-                  <ul className="flex flex-col gap-y-4">
+                <AccordionContent className="py-2">
+                  <ul className="flex flex-col gap-y-4 pl-4 font-medium">
                     {item?.content?.map((itemContent, subindex) => (
                       <SheetClose asChild key={subindex}>
                         <Link
-                          title="mobile-nav-link"
-                          href={`/${item.title.toLowerCase()}/${item.content[
-                            subindex
-                          ].toLocaleLowerCase()}`}
+                          title={item.title}
+                          href={`/${item.title.toLowerCase()}/${
+                            item?.content &&
+                            item.content[subindex].toLocaleLowerCase()
+                          }`}
                         >
-                          <li className="text-primary">{itemContent}</li>
+                          <li className="text-primary active:text-skyblue">
+                            {itemContent}
+                          </li>
                         </Link>
                       </SheetClose>
                     ))}
@@ -81,49 +87,21 @@ const MobileNavbar = () => {
                 </AccordionContent>
               </AccordionItem>
             ))}
-            {/* <div className="flex flex-col">
-              <SheetClose asChild>
-                <Link
-                  href="/ourthinking"
-                  className="text-subtitle2 py-3"
-                  title="mobile-nav-link"
-                >
-                  OurThinking
-                </Link>
-              </SheetClose>
+            <div className="py-3">
               <SheetClose asChild>
                 <Link
                   href="/casestudies"
                   title="mobile-nav-link"
-                  className="text-subtitle2 py-3"
-                >
-                  CaseStudies
-                </Link>
-              </SheetClose>
-            </div> */}
-            <div className="pt-4">
-              <SheetClose asChild>
-                <Link
-                  href="/casestudies"
-                  title="mobile-nav-link"
-                  className="text-subtitle2 py-3"
+                  className="text-subtitle2 font-bold py-3"
                 >
                   Projects
                 </Link>
               </SheetClose>
             </div>
-            <div className="pt-4">
+            <div className="py-3">
               <SheetClose asChild>
-                <Link
-                  className="pt-1"
-                  title="mobile-nav-button"
-                  href={"/hiring"}
-                >
-                  <Button
-                    variant={"secondary"}
-                    size={"default"}
-                    className="px-4  hover:text-background "
-                  >
+                <Link title="mobile-nav-button" href={"/hiring"}>
+                  <Button variant={"secondary"} size={"sm"}>
                     Hiring Us
                   </Button>
                 </Link>
