@@ -83,7 +83,8 @@ const ContactFormSection = async ({ urlPath }: SetionProps) => {
   return <RenderBuilderContent content={content} model={builderModelName} />;
 };
 
-export const dynamic = "force-dynamic";
+// export const dynamic = "force-dynamic";
+export const revalidate = 600;
 
 export default function RootLayout({
   children,

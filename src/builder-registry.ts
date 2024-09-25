@@ -9,7 +9,7 @@ import { string } from "yup";
 
 builder.init(process.env.NEXT_PUBLIC_BUILDER_API_KEY!);
 
-const IMAGE_FILE_TYPES = ["jpeg", "jpg", "png", "gif", "avif", "webp"];
+const IMAGE_FILE_TYPES = ["jpeg", "jpg", "png", "gif", "avif", "webp", "svg"];
 
 //Section
 Builder.registerComponent(
@@ -58,6 +58,10 @@ Builder.registerComponent(
           },
           {
             name: "description",
+            type: "string",
+          },
+          {
+            name: "url",
             type: "string",
           },
         ],
