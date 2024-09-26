@@ -84,7 +84,7 @@ const ContactFormSection = async ({ urlPath }: SetionProps) => {
 };
 
 // export const dynamic = "force-dynamic";
-export const revalidate = 600;
+// export const revalidate = 600;
 
 export default function RootLayout({
   children,
