@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import {
   Carousel,
@@ -27,6 +27,17 @@ type Props = {
 
 export function BiProjectCard({ projects }: Props) {
   const [activeIndex, setActiveIndex] = useState(0);
+  const [api, setApi] = useState<CarouselApi>();
+
+  useEffect(() => {
+    if (!api) {
+      return;
+    }
+
+    api.on("select", (e) => {
+      setActiveIndex(api.selectedScrollSnap());
+    });
+  }, [api, activeIndex]);
 
   return (
     <div>
@@ -34,6 +45,7 @@ export function BiProjectCard({ projects }: Props) {
         <Carousel
           opts={{ align: "center", startIndex: activeIndex }}
           className="relative flex flex-col gap-4"
+          setApi={setApi}
         >
           <div className="flex gap-x-10">
             <CarouselContent className="w-full">
@@ -41,7 +53,11 @@ export function BiProjectCard({ projects }: Props) {
                 projects.map((item, index) => (
                   <CarouselItem
                     key={index}
-                    className="group basis-11/12 sm:basis-1/2 md:basis-2/5"
+                    onClick={() => {
+                      setActiveIndex(index);
+                      api?.scrollTo(index);
+                    }}
+                    className={cn("group sm:basis-1/2 md:basis-2/5 pl-8")}
                   >
                     <Link href={`${item?.url}`} title={item.title}>
                       <div className="relative aspect-video z-10 overflow-hidden">
@@ -68,13 +84,11 @@ export function BiProjectCard({ projects }: Props) {
           </div>
           <CarouselPrevious
             className="max-sm:hidden bg-blue h-12 w-12 left-0 translate-x-[50%]"
-            onClick={() => setActiveIndex((prev) => Math.max(prev - 1, 0))}
+            onClick={() => setActiveIndex(activeIndex - 1)}
           />
           <CarouselNext
             className="max-sm:hidden bg-blue h-12 w-12 right-0 translate-x-[-50%]"
-            onClick={() =>
-              setActiveIndex((prev) => Math.min(prev + 1, projects.length - 1))
-            }
+            onClick={() => setActiveIndex(activeIndex + 1)}
           />
           <div className="flex w-full justify-center items-center gap-4">
             {projects.length > 0 &&

@@ -619,12 +619,12 @@ export const accordionItems = {
     //   link: "/ourthinking",
     // },
     {
-      value: "item-3",
+      value: "item-4",
       title: "Projects",
       link: "/casestudies",
     },
     {
-      value: "item-3",
+      value: "item-5",
       title: "Hiring Us",
       link: "/hiring",
       asbtn: true,
