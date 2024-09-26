@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import getColors from "@/utils/colors";
 import { usePathname } from "next/navigation";
 import NavbarLogo from "../../../public/icons/TSC-logo.svg";
+
 const NavLogo = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
@@ -34,7 +35,7 @@ const NavLogo = () => {
       className="h-14 sm:h-16"
       fill="white"
       style={{
-        fill: scrollPosition > 100 ? `white` : `${colors?.fillcolor}`,
+        fill: scrollPosition > 100 ? "white" : `${colors?.fillcolor}`,
       }}
     />
   );

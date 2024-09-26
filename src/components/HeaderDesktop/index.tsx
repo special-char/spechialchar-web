@@ -32,10 +32,10 @@ const HeaderDesktop = () => {
                     title="desktop-nav links"
                     href={`/${item.title.toLowerCase()}/${item.content[
                       subindex
-                    ].toLocaleLowerCase()}`}
+                    ].url.toLocaleLowerCase()}`}
                   >
                     <span className=" flex flex-col flex-wrap">
-                      {itemContent}
+                      {itemContent?.title}
                     </span>
                   </Link>
                 </li>

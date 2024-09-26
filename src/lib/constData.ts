@@ -591,11 +591,11 @@ export const accordionItems = {
       title: "Services",
       // link: "/services/software-engineering",
       content: [
-        "Mobile",
-        "Web",
-        "Saas",
-        "UiUx-Design",
-        "Corporate-Training",
+        { title: "Mobile", url: "mobile" },
+        { title: "Web", url: "web" },
+        { title: "Saas", url: "saas" },
+        { title: "Ui/Ux-Design", url: "ui-ux-design" },
+        { title: "Corporate-Training", url: "corporate-training" },
         // "Back-End",
         // "Cloud-Devops",
       ],
@@ -604,14 +604,23 @@ export const accordionItems = {
       value: "item-2",
       title: "Industry",
       // link: "/industry/elearning",
-      content: ["Ecommerce"],
+      content: [
+        {
+          title: "E-Commerce",
+          url: "ecommerce",
+        },
+      ],
       // content: ["eLearning", "Ecommerce"],
     },
     {
       value: "item-3",
       title: "Company",
       // link: "/company/about",
-      content: ["About", "Career", "How-We-Work"],
+      content: [
+        { title: "About", url: "about" },
+        { title: "Career", url: "career" },
+        { title: "How-We-Work", url: "how-we-work" },
+      ],
     },
     // {
     //   value: "item-3",
@@ -640,11 +649,11 @@ export const accordionItems1 = {
       title: "Services",
       // link: "/services/software-engineering",
       content: [
-        "Mobile",
-        "Web",
-        "Saas",
-        "UiUx-Design",
-        "Corporate-Training",
+        { title: "Mobile", url: "mobile" },
+        { title: "Web", url: "web" },
+        { title: "Saas", url: "saas" },
+        { title: "Ui/Ux-Design", url: "ui-ux-design" },
+        { title: "Corporate-Training", url: "corporate-training" },
         // "Back-End",
         // "Cloud-Devops",
       ],
@@ -653,13 +662,22 @@ export const accordionItems1 = {
       value: "item-2",
       title: "Industry",
       // link: "/industry/elearning",
-      content: ["Ecommerce"],
+      content: [
+        {
+          title: "E-Commerce",
+          url: "ecommerce",
+        },
+      ],
     },
     {
       value: "item-3",
       title: "Company",
       // link: "/company/about",
-      content: ["About", "Career", "How-We-Work"],
+      content: [
+        { title: "About", url: "about" },
+        { title: "Career", url: "career" },
+        { title: "How-We-Work", url: "how-we-work" },
+      ],
     },
   ],
 };
@@ -3848,6 +3866,7 @@ import Icons from "@/public.icons/21stCenturyFox.svg";
 import Icons1 from "@/public.icons/21stCenturyFox.svg";
 import Icons2 from "@/public.icons/21stCenturyFox.svg";
 import { Description } from "@radix-ui/react-dialog";
+import { url } from "inspector";
 import { title } from "process";
 
 export const MarqueData2 = [

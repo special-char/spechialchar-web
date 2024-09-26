@@ -19,22 +19,27 @@ type Props = {
 const BiClientCarousel = ({ className, clients, background }: Props) => {
   return (
     <div
-      className={cn("py-6 md:py-16 flex items-center", {
+      className={cn("py-6 md:py-12 flex items-center", {
         [`${className}`]: className,
       })}
       style={{ backgroundColor: background }}
     >
       <Marquee speed={100}>
-        <div className="flex gap-x-[7.5rem] items-center pr-[7.5rem]">
+        <div className="flex gap-x-[5rem] items-center pr-[5rem]">
           {clients &&
             clients.map((x, index) => (
-              <div key={index}>
+              <div
+                key={index}
+                className="relative aspect-[3/4] flex items-center w-[120px]"
+              >
                 <Image
                   src={x.image}
                   alt={x.title}
                   title={x.title}
-                  height={100}
-                  width={100}
+                  fill
+                  className="object-contain py-8 filter brightness-0 invert"
+                  // height={120}
+                  // width={120}
                 />
               </div>
             ))}

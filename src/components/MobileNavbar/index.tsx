@@ -74,11 +74,11 @@ const MobileNavbar = () => {
                           title={item.title}
                           href={`/${item.title.toLowerCase()}/${
                             item?.content &&
-                            item.content[subindex].toLocaleLowerCase()
+                            item.content[subindex].url.toLocaleLowerCase()
                           }`}
                         >
                           <li className="text-primary active:text-skyblue">
-                            {itemContent}
+                            {itemContent?.title}
                           </li>
                         </Link>
                       </SheetClose>
