@@ -7,7 +7,7 @@ import { Button } from "../ui/button";
 const HeaderDesktop = () => {
   return (
     <div className="h-full w-full flex justify-between ">
-      <div className="flex justify-between w-full items-start py-2 ">
+      <div className="flex justify-between w-full items-start">
         {accordionItems.data.map((item, index) => (
           <div key={index} className="flex flex-col pt-3 group">
             <div className="flex items-center text-subtitle1 gap-x-1">

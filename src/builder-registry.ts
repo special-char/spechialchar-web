@@ -1121,10 +1121,10 @@ Builder.registerComponent(
         type: "string",
         defaultValue: "Button name",
       },
-      {
-        name: "modalTitle",
-        type: "string",
-      },
+      // {
+      //   name: "modalTitle",
+      //   type: "string",
+      // },
       {
         name: "content",
         type: "uiBlocks",

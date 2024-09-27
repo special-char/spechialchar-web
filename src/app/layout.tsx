@@ -8,6 +8,7 @@ import Contact from "@/components/Contact";
 import { RenderBuilderContent } from "@/components/builder";
 import { builder } from "@builder.io/sdk";
 
+const base_url = process.env.NEXT_PUBLIC_BASE_URL;
 const inter = Inter({ subsets: ["latin"] });
 
 type SetionProps = {
@@ -17,17 +18,17 @@ type SetionProps = {
 builder.init(process.env.NEXT_PUBLIC_BUILDER_API_KEY!);
 
 export const metadata: Metadata = {
-  title: {
-    default: "Home Page | The Special Character",
-    template: "%s | The Special Character",
-  },
-  description:
-    "Learn practically with us and get ahead of the competition with our industry-relevant IT Training. Our expertise - Digital Marketing | Full Stack Development",
+  // title: {
+  //   default: "Home Page | The Special Character",
+  //   template: "%s | The Special Character",
+  // },
+  // description:
+  //   "Learn practically with us and get ahead of the competition with our industry-relevant IT Training. Our expertise - Digital Marketing | Full Stack Development",
   keywords: ["IT Courses", " Placement Assurance", "Practical Training"],
   publisher: "Yagnesh Modh",
   authors: [
     {
-      name: "The Specail Char",
+      name: "The Special Character",
       url: "https://https://thespecialcharacter.com/",
     },
   ],
@@ -39,6 +40,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
+    images: {
+      url: `${base_url}/public/icons/logo.svg`,
+      width: "100px",
+      height: "100px",
+    },
     title: "IT Training and Services in Ahmedabad",
     siteId: "1467726470533754880",
     description: "Join our practical courses to upskill your tech knowledge.",
@@ -48,7 +54,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "IT Training and Services in Ahmedabad",
     description: "Want to Upskill? Join our practical courses",
-    url: "https://thespecialcharacter.com",
+    images: { url: "", width: "", height: "" },
+    url: "https://it.thespecialcharacter.com",
     siteName: "The Special Character",
     locale: "en-US",
     type: "website",

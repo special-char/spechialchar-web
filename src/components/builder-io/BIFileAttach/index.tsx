@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import PaperclipIcon from "@/public.icons/paperclip-icon.svg";
 import { useController, useForm } from "react-hook-form";
+import { Cross2Icon } from "@radix-ui/react-icons";
 
 interface CustomFileUploadProps {
   name: string;
@@ -46,11 +47,11 @@ const CustomFileUpload: React.FC<CustomFileUploadProps> = ({
     }
   };
 
-  // const handleRemoveFile = (fileToRemove: File) => {
-  //   const updatedFiles = uploadedFiles.filter((file) => file !== fileToRemove);
-  //   setUploadedFiles(updatedFiles);
-  //   onChange(updatedFiles);
-  // };
+  const handleRemoveFile = (fileToRemove: File) => {
+    const updatedFiles = uploadedFiles.filter((file) => file !== fileToRemove);
+    setUploadedFiles(updatedFiles);
+    onChange(updatedFiles);
+  };
 
   return (
     <div style={{ cursor: "pointer" }}>
@@ -86,16 +87,16 @@ const CustomFileUpload: React.FC<CustomFileUploadProps> = ({
               uploadedFiles.map((file, index) => (
                 <div
                   key={index}
-                  className="flex items-center gap-2 bg-white px-1 rounded-xl"
+                  className="flex items-center gap-2 bg-white px-2 rounded-sm relative"
                 >
                   <span className="text-sm">{file.name}</span>
-                  {/* <button
+                  <button
                     type="button"
                     onClick={() => handleRemoveFile(file)}
-                    className="text-red-400 hover:text-red-600 bg-[#a1a1a1] rounded-full"
+                    className="absolute top-0 right-0 translate-x-[50%] translate-y-[-50%] text-red-400 hover:text-red-600 bg-[#a1a1a1] rounded-full"
                   >
-                    <Cross2Icon width={20} height={20} />
-                  </button> */}
+                    <Cross2Icon width={15} height={15} />
+                  </button>
                 </div>
               ))}
           </div>
