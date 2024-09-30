@@ -25,7 +25,7 @@ type OGProps = {
 
 const images: OGProps[] = [
   {
-    url: `${BASE_URL}/images/contect-us-logo.jpg`,
+    url: `https://ik.imagekit.io/mdzi40eohii/tsc/home_hero_education_6010433543_WNGpQCIk9.jpg`,
     width: 1200,
     height: 630,
   },
