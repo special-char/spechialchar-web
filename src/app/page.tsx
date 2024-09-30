@@ -28,8 +28,8 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     })
     .toPromise();
 
-  console.log({ content });
-  console.log({ openGraph: content?.data?.openGraph });
+  // console.log({ content });
+  // console.log({ openGraph: content?.data?.openGraph });
   // console.log({ twitter: content?.data?.twitter });
 
   return {
@@ -45,6 +45,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
       siteName: SITE_NAME,
       locale: "en-US",
       type: "website",
+      images: ["/images/21fox.png"],
     },
     twitter: {
       card: content?.data?.twitter?.card || "summary_large_image",
