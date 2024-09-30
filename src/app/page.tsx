@@ -34,8 +34,9 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     })
     .toPromise();
 
-  console.log({ content });
-  // // console.log({ openGraph: content?.data?.openGraph });
+  // console.log({ home: content });
+  // console.log({ home: content?.data?.image });
+  // console.log({ openGraph: content?.data?.openGraph });
   // console.log({ twitter: content?.data?.twitter });
 
   const images: OGProps[] = [

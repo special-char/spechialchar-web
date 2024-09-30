@@ -33,6 +33,9 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     })
     .toPromise();
 
+  // console.log({ mobile: content });
+  // console.log({ mobile: content?.data?.image });
+
   const images: OGProps[] = [
     {
       url: content?.data?.image,
