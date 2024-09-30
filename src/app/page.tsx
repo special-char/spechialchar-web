@@ -23,6 +23,14 @@ type OGProps = {
   height: number;
 };
 
+const images: OGProps[] = [
+  {
+    url: `${BASE_URL}/images/contect-us-logo.jpg`,
+    width: 500,
+    height: 500,
+  },
+];
+
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const builderModelName = "page";
 
@@ -34,17 +42,9 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     })
     .toPromise();
 
-  // console.log({ content });
+  console.log({ content });
   // console.log({ openGraph: content?.data?.openGraph });
-  // console.log({ twitter: content?.data?.twitter });
-
-  const images: OGProps[] = [
-    {
-      url: `${BASE_URL}/images/contect-us-logo.jpg`,
-      width: 500,
-      height: 500,
-    },
-  ];
+  console.log({ twitter: content?.data?.twitter });
 
   return {
     title: content?.data?.title,
