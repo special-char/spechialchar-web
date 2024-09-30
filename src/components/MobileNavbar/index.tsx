@@ -58,70 +58,51 @@ const MobileNavbar = () => {
           <Accordion type="single" collapsible>
             {accordionItems1.data.map((item, i) => (
               <AccordionItem key={item.value} value={item.value} className="">
-                <AccordionTrigger className="">
-                  <SheetClose asChild>
-                    <Link
-                      href={item.link.toLowerCase()}
-                      title="mobile-nav-link"
-                      className="text-subtitle2"
-                    >
-                      {item.title}
-                    </Link>
-                  </SheetClose>
+                <AccordionTrigger>
+                  <p
+                    title="mobile-nav-link"
+                    className="text-subtitle2 font-bold"
+                  >
+                    {item.title}
+                  </p>
                 </AccordionTrigger>
-                <AccordionContent className="py-4">
-                  <ul className="flex flex-col gap-y-4">
+                <AccordionContent className="py-2">
+                  <ul className="flex flex-col gap-y-4 pl-4 font-medium">
                     {item?.content?.map((itemContent, subindex) => (
-                      <li key={subindex} className="text-primary">
-                        <SheetClose asChild>
-                          <Link
-                            title="mobile-nav-link"
-                            href={`/${item.title.toLowerCase()}/${item.content[
-                              subindex
-                            ].toLocaleLowerCase()}`}
-                          >
-                            {itemContent}
-                          </Link>
-                        </SheetClose>
-                      </li>
+                      <SheetClose asChild key={subindex}>
+                        <Link
+                          title={item.title}
+                          href={`/${item.title.toLowerCase()}/${
+                            item?.content &&
+                            item.content[subindex].url.toLocaleLowerCase()
+                          }`}
+                        >
+                          <li className="text-primary active:text-skyblue">
+                            {itemContent?.title}
+                          </li>
+                        </Link>
+                      </SheetClose>
                     ))}
                   </ul>
                 </AccordionContent>
               </AccordionItem>
             ))}
-            <div className="flex flex-col">
-              <SheetClose asChild>
-                <Link
-                  href="/ourthinking"
-                  className="text-subtitle2 py-3"
-                  title="mobile-nav-link"
-                >
-                  OurThinking
-                </Link>
-              </SheetClose>
+            <div className="py-3">
               <SheetClose asChild>
                 <Link
                   href="/casestudies"
                   title="mobile-nav-link"
-                  className="text-subtitle2 py-3"
+                  className="text-subtitle2 font-bold py-3"
                 >
-                  CaseStudies
+                  Projects
                 </Link>
               </SheetClose>
             </div>
-            <div className="pt-4">
+            <div className="py-3">
               <SheetClose asChild>
-                <Link
-                  className="pt-1"
-                  title="mobile-nav-button"
-                  href={"#Contact"}
-                >
-                  <Button
-                    variant={"secondary"}
-                    size={"default"}
-                    className=" py-1 px-4  hover:text-background "
-                  >
-                    Contact Us
+                <Link title="mobile-nav-button" href={"/hiring"}>
+                  <Button variant={"secondary"} size={"sm"}>
+                    Hiring Us
                   </Button>
                 </Link>
               </SheetClose>

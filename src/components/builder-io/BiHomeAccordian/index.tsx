@@ -111,34 +111,34 @@ const BiHomeAccordian = ({
                 >
                   <div
                     className={clsx({
-                      ["md:pl-64 lg:pl-[36.5rem] md:pr-40"]: homeBanner,
+                      ["md:pl-64 lg:pl-[36.5rem] md:pr-20"]: homeBanner,
                     })}
                   >
                     <div className="flex flex-col gap-4">
                       <div
-                        className="flex flex-1 flex-col gap-5"
+                        className="flex flex-1 flex-col gap-3"
                         style={{ color: item?.description?.descriptionColor }}
                       >
                         {homeBanner && (
                           <Image
                             src={item.image ? item.image : ""}
                             alt="accordian"
-                            width={80}
                             title="accordian"
-                            height={80}
-                            className="md:hidden"
+                            width={40}
+                            height={40}
+                            className="md:hidden object-cover"
                           />
                         )}
-                        {item?.description?.descriptionText}
+                        <p>{item?.description?.descriptionText}</p>
                       </div>
                       {!!item?.arrowButtonLink && (
-                        <Link title="next" href={`/${item.arrowButtonLink}`}>
+                        <Link title="next" href={`${item.arrowButtonLink}`}>
                           <Button
                             variant="default"
                             size="icon"
                             className="rounded-full"
                           >
-                            <Arrow />
+                            <Arrow className="w-4" />
                           </Button>
                         </Link>
                       )}

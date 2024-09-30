@@ -65,7 +65,7 @@ const data: PageData[] = [
     bannerbg: "bg-primary",
   },
   {
-    path: "/services/uiux-design",
+    path: "/services/ui-ux-design",
     bgColor: "bg-yellow",
     color: "text-primary",
     hover: "hover:bg-yellow",
@@ -91,10 +91,10 @@ const data: PageData[] = [
   {
     path: "/company/about",
     bgColor: "bg-transparent",
-    color: "text-primary",
-    hover: "hover:bg-yellow",
-    fillcolor: "black",
-    bannerbg: "",
+    color: "text-background",
+    hover: "hover:bg-darkblue",
+    fillcolor: "white",
+    bannerbg: "bg-darkblue",
   },
   {
     path: "/company/career",

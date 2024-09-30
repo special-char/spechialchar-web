@@ -48,14 +48,15 @@ const BiAnimatedImageWord = ({ data }: Props) => {
                 </div>
                 <div className="relative flex-1 aspect-square overflow-hidden">
                   {x.image && (
-                    <Image
-                      src={x.image}
-                      alt="banner1"
-                      title="thinking-image"
-                      fill
-                      sizes="aspect-square"
-                      className="object-cover"
-                    />
+                    <Link href={x.url ? x.url : "/"}>
+                      <Image
+                        src={x.image}
+                        alt="banner1"
+                        fill
+                        sizes="aspect-square"
+                        className="object-cover"
+                      />
+                    </Link>
                   )}
                 </div>
               </div>

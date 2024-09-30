@@ -9,7 +9,7 @@ import { string } from "yup";
 
 builder.init(process.env.NEXT_PUBLIC_BUILDER_API_KEY!);
 
-const IMAGE_FILE_TYPES = ["jpeg", "jpg", "png", "gif", "avif", "webp"];
+const IMAGE_FILE_TYPES = ["jpeg", "jpg", "png", "gif", "avif", "webp", "svg"];
 
 //Section
 Builder.registerComponent(
@@ -58,6 +58,10 @@ Builder.registerComponent(
           },
           {
             name: "description",
+            type: "string",
+          },
+          {
+            name: "url",
             type: "string",
           },
         ],
@@ -839,8 +843,22 @@ Builder.registerComponent(
         name: "data",
         type: "list",
         subFields: [
-          { name: "title", type: "string" },
-          { name: "description", type: "string" },
+          {
+            name: "imageTitle",
+            type: "object",
+            subFields: [
+              { name: "title", type: "string" },
+              { name: "titleColor", type: "color" },
+            ],
+          },
+          {
+            name: "description",
+            type: "object",
+            subFields: [
+              { name: "content", type: "string" },
+              { name: "descriptionColor", type: "color" },
+            ],
+          },
           { name: "image", type: "file" },
         ],
       },
@@ -1087,6 +1105,40 @@ Builder.registerComponent(
   {
     name: "BiMeetCalendar",
     inputs: [],
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
+  }
+);
+
+//BIDialog
+Builder.registerComponent(
+  dynamic(() => import("./components/builder-io/BiDialog")),
+  {
+    name: "BIDialog",
+    inputs: [
+      {
+        name: "triggerButton",
+        type: "string",
+        defaultValue: "Button name",
+      },
+      // {
+      //   name: "modalTitle",
+      //   type: "string",
+      // },
+      {
+        name: "content",
+        type: "uiBlocks",
+        defaultValue: [
+          {
+            "@type": "@builder.io/sdk:Element",
+            component: {
+              name: "string",
+              options: { text: "I am child text block!" },
+            },
+          },
+        ],
+      },
+    ],
     image:
       "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6bef27ee40d24f3b88239fd7e616f82a",
   }
