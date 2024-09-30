@@ -58,7 +58,13 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
       siteName: SITE_NAME,
       locale: "en-US",
       type: "website",
-      images: [...images],
+      images: [
+        {
+          url: content?.data?.image,
+          width: 1200,
+          height: 630,
+        },
+      ],
     },
 
     twitter: {
@@ -69,7 +75,13 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
       siteId: TWITTER_SITE_ID,
       creator: TWITTER_CREATER,
       creatorId: TWITTER_SITE_ID,
-      images: [...images],
+      images: [
+        {
+          url: content?.data?.image,
+          width: 1200,
+          height: 630,
+        },
+      ],
     },
   };
 }
