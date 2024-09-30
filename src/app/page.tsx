@@ -26,8 +26,8 @@ type OGProps = {
 const images: OGProps[] = [
   {
     url: `${BASE_URL}/images/contect-us-logo.jpg`,
-    width: 500,
-    height: 500,
+    width: 1200,
+    height: 630,
   },
 ];
 
