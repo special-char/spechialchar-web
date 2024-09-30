@@ -45,7 +45,9 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
       siteName: SITE_NAME,
       locale: "en-US",
       type: "website",
-      images: ["/images/21fox.png"],
+      images: [
+        "https://cdn.builder.io/api/v1/image/assets%2Fdbf92adf2ef043c7957411ad39146bdb%2F4b3d91a33b334a809b20929c601f847e?width=407",
+      ],
     },
     twitter: {
       card: content?.data?.twitter?.card || "summary_large_image",
