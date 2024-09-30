@@ -17,6 +17,20 @@ interface PageProps {
   };
 }
 
+type OGProps = {
+  url: string;
+  width: number;
+  height: number;
+};
+
+const images: OGProps[] = [
+  {
+    url: `${BASE_URL}/images/contect-us-logo.jpg`,
+    width: 500,
+    height: 500,
+  },
+];
+
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const builderModelName = "page";
 
@@ -45,9 +59,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
       siteName: SITE_NAME,
       locale: "en-US",
       type: "website",
-      images: [
-        "https://cdn.builder.io/api/v1/image/assets%2Fdbf92adf2ef043c7957411ad39146bdb%2F4b3d91a33b334a809b20929c601f847e?width=407",
-      ],
+      images: [...images],
     },
     twitter: {
       card: content?.data?.twitter?.card || "summary_large_image",
@@ -57,6 +69,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
       siteId: TWITTER_SITE_ID,
       creator: TWITTER_CREATER,
       creatorId: TWITTER_SITE_ID,
+      images: [...images],
     },
   };
 }
