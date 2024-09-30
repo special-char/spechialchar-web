@@ -23,14 +23,6 @@ type OGProps = {
   height: number;
 };
 
-const images: OGProps[] = [
-  {
-    url: `${BASE_URL}/images/contect-us-logo.jpg`,
-    width: 500,
-    height: 500,
-  },
-];
-
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const builderModelName = "page";
 
@@ -46,11 +38,17 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   // console.log({ openGraph: content?.data?.openGraph });
   // console.log({ twitter: content?.data?.twitter });
 
+  const images: OGProps[] = [
+    {
+      url: `${BASE_URL}/images/contect-us-logo.jpg`,
+      width: 500,
+      height: 500,
+    },
+  ];
+
   return {
-    title: content?.data?.title || "TSC IT-Services",
-    description:
-      content?.data?.description ||
-      "Learn practically with us and get ahead of the competition with our industry-relevant IT Training. Our expertise - Digital Marketing | Full Stack Development",
+    title: content?.data?.title,
+    description: content?.data?.description,
 
     openGraph: {
       title: content?.data?.openGraph?.title,
@@ -61,8 +59,9 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
       type: "website",
       images: [...images],
     },
+
     twitter: {
-      card: content?.data?.twitter?.card || "summary_large_image",
+      card: content?.data?.twitter?.card,
       title: content?.data?.twitter?.title,
       description: content?.data?.twitter?.description,
       site: SITE_NAME,
