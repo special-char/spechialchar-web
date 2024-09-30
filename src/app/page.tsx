@@ -48,11 +48,8 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     },
     twitter: {
       card: content?.data?.twitter?.card || "summary_large_image",
-      title:
-        content?.data?.twitter?.title ||
-        "development IT Training and Services in Ahmedabad",
-      description:
-        content?.data?.twitter?.description || "development description",
+      title: content?.data?.twitter?.title,
+      description: content?.data?.twitter?.description,
       site: SITE_NAME,
       siteId: TWITTER_SITE_ID,
       creator: TWITTER_CREATER,
