@@ -20,8 +20,8 @@ export default async function Image() {
         }}
       >
         <img
-          // src="https://medusa.yogateria.com.br/images/logo-yogateria-black.png"
-          src="https://yogateria.com.br/wp-content/uploads/2022/02/logo-yogateria-preto.png"
+          //   src="https://yogateria.com.br/wp-content/uploads/2022/02/logo-yogateria-preto.png"
+          src="/images/21fox.png"
           alt="Yogateria"
         />
       </div>

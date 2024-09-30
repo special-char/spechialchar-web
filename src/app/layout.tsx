@@ -7,6 +7,12 @@ import { footerdata } from "@/lib/constData";
 import Contact from "@/components/Contact";
 import { RenderBuilderContent } from "@/components/builder";
 import { builder } from "@builder.io/sdk";
+import {
+  BASE_URL,
+  SITE_NAME,
+  TWITTER_CREATER,
+  TWITTER_SITE_ID,
+} from "@/utils/constant";
 
 const base_url = process.env.NEXT_PUBLIC_BASE_URL;
 const inter = Inter({ subsets: ["latin"] });
@@ -40,23 +46,18 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: {
-      url: `${base_url}/public/icons/logo.svg`,
-      width: "100px",
-      height: "100px",
-    },
     title: "IT Training and Services in Ahmedabad",
-    siteId: "1467726470533754880",
+    site: SITE_NAME,
+    siteId: TWITTER_SITE_ID,
     description: "Join our practical courses to upskill your tech knowledge.",
-    creator: "Yagnesh Modh",
-    creatorId: "1467726470533754880",
+    creator: TWITTER_CREATER,
+    creatorId: TWITTER_SITE_ID,
   },
   openGraph: {
     title: "IT Training and Services in Ahmedabad",
     description: "Want to Upskill? Join our practical courses",
-    images: { url: "", width: "", height: "" },
-    url: "https://it.thespecialcharacter.com",
-    siteName: "The Special Character",
+    url: BASE_URL,
+    siteName: SITE_NAME,
     locale: "en-US",
     type: "website",
   },
