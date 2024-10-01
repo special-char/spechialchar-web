@@ -54,8 +54,8 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
       images: [
         {
           url: content?.data?.image,
-          width: 1200,
-          height: 630,
+          width: 500,
+          height: 500,
         },
       ],
     },
@@ -70,9 +70,9 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
       creatorId: TWITTER_SITE_ID,
       images: [
         {
-          url: content?.data?.image,
-          width: 1200,
-          height: 630,
+          url: "/images/TSC_LOGO_JPG.jpg",
+          width: 500,
+          height: 500,
         },
       ],
     },
