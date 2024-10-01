@@ -78,7 +78,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
       creatorId: TWITTER_SITE_ID,
       images: [
         {
-          url: content?.data?.image,
+          url: "/images/TSC_LOGO_JPG.jpg",
           width: 1200,
           height: 630,
         },

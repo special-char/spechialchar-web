@@ -67,22 +67,22 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
       ],
     },
 
-    twitter: {
-      card: content?.data?.twitter?.card,
-      title: content?.data?.openGraph?.title,
-      description: content?.data?.openGraph?.description,
-      site: SITE_NAME,
-      siteId: TWITTER_SITE_ID,
-      creator: TWITTER_CREATER,
-      creatorId: TWITTER_SITE_ID,
-      images: [
-        {
-          url: content?.data?.image,
-          width: 1200,
-          height: 630,
-        },
-      ],
-    },
+    // twitter: {
+    //   card: content?.data?.twitter?.card,
+    //   title: content?.data?.openGraph?.title,
+    //   description: content?.data?.openGraph?.description,
+    //   site: SITE_NAME,
+    //   siteId: TWITTER_SITE_ID,
+    //   creator: TWITTER_CREATER,
+    //   creatorId: TWITTER_SITE_ID,
+    //   images: [
+    //     {
+    //       url: content?.data?.image,
+    //       width: 1200,
+    //       height: 630,
+    //     },
+    //   ],
+    // },
   };
 }
 
