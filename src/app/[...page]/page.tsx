@@ -43,8 +43,8 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const images: OGProps[] = [
     {
       url: content?.data?.image,
-      width: 1200,
-      height: 630,
+      width: 500,
+      height: 500,
     },
   ];
 
