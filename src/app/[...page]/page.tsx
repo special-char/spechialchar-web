@@ -63,7 +63,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     },
 
     twitter: {
-      card: content?.data?.twitter?.card,
+      card: "summary_large_image",
       title: content?.data?.openGraph?.title,
       description: content?.data?.openGraph?.description,
       site: SITE_NAME,
@@ -72,7 +72,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
       creatorId: TWITTER_SITE_ID,
       images: [
         {
-          url: "/images/TSC_LOGO_JPG.jpg",
+          url: `${BASE_URL}/images/TSC_LOGO_JPG.jpg`,
           width: 500,
           height: 500,
         },
