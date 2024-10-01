@@ -73,6 +73,14 @@ const data: PageData[] = [
     bannerbg: "bg-yellow",
   },
   {
+    path: "/services/corporate-training",
+    bgColor: "bg-transparent",
+    color: "text-primary",
+    hover: "hover:bg-background",
+    fillcolor: "black",
+    bannerbg: "",
+  },
+  {
     path: "/industry/elearning",
     bgColor: "bg-darkblue2",
     color: "text-background",

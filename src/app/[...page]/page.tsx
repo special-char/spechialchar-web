@@ -34,10 +34,11 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     })
     .toPromise();
 
-  // console.log({ all_page: content });
+  console.log({ urlPath: "/" + (props?.params?.page?.join("/") || "") });
+  console.log({ all_page: content });
   // console.log({ all_page: content?.data?.image });
   // console.log({ openGraph: content?.data?.openGraph });
-  // console.log({ twitter: content?.data?.twitter });
+  console.log({ twitter: content?.data?.twitter });
 
   const images: OGProps[] = [
     {
@@ -58,18 +59,30 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
       siteName: SITE_NAME,
       locale: "en-US",
       type: "website",
-      images: [...images],
+      images: [
+        {
+          url: content?.data?.image,
+          width: 1200,
+          height: 630,
+        },
+      ],
     },
 
     twitter: {
       card: content?.data?.twitter?.card,
-      title: content?.data?.twitter?.title,
-      description: content?.data?.twitter?.description,
+      title: content?.data?.openGraph?.title,
+      description: content?.data?.openGraph?.description,
       site: SITE_NAME,
       siteId: TWITTER_SITE_ID,
       creator: TWITTER_CREATER,
       creatorId: TWITTER_SITE_ID,
-      images: [...images],
+      images: [
+        {
+          url: content?.data?.image,
+          width: 1200,
+          height: 630,
+        },
+      ],
     },
   };
 }
