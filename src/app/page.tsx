@@ -17,19 +17,13 @@ interface PageProps {
   };
 }
 
-type OGProps = {
-  url: string;
-  width: number;
-  height: number;
-};
-
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const builderModelName = "page";
 
   const content = await builder
     .get(builderModelName, {
       userAttributes: {
-        urlPath: "/" + (props?.params?.page?.join("/") || ""),
+        urlPath: "/",
       },
     })
     .toPromise();
@@ -37,20 +31,19 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   // console.log({ home: content });
   // console.log({ home: content?.data?.image });
   // console.log({ openGraph: content?.data?.openGraph });
-  // console.log({ twitter: content?.data?.twitter });
-
-  const images: OGProps[] = [
-    {
-      url: content?.data?.image,
-      width: 1200,
-      height: 630,
-    },
-  ];
 
   return {
     title: content?.data?.title,
     description: content?.data?.description,
-
+    keywords: ["IT Courses", " Placement Assurance", "Practical Training"],
+    publisher: "Yagnesh Modh",
+    authors: [
+      {
+        name: "The Special Character",
+        url: "https://https://thespecialcharacter.com/",
+      },
+    ],
+    creator: "Yagnesh Modh",
     openGraph: {
       title: content?.data?.openGraph?.title,
       description: content?.data?.openGraph?.description,

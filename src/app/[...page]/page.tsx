@@ -51,7 +51,15 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   return {
     title: content?.data?.title,
     description: content?.data?.description,
-
+    keywords: ["IT Courses", " Placement Assurance", "Practical Training"],
+    publisher: "Yagnesh Modh",
+    authors: [
+      {
+        name: "The Special Character",
+        url: "https://https://thespecialcharacter.com/",
+      },
+    ],
+    creator: "Yagnesh Modh",
     openGraph: {
       title: content?.data?.openGraph?.title,
       description: content?.data?.openGraph?.description,
