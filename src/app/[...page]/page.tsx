@@ -34,32 +34,18 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     })
     .toPromise();
 
-  console.log({ urlPath: "/" + (props?.params?.page?.join("/") || "") });
-  // console.log({ all_page: content });
-  // console.log({ all_page: content?.data?.image });
-  // console.log({ openGraph: content?.data?.openGraph });
-  // console.log({ twitter: content?.data?.twitter });
-
-  const images: OGProps[] = [
-    {
-      url: content?.data?.image,
-      width: 500,
-      height: 500,
-    },
-  ];
+  // const images: OGProps[] = [
+  //   {
+  //     url: content?.data?.image,
+  //     width: 500,
+  //     height: 500,
+  //   },
+  // ];
 
   return {
     title: content?.data?.title,
     description: content?.data?.description,
-    keywords: ["IT Courses", " Placement Assurance", "Practical Training"],
-    publisher: "Yagnesh Modh",
-    authors: [
-      {
-        name: "The Special Character",
-        url: "https://https://thespecialcharacter.com/",
-      },
-    ],
-    creator: "Yagnesh Modh",
+
     openGraph: {
       title: content?.data?.openGraph?.title,
       description: content?.data?.openGraph?.description,
