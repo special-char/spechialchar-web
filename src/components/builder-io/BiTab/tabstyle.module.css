@@ -1,8 +1,8 @@
 .tabContainer {
-  @apply w-full flex gap-4 md:gap-16 max-md:px-0 max-md:flex-col;
+  @apply w-full flex gap-4 md:gap-12 max-md:px-0 max-md:flex-col;
 
   & > .container {
-    @apply relative flex flex-col gap-2 h-max max-lg:flex-1 w-[50%];
+    @apply relative flex flex-col gap-2 h-max max-lg:flex-1 md:w-[50%];
 
     &::after {
       content: "";

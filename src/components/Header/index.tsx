@@ -18,7 +18,7 @@ const Header = ({ children }: Props) => {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
-      setVisible(prevScrollPos > currentScrollPos || currentScrollPos <= 100);
+      setVisible(prevScrollPos > currentScrollPos || currentScrollPos <= 30);
       setPrevScrollPos(currentScrollPos);
     };
 

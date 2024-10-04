@@ -22,7 +22,7 @@ const data: PageData[] = [
     color: "text-background",
     hover: "hover:bg-darkblue",
     fillcolor: "white",
-    bannerbg: "bg-darkblue",
+    bannerbg: "",
   },
   {
     path: "/services/software-engineering",
@@ -38,7 +38,7 @@ const data: PageData[] = [
     color: "text-primary",
     hover: "hover:bg-gray",
     fillcolor: "black",
-    bannerbg: "bg-gray",
+    bannerbg: "",
   },
   {
     path: "/services/saas",
@@ -46,7 +46,7 @@ const data: PageData[] = [
     color: "text-background",
     hover: "hover:bg-primary",
     fillcolor: "white",
-    bannerbg: "bg-primary",
+    bannerbg: "",
   },
   {
     path: "/services/back-end",
@@ -70,7 +70,7 @@ const data: PageData[] = [
     color: "text-primary",
     hover: "hover:bg-yellow",
     fillcolor: "black",
-    bannerbg: "bg-yellow",
+    bannerbg: "",
   },
   {
     path: "/services/corporate-training",
@@ -94,7 +94,7 @@ const data: PageData[] = [
     color: "text-primary",
     hover: "hover:bg-gray1",
     fillcolor: "black",
-    bannerbg: "bg-gray1",
+    bannerbg: "",
   },
   {
     path: "/company/about",
@@ -102,7 +102,7 @@ const data: PageData[] = [
     color: "text-background",
     hover: "hover:bg-darkblue",
     fillcolor: "white",
-    bannerbg: "bg-darkblue",
+    bannerbg: "",
   },
   {
     path: "/company/career",
