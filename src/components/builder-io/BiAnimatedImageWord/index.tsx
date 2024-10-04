@@ -51,7 +51,8 @@ const BiAnimatedImageWord = ({ data }: Props) => {
                     <Link href={x.url ? x.url : "/"}>
                       <Image
                         src={x.image}
-                        alt="banner1"
+                        alt={x?.title || "image"}
+                        title={x?.title}
                         fill
                         sizes="aspect-square"
                         className="object-cover"

@@ -122,8 +122,8 @@ const BiHomeAccordian = ({
                         {homeBanner && (
                           <Image
                             src={item.image ? item.image : ""}
-                            alt="accordian"
-                            title="accordian"
+                            alt={item?.title?.titleText || "imagealt"}
+                            title={item?.title?.titleText}
                             width={40}
                             height={40}
                             className="md:hidden object-cover"

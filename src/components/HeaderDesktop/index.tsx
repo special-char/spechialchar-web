@@ -29,7 +29,7 @@ const HeaderDesktop = () => {
                 <li key={subindex} className="">
                   <Link
                     key={subindex}
-                    title="desktop-nav links"
+                    title={item.content[subindex].url}
                     href={`/${item.title.toLowerCase()}/${item.content[
                       subindex
                     ].url.toLocaleLowerCase()}`}
