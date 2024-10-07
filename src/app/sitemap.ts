@@ -20,14 +20,17 @@ type Sitemap = {
 
 const fetchRoutes = async () => {
   const response = await fetch(
-    `https://cdn.builder.io/api/v2/content/page?apiKey=${BUILDER_API_KEY}&fields=data.url`
+    `https://cdn.builder.io/api/v2/content/page?apiKey=${BUILDER_API_KEY}&fields=data.url&fields=lastUpdated`
   );
 
   const resjson = response.json();
   return resjson;
 };
 
-const updatedDate = (lastUpdated: number) => {
+const updatedDate = (lastUpdated: any) => {
+  if (!lastUpdated || isNaN(new Date(lastUpdated).getTime())) {
+    return undefined;
+  }
   const date = new Date(lastUpdated);
   const isoDate = date.toISOString();
   return isoDate;
@@ -39,14 +42,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   let staticPages: Sitemap[] = [];
   let dynamicPages: Sitemap[] = [];
 
-  //   const routes = funcall?.results?.map((item) => {
-  //     return item.data.url;
-  //   });
-  //   console.log({ routes });
-
   const dynamicSitemap: Sitemap[] = funcall?.results?.reduce(
     (p: Sitemap[], c: any) => {
       const data = [];
+      console.log({ updatedDate: c.lastUpdated });
+
       data.push({
         url: `${BASE_URL}${c.data.url}`,
         lastModified: updatedDate(c?.lastUpdated),
