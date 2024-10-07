@@ -23,6 +23,14 @@ type OGProps = {
   height: number;
 };
 
+// export const runtime = "edge";
+// export const alt = "About TSC";
+// export const size = {
+//   width: 1200,
+//   height: 630,
+// };
+// export const contentType = "image/png";
+
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const builderModelName = "page";
 
@@ -75,6 +83,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
           url: content?.data?.image,
           width: 1200,
           height: 630,
+          alt: content?.data?.title,
         },
       ],
     },

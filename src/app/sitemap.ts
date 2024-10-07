@@ -45,8 +45,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const dynamicSitemap: Sitemap[] = funcall?.results?.reduce(
     (p: Sitemap[], c: any) => {
       const data = [];
-      console.log({ updatedDate: c.lastUpdated });
-
       data.push({
         url: `${BASE_URL}${c.data.url}`,
         lastModified: updatedDate(c?.lastUpdated),
