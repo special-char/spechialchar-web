@@ -84,20 +84,6 @@ const jsonLdHome = {
     name: "The Special Character",
     url: "https://thespecialcharacter.com",
     logo: "https://cdn.builder.io/api/v1/image/assets%2Fdbf92adf2ef043c7957411ad39146bdb%2F4b3d91a33b334a809b20929c601f847e",
-    contactPoint: {
-      "@type": "ContactPoint",
-      email: "mailto:contact@thespecialcharacter.com",
-      telephone: "+91 7600096432",
-      contactType: "Customer Service",
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: "Ahmedabad",
-        postalCode: "382470",
-        streetAddress:
-          "B-604/605 Ganesh Glory 11 Jagarpur Road, SG Highway Gujarat",
-      },
-    },
-
     sameAs: [
       "https://www.linkedin.com/company/thespecialcharacter",
       "https://www.instagram.com/tsc_itservices",
@@ -105,10 +91,23 @@ const jsonLdHome = {
       "https://www.instagram.com/auco.app",
       "https://medium.com/@thespecialcharacter",
     ],
-  },
-  brand: {
-    "@type": "Brand",
-    name: ["AUCO", "The Special Character"],
+    contactPoint: {
+      "@type": "ContactPoint",
+      email: "mailto:contact@thespecialcharacter.com",
+      telephone: "+91 7600096432",
+      contactType: "Customer Service",
+    },
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Ahmedabad",
+      postalCode: "382470",
+      streetAddress:
+        "B-604/605 Ganesh Glory 11 Jagarpur Road, SG Highway Gujarat",
+    },
+    brand: {
+      "@type": "Brand",
+      name: ["AUCO", "The Special Character"],
+    },
   },
 };
 
