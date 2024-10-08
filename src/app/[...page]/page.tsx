@@ -92,6 +92,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
 
 const jsonLd = {
   "@context": "https://schema.org",
+  "@type": "WebSite",
   name: "The Special Character IT-Services",
   url: "https://it.thespecialcharacter.com",
   description:
@@ -160,36 +161,6 @@ const jsonLdServices = {
     "UI/UX Design",
     "Corporate Training",
   ],
-  publisher: {
-    "@type": "Organization",
-    name: "The Special Character",
-    url: "https://thespecialcharacter.com",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2Fdbf92adf2ef043c7957411ad39146bdb%2F4b3d91a33b334a809b20929c601f847e",
-    sameAs: [
-      "https://www.linkedin.com/company/thespecialcharacter",
-      "https://www.instagram.com/thespecialchar",
-      "https://www.instagram.com/auco.app",
-      "https://medium.com/@thespecialcharacter",
-    ],
-    contactPoint: {
-      "@type": "ContactPoint",
-      email: "mailto:contact@thespecialcharacter.com",
-      telephone: "+91 7600096432",
-      contactType: "Customer Service",
-    },
-    address: {
-      "@type": "PostalAddress",
-      addressCountry: "India",
-      addressLocality: "Ahmedabad",
-      postalCode: "382470",
-      streetAddress:
-        "B-604/605 Ganesh Glory 11 Jagarpur Road, SG Highway Gujarat",
-    },
-    brand: {
-      "@type": "Brand",
-      name: ["AUCO", "The Special Character"],
-    },
-  },
 };
 
 export default async function Page(props: PageProps) {
