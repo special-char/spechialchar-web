@@ -92,13 +92,12 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "AboutPage",
-  name: "About The Special Character IT-Services",
-  url: "https://it.thespecialcharacter.com/company/about",
+  name: "The Special Character IT-Services",
+  url: "https://it.thespecialcharacter.com",
   description:
-    "The Special Character is a future-driven enterprise software development company specializing in custom solutions, UI/UX design, SaaS, and corporate training with a focus on innovation and quality.",
-  // image:
-  //   "https://cdn.builder.io/api/v1/image/assets%2Fdbf92adf2ef043c7957411ad39146bdb%2F4b3d91a33b334a809b20929c601f847e",
+    "The Special Character IT-Services is a next-gen enterprise software development company specializing in web, mobile, and SaaS solutions. We offer innovative UI/UX design and custom software development, leveraging cutting-edge technologies to deliver high-quality, scalable products for businesses worldwide.",
+  image:
+    "https://cdn.builder.io/api/v1/image/assets%2Fdbf92adf2ef043c7957411ad39146bdb%2F4b3d91a33b334a809b20929c601f847e",
   keywords: [
     "Enterprise software development",
     "Custom software solutions",
@@ -142,6 +141,18 @@ const jsonLd = {
       name: ["AUCO", "The Special Character"],
     },
   },
+  foundingDate: "2021",
+  // numberOfEmployees: "20",
+  sameAs: ["https://www.instagram.com/tsc_itservices"],
+};
+
+const jsonLdServices = {
+  "@context": "https://schema.org/",
+  "@type": "Service",
+  name: "",
+  url: "",
+  description: "",
+  keywords: [],
   serviceType: [
     "Web Development",
     "Mobile Development",
@@ -149,9 +160,36 @@ const jsonLd = {
     "UI/UX Design",
     "Corporate Training",
   ],
-  foundingDate: "2021",
-  // numberOfEmployees: "20",
-  sameAs: ["https://www.instagram.com/tsc_itservices"],
+  publisher: {
+    "@type": "Organization",
+    name: "The Special Character",
+    url: "https://thespecialcharacter.com",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2Fdbf92adf2ef043c7957411ad39146bdb%2F4b3d91a33b334a809b20929c601f847e",
+    sameAs: [
+      "https://www.linkedin.com/company/thespecialcharacter",
+      "https://www.instagram.com/thespecialchar",
+      "https://www.instagram.com/auco.app",
+      "https://medium.com/@thespecialcharacter",
+    ],
+    contactPoint: {
+      "@type": "ContactPoint",
+      email: "mailto:contact@thespecialcharacter.com",
+      telephone: "+91 7600096432",
+      contactType: "Customer Service",
+    },
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "India",
+      addressLocality: "Ahmedabad",
+      postalCode: "382470",
+      streetAddress:
+        "B-604/605 Ganesh Glory 11 Jagarpur Road, SG Highway Gujarat",
+    },
+    brand: {
+      "@type": "Brand",
+      name: ["AUCO", "The Special Character"],
+    },
+  },
 };
 
 export default async function Page(props: PageProps) {
@@ -167,13 +205,16 @@ export default async function Page(props: PageProps) {
     })
     // Convert the result to a promise
     .toPromise();
+  console.log({ param: props.params.page });
+
+  const isServicesPage = props.params.page.includes("services");
 
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(jsonLd),
+          __html: JSON.stringify(isServicesPage ? jsonLdServices : jsonLd),
         }}
       />
       {/* Render the Builder page */}

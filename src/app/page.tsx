@@ -123,13 +123,6 @@ const jsonLdHome = {
       name: ["AUCO", "The Special Character"],
     },
   },
-  serviceType: [
-    "Web Development",
-    "Mobile Development",
-    "SaaS Solutions",
-    "UI/UX Design",
-    "Corporate Training",
-  ],
 };
 
 export default async function Page(props: PageProps) {
