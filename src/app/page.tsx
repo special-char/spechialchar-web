@@ -70,7 +70,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   };
 }
 
-const jsonLd = {
+const jsonLdHome = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "The Special Character",
@@ -98,7 +98,17 @@ const jsonLd = {
       },
     },
 
-    sameAs: ["https://www.linkedin.com/company/thespecialcharacter"],
+    sameAs: [
+      "https://www.linkedin.com/company/thespecialcharacter",
+      "https://www.instagram.com/tsc_itservices",
+      "https://www.instagram.com/thespecialchar",
+      "https://www.instagram.com/auco.app",
+      "https://medium.com/@thespecialcharacter",
+    ],
+  },
+  brand: {
+    "@type": "Brand",
+    name: ["AUCO", "The Special Character"],
   },
 };
 
@@ -121,7 +131,7 @@ export default async function Page(props: PageProps) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: jsonLd ? JSON.stringify(jsonLd) : "",
+          __html: JSON.stringify(jsonLdHome),
         }}
       />
       {/* Render the Builder page */}
