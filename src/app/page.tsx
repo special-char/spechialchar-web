@@ -73,12 +73,25 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
 const jsonLdHome = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "The Special Character",
+  name: "The Special Character IT-Services",
   url: "https://it.thespecialcharacter.com",
   description:
-    "Next-gen enterprise software development company offering services in web, mobile, SaaS development, and UI/UX design.",
+    "The Special Character IT-Services is a next-gen enterprise software development company specializing in web, mobile, and SaaS solutions. We offer innovative UI/UX design and custom software development, leveraging cutting-edge technologies to deliver high-quality, scalable products for businesses worldwide.",
   image:
     "https://cdn.builder.io/api/v1/image/assets%2Fdbf92adf2ef043c7957411ad39146bdb%2F4b3d91a33b334a809b20929c601f847e",
+  keywords: [
+    "Enterprise software development",
+    "Custom software solutions",
+    "UI/UX design",
+    "Mobile app development",
+    "SaaS development",
+    "Agile software development",
+    "Web development",
+    "Full-stack development",
+    "E-commerce development",
+    "Content management systems (CMS)",
+    "IT support services",
+  ],
   publisher: {
     "@type": "Organization",
     name: "The Special Character",
@@ -99,6 +112,7 @@ const jsonLdHome = {
     },
     address: {
       "@type": "PostalAddress",
+      addressCountry: "India",
       addressLocality: "Ahmedabad",
       postalCode: "382470",
       streetAddress:
@@ -109,6 +123,13 @@ const jsonLdHome = {
       name: ["AUCO", "The Special Character"],
     },
   },
+  serviceType: [
+    "Web Development",
+    "Mobile Development",
+    "SaaS Solutions",
+    "UI/UX Design",
+    "Corporate Training",
+  ],
 };
 
 export default async function Page(props: PageProps) {

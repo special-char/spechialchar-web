@@ -92,44 +92,66 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  name: "The Special Character",
-  url: "https://it.thespecialcharacter.com",
+  "@type": "AboutPage",
+  name: "About The Special Character IT-Services",
+  url: "https://it.thespecialcharacter.com/company/about",
   description:
-    "Next-gen enterprise software development company offering services in E-Commerce, web, mobile, SaaS development, and UI/UX design.",
-  image:
-    "https://cdn.builder.io/api/v1/image/assets%2Fdbf92adf2ef043c7957411ad39146bdb%2F4b3d91a33b334a809b20929c601f847e",
+    "The Special Character is a future-driven enterprise software development company specializing in custom solutions, UI/UX design, SaaS, and corporate training with a focus on innovation and quality.",
+  // image:
+  //   "https://cdn.builder.io/api/v1/image/assets%2Fdbf92adf2ef043c7957411ad39146bdb%2F4b3d91a33b334a809b20929c601f847e",
+  keywords: [
+    "Enterprise software development",
+    "Custom software solutions",
+    "UI/UX design",
+    "Mobile app development",
+    "SaaS development",
+    "Agile software development",
+    "Web development",
+    "Full-stack development",
+    "E-commerce development",
+    "Content management systems (CMS)",
+    "IT support services",
+  ],
   publisher: {
     "@type": "Organization",
     name: "The Special Character",
     url: "https://thespecialcharacter.com",
     logo: "https://cdn.builder.io/api/v1/image/assets%2Fdbf92adf2ef043c7957411ad39146bdb%2F4b3d91a33b334a809b20929c601f847e",
+    sameAs: [
+      "https://www.linkedin.com/company/thespecialcharacter",
+      "https://www.instagram.com/thespecialchar",
+      "https://www.instagram.com/auco.app",
+      "https://medium.com/@thespecialcharacter",
+    ],
     contactPoint: {
       "@type": "ContactPoint",
       email: "mailto:contact@thespecialcharacter.com",
       telephone: "+91 7600096432",
       contactType: "Customer Service",
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: "Ahmedabad",
-        postalCode: "382470",
-        streetAddress:
-          "B-604/605 Ganesh Glory 11 Jagarpur Road, SG Highway Gujarat",
-      },
     },
-
-    sameAs: [
-      "https://www.linkedin.com/company/thespecialcharacter",
-      "https://www.instagram.com/tsc_itservices",
-      "https://www.instagram.com/thespecialchar",
-      "https://www.instagram.com/auco.app",
-      "https://medium.com/@thespecialcharacter",
-    ],
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "India",
+      addressLocality: "Ahmedabad",
+      postalCode: "382470",
+      streetAddress:
+        "B-604/605 Ganesh Glory 11 Jagarpur Road, SG Highway Gujarat",
+    },
+    brand: {
+      "@type": "Brand",
+      name: ["AUCO", "The Special Character"],
+    },
   },
-  brand: {
-    "@type": "Brand",
-    name: ["AUCO", "The Special Character"],
-  },
+  serviceType: [
+    "Web Development",
+    "Mobile Development",
+    "SaaS Solutions",
+    "UI/UX Design",
+    "Corporate Training",
+  ],
+  foundingDate: "2021",
+  // numberOfEmployees: "20",
+  sameAs: ["https://www.instagram.com/tsc_itservices"],
 };
 
 export default async function Page(props: PageProps) {
