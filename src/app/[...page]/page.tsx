@@ -137,12 +137,12 @@ const jsonLd = {
       streetAddress:
         "B-604/605 Ganesh Glory 11 Jagarpur Road, SG Highway Gujarat",
     },
-    brand: {
-      "@type": "Brand",
-      name: ["AUCO", "The Special Character"],
-    },
+    // brand: {
+    //   "@type": "Brand",
+    //   name: ["AUCO", "The Special Character"],
+    // },
   },
-  foundingDate: "2021",
+  // foundingDate: "2021",
   // numberOfEmployees: "20",
   sameAs: ["https://www.instagram.com/tsc_itservices"],
 };
@@ -150,10 +150,23 @@ const jsonLd = {
 const jsonLdServices = {
   "@context": "https://schema.org/",
   "@type": "Service",
-  name: "",
-  url: "",
-  description: "",
-  keywords: [],
+  name: "The Special Character",
+  url: "https://it.thespecialcharacter.com",
+  description:
+    "The Special Character IT-Services is a next-gen enterprise software development company specializing in web, mobile, and SaaS solutions. We offer innovative UI/UX design and custom software development, leveraging cutting-edge technologies to deliver high-quality, scalable products for businesses worldwide.",
+  keywords: [
+    "Enterprise software development",
+    "Custom software solutions",
+    "UI/UX design",
+    "Mobile app development",
+    "SaaS development",
+    "Agile software development",
+    "Web development",
+    "Full-stack development",
+    "E-commerce development",
+    "Content management systems (CMS)",
+    "IT support services",
+  ],
   serviceType: [
     "Web Development",
     "Mobile Development",
@@ -176,7 +189,6 @@ export default async function Page(props: PageProps) {
     })
     // Convert the result to a promise
     .toPromise();
-  console.log({ param: props.params.page });
 
   const isServicesPage = props.params.page.includes("services");
 
